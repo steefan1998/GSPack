@@ -195,7 +195,15 @@ function Layout($c) {
         $members = @($ordered | Where-Object { $secOf[$_.Key] -eq $s })
         if (-not $members.Count) { continue }
         $taken = @{}; $rowOf = @{}; $colOf = @{}
+        # Loose quests (no parent and no child inside this section) go in a grid below the tree instead of one long column.
+        $inSec = { param($dk) $dk -notmatch '/' -and $secOf[$dk] -eq $s }
+        $hasChild = @{}
+        foreach ($q in $members) { foreach ($dk in $q.Deps) { if (& $inSec $dk) { $hasChild[$dk] = $true } } }
+        $loose = @($members | Where-Object { -not $hasChild[$_.Key] -and -not @($_.Deps | Where-Object { & $inSec $_ }).Count })
+        if ($loose.Count -lt 4) { $loose = @() }
+        $looseKeys = @{}; foreach ($q in $loose) { $looseKeys[$q.Key] = $true }
         foreach ($q in $members) {
+            if ($looseKeys[$q.Key]) { continue }
             $depth = 0; $rs = @()
             foreach ($dk in $q.Deps) {
                 if ($dk -match '/' -or $secOf[$dk] -ne $s) { continue }   # links to other sections do not shape the tree
@@ -209,8 +217,14 @@ function Layout($c) {
             }
             $col[$row] = $true; $rowOf[$q.Key] = $row; $colOf[$q.Key] = $depth
         }
+        $gridTop = if ($rowOf.Count) { ($rowOf.Values | Measure-Object -Maximum).Maximum + 1 } else { 0 }
+        for ($i = 0; $i -lt $loose.Count; $i++) {
+            $rowOf[$loose[$i].Key] = $gridTop + [Math]::Floor($i / $GridCols); $colOf[$loose[$i].Key] = $i % $GridCols
+        }
         $minRow = ($rowOf.Values | Measure-Object -Minimum).Minimum; $maxRow = ($rowOf.Values | Measure-Object -Maximum).Maximum
-        $top = $bandTop + $(if ($s) { $LabelSpace } else { 0.0 })
+        # Big quests in the first row need extra room below the label.
+        $firstSize = (@($members | Where-Object { $rowOf[$_.Key] -eq $minRow } | ForEach-Object { if ($_.Size) { $_.Size } else { 1.0 } }) | Measure-Object -Maximum).Maximum
+        $top = $bandTop + $(if ($s) { $LabelSpace + ($firstSize - 1) / 2 } else { 0.0 })
         foreach ($q in $members) { $q.X = $colOf[$q.Key] * $ColStep; $q.Y = $top + ($rowOf[$q.Key] - $minRow) * $RowStep }
         if ($s) { $c.LabelPos[$s] = $bandTop }
         $bandTop = $top + ($maxRow - $minRow) * $RowStep + $SectionGap
@@ -223,6 +237,7 @@ $ColStep = 1.6                                   # horizontal quest spacing
 $LabelSpace = 1.2                                # room above a section for its label
 $SectionGap = 1.4                                # space between two sections
 $LabelHeight = 0.6                               # section label height in quest units
+$GridCols = 6                                    # loose quests per row
 $TexDir = Join-Path $Root 'kubejs\assets\gspack\textures\quests'
 $TexScale = 4                                    # render small, scale up with nearest neighbour = crisp pixels
 $script:Decor = @{}

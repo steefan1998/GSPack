@@ -923,7 +923,7 @@
     {
       id: "47258A348571EA04",
       x: 0.0,
-      y: 30.0,
+      y: 25.5,
       dependencies: [
         "702333BBA1942C30",
       ],
@@ -963,8 +963,8 @@
     },
     {
       id: "5B0E64C3CB1AE523",
-      x: 0.0,
-      y: 31.5,
+      x: 1.6,
+      y: 25.5,
       dependencies: [
         "702333BBA1942C30",
       ],
@@ -1017,8 +1017,8 @@
     },
     {
       id: "5C5DFDBD839283A8",
-      x: 0.0,
-      y: 28.5,
+      x: 3.2,
+      y: 25.5,
       dependencies: [
         "702333BBA1942C30",
       ],
@@ -1059,8 +1059,8 @@
     },
     {
       id: "346196FB5B53ABC6",
-      x: 0.0,
-      y: 33.0,
+      x: 4.8,
+      y: 25.5,
       dependencies: [
         "1809C7659BF1FEC2",
       ],
@@ -1084,8 +1084,8 @@
     },
     {
       id: "246B75BB5BA40999",
-      x: 0.0,
-      y: 27.0,
+      x: 6.4,
+      y: 25.5,
       dependencies: [
         "3B3E5912CB6C33DD",
       ],
@@ -1117,8 +1117,8 @@
     },
     {
       id: "0CED152555B15185",
-      x: 0.0,
-      y: 34.5,
+      x: 8.0,
+      y: 25.5,
       dependencies: [
         "1809C7659BF1FEC2",
       ],
@@ -1156,7 +1156,7 @@
     {
       id: "0583FCC9D1F3F43C",
       x: 0.0,
-      y: 25.5,
+      y: 27.0,
       dependencies: [
         "1809C7659BF1FEC2",
       ],
@@ -1182,7 +1182,7 @@
     {
       id: "1809C7659BF1FEC2",
       x: 0.0,
-      y: 40.1,
+      y: 32.6,
       shape: "hexagon",
       size: 2.0,
       dependencies: [
@@ -1233,7 +1233,7 @@
     {
       id: "31E92537BC10016D",
       x: 1.6,
-      y: 40.1,
+      y: 32.6,
       dependencies: [
         "1809C7659BF1FEC2",
       ],
@@ -1259,7 +1259,7 @@
     {
       id: "4C6E7186B8F45261",
       x: 1.6,
-      y: 41.6,
+      y: 34.1,
       dependencies: [
         "1809C7659BF1FEC2",
       ],
@@ -1293,7 +1293,7 @@
     {
       id: "5141611F8FB1934C",
       x: 1.6,
-      y: 38.6,
+      y: 31.1,
       dependencies: [
         "1809C7659BF1FEC2",
       ],
@@ -1327,7 +1327,7 @@
     {
       id: "4237B4C249386F8B",
       x: 1.6,
-      y: 43.1,
+      y: 35.6,
       dependencies: [
         "1809C7659BF1FEC2",
       ],
@@ -1357,7 +1357,7 @@
     {
       id: "4F695141DC70FFFF",
       x: 1.6,
-      y: 37.1,
+      y: 29.6,
       dependencies: [
         "1809C7659BF1FEC2",
       ],
@@ -1390,7 +1390,7 @@
     {
       id: "78C0207A63F05DA3",
       x: 1.6,
-      y: 44.6,
+      y: 37.1,
       dependencies: [
         "1809C7659BF1FEC2",
       ],
@@ -1424,7 +1424,7 @@
     {
       id: "2E51FF3B7ECFCC73",
       x: 0.0,
-      y: 41.6,
+      y: 34.1,
       dependencies: [
         "0CED152555B15185",
       ],
@@ -1450,7 +1450,7 @@
     {
       id: "6227906D77CCCA22",
       x: 0.0,
-      y: 47.2,
+      y: 39.7,
       dependencies: [
         "1809C7659BF1FEC2",
         "192ADB61A87987E5",
@@ -1489,7 +1489,7 @@
     {
       id: "436C2F2223AA5831",
       x: 1.6,
-      y: 47.2,
+      y: 39.7,
       dependencies: [
         "6227906D77CCCA22",
       ],
@@ -1514,7 +1514,7 @@
     {
       id: "5CD67AFD5B090BE2",
       x: 3.2,
-      y: 47.2,
+      y: 39.7,
       dependencies: [
         "436C2F2223AA5831",
         "40D9143FA7C71B48",
@@ -1545,7 +1545,7 @@
     {
       id: "733CB50AFC97E258",
       x: 0.0,
-      y: 51.3,
+      y: 43.8,
       dependencies: [
         "1809C7659BF1FEC2",
       ],
@@ -1583,7 +1583,7 @@
     {
       id: "18DEA94AE27D288E",
       x: 1.6,
-      y: 51.3,
+      y: 43.8,
       dependencies: [
         "733CB50AFC97E258",
       ],
@@ -1608,7 +1608,7 @@
     {
       id: "450A0D646578A39A",
       x: 1.6,
-      y: 52.8,
+      y: 45.3,
       dependencies: [
         "733CB50AFC97E258",
       ],
@@ -1650,7 +1650,7 @@
     {
       id: "7A7032684AC8FFB8",
       x: 3.2,
-      y: 52.8,
+      y: 45.3,
       dependencies: [
         "450A0D646578A39A",
       ],
@@ -1684,7 +1684,7 @@
     {
       id: "3F3BCFB2AA5BA1D7",
       x: 1.6,
-      y: 49.8,
+      y: 42.3,
       dependencies: [
         "733CB50AFC97E258",
       ],
@@ -1718,7 +1718,7 @@
     {
       id: "25278CB1FFCC2D71",
       x: 0.0,
-      y: 58.4,
+      y: 48.15,
       icon: {
         count: 1,
         id: "thaumaturge:crimson_blade",
@@ -1756,7 +1756,7 @@
     {
       id: "5FBA0BD048B358A5",
       x: 1.6,
-      y: 59.9,
+      y: 49.65,
       dependencies: [
         "25278CB1FFCC2D71",
       ],
@@ -1789,7 +1789,7 @@
     {
       id: "67F01A776843229F",
       x: 0.0,
-      y: 59.9,
+      y: 51.15,
       icon: {
         count: 1,
         id: "thaumaturge:pech_wand",
@@ -1816,8 +1816,8 @@
     },
     {
       id: "27CBE4668291D7BE",
-      x: 0.0,
-      y: 56.9,
+      x: 1.6,
+      y: 51.15,
       dependencies: [
         "474C948258A6751B",
       ],
@@ -1839,8 +1839,8 @@
     },
     {
       id: "58D41B3149C99119",
-      x: 0.0,
-      y: 61.4,
+      x: 3.2,
+      y: 51.15,
       icon: {
         count: 1,
         id: "thaumaturge:taint_fibre",
@@ -1866,8 +1866,8 @@
     },
     {
       id: "01CBF8F6B23E4078",
-      x: 0.0,
-      y: 55.4,
+      x: 4.8,
+      y: 51.15,
       icon: {
         count: 1,
         id: "thaumaturge:loot_urn_common",
@@ -1898,7 +1898,7 @@
     {
       id: "1CF31C8AFF1303F0",
       x: 1.6,
-      y: 58.4,
+      y: 48.15,
       icon: {
         count: 1,
         id: "thaumaturge:eldritch_obelisk",
@@ -1929,7 +1929,7 @@
     {
       id: "40D9143FA7C71B48",
       x: 3.2,
-      y: 58.4,
+      y: 48.15,
       size: 1.5,
       dependencies: [
         "1809C7659BF1FEC2",
@@ -1970,7 +1970,7 @@
     {
       id: "7349912078CB1C38",
       x: 4.8,
-      y: 58.4,
+      y: 48.15,
       dependencies: [
         "40D9143FA7C71B48",
       ],
@@ -2016,7 +2016,7 @@
     {
       id: "210BF8E7F9A3F6B3",
       x: 6.4,
-      y: 58.4,
+      y: 48.15,
       dependencies: [
         "7349912078CB1C38",
       ],
@@ -2063,7 +2063,7 @@
     {
       id: "6AC13432205033F0",
       x: 4.8,
-      y: 59.9,
+      y: 49.65,
       shape: "hexagon",
       size: 1.5,
       icon: {
@@ -2096,7 +2096,7 @@
     {
       id: "652023BCDCF94D09",
       x: 6.4,
-      y: 59.9,
+      y: 49.65,
       icon: {
         count: 1,
         id: "thaumaturge:eldritch_eye",
@@ -2128,7 +2128,7 @@
     {
       id: "00428375B942FF58",
       x: 8.0,
-      y: 59.9,
+      y: 49.65,
       icon: {
         count: 1,
         id: "thaumaturge:eldritch_stone",
@@ -2160,7 +2160,7 @@
     {
       id: "7624F5519196194E",
       x: 9.6,
-      y: 59.9,
+      y: 49.65,
       icon: {
         count: 1,
         id: "thaumaturge:eldritch_capstone",
@@ -2192,7 +2192,7 @@
     {
       id: "2A03590EF3738B08",
       x: 11.2,
-      y: 59.9,
+      y: 49.65,
       shape: "gear",
       size: 2.0,
       dependencies: [
@@ -2224,7 +2224,7 @@
     {
       id: "14109C8CEE42CD16",
       x: 12.8,
-      y: 59.9,
+      y: 49.65,
       dependencies: [
         "2A03590EF3738B08",
       ],
@@ -2288,7 +2288,7 @@
     },
     {
       x: 0.5118,
-      y: 35.9,
+      y: 28.4,
       width: 2.2235,
       height: 0.6,
       rotation: 0.0,
@@ -2300,7 +2300,7 @@
     },
     {
       x: 0.0882,
-      y: 46.0,
+      y: 38.5,
       width: 1.3765,
       height: 0.6,
       rotation: 0.0,
@@ -2312,7 +2312,7 @@
     },
     {
       x: 0.7765,
-      y: 48.6,
+      y: 41.1,
       width: 2.7529,
       height: 0.6,
       rotation: 0.0,
@@ -2336,7 +2336,7 @@
     },
     {
       x: 0.8647,
-      y: 54.2,
+      y: 46.7,
       width: 2.9294,
       height: 0.6,
       rotation: 0.0,

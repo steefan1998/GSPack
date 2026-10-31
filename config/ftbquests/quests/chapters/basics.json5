@@ -13,7 +13,7 @@
     {
       id: "798BBF8CA6794607",
       x: 0.0,
-      y: 1.2,
+      y: 1.45,
       shape: "gear",
       size: 1.5,
       icon: {
@@ -51,7 +51,7 @@
     {
       id: "67040F55FA5DC25C",
       x: 1.6,
-      y: 1.2,
+      y: 1.45,
       dependencies: [
         "798BBF8CA6794607",
       ],
@@ -76,7 +76,7 @@
     {
       id: "12497CCA826EA587",
       x: 3.2,
-      y: 1.2,
+      y: 1.45,
       dependencies: [
         "67040F55FA5DC25C",
       ],
@@ -122,7 +122,7 @@
     {
       id: "4C4EC7B67B11507A",
       x: 4.8,
-      y: 1.2,
+      y: 1.45,
       dependencies: [
         "12497CCA826EA587",
       ],
@@ -147,7 +147,7 @@
     {
       id: "1ECCE1E4948233AF",
       x: 6.4,
-      y: 1.2,
+      y: 1.45,
       dependencies: [
         "4C4EC7B67B11507A",
       ],
@@ -173,7 +173,7 @@
     {
       id: "477FC211D71AD53C",
       x: 3.2,
-      y: 2.7,
+      y: 2.95,
       dependencies: [
         "67040F55FA5DC25C",
       ],
@@ -198,7 +198,7 @@
     {
       id: "7DEFC22484C31C0B",
       x: 6.4,
-      y: 2.7,
+      y: 2.95,
       dependencies: [
         "4C4EC7B67B11507A",
       ],
@@ -228,7 +228,7 @@
     {
       id: "3970F27352844017",
       x: 8.0,
-      y: 2.7,
+      y: 2.95,
       dependencies: [
         "7DEFC22484C31C0B",
       ],
@@ -277,7 +277,7 @@
     {
       id: "4034820F97D1187D",
       x: 9.6,
-      y: 2.7,
+      y: 2.95,
       icon: {
         count: 1,
         id: "minecraft:wheat",
@@ -304,7 +304,7 @@
     {
       id: "40B5CC37297FEFE7",
       x: 4.8,
-      y: 2.7,
+      y: 2.95,
       dependencies: [
         "477FC211D71AD53C",
       ],
@@ -343,7 +343,7 @@
     {
       id: "13D9B637C3D524F9",
       x: 0.0,
-      y: 8.3,
+      y: 8.55,
       size: 1.5,
       dependencies: [
         "4C4EC7B67B11507A",
@@ -375,7 +375,7 @@
     {
       id: "5800B83D1C324A8C",
       x: 1.6,
-      y: 8.3,
+      y: 8.55,
       dependencies: [
         "13D9B637C3D524F9",
       ],
@@ -416,7 +416,7 @@
     {
       id: "00C5B073D7228BF0",
       x: 1.6,
-      y: 9.8,
+      y: 10.05,
       dependencies: [
         "13D9B637C3D524F9",
       ],
@@ -470,7 +470,7 @@
     {
       id: "78311BA5173B2B31",
       x: 1.6,
-      y: 6.8,
+      y: 7.05,
       dependencies: [
         "13D9B637C3D524F9",
       ],
@@ -495,7 +495,7 @@
     {
       id: "29E4F38DE93324E5",
       x: 1.6,
-      y: 11.3,
+      y: 11.55,
       dependencies: [
         "13D9B637C3D524F9",
       ],
@@ -528,7 +528,7 @@
     {
       id: "76B23B29AD1A4DE3",
       x: 1.6,
-      y: 5.3,
+      y: 5.55,
       dependencies: [
         "13D9B637C3D524F9",
       ],
@@ -555,7 +555,7 @@
     {
       id: "58F5D899F875CFA6",
       x: 3.2,
-      y: 8.3,
+      y: 8.55,
       icon: {
         count: 1,
         id: "minecraft:rotten_flesh",
@@ -587,7 +587,7 @@
     {
       id: "419DB53725DF2086",
       x: 3.2,
-      y: 9.8,
+      y: 10.05,
       icon: {
         count: 1,
         id: "minecraft:bone",
@@ -623,7 +623,7 @@
     {
       id: "39C5317DBE092F57",
       x: 3.2,
-      y: 11.3,
+      y: 11.55,
       icon: {
         count: 1,
         id: "minecraft:gunpowder",
@@ -664,7 +664,7 @@
     {
       id: "08A5707EE4F137B2",
       x: 3.2,
-      y: 6.8,
+      y: 7.05,
       icon: {
         count: 1,
         id: "minecraft:emerald",
@@ -699,7 +699,7 @@
     {
       id: "03311868BC2F0713",
       x: 4.8,
-      y: 6.8,
+      y: 7.05,
       icon: {
         count: 1,
         id: "minecraft:emerald",
@@ -726,7 +726,7 @@
     {
       id: "4E7A2D7D3D4E5E8F",
       x: 0.0,
-      y: 13.9,
+      y: 14.4,
       shape: "hexagon",
       size: 1.5,
       dependencies: [
@@ -759,7 +759,7 @@
     {
       id: "537EB39A51D60D0E",
       x: 1.6,
-      y: 13.9,
+      y: 14.4,
       dependencies: [
         "4E7A2D7D3D4E5E8F",
       ],
@@ -792,7 +792,7 @@
     {
       id: "56F88E59D27D3217",
       x: 3.2,
-      y: 13.9,
+      y: 14.4,
       dependencies: [
         "537EB39A51D60D0E",
         "29E4F38DE93324E5",
@@ -819,7 +819,7 @@
     {
       id: "76C68CDBBF53C3E2",
       x: 1.6,
-      y: 15.4,
+      y: 15.9,
       dependencies: [
         "4E7A2D7D3D4E5E8F",
       ],
@@ -862,7 +862,7 @@
     {
       id: "7621BA229BBA5E6C",
       x: 0.0,
-      y: 15.4,
+      y: 15.9,
       dependencies: [
         "13D9B637C3D524F9",
       ],
@@ -888,7 +888,7 @@
     {
       id: "1844A3F8D98F5859",
       x: 0.0,
-      y: 19.5,
+      y: 20.0,
       shape: "gear",
       size: 1.5,
       icon: {
@@ -921,7 +921,7 @@
     {
       id: "6C11BF4FECBD5F79",
       x: 1.6,
-      y: 19.5,
+      y: 20.0,
       dependencies: [
         "1844A3F8D98F5859",
       ],
@@ -947,7 +947,7 @@
     {
       id: "5508C69A421B6A4A",
       x: 1.6,
-      y: 21.0,
+      y: 21.5,
       dependencies: [
         "1844A3F8D98F5859",
       ],
@@ -973,7 +973,7 @@
     {
       id: "276DC53B9244028E",
       x: 1.6,
-      y: 18.0,
+      y: 18.5,
       icon: {
         count: 1,
         id: "minecraft:nether_bricks",
@@ -1004,7 +1004,7 @@
     {
       id: "0B92F8869389DF65",
       x: 3.2,
-      y: 18.0,
+      y: 18.5,
       dependencies: [
         "276DC53B9244028E",
       ],
@@ -1030,7 +1030,7 @@
     {
       id: "02F838BE73520B42",
       x: 3.2,
-      y: 19.5,
+      y: 20.0,
       dependencies: [
         "276DC53B9244028E",
       ],
@@ -1061,7 +1061,7 @@
     {
       id: "3E06872A556B9FF9",
       x: 4.8,
-      y: 18.0,
+      y: 18.5,
       dependencies: [
         "0B92F8869389DF65",
       ],
@@ -1095,7 +1095,7 @@
     {
       id: "54D7863439518724",
       x: 6.4,
-      y: 18.0,
+      y: 18.5,
       dependencies: [
         "3E06872A556B9FF9",
       ],
@@ -1122,7 +1122,7 @@
     {
       id: "3FB6B561A952EF9A",
       x: 3.2,
-      y: 21.0,
+      y: 21.5,
       icon: {
         count: 1,
         id: "minecraft:gilded_blackstone",
@@ -1153,7 +1153,7 @@
     {
       id: "4B9EA97201096B46",
       x: 1.6,
-      y: 22.5,
+      y: 23.0,
       dependencies: [
         "1844A3F8D98F5859",
       ],
@@ -1184,7 +1184,7 @@
     {
       id: "228347B50D1DC622",
       x: 4.8,
-      y: 22.5,
+      y: 23.0,
       dependencies: [
         "4B9EA97201096B46",
         "3FB6B561A952EF9A",
@@ -1223,7 +1223,7 @@
     {
       id: "7A42D8A8172E48EE",
       x: 6.4,
-      y: 22.5,
+      y: 23.0,
       dependencies: [
         "228347B50D1DC622",
       ],
@@ -1261,7 +1261,7 @@
     {
       id: "58DDEFB26BE4BF64",
       x: 4.8,
-      y: 19.5,
+      y: 20.0,
       dependencies: [
         "0B92F8869389DF65",
       ],
@@ -1287,7 +1287,7 @@
     {
       id: "053AC027954B3A77",
       x: 6.4,
-      y: 19.5,
+      y: 20.0,
       icon: {
         count: 1,
         id: "minecraft:end_portal_frame",
@@ -1318,7 +1318,7 @@
     {
       id: "3EA54B1396E07FB1",
       x: 0.0,
-      y: 25.1,
+      y: 26.1,
       shape: "gear",
       size: 1.5,
       icon: {
@@ -1351,7 +1351,7 @@
     {
       id: "5C3EEB1D90C2418F",
       x: 1.6,
-      y: 25.1,
+      y: 26.1,
       shape: "hexagon",
       size: 2.0,
       icon: {
@@ -1385,7 +1385,7 @@
     {
       id: "431F7DAB107E0094",
       x: 3.2,
-      y: 25.1,
+      y: 26.1,
       icon: {
         count: 1,
         id: "minecraft:purpur_block",
@@ -1416,7 +1416,7 @@
     {
       id: "6CAD900740E89982",
       x: 4.8,
-      y: 25.1,
+      y: 26.1,
       dependencies: [
         "431F7DAB107E0094",
       ],
@@ -1446,7 +1446,7 @@
     {
       id: "1E802954F54DB30C",
       x: 4.8,
-      y: 26.6,
+      y: 27.6,
       dependencies: [
         "431F7DAB107E0094",
       ],
@@ -1471,7 +1471,7 @@
     {
       id: "53BE0D7FD7901D47",
       x: 0.0,
-      y: 26.6,
+      y: 27.6,
       size: 1.5,
       icon: {
         count: 1,
@@ -1505,7 +1505,7 @@
     {
       id: "6753BBD5CB523EC1",
       x: 1.6,
-      y: 26.6,
+      y: 27.6,
       dependencies: [
         "53BE0D7FD7901D47",
       ],
@@ -1535,7 +1535,7 @@
     {
       id: "5B8F6F47EDD063B7",
       x: 0.0,
-      y: 30.7,
+      y: 31.7,
       icon: {
         count: 1,
         id: "minecraft:sculk",
@@ -1566,7 +1566,7 @@
     {
       id: "2C62B4B7D60B9A98",
       x: 0.0,
-      y: 32.2,
+      y: 33.2,
       icon: {
         count: 1,
         id: "minecraft:trial_key",
@@ -1597,7 +1597,7 @@
     {
       id: "505D148A11E82581",
       x: 0.0,
-      y: 29.2,
+      y: 30.2,
       dependencies: [
         "08A5707EE4F137B2",
       ],
@@ -1631,7 +1631,7 @@
     {
       id: "762001E5715650EC",
       x: 0.0,
-      y: 33.7,
+      y: 34.7,
       dependencies: [
         "40B5CC37297FEFE7",
       ],
@@ -1656,7 +1656,7 @@
     {
       id: "3AA2B42527349AA7",
       x: 1.6,
-      y: 33.7,
+      y: 34.7,
       dependencies: [
         "762001E5715650EC",
       ],
@@ -1704,7 +1704,7 @@
     },
     {
       x: 0.8118,
-      y: 28.0,
+      y: 29.0,
       width: 2.8235,
       height: 0.6,
       rotation: 0.0,
@@ -1716,7 +1716,7 @@
     },
     {
       x: 0.7765,
-      y: 16.8,
+      y: 17.3,
       width: 2.7529,
       height: 0.6,
       rotation: 0.0,
@@ -1728,7 +1728,7 @@
     },
     {
       x: 0.5471,
-      y: 4.1,
+      y: 4.35,
       width: 2.2941,
       height: 0.6,
       rotation: 0.0,
@@ -1752,7 +1752,7 @@
     },
     {
       x: 0.4765,
-      y: 23.9,
+      y: 24.4,
       width: 2.1529,
       height: 0.6,
       rotation: 0.0,
@@ -1764,7 +1764,7 @@
     },
     {
       x: 2.0294,
-      y: 12.7,
+      y: 12.95,
       width: 5.2588,
       height: 0.6,
       rotation: 0.0,

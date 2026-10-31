@@ -1,4 +1,4 @@
-Chapter 'allthemodium' 'Allthemodium' 'allthemodium:allthemodium_ingot' 'explore' 'The rarest metals: Allthemodium, Vibranium and Unobtainium.'
+﻿Chapter 'allthemodium' 'Allthemodium' 'allthemodium:allthemodium_ingot' 'explore' 'The rarest metals: Allthemodium, Vibranium and Unobtainium.'
 
 # ===== Preparation =====
 Q 'start' 'The Hunt Begins' 'minecraft:netherite_pickaxe' '' 'xp:100;table:common' -size 1.5 -shape 'gear' -sub 'Three metals, three dimensions' -desc @'
@@ -63,7 +63,14 @@ Q 'unob_tools' 'Unobtainium Tools' 'allthemodium:unobtainium_pickaxe;allthemodiu
 Q 'unob_armor' 'Unobtainium Armor' 'allthemodium:unobtainium_helmet;allthemodium:unobtainium_chestplate;allthemodium:unobtainium_leggings;allthemodium:unobtainium_boots' 'unob_template' 'xp:500;table:epic' -desc 'The best armor of the three metals.'
 
 # ===== Alloys =====
-Q 'alloys' 'Mythic Alloys' 'allthemodium:vibranium_allthemodium_alloy_ingot;allthemodium:unobtainium_allthemodium_alloy_ingot;allthemodium:unobtainium_vibranium_alloy_ingot' 'unob_ingot,vib_ingot,atm_ingot' 'lvl:30;table:epic' -size 1.5 -shape 'hexagon' -desc 'Combine the rare metals into the three alloys. Check JEI for how to make them; you will need machines from other mods.'
+Q 'alloys' 'Mythic Alloys' 'allthemodium:vibranium_allthemodium_alloy_ingot;allthemodium:unobtainium_allthemodium_alloy_ingot;allthemodium:unobtainium_vibranium_alloy_ingot' 'unob_ingot,vib_ingot,atm_ingot' 'lvl:30;table:epic' -size 1.5 -shape 'hexagon' -desc @'
+Fuse the rare metals into the three alloys in a crafting table:
+- &e2 Allthemodium + 2 Vibranium&r -> 2 Vibranium-Allthemodium Alloy
+- &e2 Unobtainium + 2 Allthemodium&r -> 2 Unobtainium-Allthemodium Alloy
+- &e2 Unobtainium + 2 Vibranium&r -> 2 Unobtainium-Vibranium Alloy
+
+The same works with dusts. Alloy dust smelts into an alloy ingot.
+'@
 Q 'alloy_tools' 'Alloy Paxel' 'allthemodium:alloy_paxel' 'alloys' 'lvl:30;table:epic' -desc 'A pickaxe, axe and shovel in one, made of the best alloys.'
 Q 'alloy_weapons' 'Alloy Arsenal' 'allthemodium:alloy_sword;allthemodium:alloy_mace;allthemodium:alloy_trident' 'alloys' 'lvl:30;table:epic' -opt -desc 'The ultimate weapons.'
 Q 'upgrades' 'Storage Upgrades' 'check' 'unob_ingot' 'xp:100' -icon 'allthemodium:unobtainium_block' -desc 'Allthemodium storage and backpack upgrades exist for &bSophisticated Storage&r and &bSophisticated Backpacks&r. Check JEI!'

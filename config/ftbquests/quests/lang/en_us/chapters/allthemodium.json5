@@ -124,7 +124,12 @@
   ],
   "quest.5457A2C786671E50.title": "Mining Trip",
   "quest.5561503D368A6EF2.quest_desc": [
-    "Combine the rare metals into the three alloys. Check JEI for how to make them; you will need machines from other mods.",
+    "Fuse the rare metals into the three alloys in a crafting table:",
+    "- &e2 Allthemodium + 2 Vibranium&r -> 2 Vibranium-Allthemodium Alloy",
+    "- &e2 Unobtainium + 2 Allthemodium&r -> 2 Unobtainium-Allthemodium Alloy",
+    "- &e2 Unobtainium + 2 Vibranium&r -> 2 Unobtainium-Vibranium Alloy",
+    "",
+    "The same works with dusts. Alloy dust smelts into an alloy ingot.",
   ],
   "quest.5561503D368A6EF2.title": "Mythic Alloys",
   "quest.557DDBDCD6D3C6B6.quest_desc": [

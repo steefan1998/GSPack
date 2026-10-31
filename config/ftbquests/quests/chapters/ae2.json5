@@ -344,7 +344,7 @@
     {
       id: "78CE003A3EB19363",
       x: 0.0,
-      y: 11.3,
+      y: 11.55,
       dependencies: [
         "5DFF7365FFAC7652",
       ],
@@ -398,7 +398,7 @@
     {
       id: "32C08C873EFF4D8A",
       x: 1.6,
-      y: 11.3,
+      y: 11.55,
       dependencies: [
         "78CE003A3EB19363",
         "6081472C7E729951",
@@ -424,7 +424,7 @@
     {
       id: "680F8C34195B4A90",
       x: 3.2,
-      y: 11.3,
+      y: 11.55,
       dependencies: [
         "32C08C873EFF4D8A",
       ],
@@ -459,7 +459,7 @@
     {
       id: "5F83D571EF6D998E",
       x: 3.2,
-      y: 12.8,
+      y: 13.05,
       dependencies: [
         "32C08C873EFF4D8A",
       ],
@@ -503,7 +503,7 @@
     {
       id: "2D3ABE72931F1F61",
       x: 4.8,
-      y: 11.3,
+      y: 11.55,
       size: 1.5,
       dependencies: [
         "680F8C34195B4A90",
@@ -554,7 +554,7 @@
     {
       id: "61C7B199AAAA6D35",
       x: 0.0,
-      y: 15.4,
+      y: 15.9,
       dependencies: [
         "6081472C7E729951",
       ],
@@ -580,7 +580,7 @@
     {
       id: "0AAC6691D69FD904",
       x: 1.6,
-      y: 16.9,
+      y: 17.4,
       dependencies: [
         "61C7B199AAAA6D35",
       ],
@@ -606,7 +606,7 @@
     {
       id: "0EB9335F990424F0",
       x: 3.2,
-      y: 15.4,
+      y: 15.9,
       dependencies: [
         "0AAC6691D69FD904",
         "712ACDB93B851213",
@@ -633,7 +633,7 @@
     {
       id: "712ACDB93B851213",
       x: 1.6,
-      y: 15.4,
+      y: 15.9,
       shape: "hexagon",
       size: 1.5,
       dependencies: [
@@ -674,7 +674,7 @@
     {
       id: "59FE974BB8E9A846",
       x: 3.2,
-      y: 16.9,
+      y: 17.4,
       dependencies: [
         "712ACDB93B851213",
       ],
@@ -699,7 +699,7 @@
     {
       id: "74755E618C84970D",
       x: 4.8,
-      y: 15.4,
+      y: 15.9,
       icon: {
         count: 1,
         id: "ae2:fluix_smart_dense_cable",
@@ -725,7 +725,7 @@
     {
       id: "6484448D54D8BEF5",
       x: 0.0,
-      y: 22.5,
+      y: 23.0,
       dependencies: [
         "712ACDB93B851213",
       ],
@@ -750,7 +750,7 @@
     {
       id: "2A2390FE4DD4843F",
       x: 1.6,
-      y: 22.5,
+      y: 23.0,
       dependencies: [
         "6484448D54D8BEF5",
       ],
@@ -776,7 +776,7 @@
     {
       id: "4E549DE8B37D0AB8",
       x: 3.2,
-      y: 22.5,
+      y: 23.0,
       dependencies: [
         "2A2390FE4DD4843F",
       ],
@@ -801,7 +801,7 @@
     {
       id: "4108F5E7AE39F44D",
       x: 3.2,
-      y: 24.0,
+      y: 24.5,
       dependencies: [
         "2A2390FE4DD4843F",
       ],
@@ -847,7 +847,7 @@
     {
       id: "5E04DAC5C4D91017",
       x: 4.8,
-      y: 24.0,
+      y: 24.5,
       dependencies: [
         "4108F5E7AE39F44D",
       ],
@@ -878,7 +878,7 @@
     {
       id: "6DE98D174383418D",
       x: 3.2,
-      y: 21.0,
+      y: 21.5,
       dependencies: [
         "2A2390FE4DD4843F",
       ],
@@ -903,7 +903,7 @@
     {
       id: "3FCDEDC469AB4497",
       x: 3.2,
-      y: 25.5,
+      y: 26.0,
       dependencies: [
         "2A2390FE4DD4843F",
       ],
@@ -929,7 +929,7 @@
     {
       id: "30BE516549FA0D54",
       x: 3.2,
-      y: 19.5,
+      y: 20.0,
       dependencies: [
         "2A2390FE4DD4843F",
       ],
@@ -955,7 +955,7 @@
     {
       id: "4EF8C3753D6C3D54",
       x: 0.0,
-      y: 31.1,
+      y: 31.6,
       dependencies: [
         "712ACDB93B851213",
       ],
@@ -980,7 +980,7 @@
     {
       id: "7E0DE3E91C9C70EC",
       x: 1.6,
-      y: 31.1,
+      y: 31.6,
       dependencies: [
         "4EF8C3753D6C3D54",
       ],
@@ -1005,7 +1005,7 @@
     {
       id: "75129AE84F82D6DD",
       x: 0.0,
-      y: 32.6,
+      y: 33.1,
       dependencies: [
         "712ACDB93B851213",
       ],
@@ -1031,7 +1031,7 @@
     {
       id: "74B13E780100F604",
       x: 0.0,
-      y: 29.6,
+      y: 30.1,
       dependencies: [
         "712ACDB93B851213",
       ],
@@ -1057,7 +1057,7 @@
     {
       id: "7D81EFDA3E495534",
       x: 1.6,
-      y: 32.6,
+      y: 33.1,
       dependencies: [
         "75129AE84F82D6DD",
         "74B13E780100F604",
@@ -1084,7 +1084,7 @@
     {
       id: "714E2728654BF641",
       x: 1.6,
-      y: 29.6,
+      y: 30.1,
       dependencies: [
         "75129AE84F82D6DD",
         "74B13E780100F604",
@@ -1111,7 +1111,7 @@
     {
       id: "7E14754EAEEB3F16",
       x: 3.2,
-      y: 29.6,
+      y: 30.1,
       dependencies: [
         "714E2728654BF641",
       ],
@@ -1137,7 +1137,7 @@
     {
       id: "1B3FF85646387335",
       x: 3.2,
-      y: 31.1,
+      y: 31.6,
       dependencies: [
         "714E2728654BF641",
       ],
@@ -1187,7 +1187,7 @@
     {
       id: "118AEEE8F1FFC56B",
       x: 3.2,
-      y: 28.1,
+      y: 28.6,
       dependencies: [
         "714E2728654BF641",
       ],
@@ -1221,7 +1221,7 @@
     {
       id: "273A6F1933B91CAD",
       x: 0.0,
-      y: 34.1,
+      y: 34.6,
       dependencies: [
         "4108F5E7AE39F44D",
       ],
@@ -1247,7 +1247,7 @@
     {
       id: "61513660EAAB7025",
       x: 0.0,
-      y: 38.2,
+      y: 38.7,
       dependencies: [
         "7E0DE3E91C9C70EC",
       ],
@@ -1281,7 +1281,7 @@
     {
       id: "197EBAF6B72273C2",
       x: 1.6,
-      y: 38.2,
+      y: 38.7,
       dependencies: [
         "61513660EAAB7025",
       ],
@@ -1336,7 +1336,7 @@
     {
       id: "0ADA6540DB1C6940",
       x: 3.2,
-      y: 38.2,
+      y: 38.7,
       dependencies: [
         "197EBAF6B72273C2",
       ],
@@ -1362,7 +1362,7 @@
     {
       id: "1FB3941ADA6BB034",
       x: 4.8,
-      y: 38.2,
+      y: 38.7,
       shape: "hexagon",
       size: 1.5,
       dependencies: [
@@ -1395,7 +1395,7 @@
     {
       id: "5E5A4D6E3384BBBC",
       x: 4.8,
-      y: 39.7,
+      y: 40.2,
       dependencies: [
         "0ADA6540DB1C6940",
       ],
@@ -1420,7 +1420,7 @@
     {
       id: "440E7BC045315C69",
       x: 6.4,
-      y: 38.2,
+      y: 38.7,
       dependencies: [
         "1FB3941ADA6BB034",
       ],
@@ -1459,7 +1459,7 @@
     {
       id: "4723C67B1AA17F16",
       x: 6.4,
-      y: 39.7,
+      y: 40.2,
       dependencies: [
         "1FB3941ADA6BB034",
       ],
@@ -1485,7 +1485,7 @@
     {
       id: "1BE6AE82C2C63DE2",
       x: 6.4,
-      y: 36.7,
+      y: 37.2,
       icon: {
         count: 1,
         id: "ae2:molecular_assembler",
@@ -1511,7 +1511,7 @@
     {
       id: "16545F6399D951C1",
       x: 0.0,
-      y: 42.3,
+      y: 42.8,
       dependencies: [
         "4EF8C3753D6C3D54",
       ],
@@ -1550,7 +1550,7 @@
     {
       id: "4B50BCB44EDF65B6",
       x: 1.6,
-      y: 42.3,
+      y: 42.8,
       dependencies: [
         "16545F6399D951C1",
       ],
@@ -1575,7 +1575,7 @@
     {
       id: "10E72CB88803CEC5",
       x: 3.2,
-      y: 42.3,
+      y: 42.8,
       dependencies: [
         "4B50BCB44EDF65B6",
         "7E0DE3E91C9C70EC",
@@ -1601,7 +1601,7 @@
     {
       id: "15A116E0BCDA8A4C",
       x: 0.0,
-      y: 46.4,
+      y: 46.9,
       dependencies: [
         "74755E618C84970D",
       ],
@@ -1635,7 +1635,7 @@
     {
       id: "767A29DA9EF5203D",
       x: 1.6,
-      y: 46.4,
+      y: 46.9,
       dependencies: [
         "15A116E0BCDA8A4C",
       ],
@@ -1680,7 +1680,7 @@
     {
       id: "283E9173C8848993",
       x: 1.6,
-      y: 47.9,
+      y: 48.4,
       dependencies: [
         "15A116E0BCDA8A4C",
       ],
@@ -1729,7 +1729,7 @@
     {
       id: "31F4F93DF2BD5A8B",
       x: 3.2,
-      y: 47.9,
+      y: 48.4,
       dependencies: [
         "283E9173C8848993",
       ],
@@ -1772,7 +1772,7 @@
     {
       id: "285B84FAED473B5A",
       x: 0.0,
-      y: 47.9,
+      y: 48.4,
       dependencies: [
         "2A2390FE4DD4843F",
       ],
@@ -1810,7 +1810,7 @@
     {
       id: "05A17155B2CC1C4E",
       x: 1.6,
-      y: 44.9,
+      y: 45.4,
       dependencies: [
         "285B84FAED473B5A",
         "15A116E0BCDA8A4C",
@@ -1838,7 +1838,7 @@
     {
       id: "55B0F0678EF0E6EC",
       x: 0.0,
-      y: 44.9,
+      y: 45.4,
       dependencies: [
         "1FB3941ADA6BB034",
       ],
@@ -1876,7 +1876,7 @@
     {
       id: "3DCB426C2D3D35BD",
       x: 0.0,
-      y: 52.0,
+      y: 52.5,
       size: 1.5,
       dependencies: [
         "1FB3941ADA6BB034",
@@ -1917,7 +1917,7 @@
     {
       id: "78AB24FA8C4E547D",
       x: 1.6,
-      y: 52.0,
+      y: 52.5,
       dependencies: [
         "3DCB426C2D3D35BD",
       ],
@@ -1942,7 +1942,7 @@
     {
       id: "69438C5C547C8877",
       x: 1.6,
-      y: 53.5,
+      y: 54.0,
       dependencies: [
         "3DCB426C2D3D35BD",
       ],
@@ -1967,7 +1967,7 @@
     {
       id: "29A73A59ECB9B5A6",
       x: 1.6,
-      y: 50.5,
+      y: 51.0,
       dependencies: [
         "3DCB426C2D3D35BD",
       ],
@@ -1998,7 +1998,7 @@
     {
       id: "4421EF16E6AD3337",
       x: 1.6,
-      y: 55.0,
+      y: 55.5,
       size: 1.5,
       dependencies: [
         "3DCB426C2D3D35BD",
@@ -2056,7 +2056,7 @@
     {
       id: "598913DCAF3E262F",
       x: 3.2,
-      y: 52.0,
+      y: 52.5,
       shape: "gear",
       size: 2.0,
       dependencies: [
@@ -2126,7 +2126,7 @@
     },
     {
       x: 0.4588,
-      y: 18.3,
+      y: 18.8,
       width: 2.1176,
       height: 0.6,
       rotation: 0.0,
@@ -2138,7 +2138,7 @@
     },
     {
       x: 1.2353,
-      y: 43.7,
+      y: 44.2,
       width: 3.6706,
       height: 0.6,
       rotation: 0.0,
@@ -2162,7 +2162,7 @@
     },
     {
       x: 0.9529,
-      y: 49.3,
+      y: 49.8,
       width: 3.1059,
       height: 0.6,
       rotation: 0.0,
@@ -2174,7 +2174,7 @@
     },
     {
       x: 1.6765,
-      y: 26.9,
+      y: 27.4,
       width: 4.5529,
       height: 0.6,
       rotation: 0.0,
@@ -2186,7 +2186,7 @@
     },
     {
       x: 0.5294,
-      y: 41.1,
+      y: 41.6,
       width: 2.2588,
       height: 0.6,
       rotation: 0.0,
@@ -2198,7 +2198,7 @@
     },
     {
       x: 0.9529,
-      y: 14.2,
+      y: 14.45,
       width: 3.1059,
       height: 0.6,
       rotation: 0.0,
@@ -2222,7 +2222,7 @@
     },
     {
       x: 0.9176,
-      y: 35.5,
+      y: 36.0,
       width: 3.0353,
       height: 0.6,
       rotation: 0.0,

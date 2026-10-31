@@ -975,7 +975,7 @@
     {
       id: "483C3D3EB99CF700",
       x: 0.0,
-      y: 25.5,
+      y: 22.5,
       dependencies: [
         "61C03A450A93D3BE",
       ],
@@ -1019,7 +1019,7 @@
     {
       id: "05733B0C63561902",
       x: 1.6,
-      y: 25.5,
+      y: 22.5,
       dependencies: [
         "483C3D3EB99CF700",
         "34CD3206C9EFC260",
@@ -1046,7 +1046,7 @@
     {
       id: "52CFD5B267417188",
       x: 1.6,
-      y: 27.0,
+      y: 24.0,
       icon: {
         count: 1,
         id: "aether_ii:moa_feather",
@@ -1074,7 +1074,7 @@
     {
       id: "5D17FFD3D0CEDA89",
       x: 1.6,
-      y: 24.0,
+      y: 21.0,
       dependencies: [
         "483C3D3EB99CF700",
       ],
@@ -1183,7 +1183,7 @@
     {
       id: "238D64D357BA3E43",
       x: 1.6,
-      y: 22.5,
+      y: 25.5,
       dependencies: [
         "018F3D74DAC7F4FB",
       ],
@@ -1218,7 +1218,7 @@
     {
       id: "575BF53264A8C083",
       x: 0.0,
-      y: 28.5,
+      y: 21.0,
       icon: {
         count: 1,
         id: "aether_ii:swet_gel",
@@ -1254,7 +1254,7 @@
     {
       id: "444BB976FD23C4F6",
       x: 1.6,
-      y: 28.5,
+      y: 19.5,
       dependencies: [
         "575BF53264A8C083",
       ],
@@ -1288,7 +1288,7 @@
     {
       id: "387041C7539E83D2",
       x: 3.2,
-      y: 28.5,
+      y: 19.5,
       dependencies: [
         "444BB976FD23C4F6",
       ],
@@ -1321,8 +1321,8 @@
     },
     {
       id: "1F14EC8F13FDB852",
-      x: 0.0,
-      y: 22.5,
+      x: 1.6,
+      y: 27.0,
       icon: {
         count: 1,
         id: "aether_ii:zephyr_husk",
@@ -1348,8 +1348,8 @@
     },
     {
       id: "08A1EDA95CF09696",
-      x: 0.0,
-      y: 30.0,
+      x: 3.2,
+      y: 27.0,
       icon: {
         count: 1,
         id: "aether_ii:cockatrice_feather",
@@ -1375,8 +1375,8 @@
     },
     {
       id: "451357EE19737D9C",
-      x: 0.0,
-      y: 21.0,
+      x: 4.8,
+      y: 27.0,
       icon: {
         count: 1,
         id: "aether_ii:arkenium_chip",
@@ -1402,8 +1402,8 @@
     },
     {
       id: "53F5D7FE0C9CD7DA",
-      x: 0.0,
-      y: 31.5,
+      x: 6.4,
+      y: 27.0,
       icon: {
         count: 1,
         id: "aether_ii:blue_aercloud",
@@ -1428,8 +1428,8 @@
     },
     {
       id: "3BA2D1D8DEB70474",
-      x: 0.0,
-      y: 19.5,
+      x: 8.0,
+      y: 27.0,
       icon: {
         count: 1,
         id: "aether_ii:eye_of_the_mimic",
@@ -1461,7 +1461,7 @@
     {
       id: "34CD3206C9EFC260",
       x: 0.0,
-      y: 35.6,
+      y: 31.1,
       dependencies: [
         "476AF39EA0F8E76A",
       ],
@@ -1486,7 +1486,7 @@
     {
       id: "11CF77DBC1780DFB",
       x: 0.0,
-      y: 37.1,
+      y: 32.6,
       dependencies: [
         "3AE3D5FFCA2ED68A",
       ],
@@ -1519,7 +1519,7 @@
     {
       id: "24CFF793D067A4CE",
       x: 1.6,
-      y: 37.1,
+      y: 32.6,
       dependencies: [
         "11CF77DBC1780DFB",
       ],
@@ -1574,7 +1574,7 @@
     {
       id: "30B1BDC14B01DC82",
       x: 0.0,
-      y: 34.1,
+      y: 29.6,
       dependencies: [
         "483C3D3EB99CF700",
       ],
@@ -1600,7 +1600,7 @@
     {
       id: "3284496F03F84DBF",
       x: 0.0,
-      y: 38.6,
+      y: 34.1,
       dependencies: [
         "3982750FC2FB407F",
       ],
@@ -1626,7 +1626,7 @@
     {
       id: "4E00D3B66F49C793",
       x: 1.6,
-      y: 35.6,
+      y: 31.1,
       dependencies: [
         "34CD3206C9EFC260",
       ],
@@ -1652,7 +1652,7 @@
     {
       id: "70443A4AA35914F9",
       x: 0.0,
-      y: 45.7,
+      y: 38.2,
       icon: {
         count: 1,
         id: "aether_ii:outpost_campfire",
@@ -1683,7 +1683,7 @@
     {
       id: "58F47BF719D673D8",
       x: 1.6,
-      y: 45.7,
+      y: 38.2,
       icon: {
         count: 1,
         id: "aether_ii:outpost_campfire",
@@ -1709,7 +1709,7 @@
     {
       id: "774F137067711AF1",
       x: 1.6,
-      y: 47.2,
+      y: 39.7,
       icon: {
         count: 1,
         id: "aether_ii:skyroot_beam",
@@ -1740,7 +1740,7 @@
     {
       id: "640B5A8755113C03",
       x: 0.0,
-      y: 47.2,
+      y: 39.7,
       icon: {
         count: 1,
         id: "aether_ii:holystone_keystone",
@@ -1766,7 +1766,7 @@
     {
       id: "242C8BB68DEA1A7E",
       x: 1.6,
-      y: 48.7,
+      y: 41.2,
       icon: {
         count: 1,
         id: "aether_ii:veradexian_vase",
@@ -1797,7 +1797,7 @@
     {
       id: "63C141662E9EA4DB",
       x: 3.2,
-      y: 48.7,
+      y: 41.2,
       icon: {
         count: 1,
         id: "aether_ii:guidebook_page",
@@ -1828,7 +1828,7 @@
     {
       id: "5CEBA88A13014610",
       x: 3.2,
-      y: 50.2,
+      y: 42.7,
       icon: {
         count: 1,
         id: "aether_ii:holystone_flagstones",
@@ -1855,7 +1855,7 @@
     {
       id: "44C7209DC3B8592D",
       x: 3.2,
-      y: 47.2,
+      y: 39.7,
       icon: {
         count: 1,
         id: "aether_ii:brexallen_vase",
@@ -1886,7 +1886,7 @@
     {
       id: "64D0ECE0EEB52029",
       x: 0.0,
-      y: 44.2,
+      y: 36.7,
       icon: {
         count: 1,
         id: "aether_ii:sentry_servo",
@@ -1917,7 +1917,7 @@
     {
       id: "68A0A2EECBC5D7CB",
       x: 1.6,
-      y: 44.2,
+      y: 36.7,
       icon: {
         count: 1,
         id: "aether_ii:sentry_servo",
@@ -1949,7 +1949,7 @@
     {
       id: "1BC1153E9B8EA840",
       x: 0.0,
-      y: 48.7,
+      y: 44.2,
       icon: {
         count: 1,
         id: "aether_ii:arkenium_lantern",
@@ -1979,8 +1979,8 @@
     },
     {
       id: "5394621F4BE0D5C3",
-      x: 0.0,
-      y: 42.7,
+      x: 1.6,
+      y: 44.2,
       icon: {
         count: 1,
         id: "aether_ii:guardian_log",
@@ -2010,8 +2010,8 @@
     },
     {
       id: "66424B090A665FA0",
-      x: 0.0,
-      y: 50.2,
+      x: 3.2,
+      y: 44.2,
       icon: {
         count: 1,
         id: "aether_ii:irradiated_dust",
@@ -2041,8 +2041,8 @@
     },
     {
       id: "1094E38EDC01792F",
-      x: 0.0,
-      y: 41.2,
+      x: 4.8,
+      y: 44.2,
       icon: {
         count: 1,
         id: "aether_ii:arctic_snow_block",
@@ -2069,7 +2069,7 @@
     {
       id: "069C65437132AB90",
       x: 0.0,
-      y: 54.3,
+      y: 48.3,
       icon: {
         count: 1,
         id: "aether_ii:aether_grass_block",
@@ -2095,7 +2095,7 @@
     {
       id: "4EE2A44DDC19278B",
       x: 1.6,
-      y: 54.3,
+      y: 48.3,
       icon: {
         count: 1,
         id: "aether_ii:skyroot_sapling",
@@ -2121,7 +2121,7 @@
     {
       id: "723D39C153CD83FD",
       x: 3.2,
-      y: 54.3,
+      y: 48.3,
       icon: {
         count: 1,
         id: "aether_ii:greatroot_log",
@@ -2147,7 +2147,7 @@
     {
       id: "30378A5D9BE09CF6",
       x: 3.2,
-      y: 55.8,
+      y: 49.8,
       icon: {
         count: 1,
         id: "aether_ii:wisproot_log",
@@ -2173,7 +2173,7 @@
     {
       id: "281B527F0BECC49E",
       x: 4.8,
-      y: 54.3,
+      y: 48.3,
       icon: {
         count: 1,
         id: "aether_ii:magnetic_shroom",
@@ -2199,7 +2199,7 @@
     {
       id: "7F125FFE020B1A1C",
       x: 6.4,
-      y: 55.8,
+      y: 49.8,
       icon: {
         count: 1,
         id: "aether_ii:icestone",
@@ -2225,7 +2225,7 @@
     {
       id: "14CB7ECD3FA04787",
       x: 8.0,
-      y: 55.8,
+      y: 49.8,
       icon: {
         count: 1,
         id: "aether_ii:arctic_snow_block",
@@ -2251,7 +2251,7 @@
     {
       id: "286359BC0464235B",
       x: 6.4,
-      y: 54.3,
+      y: 48.3,
       icon: {
         count: 1,
         id: "aether_ii:irradiated_dust",
@@ -2282,7 +2282,7 @@
     {
       id: "60AA9FAAAB3B1C45",
       x: 8.0,
-      y: 54.3,
+      y: 48.3,
       icon: {
         count: 1,
         id: "aether_ii:shimmering_silt",
@@ -2308,7 +2308,7 @@
     {
       id: "6A1738107FF5A3E1",
       x: 8.0,
-      y: 52.8,
+      y: 46.8,
       icon: {
         count: 1,
         id: "aether_ii:arkenium_shortsword",
@@ -2334,7 +2334,7 @@
     {
       id: "5F2AF1FBD7DFE621",
       x: 9.6,
-      y: 54.3,
+      y: 48.3,
       shape: "hexagon",
       size: 1.5,
       icon: {
@@ -2369,7 +2369,7 @@
     {
       id: "6320E282F5652FE4",
       x: 11.2,
-      y: 54.3,
+      y: 48.3,
       shape: "gear",
       size: 2.0,
       dependencies: [
@@ -2402,7 +2402,7 @@
     {
       id: "0FDB06E3621AD2C6",
       x: 0.0,
-      y: 55.8,
+      y: 49.8,
       dependencies: [
         "0B454266701E7E01",
       ],
@@ -2447,7 +2447,7 @@
     },
     {
       x: 0.2647,
-      y: 32.9,
+      y: 28.4,
       width: 1.7294,
       height: 0.6,
       rotation: 0.0,
@@ -2471,7 +2471,7 @@
     },
     {
       x: 0.4059,
-      y: 51.6,
+      y: 45.6,
       width: 2.0118,
       height: 0.6,
       rotation: 0.0,
@@ -2483,7 +2483,7 @@
     },
     {
       x: 0.7059,
-      y: 40.0,
+      y: 35.5,
       width: 2.6118,
       height: 0.6,
       rotation: 0.0,

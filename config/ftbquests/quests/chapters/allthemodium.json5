@@ -13,7 +13,7 @@
     {
       id: "2D56F28425580D37",
       x: 0.0,
-      y: 1.2,
+      y: 1.45,
       shape: "gear",
       size: 1.5,
       tasks: [
@@ -42,7 +42,7 @@
     {
       id: "7BD00A9B44CA5C9C",
       x: 1.6,
-      y: 1.2,
+      y: 1.45,
       icon: {
         count: 1,
         id: "minecraft:sculk",
@@ -73,7 +73,7 @@
     {
       id: "370D2A8434631929",
       x: 1.6,
-      y: 2.7,
+      y: 2.95,
       dependencies: [
         "2D56F28425580D37",
       ],
@@ -98,7 +98,7 @@
     {
       id: "007609499F487CA7",
       x: 3.2,
-      y: 2.7,
+      y: 2.95,
       icon: {
         count: 1,
         id: "minecraft:deepslate",
@@ -129,7 +129,7 @@
     {
       id: "5457A2C786671E50",
       x: 4.8,
-      y: 2.7,
+      y: 2.95,
       dependencies: [
         "007609499F487CA7",
       ],
@@ -178,7 +178,7 @@
     {
       id: "419D4169C62C4B52",
       x: 0.0,
-      y: 6.8,
+      y: 7.05,
       size: 1.5,
       dependencies: [
         "007609499F487CA7",
@@ -205,7 +205,7 @@
     {
       id: "3D6CDFC350D4F63C",
       x: 1.6,
-      y: 6.8,
+      y: 7.05,
       dependencies: [
         "419D4169C62C4B52",
       ],
@@ -236,7 +236,7 @@
     {
       id: "6FE9E9E2D3EF8E23",
       x: 3.2,
-      y: 6.8,
+      y: 7.05,
       dependencies: [
         "3D6CDFC350D4F63C",
       ],
@@ -280,7 +280,7 @@
     {
       id: "539482B6DBE7EC6D",
       x: 3.2,
-      y: 8.3,
+      y: 8.55,
       dependencies: [
         "3D6CDFC350D4F63C",
       ],
@@ -305,7 +305,7 @@
     {
       id: "3375F4EC4AFF0516",
       x: 4.8,
-      y: 8.3,
+      y: 8.55,
       dependencies: [
         "539482B6DBE7EC6D",
       ],
@@ -338,7 +338,7 @@
     {
       id: "0C101DBD763CAC83",
       x: 4.8,
-      y: 9.8,
+      y: 10.05,
       dependencies: [
         "539482B6DBE7EC6D",
       ],
@@ -392,7 +392,7 @@
     {
       id: "3FF14E6A3F571E9A",
       x: 3.2,
-      y: 5.3,
+      y: 5.55,
       dependencies: [
         "3D6CDFC350D4F63C",
       ],
@@ -426,7 +426,7 @@
     {
       id: "557DDBDCD6D3C6B6",
       x: 3.2,
-      y: 9.8,
+      y: 10.05,
       dependencies: [
         "3D6CDFC350D4F63C",
       ],
@@ -452,7 +452,7 @@
     {
       id: "2811939991D9A959",
       x: 0.0,
-      y: 15.4,
+      y: 15.9,
       size: 1.5,
       icon: {
         count: 1,
@@ -484,7 +484,7 @@
     {
       id: "19DA9C03A4B9B8C9",
       x: 1.6,
-      y: 15.4,
+      y: 15.9,
       dependencies: [
         "2811939991D9A959",
       ],
@@ -519,7 +519,7 @@
     {
       id: "31B888B75CB87D5B",
       x: 1.6,
-      y: 16.9,
+      y: 17.4,
       dependencies: [
         "2811939991D9A959",
       ],
@@ -554,7 +554,7 @@
     {
       id: "6317871254FF2525",
       x: 1.6,
-      y: 13.9,
+      y: 14.4,
       icon: {
         count: 1,
         id: "allthemodium:ancient_stone_bricks",
@@ -585,7 +585,7 @@
     {
       id: "573DE36DE6AA5220",
       x: 1.6,
-      y: 18.4,
+      y: 18.9,
       icon: {
         count: 1,
         id: "allthemodium:ancient_stone_bricks",
@@ -616,7 +616,7 @@
     {
       id: "11A8C30AC3CECC14",
       x: 1.6,
-      y: 12.4,
+      y: 12.9,
       icon: {
         count: 1,
         id: "minecraft:gold_block",
@@ -647,7 +647,7 @@
     {
       id: "26CE3EC1BD05459C",
       x: 3.2,
-      y: 12.4,
+      y: 12.9,
       size: 1.5,
       icon: {
         count: 1,
@@ -680,7 +680,7 @@
     {
       id: "132D13DCD2E00508",
       x: 4.8,
-      y: 12.4,
+      y: 12.9,
       dependencies: [
         "26CE3EC1BD05459C",
       ],
@@ -705,7 +705,7 @@
     {
       id: "4511C7EC270D8F97",
       x: 0.0,
-      y: 21.0,
+      y: 21.75,
       size: 1.5,
       dependencies: [
         "2811939991D9A959",
@@ -732,7 +732,7 @@
     {
       id: "2E088CACC9730C11",
       x: 1.6,
-      y: 21.0,
+      y: 21.75,
       dependencies: [
         "4511C7EC270D8F97",
       ],
@@ -763,7 +763,7 @@
     {
       id: "3B8BF16702068B30",
       x: 3.2,
-      y: 21.0,
+      y: 21.75,
       dependencies: [
         "2E088CACC9730C11",
       ],
@@ -788,7 +788,7 @@
     {
       id: "6A4C279013FBDD1A",
       x: 4.8,
-      y: 21.0,
+      y: 21.75,
       dependencies: [
         "3B8BF16702068B30",
       ],
@@ -821,7 +821,7 @@
     {
       id: "2AEA6CE1667B72C4",
       x: 4.8,
-      y: 22.5,
+      y: 23.25,
       dependencies: [
         "3B8BF16702068B30",
       ],
@@ -875,7 +875,7 @@
     {
       id: "6B77958149DD846E",
       x: 3.2,
-      y: 22.5,
+      y: 23.25,
       dependencies: [
         "2E088CACC9730C11",
       ],
@@ -901,7 +901,7 @@
     {
       id: "562876CE1CF0C29E",
       x: 0.0,
-      y: 25.1,
+      y: 26.1,
       size: 1.5,
       icon: {
         count: 1,
@@ -933,7 +933,7 @@
     {
       id: "17AE580430EA1BA9",
       x: 1.6,
-      y: 25.1,
+      y: 26.1,
       size: 1.5,
       dependencies: [
         "562876CE1CF0C29E",
@@ -960,7 +960,7 @@
     {
       id: "49DDCA926E7726A1",
       x: 3.2,
-      y: 25.1,
+      y: 26.1,
       dependencies: [
         "17AE580430EA1BA9",
       ],
@@ -991,7 +991,7 @@
     {
       id: "4B4C95E8260BCB7C",
       x: 4.8,
-      y: 25.1,
+      y: 26.1,
       dependencies: [
         "49DDCA926E7726A1",
       ],
@@ -1016,7 +1016,7 @@
     {
       id: "2C17D7B98A5A38A1",
       x: 6.4,
-      y: 25.1,
+      y: 26.1,
       dependencies: [
         "4B4C95E8260BCB7C",
       ],
@@ -1054,7 +1054,7 @@
     {
       id: "672DD6DCC1DABDF3",
       x: 6.4,
-      y: 26.6,
+      y: 27.6,
       dependencies: [
         "4B4C95E8260BCB7C",
       ],
@@ -1108,7 +1108,7 @@
     {
       id: "5561503D368A6EF2",
       x: 0.0,
-      y: 29.2,
+      y: 30.7,
       shape: "hexagon",
       size: 1.5,
       dependencies: [
@@ -1158,7 +1158,7 @@
     {
       id: "377F9C458D83E912",
       x: 1.6,
-      y: 29.2,
+      y: 30.7,
       dependencies: [
         "5561503D368A6EF2",
       ],
@@ -1188,7 +1188,7 @@
     {
       id: "4889B1AC46F33794",
       x: 1.6,
-      y: 30.7,
+      y: 32.2,
       dependencies: [
         "5561503D368A6EF2",
       ],
@@ -1235,7 +1235,7 @@
     {
       id: "5C5F951C4D73E632",
       x: 0.0,
-      y: 30.7,
+      y: 32.2,
       icon: {
         count: 1,
         id: "allthemodium:unobtainium_block",
@@ -1260,7 +1260,7 @@
     {
       id: "25E115436FA942F0",
       x: 3.2,
-      y: 29.2,
+      y: 30.7,
       shape: "gear",
       size: 2.0,
       dependencies: [
@@ -1323,7 +1323,7 @@
     },
     {
       x: 1.0588,
-      y: 4.1,
+      y: 4.35,
       width: 3.3176,
       height: 0.6,
       rotation: 0.0,
@@ -1335,7 +1335,7 @@
     },
     {
       x: 0.9882,
-      y: 28.0,
+      y: 29.0,
       width: 3.1765,
       height: 0.6,
       rotation: 0.0,
@@ -1347,7 +1347,7 @@
     },
     {
       x: 0.6529,
-      y: 11.2,
+      y: 11.45,
       width: 2.5059,
       height: 0.6,
       rotation: 0.0,
@@ -1359,7 +1359,7 @@
     },
     {
       x: 0.8294,
-      y: 23.9,
+      y: 24.65,
       width: 2.8588,
       height: 0.6,
       rotation: 0.0,
@@ -1383,7 +1383,7 @@
     },
     {
       x: 0.6882,
-      y: 19.8,
+      y: 20.3,
       width: 2.5765,
       height: 0.6,
       rotation: 0.0,

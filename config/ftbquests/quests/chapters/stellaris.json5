@@ -2063,7 +2063,7 @@
     {
       id: "23FFF81DE7891C73",
       x: 0.0,
-      y: 56.9,
+      y: 57.4,
       shape: "hexagon",
       size: 1.5,
       dependencies: [
@@ -2102,7 +2102,7 @@
     {
       id: "2B6865F28F279B94",
       x: 1.6,
-      y: 56.9,
+      y: 57.4,
       shape: "gear",
       size: 2.0,
       dependencies: [
