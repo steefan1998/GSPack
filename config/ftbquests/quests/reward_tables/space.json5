@@ -1,0 +1,86 @@
+{
+  id: "00099ED8DEDE0982",
+  filename: "space",
+  order_index: 9,
+  loot_size: 1,
+  rewards: [
+    {
+      id: "6F1564B1CFBAADA6",
+      type: "item",
+      item: {
+        count: 1,
+        id: "stellaris:titanium_ingot",
+      },
+      count: 8,
+      weight: 20.0,
+    },
+    {
+      id: "64B18F762FF14603",
+      type: "item",
+      item: {
+        count: 1,
+        id: "stellaris:raw_desh",
+      },
+      count: 4,
+      weight: 15.0,
+    },
+    {
+      id: "674FA1EACADF3033",
+      type: "item",
+      item: {
+        count: 1,
+        id: "stellaris:desh_ingot",
+      },
+      count: 2,
+      weight: 12.0,
+    },
+    {
+      id: "1B1C9EBEA6B260C7",
+      type: "item",
+      item: {
+        count: 1,
+        id: "stellaris:fuel_bucket",
+      },
+      weight: 10.0,
+    },
+    {
+      id: "3F6E068B6EB6AE51",
+      type: "item",
+      item: {
+        count: 1,
+        id: "stellaris:moon_berries",
+      },
+      count: 8,
+      weight: 12.0,
+    },
+    {
+      id: "69711D7EE5062FDF",
+      type: "item",
+      item: {
+        count: 1,
+        id: "stellaris:silicon",
+      },
+      count: 8,
+      weight: 12.0,
+    },
+    {
+      id: "5741BD3C55DEF240",
+      type: "item",
+      item: {
+        count: 1,
+        id: "stellaris:meteorite",
+      },
+      count: 2,
+      weight: 8.0,
+    },
+    {
+      id: "41DEB4E6DCF110DE",
+      type: "item",
+      item: {
+        count: 1,
+        id: "stellaris:novite_ingot",
+      },
+      weight: 3.0,
+    },
+  ],
+}

@@ -1,0 +1,227 @@
+{
+  "chapter.3819B71D4386F7AF.chapter_subtitle": [
+    "Equivalent exchange: turn matter into EMC, and EMC into anything.",
+  ],
+  "chapter.3819B71D4386F7AF.title": "Equivox",
+  "quest.00A3D0434AF7A0C0.quest_desc": [
+    "Much faster condensing.",
+  ],
+  "quest.00A3D0434AF7A0C0.title": "Condenser MK2",
+  "quest.05F6B8E22D6FA4DA.quest_desc": [
+    "Flight! It uses EMC from your Klein Stars while you fly.",
+  ],
+  "quest.05F6B8E22D6FA4DA.title": "Swiftwolf's Rending Gale",
+  "quest.080A3D3DB3A27F90.quest_desc": [
+    "Unbreakable tools with &echarge levels&r (press the charge key) for more speed and area mining.",
+  ],
+  "quest.080A3D3DB3A27F90.title": "Dark Matter Tools",
+  "quest.0EB0B86796CCC2C7.quest_desc": [
+    "The best EMC production.",
+  ],
+  "quest.0EB0B86796CCC2C7.title": "Collector MK3",
+  "quest.0F1D5C46F1A6B7D1.quest_desc": [
+    "Better collectors and relays.",
+  ],
+  "quest.0F1D5C46F1A6B7D1.title": "Collector MK2",
+  "quest.10D178A588AFCC20.quest_desc": [
+    "Create water or lava, and walk on them.",
+  ],
+  "quest.10D178A588AFCC20.title": "Elemental Amulets",
+  "quest.1647F9EA97FA8A07.quest_desc": [
+    "A very dense material made from Aeternalis Fuel and diamond blocks. It is the next big step.",
+  ],
+  "quest.1647F9EA97FA8A07.title": "Dark Matter",
+  "quest.179E00500944B85C.quest_desc": [
+    "Speeds up machines, crops and furnaces around you. Can also slow time down.",
+  ],
+  "quest.179E00500944B85C.title": "Watch of Flowing Time",
+  "quest.1CB8909E36487976.quest_desc": [
+    "Put an item in the &etarget&r slot and feed the condenser other items (or EMC). It turns them into copies of the target.",
+    "",
+    "Combine it with collectors for an endless source of anything.",
+  ],
+  "quest.1CB8909E36487976.title": "Energy Condenser",
+  "quest.1F2A948BD1495916.quest_desc": [
+    "Combine four stars into a bigger one: Ein, Zwei, Drei, Vier, Sphere, Omega.",
+  ],
+  "quest.1F2A948BD1495916.title": "Bigger Stars",
+  "quest.25DB6C7646971E18.quest_desc": [
+    "Very strong armor.",
+  ],
+  "quest.25DB6C7646971E18.title": "Dark Matter Armor",
+  "quest.28825A72D6DCBA60.quest_desc": [
+    "Collects EMC from collectors around it and passes it on to condensers, with a small bonus.",
+  ],
+  "quest.28825A72D6DCBA60.title": "Anti-Matter Relay",
+  "quest.28ADA1897DB4E343.quest_desc": [
+    "Lets pipes and other mods access your learned items and EMC.",
+  ],
+  "quest.28ADA1897DB4E343.title": "Transmutation Interface",
+  "quest.2A1B2CD44EA1E8E0.quest_desc": [
+    "A bow that fires homing arrows.",
+  ],
+  "quest.2A1B2CD44EA1E8E0.title": "Archangel's Smite",
+  "quest.30C9D152E6350535.quest_desc": [
+    "Made from cobblestone + charcoal, iron + redstone, and diamond + coal. Used to repair items and craft devices.",
+  ],
+  "quest.30C9D152E6350535.title": "Covalence Dust",
+  "quest.32AEBDAE62FD9D51.quest_desc": [
+    "Ignition Ring sets things on fire, Zero Ring freezes water and slows enemies.",
+  ],
+  "quest.32AEBDAE62FD9D51.title": "Elemental Rings",
+  "quest.35BD3451B69206B4.quest_desc": [
+    "- &eBody Stone&r: restores hunger.",
+    "- &eSoul Stone&r: restores health.",
+    "- &eLife Stone&r: both!",
+    "- &eMind Stone&r: stores XP.",
+  ],
+  "quest.35BD3451B69206B4.title": "Stones of Power",
+  "quest.37BBC2E848D79319.quest_desc": [
+    "Klein Stars store EMC. Many tools and rings drain EMC from them. Charge them in a condenser or collector.",
+  ],
+  "quest.37BBC2E848D79319.title": "Klein Stars",
+  "quest.3A18DA0F3D24B859.quest_desc": [
+    "Learn every item at once.",
+  ],
+  "quest.3A18DA0F3D24B859.title": "Tome of Knowledge",
+  "quest.3BEA51A8E55B85E3.quest_desc": [
+    "A building tool that places and transmutes blocks.",
+  ],
+  "quest.3BEA51A8E55B85E3.title": "Mercurial Eye",
+  "quest.3D9D7DE4B29E6C9B.quest_desc": [
+    "Teleports you short distances and deletes junk items.",
+  ],
+  "quest.3D9D7DE4B29E6C9B.title": "Void Ring",
+  "quest.3DDAD38A2834DDF9.quest_desc": [
+    "The manual explains EMC and all the devices in detail.",
+  ],
+  "quest.3DDAD38A2834DDF9.title": "Read the Manual",
+  "quest.3F0881FD879BFC90.quest_desc": [
+    "The best fuel, needed to craft dark matter.",
+  ],
+  "quest.3F0881FD879BFC90.title": "Aeternalis Fuel",
+  "quest.42E2DB7580835D0D.quest_desc": [
+    "Portable storage linked to you. Every colour is a separate inventory.",
+  ],
+  "quest.42E2DB7580835D0D.title": "Alchemical Bag",
+  "quest.43BF9AFF1A0B204E.quest_desc": [
+    "The ultimate armor of Equivox. Each piece has special powers: night vision, flight, fire immunity, explosions and more.",
+    "",
+    "You have mastered Equivalent Exchange!",
+  ],
+  "quest.43BF9AFF1A0B204E.title": "Gem Armor",
+  "quest.46F9F1554E551431.quest_desc": [
+    "Hover over any item to see its &eEMC&r value. Cobblestone is worth 1, iron 256, diamond 8192...",
+    "",
+    "Items without an EMC value cannot be learned or burned. Tools and gear often have a value based on their recipe.",
+  ],
+  "quest.46F9F1554E551431.title": "What is EMC?",
+  "quest.49679038EDB9DABC.quest_desc": [
+    "Collectors make EMC from light. More light = more EMC.",
+    "",
+    "Put fuel in a collector to upgrade it (coal -> alchemical coal -> mobius -> aeternalis).",
+  ],
+  "quest.49679038EDB9DABC.title": "Energy Collector",
+  "quest.4A382F7C371B3924.quest_desc": [
+    "Combines the powers of the four elemental rings.",
+  ],
+  "quest.4A382F7C371B3924.title": "Ring of Arcana",
+  "quest.4F85C5A1B3AAEAF0.quest_desc": [
+    "The base for most rings.",
+  ],
+  "quest.4F85C5A1B3AAEAF0.title": "Iron Band",
+  "quest.564243F8A38D3CBC.quest_desc": [
+    "Pulls nearby items towards you.",
+  ],
+  "quest.564243F8A38D3CBC.title": "Black Hole Band",
+  "quest.56C7E4D4A3470FFA.quest_desc": [
+    "Pushes monsters away. Perfect around your base.",
+  ],
+  "quest.56C7E4D4A3470FFA.title": "Interdiction Torch",
+  "quest.5787875D47C3264B.quest_desc": [
+    "Even denser than dark matter. Made from dark matter and aeternalis fuel.",
+  ],
+  "quest.5787875D47C3264B.title": "Red Matter",
+  "quest.59926A01305ABB45.quest_desc": [
+    "Makes plants around you grow.",
+  ],
+  "quest.59926A01305ABB45.title": "Harvest Goddess Band",
+  "quest.5B169FECE96BE0C8.quest_desc": [
+    "Destroys blocks in a big area in front of you.",
+  ],
+  "quest.5B169FECE96BE0C8.title": "Destruction Catalyst",
+  "quest.5C020AC796F70A83.quest_desc": [
+    "Condenses items in your inventory into something more valuable.",
+  ],
+  "quest.5C020AC796F70A83.title": "Gem of Eternal Density",
+  "quest.5D25E6CDF956C875.quest_desc": [
+    "The biggest Klein Star.",
+  ],
+  "quest.5D25E6CDF956C875.title": "Klein Star Omega",
+  "quest.610ED2A0727DED5E.quest_desc": [
+    "A portable Transmutation Table.",
+  ],
+  "quest.610ED2A0727DED5E.title": "Transmutation Tablet",
+  "quest.6192CC7B1507E4D7.quest_desc": [
+    "Slowly repairs every damaged item in your inventory.",
+  ],
+  "quest.6192CC7B1507E4D7.title": "Repair Talisman",
+  "quest.61957D3447A88FE4.quest_desc": [
+    "Alchemical Coal, Mobius Fuel and Aeternalis Fuel burn longer than coal and are used in many recipes.",
+  ],
+  "quest.61957D3447A88FE4.title": "Alchemical Fuels",
+  "quest.644B0F03108465F5.quest_desc": [
+    "Even faster smelting.",
+  ],
+  "quest.644B0F03108465F5.title": "Red Matter Furnace",
+  "quest.64F0D78C7F6D4EF1.quest_desc": [
+    "Mines a 3x3 area.",
+  ],
+  "quest.64F0D78C7F6D4EF1.title": "Dark Matter Hammer",
+  "quest.68F3DD3C5E405940.quest_desc": [
+    "A very powerful explosive. &cDo not use it near your base!&r",
+  ],
+  "quest.68F3DD3C5E405940.title": "Nova Catalyst",
+  "quest.6BB0515B6E63880C.quest_desc": [
+    "Place a ring or talisman on it to use its power on the area around it.",
+  ],
+  "quest.6BB0515B6E63880C.title": "Dark Matter Pedestal",
+  "quest.6C401118F438E876.quest_desc": [
+    "A big chest. Some items (like rings and talismans) work while stored inside it.",
+  ],
+  "quest.6C401118F438E876.title": "Alchemical Chest",
+  "quest.703D1F64715D27A6.quest_desc": [
+    "&bEquivox&r is all about &eEMC&r: every item has an energy value. Trade items you do not need for EMC, and turn EMC into anything you have learned.",
+    "",
+    "The &ePhilosopher's Stone&r is the first tool:",
+    "- Right-click blocks to &etransmute&r them (stone to grass, sand to cobblestone...).",
+    "- Use it in crafting recipes for alchemical conversions (for example 4 iron -> 1 gold).",
+    "- Press the &ecraft key&r to open a portable crafting grid.",
+  ],
+  "quest.703D1F64715D27A6.quest_subtitle": "Equivalent Exchange",
+  "quest.703D1F64715D27A6.title": "Philosopher's Stone",
+  "quest.73245BC98C20FABB.quest_desc": [
+    "Smelts very fast and doubles ore output.",
+  ],
+  "quest.73245BC98C20FABB.title": "Dark Matter Furnace",
+  "quest.73AD05C38A409B1D.quest_desc": [
+    "Better armor than dark matter.",
+  ],
+  "quest.73AD05C38A409B1D.title": "Red Matter Armor",
+  "quest.73B02129202C03FB.quest_desc": [
+    "The heart of Equivox.",
+    "- Put an item in the &elearn&r slot to burn it into EMC and learn it.",
+    "- Click a learned item to create it, if you have enough EMC.",
+    "",
+    "&6Tip:&r Learn common items early: cobblestone, wood, iron, coal, redstone. Later you can make them whenever you want.",
+  ],
+  "quest.73B02129202C03FB.title": "Transmutation Table",
+  "quest.73B0A436F42B54CB.quest_desc": [
+    "The strongest tools in Equivox. The &eKatar&r and &eMorning Star&r combine several tools in one.",
+  ],
+  "quest.73B0A436F42B54CB.title": "Red Matter Tools",
+  "quest.7A1639B17E33BB13.quest_desc": [
+    "You have collected the main rings.",
+  ],
+  "quest.7A1639B17E33BB13.title": "Ring Collector",
+}

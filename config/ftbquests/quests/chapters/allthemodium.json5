@@ -1,0 +1,1397 @@
+{
+  id: "02316B1978EB3F28",
+  group: "11F64C4259C477EF",
+  order_index: 10,
+  filename: "allthemodium",
+  icon: {
+    count: 1,
+    id: "allthemodium:allthemodium_ingot",
+  },
+  default_quest_shape: "",
+  default_hide_dependency_lines: true,
+  quests: [
+    {
+      id: "2D56F28425580D37",
+      x: 0.0,
+      y: 1.2,
+      shape: "gear",
+      size: 1.5,
+      tasks: [
+        {
+          id: "578FB1A80EBAF530",
+          type: "item",
+          item: {
+            count: 1,
+            id: "minecraft:netherite_pickaxe",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5C785F3BFA7EA111",
+          type: "xp",
+          xp: 100,
+        },
+        {
+          id: "03EDC742084E6505",
+          type: "random",
+          table_id: 4224964620844649,
+        },
+      ],
+    },
+    {
+      id: "7BD00A9B44CA5C9C",
+      x: 1.6,
+      y: 1.2,
+      icon: {
+        count: 1,
+        id: "minecraft:sculk",
+      },
+      dependencies: [
+        "2D56F28425580D37",
+      ],
+      tasks: [
+        {
+          id: "1310433390974320",
+          type: "structure",
+          structure: "minecraft:ancient_city",
+        },
+      ],
+      rewards: [
+        {
+          id: "1E2F19879898CC32",
+          type: "xp",
+          xp: 150,
+        },
+        {
+          id: "3632C2443A444FDE",
+          type: "random",
+          table_id: 2400381249138584,
+        },
+      ],
+    },
+    {
+      id: "370D2A8434631929",
+      x: 1.6,
+      y: 2.7,
+      dependencies: [
+        "2D56F28425580D37",
+      ],
+      tasks: [
+        {
+          id: "6FB22473D744B1F4",
+          type: "item",
+          item: {
+            count: 1,
+            id: "allthemodium:teleport_pad",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4485780648C72C61",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      id: "007609499F487CA7",
+      x: 3.2,
+      y: 2.7,
+      icon: {
+        count: 1,
+        id: "minecraft:deepslate",
+      },
+      dependencies: [
+        "370D2A8434631929",
+      ],
+      tasks: [
+        {
+          id: "08D8EFED0AAA0739",
+          type: "dimension",
+          dimension: "allthemodium:mining",
+        },
+      ],
+      rewards: [
+        {
+          id: "41BB92CA5240B6AB",
+          type: "xp",
+          xp: 150,
+        },
+        {
+          id: "49F0B4C0655DB67E",
+          type: "random",
+          table_id: 2400381249138584,
+        },
+      ],
+    },
+    {
+      id: "5457A2C786671E50",
+      x: 4.8,
+      y: 2.7,
+      dependencies: [
+        "007609499F487CA7",
+      ],
+      tasks: [
+        {
+          id: "3C9EA503B369215A",
+          type: "item",
+          item: {
+            count: 1,
+            id: "minecraft:raw_iron",
+          },
+          count: 64,
+        },
+        {
+          id: "034B82BABAC1992F",
+          type: "item",
+          item: {
+            count: 1,
+            id: "minecraft:raw_gold",
+          },
+          count: 32,
+        },
+        {
+          id: "28ED7C4A46643BB4",
+          type: "item",
+          item: {
+            count: 1,
+            id: "minecraft:diamond",
+          },
+          count: 8,
+        },
+      ],
+      rewards: [
+        {
+          id: "016D2E0C13D3FE71",
+          type: "xp",
+          xp: 150,
+        },
+        {
+          id: "2138B10C4A442A72",
+          type: "random",
+          table_id: 253752461985528,
+        },
+      ],
+    },
+    {
+      id: "419D4169C62C4B52",
+      x: 0.0,
+      y: 6.8,
+      size: 1.5,
+      dependencies: [
+        "007609499F487CA7",
+      ],
+      tasks: [
+        {
+          id: "6FB7B83D2C149BE7",
+          type: "item",
+          item: {
+            count: 1,
+            id: "allthemodium:raw_allthemodium",
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "50E496D9AD0E4457",
+          type: "xp",
+          xp: 200,
+        },
+      ],
+    },
+    {
+      id: "3D6CDFC350D4F63C",
+      x: 1.6,
+      y: 6.8,
+      dependencies: [
+        "419D4169C62C4B52",
+      ],
+      tasks: [
+        {
+          id: "702446F079C8AEF8",
+          type: "item",
+          item: {
+            count: 1,
+            id: "allthemodium:allthemodium_ingot",
+          },
+          count: 8,
+        },
+      ],
+      rewards: [
+        {
+          id: "1A7319A7D606B378",
+          type: "xp",
+          xp: 200,
+        },
+        {
+          id: "2B964298CF03CABC",
+          type: "random",
+          table_id: 2400381249138584,
+        },
+      ],
+    },
+    {
+      id: "6FE9E9E2D3EF8E23",
+      x: 3.2,
+      y: 6.8,
+      dependencies: [
+        "3D6CDFC350D4F63C",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "17BA111F5EFB66C1",
+          type: "item",
+          item: {
+            count: 1,
+            id: "allthemodium:allthemodium_plate",
+          },
+          count: 2,
+        },
+        {
+          id: "638E5A0507A44C26",
+          type: "item",
+          item: {
+            count: 1,
+            id: "allthemodium:allthemodium_gear",
+          },
+        },
+        {
+          id: "2238E084B824FEEC",
+          type: "item",
+          item: {
+            count: 1,
+            id: "allthemodium:allthemodium_rod",
+          },
+          count: 2,
+        },
+      ],
+      rewards: [
+        {
+          id: "46F3C1622A20F767",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      id: "539482B6DBE7EC6D",
+      x: 3.2,
+      y: 8.3,
+      dependencies: [
+        "3D6CDFC350D4F63C",
+      ],
+      tasks: [
+        {
+          id: "58371B8DF6673F20",
+          type: "item",
+          item: {
+            count: 1,
+            id: "allthemodium:allthemodium_upgrade_smithing_template",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4FF645738BDFA1C9",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      id: "3375F4EC4AFF0516",
+      x: 4.8,
+      y: 8.3,
+      dependencies: [
+        "539482B6DBE7EC6D",
+      ],
+      tasks: [
+        {
+          id: "1EA2C5F6C73E2453",
+          type: "item",
+          item: {
+            count: 1,
+            id: "allthemodium:allthemodium_pickaxe",
+          },
+        },
+        {
+          id: "5BB5A0B75D4BFD34",
+          type: "item",
+          item: {
+            count: 1,
+            id: "allthemodium:allthemodium_sword",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "715D0E0CDAC10412",
+          type: "xp",
+          xp: 200,
+        },
+      ],
+    },
+    {
+      id: "0C101DBD763CAC83",
+      x: 4.8,
+      y: 9.8,
+      dependencies: [
+        "539482B6DBE7EC6D",
+      ],
+      tasks: [
+        {
+          id: "6F65F39F2D33B54E",
+          type: "item",
+          item: {
+            count: 1,
+            id: "allthemodium:allthemodium_helmet",
+          },
+        },
+        {
+          id: "1AA7B299F101002D",
+          type: "item",
+          item: {
+            count: 1,
+            id: "allthemodium:allthemodium_chestplate",
+          },
+        },
+        {
+          id: "7D27CCE20821816C",
+          type: "item",
+          item: {
+            count: 1,
+            id: "allthemodium:allthemodium_leggings",
+          },
+        },
+        {
+          id: "1024C44FC1DF3715",
+          type: "item",
+          item: {
+            count: 1,
+            id: "allthemodium:allthemodium_boots",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5182006B86DA3D94",
+          type: "xp",
+          xp: 300,
+        },
+        {
+          id: "6E951EBE2861CBC1",
+          type: "random",
+          table_id: 2210856162803377,
+        },
+      ],
+    },
+    {
+      id: "3FF14E6A3F571E9A",
+      x: 3.2,
+      y: 5.3,
+      dependencies: [
+        "3D6CDFC350D4F63C",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "3C5DF89F228F10DC",
+          type: "item",
+          item: {
+            count: 1,
+            id: "allthemodium:allthemodium_apple",
+          },
+        },
+        {
+          id: "33B76B1C69E6B9BE",
+          type: "item",
+          item: {
+            count: 1,
+            id: "allthemodium:allthemodium_carrot",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5ABFED14DC12DA7D",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      id: "557DDBDCD6D3C6B6",
+      x: 3.2,
+      y: 9.8,
+      dependencies: [
+        "3D6CDFC350D4F63C",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "29C08801381D0699",
+          type: "item",
+          item: {
+            count: 1,
+            id: "allthemodium:allthemodium_block",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6FA52C5D7DF29E78",
+          type: "xp",
+          xp: 150,
+        },
+      ],
+    },
+    {
+      id: "2811939991D9A959",
+      x: 0.0,
+      y: 15.4,
+      size: 1.5,
+      icon: {
+        count: 1,
+        id: "allthemodium:ancient_stone",
+      },
+      dependencies: [
+        "3375F4EC4AFF0516",
+      ],
+      tasks: [
+        {
+          id: "70A1C4945B3FA540",
+          type: "dimension",
+          dimension: "allthemodium:the_other",
+        },
+      ],
+      rewards: [
+        {
+          id: "2DA10BDBA3EB8A7D",
+          type: "xp",
+          xp: 250,
+        },
+        {
+          id: "227EBB986EA64A21",
+          type: "random",
+          table_id: 2400381249138584,
+        },
+      ],
+    },
+    {
+      id: "19DA9C03A4B9B8C9",
+      x: 1.6,
+      y: 15.4,
+      dependencies: [
+        "2811939991D9A959",
+      ],
+      tasks: [
+        {
+          id: "036D136A907A5545",
+          type: "item",
+          item: {
+            count: 1,
+            id: "allthemodium:ancient_log_0",
+          },
+          count: 16,
+        },
+        {
+          id: "309E95A5AD614C46",
+          type: "item",
+          item: {
+            count: 1,
+            id: "allthemodium:ancient_stone",
+          },
+          count: 32,
+        },
+      ],
+      rewards: [
+        {
+          id: "26DEDF935E63E323",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      id: "31B888B75CB87D5B",
+      x: 1.6,
+      y: 16.9,
+      dependencies: [
+        "2811939991D9A959",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "70AC866B734AEAF1",
+          type: "item",
+          item: {
+            count: 1,
+            id: "allthemodium:ancient_herb",
+          },
+        },
+        {
+          id: "1491601A20274E18",
+          type: "item",
+          item: {
+            count: 1,
+            id: "allthemodium:soul_berries",
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "54FEC5F088873D83",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      id: "6317871254FF2525",
+      x: 1.6,
+      y: 13.9,
+      icon: {
+        count: 1,
+        id: "allthemodium:ancient_stone_bricks",
+      },
+      dependencies: [
+        "2811939991D9A959",
+      ],
+      tasks: [
+        {
+          id: "3B53A8EAD9A4F58D",
+          type: "structure",
+          structure: "allthemodium:ancient_pyramid",
+        },
+      ],
+      rewards: [
+        {
+          id: "48CA40FFA3BF23EC",
+          type: "xp",
+          xp: 200,
+        },
+        {
+          id: "39FE7362B97B3096",
+          type: "random",
+          table_id: 2400381249138584,
+        },
+      ],
+    },
+    {
+      id: "573DE36DE6AA5220",
+      x: 1.6,
+      y: 18.4,
+      icon: {
+        count: 1,
+        id: "allthemodium:ancient_stone_bricks",
+      },
+      dependencies: [
+        "2811939991D9A959",
+      ],
+      tasks: [
+        {
+          id: "7104F54501ABAA10",
+          type: "structure",
+          structure: "allthemodium:dungeon",
+        },
+      ],
+      rewards: [
+        {
+          id: "1F7B25A108C93CEA",
+          type: "xp",
+          xp: 200,
+        },
+        {
+          id: "7264662D52F9D403",
+          type: "random",
+          table_id: 2400381249138584,
+        },
+      ],
+    },
+    {
+      id: "11A8C30AC3CECC14",
+      x: 1.6,
+      y: 12.4,
+      icon: {
+        count: 1,
+        id: "minecraft:gold_block",
+      },
+      dependencies: [
+        "2811939991D9A959",
+      ],
+      tasks: [
+        {
+          id: "74E501355C1A1DAB",
+          type: "structure",
+          structure: "allthemodium:piglin_village",
+        },
+      ],
+      rewards: [
+        {
+          id: "2F239FAC7E494845",
+          type: "xp",
+          xp: 200,
+        },
+        {
+          id: "7EEFB7B5472E0D59",
+          type: "random",
+          table_id: 2210856162803377,
+        },
+      ],
+    },
+    {
+      id: "26CE3EC1BD05459C",
+      x: 3.2,
+      y: 12.4,
+      size: 1.5,
+      icon: {
+        count: 1,
+        id: "allthemodium:piglich_heart",
+      },
+      dependencies: [
+        "11A8C30AC3CECC14",
+      ],
+      tasks: [
+        {
+          id: "592B646220039AA2",
+          type: "kill",
+          entity: "allthemodium:piglich",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "3CEB4B00402D0D6B",
+          type: "xp",
+          xp: 400,
+        },
+        {
+          id: "70F4B341E8AA2F18",
+          type: "random",
+          table_id: 379532711335085,
+        },
+      ],
+    },
+    {
+      id: "132D13DCD2E00508",
+      x: 4.8,
+      y: 12.4,
+      dependencies: [
+        "26CE3EC1BD05459C",
+      ],
+      tasks: [
+        {
+          id: "228EE2821A8BB80A",
+          type: "item",
+          item: {
+            count: 1,
+            id: "allthemodium:piglich_heart",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6C955A4A4FBAE341",
+          type: "xp",
+          xp: 200,
+        },
+      ],
+    },
+    {
+      id: "4511C7EC270D8F97",
+      x: 0.0,
+      y: 21.0,
+      size: 1.5,
+      dependencies: [
+        "2811939991D9A959",
+      ],
+      tasks: [
+        {
+          id: "0E30018587162EA2",
+          type: "item",
+          item: {
+            count: 1,
+            id: "allthemodium:raw_vibranium",
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "5967CB1425C6431A",
+          type: "xp",
+          xp: 300,
+        },
+      ],
+    },
+    {
+      id: "2E088CACC9730C11",
+      x: 1.6,
+      y: 21.0,
+      dependencies: [
+        "4511C7EC270D8F97",
+      ],
+      tasks: [
+        {
+          id: "76FB0C753164DC23",
+          type: "item",
+          item: {
+            count: 1,
+            id: "allthemodium:vibranium_ingot",
+          },
+          count: 8,
+        },
+      ],
+      rewards: [
+        {
+          id: "3F0334869C23090C",
+          type: "xp",
+          xp: 300,
+        },
+        {
+          id: "207BA55728AD8902",
+          type: "random",
+          table_id: 2400381249138584,
+        },
+      ],
+    },
+    {
+      id: "3B8BF16702068B30",
+      x: 3.2,
+      y: 21.0,
+      dependencies: [
+        "2E088CACC9730C11",
+      ],
+      tasks: [
+        {
+          id: "3DA934515E7602D8",
+          type: "item",
+          item: {
+            count: 1,
+            id: "allthemodium:vibranium_upgrade_smithing_template",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7ABA3A2D13C702C9",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      id: "6A4C279013FBDD1A",
+      x: 4.8,
+      y: 21.0,
+      dependencies: [
+        "3B8BF16702068B30",
+      ],
+      tasks: [
+        {
+          id: "154DFB936BAF8958",
+          type: "item",
+          item: {
+            count: 1,
+            id: "allthemodium:vibranium_pickaxe",
+          },
+        },
+        {
+          id: "6E49B8AFA31CDBD1",
+          type: "item",
+          item: {
+            count: 1,
+            id: "allthemodium:vibranium_sword",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3B07BE7B86831E83",
+          type: "xp",
+          xp: 300,
+        },
+      ],
+    },
+    {
+      id: "2AEA6CE1667B72C4",
+      x: 4.8,
+      y: 22.5,
+      dependencies: [
+        "3B8BF16702068B30",
+      ],
+      tasks: [
+        {
+          id: "4EF8CC62190ACF06",
+          type: "item",
+          item: {
+            count: 1,
+            id: "allthemodium:vibranium_helmet",
+          },
+        },
+        {
+          id: "0C35C53D9708A2C3",
+          type: "item",
+          item: {
+            count: 1,
+            id: "allthemodium:vibranium_chestplate",
+          },
+        },
+        {
+          id: "3152B57E1AAF986B",
+          type: "item",
+          item: {
+            count: 1,
+            id: "allthemodium:vibranium_leggings",
+          },
+        },
+        {
+          id: "4658621491963245",
+          type: "item",
+          item: {
+            count: 1,
+            id: "allthemodium:vibranium_boots",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "01C3A82D487EFD1D",
+          type: "xp",
+          xp: 400,
+        },
+        {
+          id: "68A112860C7F23E5",
+          type: "random",
+          table_id: 2210856162803377,
+        },
+      ],
+    },
+    {
+      id: "6B77958149DD846E",
+      x: 3.2,
+      y: 22.5,
+      dependencies: [
+        "2E088CACC9730C11",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "38DBA69C889EEE06",
+          type: "item",
+          item: {
+            count: 1,
+            id: "allthemodium:vibranium_shield",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "110C6DE19301806B",
+          type: "xp",
+          xp: 150,
+        },
+      ],
+    },
+    {
+      id: "562876CE1CF0C29E",
+      x: 0.0,
+      y: 25.1,
+      size: 1.5,
+      icon: {
+        count: 1,
+        id: "minecraft:end_stone",
+      },
+      dependencies: [
+        "6A4C279013FBDD1A",
+      ],
+      tasks: [
+        {
+          id: "0305C7DB2FB53EF2",
+          type: "dimension",
+          dimension: "allthemodium:the_beyond",
+        },
+      ],
+      rewards: [
+        {
+          id: "2E81A663825B5C71",
+          type: "xp",
+          xp: 300,
+        },
+        {
+          id: "043F0E12564BAA73",
+          type: "random",
+          table_id: 2400381249138584,
+        },
+      ],
+    },
+    {
+      id: "17AE580430EA1BA9",
+      x: 1.6,
+      y: 25.1,
+      size: 1.5,
+      dependencies: [
+        "562876CE1CF0C29E",
+      ],
+      tasks: [
+        {
+          id: "039A9F1284509032",
+          type: "item",
+          item: {
+            count: 1,
+            id: "allthemodium:raw_unobtainium",
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "58632FC105080D6F",
+          type: "xp",
+          xp: 400,
+        },
+      ],
+    },
+    {
+      id: "49DDCA926E7726A1",
+      x: 3.2,
+      y: 25.1,
+      dependencies: [
+        "17AE580430EA1BA9",
+      ],
+      tasks: [
+        {
+          id: "40F9B6DC319F66AE",
+          type: "item",
+          item: {
+            count: 1,
+            id: "allthemodium:unobtainium_ingot",
+          },
+          count: 8,
+        },
+      ],
+      rewards: [
+        {
+          id: "586080D5EE9CC1F0",
+          type: "xp",
+          xp: 400,
+        },
+        {
+          id: "01E1B301C47FEE0D",
+          type: "random",
+          table_id: 379532711335085,
+        },
+      ],
+    },
+    {
+      id: "4B4C95E8260BCB7C",
+      x: 4.8,
+      y: 25.1,
+      dependencies: [
+        "49DDCA926E7726A1",
+      ],
+      tasks: [
+        {
+          id: "2F5039DAC924F4A9",
+          type: "item",
+          item: {
+            count: 1,
+            id: "allthemodium:unobtainium_upgrade_smithing_template",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0B4FE9214892D6BE",
+          type: "xp",
+          xp: 150,
+        },
+      ],
+    },
+    {
+      id: "2C17D7B98A5A38A1",
+      x: 6.4,
+      y: 25.1,
+      dependencies: [
+        "4B4C95E8260BCB7C",
+      ],
+      tasks: [
+        {
+          id: "7C8279486CA069F2",
+          type: "item",
+          item: {
+            count: 1,
+            id: "allthemodium:unobtainium_pickaxe",
+          },
+        },
+        {
+          id: "6141F37EC0D75F0B",
+          type: "item",
+          item: {
+            count: 1,
+            id: "allthemodium:unobtainium_sword",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0BB4187BF38077A5",
+          type: "xp",
+          xp: 400,
+        },
+        {
+          id: "52C18F2EBD7C41A4",
+          type: "random",
+          table_id: 379532711335085,
+        },
+      ],
+    },
+    {
+      id: "672DD6DCC1DABDF3",
+      x: 6.4,
+      y: 26.6,
+      dependencies: [
+        "4B4C95E8260BCB7C",
+      ],
+      tasks: [
+        {
+          id: "3B3BA8928F7CF2DD",
+          type: "item",
+          item: {
+            count: 1,
+            id: "allthemodium:unobtainium_helmet",
+          },
+        },
+        {
+          id: "1B9AD989AE6ED7CC",
+          type: "item",
+          item: {
+            count: 1,
+            id: "allthemodium:unobtainium_chestplate",
+          },
+        },
+        {
+          id: "73B3B678AADEE5CC",
+          type: "item",
+          item: {
+            count: 1,
+            id: "allthemodium:unobtainium_leggings",
+          },
+        },
+        {
+          id: "4A07A0F3DF452752",
+          type: "item",
+          item: {
+            count: 1,
+            id: "allthemodium:unobtainium_boots",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "382D36B5BF4BE545",
+          type: "xp",
+          xp: 500,
+        },
+        {
+          id: "261A30B22EC959D4",
+          type: "random",
+          table_id: 379532711335085,
+        },
+      ],
+    },
+    {
+      id: "5561503D368A6EF2",
+      x: 0.0,
+      y: 29.2,
+      shape: "hexagon",
+      size: 1.5,
+      dependencies: [
+        "49DDCA926E7726A1",
+        "2E088CACC9730C11",
+        "3D6CDFC350D4F63C",
+      ],
+      tasks: [
+        {
+          id: "118ABDA86CBD5BE0",
+          type: "item",
+          item: {
+            count: 1,
+            id: "allthemodium:vibranium_allthemodium_alloy_ingot",
+          },
+        },
+        {
+          id: "7F655B181B516D3C",
+          type: "item",
+          item: {
+            count: 1,
+            id: "allthemodium:unobtainium_allthemodium_alloy_ingot",
+          },
+        },
+        {
+          id: "5B96E706554B937E",
+          type: "item",
+          item: {
+            count: 1,
+            id: "allthemodium:unobtainium_vibranium_alloy_ingot",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6F3325AE84CABA9F",
+          type: "xp_levels",
+          xp_levels: 30,
+        },
+        {
+          id: "73A3F50294658018",
+          type: "random",
+          table_id: 379532711335085,
+        },
+      ],
+    },
+    {
+      id: "377F9C458D83E912",
+      x: 1.6,
+      y: 29.2,
+      dependencies: [
+        "5561503D368A6EF2",
+      ],
+      tasks: [
+        {
+          id: "632AA0EA2FD1D139",
+          type: "item",
+          item: {
+            count: 1,
+            id: "allthemodium:alloy_paxel",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7CB7EB5C1736419E",
+          type: "xp_levels",
+          xp_levels: 30,
+        },
+        {
+          id: "080D996F3A73AA1B",
+          type: "random",
+          table_id: 379532711335085,
+        },
+      ],
+    },
+    {
+      id: "4889B1AC46F33794",
+      x: 1.6,
+      y: 30.7,
+      dependencies: [
+        "5561503D368A6EF2",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "27804381D6BD5D5B",
+          type: "item",
+          item: {
+            count: 1,
+            id: "allthemodium:alloy_sword",
+          },
+        },
+        {
+          id: "78ABC838441D80AE",
+          type: "item",
+          item: {
+            count: 1,
+            id: "allthemodium:alloy_mace",
+          },
+        },
+        {
+          id: "0976A9243C6ECD06",
+          type: "item",
+          item: {
+            count: 1,
+            id: "allthemodium:alloy_trident",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "11F242AFC95F6FAC",
+          type: "xp_levels",
+          xp_levels: 30,
+        },
+        {
+          id: "4D4A5412D45B6A9B",
+          type: "random",
+          table_id: 379532711335085,
+        },
+      ],
+    },
+    {
+      id: "5C5F951C4D73E632",
+      x: 0.0,
+      y: 30.7,
+      icon: {
+        count: 1,
+        id: "allthemodium:unobtainium_block",
+      },
+      dependencies: [
+        "49DDCA926E7726A1",
+      ],
+      tasks: [
+        {
+          id: "68ABE5963664ECFD",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "3CC5ED11BBD2ACD6",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      id: "25E115436FA942F0",
+      x: 3.2,
+      y: 29.2,
+      shape: "gear",
+      size: 2.0,
+      dependencies: [
+        "377F9C458D83E912",
+        "672DD6DCC1DABDF3",
+      ],
+      tasks: [
+        {
+          id: "5E47F9E74E5B2530",
+          type: "item",
+          item: {
+            count: 1,
+            id: "allthemodium:allthemodium_block",
+          },
+        },
+        {
+          id: "1915D3BD4C8E19D7",
+          type: "item",
+          item: {
+            count: 1,
+            id: "allthemodium:vibranium_block",
+          },
+        },
+        {
+          id: "31EE60187CAC46DA",
+          type: "item",
+          item: {
+            count: 1,
+            id: "allthemodium:unobtainium_block",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "443AF80488ECF6C0",
+          type: "xp_levels",
+          xp_levels: 50,
+        },
+        {
+          id: "2FA3FB1A991297B4",
+          type: "random",
+          table_id: 379532711335085,
+        },
+      ],
+    },
+  ],
+  quest_links: [ ],
+  images: [
+    {
+      x: 5.4,
+      y: -1.5188,
+      width: 12.0,
+      height: 1.4375,
+      rotation: 0.0,
+      image: "gspack:textures/quests/allthemodium_header.png",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false,
+    },
+    {
+      x: 1.0588,
+      y: 4.1,
+      width: 3.3176,
+      height: 0.6,
+      rotation: 0.0,
+      image: "gspack:textures/quests/allthemodium_atm_ore.png",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false,
+    },
+    {
+      x: 0.9882,
+      y: 28.0,
+      width: 3.1765,
+      height: 0.6,
+      rotation: 0.0,
+      image: "gspack:textures/quests/allthemodium_alloys.png",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false,
+    },
+    {
+      x: 0.6529,
+      y: 11.2,
+      width: 2.5059,
+      height: 0.6,
+      rotation: 0.0,
+      image: "gspack:textures/quests/allthemodium_other.png",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false,
+    },
+    {
+      x: 0.8294,
+      y: 23.9,
+      width: 2.8588,
+      height: 0.6,
+      rotation: 0.0,
+      image: "gspack:textures/quests/allthemodium_beyond.png",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false,
+    },
+    {
+      x: 0.8471,
+      y: 0.0,
+      width: 2.8941,
+      height: 0.6,
+      rotation: 0.0,
+      image: "gspack:textures/quests/allthemodium_start.png",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false,
+    },
+    {
+      x: 0.6882,
+      y: 19.8,
+      width: 2.5765,
+      height: 0.6,
+      rotation: 0.0,
+      image: "gspack:textures/quests/allthemodium_vib_ore.png",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false,
+    },
+  ],
+}

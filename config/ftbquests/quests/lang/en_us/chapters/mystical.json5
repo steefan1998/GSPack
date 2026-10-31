@@ -1,0 +1,214 @@
+{
+  "chapter.7C03228C4B5771C2.chapter_subtitle": [
+    "Grow your resources from magical seeds.",
+  ],
+  "chapter.7C03228C4B5771C2.title": "Mystical Agriculture",
+  "quest.03EE483AB539A6D0.quest_desc": [
+    "Creative-style flight from your chestplate.",
+  ],
+  "quest.03EE483AB539A6D0.title": "Fly Like a Farmer",
+  "quest.043289633BB2DF06.quest_desc": [
+    "The strongest material in Mystical Agriculture.",
+  ],
+  "quest.043289633BB2DF06.title": "Awakened Supremium",
+  "quest.04AC101557AE9BEF.quest_desc": [
+    "Right-click the altar with the Wand to start crafting.",
+  ],
+  "quest.04AC101557AE9BEF.title": "Wand",
+  "quest.04E2AF8DE5D7C91B.quest_desc": [
+    "The base of every resource seed. You will need a lot of these!",
+  ],
+  "quest.04E2AF8DE5D7C91B.title": "Prosperity Seed Base",
+  "quest.0E891926A4232AAD.quest_desc": [
+    "Store essence compactly. Every tier has its own block.",
+  ],
+  "quest.0E891926A4232AAD.title": "Storage Blocks",
+  "quest.1090680E4E2A3B58.quest_desc": [
+    "Mystical Agradditions adds essence paxels.",
+  ],
+  "quest.1090680E4E2A3B58.title": "Paxels",
+  "quest.13DE91D0664FF6CB.quest_desc": [
+    "Harvest many crops at once.",
+  ],
+  "quest.13DE91D0664FF6CB.title": "Sickles \\& Scythes",
+  "quest.17507E0C6980788A.quest_desc": [
+    "Tier 3 essence. Iron, copper and most common metal seeds need it.",
+  ],
+  "quest.17507E0C6980788A.title": "Tertium",
+  "quest.1796C97EA4B00222.quest_desc": [
+    "Tier 6 crops need a special &eCrux&r block placed directly &ounder&r the farmland:",
+    "- Nether Star Seeds: Nether Star Crux",
+    "- Dragon Egg Seeds: Dragon Egg Crux",
+    "- Nitro Crystal Seeds: Nitro Crystal Crux",
+  ],
+  "quest.1796C97EA4B00222.title": "Crux Blocks",
+  "quest.19AFD0301778E2DC.quest_desc": [
+    "Tier 5 seeds will not grow without Supremium (or better) farmland under them.",
+  ],
+  "quest.19AFD0301778E2DC.title": "Supremium Farmland",
+  "quest.1BEF52446776F654.quest_desc": [
+    "A full set of the same tier gives a set bonus.",
+  ],
+  "quest.1BEF52446776F654.title": "Essence Armor",
+  "quest.1C8876AE302AEF00.quest_desc": [
+    "Right-click farmland with an essence to turn it into &eEssence Farmland&r of that tier.",
+    "",
+    "Essence farmland gives a bonus chance of extra essence to crops of the same tier or lower.",
+  ],
+  "quest.1C8876AE302AEF00.title": "Essence Farmland",
+  "quest.1ECC13DFC2E9E959.quest_desc": [
+    "Needed for the awakening ritual and some top-tier recipes.",
+  ],
+  "quest.1ECC13DFC2E9E959.title": "Cognizant Dust",
+  "quest.1FEB4BB346895D4B.quest_desc": [
+    "Tier 2 essence. Used for tier 2 seeds, tools and armor.",
+  ],
+  "quest.1FEB4BB346895D4B.title": "Prudentium",
+  "quest.21772CA6F965E0C4.quest_desc": [
+    "Augments add powers to essence gear: speed, strength, flight, mining area, night vision, no fall damage and more.",
+    "",
+    "Craft an augment and put it in the tool or armor at the Tinkering Table.",
+  ],
+  "quest.21772CA6F965E0C4.title": "Tinkering Table",
+  "quest.21C66A3064FF6042.quest_desc": [
+    "The best farmland. Also lets you grow tier 6 crops.",
+  ],
+  "quest.21C66A3064FF6042.title": "Insanium Farmland",
+  "quest.287760C0E30D4DC1.quest_desc": [
+    "The in-game guide explains every block, item and crop in the mod.",
+  ],
+  "quest.287760C0E30D4DC1.title": "The Guide Book",
+  "quest.29FC7019FC3BD0D4.quest_desc": [
+    "Turns mob drops into souls for your Soul Jars.",
+  ],
+  "quest.29FC7019FC3BD0D4.title": "Soul Extractor",
+  "quest.309C43956B7247A6.quest_desc": [
+    "The Awakening Altar turns Supremium into &eAwakened Supremium&r.",
+    "",
+    "Place the altar with pedestals and four &eEssence Vessels&r around it, each filled with a different elemental essence (Air, Earth, Water and Fire). Check JEI for the exact layout.",
+  ],
+  "quest.309C43956B7247A6.title": "The Awakening Altar",
+  "quest.31568A9B9D601264.quest_desc": [
+    "Soulstone generates in the Nether, especially around soul sand valleys.",
+  ],
+  "quest.31568A9B9D601264.title": "Soulstone",
+  "quest.39D6B7EAA92C303D.quest_desc": [
+    "A much bigger area.",
+  ],
+  "quest.39D6B7EAA92C303D.title": "Better Watering",
+  "quest.3B0BEDDA3323ACE2.quest_desc": [
+    "Tier 5 essence, the best in the base mod. Diamond, emerald and netherite seeds.",
+  ],
+  "quest.3B0BEDDA3323ACE2.title": "Supremium",
+  "quest.3F671B2359EEF45B.quest_desc": [
+    "Supremium armor can hold the strongest augments, including &eFlight&r.",
+  ],
+  "quest.3F671B2359EEF45B.title": "Supremium Armor",
+  "quest.4007A77391DC8D14.quest_desc": [
+    "A faster furnace that uses essence ingots.",
+  ],
+  "quest.4007A77391DC8D14.title": "Essence Furnace",
+  "quest.4352DDD0E2CFC270.quest_desc": [
+    "Essence tools are durable and get &eaugment slots&r at higher tiers.",
+  ],
+  "quest.4352DDD0E2CFC270.title": "Essence Tools",
+  "quest.46A4029ACDBCCE6C.quest_desc": [
+    "Place them under the farmland (they work through blocks in a column) to speed up crops. Stack several and use higher tiers for a bigger range.",
+  ],
+  "quest.46A4029ACDBCCE6C.title": "Growth Accelerators",
+  "quest.4888816C1D76F7BE.quest_desc": [
+    "Tier 4 essence. Gold, lapis, and many alloy seeds.",
+  ],
+  "quest.4888816C1D76F7BE.title": "Imperium",
+  "quest.4BD39386AA14021B.quest_desc": [
+    "Turns spare seeds back into essence.",
+  ],
+  "quest.4BD39386AA14021B.title": "Seed Reprocessor",
+  "quest.4FCE401A59F69428.quest_desc": [
+    "Try a few augments. Higher tier gear can hold more of them.",
+  ],
+  "quest.4FCE401A59F69428.title": "Augmented",
+  "quest.50542CE1AC88A8C0.quest_desc": [
+    "Harvests and replants crops automatically. Pipe the output into storage, or connect it to your ME system.",
+  ],
+  "quest.50542CE1AC88A8C0.title": "Harvester",
+  "quest.526D066E9F19349F.quest_desc": [
+    "Essence + Prosperity Ingots make essence ingots, used in machines and the Growth Accelerator.",
+  ],
+  "quest.526D066E9F19349F.title": "Essence Ingots",
+  "quest.53FA654EAFFB934B.quest_desc": [
+    "Soulium comes from Soulstone found in the Nether. It is needed for mob seeds.",
+  ],
+  "quest.53FA654EAFFB934B.title": "Soulium",
+  "quest.55875DB1E1D738EE.quest_desc": [
+    "&bMystical Agradditions&r adds a sixth tier: &dInsanium&r. It is made from Supremium Essence and Nether Star Shards (from the Wither) in the Infusion Altar.",
+    "",
+    "Insanium is needed for tier 6 seeds and the best farmland.",
+  ],
+  "quest.55875DB1E1D738EE.title": "Insanium",
+  "quest.59DBF4AB2C0790D1.quest_desc": [
+    "&bMystical Agriculture&r lets you grow almost every resource in the game, from dirt to diamonds to nether stars.",
+    "",
+    "Mine &eInferium Ore&r (it looks like stone with green specks) for &eInferium Essence&r. It is the base of everything in this mod.",
+    "",
+    "&6Tip:&r Inferium Ore is fairly common at most heights, including deepslate.",
+  ],
+  "quest.59DBF4AB2C0790D1.quest_subtitle": "The magic behind every crop",
+  "quest.59DBF4AB2C0790D1.title": "Inferium Essence",
+  "quest.6200F91E9014362E.quest_desc": [
+    "Plant them on farmland to grow more Inferium Essence. Each harvest has a small chance to drop an extra seed.",
+    "",
+    "Inferium crops drop more essence on higher-tier essence farmland.",
+  ],
+  "quest.6200F91E9014362E.title": "Inferium Seeds",
+  "quest.63322978426F4FD0.quest_desc": [
+    "Instantly grows any crop, including resource crops. Works in a Dispenser too.",
+  ],
+  "quest.63322978426F4FD0.title": "Mystical Fertilizer",
+  "quest.6A37A4256C666273.quest_desc": [
+    "The &eSeed Codex&r chapter has a quest for every single seed in this pack. Can you collect them all?",
+  ],
+  "quest.6A37A4256C666273.title": "Open the Seed Codex",
+  "quest.70A14B158CEDE300.quest_desc": [
+    "An Infusion Crystal that never breaks. A must-have!",
+  ],
+  "quest.70A14B158CEDE300.title": "Master Infusion Crystal",
+  "quest.71B81892EBCD4712.quest_desc": [
+    "Mine &eProsperity Ore&r for shards. They are used for seed bases and many crafting recipes.",
+  ],
+  "quest.71B81892EBCD4712.title": "Prosperity Shards",
+  "quest.726606855F33F1C5.quest_desc": [
+    "Resource seeds are made on the &eInfusion Altar&r.",
+    "",
+    "1. Place the altar and 8 pedestals around it, two blocks away (check JEI for the layout).",
+    "2. Put the seed base on the altar and the ingredients on the pedestals.",
+    "3. Activate it with a redstone signal, or right-click with a &eWand&r.",
+    "",
+    "&6Tip:&r The &eSeed Codex&r chapter lists every seed you can grow in this pack!",
+  ],
+  "quest.726606855F33F1C5.title": "Infusion Altar",
+  "quest.729BBEFAD9180A26.quest_desc": [
+    "Hold right-click to speed up crops in an area. Higher tiers cover a bigger area.",
+  ],
+  "quest.729BBEFAD9180A26.title": "Watering Can",
+  "quest.72BB33B7B9A9208C.quest_desc": [
+    "Mob seeds need &esouls&r. Carry an empty Soul Jar and kill mobs with a &eSoulium Dagger&r to fill it.",
+    "",
+    "A full jar goes into the altar recipe for that mob's seed.",
+  ],
+  "quest.72BB33B7B9A9208C.title": "Soul Jars",
+  "quest.7766A2E8F165C8D2.quest_desc": [
+    "Combine 4 essence with an Infusion Crystal to make 1 essence of the next tier. The crystal loses durability each time.",
+    "",
+    "Inferium -> Prudentium -> Tertium -> Imperium -> Supremium -> (Insanium)",
+  ],
+  "quest.7766A2E8F165C8D2.title": "Infusion Crystal",
+  "quest.7C124A062C5B8420.quest_desc": [
+    "Supremium accelerators have the biggest range.",
+  ],
+  "quest.7C124A062C5B8420.title": "Faster Growth",
+  "quest.7E397EF7EF6D8696.quest_desc": [
+    "Awakened Supremium gear has the most augment slots of all.",
+  ],
+  "quest.7E397EF7EF6D8696.title": "Awakened Gear",
+}

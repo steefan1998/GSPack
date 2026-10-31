@@ -1,0 +1,298 @@
+{
+  "chapter.5EDCE6827B2A12C6.chapter_subtitle": [
+    "Animated machines, addons, lasers, augments and particle physics.",
+  ],
+  "chapter.5EDCE6827B2A12C6.title": "Oritech",
+  "quest.001E654BC5F95156.quest_desc": [
+    "Pumps whole lakes of fluid, including oil and lava.",
+  ],
+  "quest.001E654BC5F95156.title": "Pump",
+  "quest.00CA23369850E134.quest_desc": [
+    "Silicon is made from sand and quartz. Wafers are used for processing units.",
+  ],
+  "quest.00CA23369850E134.title": "Silicon",
+  "quest.01DDF59765AE84F2.quest_desc": [
+    "Platinum ore is rarer and found deep underground and in the End. It is needed for advanced parts.",
+  ],
+  "quest.01DDF59765AE84F2.title": "Platinum",
+  "quest.04ABCDD36FEBC334.quest_desc": [
+    "You have created a &5black hole&r. There is nothing left to learn from Oritech!",
+  ],
+  "quest.04ABCDD36FEBC334.title": "Event Horizon",
+  "quest.04AC3F95642E09D2.quest_desc": [
+    "A fast powered furnace.",
+  ],
+  "quest.04AC3F95642E09D2.title": "Powered Furnace",
+  "quest.05226FE0B2B61B06.quest_desc": [
+    "Store power for your machines.",
+  ],
+  "quest.05226FE0B2B61B06.title": "Energy Storage",
+  "quest.055DD2A8988C410F.quest_desc": [
+    "Refines oil into fuel, heavy oil, naphtha and more. Stack refinery modules on top for more output steps.",
+  ],
+  "quest.055DD2A8988C410F.title": "Refinery",
+  "quest.06D5F19359AC59DF.quest_desc": [
+    "Control which items go where.",
+  ],
+  "quest.06D5F19359AC59DF.title": "Item Filters",
+  "quest.0C109AD81B371637.quest_desc": [
+    "Charges your Oritech tools and armor.",
+  ],
+  "quest.0C109AD81B371637.title": "Equipment Charger",
+  "quest.0E62696F14C9468F.quest_desc": [
+    "Burns biomass made from plants. Pairs well with an automated farm.",
+  ],
+  "quest.0E62696F14C9468F.title": "Bio Generator",
+  "quest.13AF4E2EC6B56426.quest_desc": [
+    "Electric mining tools.",
+  ],
+  "quest.13AF4E2EC6B56426.title": "Powered Tools",
+  "quest.15EE676C679A5229.quest_desc": [
+    "Made from ender pearls. Needed for lasers and ender tech.",
+  ],
+  "quest.15EE676C679A5229.title": "Enderic Compound",
+  "quest.186E919B70663E60.quest_desc": [
+    "Deep underground there are &eresource nodes&r: special ore blocks that a laser can mine forever. Use the resonator to find them.",
+  ],
+  "quest.186E919B70663E60.title": "Resource Nodes",
+  "quest.18F5DD96F0E8E524.quest_desc": [
+    "Enchant items with a chosen enchantment using power and catalysts.",
+  ],
+  "quest.18F5DD96F0E8E524.title": "Stabilized Enchanter",
+  "quest.1A6AC12465D8576C.quest_desc": [
+    "Research and install permanent &eaugments&r into your body: more health, speed, night vision, flight and much more.",
+    "",
+    "Research augments at the &eResearch Station&r, then apply them at the &eAugmentation Center&r.",
+  ],
+  "quest.1A6AC12465D8576C.title": "Cybernetic Augments",
+  "quest.1D19154ED7965F2A.quest_desc": [
+    "Try different combinations. The Yield addon is great on processing machines.",
+  ],
+  "quest.1D19154ED7965F2A.title": "More Addons",
+  "quest.1E86F8EC346A237B.quest_desc": [
+    "Smash particles together to create materials you cannot get anywhere else. Bigger rings mean faster particles.",
+  ],
+  "quest.1E86F8EC346A237B.title": "Particle Accelerator",
+  "quest.21744E6D83DB2D60.quest_desc": [
+    "The brains of advanced Oritech machines and addons.",
+  ],
+  "quest.21744E6D83DB2D60.title": "Processing Units",
+  "quest.2232F30D17A66EF1.quest_desc": [
+    "Rotate machines and configure pipe connections.",
+  ],
+  "quest.2232F30D17A66EF1.title": "Wrench",
+  "quest.233C430533EF7FCA.quest_desc": [
+    "Turns lava into power. Pump lava from the Nether!",
+  ],
+  "quest.233C430533EF7FCA.title": "Lava Generator",
+  "quest.262A7BA8E38499A4.quest_desc": [
+    "Frame blocks form the area that gantry machines like the Destroyer and Placer move along.",
+  ],
+  "quest.262A7BA8E38499A4.title": "Machine Frames",
+  "quest.2E4CA50B608B949B.quest_desc": [
+    "Burns liquid fuels from the refinery. Much stronger than the Basic Generator.",
+  ],
+  "quest.2E4CA50B608B949B.title": "Fuel Generator",
+  "quest.2FF39C8B82D125CC.quest_desc": [
+    "Breaks ore down into clumps and gems for much more output than the Pulverizer.",
+  ],
+  "quest.2FF39C8B82D125CC.title": "Fragment Forge",
+  "quest.30AE372636BD950B.quest_desc": [
+    "Connect your machines with pipes. Right-click a pipe connection with a &eWrench&r to switch between input and output.",
+    "",
+    "&6Tip:&r Framed pipes hide inside a frame block, and pipe ducts merge several pipes into one block.",
+  ],
+  "quest.30AE372636BD950B.title": "Pipes",
+  "quest.31D7C88ED334F050.quest_desc": [
+    "Pulls endless ore out of the bedrock layer with a laser.",
+  ],
+  "quest.31D7C88ED334F050.title": "Bedrock Extractor",
+  "quest.333614D88D0DF6AF.quest_desc": [
+    "Light and strong. Used in armor, jetpacks and advanced machines.",
+  ],
+  "quest.333614D88D0DF6AF.title": "Carbon Fibre",
+  "quest.3382BC8C1F78E3D8.quest_desc": [
+    "A key part for almost every machine.",
+  ],
+  "quest.3382BC8C1F78E3D8.title": "Motors",
+  "quest.33A9814AAD99D26F.quest_desc": [
+    "&bOritech&r is a tech mod full of large, animated machines that you upgrade with &eaddon blocks&r.",
+    "",
+    "Start with a &eBasic Generator&r: it burns any furnace fuel for power (RF/FE). Look up every recipe in JEI, many of them are machine-only.",
+    "",
+    "&6Tip:&r Oritech has its own in-game guide. Check the mod's book or the JEI info tabs.",
+  ],
+  "quest.33A9814AAD99D26F.quest_subtitle": "Big machines, big ideas",
+  "quest.33A9814AAD99D26F.title": "Oritech Begins",
+  "quest.340429321F797D6A.quest_desc": [
+    "Lets pipes reach the machine's inventory from the addon's position.",
+  ],
+  "quest.340429321F797D6A.title": "Inventory Proxy",
+  "quest.3475B8676ABA581C.quest_desc": [
+    "Plastic is made from oil products in the refinery.",
+  ],
+  "quest.3475B8676ABA581C.title": "Plastic",
+  "quest.36E10CC16487122B.quest_desc": [
+    "Portable power for your tools and armor.",
+  ],
+  "quest.36E10CC16487122B.title": "Batteries",
+  "quest.3A17BFBD6E9920D4.quest_desc": [
+    "Fly using fuel and power.",
+  ],
+  "quest.3A17BFBD6E9920D4.title": "Jetpack",
+  "quest.3C406061E3598B02.quest_desc": [
+    "The best Oritech electronics.",
+  ],
+  "quest.3C406061E3598B02.title": "Advanced Computing",
+  "quest.3DD94CC58A9F5503.quest_desc": [
+    "Assembles complex components from up to four inputs. Most electronics are made here.",
+  ],
+  "quest.3DD94CC58A9F5503.title": "Assembler",
+  "quest.3E17119C6C4ABA13.quest_desc": [
+    "Each exotic metal has its own chain:",
+    "- &eAdamant&r: tough and heavy.",
+    "- &eBiosteel&r: grown from biomass.",
+    "- &eDuratium&r: extremely durable.",
+    "- &eEnergite&r: stores energy.",
+    "",
+    "Check JEI for each one.",
+  ],
+  "quest.3E17119C6C4ABA13.title": "Exotic Metals",
+  "quest.3E79BEEDF45C2B19.quest_desc": [
+    "Find oil underground and pump it up. The &eOil Resonator&r can help you find it.",
+  ],
+  "quest.3E79BEEDF45C2B19.title": "Black Gold",
+  "quest.3E7CE1119849DCB4.quest_desc": [
+    "Cuts down whole trees, including giant ones. Pair it with a Placer for an automatic tree farm.",
+  ],
+  "quest.3E7CE1119849DCB4.title": "Tree Cutter",
+  "quest.4105662CEA843494.quest_desc": [
+    "Extends a machine's addon area so it can hold more addons.",
+  ],
+  "quest.4105662CEA843494.title": "Machine Extender",
+  "quest.420E86A6AA5B9FB8.quest_desc": [
+    "Send power over long distances without pipes.",
+  ],
+  "quest.420E86A6AA5B9FB8.title": "Energy Transmission",
+  "quest.4355D0754D048C66.quest_desc": [
+    "Drones fly items between two drone ports over long distances, even across dimensions.",
+  ],
+  "quest.4355D0754D048C66.title": "Drone Port",
+  "quest.45C9F3D88D4BEDBF.quest_desc": [
+    "A configurable reactor. Rods produce heat and power, heat pipes and vents move the heat away.",
+    "",
+    "&cPlan your cooling carefully!&r Too much heat damages the reactor.",
+  ],
+  "quest.45C9F3D88D4BEDBF.title": "Nuclear Reactor",
+  "quest.4929970888F74FBF.quest_desc": [
+    "Cools and freezes fluids.",
+  ],
+  "quest.4929970888F74FBF.title": "Industrial Chiller",
+  "quest.4C77BC84B753F819.quest_desc": [
+    "Steel (iron + coal) and electrum (gold + silver/nickel, check JEI) are used in nearly every better machine.",
+  ],
+  "quest.4C77BC84B753F819.title": "First Alloys",
+  "quest.4D025AD92E0A17E3.quest_desc": [
+    "A jetpack with built-in elytra wings.",
+  ],
+  "quest.4D025AD92E0A17E3.title": "Jetpack Elytra",
+  "quest.4E23AE22BE7A68C4.quest_desc": [
+    "Right-click a block to select it, then right-click the laser to aim it there.",
+  ],
+  "quest.4E23AE22BE7A68C4.title": "Target Designator",
+  "quest.554CB09D34D456DB.quest_desc": [
+    "Powered armor. The Exo Jetpack combines a jetpack with the chestplate.",
+  ],
+  "quest.554CB09D34D456DB.title": "Exosuit",
+  "quest.566F0EB6B7ED756A.quest_desc": [
+    "Grinds ores into dust (2 per ore) and items into their powdered form.",
+  ],
+  "quest.566F0EB6B7ED756A.title": "Pulverizer",
+  "quest.56CC1E3CAA6404FB.quest_desc": [
+    "A large solar multiblock. Better cores make it stronger.",
+  ],
+  "quest.56CC1E3CAA6404FB.title": "Big Solar Panel",
+  "quest.571463582E07A06C.quest_desc": [
+    "Generators with a boiler addon make steam, which steam engines turn into power.",
+  ],
+  "quest.571463582E07A06C.title": "Steam Power",
+  "quest.5B5A53A51284ADCE.quest_desc": [
+    "The &eEnderic Laser&r fires a beam that can:",
+    "- mine blocks far away (great for ore veins and resource nodes),",
+    "- power machines and the Atomic Forge,",
+    "- charge items, and hunt mobs with the Hunter addon.",
+    "",
+    "Aim it with a &eTarget Designator&r.",
+  ],
+  "quest.5B5A53A51284ADCE.title": "Enderic Laser",
+  "quest.5B61C4A79E147036.quest_desc": [
+    "Melts metals together into alloys.",
+  ],
+  "quest.5B61C4A79E147036.title": "Foundry",
+  "quest.5D6BB35909097E83.quest_desc": [
+    "Turn mob souls into a powered spawner.",
+  ],
+  "quest.5D6BB35909097E83.title": "Spawner Controller",
+  "quest.5EDEEC1B6456B440.quest_desc": [
+    "Oritech machines have &eaddon slots&r around them. Place addon blocks in those spots to upgrade the machine:",
+    "- &eSpeed&r: faster, but uses more power.",
+    "- &eEfficiency&r: uses less power.",
+    "- &eCapacitor&r: bigger energy buffer.",
+    "- &eAcceptor&r: faster power input.",
+    "- &eYield&r: more output for some machines.",
+    "",
+    "The machine's GUI shows which addons are installed and where the free slots are.",
+  ],
+  "quest.5EDEEC1B6456B440.title": "Machine Addons",
+  "quest.60FF10AFF904E91D.quest_desc": [
+    "Build a rectangle of &eMachine Frames&r, then place a machine head next to it. The head moves around inside the frame:",
+    "- &eDestroyer&r: harvests crops and breaks blocks.",
+    "- &ePlacer&r: plants seeds and places blocks.",
+    "- &eFertilizer&r: grows crops faster.",
+  ],
+  "quest.60FF10AFF904E91D.title": "Frame Gantry",
+  "quest.640962174C798D6C.quest_desc": [
+    "Separates materials, and with the &eFluid Addon&r it also processes fluids.",
+  ],
+  "quest.640962174C798D6C.title": "Centrifuge",
+  "quest.667819219399E061.quest_desc": [
+    "Magnetic coils go into motors, generators and electronics.",
+  ],
+  "quest.667819219399E061.title": "Magnetic Coils",
+  "quest.69B25FB9C2A6AFA8.quest_desc": [
+    "An energy crystal used for top-tier power items.",
+  ],
+  "quest.69B25FB9C2A6AFA8.title": "Fluxite",
+  "quest.6F32BDE7939A8207.quest_desc": [
+    "Liquid fuels for the Fuel Generator and the jetpack.",
+  ],
+  "quest.6F32BDE7939A8207.title": "Fuel",
+  "quest.791DE4893697B1AC.quest_desc": [
+    "A laser-powered multiblock forge. It makes the exotic materials.",
+  ],
+  "quest.791DE4893697B1AC.title": "Atomic Forge",
+  "quest.791E90AC2B404F54.quest_desc": [
+    "A very powerful long-range weapon.",
+  ],
+  "quest.791E90AC2B404F54.title": "Enderic Railgun",
+  "quest.7A554E77215E8A26.quest_desc": [
+    "Liquid strange matter, one of the strangest products of the particle accelerator.",
+  ],
+  "quest.7A554E77215E8A26.title": "Strange Matter",
+  "quest.7B77F11C940044F4.quest_desc": [
+    "Nickel is an Oritech staple. AllTheOres nickel can often be used too, but the quest needs Oritech's.",
+  ],
+  "quest.7B77F11C940044F4.title": "Nickel",
+  "quest.7C392B4A07217775.quest_desc": [
+    "Pipes that carry huge amounts of power.",
+  ],
+  "quest.7C392B4A07217775.title": "Superconductors",
+  "quest.7F1BB63AA0380A80.quest_desc": [
+    "Big multiblock machines like the Atomic Forge and the Particle Accelerator need machine cores around them. Higher core tiers allow better machines.",
+  ],
+  "quest.7F1BB63AA0380A80.title": "Machine Cores",
+  "quest.7F3B243CE461C491.quest_desc": [
+    "Higher tier cores for higher tier machines.",
+  ],
+  "quest.7F3B243CE461C491.title": "Better Cores",
+}

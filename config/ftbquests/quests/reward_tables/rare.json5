@@ -1,0 +1,93 @@
+{
+  id: "0007DAC3103BBEB1",
+  filename: "rare",
+  order_index: 2,
+  loot_size: 1,
+  rewards: [
+    {
+      id: "748646E27A61B164",
+      type: "item",
+      item: {
+        count: 1,
+        id: "minecraft:diamond",
+      },
+      count: 4,
+      weight: 20.0,
+    },
+    {
+      id: "7040273096A49D99",
+      type: "item",
+      item: {
+        count: 1,
+        id: "minecraft:emerald",
+      },
+      count: 8,
+      weight: 15.0,
+    },
+    {
+      id: "7E3383B5B2B44BA4",
+      type: "item",
+      item: {
+        count: 1,
+        id: "minecraft:golden_apple",
+      },
+      count: 2,
+      weight: 12.0,
+    },
+    {
+      id: "3806A729980D247C",
+      type: "item",
+      item: {
+        count: 1,
+        id: "minecraft:name_tag",
+      },
+      weight: 6.0,
+    },
+    {
+      id: "7B1B79E06EFB40FC",
+      type: "item",
+      item: {
+        count: 1,
+        id: "mysticalagriculture:prudentium_essence",
+      },
+      count: 16,
+      weight: 12.0,
+    },
+    {
+      id: "736322DBAC2D50AB",
+      type: "item",
+      item: {
+        count: 1,
+        id: "apotheosis:gem_dust",
+      },
+      count: 16,
+      weight: 10.0,
+    },
+    {
+      id: "35ECAC6E18CDBD25",
+      type: "item",
+      item: {
+        count: 1,
+        id: "minecraft:blaze_rod",
+      },
+      count: 8,
+      weight: 10.0,
+    },
+    {
+      id: "51A9A68FACDE9407",
+      type: "item",
+      item: {
+        count: 1,
+        id: "minecraft:experience_bottle",
+      },
+      count: 16,
+      weight: 10.0,
+    },
+    {
+      id: "08938DC43C6CC3A1",
+      type: "xp_levels",
+      xp_levels: 10,
+      weight: 5.0,
+    },
+  ],
+}

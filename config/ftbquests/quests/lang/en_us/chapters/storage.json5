@@ -1,0 +1,260 @@
+{
+  "chapter.6B8DF50B9338FDD7.chapter_subtitle": [
+    "Chests, drawers, backpacks, pipes and networks to keep it all organised.",
+  ],
+  "chapter.6B8DF50B9338FDD7.title": "Storage",
+  "quest.003DEC7E4417F5CC.quest_desc": [
+    "Picks the best tool from your backpack for the block you are mining.",
+  ],
+  "quest.003DEC7E4417F5CC.title": "Tool Swapper",
+  "quest.00B1E998DF031FF1.quest_desc": [
+    "A lot of space.",
+  ],
+  "quest.00B1E998DF031FF1.title": "Diamond Backpack",
+  "quest.051C55B31452665B.quest_desc": [
+    "More slots and more upgrade slots.",
+  ],
+  "quest.051C55B31452665B.title": "Gold Backpack",
+  "quest.0BC97A9AFBAB4517.quest_desc": [
+    "&bSophisticated Storage&r adds chests, barrels and shulker boxes that you can &eupgrade in place&r: no need to empty them first!",
+    "",
+    "Craft a wooden Sophisticated Chest. It works like a normal chest, but has slots for &eupgrades&r.",
+    "",
+    "&6Tip:&r Sophisticated chests keep their contents when broken with the right tool, so you can move them around.",
+  ],
+  "quest.0BC97A9AFBAB4517.quest_subtitle": "Your first upgradeable chest",
+  "quest.0BC97A9AFBAB4517.title": "Sophisticated Chest",
+  "quest.0EFD0E75CFB37733.quest_desc": [
+    "A shulker box with upgrade slots. Keeps everything inside when picked up.",
+  ],
+  "quest.0EFD0E75CFB37733.title": "Sophisticated Shulker Box",
+  "quest.0F0AEA5C7B7CB540.quest_desc": [
+    "Stores lots of non-stackable items like tools and armor.",
+  ],
+  "quest.0F0AEA5C7B7CB540.title": "Armory Cabinet",
+  "quest.0FC4D256933EAC13.quest_desc": [
+    "One pipe that carries everything.",
+  ],
+  "quest.0FC4D256933EAC13.title": "Universal Pipe",
+  "quest.0FD19972AFF0C896.quest_desc": [
+    "Automatically compacts items into blocks. Perfect for cobblestone or ore drops.",
+  ],
+  "quest.0FD19972AFF0C896.title": "Compacting",
+  "quest.160566182B5E180D.quest_desc": [
+    "Pulls items around you into your inventory. Toggle it with a keybind.",
+  ],
+  "quest.160566182B5E180D.title": "Magnet",
+  "quest.173B29821181CB4F.quest_desc": [
+    "Upgrade the backpack in the crafting grid. It keeps its contents.",
+  ],
+  "quest.173B29821181CB4F.title": "Iron Backpack",
+  "quest.17D1D19DA943C15C.quest_desc": [
+    "Stops magnets from pulling items near your farms and machines.",
+  ],
+  "quest.17D1D19DA943C15C.title": "Demagnetization Coil",
+  "quest.19A155F3C26CF2B6.quest_desc": [
+    "The fastest pipe upgrade.",
+  ],
+  "quest.19A155F3C26CF2B6.title": "Ultimate Upgrade",
+  "quest.1CC88D93477FA5E2.quest_desc": [
+    "Even more space.",
+  ],
+  "quest.1CC88D93477FA5E2.title": "Gold Tier",
+  "quest.2034319597BAB197.quest_desc": [
+    "Stack upgrades multiply how many items fit in each slot. Tier 1 doubles it, and every tier after that goes higher.",
+    "",
+    "Combine them with Limited Barrels for enormous bulk storage.",
+  ],
+  "quest.2034319597BAB197.title": "Stack Upgrades",
+  "quest.20693D59452D603C.quest_desc": [
+    "Use a tier upgrade on a placed chest or barrel to upgrade it: more slots and more upgrade slots.",
+  ],
+  "quest.20693D59452D603C.title": "Iron Tier",
+  "quest.226E60BEFFE9FFFB.quest_desc": [
+    "Keeps your hotbar filled with blocks, torches and food.",
+  ],
+  "quest.226E60BEFFE9FFFB.title": "Restock \\& Refill",
+  "quest.23959550DB1EFD3F.quest_desc": [
+    "Much more capacity.",
+  ],
+  "quest.23959550DB1EFD3F.title": "Bigger Drawers",
+  "quest.267F2A9D9776F565.quest_desc": [
+    "Stores nuggets, ingots and blocks of the same metal together, and converts between them automatically.",
+  ],
+  "quest.267F2A9D9776F565.title": "Compacting Drawer",
+  "quest.27D90A1FDC3CDCA4.quest_desc": [
+    "Storage upgrades multiply the capacity of a drawer.",
+  ],
+  "quest.27D90A1FDC3CDCA4.title": "Drawer Upgrades",
+  "quest.29C07FC960AFA103.quest_desc": [
+    "Your backpack can never be destroyed, and it stays with you even when you die.",
+  ],
+  "quest.29C07FC960AFA103.title": "Everlasting",
+  "quest.2B0AECA562C22601.quest_desc": [
+    "Fluid, energy and gas pipes work the same way.",
+  ],
+  "quest.2B0AECA562C22601.title": "All the Pipes",
+  "quest.323C63323EAF4DDB.quest_desc": [
+    "&bFunctional Storage&r is another drawer mod with its own controller, ender drawers and fluid drawers.",
+  ],
+  "quest.323C63323EAF4DDB.title": "Functional Storage",
+  "quest.39E3F7AFC0C52105.quest_desc": [
+    "Choose which items go into which inventory.",
+  ],
+  "quest.39E3F7AFC0C52105.title": "Filters",
+  "quest.3A0C08228ACF0A89.quest_desc": [
+    "Fit more items in every slot.",
+  ],
+  "quest.3A0C08228ACF0A89.title": "Backpack Stacks",
+  "quest.3A8385CA4DBB6E11.quest_desc": [
+    "A huge chest.",
+  ],
+  "quest.3A8385CA4DBB6E11.title": "Diamond Tier",
+  "quest.421997C67A8BCEEB.quest_desc": [
+    "Tape a full chest shut, then break it to move it with everything inside.",
+  ],
+  "quest.421997C67A8BCEEB.title": "Packing Tape",
+  "quest.44CFFDD6AC020105.quest_desc": [
+    "&bPipez&r adds simple, fast pipes for items, fluids, energy and Mekanism gases.",
+    "",
+    "Pipes only extract from a block when you set that side to extract: shift + right-click the connection with the &eWrench&r.",
+  ],
+  "quest.44CFFDD6AC020105.title": "Pipez",
+  "quest.4634FB5FF0E9F53A.quest_desc": [
+    "Linked drawers share their contents, anywhere in the world.",
+  ],
+  "quest.4634FB5FF0E9F53A.title": "Ender Drawer",
+  "quest.47ACE88317FE5E6E.quest_desc": [
+    "Connects all touching drawers. Put items into the controller and they go to the right drawer. Pipe items into it for automatic sorting.",
+  ],
+  "quest.47ACE88317FE5E6E.title": "Drawer Controller",
+  "quest.480B2B1C8E478AE5.quest_desc": [
+    "Deletes chosen items. Set a filter so you do not lose anything important!",
+  ],
+  "quest.480B2B1C8E478AE5.title": "Void Upgrade",
+  "quest.48F9018241A5FA57.quest_desc": [
+    "Upgrades make an extracting connection faster and unlock filters, round-robin and redstone modes.",
+  ],
+  "quest.48F9018241A5FA57.title": "Pipe Upgrades",
+  "quest.49B4D55F6EE07D93.quest_desc": [
+    "A bigger range and a filter.",
+  ],
+  "quest.49B4D55F6EE07D93.title": "Advanced Magnet",
+  "quest.4D22EDEF543DF6D9.quest_desc": [
+    "Items go straight into your backpack, and the magnet pulls them in from a distance.",
+  ],
+  "quest.4D22EDEF543DF6D9.title": "Pickup \\& Magnet",
+  "quest.525D2335F706116C.quest_desc": [
+    "Put backpacks in your backpack, and their upgrades still work.",
+  ],
+  "quest.525D2335F706116C.title": "Inception",
+  "quest.536BD2E880D9F6F4.quest_desc": [
+    "&bStorage Drawers&r: each drawer holds a big stack of one item, and shows it on the front.",
+    "",
+    "Right-click to put the item you are holding in; double-click to put all of that item from your inventory in. Left-click takes items out.",
+  ],
+  "quest.536BD2E880D9F6F4.title": "Storage Drawers",
+  "quest.540F3386A890C755.quest_desc": [
+    "Drawers for fluids.",
+  ],
+  "quest.540F3386A890C755.title": "Fluid Drawers",
+  "quest.562E0F95D7E72E16.quest_desc": [
+    "&bSophisticated Backpacks&r gives you storage to carry around. Wear it on your back, or place it down.",
+    "",
+    "Press the backpack key (see Controls) to open it while wearing it.",
+  ],
+  "quest.562E0F95D7E72E16.title": "Backpack",
+  "quest.5759551E760ED7C9.quest_desc": [
+    "A crafting grid (and more) inside your backpack.",
+  ],
+  "quest.5759551E760ED7C9.title": "Crafting \\& Smithing",
+  "quest.5C6A01B8877C586F.quest_desc": [
+    "Lock a drawer to its item, or show the exact amount.",
+  ],
+  "quest.5C6A01B8877C586F.title": "Drawer Keys",
+  "quest.5E862DABB5632A99.quest_desc": [
+    "Once your base outgrows simple networks, move on to the &bApplied Energistics 2&r chapter (or Mekanism's QIO) for real digital storage and autocrafting.",
+  ],
+  "quest.5E862DABB5632A99.title": "Ready for More?",
+  "quest.5EE939B0B03DDFB2.quest_desc": [
+    "Connect chests that are further away.",
+  ],
+  "quest.5EE939B0B03DDFB2.title": "Inventory Cables",
+  "quest.617FF010BD526108.quest_desc": [
+    "Upgrade drawers, or downgrade them to keep only a little.",
+  ],
+  "quest.617FF010BD526108.title": "Functional Upgrades",
+  "quest.63054EB8EED982FA.quest_desc": [
+    "The biggest chest. It does not burn in lava either.",
+  ],
+  "quest.63054EB8EED982FA.title": "Netherite Tier",
+  "quest.634E3BA9183D9C5F.quest_desc": [
+    "Drawer-like barrels: each slot holds a lot of one item. Great for bulk materials.",
+  ],
+  "quest.634E3BA9183D9C5F.title": "Limited Barrels",
+  "quest.635073ACAFBB27B0.quest_desc": [
+    "&bTom's Simple Storage&r is an easy early storage network. Place an &eInventory Connector&r touching your chests (or connect them with Inventory Cables), and add a &eStorage Terminal&r.",
+    "",
+    "Now you can see and search everything in all connected chests from one screen. A great step before AE2!",
+  ],
+  "quest.635073ACAFBB27B0.title": "Tom's Simple Storage",
+  "quest.637D716EBE26F2F2.quest_desc": [
+    "The biggest backpack, and it does not burn.",
+  ],
+  "quest.637D716EBE26F2F2.title": "Netherite Backpack",
+  "quest.67180D5F9633A117.quest_desc": [
+    "Let pipes put items into, or take items out of, your whole controller network.",
+  ],
+  "quest.67180D5F9633A117.title": "Storage Input \\& Output",
+  "quest.691C3D6C6DF7948D.quest_desc": [
+    "Give barrels and chests the look of any block.",
+  ],
+  "quest.691C3D6C6DF7948D.title": "Decoration Table",
+  "quest.6C1D0F4C12037C19.quest_desc": [
+    "Smelts items inside the storage automatically.",
+  ],
+  "quest.6C1D0F4C12037C19.title": "Auto-Smelting",
+  "quest.70B152EF11279E40.quest_desc": [
+    "The &eController&r connects nearby Sophisticated storage blocks into one big inventory. Put items in the controller and they go to the right place.",
+    "",
+    "Storage Links extend the controller's reach.",
+  ],
+  "quest.70B152EF11279E40.title": "Storage Controller",
+  "quest.714B14D75CF4C3CB.quest_desc": [
+    "Upgrades add features to a storage block:",
+    "- &ePickup&r: collects items thrown into it.",
+    "- &eHopper&r: pulls items from above and pushes them below.",
+    "- &eCompacting&r: turns nuggets into ingots, ingots into blocks.",
+    "- &eVoid&r: deletes items you do not want.",
+    "- &eSmelting&r: a built-in furnace.",
+  ],
+  "quest.714B14D75CF4C3CB.title": "Storage Upgrades",
+  "quest.717B4D9A2CEDCB89.quest_desc": [
+    "Access your Tom's network from a distance.",
+  ],
+  "quest.717B4D9A2CEDCB89.title": "Wireless Terminal",
+  "quest.71E8846D0600A17E.quest_desc": [
+    "Put your Sophisticated storage on a minecart or a boat.",
+  ],
+  "quest.71E8846D0600A17E.title": "Storage in Motion",
+  "quest.774EE30E581C6A38.quest_desc": [
+    "Barrels hold the same as chests but can be opened with a block on top. They can also be decorated with any block texture at the Decoration Table.",
+  ],
+  "quest.774EE30E581C6A38.title": "Sophisticated Barrel",
+  "quest.7A099396D7D86BC8.quest_desc": [
+    "A full drawer with a void upgrade deletes extra items. Great for cobblestone farms.",
+  ],
+  "quest.7A099396D7D86BC8.title": "Void Upgrade",
+  "quest.7D15D30BC5F4CB48.quest_desc": [
+    "Allthemodium adds even bigger stack upgrades (tiers 6 to 8) for Sophisticated Storage.",
+  ],
+  "quest.7D15D30BC5F4CB48.title": "Allthemodium Stacks",
+  "quest.7D4DDCA66A1E1400.quest_desc": [
+    "Eats food from your backpack when you get hungry. Never starve again!",
+  ],
+  "quest.7D4DDCA66A1E1400.title": "Feeding Upgrade",
+  "quest.7FF6463882A05957.quest_desc": [
+    "A terminal with a crafting grid that uses items from the network.",
+  ],
+  "quest.7FF6463882A05957.title": "Crafting Terminal",
+}

@@ -1,0 +1,170 @@
+{
+  "chapter.02316B1978EB3F28.chapter_subtitle": [
+    "The rarest metals: Allthemodium, Vibranium and Unobtainium.",
+  ],
+  "chapter.02316B1978EB3F28.title": "Allthemodium",
+  "quest.007609499F487CA7.quest_desc": [
+    "A whole world made for mining. Ores are much more common here, and nobody minds if you dig huge holes.",
+    "",
+    "&6Tip:&r Set a waypoint at your teleport pad so you can find it again!",
+  ],
+  "quest.007609499F487CA7.title": "The Mining Dimension",
+  "quest.0C101DBD763CAC83.quest_desc": [
+    "Very strong armor. The full set gives protection against things like fall damage and drowning.",
+  ],
+  "quest.0C101DBD763CAC83.title": "Allthemodium Armor",
+  "quest.11A8C30AC3CECC14.quest_desc": [
+    "A village full of piglins in The Other.",
+  ],
+  "quest.11A8C30AC3CECC14.title": "Piglin Village",
+  "quest.132D13DCD2E00508.quest_desc": [
+    "The heart of the Piglich.",
+  ],
+  "quest.132D13DCD2E00508.title": "Piglich Heart",
+  "quest.17AE580430EA1BA9.quest_desc": [
+    "Found in the End and in The Beyond. You need a Vibranium pickaxe.",
+  ],
+  "quest.17AE580430EA1BA9.title": "Unobtainium",
+  "quest.19DA9C03A4B9B8C9.quest_desc": [
+    "Collect some of The Other's ancient blocks.",
+  ],
+  "quest.19DA9C03A4B9B8C9.title": "Ancient Wood",
+  "quest.25E115436FA942F0.quest_desc": [
+    "A block of each metal. You have conquered Allthemodium!",
+  ],
+  "quest.25E115436FA942F0.title": "Allthemodium Master",
+  "quest.26CE3EC1BD05459C.quest_desc": [
+    "A mighty undead piglin lord. Its heart is a rare crafting material.",
+  ],
+  "quest.26CE3EC1BD05459C.title": "The Piglich",
+  "quest.2811939991D9A959.quest_desc": [
+    "A dangerous dimension of ancient forests, soul-sand valleys and deep caves. Get there from the Nether with a Teleport Pad.",
+    "",
+    "&cBe well prepared!&r Bring food, healing and your best armor.",
+  ],
+  "quest.2811939991D9A959.title": "The Other",
+  "quest.2AEA6CE1667B72C4.quest_desc": [
+    "Stronger still.",
+  ],
+  "quest.2AEA6CE1667B72C4.title": "Vibranium Armor",
+  "quest.2C17D7B98A5A38A1.quest_desc": [
+    "The top tier of Allthemodium tools.",
+  ],
+  "quest.2C17D7B98A5A38A1.title": "Unobtainium Tools",
+  "quest.2D56F28425580D37.quest_desc": [
+    "&6Allthemodium&r adds three extremely rare metals, each harder than the last:",
+    "1. &6Allthemodium&r: needs a &enetherite&r pickaxe.",
+    "2. &5Vibranium&r: needs an &6Allthemodium&r pickaxe.",
+    "3. &dUnobtainium&r: needs a &5Vibranium&r pickaxe.",
+    "",
+    "It also adds three dimensions: the &eMining Dimension&r, &eThe Other&r and &eThe Beyond&r.",
+  ],
+  "quest.2D56F28425580D37.quest_subtitle": "Three metals, three dimensions",
+  "quest.2D56F28425580D37.title": "The Hunt Begins",
+  "quest.2E088CACC9730C11.quest_desc": [
+    "The second rare metal.",
+  ],
+  "quest.2E088CACC9730C11.title": "Vibranium Ingot",
+  "quest.31B888B75CB87D5B.quest_desc": [
+    "Plants that only grow in The Other.",
+  ],
+  "quest.31B888B75CB87D5B.title": "Strange Herbs",
+  "quest.3375F4EC4AFF0516.quest_desc": [
+    "Your Allthemodium pickaxe can mine Vibranium.",
+  ],
+  "quest.3375F4EC4AFF0516.title": "Allthemodium Tools",
+  "quest.370D2A8434631929.quest_desc": [
+    "The &eTeleport Pad&r is your gateway to the Allthemodium dimensions.",
+    "",
+    "Stand on it and shift (or use it as shown in JEI) to travel. From the Overworld it takes you to the &eMining Dimension&r. Use it again there to come back.",
+  ],
+  "quest.370D2A8434631929.title": "Teleport Pad",
+  "quest.377F9C458D83E912.quest_desc": [
+    "A pickaxe, axe and shovel in one, made of the best alloys.",
+  ],
+  "quest.377F9C458D83E912.title": "Alloy Paxel",
+  "quest.3B8BF16702068B30.quest_desc": [
+    "Upgrade your Allthemodium gear to Vibranium.",
+  ],
+  "quest.3B8BF16702068B30.title": "Vibranium Template",
+  "quest.3D6CDFC350D4F63C.quest_desc": [
+    "Smelt the raw ore. Mekanism and Oritech processing work too for extra output!",
+  ],
+  "quest.3D6CDFC350D4F63C.title": "Allthemodium Ingot",
+  "quest.3FF14E6A3F571E9A.quest_desc": [
+    "Powerful foods made with Allthemodium.",
+  ],
+  "quest.3FF14E6A3F571E9A.title": "Golden Treats",
+  "quest.419D4169C62C4B52.quest_desc": [
+    "Look deep down in the deepslate, in the Mining Dimension and around Ancient Cities. It glows a bright yellow.",
+  ],
+  "quest.419D4169C62C4B52.title": "Allthemodium Ore",
+  "quest.4511C7EC270D8F97.quest_desc": [
+    "Found in &eThe Other&r and deep in the Nether. You need an Allthemodium pickaxe.",
+  ],
+  "quest.4511C7EC270D8F97.title": "Vibranium",
+  "quest.4889B1AC46F33794.quest_desc": [
+    "The ultimate weapons.",
+  ],
+  "quest.4889B1AC46F33794.title": "Alloy Arsenal",
+  "quest.49DDCA926E7726A1.quest_desc": [
+    "The rarest of the three metals.",
+  ],
+  "quest.49DDCA926E7726A1.title": "Unobtainium Ingot",
+  "quest.4B4C95E8260BCB7C.quest_desc": [
+    "The final smithing upgrade.",
+  ],
+  "quest.4B4C95E8260BCB7C.title": "Unobtainium Template",
+  "quest.539482B6DBE7EC6D.quest_desc": [
+    "Like netherite, you upgrade gear in the smithing table with a template. Duplicate templates with the material.",
+  ],
+  "quest.539482B6DBE7EC6D.title": "Upgrade Template",
+  "quest.5457A2C786671E50.quest_desc": [
+    "Bring back a big haul from the Mining Dimension.",
+  ],
+  "quest.5457A2C786671E50.title": "Mining Trip",
+  "quest.5561503D368A6EF2.quest_desc": [
+    "Combine the rare metals into the three alloys. Check JEI for how to make them; you will need machines from other mods.",
+  ],
+  "quest.5561503D368A6EF2.title": "Mythic Alloys",
+  "quest.557DDBDCD6D3C6B6.quest_desc": [
+    "A whole block of Allthemodium. Shiny!",
+  ],
+  "quest.557DDBDCD6D3C6B6.title": "Show Off",
+  "quest.562876CE1CF0C29E.quest_desc": [
+    "An End-like dimension. Use a Teleport Pad in the End to get there.",
+  ],
+  "quest.562876CE1CF0C29E.title": "The Beyond",
+  "quest.573DE36DE6AA5220.quest_desc": [
+    "Find one of the Allthemodium dungeons.",
+  ],
+  "quest.573DE36DE6AA5220.title": "ATM Dungeon",
+  "quest.5C5F951C4D73E632.quest_desc": [
+    "Allthemodium storage and backpack upgrades exist for &bSophisticated Storage&r and &bSophisticated Backpacks&r. Check JEI!",
+  ],
+  "quest.5C5F951C4D73E632.title": "Storage Upgrades",
+  "quest.6317871254FF2525.quest_desc": [
+    "Ancient pyramids hide treasure. Watch out for traps.",
+  ],
+  "quest.6317871254FF2525.title": "Ancient Pyramid",
+  "quest.672DD6DCC1DABDF3.quest_desc": [
+    "The best armor of the three metals.",
+  ],
+  "quest.672DD6DCC1DABDF3.title": "Unobtainium Armor",
+  "quest.6A4C279013FBDD1A.quest_desc": [
+    "Your Vibranium pickaxe can mine Unobtainium.",
+  ],
+  "quest.6A4C279013FBDD1A.title": "Vibranium Tools",
+  "quest.6B77958149DD846E.quest_desc": [
+    "Only fitting.",
+  ],
+  "quest.6B77958149DD846E.title": "Vibranium Shield",
+  "quest.6FE9E9E2D3EF8E23.quest_desc": [
+    "Plates, gears and rods for crafting recipes in other mods.",
+  ],
+  "quest.6FE9E9E2D3EF8E23.title": "Allthemodium Parts",
+  "quest.7BD00A9B44CA5C9C.quest_desc": [
+    "Allthemodium ore can be found in the deepslate layer, and Ancient Cities are a good place to look. Sneak!",
+  ],
+  "quest.7BD00A9B44CA5C9C.title": "Into the Deep Dark",
+}

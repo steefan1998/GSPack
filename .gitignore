@@ -1,0 +1,18 @@
+# Secrets and per-user files
+config/resourceful-config-web.json
+
+# Runtime / cache output
+logs/
+crash-reports/
+*.log
+kubejs/exported/
+kubejs/.cache/
+local/
+.cache/
+
+# OS / editor
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/

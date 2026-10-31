@@ -1,0 +1,399 @@
+{
+  "chapter.568259479B2CF853.chapter_subtitle": [
+    "Ore processing, chemistry, logistics, reactors and the MekaSuit.",
+  ],
+  "chapter.568259479B2CF853.title": "Mekanism",
+  "quest.0555CCD41F34EB7B.quest_desc": [
+    "Osmium + redstone in the Infuser. Almost every Mekanism machine needs at least one.",
+  ],
+  "quest.0555CCD41F34EB7B.title": "Basic Control Circuit",
+  "quest.05D2F5C1B3B94C56.quest_desc": [
+    "Store waste in Radioactive Waste Barrels, or better, process it into plutonium and polonium.",
+  ],
+  "quest.05D2F5C1B3B94C56.title": "Nuclear Waste",
+  "quest.08EE0640BD2BFDD7.quest_desc": [
+    "Gives more planks per log, plus sawdust.",
+  ],
+  "quest.08EE0640BD2BFDD7.title": "Precision Sawmill",
+  "quest.0F4BE87F2177C854.quest_desc": [
+    "Each tier holds much more power. Upgrade a cube in the crafting grid to keep its stored energy.",
+  ],
+  "quest.0F4BE87F2177C854.title": "Bigger Batteries",
+  "quest.10C88C9DD7DE5C8C.quest_desc": [
+    "The &eDigital Miner&r mines a huge radius without leaving a mess, and only takes what you tell it to.",
+    "",
+    "Add filters (for example the tag &7c:ores&r) and plenty of Speed Upgrades. It needs a LOT of power.",
+    "",
+    "&6Tip:&r Put the miner in a chunk that stays loaded, or claim and force-load it with FTB Chunks.",
+  ],
+  "quest.10C88C9DD7DE5C8C.title": "Digital Miner",
+  "quest.114709890BCD2F4B.quest_desc": [
+    "Makes more power the higher you place it. Build them on a mountain or a tower.",
+  ],
+  "quest.114709890BCD2F4B.title": "Wind Generator",
+  "quest.12BBC8906AB8CD82.quest_desc": [
+    "Store gases in Chemical Tanks and move them with Pressurized Tubes.",
+  ],
+  "quest.12BBC8906AB8CD82.title": "Chemical Tanks",
+  "quest.12C08E8F4A01489E.quest_desc": [
+    "Importers and exporters move items between QIO and machines automatically.",
+  ],
+  "quest.12C08E8F4A01489E.title": "QIO Automation",
+  "quest.14B309A399DB4219.quest_desc": [
+    "A basic factory has 3 slots, advanced 5, elite 7, ultimate 9. Upgrade step by step with the next tier installer.",
+  ],
+  "quest.14B309A399DB4219.title": "Factories",
+  "quest.1592FC3232B877DB.quest_desc": [
+    "Fill it with hydrogen and fly! Switch between normal, hover and off with the mode key.",
+  ],
+  "quest.1592FC3232B877DB.title": "Jetpack",
+  "quest.16EF33695ECDA80E.quest_desc": [
+    "&eQuantum Item Orchestration&r is Mekanism's wireless storage system.",
+    "",
+    "Put QIO drives in a Drive Array. Every QIO block on the same &efrequency&r shares the same storage, even across dimensions. Add Importers, Exporters and a Portable Dashboard.",
+  ],
+  "quest.16EF33695ECDA80E.title": "QIO Storage",
+  "quest.170BCF0C86C2E658.quest_desc": [
+    "&bMekanism Tools&r adds tool and armor sets for osmium, bronze, steel, lapis, refined glowstone and refined obsidian.",
+    "",
+    "The &ePaxel&r is a pickaxe, axe and shovel in one!",
+  ],
+  "quest.170BCF0C86C2E658.title": "Mekanism Tools",
+  "quest.1962733DDC158D01.quest_desc": [
+    "&cRadiation is deadly.&r Uranium, nuclear waste and some gases are radioactive. A full hazmat suit protects you.",
+    "",
+    "Use the &eGeiger Counter&r and &eDosimeter&r to keep an eye on radiation levels.",
+  ],
+  "quest.1962733DDC158D01.title": "Hazmat Suit",
+  "quest.1ADD2CF0E0E7D840.quest_desc": [
+    "The Pressurized Reaction Chamber turns bio-fuel, water and hydrogen into ethene. Ethene also makes HDPE plastic for later items.",
+  ],
+  "quest.1ADD2CF0E0E7D840.title": "Ethene",
+  "quest.1AF5059AF60F4570.quest_desc": [
+    "Solar panels are the crafting ingredient for the Advanced Solar Generator, which makes much more power.",
+  ],
+  "quest.1AF5059AF60F4570.title": "Advanced Solar",
+  "quest.1B17318835F84E18.quest_desc": [
+    "Burns fissile fuel and makes enormous amounts of heat, which becomes steam for your turbine.",
+    "",
+    "&cSafety rules:&r",
+    "- Always cool it with water or sodium.",
+    "- Use a &eLogic Adapter&r to SCRAM the reactor when it gets too hot or damaged.",
+    "- Never let waste pile up.",
+    "- Start with a very low burn rate!",
+    "{@pagebreak}",
+    "A meltdown destroys a large area and leaves radiation behind for a long time.",
+  ],
+  "quest.1B17318835F84E18.title": "Fission Reactor",
+  "quest.1B59B3BCC85557BB.quest_desc": [
+    "Process uranium ore into yellow cake, then into uranium oxide and uranium hexafluoride.",
+  ],
+  "quest.1B59B3BCC85557BB.title": "Yellow Cake",
+  "quest.20F495F4BB8C5EB0.quest_desc": [
+    "Infuse iron with carbon to get &eEnriched Iron&r, then infuse that again for &eSteel Dust&r. Smelt it into ingots.",
+    "",
+    "Steel is everywhere in Mekanism.",
+  ],
+  "quest.20F495F4BB8C5EB0.title": "Steel",
+  "quest.2154B2669D5C56CC.quest_desc": [
+    "Atomic alloy is reinforced alloy infused with refined obsidian. The ultimate tier is the best in base Mekanism.",
+  ],
+  "quest.2154B2669D5C56CC.title": "Ultimate Tier",
+  "quest.218262E7660A20E9.quest_desc": [
+    "&bMekanism Extras&r goes beyond ultimate with &eAbsolute&r, &eSupreme&r, &eCosmic&r and &eInfinite&r tiers, new alloys, and the &eNaquadah&r reactor.",
+    "",
+    "Check JEI for each new alloy.",
+  ],
+  "quest.218262E7660A20E9.title": "Mekanism Extras",
+  "quest.219A497C0D519662.quest_desc": [
+    "Walk up full blocks and take no fall damage.",
+  ],
+  "quest.219A497C0D519662.title": "Free Runners",
+  "quest.227AFD0CFD3B38BD.quest_desc": [
+    "&eSpeed Upgrades&r make machines faster (and hungrier). &eEnergy Upgrades&r cut the power use and raise the buffer.",
+    "",
+    "A machine takes up to 8 of each. Install them in the upgrade tab of the machine.",
+  ],
+  "quest.227AFD0CFD3B38BD.title": "Machine Upgrades",
+  "quest.266206F9F6BAFE76.quest_desc": [
+    "Build a frame around a Teleporter and give it a frequency. Two teleporters on the same frequency connect, across any distance.",
+  ],
+  "quest.266206F9F6BAFE76.title": "Teleportation",
+  "quest.2A27D860DAC99825.quest_desc": [
+    "Reinforced alloy is infused alloy infused with &bdiamond&r. Advanced circuits unlock the advanced tier.",
+  ],
+  "quest.2A27D860DAC99825.title": "Advanced Circuits \\& Reinforced Alloy",
+  "quest.2DFAC206219F16C3.quest_desc": [
+    "&63x ore processing.&r Feed it &eoxygen&r. One ore becomes three &eclumps&r.",
+    "",
+    "Clumps -> Crusher -> dirty dust -> Enrichment Chamber -> dust -> smelt.",
+  ],
+  "quest.2DFAC206219F16C3.quest_subtitle": "3x ore processing",
+  "quest.2DFAC206219F16C3.title": "Purification Chamber",
+  "quest.2E9857DCBD7F6100.quest_desc": [
+    "&65x ore processing!&r The full chain:",
+    "",
+    "1. &eChemical Dissolution Chamber&r: ore + sulfuric acid -> dirty slurry.",
+    "2. &eChemical Washer&r: dirty slurry + water -> clean slurry.",
+    "3. &eChemical Crystallizer&r: clean slurry -> crystals.",
+    "4. Crystals -> Injection -> Purification -> Crusher -> Enrichment -> smelt.",
+    "{@pagebreak}",
+    "Sulfuric acid: sulfur dioxide (sulfur dust in the Chemical Oxidizer) + oxygen -> sulfur trioxide, then + water vapour in the Chemical Infuser.",
+    "",
+    "It is a big build, but once it runs you will never run out of metal again!",
+  ],
+  "quest.2E9857DCBD7F6100.quest_subtitle": "5x ore processing",
+  "quest.2E9857DCBD7F6100.title": "The Big One: 5x",
+  "quest.30A8222CCD63102E.quest_desc": [
+    "Machines too loud? Muffling Upgrades silence them.",
+  ],
+  "quest.30A8222CCD63102E.title": "Peace and Quiet",
+  "quest.325D1F1F8F65C07E.quest_desc": [
+    "&62x ore processing.&r One ore becomes two dusts. Smelt them into ingots.",
+    "",
+    "It also turns gravel into flint, cobblestone into gravel, and redstone ore into extra redstone.",
+  ],
+  "quest.325D1F1F8F65C07E.quest_subtitle": "2x ore processing",
+  "quest.325D1F1F8F65C07E.title": "Enrichment Chamber",
+  "quest.34FBC230D6032083.quest_desc": [
+    "A hollow multiblock tank for fluids or gases, from 3x3x3 up to 18x18x18.",
+  ],
+  "quest.34FBC230D6032083.title": "Dynamic Tank",
+  "quest.38B5DD21D4FE3363.quest_desc": [
+    "Separates uranium hexafluoride into &efissile fuel&r, and also processes nuclear waste.",
+  ],
+  "quest.38B5DD21D4FE3363.title": "Isotopic Centrifuge",
+  "quest.3AD2C2DD3D20A625.quest_desc": [
+    "Copy the settings of one machine onto another.",
+  ],
+  "quest.3AD2C2DD3D20A625.title": "Configuration Card",
+  "quest.3B822DDB65C6263B.quest_desc": [
+    "Fill the tank with oxygen to breathe underwater.",
+  ],
+  "quest.3B822DDB65C6263B.title": "Scuba Gear",
+  "quest.3C5D7F5F38E59F9D.quest_desc": [
+    "Burns gases for power. Hydrogen works, but &eEthene&r (made from bio-fuel, hydrogen and oxygen in the Pressurized Reaction Chamber) is much better.",
+  ],
+  "quest.3C5D7F5F38E59F9D.title": "Gas-Burning Generator",
+  "quest.4550FAED0240DEC4.quest_desc": [
+    "Reach the Infinite tier. You have truly mastered Mekanism!",
+  ],
+  "quest.4550FAED0240DEC4.title": "To Infinity",
+  "quest.46DEF431593703B4.quest_desc": [
+    "A powered furnace. Pipe the Enrichment Chamber's output straight into it.",
+  ],
+  "quest.46DEF431593703B4.title": "Energized Smelter",
+  "quest.4737AF9BCAEBDE9B.quest_desc": [
+    "Combines dusts with cobblestone back into ores. Handy for a few recipes.",
+  ],
+  "quest.4737AF9BCAEBDE9B.title": "Combiner",
+  "quest.47F6401C49BCC0FC.quest_desc": [
+    "Combines two gases into a new one: hydrogen chloride, sulfuric acid and more.",
+  ],
+  "quest.47F6401C49BCC0FC.title": "Chemical Infuser",
+  "quest.495EE72A6810A0E8.quest_desc": [
+    "The Isotopic Centrifuge makes plutonium. The Solar Neutron Activator makes polonium.",
+  ],
+  "quest.495EE72A6810A0E8.title": "Plutonium \\& Polonium",
+  "quest.4B55B860BC2C269B.quest_desc": [
+    "Uses antimatter to transmute items into rare materials.",
+  ],
+  "quest.4B55B860BC2C269B.title": "Antiprotonic Nucleosynthesizer",
+  "quest.4BE0B0AA8C74A8D3.quest_desc": [
+    "A powered pickaxe, axe, shovel and hoe in one. It even has a vein-mining mode.",
+  ],
+  "quest.4BE0B0AA8C74A8D3.title": "Atomic Disassembler",
+  "quest.4BF19F9442373D24.quest_desc": [
+    "Burns any fuel for power, and makes extra power when placed next to lava (or in it).",
+    "",
+    "A good first generator. Put coal or charcoal in it and pipe the power out with cables.",
+  ],
+  "quest.4BF19F9442373D24.title": "Heat Generator",
+  "quest.4C615B840AFC57AC.quest_desc": [
+    "Pulls items out of an inventory and sends them to the right place using filters (by item, tag, mod or material).",
+  ],
+  "quest.4C615B840AFC57AC.title": "Logistical Sorter",
+  "quest.4EA008F267510BD4.quest_desc": [
+    "Crush plants, seeds and saplings into Bio-Fuel and burn it in a &eBio-Generator&r. Great with an automatic farm!",
+  ],
+  "quest.4EA008F267510BD4.title": "Bio-Fuel",
+  "quest.4F61FF4A8810742C.quest_desc": [
+    "Crush obsidian into dust, infuse it with diamond, and combine it with osmium in the Osmium Compressor. Needed for atomic alloy and top-tier tools.",
+  ],
+  "quest.4F61FF4A8810742C.title": "Refined Obsidian",
+  "quest.51ED9B14A3E5F492.quest_desc": [
+    "Cosmic parts need antimatter-based alloys.",
+  ],
+  "quest.51ED9B14A3E5F492.title": "Cosmic Tier",
+  "quest.5235605F1ABBA2A5.quest_desc": [
+    "The ultimate Mekanism power plant.",
+    "",
+    "Fuel: &edeuterium&r (from heavy water) and &etritium&r (from lithium in the fission reactor). Ignite it with a fully charged &eLaser Amplifier&r and a filled &eHohlraum&r.",
+    "",
+    "Once running, it makes so much power you will not know what to do with it.",
+  ],
+  "quest.5235605F1ABBA2A5.title": "Fusion Reactor",
+  "quest.52609CBEC379DFE9.quest_desc": [
+    "Free power while the sun shines. It needs a clear view of the sky.",
+  ],
+  "quest.52609CBEC379DFE9.title": "Solar Generator",
+  "quest.53841A2F18DB06AA.quest_desc": [
+    "Install modules into the Meka-Tool and MekaSuit here.",
+  ],
+  "quest.53841A2F18DB06AA.title": "Modification Station",
+  "quest.53A1875DE3FB3C8B.quest_desc": [
+    "Steel + glass + osmium. The frame of nearly every Mekanism machine. Make a few!",
+  ],
+  "quest.53A1875DE3FB3C8B.title": "Steel Casing",
+  "quest.541E7F5F5A87F410.quest_desc": [
+    "Cables carry power. Use the &eConfigurator&r on a cable to change whether it pulls, pushes or does both.",
+  ],
+  "quest.541E7F5F5A87F410.title": "Universal Cables",
+  "quest.56C90960E53FEE06.quest_desc": [
+    "The SPS turns polonium into &dantimatter&r using massive amounts of power. Antimatter is needed for the best gear.",
+  ],
+  "quest.56C90960E53FEE06.title": "Supercritical Phase Shifter",
+  "quest.57D20081D2AA0795.quest_desc": [
+    "A multiblock battery of any size from 3x3x3 to 18x18x18.",
+    "",
+    "- &eInduction Cells&r inside set the capacity.",
+    "- &eInduction Providers&r set how fast power goes in and out.",
+    "- One &eInduction Port&r for input, one set to output with a Configurator.",
+    "",
+    "Upgrade cells and providers to store ridiculous amounts of power.",
+  ],
+  "quest.57D20081D2AA0795.title": "Induction Matrix",
+  "quest.5814942E549C1973.quest_desc": [
+    "Some of the toughest non-powered gear in the game.",
+  ],
+  "quest.5814942E549C1973.title": "Refined Obsidian Gear",
+  "quest.5B4FA14CDD840264.quest_desc": [
+    "A little robot friend that follows you, picks up items, and can smelt and craft.",
+  ],
+  "quest.5B4FA14CDD840264.title": "Robit",
+  "quest.5C25041843CCCC13.quest_desc": [
+    "Glowstone + osmium in the Osmium Compressor. Refined glowstone tools glow in the dark.",
+  ],
+  "quest.5C25041843CCCC13.title": "Refined Glowstone",
+  "quest.5E941B99E35E8CCC.quest_desc": [
+    "Welcome to &bMekanism&r, one of the biggest tech mods in the pack!",
+    "",
+    "Everything starts with &eosmium&r. It generates as ore underground. This pack has both Mekanism and AllTheOres osmium: they are interchangeable in recipes, but the quest needs Mekanism's ingot, so make sure it ends up as &eMekanism Osmium Ingots&r (for example, by smelting Mekanism dust later).",
+    "",
+    "&6Tip:&r Press &eU&r on osmium in JEI to see the huge list of things it is used in.",
+  ],
+  "quest.5E941B99E35E8CCC.quest_subtitle": "Osmium is the heart of Mekanism",
+  "quest.5E941B99E35E8CCC.title": "The Blue Metal",
+  "quest.5ECEE6044358CB45.quest_desc": [
+    "Lasers carry power through the air and are needed to ignite the fusion reactor.",
+  ],
+  "quest.5ECEE6044358CB45.title": "Lasers",
+  "quest.5F3DB1DE3CF76177.quest_desc": [
+    "A bin holds a huge stack of one item. Great for cobblestone and ores.",
+  ],
+  "quest.5F3DB1DE3CF76177.title": "Bins",
+  "quest.61BB0C3C5275F6A9.quest_desc": [
+    "Teleport to any of your teleporters from anywhere.",
+  ],
+  "quest.61BB0C3C5275F6A9.title": "Portable Teleporter",
+  "quest.6200DE164834E11C.quest_desc": [
+    "Uses liquid osmium to compress materials, like refined obsidian and refined glowstone.",
+  ],
+  "quest.6200DE164834E11C.title": "Osmium Compressor",
+  "quest.62377824A7D7B345.quest_desc": [
+    "Turns ingots into dust, and plants into bio-fuel. Also needed for 3x ore processing.",
+  ],
+  "quest.62377824A7D7B345.title": "Crusher",
+  "quest.63579BDD86D4DAE2.quest_desc": [
+    "Splits water into &bhydrogen&r and &boxygen&r. These gases power the next ore processing tiers.",
+    "",
+    "Place the &eElectric Pump&r on a water source to feed it. A water source of at least 2 blocks in a row counts as infinite.",
+  ],
+  "quest.63579BDD86D4DAE2.title": "Electrolytic Separator",
+  "quest.6446FF4767C837B2.quest_desc": [
+    "&64x ore processing.&r Feed it &eHydrogen Chloride&r. One ore becomes four &eshards&r, which go into the Purification Chamber.",
+    "",
+    "Make hydrogen chloride by combining hydrogen and chlorine in a &eChemical Infuser&r. Chlorine comes from brine in the separator.",
+  ],
+  "quest.6446FF4767C837B2.quest_subtitle": "4x ore processing",
+  "quest.6446FF4767C837B2.title": "Chemical Injection Chamber",
+  "quest.65B3B2289E125144.quest_desc": [
+    "A new ore from Mekanism Extras. It powers the Naquadah reactor.",
+  ],
+  "quest.65B3B2289E125144.title": "Naquadah",
+  "quest.688A0A6451C02F66.quest_desc": [
+    "Turns &bsteam&r into huge amounts of power. The taller the turbine, the more blades and power.",
+    "",
+    "Use &bJust Enough Mekanism Multiblocks&r (in JEI) to see exactly how to build it.",
+  ],
+  "quest.688A0A6451C02F66.title": "Industrial Turbine",
+  "quest.699249EFB6FDC32A.quest_desc": [
+    "Diversion transporters turn on and off with redstone. Restrictive ones are only used when no other path exists.",
+  ],
+  "quest.699249EFB6FDC32A.title": "Diversion \\& Restriction",
+  "quest.6ACEFBAE06029EB4.quest_desc": [
+    "Right-click a basic machine with a Tier Installer to turn it into a &eFactory&r that works on several items at once.",
+  ],
+  "quest.6ACEFBAE06029EB4.title": "Tier Installers",
+  "quest.6C108CB09EC294F4.quest_desc": [
+    "Keep climbing.",
+  ],
+  "quest.6C108CB09EC294F4.title": "Supreme Tier",
+  "quest.6D241DF093DDFA4A.quest_desc": [
+    "The &eMetallurgic Infuser&r is the first Mekanism machine. It combines a material with an &finfuse type&r:",
+    "- &cRedstone&r makes Infused Alloy and Basic Control Circuits.",
+    "- &8Carbon&r (coal or charcoal) makes Steel.",
+    "- &bDiamond&r makes Reinforced Alloy.",
+    "- &5Refined Obsidian&r makes Atomic Alloy.",
+    "",
+    "It needs power (FE). Any generator in the pack works.",
+  ],
+  "quest.6D241DF093DDFA4A.title": "Metallurgic Infuser",
+  "quest.6D8EE069FED923AC.quest_desc": [
+    "A fully modular tool: excavation, vein mining, attack, teleportation, silk touch and much more.",
+  ],
+  "quest.6D8EE069FED923AC.title": "Meka-Tool",
+  "quest.6EE2AD053129D4FC.quest_desc": [
+    "An even stronger fusion-style reactor from Mekanism Extras.",
+  ],
+  "quest.6EE2AD053129D4FC.title": "Naquadah Reactor",
+  "quest.70A4E10E2F9BE01D.quest_desc": [
+    "Item pipes. Colour them with a Configurator to control where items go.",
+  ],
+  "quest.70A4E10E2F9BE01D.title": "Logistical Transporters",
+  "quest.70AF2DBABEB5D884.quest_desc": [
+    "A multiblock that boils water into &bbrine&r, and brine into &blithium&r. It works faster when hot, so use a Resistive Heater, or build it in the Nether.",
+    "",
+    "Brine -> Electrolytic Separator -> chlorine and sodium.",
+  ],
+  "quest.70AF2DBABEB5D884.title": "Thermal Evaporation Plant",
+  "quest.70B1D1330032C71C.quest_desc": [
+    "Heats water into steam with superheated sodium or resistive heaters. Feeds the Industrial Turbine.",
+  ],
+  "quest.70B1D1330032C71C.title": "Thermoelectric Boiler",
+  "quest.70C130026BD23FCC.quest_desc": [
+    "Elite circuits use reinforced alloy. Elite factories have 7 slots.",
+  ],
+  "quest.70C130026BD23FCC.title": "Elite Tier",
+  "quest.70F1B47859D4B66F.quest_desc": [
+    "Stores power. Set the input and output sides in the &eSide Configuration&r tab of the GUI.",
+  ],
+  "quest.70F1B47859D4B66F.title": "Energy Cube",
+  "quest.72328349A95E43EC.quest_desc": [
+    "Iron + redstone. Used in tier 2 parts and many machines.",
+  ],
+  "quest.72328349A95E43EC.title": "Infused Alloy",
+  "quest.78B168B6FEC5447F.quest_desc": [
+    "Shift + scroll to switch modes:",
+    "- Configurate: change the side configuration of a machine.",
+    "- Empty: empty a machine's tanks.",
+    "- Rotate and Wrench: turn or pick up machines.",
+  ],
+  "quest.78B168B6FEC5447F.title": "The Configurator",
+  "quest.7BC422761DE44830.quest_desc": [
+    "The best armor Mekanism has to offer. It runs on power and takes modules for flight, radiation shielding, magnet, gravitational modulation, auto-feeding and more.",
+    "",
+    "Once you are wearing a full MekaSuit, very little in this world can hurt you.",
+  ],
+  "quest.7BC422761DE44830.title": "MekaSuit",
+}

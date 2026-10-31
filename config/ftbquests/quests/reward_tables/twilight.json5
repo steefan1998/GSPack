@@ -1,0 +1,96 @@
+{
+  id: "000E0108C7653960",
+  filename: "twilight",
+  order_index: 8,
+  loot_size: 1,
+  rewards: [
+    {
+      id: "75DF6741DB0B2835",
+      type: "item",
+      item: {
+        count: 1,
+        id: "twilightforest:ironwood_ingot",
+      },
+      count: 4,
+      weight: 20.0,
+    },
+    {
+      id: "3277E2BD50B3551C",
+      type: "item",
+      item: {
+        count: 1,
+        id: "twilightforest:steeleaf_ingot",
+      },
+      count: 4,
+      weight: 20.0,
+    },
+    {
+      id: "6769AEC79EF4B26D",
+      type: "item",
+      item: {
+        count: 1,
+        id: "twilightforest:torchberries",
+      },
+      count: 8,
+      weight: 15.0,
+    },
+    {
+      id: "4CCBA5845D391E31",
+      type: "item",
+      item: {
+        count: 1,
+        id: "twilightforest:raven_feather",
+      },
+      count: 4,
+      weight: 12.0,
+    },
+    {
+      id: "189797CEC40C664E",
+      type: "item",
+      item: {
+        count: 1,
+        id: "twilightforest:liveroot",
+      },
+      count: 8,
+      weight: 12.0,
+    },
+    {
+      id: "52770F4091B2416E",
+      type: "item",
+      item: {
+        count: 1,
+        id: "twilightforest:armor_shard",
+      },
+      count: 8,
+      weight: 8.0,
+    },
+    {
+      id: "07614918560F379D",
+      type: "item",
+      item: {
+        count: 1,
+        id: "twilightforest:knightmetal_ingot",
+      },
+      count: 2,
+      weight: 6.0,
+    },
+    {
+      id: "21C00703023A633D",
+      type: "item",
+      item: {
+        count: 1,
+        id: "twilightforest:charm_of_life_1",
+      },
+      weight: 3.0,
+    },
+    {
+      id: "627275E815C960BA",
+      type: "item",
+      item: {
+        count: 1,
+        id: "twilightforest:fiery_ingot",
+      },
+      weight: 2.0,
+    },
+  ],
+}

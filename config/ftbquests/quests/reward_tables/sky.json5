@@ -1,0 +1,86 @@
+{
+  id: "000AF09048A28C56",
+  filename: "sky",
+  order_index: 7,
+  loot_size: 1,
+  rewards: [
+    {
+      id: "21164688CEA70421",
+      type: "item",
+      item: {
+        count: 1,
+        id: "aether_ii:ambrosium_shard",
+      },
+      count: 16,
+      weight: 20.0,
+    },
+    {
+      id: "6D35C8B403D6E601",
+      type: "item",
+      item: {
+        count: 1,
+        id: "aether_ii:skyroot_log",
+      },
+      count: 16,
+      weight: 15.0,
+    },
+    {
+      id: "2043F78673808419",
+      type: "item",
+      item: {
+        count: 1,
+        id: "aether_ii:zanite_gemstone",
+      },
+      count: 4,
+      weight: 15.0,
+    },
+    {
+      id: "6C28F688B31F9B3C",
+      type: "item",
+      item: {
+        count: 1,
+        id: "aether_ii:blueberry",
+      },
+      count: 8,
+      weight: 12.0,
+    },
+    {
+      id: "30973266DAD78128",
+      type: "item",
+      item: {
+        count: 1,
+        id: "aether_ii:cold_aercloud",
+      },
+      count: 8,
+      weight: 10.0,
+    },
+    {
+      id: "0AF799ECDAA61AB2",
+      type: "item",
+      item: {
+        count: 1,
+        id: "aether_ii:glint_coin",
+      },
+      count: 8,
+      weight: 10.0,
+    },
+    {
+      id: "703C2FC37C25E768",
+      type: "item",
+      item: {
+        count: 1,
+        id: "aether_ii:healing_stone",
+      },
+      weight: 6.0,
+    },
+    {
+      id: "4543EA3166FACF66",
+      type: "item",
+      item: {
+        count: 1,
+        id: "aether_ii:gravitite_plate",
+      },
+      weight: 3.0,
+    },
+  ],
+}

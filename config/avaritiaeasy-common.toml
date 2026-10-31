@@ -1,0 +1,108 @@
+#Poteri concessi dall'armatura Infinity.
+#Disattiva qui cio' che non vuoi in un modpack.
+[armatura]
+	#Corazza: volo creativo.
+	volo = true
+	#Set completo: invulnerabilita' a tutto tranne le armi Infinity.
+	#ATTENZIONE: attiva rende il giocatore immortale.
+	invulnerabilita = true
+	#Elmo: visione notturna.
+	visioneNotturna = true
+	#Elmo: fame e saturazione sempre al massimo.
+	sazietaEterna = true
+	#Corazza: rimuove continuamente gli effetti negativi.
+	pulisciEffettiNegativi = true
+	#Gambali: spegne il fuoco addosso.
+	spegniFuoco = true
+	#Gambali: azzera il congelamento.
+	azzeraCongelamento = true
+	#Stivali: spinta di velocita' mentre ci si muove.
+	spintaVelocita = true
+	#Intensita' della spinta di velocita' degli stivali.
+	# Default: 1.0
+	# Range: 0.1 ~ 10.0
+	intensitaVelocita = 1.0
+	#Velocita' di volo (vanilla creativo = 0.05).
+	#Vale sia in orizzontale sia in salita/discesa.
+	# Default: 0.12
+	# Range: 0.01 ~ 1.0
+	velocitaVolo = 0.12
+	#Velocita' di volo con i soli stivali.
+	# Default: 0.07
+	# Range: 0.01 ~ 1.0
+	velocitaVoloStivali = 0.07
+
+#Armi e strumenti Infinity.
+[equipaggiamento]
+	#Danno infinito: qualsiasi bersaglio muore in un colpo.
+	#Se disattivato resta comunque un danno altissimo, ma non istantaneo.
+	dannoInfinito = true
+	#Equipaggiamento indistruttibile (nessuna durabilita').
+	#Richiede il riavvio del gioco per avere effetto.
+	indistruttibile = true
+	#Raggio di scavo del Martello (7 = area 16x16x16, come l'originale).
+	# Default: 7
+	# Range: 0 ~ 8
+	raggioMartello = 7
+	#Raggio di scavo del Destroyer, la seconda modalita' del Badile
+	#(7 = area 16x16x16, come l'originale).
+	# Default: 7
+	# Range: 0 ~ 8
+	raggioDestroyer = 7
+
+#Arco dell'Infinito.
+[arco]
+	#Tick di tensione fra un colpo e il successivo
+	#(13 = come l'originale; piu' basso = raffica piu' fitta).
+	# Default: 13
+	# Range: 1 ~ 100
+	tempoDiTensione = 13
+	#Frecce che piovono dal cielo quando una freccia si conficca
+	#(36 = come l'originale; 0 disattiva la pioggia).
+	# Default: 36
+	# Range: 0 ~ 128
+	pioggiaDiFrecce = 36
+
+#Macchinari e stoccaggio.
+[macchinari]
+	#Tick per produrre un Cumulo di Neutroni
+	#(7111 = circa sei minuti, come nell'originale; abbassalo per accelerare).
+	# Default: 7111
+	# Range: 1 ~ 100000
+	tickPerCumulo = 7111
+	#Moltiplicatore del costo delle Singolarita'.
+	#1.0 = costo predefinito; 2.0 = doppio; 0.5 = meta'.
+	# Default: 1.0
+	# Range: 0.1 ~ 100.0
+	moltiplicatoreCostoSingolarita = 1.0
+	#Quanti oggetti entrano in uno slot della Cassa dell'Infinito
+	#(come nell'originale, praticamente senza limite).
+	# Default: 2147483647
+	# Range: > 64
+	capacitaSlotCassa = 2147483647
+
+#Guardiano del Cosmo (boss).
+[guardiano]
+	#Punti vita del Guardiano (massimo consentito da Minecraft: 1024).
+	# Default: 1024.0
+	# Range: 20.0 ~ 1024.0
+	puntiVita = 1024.0
+	#Danno massimo che puo' subire in un solo colpo.
+	#Alzalo per accorciare lo scontro, abbassalo per allungarlo.
+	# Default: 25.6
+	# Range: 1.0 ~ 1024.0
+	dannoMassimoPerColpo = 25.6
+
+#Perla Estrema (buco nero).
+[perlaEstrema]
+	#Il buco nero distrugge i blocchi.
+	#Disattivalo sui server per evitare danni al terreno.
+	distruggeBlocchi = true
+	#Durata del buco nero in tick (186 = come l'originale).
+	# Default: 186
+	# Range: 20 ~ 1200
+	durata = 186
+	#Raggio di attrazione, in blocchi.
+	# Default: 20.0
+	# Range: 2.0 ~ 64.0
+	raggioAttrazione = 20.0

@@ -1,0 +1,2362 @@
+{
+  id: "4C8636F567767A4E",
+  group: "591262DAFEE441AF",
+  order_index: 8,
+  filename: "thaumaturge",
+  icon: {
+    count: 1,
+    id: "thaumaturge:thaumonomicon",
+  },
+  default_quest_shape: "",
+  default_hide_dependency_lines: true,
+  quests: [
+    {
+      id: "372FF004746B204D",
+      x: 0.0,
+      y: 2.7,
+      size: 1.5,
+      tasks: [
+        {
+          id: "2B4F4DE8C22798FA",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:crystal_aer",
+          },
+        },
+        {
+          id: "56820F03F9B84AFC",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:crystal_aqua",
+          },
+        },
+        {
+          id: "70B3FF21900C5800",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:crystal_ignis",
+          },
+        },
+        {
+          id: "7080741DBB0AD6FC",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:crystal_terra",
+          },
+        },
+        {
+          id: "33B2152BBFAC0497",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:crystal_ordo",
+          },
+        },
+        {
+          id: "188A47A0D7A13437",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:crystal_perditio",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2C55E01C75B37BA4",
+          type: "xp",
+          xp: 100,
+        },
+        {
+          id: "4262AEF27D7E88B6",
+          type: "random",
+          table_id: 4314132029995036,
+        },
+      ],
+    },
+    {
+      id: "3BE6B04F477609A5",
+      x: 1.6,
+      y: 2.7,
+      shape: "gear",
+      size: 1.5,
+      dependencies: [
+        "372FF004746B204D",
+      ],
+      tasks: [
+        {
+          id: "3DF0453B7C69E30E",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:salis_mundus",
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "3930461AC09D2F8D",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      id: "432E451494D5C386",
+      x: 3.2,
+      y: 2.7,
+      dependencies: [
+        "3BE6B04F477609A5",
+      ],
+      tasks: [
+        {
+          id: "661C789B6D6D0479",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:thaumonomicon",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "457F0AA29F8C13FA",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      id: "2ABD613AAF1ACC33",
+      x: 4.8,
+      y: 2.7,
+      dependencies: [
+        "432E451494D5C386",
+      ],
+      tasks: [
+        {
+          id: "029E4DF904303B5A",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:thaumometer",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "31CA8937C015E92C",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      id: "360A839064D31EBD",
+      x: 6.4,
+      y: 2.7,
+      dependencies: [
+        "2ABD613AAF1ACC33",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "4F951EF0E0AF41A9",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:curio_arcane",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2FC8F413FC75F8D1",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      id: "1B0D9B18770E1402",
+      x: 4.8,
+      y: 4.2,
+      dependencies: [
+        "432E451494D5C386",
+      ],
+      tasks: [
+        {
+          id: "75A41742682DD951",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:research_table",
+          },
+        },
+        {
+          id: "4CBB6E2DB2F89B4A",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:scribing_tools",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4BF321DDDD56A0D1",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      id: "3B3E5912CB6C33DD",
+      x: 4.8,
+      y: 1.2,
+      dependencies: [
+        "432E451494D5C386",
+      ],
+      tasks: [
+        {
+          id: "0981247AD454039C",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:arcane_workbench",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "311A11BBD5765E5C",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      id: "474C948258A6751B",
+      x: 6.4,
+      y: 1.2,
+      icon: {
+        count: 1,
+        id: "thaumaturge:vis_resonator",
+      },
+      dependencies: [
+        "3B3E5912CB6C33DD",
+      ],
+      tasks: [
+        {
+          id: "7283A1903395C615",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "58FC0797565376C6",
+          type: "xp",
+          xp: 25,
+        },
+      ],
+    },
+    {
+      id: "192ADB61A87987E5",
+      x: 0.0,
+      y: 8.3,
+      size: 1.5,
+      dependencies: [
+        "3B3E5912CB6C33DD",
+      ],
+      tasks: [
+        {
+          id: "264B34486198511C",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:wand",
+          },
+        },
+        {
+          id: "3AF9CDF622F4DF67",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:wand_cap_iron",
+          },
+          count: 2,
+        },
+        {
+          id: "1DFE99B455AAA6FD",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:wand_rod_greatwood",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0D7199C6FB36A36A",
+          type: "xp",
+          xp: 100,
+        },
+        {
+          id: "551F6B844284CA9C",
+          type: "random",
+          table_id: 4314132029995036,
+        },
+      ],
+    },
+    {
+      id: "7A24E38BF021D429",
+      x: 0.0,
+      y: 9.8,
+      dependencies: [
+        "372FF004746B204D",
+      ],
+      tasks: [
+        {
+          id: "1588B1A53A741E03",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:log_greatwood",
+          },
+          count: 8,
+        },
+        {
+          id: "2664AFF8C6154B4A",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:log_silverwood",
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "5EC647C4CBBC4C63",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      id: "6D72D11D5BB39654",
+      x: 1.6,
+      y: 8.3,
+      dependencies: [
+        "192ADB61A87987E5",
+        "702333BBA1942C30",
+      ],
+      tasks: [
+        {
+          id: "1AC4A3338FBAC29D",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:wand_cap_gold",
+          },
+          count: 2,
+        },
+        {
+          id: "1716AE3F8E94FB51",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:wand_cap_thaumium",
+          },
+          count: 2,
+        },
+      ],
+      rewards: [
+        {
+          id: "54272425F1432D6A",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      id: "4CAF4F9EC1BE2643",
+      x: 1.6,
+      y: 9.8,
+      dependencies: [
+        "192ADB61A87987E5",
+        "7A24E38BF021D429",
+      ],
+      tasks: [
+        {
+          id: "73C064D3463887F5",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:wand_rod_silverwood",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "74A1030D3CED3E62",
+          type: "xp",
+          xp: 150,
+        },
+      ],
+    },
+    {
+      id: "008CBE652A6ACAD1",
+      x: 3.2,
+      y: 9.8,
+      dependencies: [
+        "4CAF4F9EC1BE2643",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "6B040C933AB51892",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:staff_rod_greatwood",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3BB36E71A5B312B9",
+          type: "xp",
+          xp: 150,
+        },
+      ],
+    },
+    {
+      id: "4150E0AE808C4FE1",
+      x: 1.6,
+      y: 6.8,
+      dependencies: [
+        "2ABD613AAF1ACC33",
+        "192ADB61A87987E5",
+      ],
+      tasks: [
+        {
+          id: "622AC685B54B4FD1",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:goggles_revealing",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "457DA6312DF63AD9",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      id: "28F645FB532BEAA9",
+      x: 0.0,
+      y: 6.8,
+      dependencies: [
+        "1B0D9B18770E1402",
+      ],
+      tasks: [
+        {
+          id: "77357B79BCC89F3A",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:raw_cinnabar",
+          },
+          count: 4,
+        },
+        {
+          id: "21B632BC65EB1CAB",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:quicksilver",
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "3203797743432716",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      id: "467A9D5F78FD9538",
+      x: 0.0,
+      y: 11.3,
+      dependencies: [
+        "1B0D9B18770E1402",
+      ],
+      tasks: [
+        {
+          id: "4004913CC93DF6E7",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:amber",
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "0CF1C2F23E7DE5A0",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      id: "2DD7A8920B162391",
+      x: 0.0,
+      y: 16.9,
+      size: 1.5,
+      dependencies: [
+        "1B0D9B18770E1402",
+      ],
+      tasks: [
+        {
+          id: "14417970154E652A",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:crucible",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "59DD0D07C0F428B0",
+          type: "xp",
+          xp: 100,
+        },
+        {
+          id: "37F4889C60BA841F",
+          type: "random",
+          table_id: 4314132029995036,
+        },
+      ],
+    },
+    {
+      id: "702333BBA1942C30",
+      x: 1.6,
+      y: 16.9,
+      dependencies: [
+        "2DD7A8920B162391",
+        "28F645FB532BEAA9",
+      ],
+      tasks: [
+        {
+          id: "709E8C94C0749749",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:ingot_thaumium",
+          },
+          count: 8,
+        },
+      ],
+      rewards: [
+        {
+          id: "2B42DDCDF816398A",
+          type: "xp",
+          xp: 150,
+        },
+        {
+          id: "034BC43C9894022E",
+          type: "random",
+          table_id: 253752461985528,
+        },
+      ],
+    },
+    {
+      id: "5FF3AA24C03EBA95",
+      x: 1.6,
+      y: 18.4,
+      dependencies: [
+        "2DD7A8920B162391",
+      ],
+      tasks: [
+        {
+          id: "0ECF91D895F1A675",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:ingot_brass",
+          },
+          count: 8,
+        },
+      ],
+      rewards: [
+        {
+          id: "291EB89FDE96B5D9",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      id: "310E7B7CAF1537ED",
+      x: 1.6,
+      y: 15.4,
+      dependencies: [
+        "2DD7A8920B162391",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "78111EE2A6BDE16C",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:tallow",
+          },
+          count: 8,
+        },
+      ],
+      rewards: [
+        {
+          id: "5D3E85886A660EA1",
+          type: "xp",
+          xp: 25,
+        },
+      ],
+    },
+    {
+      id: "16A2D295AACEB93C",
+      x: 1.6,
+      y: 19.9,
+      dependencies: [
+        "2DD7A8920B162391",
+      ],
+      tasks: [
+        {
+          id: "61F775E9B1B6DA34",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:nitor_yellow",
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "2ABEF87011EBAA54",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      id: "5E81F6C990874068",
+      x: 1.6,
+      y: 13.9,
+      dependencies: [
+        "2DD7A8920B162391",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "176CEF40299C2734",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:alumentum",
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "766C0AD07060C038",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      id: "38B4D8374D7FA2E9",
+      x: 0.0,
+      y: 18.4,
+      dependencies: [
+        "467A9D5F78FD9538",
+      ],
+      tasks: [
+        {
+          id: "5DD0C3675CBC4057",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:jar_normal",
+          },
+          count: 4,
+        },
+        {
+          id: "78F4495F9DA8E312",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:label",
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "2411F2D0DC0472CC",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      id: "7FB078AFCB499495",
+      x: 1.6,
+      y: 21.4,
+      dependencies: [
+        "38B4D8374D7FA2E9",
+      ],
+      tasks: [
+        {
+          id: "2F0FF4CA8BDCC7A8",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:alembic",
+          },
+          count: 2,
+        },
+      ],
+      rewards: [
+        {
+          id: "4E8F87A89ECC2CE2",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      id: "0F871AE6433F594B",
+      x: 3.2,
+      y: 19.9,
+      dependencies: [
+        "7FB078AFCB499495",
+        "5FF3AA24C03EBA95",
+      ],
+      tasks: [
+        {
+          id: "07F6F0AFC1851772",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:smelter_basic",
+          },
+        },
+        {
+          id: "32E1C30ADA41AF79",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:tube",
+          },
+          count: 16,
+        },
+        {
+          id: "0873F5BCB898186E",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:bellows",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3309B35DF48A5579",
+          type: "xp",
+          xp: 150,
+        },
+      ],
+    },
+    {
+      id: "5312ECB1A112A6BF",
+      x: 4.8,
+      y: 19.9,
+      dependencies: [
+        "0F871AE6433F594B",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "46EEF4BF5D1051CD",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:tube_valve",
+          },
+        },
+        {
+          id: "4C8CA5B01291A8B0",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:tube_filter",
+          },
+        },
+        {
+          id: "05078F4125A939B0",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:tube_buffer",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "08B87DD654E6E114",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      id: "5781C4BF4619F4CA",
+      x: 4.8,
+      y: 21.4,
+      dependencies: [
+        "0F871AE6433F594B",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "730D17C69F0EA8D2",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:centrifuge",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "23E0611051E8AF07",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      id: "036877BA10A3D071",
+      x: 4.8,
+      y: 18.4,
+      dependencies: [
+        "0F871AE6433F594B",
+        "1809C7659BF1FEC2",
+      ],
+      tasks: [
+        {
+          id: "066814CEAB5EC5A1",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:thaumatorium",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "70FA35642CF6C533",
+          type: "xp",
+          xp: 200,
+        },
+        {
+          id: "5B9CB64A70B06B97",
+          type: "random",
+          table_id: 2210856162803377,
+        },
+      ],
+    },
+    {
+      id: "5E2AD0DD3DBCB7FB",
+      x: 4.8,
+      y: 22.9,
+      dependencies: [
+        "0F871AE6433F594B",
+      ],
+      tasks: [
+        {
+          id: "290B0FEF87532C32",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:flux_scrubber",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "25919B55F1C2F61E",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      id: "47258A348571EA04",
+      x: 0.0,
+      y: 30.0,
+      dependencies: [
+        "702333BBA1942C30",
+      ],
+      tasks: [
+        {
+          id: "6252D441B24CB4E2",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:thaumium_pickaxe",
+          },
+        },
+        {
+          id: "7FC8F026A6D432F9",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:thaumium_sword",
+          },
+        },
+        {
+          id: "4563A09A3BFB3F32",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:thaumium_axe",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "60C53A49AB4E5D97",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      id: "5B0E64C3CB1AE523",
+      x: 0.0,
+      y: 31.5,
+      dependencies: [
+        "702333BBA1942C30",
+      ],
+      tasks: [
+        {
+          id: "4644B5CBDCECEEF3",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:thaumium_helm",
+          },
+        },
+        {
+          id: "754F69C083A02582",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:thaumium_chest",
+          },
+        },
+        {
+          id: "2762E393AB122E21",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:thaumium_legs",
+          },
+        },
+        {
+          id: "5E64EDCD4979B428",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:thaumium_boots",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "27498FB483631D44",
+          type: "xp",
+          xp: 150,
+        },
+        {
+          id: "06E100AD10BB70B5",
+          type: "random",
+          table_id: 253752461985528,
+        },
+      ],
+    },
+    {
+      id: "5C5DFDBD839283A8",
+      x: 0.0,
+      y: 28.5,
+      dependencies: [
+        "702333BBA1942C30",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "524F1E1E62C2CA2D",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:cloth_chest",
+          },
+        },
+        {
+          id: "78905221B799B773",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:cloth_legs",
+          },
+        },
+        {
+          id: "02FEAD9DB4986CA6",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:cloth_boots",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "78C2D53C07D673C2",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      id: "346196FB5B53ABC6",
+      x: 0.0,
+      y: 33.0,
+      dependencies: [
+        "1809C7659BF1FEC2",
+      ],
+      tasks: [
+        {
+          id: "70931DBDA120FBB3",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:traveller_boots",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3D9BD728781AFB63",
+          type: "xp",
+          xp: 150,
+        },
+      ],
+    },
+    {
+      id: "246B75BB5BA40999",
+      x: 0.0,
+      y: 27.0,
+      dependencies: [
+        "3B3E5912CB6C33DD",
+      ],
+      tasks: [
+        {
+          id: "30C992ACC6E9B33F",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:ring_apprentice",
+          },
+        },
+        {
+          id: "60785CF522A197E7",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:amulet_vis",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7E7537D9E4D725BB",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      id: "0CED152555B15185",
+      x: 0.0,
+      y: 34.5,
+      dependencies: [
+        "1809C7659BF1FEC2",
+      ],
+      tasks: [
+        {
+          id: "0B0166692E6C35B5",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:elemental_pickaxe",
+          },
+        },
+        {
+          id: "51D3A714FCCFBE4A",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:elemental_sword",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "528A9AD8D160B18E",
+          type: "xp",
+          xp: 200,
+        },
+        {
+          id: "170496B63FD95A39",
+          type: "random",
+          table_id: 2210856162803377,
+        },
+      ],
+    },
+    {
+      id: "0583FCC9D1F3F43C",
+      x: 0.0,
+      y: 25.5,
+      dependencies: [
+        "1809C7659BF1FEC2",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "11016A297C85D8EB",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:grapple_gun",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "28F8D3727219F67A",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      id: "1809C7659BF1FEC2",
+      x: 0.0,
+      y: 40.1,
+      shape: "hexagon",
+      size: 2.0,
+      dependencies: [
+        "702333BBA1942C30",
+        "0F871AE6433F594B",
+      ],
+      tasks: [
+        {
+          id: "2BC2E7796989AB28",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:infusion_matrix",
+          },
+        },
+        {
+          id: "564990FEE42796EF",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:pedestal_arcane",
+          },
+          count: 8,
+        },
+        {
+          id: "06FF6FF398309B4A",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:pillar_arcane",
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "12AB593E1C697A2B",
+          type: "xp",
+          xp: 300,
+        },
+        {
+          id: "4CAF0DBB1327233D",
+          type: "choice",
+          table_id: 2210856162803377,
+        },
+      ],
+    },
+    {
+      id: "31E92537BC10016D",
+      x: 1.6,
+      y: 40.1,
+      dependencies: [
+        "1809C7659BF1FEC2",
+      ],
+      tasks: [
+        {
+          id: "655C9FCDC6FDB037",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:stabilizer",
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "3229E2036D155640",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      id: "4C6E7186B8F45261",
+      x: 1.6,
+      y: 41.6,
+      dependencies: [
+        "1809C7659BF1FEC2",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "434E6C0D49AD0BB3",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:matrix_speed",
+          },
+        },
+        {
+          id: "7FA0507BC2C04475",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:matrix_cost",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "063F40E0F5480D6A",
+          type: "xp",
+          xp: 150,
+        },
+      ],
+    },
+    {
+      id: "5141611F8FB1934C",
+      x: 1.6,
+      y: 38.6,
+      dependencies: [
+        "1809C7659BF1FEC2",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "151D4929DF54DC5C",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:verdant_charm",
+          },
+        },
+        {
+          id: "23CBE61C90A45FEB",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:voidseer_charm",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7DECD107F3333FC9",
+          type: "xp",
+          xp: 150,
+        },
+      ],
+    },
+    {
+      id: "4237B4C249386F8B",
+      x: 1.6,
+      y: 43.1,
+      dependencies: [
+        "1809C7659BF1FEC2",
+      ],
+      tasks: [
+        {
+          id: "6AADC43E115BE615",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:charm_undying",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "503FB1B9D2C90F3B",
+          type: "xp",
+          xp: 200,
+        },
+        {
+          id: "7B8FBFF492104549",
+          type: "random",
+          table_id: 2210856162803377,
+        },
+      ],
+    },
+    {
+      id: "4F695141DC70FFFF",
+      x: 1.6,
+      y: 37.1,
+      dependencies: [
+        "1809C7659BF1FEC2",
+      ],
+      tasks: [
+        {
+          id: "0817A7ABEC013E7C",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:vis_generator",
+          },
+        },
+        {
+          id: "5C560F1500B837E4",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:vis_battery",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5801CF949FD50A4B",
+          type: "xp",
+          xp: 150,
+        },
+      ],
+    },
+    {
+      id: "78C0207A63F05DA3",
+      x: 1.6,
+      y: 44.6,
+      dependencies: [
+        "1809C7659BF1FEC2",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "04019FE7C03A69B2",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:lamp_arcane",
+          },
+        },
+        {
+          id: "733E2928927804CC",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:lamp_growth",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "636CED13F41D76F6",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      id: "2E51FF3B7ECFCC73",
+      x: 0.0,
+      y: 41.6,
+      dependencies: [
+        "0CED152555B15185",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "4CCB6125BB3E79A7",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:arcane_bore",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5906C322070230F4",
+          type: "xp",
+          xp: 200,
+        },
+      ],
+    },
+    {
+      id: "6227906D77CCCA22",
+      x: 0.0,
+      y: 47.2,
+      dependencies: [
+        "1809C7659BF1FEC2",
+        "192ADB61A87987E5",
+      ],
+      tasks: [
+        {
+          id: "509FE41FF8833279",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:focus_1",
+          },
+        },
+        {
+          id: "618ECE88FAF0C52D",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:focus_pouch",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5ED48D2732D9A6B5",
+          type: "xp",
+          xp: 200,
+        },
+        {
+          id: "1E89DF3D1BDA800D",
+          type: "random",
+          table_id: 253752461985528,
+        },
+      ],
+    },
+    {
+      id: "436C2F2223AA5831",
+      x: 1.6,
+      y: 47.2,
+      dependencies: [
+        "6227906D77CCCA22",
+      ],
+      tasks: [
+        {
+          id: "343F94A2ABC7674F",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:focal_manipulator",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4E1EC2B04DC1AB83",
+          type: "xp",
+          xp: 150,
+        },
+      ],
+    },
+    {
+      id: "5CD67AFD5B090BE2",
+      x: 3.2,
+      y: 47.2,
+      dependencies: [
+        "436C2F2223AA5831",
+        "40D9143FA7C71B48",
+      ],
+      tasks: [
+        {
+          id: "054E7D75184BDA10",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:focus_3",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7370DE8536C82F87",
+          type: "xp",
+          xp: 300,
+        },
+        {
+          id: "7770EBE7D6877066",
+          type: "random",
+          table_id: 379532711335085,
+        },
+      ],
+    },
+    {
+      id: "733CB50AFC97E258",
+      x: 0.0,
+      y: 51.3,
+      dependencies: [
+        "1809C7659BF1FEC2",
+      ],
+      tasks: [
+        {
+          id: "74DD82822A863168",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:golem",
+          },
+        },
+        {
+          id: "2A83CD4F28A3E25D",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:golem_bell",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "51692D6BB41380D9",
+          type: "xp",
+          xp: 200,
+        },
+        {
+          id: "634B71FA169F9F87",
+          type: "random",
+          table_id: 2210856162803377,
+        },
+      ],
+    },
+    {
+      id: "18DEA94AE27D288E",
+      x: 1.6,
+      y: 51.3,
+      dependencies: [
+        "733CB50AFC97E258",
+      ],
+      tasks: [
+        {
+          id: "464948533DEC1DD5",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:golem_builder",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "43E7DAF7736796D8",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      id: "450A0D646578A39A",
+      x: 1.6,
+      y: 52.8,
+      dependencies: [
+        "733CB50AFC97E258",
+      ],
+      tasks: [
+        {
+          id: "53695A7D6564F8C5",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:seal_blank",
+          },
+          count: 4,
+        },
+        {
+          id: "2C2767AB06654BD9",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:seal_harvest",
+          },
+        },
+        {
+          id: "0FA6B3483D2A8319",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:seal_pickup",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "15C94A47713EFAE4",
+          type: "xp",
+          xp: 150,
+        },
+      ],
+    },
+    {
+      id: "7A7032684AC8FFB8",
+      x: 3.2,
+      y: 52.8,
+      dependencies: [
+        "450A0D646578A39A",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "66B86E1AA4C78C89",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:seal_pickup_advanced",
+          },
+        },
+        {
+          id: "7ABF6ED9DCD5B2AC",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:seal_fill_advanced",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6D7B312FFF1996F4",
+          type: "xp",
+          xp: 150,
+        },
+      ],
+    },
+    {
+      id: "3F3BCFB2AA5BA1D7",
+      x: 1.6,
+      y: 49.8,
+      dependencies: [
+        "733CB50AFC97E258",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "3CB0F0B1E361ADFA",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:mind_clockwork",
+          },
+        },
+        {
+          id: "6D996E57AF242E42",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:mind_biothaumic",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2953FC6972A1BDA2",
+          type: "xp",
+          xp: 150,
+        },
+      ],
+    },
+    {
+      id: "25278CB1FFCC2D71",
+      x: 0.0,
+      y: 58.4,
+      icon: {
+        count: 1,
+        id: "thaumaturge:crimson_blade",
+      },
+      dependencies: [
+        "5B0E64C3CB1AE523",
+      ],
+      tasks: [
+        {
+          id: "2973563313C5B4A5",
+          type: "kill",
+          entity: "thaumaturge:cultist_knight",
+          value: 5,
+        },
+        {
+          id: "052138DA9FDCCC72",
+          type: "kill",
+          entity: "thaumaturge:cultist_cleric",
+          value: 3,
+        },
+      ],
+      rewards: [
+        {
+          id: "6CA557F00CDB6DF5",
+          type: "xp",
+          xp: 250,
+        },
+        {
+          id: "7EB931A5448489D4",
+          type: "random",
+          table_id: 2210856162803377,
+        },
+      ],
+    },
+    {
+      id: "5FBA0BD048B358A5",
+      x: 1.6,
+      y: 59.9,
+      dependencies: [
+        "25278CB1FFCC2D71",
+      ],
+      tasks: [
+        {
+          id: "75489DC21DF8770D",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:crimson_blade",
+          },
+        },
+        {
+          id: "16D26B445D57B715",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:crimson_plate_chest",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4073D16A7198554D",
+          type: "xp",
+          xp: 200,
+        },
+      ],
+    },
+    {
+      id: "67F01A776843229F",
+      x: 0.0,
+      y: 59.9,
+      icon: {
+        count: 1,
+        id: "thaumaturge:pech_wand",
+      },
+      dependencies: [
+        "1B0D9B18770E1402",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "1197056F388E8F02",
+          type: "kill",
+          entity: "thaumaturge:pech",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "70D0994FB9ECB8FA",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      id: "27CBE4668291D7BE",
+      x: 0.0,
+      y: 56.9,
+      dependencies: [
+        "474C948258A6751B",
+      ],
+      tasks: [
+        {
+          id: "0D2966681646EE94",
+          type: "kill",
+          entity: "thaumaturge:wisp",
+          value: 3,
+        },
+      ],
+      rewards: [
+        {
+          id: "0CB661EC00C3C8E2",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      id: "58D41B3149C99119",
+      x: 0.0,
+      y: 61.4,
+      icon: {
+        count: 1,
+        id: "thaumaturge:taint_fibre",
+      },
+      dependencies: [
+        "5E2AD0DD3DBCB7FB",
+      ],
+      tasks: [
+        {
+          id: "5490BC983ABA3F72",
+          type: "kill",
+          entity: "thaumaturge:taint_crawler",
+          value: 5,
+        },
+      ],
+      rewards: [
+        {
+          id: "684875BBE3420DA5",
+          type: "xp",
+          xp: 150,
+        },
+      ],
+    },
+    {
+      id: "01CBF8F6B23E4078",
+      x: 0.0,
+      y: 55.4,
+      icon: {
+        count: 1,
+        id: "thaumaturge:loot_urn_common",
+      },
+      dependencies: [
+        "1B0D9B18770E1402",
+      ],
+      tasks: [
+        {
+          id: "3DDD3FCC999C21A9",
+          type: "structure",
+          structure: "thaumaturge:mound",
+        },
+      ],
+      rewards: [
+        {
+          id: "6AC9B8C32E8B0EFE",
+          type: "xp",
+          xp: 100,
+        },
+        {
+          id: "2CD80102D7CC6B56",
+          type: "random",
+          table_id: 4314132029995036,
+        },
+      ],
+    },
+    {
+      id: "1CF31C8AFF1303F0",
+      x: 1.6,
+      y: 58.4,
+      icon: {
+        count: 1,
+        id: "thaumaturge:eldritch_obelisk",
+      },
+      dependencies: [
+        "25278CB1FFCC2D71",
+      ],
+      tasks: [
+        {
+          id: "78ADC5692C936768",
+          type: "structure",
+          structure: "thaumaturge:eldritch_obelisk",
+        },
+      ],
+      rewards: [
+        {
+          id: "1200D06E3125783E",
+          type: "xp",
+          xp: 200,
+        },
+        {
+          id: "233520D811D8E525",
+          type: "random",
+          table_id: 2210856162803377,
+        },
+      ],
+    },
+    {
+      id: "40D9143FA7C71B48",
+      x: 3.2,
+      y: 58.4,
+      size: 1.5,
+      dependencies: [
+        "1809C7659BF1FEC2",
+        "1CF31C8AFF1303F0",
+      ],
+      tasks: [
+        {
+          id: "183A923263ED64CE",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:ingot_void",
+          },
+          count: 8,
+        },
+        {
+          id: "16A579796D3CF261",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:void_seed",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5E806F4D4976C86C",
+          type: "xp",
+          xp: 300,
+        },
+        {
+          id: "6BB4FC264106A10E",
+          type: "random",
+          table_id: 379532711335085,
+        },
+      ],
+    },
+    {
+      id: "7349912078CB1C38",
+      x: 4.8,
+      y: 58.4,
+      dependencies: [
+        "40D9143FA7C71B48",
+      ],
+      tasks: [
+        {
+          id: "376C320E6349BF6A",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:void_pickaxe",
+          },
+        },
+        {
+          id: "6626D81EEE27B791",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:void_sword",
+          },
+        },
+        {
+          id: "053EF9DE3110272A",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:void_chest",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1146D40DFB34C478",
+          type: "xp",
+          xp: 300,
+        },
+        {
+          id: "18EC9F2C09F492B5",
+          type: "random",
+          table_id: 379532711335085,
+        },
+      ],
+    },
+    {
+      id: "210BF8E7F9A3F6B3",
+      x: 6.4,
+      y: 58.4,
+      dependencies: [
+        "7349912078CB1C38",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "6ADB8FFFB72B74F8",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:void_robe_helm",
+          },
+        },
+        {
+          id: "71A8C523D453E0A2",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:void_robe_chest",
+          },
+        },
+        {
+          id: "405B38534FF3AFD3",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:void_robe_legs",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1EBAD730B3105CE6",
+          type: "xp",
+          xp: 300,
+        },
+        {
+          id: "11D1F1ECD00E1E85",
+          type: "random",
+          table_id: 379532711335085,
+        },
+      ],
+    },
+    {
+      id: "6AC13432205033F0",
+      x: 4.8,
+      y: 59.9,
+      shape: "hexagon",
+      size: 1.5,
+      icon: {
+        count: 1,
+        id: "thaumaturge:eldritch_eye",
+      },
+      dependencies: [
+        "40D9143FA7C71B48",
+      ],
+      tasks: [
+        {
+          id: "14A57F0249979116",
+          type: "dimension",
+          dimension: "thaumaturge:outer_lands",
+        },
+      ],
+      rewards: [
+        {
+          id: "1A453DCE5B84AFE7",
+          type: "xp",
+          xp: 500,
+        },
+        {
+          id: "000B15B5D9EB73F8",
+          type: "random",
+          table_id: 379532711335085,
+        },
+      ],
+    },
+    {
+      id: "652023BCDCF94D09",
+      x: 6.4,
+      y: 59.9,
+      icon: {
+        count: 1,
+        id: "thaumaturge:eldritch_eye",
+      },
+      dependencies: [
+        "6AC13432205033F0",
+      ],
+      tasks: [
+        {
+          id: "6ADBE3E38485F441",
+          type: "kill",
+          entity: "thaumaturge:eldritch_guardian",
+          value: 5,
+        },
+      ],
+      rewards: [
+        {
+          id: "309BBF86932ED5DB",
+          type: "xp",
+          xp: 300,
+        },
+        {
+          id: "78E9AEA197190B2C",
+          type: "random",
+          table_id: 379532711335085,
+        },
+      ],
+    },
+    {
+      id: "00428375B942FF58",
+      x: 8.0,
+      y: 59.9,
+      icon: {
+        count: 1,
+        id: "thaumaturge:eldritch_stone",
+      },
+      dependencies: [
+        "652023BCDCF94D09",
+      ],
+      tasks: [
+        {
+          id: "4D3144D6CCC0758B",
+          type: "kill",
+          entity: "thaumaturge:eldritch_golem",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "7ED65AA228ADE2AD",
+          type: "xp",
+          xp: 400,
+        },
+        {
+          id: "32FF9461872E6377",
+          type: "random",
+          table_id: 379532711335085,
+        },
+      ],
+    },
+    {
+      id: "7624F5519196194E",
+      x: 9.6,
+      y: 59.9,
+      icon: {
+        count: 1,
+        id: "thaumaturge:eldritch_capstone",
+      },
+      dependencies: [
+        "00428375B942FF58",
+      ],
+      tasks: [
+        {
+          id: "034024C950DD67E3",
+          type: "kill",
+          entity: "thaumaturge:eldritch_warden",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "318BB6941D494F29",
+          type: "xp",
+          xp: 500,
+        },
+        {
+          id: "0B430C4342C9CEC6",
+          type: "random",
+          table_id: 379532711335085,
+        },
+      ],
+    },
+    {
+      id: "2A03590EF3738B08",
+      x: 11.2,
+      y: 59.9,
+      shape: "gear",
+      size: 2.0,
+      dependencies: [
+        "7624F5519196194E",
+      ],
+      tasks: [
+        {
+          id: "1BD44D06DDED3DBA",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:primordial_pearl",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5B82786E5671DBC9",
+          type: "xp_levels",
+          xp_levels: 40,
+        },
+        {
+          id: "0AFCDA5CC7EA11CA",
+          type: "random",
+          table_id: 379532711335085,
+        },
+      ],
+    },
+    {
+      id: "14109C8CEE42CD16",
+      x: 12.8,
+      y: 59.9,
+      dependencies: [
+        "2A03590EF3738B08",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "225A064863D9B914",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:causality_collapser",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7F1E601544040684",
+          type: "xp",
+          xp: 300,
+        },
+      ],
+    },
+  ],
+  quest_links: [ ],
+  images: [
+    {
+      x: 6.4,
+      y: -1.5188,
+      width: 12.0,
+      height: 1.4375,
+      rotation: 0.0,
+      image: "gspack:textures/quests/thaumaturge_header.png",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false,
+    },
+    {
+      x: 0.3529,
+      y: 5.6,
+      width: 1.9059,
+      height: 0.6,
+      rotation: 0.0,
+      image: "gspack:textures/quests/thaumaturge_wand.png",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false,
+    },
+    {
+      x: 0.5294,
+      y: 12.7,
+      width: 2.2588,
+      height: 0.6,
+      rotation: 0.0,
+      image: "gspack:textures/quests/thaumaturge_crucible.png",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false,
+    },
+    {
+      x: 0.5118,
+      y: 35.9,
+      width: 2.2235,
+      height: 0.6,
+      rotation: 0.0,
+      image: "gspack:textures/quests/thaumaturge_infusion.png",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false,
+    },
+    {
+      x: 0.0882,
+      y: 46.0,
+      width: 1.3765,
+      height: 0.6,
+      rotation: 0.0,
+      image: "gspack:textures/quests/thaumaturge_foci.png",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false,
+    },
+    {
+      x: 0.7765,
+      y: 48.6,
+      width: 2.7529,
+      height: 0.6,
+      rotation: 0.0,
+      image: "gspack:textures/quests/thaumaturge_golem.png",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false,
+    },
+    {
+      x: 0.7765,
+      y: 0.0,
+      width: 2.7529,
+      height: 0.6,
+      rotation: 0.0,
+      image: "gspack:textures/quests/thaumaturge_crystals.png",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false,
+    },
+    {
+      x: 0.8647,
+      y: 54.2,
+      width: 2.9294,
+      height: 0.6,
+      rotation: 0.0,
+      image: "gspack:textures/quests/thaumaturge_cultists.png",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false,
+    },
+    {
+      x: 0.1588,
+      y: 24.3,
+      width: 1.5176,
+      height: 0.6,
+      rotation: 0.0,
+      image: "gspack:textures/quests/thaumaturge_thaumium_tools.png",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false,
+    },
+  ],
+}

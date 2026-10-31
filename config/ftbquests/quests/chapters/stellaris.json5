@@ -1,0 +1,2253 @@
+{
+  id: "329774BD106DA4BD",
+  group: "11F64C4259C477EF",
+  order_index: 14,
+  filename: "stellaris",
+  icon: {
+    count: 1,
+    id: "stellaris:rocket",
+  },
+  default_quest_shape: "",
+  default_hide_dependency_lines: true,
+  quests: [
+    {
+      id: "1BDF29069D360970",
+      x: 0.0,
+      y: 4.2,
+      shape: "gear",
+      size: 1.5,
+      tasks: [
+        {
+          id: "64CED4200C98B952",
+          type: "item",
+          item: {
+            count: 1,
+            id: "stellaris:raw_titanium",
+          },
+          count: 8,
+        },
+        {
+          id: "2FD6D9F31410D7C9",
+          type: "item",
+          item: {
+            count: 1,
+            id: "stellaris:titanium_ingot",
+          },
+          count: 16,
+        },
+      ],
+      rewards: [
+        {
+          id: "598A4CF366BD7FD7",
+          type: "xp",
+          xp: 75,
+        },
+        {
+          id: "71852793FE99CDD3",
+          type: "random",
+          table_id: 2707929079613826,
+        },
+      ],
+    },
+    {
+      id: "76855D39EF5F4C94",
+      x: 1.6,
+      y: 4.2,
+      dependencies: [
+        "1BDF29069D360970",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "02A9F16FA71642D3",
+          type: "item",
+          item: {
+            count: 1,
+            id: "stellaris:titanium_pickaxe",
+          },
+        },
+        {
+          id: "14A7F385B0936836",
+          type: "item",
+          item: {
+            count: 1,
+            id: "stellaris:titanium_sword",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0DBF6E2F749357AE",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      id: "13F5E3AE02259E27",
+      x: 1.6,
+      y: 5.7,
+      dependencies: [
+        "1BDF29069D360970",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "05F2065F3AF50636",
+          type: "item",
+          item: {
+            count: 1,
+            id: "stellaris:titanium_plating_block",
+          },
+          count: 16,
+        },
+        {
+          id: "516D5F541069DE40",
+          type: "item",
+          item: {
+            count: 1,
+            id: "stellaris:iron_plating_block",
+          },
+          count: 16,
+        },
+      ],
+      rewards: [
+        {
+          id: "7F2DF7FF3FBFD834",
+          type: "xp",
+          xp: 25,
+        },
+      ],
+    },
+    {
+      id: "35BD67960377F8F8",
+      x: 1.6,
+      y: 2.7,
+      icon: {
+        count: 1,
+        id: "stellaris:flag",
+      },
+      dependencies: [
+        "1BDF29069D360970",
+      ],
+      tasks: [
+        {
+          id: "63B087AB15206655",
+          type: "structure",
+          structure: "stellaris:earth_operation_base",
+        },
+      ],
+      rewards: [
+        {
+          id: "34E10E7ABA6C23DA",
+          type: "xp",
+          xp: 150,
+        },
+        {
+          id: "7142857AF4A6DA79",
+          type: "random",
+          table_id: 2707929079613826,
+        },
+      ],
+    },
+    {
+      id: "25E74C0D1B65791E",
+      x: 1.6,
+      y: 7.2,
+      icon: {
+        count: 1,
+        id: "stellaris:antenna",
+      },
+      dependencies: [
+        "1BDF29069D360970",
+      ],
+      tasks: [
+        {
+          id: "24687F5EAEFAAE6D",
+          type: "structure",
+          structure: "stellaris:earth_satellite",
+        },
+      ],
+      rewards: [
+        {
+          id: "6D52E02D9382A9E3",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      id: "7D79939AB3CF76AA",
+      x: 1.6,
+      y: 1.2,
+      icon: {
+        count: 1,
+        id: "stellaris:meteorite",
+      },
+      dependencies: [
+        "1BDF29069D360970",
+      ],
+      tasks: [
+        {
+          id: "1E3917666F1E2281",
+          type: "structure",
+          structure: "stellaris:meteor",
+        },
+      ],
+      rewards: [
+        {
+          id: "1DBF887DDEB7D90D",
+          type: "xp",
+          xp: 100,
+        },
+        {
+          id: "66B003784069D8D9",
+          type: "random",
+          table_id: 2707929079613826,
+        },
+      ],
+    },
+    {
+      id: "2DD3E437DC776B9B",
+      x: 0.0,
+      y: 11.3,
+      dependencies: [
+        "1BDF29069D360970",
+      ],
+      tasks: [
+        {
+          id: "413171097CD027B4",
+          type: "item",
+          item: {
+            count: 1,
+            id: "stellaris:coal_generator",
+          },
+        },
+        {
+          id: "7E65C1CEED4F2C6A",
+          type: "item",
+          item: {
+            count: 1,
+            id: "stellaris:cable_t1",
+          },
+          count: 16,
+        },
+      ],
+      rewards: [
+        {
+          id: "5344D363E014B113",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      id: "3BA0116BABDF1B21",
+      x: 1.6,
+      y: 11.3,
+      dependencies: [
+        "2DD3E437DC776B9B",
+      ],
+      tasks: [
+        {
+          id: "77CBE34A8DF11D1C",
+          type: "item",
+          item: {
+            count: 1,
+            id: "stellaris:solar_panel",
+          },
+          count: 2,
+        },
+      ],
+      rewards: [
+        {
+          id: "6FF9BE5E37BDD6CC",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      id: "4191D2B7160DA683",
+      x: 0.0,
+      y: 12.8,
+      dependencies: [
+        "591A6D20BB4793EF",
+      ],
+      tasks: [
+        {
+          id: "350C72DEDB722CF0",
+          type: "item",
+          item: {
+            count: 1,
+            id: "stellaris:diesel_generator",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6117A3E2AEA1DF15",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      id: "0D02620463F1C457",
+      x: 1.6,
+      y: 9.8,
+      dependencies: [
+        "2DD3E437DC776B9B",
+      ],
+      tasks: [
+        {
+          id: "38002157B4F981AD",
+          type: "item",
+          item: {
+            count: 1,
+            id: "stellaris:power_bank_t1",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "35F3798CD957B42D",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      id: "0181AEDC15558730",
+      x: 1.6,
+      y: 12.8,
+      size: 1.5,
+      dependencies: [
+        "2DD3E437DC776B9B",
+      ],
+      tasks: [
+        {
+          id: "513DCDE5A3D04A31",
+          type: "item",
+          item: {
+            count: 1,
+            id: "stellaris:engineering_station",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6E9D7C15E12BF923",
+          type: "xp",
+          xp: 100,
+        },
+        {
+          id: "29DC83E180D8EE61",
+          type: "random",
+          table_id: 2707929079613826,
+        },
+      ],
+    },
+    {
+      id: "2606AFA8ABD5A542",
+      x: 3.2,
+      y: 12.8,
+      dependencies: [
+        "0181AEDC15558730",
+      ],
+      tasks: [
+        {
+          id: "2D5CAE7861C56801",
+          type: "item",
+          item: {
+            count: 1,
+            id: "stellaris:laboratory",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5C462D53DD04A3A4",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      id: "4EA4DE9ED5CB8B3C",
+      x: 0.0,
+      y: 9.8,
+      dependencies: [
+        "1BDF29069D360970",
+      ],
+      tasks: [
+        {
+          id: "5C5707D6EEE9CAAB",
+          type: "item",
+          item: {
+            count: 1,
+            id: "stellaris:silicon",
+          },
+          count: 16,
+        },
+      ],
+      rewards: [
+        {
+          id: "59128438A35BB317",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      id: "210059A2E58C2D1D",
+      x: 3.2,
+      y: 14.3,
+      dependencies: [
+        "0181AEDC15558730",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "1D1E6856FDD56DB8",
+          type: "item",
+          item: {
+            count: 1,
+            id: "stellaris:tablet",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "27CF50FEC5591030",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      id: "69DC8181409DA62D",
+      x: 1.6,
+      y: 14.3,
+      dependencies: [
+        "2DD3E437DC776B9B",
+      ],
+      tasks: [
+        {
+          id: "127D55E2476FE33A",
+          type: "item",
+          item: {
+            count: 1,
+            id: "stellaris:pipe_t1",
+          },
+          count: 16,
+        },
+        {
+          id: "1738CD5BC029E9E0",
+          type: "item",
+          item: {
+            count: 1,
+            id: "stellaris:fluid_tank_t1",
+          },
+          count: 2,
+        },
+      ],
+      rewards: [
+        {
+          id: "748ECDD78D2142DF",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      id: "1FAEBDDF4CC7750D",
+      x: 0.0,
+      y: 16.9,
+      dependencies: [
+        "0181AEDC15558730",
+      ],
+      tasks: [
+        {
+          id: "30CAA4ADF1E441B1",
+          type: "item",
+          item: {
+            count: 1,
+            id: "stellaris:oil_finder",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "349C0A4D99822570",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      id: "07F24D407443E2E4",
+      x: 1.6,
+      y: 16.9,
+      dependencies: [
+        "1FAEBDDF4CC7750D",
+      ],
+      tasks: [
+        {
+          id: "5FA71B72EB21E3A3",
+          type: "item",
+          item: {
+            count: 1,
+            id: "stellaris:pumpjack",
+          },
+        },
+        {
+          id: "5D9D021AF54C2A69",
+          type: "item",
+          item: {
+            count: 1,
+            id: "stellaris:oil_bucket",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "54BDD7685A3796C5",
+          type: "xp",
+          xp: 150,
+        },
+      ],
+    },
+    {
+      id: "591A6D20BB4793EF",
+      x: 3.2,
+      y: 16.9,
+      dependencies: [
+        "07F24D407443E2E4",
+      ],
+      tasks: [
+        {
+          id: "7827F8B288335C5F",
+          type: "item",
+          item: {
+            count: 1,
+            id: "stellaris:fuel_refinery",
+          },
+        },
+        {
+          id: "56FED2EA10199D03",
+          type: "item",
+          item: {
+            count: 1,
+            id: "stellaris:fuel_bucket",
+          },
+          count: 2,
+        },
+      ],
+      rewards: [
+        {
+          id: "2CE57776DEC4DB2F",
+          type: "xp",
+          xp: 150,
+        },
+        {
+          id: "179EC4071FDB401E",
+          type: "random",
+          table_id: 2707929079613826,
+        },
+      ],
+    },
+    {
+      id: "6CE7B645F9F1AFAE",
+      x: 0.0,
+      y: 18.4,
+      dependencies: [
+        "2DD3E437DC776B9B",
+      ],
+      tasks: [
+        {
+          id: "6BAE1286A710F7FA",
+          type: "item",
+          item: {
+            count: 1,
+            id: "stellaris:water_pump",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "462511552EFB3BBD",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      id: "16B426C3A54E7A85",
+      x: 1.6,
+      y: 18.4,
+      dependencies: [
+        "6CE7B645F9F1AFAE",
+      ],
+      tasks: [
+        {
+          id: "039B6C7078DB4EDE",
+          type: "item",
+          item: {
+            count: 1,
+            id: "stellaris:electrolyzer",
+          },
+        },
+        {
+          id: "23A23853A23CB990",
+          type: "item",
+          item: {
+            count: 1,
+            id: "stellaris:hydrogen_bucket",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3C36D028EF36CAB5",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      id: "23C244273831DE41",
+      x: 3.2,
+      y: 18.4,
+      dependencies: [
+        "16B426C3A54E7A85",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "40D653DFA6143FF5",
+          type: "item",
+          item: {
+            count: 1,
+            id: "stellaris:hydrogen_motor",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3448550005EEC7BF",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      id: "58C854681A0038DE",
+      x: 0.0,
+      y: 22.5,
+      size: 1.5,
+      dependencies: [
+        "0181AEDC15558730",
+        "4EA4DE9ED5CB8B3C",
+      ],
+      tasks: [
+        {
+          id: "675E452172D45C50",
+          type: "item",
+          item: {
+            count: 1,
+            id: "stellaris:space_suit_helmet",
+          },
+        },
+        {
+          id: "5A92024289F3E5B9",
+          type: "item",
+          item: {
+            count: 1,
+            id: "stellaris:space_suit_chestplate",
+          },
+        },
+        {
+          id: "441FBE8EFB6CA8CF",
+          type: "item",
+          item: {
+            count: 1,
+            id: "stellaris:space_suit_leggings",
+          },
+        },
+        {
+          id: "67B63D16D5FEEBD3",
+          type: "item",
+          item: {
+            count: 1,
+            id: "stellaris:space_suit_boots",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1180B7CC0723312C",
+          type: "xp",
+          xp: 200,
+        },
+        {
+          id: "7A08320C386F3D21",
+          type: "random",
+          table_id: 253752461985528,
+        },
+      ],
+    },
+    {
+      id: "00F4BF3A1192C1F4",
+      x: 1.6,
+      y: 22.5,
+      dependencies: [
+        "58C854681A0038DE",
+        "16B426C3A54E7A85",
+      ],
+      tasks: [
+        {
+          id: "7A453BB4D59B71E1",
+          type: "item",
+          item: {
+            count: 1,
+            id: "stellaris:space_suit_oxygen_module_tier_1",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2C9B37BDE780BA6B",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      id: "42CD8A79F3115255",
+      x: 3.2,
+      y: 22.5,
+      dependencies: [
+        "00F4BF3A1192C1F4",
+        "6B9EDEA363A8EB0B",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "2B8ADA3FDA3FAA2B",
+          type: "item",
+          item: {
+            count: 1,
+            id: "stellaris:space_suit_oxygen_module_tier_2",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "52C6E58336FAC042",
+          type: "xp",
+          xp: 150,
+        },
+      ],
+    },
+    {
+      id: "63CD415CA2922E06",
+      x: 1.6,
+      y: 24.0,
+      dependencies: [
+        "58C854681A0038DE",
+      ],
+      tasks: [
+        {
+          id: "20A09287E3A4C2D8",
+          type: "item",
+          item: {
+            count: 1,
+            id: "stellaris:space_suit_damage_protection_module_tier_1",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "074E41E39666F6CF",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      id: "5CE8C38DCBE28283",
+      x: 1.6,
+      y: 21.0,
+      dependencies: [
+        "58C854681A0038DE",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "78CC6AB43E1066D5",
+          type: "item",
+          item: {
+            count: 1,
+            id: "stellaris:space_suit_night_vision_module",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6DF076B7B0586514",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      id: "645034E2A05EE4BA",
+      x: 3.2,
+      y: 24.0,
+      dependencies: [
+        "00F4BF3A1192C1F4",
+      ],
+      tasks: [
+        {
+          id: "1A35A2E17E33AB90",
+          type: "item",
+          item: {
+            count: 1,
+            id: "stellaris:oxygen_distributor",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "78B3D01C96235391",
+          type: "xp",
+          xp: 150,
+        },
+      ],
+    },
+    {
+      id: "2BBAD23B589EC925",
+      x: 4.8,
+      y: 24.0,
+      dependencies: [
+        "645034E2A05EE4BA",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "765F32E3DADECB8A",
+          type: "item",
+          item: {
+            count: 1,
+            id: "stellaris:oxygen_propagator",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7EE120CD77B5784E",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      id: "26290EB27A3E93F5",
+      x: 3.2,
+      y: 21.0,
+      dependencies: [
+        "00F4BF3A1192C1F4",
+        "6B9EDEA363A8EB0B",
+      ],
+      tasks: [
+        {
+          id: "08C315D9AA040F5F",
+          type: "item",
+          item: {
+            count: 1,
+            id: "stellaris:space_suit_jet_module_tier_1",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4C12EEB8F57B368B",
+          type: "xp",
+          xp: 150,
+        },
+      ],
+    },
+    {
+      id: "3236149471DDCD4D",
+      x: 0.0,
+      y: 24.0,
+      dependencies: [
+        "6B9EDEA363A8EB0B",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "5B14F2A34B4EA149",
+          type: "item",
+          item: {
+            count: 1,
+            id: "stellaris:gravity_manipulator",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "185F7DE00FB7ACDA",
+          type: "xp",
+          xp: 200,
+        },
+      ],
+    },
+    {
+      id: "2A2C57D0C1DF60C2",
+      x: 0.0,
+      y: 28.1,
+      dependencies: [
+        "0181AEDC15558730",
+      ],
+      tasks: [
+        {
+          id: "04E764353D3CAF8D",
+          type: "item",
+          item: {
+            count: 1,
+            id: "stellaris:rocket_nose_cone",
+          },
+        },
+        {
+          id: "4605202C823E39F4",
+          type: "item",
+          item: {
+            count: 1,
+            id: "stellaris:rocket_fin",
+          },
+          count: 4,
+        },
+        {
+          id: "429CC4EC03F562A4",
+          type: "item",
+          item: {
+            count: 1,
+            id: "stellaris:rocket_engine",
+          },
+        },
+        {
+          id: "10AF9410D67CB0F3",
+          type: "item",
+          item: {
+            count: 1,
+            id: "stellaris:engine_fan",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "31F412BAF5F1313C",
+          type: "xp",
+          xp: 200,
+        },
+        {
+          id: "11D181B30E20753A",
+          type: "random",
+          table_id: 2707929079613826,
+        },
+      ],
+    },
+    {
+      id: "17829AB701ACED54",
+      x: 0.0,
+      y: 29.6,
+      dependencies: [
+        "0181AEDC15558730",
+      ],
+      tasks: [
+        {
+          id: "1105999AD9A24610",
+          type: "item",
+          item: {
+            count: 1,
+            id: "stellaris:rocket_launch_pad",
+          },
+          count: 9,
+        },
+      ],
+      rewards: [
+        {
+          id: "11C7AA7D10336D7C",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      id: "1D12D87020CCCF49",
+      x: 1.6,
+      y: 28.1,
+      shape: "hexagon",
+      size: 2.0,
+      dependencies: [
+        "2A2C57D0C1DF60C2",
+        "17829AB701ACED54",
+        "591A6D20BB4793EF",
+      ],
+      tasks: [
+        {
+          id: "061943FB6982BEA8",
+          type: "item",
+          item: {
+            count: 1,
+            id: "stellaris:rocket",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3A4E3793CCADAC20",
+          type: "xp",
+          xp: 300,
+        },
+        {
+          id: "3B658086C33D0913",
+          type: "choice",
+          table_id: 2210856162803377,
+        },
+      ],
+    },
+    {
+      id: "525A038423C3EE03",
+      x: 3.2,
+      y: 28.1,
+      dependencies: [
+        "1D12D87020CCCF49",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "347E8B6027422692",
+          type: "item",
+          item: {
+            count: 1,
+            id: "stellaris:cargo_module",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "31CC4E94EA973B5F",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      id: "11CD65DB0BF03FA0",
+      x: 3.2,
+      y: 29.6,
+      dependencies: [
+        "1D12D87020CCCF49",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "39D4781858C70784",
+          type: "item",
+          item: {
+            count: 1,
+            id: "stellaris:autopilot_module",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "076F9A10FAB47931",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      id: "3E4A01927D362A47",
+      x: 3.2,
+      y: 26.6,
+      dependencies: [
+        "1D12D87020CCCF49",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "69839297F5BA1B71",
+          type: "item",
+          item: {
+            count: 1,
+            id: "stellaris:shield_module",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7E22DD47DEB7172F",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      id: "0DAEAAC27143426C",
+      x: 4.8,
+      y: 28.1,
+      dependencies: [
+        "525A038423C3EE03",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "58C5DB15EFCAEEBE",
+          type: "item",
+          item: {
+            count: 1,
+            id: "stellaris:cargo_unloader",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3796807353980BD6",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      id: "58BC606038F1BE46",
+      x: 3.2,
+      y: 31.1,
+      dependencies: [
+        "1D12D87020CCCF49",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "76FB5D8F5FF6F322",
+          type: "item",
+          item: {
+            count: 1,
+            id: "stellaris:skin_galaxy",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "029C46008DE8DFBC",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      id: "21DA6E7D119F2ACA",
+      x: 0.0,
+      y: 38.2,
+      size: 1.5,
+      icon: {
+        count: 1,
+        id: "stellaris:earth_globe",
+      },
+      dependencies: [
+        "1D12D87020CCCF49",
+        "58C854681A0038DE",
+      ],
+      tasks: [
+        {
+          id: "1686DA74F15C1685",
+          type: "dimension",
+          dimension: "stellaris:earth_orbit",
+        },
+      ],
+      rewards: [
+        {
+          id: "12ED1F37227FB38B",
+          type: "xp",
+          xp: 300,
+        },
+        {
+          id: "177E269CB2252EFC",
+          type: "random",
+          table_id: 2707929079613826,
+        },
+      ],
+    },
+    {
+      id: "180FE6C3A7BC6189",
+      x: 1.6,
+      y: 39.7,
+      dependencies: [
+        "21DA6E7D119F2ACA",
+      ],
+      tasks: [
+        {
+          id: "6AA3582F7C2311E1",
+          type: "item",
+          item: {
+            count: 1,
+            id: "stellaris:space_station_blueprint",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3E51CB498275F687",
+          type: "xp",
+          xp: 200,
+        },
+      ],
+    },
+    {
+      id: "5AE05E82C35B346C",
+      x: 1.6,
+      y: 38.2,
+      shape: "gear",
+      size: 2.0,
+      icon: {
+        count: 1,
+        id: "stellaris:moon_globe",
+      },
+      dependencies: [
+        "21DA6E7D119F2ACA",
+      ],
+      tasks: [
+        {
+          id: "01679B51A7D2E8B2",
+          type: "dimension",
+          dimension: "stellaris:moon",
+        },
+      ],
+      rewards: [
+        {
+          id: "0A4D6D7B117EDB0E",
+          type: "xp",
+          xp: 500,
+        },
+        {
+          id: "1095DC37943CBECE",
+          type: "random",
+          table_id: 379532711335085,
+        },
+      ],
+    },
+    {
+      id: "1349CC872709D047",
+      x: 3.2,
+      y: 39.7,
+      icon: {
+        count: 1,
+        id: "stellaris:flag",
+      },
+      dependencies: [
+        "5AE05E82C35B346C",
+      ],
+      tasks: [
+        {
+          id: "02462F8A929415C2",
+          type: "structure",
+          structure: "stellaris:moon_first_landing",
+        },
+      ],
+      rewards: [
+        {
+          id: "594FE2EB7700426E",
+          type: "xp",
+          xp: 150,
+        },
+        {
+          id: "09EF84AF6C586B40",
+          type: "random",
+          table_id: 2707929079613826,
+        },
+      ],
+    },
+    {
+      id: "01B841FBB8258813",
+      x: 3.2,
+      y: 36.7,
+      dependencies: [
+        "5AE05E82C35B346C",
+      ],
+      tasks: [
+        {
+          id: "5954411E1CB4ED2D",
+          type: "item",
+          item: {
+            count: 1,
+            id: "stellaris:flag",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0E9DEB164DBDFC40",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      id: "2D33EFC79CB1CB71",
+      x: 3.2,
+      y: 41.2,
+      dependencies: [
+        "5AE05E82C35B346C",
+      ],
+      tasks: [
+        {
+          id: "12B33533686D50B7",
+          type: "item",
+          item: {
+            count: 1,
+            id: "stellaris:moon_stone",
+          },
+          count: 32,
+        },
+        {
+          id: "535E2B56A028BCC2",
+          type: "item",
+          item: {
+            count: 1,
+            id: "stellaris:moon_sand",
+          },
+          count: 16,
+        },
+      ],
+      rewards: [
+        {
+          id: "551CBCE8F7568149",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      id: "3251FA43CECC1596",
+      x: 4.8,
+      y: 41.2,
+      dependencies: [
+        "2D33EFC79CB1CB71",
+      ],
+      tasks: [
+        {
+          id: "6367E31B50CE9282",
+          type: "item",
+          item: {
+            count: 1,
+            id: "stellaris:moon_titanium_ore",
+          },
+        },
+        {
+          id: "5FB61EE49C760B22",
+          type: "item",
+          item: {
+            count: 1,
+            id: "stellaris:moon_stone_iron_ore",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "41C9910122EC3678",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      id: "6B9EDEA363A8EB0B",
+      x: 3.2,
+      y: 38.2,
+      size: 1.5,
+      dependencies: [
+        "5AE05E82C35B346C",
+      ],
+      tasks: [
+        {
+          id: "5B31E8E7FA35C879",
+          type: "item",
+          item: {
+            count: 1,
+            id: "stellaris:raw_desh",
+          },
+          count: 8,
+        },
+        {
+          id: "1B48B05BEE30523F",
+          type: "item",
+          item: {
+            count: 1,
+            id: "stellaris:desh_ingot",
+          },
+          count: 16,
+        },
+      ],
+      rewards: [
+        {
+          id: "201A41B764B16083",
+          type: "xp",
+          xp: 200,
+        },
+        {
+          id: "04EB421C405844AA",
+          type: "random",
+          table_id: 2707929079613826,
+        },
+      ],
+    },
+    {
+      id: "71D178EB7AE7C058",
+      x: 4.8,
+      y: 38.2,
+      dependencies: [
+        "6B9EDEA363A8EB0B",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "7AF38A1033BE3703",
+          type: "item",
+          item: {
+            count: 1,
+            id: "stellaris:desh_plating_block",
+          },
+          count: 16,
+        },
+      ],
+      rewards: [
+        {
+          id: "0267F60DD1405DBE",
+          type: "xp",
+          xp: 25,
+        },
+      ],
+    },
+    {
+      id: "68D65FD80F193B1B",
+      x: 4.8,
+      y: 39.7,
+      dependencies: [
+        "6B9EDEA363A8EB0B",
+      ],
+      tasks: [
+        {
+          id: "55DB8E800592C838",
+          type: "item",
+          item: {
+            count: 1,
+            id: "stellaris:raw_novite",
+          },
+          count: 4,
+        },
+        {
+          id: "5D9F13BCFBA08A49",
+          type: "item",
+          item: {
+            count: 1,
+            id: "stellaris:novite_ingot",
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "27E0E2C816B8C26C",
+          type: "xp",
+          xp: 300,
+        },
+        {
+          id: "08017771EF290D9C",
+          type: "random",
+          table_id: 2210856162803377,
+        },
+      ],
+    },
+    {
+      id: "0E305B1C7F6DFAE5",
+      x: 6.4,
+      y: 39.7,
+      icon: {
+        count: 1,
+        id: "stellaris:novite_ore",
+      },
+      dependencies: [
+        "68D65FD80F193B1B",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "57C59BED18A7D10A",
+          type: "structure",
+          structure: "stellaris:novite",
+        },
+      ],
+      rewards: [
+        {
+          id: "1A4BCD9AB7720443",
+          type: "xp",
+          xp: 150,
+        },
+      ],
+    },
+    {
+      id: "19CD505C1CF67B23",
+      x: 3.2,
+      y: 35.2,
+      dependencies: [
+        "5AE05E82C35B346C",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "55220F2D0F0E465A",
+          type: "item",
+          item: {
+            count: 1,
+            id: "stellaris:astrum_vitreus_cluster",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6EEC8C11B25BDC67",
+          type: "xp",
+          xp: 150,
+        },
+      ],
+    },
+    {
+      id: "560BB0DC5C790D4D",
+      x: 3.2,
+      y: 42.7,
+      icon: {
+        count: 1,
+        id: "stellaris:desh_plating_block",
+      },
+      dependencies: [
+        "5AE05E82C35B346C",
+      ],
+      tasks: [
+        {
+          id: "1A57681A17AD4E42",
+          type: "structure",
+          structure: "stellaris:lunar_outpost",
+        },
+      ],
+      rewards: [
+        {
+          id: "744C13BDD3193BA6",
+          type: "xp",
+          xp: 200,
+        },
+        {
+          id: "10A8AD0AB087FE09",
+          type: "random",
+          table_id: 2707929079613826,
+        },
+      ],
+    },
+    {
+      id: "57DFD35E721C0E91",
+      x: 4.8,
+      y: 42.7,
+      icon: {
+        count: 1,
+        id: "stellaris:electric_light",
+      },
+      dependencies: [
+        "560BB0DC5C790D4D",
+      ],
+      tasks: [
+        {
+          id: "3C2A6CF50D899920",
+          type: "structure",
+          structure: "stellaris:moon_space_base",
+        },
+      ],
+      rewards: [
+        {
+          id: "1D2B6BD00A922B99",
+          type: "xp",
+          xp: 250,
+        },
+        {
+          id: "799C1208DF05637F",
+          type: "random",
+          table_id: 2210856162803377,
+        },
+      ],
+    },
+    {
+      id: "4A0FBF7C10277436",
+      x: 3.2,
+      y: 33.7,
+      icon: {
+        count: 1,
+        id: "stellaris:rocket_engine",
+      },
+      dependencies: [
+        "5AE05E82C35B346C",
+      ],
+      tasks: [
+        {
+          id: "503C43B9ADA1E529",
+          type: "structure",
+          structure: "stellaris:moon_destroyed_spaceship",
+        },
+      ],
+      rewards: [
+        {
+          id: "1387564263E13C49",
+          type: "xp",
+          xp: 200,
+        },
+        {
+          id: "389F29C5D79A6C0C",
+          type: "random",
+          table_id: 2707929079613826,
+        },
+      ],
+    },
+    {
+      id: "5745268E4C4534CE",
+      x: 3.2,
+      y: 44.2,
+      icon: {
+        count: 1,
+        id: "stellaris:moon_stone_bricks",
+      },
+      dependencies: [
+        "5AE05E82C35B346C",
+      ],
+      tasks: [
+        {
+          id: "2BD0D7F5398C8B93",
+          type: "structure",
+          structure: "stellaris:moon_village",
+        },
+      ],
+      rewards: [
+        {
+          id: "4C9EF1EB509C2BD6",
+          type: "xp",
+          xp: 200,
+        },
+        {
+          id: "75DA551CCC00647D",
+          type: "random",
+          table_id: 2210856162803377,
+        },
+      ],
+    },
+    {
+      id: "491C8E9F488F32DC",
+      x: 4.8,
+      y: 44.2,
+      icon: {
+        count: 1,
+        id: "stellaris:cracked_moon_stone_bricks",
+      },
+      dependencies: [
+        "5745268E4C4534CE",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "0C4FAC6BE07EBBA1",
+          type: "structure",
+          structure: "stellaris:moon_destroyed_village",
+        },
+      ],
+      rewards: [
+        {
+          id: "151720D2754FBF54",
+          type: "xp",
+          xp: 150,
+        },
+      ],
+    },
+    {
+      id: "2F9011F973FDF160",
+      x: 4.8,
+      y: 45.7,
+      icon: {
+        count: 1,
+        id: "stellaris:alien_spawn_egg",
+      },
+      dependencies: [
+        "5745268E4C4534CE",
+      ],
+      tasks: [
+        {
+          id: "109030EDA8C30981",
+          type: "kill",
+          entity: "stellaris:alien",
+          value: 3,
+        },
+      ],
+      rewards: [
+        {
+          id: "55BA2B2FF33A1BCF",
+          type: "xp",
+          xp: 150,
+        },
+      ],
+    },
+    {
+      id: "5803AD73047EDB73",
+      x: 4.8,
+      y: 36.7,
+      dependencies: [
+        "6B9EDEA363A8EB0B",
+      ],
+      tasks: [
+        {
+          id: "3052081AF141262F",
+          type: "item",
+          item: {
+            count: 1,
+            id: "stellaris:rover",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0B7ED4F108FED3A3",
+          type: "xp",
+          xp: 200,
+        },
+      ],
+    },
+    {
+      id: "5E9E0CBA212F37E5",
+      x: 6.4,
+      y: 36.7,
+      dependencies: [
+        "5803AD73047EDB73",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "06E816C4D05856F7",
+          type: "item",
+          item: {
+            count: 1,
+            id: "stellaris:rover_speed_module",
+          },
+        },
+        {
+          id: "77442DEF78D5C494",
+          type: "item",
+          item: {
+            count: 1,
+            id: "stellaris:rover_tank_module",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "35B8F0F457AAA385",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      id: "3E27835E2D0E4509",
+      x: 0.0,
+      y: 49.8,
+      icon: {
+        count: 1,
+        id: "stellaris:lunar_log",
+      },
+      dependencies: [
+        "5AE05E82C35B346C",
+      ],
+      tasks: [
+        {
+          id: "32ABF4511B5D33FA",
+          type: "biome",
+          biome: "stellaris:lunar_forest",
+        },
+      ],
+      rewards: [
+        {
+          id: "5041F793D33BB1B3",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      id: "650AF81D1B5BE887",
+      x: 1.6,
+      y: 49.8,
+      dependencies: [
+        "3E27835E2D0E4509",
+      ],
+      tasks: [
+        {
+          id: "0109547EA413F08B",
+          type: "item",
+          item: {
+            count: 1,
+            id: "stellaris:lunar_log",
+          },
+          count: 16,
+        },
+      ],
+      rewards: [
+        {
+          id: "358F43989D34942E",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      id: "616549397B333FCA",
+      x: 1.6,
+      y: 51.3,
+      dependencies: [
+        "3E27835E2D0E4509",
+      ],
+      tasks: [
+        {
+          id: "32257C933EE21435",
+          type: "item",
+          item: {
+            count: 1,
+            id: "stellaris:moon_berries",
+          },
+          count: 16,
+        },
+      ],
+      rewards: [
+        {
+          id: "0B438EEE23379E5F",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      id: "1E5D4B01229D6803",
+      x: 1.6,
+      y: 48.3,
+      icon: {
+        count: 1,
+        id: "minecraft:filled_map",
+      },
+      dependencies: [
+        "3E27835E2D0E4509",
+      ],
+      tasks: [
+        {
+          id: "50FF520F0ACC10FC",
+          type: "biome",
+          biome: "stellaris:lunar_desert",
+        },
+        {
+          id: "4D3EE255E43C99CE",
+          type: "biome",
+          biome: "stellaris:moon_craters",
+        },
+        {
+          id: "35CDB4452ACFD1AB",
+          type: "biome",
+          biome: "stellaris:lunar_blue_lake",
+        },
+        {
+          id: "169002556E59D0AF",
+          type: "biome",
+          biome: "stellaris:burnt_forest",
+        },
+      ],
+      rewards: [
+        {
+          id: "41026FFD8543CEAD",
+          type: "xp",
+          xp: 200,
+        },
+        {
+          id: "15B884CD937101FA",
+          type: "random",
+          table_id: 2707929079613826,
+        },
+      ],
+    },
+    {
+      id: "7AEE9C2F4946B9B8",
+      x: 1.6,
+      y: 52.8,
+      icon: {
+        count: 1,
+        id: "stellaris:lunar_parasite_tooth",
+      },
+      dependencies: [
+        "3E27835E2D0E4509",
+      ],
+      tasks: [
+        {
+          id: "6207D8A4C672C308",
+          type: "kill",
+          entity: "stellaris:lunar_parasite",
+          value: 5,
+        },
+        {
+          id: "687212C18373A2E9",
+          type: "item",
+          item: {
+            count: 1,
+            id: "stellaris:lunar_parasite_tooth",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "46CF30380B846F6C",
+          type: "xp",
+          xp: 200,
+        },
+      ],
+    },
+    {
+      id: "6950852F37D9C4FE",
+      x: 3.2,
+      y: 52.8,
+      dependencies: [
+        "7AEE9C2F4946B9B8",
+        "2606AFA8ABD5A542",
+      ],
+      tasks: [
+        {
+          id: "6FBBD8232A975C72",
+          type: "item",
+          item: {
+            count: 1,
+            id: "stellaris:vaccine",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6B9395EAE8F11639",
+          type: "xp",
+          xp: 150,
+        },
+      ],
+    },
+    {
+      id: "6AA6AFD6E4232701",
+      x: 3.2,
+      y: 54.3,
+      icon: {
+        count: 1,
+        id: "stellaris:parasite",
+      },
+      dependencies: [
+        "7AEE9C2F4946B9B8",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "306862FA12C11B6B",
+          type: "kill",
+          entity: "stellaris:parasite_affected_villager",
+          value: 3,
+        },
+      ],
+      rewards: [
+        {
+          id: "37C29C040AAB9847",
+          type: "xp",
+          xp: 150,
+        },
+      ],
+    },
+    {
+      id: "7F5660F27EF25E94",
+      x: 0.0,
+      y: 51.3,
+      icon: {
+        count: 1,
+        id: "stellaris:moon_deepslate",
+      },
+      dependencies: [
+        "5AE05E82C35B346C",
+      ],
+      tasks: [
+        {
+          id: "7F13BBEE65658B26",
+          type: "kill",
+          entity: "stellaris:luna_shadow",
+          value: 3,
+        },
+      ],
+      rewards: [
+        {
+          id: "02DC546FFB871886",
+          type: "xp",
+          xp: 150,
+        },
+      ],
+    },
+    {
+      id: "4BB1BD5CE3B19DCD",
+      x: 3.2,
+      y: 51.3,
+      icon: {
+        count: 1,
+        id: "stellaris:chiseled_moon_stone",
+      },
+      dependencies: [
+        "7AEE9C2F4946B9B8",
+      ],
+      tasks: [
+        {
+          id: "4ADF3330ED9E914D",
+          type: "structure",
+          structure: "stellaris:moon_dungeon",
+        },
+      ],
+      rewards: [
+        {
+          id: "0B74F74B0611B507",
+          type: "xp",
+          xp: 250,
+        },
+        {
+          id: "1B66ABB906780E83",
+          type: "random",
+          table_id: 2210856162803377,
+        },
+      ],
+    },
+    {
+      id: "5A1797C5D659294C",
+      x: 4.8,
+      y: 51.3,
+      icon: {
+        count: 1,
+        id: "stellaris:lunar_crawler_spike_cluster",
+      },
+      dependencies: [
+        "4BB1BD5CE3B19DCD",
+      ],
+      tasks: [
+        {
+          id: "30981312084E6B5D",
+          type: "kill",
+          entity: "stellaris:star_crawler",
+          value: 5,
+        },
+      ],
+      rewards: [
+        {
+          id: "5A90E88BA2671474",
+          type: "xp",
+          xp: 200,
+        },
+      ],
+    },
+    {
+      id: "23FFF81DE7891C73",
+      x: 0.0,
+      y: 56.9,
+      shape: "hexagon",
+      size: 1.5,
+      dependencies: [
+        "4BB1BD5CE3B19DCD",
+        "6950852F37D9C4FE",
+      ],
+      tasks: [
+        {
+          id: "1E1E87EFD0B60A20",
+          type: "kill",
+          entity: "stellaris:heart_of_luna",
+          value: 1,
+        },
+        {
+          id: "04B81E8CD5D1AE64",
+          type: "item",
+          item: {
+            count: 1,
+            id: "stellaris:heart_of_luna_trophy",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2E9026440AAF829E",
+          type: "xp",
+          xp: 600,
+        },
+        {
+          id: "73E6F2C04CEA132C",
+          type: "random",
+          table_id: 379532711335085,
+        },
+      ],
+    },
+    {
+      id: "2B6865F28F279B94",
+      x: 1.6,
+      y: 56.9,
+      shape: "gear",
+      size: 2.0,
+      dependencies: [
+        "23FFF81DE7891C73",
+        "5A1797C5D659294C",
+      ],
+      tasks: [
+        {
+          id: "08ADA1862E9525B0",
+          type: "kill",
+          entity: "stellaris:star_crawler_boss",
+          value: 1,
+        },
+        {
+          id: "5F70515531C577B3",
+          type: "item",
+          item: {
+            count: 1,
+            id: "stellaris:star_crawler_boss_trophy",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0510A2FD6D27B9C9",
+          type: "xp_levels",
+          xp_levels: 30,
+        },
+        {
+          id: "7D70B4ECCFB5C4DB",
+          type: "random",
+          table_id: 379532711335085,
+        },
+      ],
+    },
+  ],
+  quest_links: [ ],
+  images: [
+    {
+      x: 5.4,
+      y: -1.5188,
+      width: 12.0,
+      height: 1.4375,
+      rotation: 0.0,
+      image: "gspack:textures/quests/stellaris_header.png",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false,
+    },
+    {
+      x: 0.1059,
+      y: 15.7,
+      width: 1.4118,
+      height: 0.6,
+      rotation: 0.0,
+      image: "gspack:textures/quests/stellaris_oil_finder.png",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false,
+    },
+    {
+      x: 0.3176,
+      y: 8.6,
+      width: 1.8353,
+      height: 0.6,
+      rotation: 0.0,
+      image: "gspack:textures/quests/stellaris_power.png",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false,
+    },
+    {
+      x: 0.3529,
+      y: 55.7,
+      width: 1.9059,
+      height: 0.6,
+      rotation: 0.0,
+      image: "gspack:textures/quests/stellaris_heart.png",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false,
+    },
+    {
+      x: 1.1824,
+      y: 0.0,
+      width: 3.5647,
+      height: 0.6,
+      rotation: 0.0,
+      image: "gspack:textures/quests/stellaris_titanium.png",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false,
+    },
+    {
+      x: 0.2647,
+      y: 32.5,
+      width: 1.7294,
+      height: 0.6,
+      rotation: 0.0,
+      image: "gspack:textures/quests/stellaris_orbit.png",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false,
+    },
+    {
+      x: 0.9176,
+      y: 47.1,
+      width: 3.0353,
+      height: 0.6,
+      rotation: 0.0,
+      image: "gspack:textures/quests/stellaris_forest.png",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false,
+    },
+    {
+      x: 0.4588,
+      y: 25.4,
+      width: 2.1176,
+      height: 0.6,
+      rotation: 0.0,
+      image: "gspack:textures/quests/stellaris_parts.png",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false,
+    },
+    {
+      x: 0.8824,
+      y: 19.8,
+      width: 2.9647,
+      height: 0.6,
+      rotation: 0.0,
+      image: "gspack:textures/quests/stellaris_suit.png",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false,
+    },
+  ],
+}

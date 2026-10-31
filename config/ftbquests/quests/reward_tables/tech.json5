@@ -1,0 +1,96 @@
+{
+  id: "000947B5A07346E9",
+  filename: "tech",
+  order_index: 4,
+  loot_size: 1,
+  rewards: [
+    {
+      id: "7182C8EE2E7FB102",
+      type: "item",
+      item: {
+        count: 1,
+        id: "mekanism:basic_control_circuit",
+      },
+      count: 4,
+      weight: 20.0,
+    },
+    {
+      id: "519024EE43D2FFA7",
+      type: "item",
+      item: {
+        count: 1,
+        id: "mekanism:alloy_infused",
+      },
+      count: 8,
+      weight: 15.0,
+    },
+    {
+      id: "5ECC49E259051FB6",
+      type: "item",
+      item: {
+        count: 1,
+        id: "mekanism:ingot_steel",
+      },
+      count: 8,
+      weight: 15.0,
+    },
+    {
+      id: "3F3684B8074E8503",
+      type: "item",
+      item: {
+        count: 1,
+        id: "mekanism:upgrade_speed",
+      },
+      weight: 6.0,
+    },
+    {
+      id: "21872E900C3E7BBA",
+      type: "item",
+      item: {
+        count: 1,
+        id: "mekanism:upgrade_energy",
+      },
+      weight: 6.0,
+    },
+    {
+      id: "7C4EBD1C22B3C303",
+      type: "item",
+      item: {
+        count: 1,
+        id: "ae2:certus_quartz_crystal",
+      },
+      count: 16,
+      weight: 15.0,
+    },
+    {
+      id: "023F2495F493EB25",
+      type: "item",
+      item: {
+        count: 1,
+        id: "ae2:fluix_crystal",
+      },
+      count: 8,
+      weight: 10.0,
+    },
+    {
+      id: "1208FC1F3BD924D9",
+      type: "item",
+      item: {
+        count: 1,
+        id: "ae2:silicon",
+      },
+      count: 16,
+      weight: 10.0,
+    },
+    {
+      id: "53732DCF73AF9AA1",
+      type: "item",
+      item: {
+        count: 1,
+        id: "oritech:plastic_sheet",
+      },
+      count: 8,
+      weight: 8.0,
+    },
+  ],
+}

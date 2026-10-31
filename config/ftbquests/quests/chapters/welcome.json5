@@ -1,0 +1,258 @@
+{
+  id: "222972F518CA85E0",
+  group: "",
+  order_index: 0,
+  filename: "welcome",
+  icon: {
+    count: 1,
+    id: "minecraft:nether_star",
+  },
+  default_quest_shape: "",
+  default_hide_dependency_lines: true,
+  quests: [
+    {
+      id: "1DAFECA703CC6B5B",
+      x: 0.0,
+      y: 1.5,
+      shape: "gear",
+      size: 2.0,
+      icon: {
+        count: 1,
+        id: "minecraft:nether_star",
+      },
+      tasks: [
+        {
+          id: "3E0AF05FB529DC2B",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "2170E54E53BEB282",
+          type: "xp",
+          xp: 50,
+        },
+        {
+          id: "6F6B43064ECCDB7C",
+          type: "item",
+          item: {
+            count: 1,
+            id: "minecraft:bread",
+          },
+          count: 16,
+        },
+        {
+          id: "3BF45E42C594B3A2",
+          type: "item",
+          item: {
+            count: 1,
+            id: "minecraft:torch",
+          },
+          count: 32,
+        },
+      ],
+    },
+    {
+      id: "3067AA6FE359B90A",
+      x: 1.6,
+      y: 1.5,
+      icon: {
+        count: 1,
+        id: "ftbquests:book",
+      },
+      dependencies: [
+        "1DAFECA703CC6B5B",
+      ],
+      tasks: [
+        {
+          id: "72A8E46A22FBC943",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "0DDE5C4B8DD5FFB4",
+          type: "xp",
+          xp: 25,
+        },
+      ],
+    },
+    {
+      id: "6CBEDCA08659B106",
+      x: 1.6,
+      y: 3.0,
+      icon: {
+        count: 1,
+        id: "minecraft:chest",
+      },
+      dependencies: [
+        "1DAFECA703CC6B5B",
+      ],
+      tasks: [
+        {
+          id: "0D040F24C967C61A",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "5AD3DD4463947DC5",
+          type: "random",
+          table_id: 4224964620844649,
+        },
+      ],
+    },
+    {
+      id: "41DFCE691EF6620F",
+      x: 1.6,
+      y: 0.0,
+      icon: {
+        count: 1,
+        id: "minecraft:crafting_table",
+      },
+      dependencies: [
+        "1DAFECA703CC6B5B",
+      ],
+      tasks: [
+        {
+          id: "58E2421F9CF2150C",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "18181F4DE6F4D13A",
+          type: "xp",
+          xp: 25,
+        },
+      ],
+    },
+    {
+      id: "5CB1C2E178B00BBD",
+      x: 3.2,
+      y: 1.5,
+      icon: {
+        count: 1,
+        id: "minecraft:cake",
+      },
+      dependencies: [
+        "3067AA6FE359B90A",
+      ],
+      tasks: [
+        {
+          id: "422815B4A6DDDB64",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "10B7971AE3AB6D6E",
+          type: "xp",
+          xp: 25,
+        },
+      ],
+    },
+    {
+      id: "54FDEAAC29880347",
+      x: 3.2,
+      y: 0.0,
+      icon: {
+        count: 1,
+        id: "minecraft:filled_map",
+      },
+      dependencies: [
+        "41DFCE691EF6620F",
+      ],
+      tasks: [
+        {
+          id: "5991857C44B69743",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "1E5524D95EF2C39C",
+          type: "item",
+          item: {
+            count: 1,
+            id: "minecraft:compass",
+          },
+        },
+        {
+          id: "30C934531AB33EFF",
+          type: "xp",
+          xp: 25,
+        },
+      ],
+    },
+    {
+      id: "04E0F5F6380DDE7A",
+      x: 3.2,
+      y: 3.0,
+      icon: {
+        count: 1,
+        id: "sophisticatedbackpacks:backpack",
+      },
+      dependencies: [
+        "6CBEDCA08659B106",
+      ],
+      tasks: [
+        {
+          id: "5F7954ED3CA7EF4B",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "30ACD8CEF4DE6460",
+          type: "xp",
+          xp: 25,
+        },
+      ],
+    },
+    {
+      id: "1B8E801C6E4876A5",
+      x: 4.8,
+      y: 1.5,
+      shape: "hexagon",
+      size: 1.5,
+      icon: {
+        count: 1,
+        id: "minecraft:iron_pickaxe",
+      },
+      dependencies: [
+        "5CB1C2E178B00BBD",
+        "54FDEAAC29880347",
+        "04E0F5F6380DDE7A",
+      ],
+      tasks: [
+        {
+          id: "601EDABCAC5CBDC0",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "7222ADC6A9EE567A",
+          type: "random",
+          table_id: 253752461985528,
+        },
+      ],
+    },
+  ],
+  quest_links: [ ],
+  images: [
+    {
+      x: 5.4,
+      y: -1.7188,
+      width: 12.0,
+      height: 1.4375,
+      rotation: 0.0,
+      image: "gspack:textures/quests/welcome_header.png",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false,
+    },
+  ],
+}

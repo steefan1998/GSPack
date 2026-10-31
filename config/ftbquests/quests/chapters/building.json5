@@ -1,0 +1,1285 @@
+{
+  id: "7E23924E0E06C8EC",
+  group: "7B03F4760298D646",
+  order_index: 16,
+  filename: "building",
+  icon: {
+    count: 1,
+    id: "mcwfurnitures:oak_chair",
+  },
+  default_quest_shape: "",
+  default_hide_dependency_lines: true,
+  quests: [
+    {
+      id: "270AA2E509417668",
+      x: 0.0,
+      y: 2.7,
+      shape: "gear",
+      size: 1.5,
+      tasks: [
+        {
+          id: "4D8DBABA60A0744D",
+          type: "item",
+          item: {
+            count: 1,
+            id: "constructionstick:wooden_stick",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3B668A18A219521F",
+          type: "xp",
+          xp: 50,
+        },
+        {
+          id: "0A063CFEDAA0483F",
+          type: "random",
+          table_id: 4224964620844649,
+        },
+      ],
+    },
+    {
+      id: "75967C897793BFF8",
+      x: 1.6,
+      y: 2.7,
+      dependencies: [
+        "270AA2E509417668",
+      ],
+      tasks: [
+        {
+          id: "66A9AE1A2D5F134F",
+          type: "item",
+          item: {
+            count: 1,
+            id: "constructionstick:iron_stick",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4905416FC428464C",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      id: "6C0BDC1F48F3A2D3",
+      x: 3.2,
+      y: 2.7,
+      dependencies: [
+        "75967C897793BFF8",
+      ],
+      tasks: [
+        {
+          id: "4D3198B95C865382",
+          type: "item",
+          item: {
+            count: 1,
+            id: "constructionstick:diamond_stick",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "71D763CF3D7ADD4E",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      id: "44172A55E688E226",
+      x: 4.8,
+      y: 2.7,
+      dependencies: [
+        "6C0BDC1F48F3A2D3",
+      ],
+      tasks: [
+        {
+          id: "0E41F583EA530A18",
+          type: "item",
+          item: {
+            count: 1,
+            id: "constructionstick:netherite_stick",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "58089399168C09E1",
+          type: "xp",
+          xp: 150,
+        },
+        {
+          id: "232D8B79C3CB4E07",
+          type: "random",
+          table_id: 253752461985528,
+        },
+      ],
+    },
+    {
+      id: "654DF46DC64CBF8D",
+      x: 4.8,
+      y: 4.2,
+      dependencies: [
+        "6C0BDC1F48F3A2D3",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "254C43D181AC172D",
+          type: "item",
+          item: {
+            count: 1,
+            id: "constructionstick:template_angel",
+          },
+        },
+        {
+          id: "0CCEFD21F67B6DF9",
+          type: "item",
+          item: {
+            count: 1,
+            id: "constructionstick:template_destruction",
+          },
+        },
+        {
+          id: "390DEC190E68E781",
+          type: "item",
+          item: {
+            count: 1,
+            id: "constructionstick:template_replacement",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2977F7B79CCA405D",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      id: "13F33C12A0BE613C",
+      x: 3.2,
+      y: 4.2,
+      dependencies: [
+        "75967C897793BFF8",
+      ],
+      tasks: [
+        {
+          id: "7737A96D6ACB6AF9",
+          type: "item",
+          item: {
+            count: 1,
+            id: "buildinggadgets2:gadget_building",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1FF16173ABF5A4BF",
+          type: "xp",
+          xp: 150,
+        },
+        {
+          id: "4C9CBFA87BD2121E",
+          type: "random",
+          table_id: 253752461985528,
+        },
+      ],
+    },
+    {
+      id: "2FF4B64B78C1F526",
+      x: 4.8,
+      y: 5.7,
+      dependencies: [
+        "13F33C12A0BE613C",
+      ],
+      tasks: [
+        {
+          id: "26AD541B9F5F6661",
+          type: "item",
+          item: {
+            count: 1,
+            id: "buildinggadgets2:gadget_exchanging",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "55AD00D92E08EF17",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      id: "262658C0C62D0DE0",
+      x: 4.8,
+      y: 7.2,
+      dependencies: [
+        "13F33C12A0BE613C",
+      ],
+      tasks: [
+        {
+          id: "0F62EF3FCC2C9789",
+          type: "item",
+          item: {
+            count: 1,
+            id: "buildinggadgets2:gadget_copy_paste",
+          },
+        },
+        {
+          id: "41F3741263CDB117",
+          type: "item",
+          item: {
+            count: 1,
+            id: "buildinggadgets2:template_manager",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "100E90C907FDD82C",
+          type: "xp",
+          xp: 200,
+        },
+        {
+          id: "6FA37B33BCAA9BED",
+          type: "random",
+          table_id: 2210856162803377,
+        },
+      ],
+    },
+    {
+      id: "509A6CAF1F9BDD4A",
+      x: 4.8,
+      y: 1.2,
+      dependencies: [
+        "13F33C12A0BE613C",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "435491610B320F0C",
+          type: "item",
+          item: {
+            count: 1,
+            id: "buildinggadgets2:gadget_destruction",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2C3F8E3BA6BADA8B",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      id: "313678C93C3E8201",
+      x: 6.4,
+      y: 7.2,
+      dependencies: [
+        "262658C0C62D0DE0",
+      ],
+      tasks: [
+        {
+          id: "3B01DD390FD6048A",
+          type: "item",
+          item: {
+            count: 1,
+            id: "rftoolsbuilder:builder",
+          },
+        },
+        {
+          id: "7852A0F6017233EE",
+          type: "item",
+          item: {
+            count: 1,
+            id: "rftoolsbuilder:shape_card_def",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "416C45E0757244DF",
+          type: "xp",
+          xp: 200,
+        },
+        {
+          id: "08EB7634CA7FDF20",
+          type: "random",
+          table_id: 2210856162803377,
+        },
+      ],
+    },
+    {
+      id: "2AE318A75DE8F93A",
+      x: 8.0,
+      y: 7.2,
+      dependencies: [
+        "313678C93C3E8201",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "74AC1B03F61BAEFC",
+          type: "item",
+          item: {
+            count: 1,
+            id: "rftoolsbuilder:shape_card_quarry",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "46DBAB59DC0942E1",
+          type: "xp",
+          xp: 200,
+        },
+      ],
+    },
+    {
+      id: "7D425CC1CC30B1F7",
+      x: 8.0,
+      y: 8.7,
+      dependencies: [
+        "313678C93C3E8201",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "1DA83345B1CC5AF4",
+          type: "item",
+          item: {
+            count: 1,
+            id: "rftoolsbuilder:space_chamber_controller",
+          },
+        },
+        {
+          id: "24B8BA30F52EE160",
+          type: "item",
+          item: {
+            count: 1,
+            id: "rftoolsbuilder:space_chamber_card",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7B994A48CFF750DA",
+          type: "xp",
+          xp: 150,
+        },
+      ],
+    },
+    {
+      id: "210CDA2203AF717F",
+      x: 0.0,
+      y: 14.3,
+      size: 1.5,
+      tasks: [
+        {
+          id: "438C69274EE9ED0A",
+          type: "item",
+          item: {
+            count: 1,
+            id: "mcwfurnitures:oak_chair",
+          },
+        },
+        {
+          id: "0A34EB8D6C4F2683",
+          type: "item",
+          item: {
+            count: 1,
+            id: "mcwfurnitures:oak_table",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "77895E4C4AFB374C",
+          type: "xp",
+          xp: 50,
+        },
+        {
+          id: "7ADA8F8FBDFC7E38",
+          type: "random",
+          table_id: 4224964620844649,
+        },
+      ],
+    },
+    {
+      id: "4299B772F0CD2230",
+      x: 1.6,
+      y: 14.3,
+      dependencies: [
+        "210CDA2203AF717F",
+      ],
+      tasks: [
+        {
+          id: "41636C123D61E4EC",
+          type: "item",
+          item: {
+            count: 1,
+            id: "mcwfurnitures:oak_kitchen_cabinet",
+          },
+        },
+        {
+          id: "71D6480ED49DD66A",
+          type: "item",
+          item: {
+            count: 1,
+            id: "mcwfurnitures:oak_counter",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3E536E003FFB0156",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      id: "138B8C634E681E30",
+      x: 1.6,
+      y: 15.8,
+      dependencies: [
+        "210CDA2203AF717F",
+      ],
+      tasks: [
+        {
+          id: "65077A60F969E62E",
+          type: "item",
+          item: {
+            count: 1,
+            id: "mcwfurnitures:oak_wardrobe",
+          },
+        },
+        {
+          id: "6E44790BF787CE74",
+          type: "item",
+          item: {
+            count: 1,
+            id: "mcwfurnitures:oak_drawer",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "44CBE010A3ED6618",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      id: "6B42C45E357C8DB7",
+      x: 1.6,
+      y: 12.8,
+      dependencies: [
+        "210CDA2203AF717F",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "2D63B3F173C615D7",
+          type: "item",
+          item: {
+            count: 1,
+            id: "mcwfurnitures:oak_desk",
+          },
+        },
+        {
+          id: "696398E75ECDB387",
+          type: "item",
+          item: {
+            count: 1,
+            id: "mcwfurnitures:oak_bookshelf",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6802B5996C5E3035",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      id: "1FCF4DE8A203DAB2",
+      x: 1.6,
+      y: 17.3,
+      dependencies: [
+        "210CDA2203AF717F",
+      ],
+      tasks: [
+        {
+          id: "1E4BB6ADF38D96BA",
+          type: "item",
+          item: {
+            count: 1,
+            id: "mcwlights:chain_lantern",
+          },
+        },
+        {
+          id: "04E6E7FDFFF94CE5",
+          type: "item",
+          item: {
+            count: 1,
+            id: "mcwlights:wall_lantern",
+          },
+        },
+        {
+          id: "78E8D4D940210802",
+          type: "item",
+          item: {
+            count: 1,
+            id: "mcwlights:iron_chandelier",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "70C6EDFDEB11B08C",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      id: "2116E883CDE05CF1",
+      x: 3.2,
+      y: 17.3,
+      dependencies: [
+        "1FCF4DE8A203DAB2",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "75DFB1CB3261D95F",
+          type: "item",
+          item: {
+            count: 1,
+            id: "mcwlights:classic_street_lamp",
+          },
+        },
+        {
+          id: "4C427FB74295A40A",
+          type: "item",
+          item: {
+            count: 1,
+            id: "mcwlights:oak_tiki_torch",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1EFC975B02BC3785",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      id: "6BE4F386E0024706",
+      x: 1.6,
+      y: 11.3,
+      dependencies: [
+        "210CDA2203AF717F",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "5AFE9F8E8FB016EE",
+          type: "item",
+          item: {
+            count: 1,
+            id: "mcwholidays:snowman",
+          },
+        },
+        {
+          id: "64D1B6EF99E6DF82",
+          type: "item",
+          item: {
+            count: 1,
+            id: "mcwholidays:large_pumpkin",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1FF474084062467A",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      id: "4FBD4707B4E310A0",
+      x: 0.0,
+      y: 24.4,
+      size: 1.5,
+      tasks: [
+        {
+          id: "3E77BFA045A77A44",
+          type: "item",
+          item: {
+            count: 1,
+            id: "mcwroofs:oak_roof",
+          },
+        },
+        {
+          id: "52C1FE31065D71FB",
+          type: "item",
+          item: {
+            count: 1,
+            id: "mcwroofs:oak_steep_roof",
+          },
+        },
+        {
+          id: "0FB5CEC58BA243F4",
+          type: "item",
+          item: {
+            count: 1,
+            id: "mcwroofs:oak_top_roof",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "349B7D45806D531D",
+          type: "xp",
+          xp: 50,
+        },
+        {
+          id: "5ACC23684DB62A34",
+          type: "random",
+          table_id: 4224964620844649,
+        },
+      ],
+    },
+    {
+      id: "5E9FB5F59C19F603",
+      x: 1.6,
+      y: 24.4,
+      dependencies: [
+        "4FBD4707B4E310A0",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "7EE7E2656304BB16",
+          type: "item",
+          item: {
+            count: 1,
+            id: "mcwroofs:rain_gutter",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7D6035150C8B9E22",
+          type: "xp",
+          xp: 25,
+        },
+      ],
+    },
+    {
+      id: "7844229D8A5D42EB",
+      x: 1.6,
+      y: 25.9,
+      dependencies: [
+        "4FBD4707B4E310A0",
+      ],
+      tasks: [
+        {
+          id: "4211B976EB5C7682",
+          type: "item",
+          item: {
+            count: 1,
+            id: "mcwwindows:oak_window",
+          },
+        },
+        {
+          id: "57D3254801577978",
+          type: "item",
+          item: {
+            count: 1,
+            id: "mcwwindows:oak_four_window",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1485BDED8FE9833A",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      id: "4A439AB2B78DB62E",
+      x: 3.2,
+      y: 25.9,
+      dependencies: [
+        "7844229D8A5D42EB",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "787A2B32656F76DA",
+          type: "item",
+          item: {
+            count: 1,
+            id: "mcwwindows:oak_shutter",
+          },
+        },
+        {
+          id: "520A1CDC457341F7",
+          type: "item",
+          item: {
+            count: 1,
+            id: "mcwwindows:oak_curtain_rod",
+          },
+        },
+        {
+          id: "1437F2DF1D9670F2",
+          type: "item",
+          item: {
+            count: 1,
+            id: "mcwwindows:oak_blinds",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "30B9BBE1EC18844D",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      id: "6EB0DD3E87942DEF",
+      x: 1.6,
+      y: 22.9,
+      dependencies: [
+        "4FBD4707B4E310A0",
+      ],
+      tasks: [
+        {
+          id: "0259B8A6288452D3",
+          type: "item",
+          item: {
+            count: 1,
+            id: "mcwdoors:oak_cottage_door",
+          },
+        },
+        {
+          id: "00D140A0A69678C4",
+          type: "item",
+          item: {
+            count: 1,
+            id: "mcwdoors:oak_barn_door",
+          },
+        },
+        {
+          id: "2DF2568C2202F4CE",
+          type: "item",
+          item: {
+            count: 1,
+            id: "mcwdoors:oak_glass_door",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1F6A2D17B56D6B8B",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      id: "3D7B6C4B750A6D0A",
+      x: 3.2,
+      y: 22.9,
+      dependencies: [
+        "6EB0DD3E87942DEF",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "2D8A65FBA70173E7",
+          type: "item",
+          item: {
+            count: 1,
+            id: "mcwtrpdoors:metal_trapdoor",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7F822AF3C2A5C996",
+          type: "xp",
+          xp: 25,
+        },
+      ],
+    },
+    {
+      id: "050FE5C52EB9C6EA",
+      x: 1.6,
+      y: 27.4,
+      dependencies: [
+        "4FBD4707B4E310A0",
+      ],
+      tasks: [
+        {
+          id: "39D60CF401564BE7",
+          type: "item",
+          item: {
+            count: 1,
+            id: "mcwstairs:oak_bulk_stairs",
+          },
+        },
+        {
+          id: "0F85AB9BD8E21992",
+          type: "item",
+          item: {
+            count: 1,
+            id: "mcwstairs:oak_balcony",
+          },
+        },
+        {
+          id: "3A95F75C0952E984",
+          type: "item",
+          item: {
+            count: 1,
+            id: "mcwstairs:oak_railing",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "10C4607FB4E14E08",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      id: "5AD446E5EF047437",
+      x: 1.6,
+      y: 21.4,
+      dependencies: [
+        "4FBD4707B4E310A0",
+      ],
+      tasks: [
+        {
+          id: "757B68C68474C4B1",
+          type: "item",
+          item: {
+            count: 1,
+            id: "mcwfences:oak_picket_fence",
+          },
+        },
+        {
+          id: "4C723112403F63A9",
+          type: "item",
+          item: {
+            count: 1,
+            id: "mcwfences:oak_hedge",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "35487AF725AFA17D",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      id: "329DB96676A4E45C",
+      x: 3.2,
+      y: 21.4,
+      dependencies: [
+        "5AD446E5EF047437",
+      ],
+      tasks: [
+        {
+          id: "4CA852BC4512D1BE",
+          type: "item",
+          item: {
+            count: 1,
+            id: "mcwbridges:rope_oak_bridge",
+          },
+        },
+        {
+          id: "27F13EB679A6E37D",
+          type: "item",
+          item: {
+            count: 1,
+            id: "mcwbridges:stone_brick_bridge",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "39475EC97165CF03",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      id: "5AA8D243918546FA",
+      x: 3.2,
+      y: 19.9,
+      dependencies: [
+        "5AD446E5EF047437",
+      ],
+      tasks: [
+        {
+          id: "3FC43FF58C8FE061",
+          type: "item",
+          item: {
+            count: 1,
+            id: "mcwpaths:andesite_flagstone",
+          },
+        },
+        {
+          id: "22D2F6079513D414",
+          type: "item",
+          item: {
+            count: 1,
+            id: "mcwpaths:andesite_basket_weave_paving",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1DABAF88714F1E5A",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      id: "20A049CDBF046E7F",
+      x: 0.0,
+      y: 31.5,
+      size: 1.5,
+      tasks: [
+        {
+          id: "1E231F7F33EB0A92",
+          type: "item",
+          item: {
+            count: 1,
+            id: "rechiseled:chisel",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4DB8B8F156A459B6",
+          type: "xp",
+          xp: 50,
+        },
+        {
+          id: "49ED6C2D19AA99F2",
+          type: "random",
+          table_id: 4224964620844649,
+        },
+      ],
+    },
+    {
+      id: "3429737B24B948FA",
+      x: 1.6,
+      y: 31.5,
+      dependencies: [
+        "20A049CDBF046E7F",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "42FC1EBA4731659B",
+          type: "item",
+          item: {
+            count: 1,
+            id: "rechiseled:basalt_tiles",
+          },
+        },
+        {
+          id: "7AE741482BD87C20",
+          type: "item",
+          item: {
+            count: 1,
+            id: "rechiseled:basalt_pattern",
+          },
+        },
+        {
+          id: "1B35AB49B39D48FC",
+          type: "item",
+          item: {
+            count: 1,
+            id: "rechiseled:amethyst_block_tiles",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "46B5BA7F50DBEE3C",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      id: "29DC83467A6DBE74",
+      x: 1.6,
+      y: 33.0,
+      dependencies: [
+        "20A049CDBF046E7F",
+      ],
+      tasks: [
+        {
+          id: "33B11767ADDBA37B",
+          type: "item",
+          item: {
+            count: 1,
+            id: "framedblocks:framed_cube",
+          },
+        },
+        {
+          id: "3B87AD6D714D1D10",
+          type: "item",
+          item: {
+            count: 1,
+            id: "framedblocks:framed_slab",
+          },
+        },
+        {
+          id: "5698072ECEE027A0",
+          type: "item",
+          item: {
+            count: 1,
+            id: "framedblocks:framed_stairs",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "46E5A059762FB5D1",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      id: "749A1AC899B0777E",
+      x: 3.2,
+      y: 33.0,
+      dependencies: [
+        "29DC83467A6DBE74",
+      ],
+      tasks: [
+        {
+          id: "570E73B6790F4108",
+          type: "item",
+          item: {
+            count: 1,
+            id: "framedblocks:framing_saw",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1FC90CECD438A217",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      id: "368F6BF38C06E515",
+      x: 3.2,
+      y: 34.5,
+      dependencies: [
+        "29DC83467A6DBE74",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "75C438D80CCFD280",
+          type: "item",
+          item: {
+            count: 1,
+            id: "framedblocks:framed_hammer",
+          },
+        },
+        {
+          id: "5171AFFFABD7831C",
+          type: "item",
+          item: {
+            count: 1,
+            id: "framedblocks:framed_wrench",
+          },
+        },
+        {
+          id: "056193CCB63C2111",
+          type: "item",
+          item: {
+            count: 1,
+            id: "framedblocks:framed_screwdriver",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1ECF6AA4F51FE846",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      id: "5313D4FFAE371510",
+      x: 3.2,
+      y: 31.5,
+      dependencies: [
+        "29DC83467A6DBE74",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "536CFF3DE8CE6731",
+          type: "item",
+          item: {
+            count: 1,
+            id: "framedblocks:framed_chest",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "65B5EA1053BE9A45",
+          type: "xp",
+          xp: 25,
+        },
+      ],
+    },
+    {
+      id: "38E73FB59EAE4C4C",
+      x: 3.2,
+      y: 30.0,
+      shape: "hexagon",
+      size: 1.5,
+      icon: {
+        count: 1,
+        id: "mcwroofs:oak_roof",
+      },
+      dependencies: [
+        "210CDA2203AF717F",
+        "4FBD4707B4E310A0",
+        "7844229D8A5D42EB",
+        "6EB0DD3E87942DEF",
+        "050FE5C52EB9C6EA",
+        "20A049CDBF046E7F",
+        "29DC83467A6DBE74",
+        "13F33C12A0BE613C",
+      ],
+      tasks: [
+        {
+          id: "36270F0DC12CE705",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "6686507CF8F98EFD",
+          type: "xp_levels",
+          xp_levels: 15,
+        },
+        {
+          id: "4FD638D6D83A2C3B",
+          type: "random",
+          table_id: 2210856162803377,
+        },
+      ],
+    },
+  ],
+  quest_links: [ ],
+  images: [
+    {
+      x: 5.4,
+      y: -1.5188,
+      width: 12.0,
+      height: 1.4375,
+      rotation: 0.0,
+      image: "gspack:textures/quests/building_header.png",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false,
+    },
+    {
+      x: 1.4647,
+      y: 10.1,
+      width: 4.1294,
+      height: 0.6,
+      rotation: 0.0,
+      image: "gspack:textures/quests/building_furniture.png",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false,
+    },
+    {
+      x: 0.6176,
+      y: 18.7,
+      width: 2.4353,
+      height: 0.6,
+      rotation: 0.0,
+      image: "gspack:textures/quests/building_roofs.png",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false,
+    },
+    {
+      x: 0.7588,
+      y: 28.8,
+      width: 2.7176,
+      height: 0.6,
+      rotation: 0.0,
+      image: "gspack:textures/quests/building_chisel.png",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false,
+    },
+    {
+      x: 0.7588,
+      y: 0.0,
+      width: 2.7176,
+      height: 0.6,
+      rotation: 0.0,
+      image: "gspack:textures/quests/building_start.png",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false,
+    },
+  ],
+}
