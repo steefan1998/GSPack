@@ -1,4 +1,6 @@
-﻿# GSPack
+﻿<p align="center">
+  <img src="config/fancymenu/assets/gspack/logo.png" alt="GSPack: Tech, Magic, Exploration" width="600">
+</p>
 
 A Minecraft **26.1.2 NeoForge** modpack built around tech, magic and exploration: Mekanism, Applied Energistics 2, Oritech, Mystical Agriculture, Apotheosis, Thaumaturge, Equivox, Allthemodium, The Twilight Forest, The Aether II, Stellaris, Aquaculture and more. The full mod list is in [MODS.md](MODS.md).
 
