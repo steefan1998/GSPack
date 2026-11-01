@@ -1,4 +1,4 @@
-# Writes the FancyMenu title screen layout for GSPack (config/fancymenu/customization/gspack_title_screen.txt)
+﻿# Writes the FancyMenu title screen layout for GSPack (config/fancymenu/customization/gspack_title_screen.txt)
 # and registers the title screen in config/fancymenu/customizablemenus.txt.
 # Textures come from tools/make-menu-textures.ps1. Format follows FancyMenu 3.x layout files.
 # Usage:  powershell -ExecutionPolicy Bypass -File tools\make-menu-layout.ps1
@@ -43,7 +43,7 @@ function Common([string]$id, [string]$anchor, [int]$x, [int]$y, [int]$w, [int]$h
 }
 
 # A vanilla button with the GSPack texture, placed in the centred column (anchor mid-centered).
-function VanillaButton([string]$id, [int]$x = -100, [int]$y = 0, [int]$w = 200, [int]$h = 20) {
+function VanillaButton([string]$id, [int]$x = -100, [int]$y = 0, [int]$w = 200, [int]$h = 20, [string]$anchor = 'mid-centered') {
     $blk = Uid "$id-block"; $act = Uid "$id-active"
     @"
 vanilla_button {
@@ -62,7 +62,7 @@ vanilla_button {
   [loading_requirement_container_meta:$act] = [groups:][instances:]
   element_type = vanilla_button
   instance_identifier = $id
-$(Common $id 'mid-centered' $x $y $w $h $false)
+$(Common $id $anchor $x $y $w $h ($anchor -eq 'vanilla'))
   is_hidden = false
   automated_button_clicks = 0
   nine_slice_slider_handle = false
@@ -96,7 +96,7 @@ $bgId = Uid 'background'
 $logoId = Uid 'logo'
 
 # A custom button in the top-left corner that opens a link.
-function LinkButton([string]$key, [string]$label, [string]$desc, [string]$url, [int]$x, [int]$w) {
+function LinkButton([string]$key, [string]$label, [string]$desc, [string]$url, [int]$x, [int]$w, [int]$y = 4, [string]$anchor = 'top-left') {
     $id = Uid $key; $blk = Uid "$key-block"; $act = Uid "$key-action"; $active = Uid "$key-active"
     @"
 element {
@@ -117,7 +117,7 @@ element {
   [loading_requirement_container_meta:$active] = [groups:][instances:]
   element_type = custom_button
   instance_identifier = $id
-$(Common $key 'top-left' $x 4 $w 20 $false)
+$(Common $key $anchor $x $y $w 20 $false)
 }
 "@
 }
@@ -160,11 +160,11 @@ element {
   restart_animated_on_menu_load = false
   element_type = image
   instance_identifier = $logoId
-$(Common 'logo' 'mid-centered' -120 -104 240 62 $false)
+$(Common 'logo' 'mid-centered' -120 -110 240 62 $false)
 }
 
-$(LinkButton 'github' 'GitHub' 'Visit steefan1998 on GitHub' 'https://github.com/steefan1998' 4 60)
-$(LinkButton 'curseforge' 'CurseForge' 'View steef_an''s projects on CurseForge' 'https://www.curseforge.com/members/steef_an/projects' 68 76)
+$(LinkButton 'github' 'GitHub' 'Visit steefan1998 on GitHub' 'https://github.com/steefan1998' -100 98 42 'mid-centered')
+$(LinkButton 'curseforge' 'CurseForge' 'View steef_an''s projects on CurseForge' 'https://www.curseforge.com/members/steef_an/projects' 2 98 42 'mid-centered')
 
 $(HiddenWidget 'minecraft_logo_widget')
 $(HiddenWidget 'minecraft_splash_widget')
@@ -175,8 +175,11 @@ $(HiddenWidget 'mc_titlescreen_accessibility_button')
 $(VanillaButton 'mc_titlescreen_singleplayer_button' -100 -30)
 $(VanillaButton 'mc_titlescreen_multiplayer_button' -100 -6)
 $(VanillaButton 'forge_titlescreen_mods_button' -100 18)
-$(VanillaButton 'mc_titlescreen_options_button' -100 50 98 20)
-$(VanillaButton 'mc_titlescreen_quit_button' 2 50 98 20)
+$(VanillaButton 'mc_titlescreen_options_button' -100 74 98 20)
+$(VanillaButton 'mc_titlescreen_quit_button' 2 74 98 20)
+$(HiddenWidget '604282')
+$(VanillaButton '376390' -124 74 20 20)
+$(VanillaButton '604390' 104 74 20 20)
 "@
 
 $utf8 = New-Object System.Text.UTF8Encoding($false)
