@@ -15,7 +15,7 @@ Decorate 'seeds' '#9be05a' @{
 Decorate 'apotheosis' '#d94848' @{ start = 'Enchanting'; affix = 'Affix Loot'; gems = 'Gems'; spawner = 'Spawners' }
 Decorate 'thaumaturge' '#a35bd6' @{ crystals = 'Beginnings'; wand = 'Wands'; crucible = 'Alchemy'; thaumium_tools = 'Gear'; infusion = 'Infusion'; foci = 'Foci'; golem = 'Golemancy'; cultists = 'The Eldritch' }
 Decorate 'equivox' '#c2304f' @{ stone = 'Equivalent Exchange'; table = 'Transmutation'; fuels = 'Power & Fuel'; dark_matter = 'Dark & Red Matter'; iron_band = 'Rings & Artifacts' }
-Decorate 'allthemodium' '#f2c230' @{ start = 'Preparation'; atm_ore = 'Allthemodium'; other = 'The Other'; vib_ore = 'Vibranium'; beyond = 'The Beyond'; alloys = 'Mythic Alloys' }
+Decorate 'allthemodium' '#f2c230' @{ start = 'Preparation'; atm_ore = 'Allthemodium'; other = 'The Other'; vib_ore = 'Vibranium'; end_highlands = 'Unobtainium'; alloys = 'Mythic Alloys' }
 Decorate 'aquaculture' '#2fb7b0' @{ rod = 'Rods & Tackle'; knife = 'Food'; freshwater = 'Fish by Biome'; junk = 'Junk & Treasure' }
 Decorate 'aether' '#8fd4ff' @{ portal = 'Arrival'; zanite = 'Metals'; clouds = 'Travel'; food = 'Creatures'; altar = 'Magic'; outpost = 'Structures'; biome_highfields = 'Biomes' }
 Decorate 'twilight' '#4fa84f' @{ portal = 'Arrival'; torch = 'Resources'; naga_court = 'The Bosses'; ore_magnet = 'Equipment' }

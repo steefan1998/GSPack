@@ -22,7 +22,7 @@
   ],
   "quest.132D13DCD2E00508.title": "Piglich Heart",
   "quest.17AE580430EA1BA9.quest_desc": [
-    "Found in the End and in The Beyond. You need a Vibranium pickaxe.",
+    "Unobtainium ore sits in the &eend stone&r of the End Highlands, near the surface of the islands. You need a &5Vibranium&r pickaxe to mine it.",
   ],
   "quest.17AE580430EA1BA9.title": "Unobtainium",
   "quest.19DA9C03A4B9B8C9.quest_desc": [
@@ -57,7 +57,12 @@
     "2. &5Vibranium&r: needs an &6Allthemodium&r pickaxe.",
     "3. &dUnobtainium&r: needs a &5Vibranium&r pickaxe.",
     "",
-    "It also adds three dimensions: the &eMining Dimension&r, &eThe Other&r and &eThe Beyond&r.",
+    "Where to find them:",
+    "- &6Allthemodium&r: the &eDeep Dark&r, the &eMining Dimension&r and &eThe Other&r",
+    "- &5Vibranium&r: &eThe Nether&r and &eThe Other&r",
+    "- &dUnobtainium&r: the &eEnd Highlands&r, the outer islands of The End",
+    "",
+    "It also adds three dimensions: the &eMining Dimension&r, &eThe Other&r and &eThe Beyond&r, an empty void world.",
   ],
   "quest.2D56F28425580D37.quest_subtitle": "Three metals, three dimensions",
   "quest.2D56F28425580D37.title": "The Hunt Begins",
@@ -76,7 +81,12 @@
   "quest.370D2A8434631929.quest_desc": [
     "The &eTeleport Pad&r is your gateway to the Allthemodium dimensions.",
     "",
-    "Stand on it and shift (or use it as shown in JEI) to travel. From the Overworld it takes you to the &eMining Dimension&r. Use it again there to come back.",
+    "&eSneak + right-click&r the pad to travel. Where it takes you depends on where it is:",
+    "- Overworld: the &eMining Dimension&r",
+    "- The Nether: &eThe Other&r",
+    "- The End: &eThe Beyond&r",
+    "",
+    "Use a pad on the other side to come back. Look at a pad with Jade to see its target.",
   ],
   "quest.370D2A8434631929.title": "Teleport Pad",
   "quest.377F9C458D83E912.quest_desc": [
@@ -96,11 +106,20 @@
   ],
   "quest.3FF14E6A3F571E9A.title": "Golden Treats",
   "quest.419D4169C62C4B52.quest_desc": [
-    "Look deep down in the deepslate, in the Mining Dimension and around Ancient Cities. It glows a bright yellow.",
+    "Allthemodium ore generates in three places:",
+    "- The &eDeep Dark&r biome in the Overworld, below Y 10 on cave ceilings.",
+    "- The &eMining Dimension&r, between Y 65 and 247 (most common near the bottom of that range).",
+    "- &eThe Other&r.",
+    "",
+    "You need a &enetherite&r pickaxe to mine it.",
   ],
   "quest.419D4169C62C4B52.title": "Allthemodium Ore",
   "quest.4511C7EC270D8F97.quest_desc": [
-    "Found in &eThe Other&r and deep in the Nether. You need an Allthemodium pickaxe.",
+    "Vibranium ore generates in:",
+    "- &eThe Nether&r, on cave ceilings between Y 64 and 127.",
+    "- &eThe Other&r, in its ancient stone.",
+    "",
+    "You need an &6Allthemodium&r pickaxe to mine it.",
   ],
   "quest.4511C7EC270D8F97.title": "Vibranium",
   "quest.4889B1AC46F33794.quest_desc": [
@@ -115,6 +134,12 @@
     "The final smithing upgrade.",
   ],
   "quest.4B4C95E8260BCB7C.title": "Unobtainium Template",
+  "quest.5180EDD671308586.quest_desc": [
+    "Unobtainium only generates in the &eEnd Highlands&r: the large outer islands of The End.",
+    "",
+    "Defeat the Ender Dragon, then throw an Ender Pearl into an &eEnd Gateway&r to reach the outer islands. Nullscape gives the outer End a new look, but the End Highlands are still there. Bring blocks, food and slow-falling potions!",
+  ],
+  "quest.5180EDD671308586.title": "The End Highlands",
   "quest.539482B6DBE7EC6D.quest_desc": [
     "Like netherite, you upgrade gear in the smithing table with a template. Duplicate templates with the material.",
   ],
@@ -137,7 +162,9 @@
   ],
   "quest.557DDBDCD6D3C6B6.title": "Show Off",
   "quest.562876CE1CF0C29E.quest_desc": [
-    "An End-like dimension. Use a Teleport Pad in the End to get there.",
+    "&eThe Beyond&r is an empty &evoid&r dimension: nothing generates there, no blocks, no ores and no mobs. It is a blank canvas for a sky base or a big build.",
+    "",
+    "Get there with a &eTeleport Pad&r in The End. Bring your own blocks, and do not fall!",
   ],
   "quest.562876CE1CF0C29E.title": "The Beyond",
   "quest.573DE36DE6AA5220.quest_desc": [
@@ -169,7 +196,7 @@
   ],
   "quest.6FE9E9E2D3EF8E23.title": "Allthemodium Parts",
   "quest.7BD00A9B44CA5C9C.quest_desc": [
-    "Allthemodium ore can be found in the deepslate layer, and Ancient Cities are a good place to look. Sneak!",
+    "Allthemodium ore generates in the &eDeep Dark&r biome, the home of the Ancient Cities. Look for it below Y 10, hanging from cave ceilings. Sneak, and do not wake the Warden!",
   ],
   "quest.7BD00A9B44CA5C9C.title": "Into the Deep Dark",
 }

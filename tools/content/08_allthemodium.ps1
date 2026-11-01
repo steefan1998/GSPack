@@ -7,13 +7,23 @@ Q 'start' 'The Hunt Begins' 'minecraft:netherite_pickaxe' '' 'xp:100;table:commo
 2. &5Vibranium&r: needs an &6Allthemodium&r pickaxe.
 3. &dUnobtainium&r: needs a &5Vibranium&r pickaxe.
 
-It also adds three dimensions: the &eMining Dimension&r, &eThe Other&r and &eThe Beyond&r.
+Where to find them:
+- &6Allthemodium&r: the &eDeep Dark&r, the &eMining Dimension&r and &eThe Other&r
+- &5Vibranium&r: &eThe Nether&r and &eThe Other&r
+- &dUnobtainium&r: the &eEnd Highlands&r, the outer islands of The End
+
+It also adds three dimensions: the &eMining Dimension&r, &eThe Other&r and &eThe Beyond&r, an empty void world.
 '@
-Q 'ancient_city' 'Into the Deep Dark' 'struct:minecraft:ancient_city' 'start' 'xp:150;table:atm' -icon 'minecraft:sculk' -desc 'Allthemodium ore can be found in the deepslate layer, and Ancient Cities are a good place to look. Sneak!'
+Q 'ancient_city' 'Into the Deep Dark' 'struct:minecraft:ancient_city' 'start' 'xp:150;table:atm' -icon 'minecraft:sculk' -desc 'Allthemodium ore generates in the &eDeep Dark&r biome, the home of the Ancient Cities. Look for it below Y 10, hanging from cave ceilings. Sneak, and do not wake the Warden!'
 Q 'teleport_pad' 'Teleport Pad' 'allthemodium:teleport_pad' 'start' 'xp:100' -desc @'
 The &eTeleport Pad&r is your gateway to the Allthemodium dimensions.
 
-Stand on it and shift (or use it as shown in JEI) to travel. From the Overworld it takes you to the &eMining Dimension&r. Use it again there to come back.
+&eSneak + right-click&r the pad to travel. Where it takes you depends on where it is:
+- Overworld: the &eMining Dimension&r
+- The Nether: &eThe Other&r
+- The End: &eThe Beyond&r
+
+Use a pad on the other side to come back. Look at a pad with Jade to see its target.
 '@
 Q 'mining_dim' 'The Mining Dimension' 'dim:allthemodium:mining' 'teleport_pad' 'xp:150;table:atm' -icon 'minecraft:deepslate' -desc @'
 A whole world made for mining. Ores are much more common here, and nobody minds if you dig huge holes.
@@ -23,7 +33,14 @@ A whole world made for mining. Ores are much more common here, and nobody minds 
 Q 'ores' 'Mining Trip' 'minecraft:raw_iron*64;minecraft:raw_gold*32;minecraft:diamond*8' 'mining_dim' 'xp:150;table:uncommon' -desc 'Bring back a big haul from the Mining Dimension.'
 
 # ===== Allthemodium =====
-Q 'atm_ore' 'Allthemodium Ore' 'allthemodium:raw_allthemodium*4' 'mining_dim' 'xp:200' -size 1.5 -desc 'Look deep down in the deepslate, in the Mining Dimension and around Ancient Cities. It glows a bright yellow.'
+Q 'atm_ore' 'Allthemodium Ore' 'allthemodium:raw_allthemodium*4' 'mining_dim' 'xp:200' -size 1.5 -desc @'
+Allthemodium ore generates in three places:
+- The &eDeep Dark&r biome in the Overworld, below Y 10 on cave ceilings.
+- The &eMining Dimension&r, between Y 65 and 247 (most common near the bottom of that range).
+- &eThe Other&r.
+
+You need a &enetherite&r pickaxe to mine it.
+'@
 Q 'atm_ingot' 'Allthemodium Ingot' 'allthemodium:allthemodium_ingot*8' 'atm_ore' 'xp:200;table:atm' -desc 'Smelt the raw ore. Mekanism and Oritech processing work too for extra output!'
 Q 'atm_parts' 'Allthemodium Parts' 'allthemodium:allthemodium_plate*2;allthemodium:allthemodium_gear;allthemodium:allthemodium_rod*2' 'atm_ingot' 'xp:100' -opt -desc 'Plates, gears and rods for crafting recipes in other mods.'
 Q 'atm_template' 'Upgrade Template' 'allthemodium:allthemodium_upgrade_smithing_template' 'atm_ingot' 'xp:100' -desc 'Like netherite, you upgrade gear in the smithing table with a template. Duplicate templates with the material.'
@@ -47,16 +64,31 @@ Q 'piglich' 'The Piglich' 'kill:allthemodium:piglich' 'piglin_village' 'xp:400;t
 Q 'piglich_heart' 'Piglich Heart' 'allthemodium:piglich_heart' 'piglich' 'xp:200' -desc 'The heart of the Piglich.'
 
 # ===== Vibranium =====
-Q 'vib_ore' 'Vibranium' 'allthemodium:raw_vibranium*4' 'other' 'xp:300' -size 1.5 -desc 'Found in &eThe Other&r and deep in the Nether. You need an Allthemodium pickaxe.'
+Q 'vib_ore' 'Vibranium' 'allthemodium:raw_vibranium*4' 'atm_tools' 'xp:300' -size 1.5 -desc @'
+Vibranium ore generates in:
+- &eThe Nether&r, on cave ceilings between Y 64 and 127.
+- &eThe Other&r, in its ancient stone.
+
+You need an &6Allthemodium&r pickaxe to mine it.
+'@
 Q 'vib_ingot' 'Vibranium Ingot' 'allthemodium:vibranium_ingot*8' 'vib_ore' 'xp:300;table:atm' -desc 'The second rare metal.'
 Q 'vib_template' 'Vibranium Template' 'allthemodium:vibranium_upgrade_smithing_template' 'vib_ingot' 'xp:100' -desc 'Upgrade your Allthemodium gear to Vibranium.'
 Q 'vib_tools' 'Vibranium Tools' 'allthemodium:vibranium_pickaxe;allthemodium:vibranium_sword' 'vib_template' 'xp:300' -desc 'Your Vibranium pickaxe can mine Unobtainium.'
 Q 'vib_armor' 'Vibranium Armor' 'allthemodium:vibranium_helmet;allthemodium:vibranium_chestplate;allthemodium:vibranium_leggings;allthemodium:vibranium_boots' 'vib_template' 'xp:400;table:rare' -desc 'Stronger still.'
 Q 'vib_shield' 'Vibranium Shield' 'allthemodium:vibranium_shield' 'vib_ingot' 'xp:150' -opt -desc 'Only fitting.'
 
-# ===== The Beyond =====
-Q 'beyond' 'The Beyond' 'dim:allthemodium:the_beyond' 'vib_tools' 'xp:300;table:atm' -size 1.5 -icon 'minecraft:end_stone' -desc 'An End-like dimension. Use a Teleport Pad in the End to get there.'
-Q 'unob_ore' 'Unobtainium' 'allthemodium:raw_unobtainium*4' 'beyond' 'xp:400' -size 1.5 -desc 'Found in the End and in The Beyond. You need a Vibranium pickaxe.'
+# ===== Unobtainium (The End) =====
+Q 'end_highlands' 'The End Highlands' 'biome:minecraft:end_highlands' 'vib_tools' 'xp:300;table:atm' -size 1.5 -icon 'minecraft:end_stone' -desc @'
+Unobtainium only generates in the &eEnd Highlands&r: the large outer islands of The End.
+
+Defeat the Ender Dragon, then throw an Ender Pearl into an &eEnd Gateway&r to reach the outer islands. Nullscape gives the outer End a new look, but the End Highlands are still there. Bring blocks, food and slow-falling potions!
+'@
+Q 'unob_ore' 'Unobtainium' 'allthemodium:raw_unobtainium*4' 'end_highlands' 'xp:400' -size 1.5 -desc 'Unobtainium ore sits in the &eend stone&r of the End Highlands, near the surface of the islands. You need a &5Vibranium&r pickaxe to mine it.'
+Q 'beyond' 'The Beyond' 'dim:allthemodium:the_beyond' 'end_highlands' 'xp:200' -opt -icon 'minecraft:glass' -desc @'
+&eThe Beyond&r is an empty &evoid&r dimension: nothing generates there, no blocks, no ores and no mobs. It is a blank canvas for a sky base or a big build.
+
+Get there with a &eTeleport Pad&r in The End. Bring your own blocks, and do not fall!
+'@
 Q 'unob_ingot' 'Unobtainium Ingot' 'allthemodium:unobtainium_ingot*8' 'unob_ore' 'xp:400;table:epic' -desc 'The rarest of the three metals.'
 Q 'unob_template' 'Unobtainium Template' 'allthemodium:unobtainium_upgrade_smithing_template' 'unob_ingot' 'xp:150' -desc 'The final smithing upgrade.'
 Q 'unob_tools' 'Unobtainium Tools' 'allthemodium:unobtainium_pickaxe;allthemodium:unobtainium_sword' 'unob_template' 'xp:400;table:epic' -desc 'The top tier of Allthemodium tools.'
