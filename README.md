@@ -2,7 +2,7 @@
 
 A Minecraft **26.1.2 NeoForge** modpack built around tech, magic and exploration: Mekanism, Applied Energistics 2, Oritech, Mystical Agriculture, Apotheosis, Thaumaturge, Equivox, Allthemodium, The Twilight Forest, The Aether II, Stellaris, Aquaculture and more. The full mod list is in [MODS.md](MODS.md).
 
-This repository holds the pack's configuration: everything except the mod jars. The ready-to-import Modrinth packs (`.mrpack`) are in [steefan1998/gspack](https://github.com/steefan1998/gspack).
+This repository holds the pack's configuration: everything except the mod jars. The pack itself is published on [CurseForge](https://www.curseforge.com/members/steef_an/projects).
 
 ## What's in here
 
