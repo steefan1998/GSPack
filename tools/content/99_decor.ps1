@@ -23,4 +23,6 @@ Decorate 'storage' '#c99a5b' @{ chest = 'Sophisticated Storage'; backpack = 'Bac
 Decorate 'building' '#e07a9a' @{ start = 'Build Tools'; furniture = 'Furniture & Lights'; roofs = 'Structure'; chisel = 'Decoration' }
 Decorate 'endgame' '#ff4fd8' @{ intro = 'The Final Goal'; core_tech = 'The Five Cores'; singularity = 'The Singularity'; c_energy_cube = 'Creative Items'; trophy = 'Trophy of Infinity' }
 Decorate 'dungeons' '#b8864a' @{ intro = 'Start Exploring'; y_dungeon = 'YUNG''s Dungeons & Temples'; a_fort = 'When Dungeons Arise'; v_ctov = 'Villages & Towns'; t_mage = 'Terralith & Explorify'; s_slime_sky = 'Sky & End'; master = 'Master Explorer' }
+Decorate 'tinkers' '#5a8fd6' @{ book = 'Getting Started'; grout = 'The Smeltery'; tools_set = 'Tools & Armor'; slime = 'Slime & Alloys' }
+Decorate 'ltx' '#7ad64a' @{ tablet = 'Getting Started'; grinder = 'Ore Processing'; mixer = 'Chemistry'; press = 'Circuits & Fabrication'; upgrades = 'Gear & Defense' }
 Decorate 'stellaris' '#6f7ff0' @{ titanium = 'Ground Control'; power = 'Power'; oil_finder = 'Fuel'; suit = 'Life Support'; parts = 'Rockets'; orbit = 'Space'; forest = 'Lunar Forest'; heart = 'Bosses' }

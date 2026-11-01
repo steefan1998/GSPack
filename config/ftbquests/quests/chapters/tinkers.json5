@@ -1,0 +1,1499 @@
+{
+  id: "031F584310838E55",
+  group: "105EE503AFE85CA5",
+  order_index: 19,
+  filename: "tinkers",
+  icon: {
+    count: 1,
+    id: "tconstruct:smeltery_controller",
+  },
+  default_quest_shape: "",
+  default_hide_dependency_lines: true,
+  quests: [
+    {
+      id: "017A95EACDF1782B",
+      x: 0.0,
+      y: 2.7,
+      shape: "gear",
+      size: 1.5,
+      tasks: [
+        {
+          id: "746D85E236D878F4",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tconstruct:materials_and_you",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "37CA5FF9DA922504",
+          type: "xp",
+          xp: 50,
+        },
+        {
+          id: "20FB526102961C2F",
+          type: "random",
+          table_id: 4224964620844649,
+        },
+      ],
+    },
+    {
+      id: "1AFC7DD9BCDF5AF3",
+      x: 1.6,
+      y: 2.7,
+      dependencies: [
+        "017A95EACDF1782B",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "14D8D2E62BDC7338",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tconstruct:puny_smelting",
+          },
+        },
+        {
+          id: "492E9666CE7AEE1F",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tconstruct:mighty_smelting",
+          },
+        },
+        {
+          id: "1EA4A070EF947989",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tconstruct:fantastic_foundry",
+          },
+        },
+        {
+          id: "72BDFAB64ED9B11B",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tconstruct:tinkers_gadgetry",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "456AEB0C452197D6",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      id: "184A4D69A4E57434",
+      x: 1.6,
+      y: 4.2,
+      dependencies: [
+        "017A95EACDF1782B",
+      ],
+      tasks: [
+        {
+          id: "0AC27A82B6F93016",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tconstruct:pattern",
+          },
+          count: 8,
+        },
+      ],
+      rewards: [
+        {
+          id: "459E7A4873620680",
+          type: "xp",
+          xp: 25,
+        },
+      ],
+    },
+    {
+      id: "00732211D4826FB7",
+      x: 3.2,
+      y: 4.2,
+      dependencies: [
+        "184A4D69A4E57434",
+      ],
+      tasks: [
+        {
+          id: "404921AB3554EB12",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tconstruct:part_builder",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2977BF9BA6F6DDCF",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      id: "192B269B3D5C45EE",
+      x: 4.8,
+      y: 4.2,
+      dependencies: [
+        "00732211D4826FB7",
+      ],
+      tasks: [
+        {
+          id: "16CFB6D6E26CB385",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tconstruct:tinker_station",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6933CC24FEC07251",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      id: "2A2EB1BD71730A85",
+      x: 6.4,
+      y: 4.2,
+      dependencies: [
+        "192B269B3D5C45EE",
+      ],
+      tasks: [
+        {
+          id: "3B234C9013221746",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tconstruct:pickaxe",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "61F8D50BE02E263B",
+          type: "xp",
+          xp: 75,
+        },
+        {
+          id: "0E6F35DE8948990A",
+          type: "random",
+          table_id: 4224964620844649,
+        },
+      ],
+    },
+    {
+      id: "4E2B1DF5E928B05E",
+      x: 1.6,
+      y: 1.2,
+      dependencies: [
+        "017A95EACDF1782B",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "71749530F25ADF1D",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tconstruct:crafting_station",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3A0F60A489AEDF10",
+          type: "xp",
+          xp: 25,
+        },
+      ],
+    },
+    {
+      id: "227160423E833F96",
+      x: 0.0,
+      y: 7.05,
+      size: 1.5,
+      tasks: [
+        {
+          id: "19B0B81FC8DC974C",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tconstruct:grout",
+          },
+          count: 16,
+        },
+      ],
+      rewards: [
+        {
+          id: "29BF86B816BE1E8E",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      id: "1CA30EA3B7821320",
+      x: 1.6,
+      y: 7.05,
+      dependencies: [
+        "227160423E833F96",
+      ],
+      tasks: [
+        {
+          id: "1F99CD10B599D9DF",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tconstruct:seared_brick",
+          },
+          count: 32,
+        },
+      ],
+      rewards: [
+        {
+          id: "1C40CC6228239BE7",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      id: "71D7A17F40C06DE9",
+      x: 3.2,
+      y: 7.05,
+      dependencies: [
+        "1CA30EA3B7821320",
+      ],
+      tasks: [
+        {
+          id: "1E27FB975384B212",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tconstruct:seared_melter",
+          },
+        },
+        {
+          id: "53C7DA6980F64ECF",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tconstruct:seared_heater",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3889934F5083C1C0",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      id: "708FA1BD302D4CC6",
+      x: 4.8,
+      y: 7.05,
+      dependencies: [
+        "71D7A17F40C06DE9",
+      ],
+      tasks: [
+        {
+          id: "0CB6654FCC6A9A7D",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tconstruct:seared_table",
+          },
+        },
+        {
+          id: "527D2CABB7463CF4",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tconstruct:seared_basin",
+          },
+        },
+        {
+          id: "25CE1FD10BEE90EF",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tconstruct:seared_faucet",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4B3E08BDBC3BE7C1",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      id: "34361E5A22B99EDF",
+      x: 6.4,
+      y: 7.05,
+      dependencies: [
+        "708FA1BD302D4CC6",
+      ],
+      tasks: [
+        {
+          id: "0E7CDF62D0F17956",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tconstruct:ingot_cast",
+          },
+        },
+        {
+          id: "7D96A229D739A038",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tconstruct:pick_head_cast",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3565E0DAC52EC93B",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      id: "1E59D7D2D51476B9",
+      x: 6.4,
+      y: 8.55,
+      shape: "hexagon",
+      size: 1.5,
+      dependencies: [
+        "708FA1BD302D4CC6",
+      ],
+      tasks: [
+        {
+          id: "1934BD17980BED18",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tconstruct:smeltery_controller",
+          },
+        },
+        {
+          id: "4E99D13E7705161E",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tconstruct:seared_drain",
+          },
+        },
+        {
+          id: "0FD42181978EE5FB",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tconstruct:seared_fuel_tank",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "33467A06775121A2",
+          type: "xp",
+          xp: 200,
+        },
+        {
+          id: "4387E447DCF59B85",
+          type: "random",
+          table_id: 253752461985528,
+        },
+      ],
+    },
+    {
+      id: "54366F7975C203CD",
+      x: 8.0,
+      y: 8.55,
+      dependencies: [
+        "1E59D7D2D51476B9",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "24A20541FF3F5CD3",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tconstruct:seared_ingot_gauge",
+          },
+        },
+        {
+          id: "06E3248C818CE1C1",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tconstruct:seared_casting_tank",
+          },
+        },
+        {
+          id: "0C9CA1FBBC610F39",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tconstruct:seared_chute",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5885BDC127B578C5",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      id: "7CB0CF18DA267CF4",
+      x: 9.6,
+      y: 10.05,
+      dependencies: [
+        "1E59D7D2D51476B9",
+        "0DBE2018B2772C71",
+      ],
+      tasks: [
+        {
+          id: "15346C93199A56D0",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tconstruct:foundry_controller",
+          },
+        },
+        {
+          id: "113523FBDDAB544B",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tconstruct:scorched_brick",
+          },
+          count: 32,
+        },
+      ],
+      rewards: [
+        {
+          id: "78F2DAE6E35E47FE",
+          type: "xp",
+          xp: 300,
+        },
+        {
+          id: "5D2FF8CB8B2726DE",
+          type: "random",
+          table_id: 2210856162803377,
+        },
+      ],
+    },
+    {
+      id: "7E43D015863594FB",
+      x: 11.2,
+      y: 10.05,
+      dependencies: [
+        "7CB0CF18DA267CF4",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "6B4A72AAFE0273A1",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tconstruct:scorched_alloyer",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4FA2800324CE45FA",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      id: "0DBE2018B2772C71",
+      x: 8.0,
+      y: 10.05,
+      icon: {
+        count: 1,
+        id: "tconstruct:nether_grout",
+      },
+      dependencies: [
+        "1E59D7D2D51476B9",
+      ],
+      tasks: [
+        {
+          id: "020EE766448E359C",
+          type: "dimension",
+          dimension: "minecraft:the_nether",
+        },
+      ],
+      rewards: [
+        {
+          id: "046DEEB2EA7EB4FD",
+          type: "xp",
+          xp: 25,
+        },
+      ],
+    },
+    {
+      id: "7F2B9DACFB045F12",
+      x: 0.0,
+      y: 17.15,
+      size: 1.5,
+      dependencies: [
+        "2A2EB1BD71730A85",
+        "1E59D7D2D51476B9",
+      ],
+      tasks: [
+        {
+          id: "33070C5533D6074D",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tconstruct:pickaxe",
+          },
+        },
+        {
+          id: "5CECE336EA3FE678",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tconstruct:hand_axe",
+          },
+        },
+        {
+          id: "251868D34F5ADC23",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tconstruct:mattock",
+          },
+        },
+        {
+          id: "798077C2BA0EA8AA",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tconstruct:sword",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "636AB0347E9E3796",
+          type: "xp",
+          xp: 100,
+        },
+        {
+          id: "6C875826F4E83A17",
+          type: "random",
+          table_id: 253752461985528,
+        },
+      ],
+    },
+    {
+      id: "7AD7DEDE561056D1",
+      x: 1.6,
+      y: 17.15,
+      dependencies: [
+        "7F2B9DACFB045F12",
+      ],
+      tasks: [
+        {
+          id: "689179952EBE6623",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tconstruct:sledge_hammer",
+          },
+        },
+        {
+          id: "2D385A9BE24EA983",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tconstruct:vein_hammer",
+          },
+        },
+        {
+          id: "50920F6478683354",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tconstruct:excavator",
+          },
+        },
+        {
+          id: "4D1F4CB2832FC535",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tconstruct:broad_axe",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "16F60DD88DD9635E",
+          type: "xp",
+          xp: 200,
+        },
+        {
+          id: "7924F591F7AFF345",
+          type: "random",
+          table_id: 2210856162803377,
+        },
+      ],
+    },
+    {
+      id: "61DF41BB084F1CC2",
+      x: 1.6,
+      y: 18.65,
+      dependencies: [
+        "7F2B9DACFB045F12",
+      ],
+      tasks: [
+        {
+          id: "325053A39332360A",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tconstruct:cleaver",
+          },
+        },
+        {
+          id: "0E885B94A3A02B60",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tconstruct:dagger",
+          },
+        },
+        {
+          id: "6162554B4EF57A2D",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tconstruct:scythe",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0B07F465E8CCF579",
+          type: "xp",
+          xp: 150,
+        },
+      ],
+    },
+    {
+      id: "2B26CEAF2126CC4F",
+      x: 1.6,
+      y: 15.65,
+      dependencies: [
+        "7F2B9DACFB045F12",
+      ],
+      tasks: [
+        {
+          id: "7AA6CAF28FA6DF15",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tconstruct:longbow",
+          },
+        },
+        {
+          id: "05A3C57A6677ED3B",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tconstruct:crossbow",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "442FC02D88F4946C",
+          type: "xp",
+          xp: 150,
+        },
+      ],
+    },
+    {
+      id: "6B3E005B0C35F78E",
+      x: 1.6,
+      y: 20.15,
+      dependencies: [
+        "7F2B9DACFB045F12",
+      ],
+      tasks: [
+        {
+          id: "598C6B7367E69FDC",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tconstruct:plate_helmet",
+          },
+        },
+        {
+          id: "2DF35383EAFE95B8",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tconstruct:plate_chestplate",
+          },
+        },
+        {
+          id: "39A348B5AA973C97",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tconstruct:plate_leggings",
+          },
+        },
+        {
+          id: "608865E93F855A72",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tconstruct:plate_boots",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2855143795503ED3",
+          type: "xp",
+          xp: 200,
+        },
+        {
+          id: "6C733D69A400D806",
+          type: "random",
+          table_id: 2210856162803377,
+        },
+      ],
+    },
+    {
+      id: "35613EB71F2B8A8B",
+      x: 1.6,
+      y: 14.15,
+      dependencies: [
+        "7F2B9DACFB045F12",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "34179E50556BB2F1",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tconstruct:travelers_helmet",
+          },
+        },
+        {
+          id: "0DF7F3282C398BEF",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tconstruct:travelers_chestplate",
+          },
+        },
+        {
+          id: "6CB162AF63199E12",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tconstruct:travelers_leggings",
+          },
+        },
+        {
+          id: "2903F34E4D7B552E",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tconstruct:travelers_boots",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "226E4161A59E82CA",
+          type: "xp",
+          xp: 150,
+        },
+      ],
+    },
+    {
+      id: "709A2203ABF32C66",
+      x: 1.6,
+      y: 21.65,
+      dependencies: [
+        "7F2B9DACFB045F12",
+      ],
+      tasks: [
+        {
+          id: "302B1D28251C6BF5",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tconstruct:modifier_worktable",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "628CDFD19025FB1B",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      id: "17F980724602C603",
+      x: 3.2,
+      y: 21.65,
+      dependencies: [
+        "709A2203ABF32C66",
+      ],
+      tasks: [
+        {
+          id: "01870CAA605DF5F2",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tconstruct:iron_reinforcement",
+          },
+        },
+        {
+          id: "4101D57E0E3C0859",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tconstruct:obsidian_reinforcement",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "73FB4A34173722A9",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      id: "1EBD8DF876FCD3FF",
+      x: 1.6,
+      y: 12.65,
+      dependencies: [
+        "7F2B9DACFB045F12",
+      ],
+      tasks: [
+        {
+          id: "58FC53827B408C35",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tconstruct:repair_kit",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0F9C3CE8CCF81CE7",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      id: "1493C91E0D023665",
+      x: 3.2,
+      y: 23.15,
+      dependencies: [
+        "709A2203ABF32C66",
+        "7E8AE69DF83E0AED",
+      ],
+      tasks: [
+        {
+          id: "7C07779680DC1AFC",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tconstruct:tinkers_anvil",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5DBDAC8B656C7F21",
+          type: "xp",
+          xp: 150,
+        },
+      ],
+    },
+    {
+      id: "4100A5B28A698C09",
+      x: 4.8,
+      y: 23.15,
+      dependencies: [
+        "1493C91E0D023665",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "4F0053E82BC8D662",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tconstruct:modifier_crystal",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "07E353422F4BB8F6",
+          type: "xp",
+          xp: 200,
+        },
+        {
+          id: "04D17F1E6CE458CA",
+          type: "random",
+          table_id: 2210856162803377,
+        },
+      ],
+    },
+    {
+      id: "4FC3B0F3784C24EA",
+      x: 0.0,
+      y: 31.75,
+      size: 1.5,
+      tasks: [
+        {
+          id: "3666F1583365FFA4",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tconstruct:sky_slime_ball",
+          },
+          count: 8,
+        },
+        {
+          id: "4E86D45669932B5A",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tconstruct:ender_slime_ball",
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "67572D99658F3592",
+          type: "xp",
+          xp: 100,
+        },
+        {
+          id: "0CF8CB01E29EE034",
+          type: "random",
+          table_id: 4224964620844649,
+        },
+      ],
+    },
+    {
+      id: "06FC8C9E607DF3B5",
+      x: 1.6,
+      y: 31.75,
+      dependencies: [
+        "4FC3B0F3784C24EA",
+      ],
+      tasks: [
+        {
+          id: "7E06D0A49FED3A81",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tconstruct:slime_boots",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "31F2AEA1D876E0AA",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      id: "3161C829EE35DE67",
+      x: 1.6,
+      y: 33.25,
+      dependencies: [
+        "4FC3B0F3784C24EA",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "1CFFB528DBD69BA6",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tconstruct:sky_staff",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7F93E1E276B541A5",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      id: "0905454AA1B5D214",
+      x: 1.6,
+      y: 30.25,
+      dependencies: [
+        "4FC3B0F3784C24EA",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "01BD1C94F9C9FF17",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tconstruct:sky_slime_crystal",
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "29580573C0FDDECD",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      id: "4F90010E4665AC6E",
+      x: 1.6,
+      y: 34.75,
+      dependencies: [
+        "4FC3B0F3784C24EA",
+        "1E59D7D2D51476B9",
+      ],
+      tasks: [
+        {
+          id: "20238F2AB1D769D9",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tconstruct:slimesteel_ingot",
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "11AC0DC650376E69",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      id: "61B8475FD4F52D5F",
+      x: 0.0,
+      y: 36.25,
+      dependencies: [
+        "1E59D7D2D51476B9",
+      ],
+      tasks: [
+        {
+          id: "6240B5630C33D376",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tconstruct:rose_gold_ingot",
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "11A8511CA91785C4",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      id: "488AA0AC0FDEC824",
+      x: 1.6,
+      y: 36.25,
+      dependencies: [
+        "1E59D7D2D51476B9",
+      ],
+      tasks: [
+        {
+          id: "40FF62B084231501",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tconstruct:amethyst_bronze_ingot",
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "77EC98F7A8333B68",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      id: "75660C97E9A05337",
+      x: 3.2,
+      y: 36.25,
+      dependencies: [
+        "1E59D7D2D51476B9",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "249C2AC1B7735D03",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tconstruct:pig_iron_ingot",
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "6C5A61E65B808DCA",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      id: "7E8AE69DF83E0AED",
+      x: 0.0,
+      y: 30.25,
+      dependencies: [
+        "0DBE2018B2772C71",
+      ],
+      tasks: [
+        {
+          id: "2292648DC6FB26B0",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tconstruct:raw_cobalt",
+          },
+          count: 4,
+        },
+        {
+          id: "3DEA382AA3180BC1",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tconstruct:cobalt_ingot",
+          },
+          count: 8,
+        },
+      ],
+      rewards: [
+        {
+          id: "1E08B6C3C40D246D",
+          type: "xp",
+          xp: 200,
+        },
+        {
+          id: "44FF6677F8C47272",
+          type: "random",
+          table_id: 253752461985528,
+        },
+      ],
+    },
+    {
+      id: "6325B504265227B7",
+      x: 1.6,
+      y: 28.75,
+      dependencies: [
+        "7E8AE69DF83E0AED",
+      ],
+      tasks: [
+        {
+          id: "38907006064EEEA9",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tconstruct:manyullyn_ingot",
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "7F29A84B4DEA1333",
+          type: "xp",
+          xp: 300,
+        },
+        {
+          id: "2ECC181BAE267496",
+          type: "random",
+          table_id: 2210856162803377,
+        },
+      ],
+    },
+    {
+      id: "67EF4D51C952FE78",
+      x: 1.6,
+      y: 27.25,
+      dependencies: [
+        "7E8AE69DF83E0AED",
+      ],
+      tasks: [
+        {
+          id: "6ECA92EE697B361A",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tconstruct:hepatizon_ingot",
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "441F24CF3A09929A",
+          type: "xp",
+          xp: 250,
+        },
+        {
+          id: "6188FD280D101B45",
+          type: "random",
+          table_id: 2210856162803377,
+        },
+      ],
+    },
+    {
+      id: "5F5B1932A4DFD220",
+      x: 1.6,
+      y: 25.75,
+      dependencies: [
+        "7E8AE69DF83E0AED",
+        "4FC3B0F3784C24EA",
+      ],
+      tasks: [
+        {
+          id: "7AC3675C48D3F60B",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tconstruct:queens_slime_ingot",
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "09BBB3D4B3DBBC08",
+          type: "xp",
+          xp: 250,
+        },
+        {
+          id: "70A55C7A0C236EFE",
+          type: "random",
+          table_id: 2210856162803377,
+        },
+      ],
+    },
+    {
+      id: "02094C2282922098",
+      x: 3.2,
+      y: 34.75,
+      dependencies: [
+        "4F90010E4665AC6E",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "2BF0D72579E658DE",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tconstruct:knightslime_ingot",
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "7C5442DB1701F660",
+          type: "xp",
+          xp: 150,
+        },
+      ],
+    },
+    {
+      id: "026D679C5F4E006A",
+      x: 4.8,
+      y: 36.25,
+      dependencies: [
+        "7CB0CF18DA267CF4",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "56795EFC49B24765",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tconstruct:soulsteel_ingot",
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "14FAF5F89246C3C3",
+          type: "xp",
+          xp: 200,
+        },
+      ],
+    },
+    {
+      id: "0424A7B23649ED6E",
+      x: 3.2,
+      y: 28.75,
+      shape: "gear",
+      size: 2.0,
+      dependencies: [
+        "6325B504265227B7",
+        "7AD7DEDE561056D1",
+        "1493C91E0D023665",
+      ],
+      tasks: [
+        {
+          id: "72D567EA76D91D6C",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tconstruct:vein_hammer",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "74BB9A12C4DDA633",
+          type: "xp_levels",
+          xp_levels: 20,
+        },
+        {
+          id: "42A2675671967685",
+          type: "random",
+          table_id: 379532711335085,
+        },
+      ],
+    },
+  ],
+  quest_links: [ ],
+  images: [
+    {
+      x: 5.6,
+      y: -1.5188,
+      width: 12.0,
+      height: 1.4375,
+      rotation: 0.0,
+      image: "gspack:textures/quests/tinkers_header.png",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false,
+    },
+    {
+      x: 1.0765,
+      y: 11.45,
+      width: 3.3529,
+      height: 0.6,
+      rotation: 0.0,
+      image: "gspack:textures/quests/tinkers_tools_set.png",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false,
+    },
+    {
+      x: 1.0765,
+      y: 24.55,
+      width: 3.3529,
+      height: 0.6,
+      rotation: 0.0,
+      image: "gspack:textures/quests/tinkers_slime.png",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false,
+    },
+    {
+      x: 1.2,
+      y: 0.0,
+      width: 3.6,
+      height: 0.6,
+      rotation: 0.0,
+      image: "gspack:textures/quests/tinkers_book.png",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false,
+    },
+    {
+      x: 0.9882,
+      y: 5.6,
+      width: 3.1765,
+      height: 0.6,
+      rotation: 0.0,
+      image: "gspack:textures/quests/tinkers_grout.png",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false,
+    },
+  ],
+}

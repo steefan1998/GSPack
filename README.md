@@ -1,4 +1,4 @@
-# GSPack
+﻿# GSPack
 
 A Minecraft **26.1.2 NeoForge** modpack built around tech, magic and exploration: Mekanism, Applied Energistics 2, Oritech, Mystical Agriculture, Apotheosis, Thaumaturge, Equivox, Allthemodium, The Twilight Forest, The Aether II, Stellaris, Aquaculture and more. The full mod list is in [MODS.md](MODS.md).
 
@@ -15,10 +15,10 @@ This repository holds the pack's configuration: everything except the mod jars. 
 
 ## The quest book
 
-Over 1100 quests in English, in these chapters:
+Over 1200 quests in English, in these chapters:
 
 - **Start:** Welcome, Getting Started (vanilla progression)
-- **Technology:** Mekanism, Applied Energistics 2, Oritech
+- **Technology:** Mekanism, Applied Energistics 2, Oritech, Tinkers' Construct, LTX Industries
 - **Magic & Farming:** Mystical Agriculture, Seed Codex (every seed that loads in the pack, including the Allthemodium seeds), Apotheosis, Thaumaturge, Equivox
 - **Exploration & Dimensions:** Allthemodium, Aquaculture 2, The Aether II, The Twilight Forest, Stellaris, Dungeons & Structures
 - **Storage & Building:** Storage, Building

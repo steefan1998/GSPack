@@ -1,0 +1,1764 @@
+{
+  id: "77C54AC639C2D7B1",
+  group: "105EE503AFE85CA5",
+  order_index: 20,
+  filename: "ltx",
+  icon: {
+    count: 1,
+    id: "ltxi:fabricator",
+  },
+  default_quest_shape: "",
+  default_hide_dependency_lines: true,
+  quests: [
+    {
+      id: "233C7A581A000D2C",
+      x: 0.0,
+      y: 2.7,
+      shape: "gear",
+      size: 1.5,
+      tasks: [
+        {
+          id: "06996EFFB6A5E364",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:guide_tablet",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5EB5D907314B5CF3",
+          type: "xp",
+          xp: 50,
+        },
+        {
+          id: "11D43C05F5F7332F",
+          type: "random",
+          table_id: 4224964620844649,
+        },
+      ],
+    },
+    {
+      id: "2E77A4DE528C6DE4",
+      x: 1.6,
+      y: 2.7,
+      dependencies: [
+        "233C7A581A000D2C",
+      ],
+      tasks: [
+        {
+          id: "32737F148493C5B7",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:titanium_ingot",
+          },
+          count: 8,
+        },
+        {
+          id: "420E846EA4F29210",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:niobium_ingot",
+          },
+          count: 4,
+        },
+        {
+          id: "5385EB5E9283FAE4",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:silver_ingot",
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "546B4F25028A42BE",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      id: "26CC457758DA9ECA",
+      x: 3.2,
+      y: 2.7,
+      dependencies: [
+        "2E77A4DE528C6DE4",
+      ],
+      tasks: [
+        {
+          id: "6BA8258C1B195476",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:slatesteel_ingot",
+          },
+          count: 8,
+        },
+      ],
+      rewards: [
+        {
+          id: "0DF45C1D70905C6E",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      id: "30B8BF743D17D20E",
+      x: 4.8,
+      y: 2.7,
+      dependencies: [
+        "26CC457758DA9ECA",
+      ],
+      tasks: [
+        {
+          id: "3891672AB0D67026",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:machine_housing",
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "329CEC5CC52748FA",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      id: "1F0621F63C40F35D",
+      x: 6.4,
+      y: 2.7,
+      dependencies: [
+        "30B8BF743D17D20E",
+      ],
+      tasks: [
+        {
+          id: "6CA2A408F90B5101",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:portable_generator",
+          },
+        },
+        {
+          id: "7B8543F4908EE120",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:solar_panel",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7F8E68446D4923C9",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      id: "6482B5B8645307BB",
+      x: 8.0,
+      y: 2.7,
+      dependencies: [
+        "1F0621F63C40F35D",
+      ],
+      tasks: [
+        {
+          id: "28A3495E9D989872",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:small_voltaic_cell",
+          },
+        },
+        {
+          id: "210121737604E157",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:energy_cell_array",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5D195D34D4411A61",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      id: "0167BBB6C6D1ABB7",
+      x: 9.6,
+      y: 2.7,
+      dependencies: [
+        "6482B5B8645307BB",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "32911231DB97D941",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:medium_voltaic_cell",
+          },
+        },
+        {
+          id: "590E448B47E05DD1",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:large_voltaic_cell",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "368F9A86A71BA1AC",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      id: "590B8E305DFE9522",
+      x: 6.4,
+      y: 4.2,
+      dependencies: [
+        "30B8BF743D17D20E",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "3043B394D08DE621",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:items_io_config_card",
+          },
+        },
+        {
+          id: "38E4EB349B350513",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:energy_io_config_card",
+          },
+        },
+        {
+          id: "0C23573678C98D12",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:fluids_io_config_card",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "00C6FEFFEA50B15C",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      id: "39D0138A19A89249",
+      x: 6.4,
+      y: 1.2,
+      dependencies: [
+        "30B8BF743D17D20E",
+      ],
+      tasks: [
+        {
+          id: "2300E986F043EE3C",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:digital_furnace",
+          },
+        },
+        {
+          id: "26A839F42846829A",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:digital_blast_furnace",
+          },
+        },
+        {
+          id: "107BF4D38388EAF1",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:digital_smoker",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "447921580833AEE5",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      id: "7A4CE0B5C0D8098F",
+      x: 8.0,
+      y: 1.2,
+      dependencies: [
+        "39D0138A19A89249",
+      ],
+      tasks: [
+        {
+          id: "595C01D3BDE0F880",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:digital_garden",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2768A11ED5552B4B",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      id: "53B0EA8BC4387713",
+      x: 0.0,
+      y: 8.3,
+      size: 1.5,
+      dependencies: [
+        "30B8BF743D17D20E",
+      ],
+      tasks: [
+        {
+          id: "4E3F146CD642ADE7",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:grinder",
+          },
+        },
+        {
+          id: "71F3F0E356943B7C",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:crushed_iron_ore",
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "46AB144D4A3B92F9",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      id: "4481CA4C3FDB83B0",
+      x: 1.6,
+      y: 8.3,
+      dependencies: [
+        "53B0EA8BC4387713",
+      ],
+      tasks: [
+        {
+          id: "19C65279A9CF0D16",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:washed_iron_ore",
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "3A60BFA9D0424B31",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      id: "32EB4580D6069F86",
+      x: 3.2,
+      y: 8.3,
+      dependencies: [
+        "4481CA4C3FDB83B0",
+      ],
+      tasks: [
+        {
+          id: "7E9435A997ED28C7",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:iron_ore_chunk",
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "33C0D324AE6819C6",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      id: "05789FEC1199B3B1",
+      x: 4.8,
+      y: 8.3,
+      dependencies: [
+        "32EB4580D6069F86",
+      ],
+      tasks: [
+        {
+          id: "1F442464801A9093",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:iron_ore_crystal",
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "7C8F2CD5B2ADB919",
+          type: "xp",
+          xp: 150,
+        },
+        {
+          id: "5616F8A79B879922",
+          type: "random",
+          table_id: 253752461985528,
+        },
+      ],
+    },
+    {
+      id: "13D1F51E84263D19",
+      x: 6.4,
+      y: 8.3,
+      dependencies: [
+        "05789FEC1199B3B1",
+        "6193CFC2A93CD732",
+      ],
+      tasks: [
+        {
+          id: "758B4860938047C6",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:iron_ore_solution",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5C3314AD0553B613",
+          type: "xp",
+          xp: 200,
+        },
+        {
+          id: "25F8D2E72620A4F9",
+          type: "random",
+          table_id: 2210856162803377,
+        },
+      ],
+    },
+    {
+      id: "4936F94F9423537B",
+      x: 1.6,
+      y: 9.8,
+      dependencies: [
+        "53B0EA8BC4387713",
+      ],
+      tasks: [
+        {
+          id: "1EA773DB4F3A5012",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:electrocentrifuge",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "08E48D786AA83518",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      id: "37CD732FA219F841",
+      x: 1.6,
+      y: 6.8,
+      dependencies: [
+        "53B0EA8BC4387713",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "084411C61A57A78D",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:olivine",
+          },
+          count: 4,
+        },
+        {
+          id: "784731D421D3A125",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:fluorite",
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "06C9A27380AC837A",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      id: "2A13D18599BF7810",
+      x: 0.0,
+      y: 15.4,
+      size: 1.5,
+      dependencies: [
+        "30B8BF743D17D20E",
+      ],
+      tasks: [
+        {
+          id: "3DC614A6CCE0F5A2",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:mixer",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1EA3239E5C810BB2",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      id: "6193CFC2A93CD732",
+      x: 1.6,
+      y: 15.4,
+      dependencies: [
+        "2A13D18599BF7810",
+      ],
+      tasks: [
+        {
+          id: "566F6183C7C25F96",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:chem_lab",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6003DAD6CC9BFAED",
+          type: "xp",
+          xp: 150,
+        },
+        {
+          id: "4968AAE2726A2F06",
+          type: "random",
+          table_id: 253752461985528,
+        },
+      ],
+    },
+    {
+      id: "6917148A17CD33CE",
+      x: 3.2,
+      y: 15.4,
+      dependencies: [
+        "6193CFC2A93CD732",
+      ],
+      tasks: [
+        {
+          id: "781621084DE8C831",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:atmospheric_scrubber",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "21E4821E67436479",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      id: "51C7B2976AB6987B",
+      x: 3.2,
+      y: 16.9,
+      dependencies: [
+        "6193CFC2A93CD732",
+      ],
+      tasks: [
+        {
+          id: "19FC78EB7A287A4E",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:sulfuric_acid_bucket",
+          },
+        },
+        {
+          id: "651E0BE6975C7044",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:hydrochloric_acid_bucket",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "267FE9B1E3DD5F68",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      id: "07C38C2EF0A27270",
+      x: 3.2,
+      y: 13.9,
+      dependencies: [
+        "6193CFC2A93CD732",
+      ],
+      tasks: [
+        {
+          id: "745F90D1EDB2B13E",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:polymer_sheet",
+          },
+          count: 4,
+        },
+        {
+          id: "35B4676B786F9E17",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:fluoropolymer_sheet",
+          },
+          count: 2,
+        },
+      ],
+      rewards: [
+        {
+          id: "4F55973E337D3262",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      id: "488B511AE983FCE3",
+      x: 1.6,
+      y: 16.9,
+      dependencies: [
+        "2A13D18599BF7810",
+      ],
+      tasks: [
+        {
+          id: "5D4096EE18B03A9E",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:silicon_ingot",
+          },
+          count: 4,
+        },
+        {
+          id: "2945B13A0AD3AA44",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:silicon_plate",
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "50659F100CDFCB64",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      id: "2D202ABF0A8EC15B",
+      x: 3.2,
+      y: 18.4,
+      dependencies: [
+        "6193CFC2A93CD732",
+      ],
+      tasks: [
+        {
+          id: "391BB93B475C05AE",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:rhenium_ingot",
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "3D7858ABB6178255",
+          type: "xp",
+          xp: 200,
+        },
+        {
+          id: "2A3E58340AB91DA6",
+          type: "random",
+          table_id: 2210856162803377,
+        },
+      ],
+    },
+    {
+      id: "1F39FFC8BBA48611",
+      x: 4.8,
+      y: 18.4,
+      dependencies: [
+        "2D202ABF0A8EC15B",
+      ],
+      tasks: [
+        {
+          id: "3529F500973CB589",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:tungsten_slatesteel_ingot",
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "48B1CFDAB8A8714E",
+          type: "xp",
+          xp: 200,
+        },
+        {
+          id: "10B54D5E6C045F7A",
+          type: "random",
+          table_id: 2210856162803377,
+        },
+      ],
+    },
+    {
+      id: "165A80F1200A9BEF",
+      x: 3.2,
+      y: 12.4,
+      dependencies: [
+        "6193CFC2A93CD732",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "5BCC3CB397ED1EFE",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:geo_synthesizer",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "53078C396BA9C8D6",
+          type: "xp",
+          xp: 150,
+        },
+      ],
+    },
+    {
+      id: "3887CAB2977A9C71",
+      x: 0.0,
+      y: 24.0,
+      size: 1.5,
+      dependencies: [
+        "30B8BF743D17D20E",
+      ],
+      tasks: [
+        {
+          id: "7EF8EB6D7DD8BF10",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:material_press",
+          },
+        },
+        {
+          id: "23A91A34082219D0",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:titanium_plate",
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "35ADF0E03424530E",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      id: "38489B5605E20823",
+      x: 1.6,
+      y: 24.0,
+      dependencies: [
+        "3887CAB2977A9C71",
+        "488B511AE983FCE3",
+      ],
+      tasks: [
+        {
+          id: "4022637C74A411EC",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:circuit_board",
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "4DE8E3D9E2C54285",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      id: "0E8020C2548CEB9C",
+      x: 3.2,
+      y: 24.0,
+      dependencies: [
+        "38489B5605E20823",
+      ],
+      tasks: [
+        {
+          id: "55749E941FA1CC41",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:t1_circuit",
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "2DA2E0A0E0F0B810",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      id: "7A3BB30BFE654741",
+      x: 4.8,
+      y: 24.0,
+      dependencies: [
+        "0E8020C2548CEB9C",
+      ],
+      tasks: [
+        {
+          id: "231E2B9B180AB787",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:t2_circuit",
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "5D6017CAC988E3AD",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      id: "751E218CC4922048",
+      x: 6.4,
+      y: 24.0,
+      dependencies: [
+        "7A3BB30BFE654741",
+        "07C38C2EF0A27270",
+      ],
+      tasks: [
+        {
+          id: "0473B99CCBE14E33",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:t3_circuit",
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "585E457B03EBEAAD",
+          type: "xp",
+          xp: 150,
+        },
+        {
+          id: "5B9BEB0731489BE9",
+          type: "random",
+          table_id: 253752461985528,
+        },
+      ],
+    },
+    {
+      id: "6834FED41A7E2515",
+      x: 8.0,
+      y: 24.0,
+      dependencies: [
+        "751E218CC4922048",
+      ],
+      tasks: [
+        {
+          id: "73D46D227AEC86BA",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:t4_circuit",
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "7B0764087F81A29B",
+          type: "xp",
+          xp: 200,
+        },
+        {
+          id: "1D5367CE4B41ACD7",
+          type: "random",
+          table_id: 2210856162803377,
+        },
+      ],
+    },
+    {
+      id: "48BD332B7A82BE19",
+      x: 9.6,
+      y: 24.0,
+      dependencies: [
+        "6834FED41A7E2515",
+        "2D202ABF0A8EC15B",
+      ],
+      tasks: [
+        {
+          id: "4660992A7229FEC5",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:t5_circuit",
+          },
+          count: 2,
+        },
+        {
+          id: "52A9F969DAE4DF62",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:elite_circuit_board",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "32653291457D7EEC",
+          type: "xp",
+          xp: 300,
+        },
+        {
+          id: "66148FE635240FB0",
+          type: "random",
+          table_id: 379532711335085,
+        },
+      ],
+    },
+    {
+      id: "208518E2E7054F70",
+      x: 8.0,
+      y: 25.5,
+      dependencies: [
+        "751E218CC4922048",
+      ],
+      tasks: [
+        {
+          id: "68BA9E7880D8482D",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:logic_core",
+          },
+          count: 2,
+        },
+        {
+          id: "35D475A0B17219F6",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:nano_logic_core",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "45C8F7BD6787326A",
+          type: "xp",
+          xp: 150,
+        },
+      ],
+    },
+    {
+      id: "3B93A44AA860EF84",
+      x: 6.4,
+      y: 25.5,
+      dependencies: [
+        "7A3BB30BFE654741",
+      ],
+      tasks: [
+        {
+          id: "53207596B8DE0E01",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:fabricator",
+          },
+        },
+        {
+          id: "6060CA5729E49AF3",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:empty_fabrication_blueprint",
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "41BBFCF0CB588E47",
+          type: "xp",
+          xp: 150,
+        },
+        {
+          id: "111186C8E4ECACC7",
+          type: "random",
+          table_id: 253752461985528,
+        },
+      ],
+    },
+    {
+      id: "31CD8AF3DC1AB915",
+      x: 8.0,
+      y: 22.5,
+      dependencies: [
+        "3B93A44AA860EF84",
+        "751E218CC4922048",
+      ],
+      tasks: [
+        {
+          id: "6B47A2AD1D64BFD5",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:auto_fabricator",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "06C41E8168C70037",
+          type: "xp",
+          xp: 200,
+        },
+        {
+          id: "451CB891219EA077",
+          type: "random",
+          table_id: 2210856162803377,
+        },
+      ],
+    },
+    {
+      id: "59C44B4096072DB1",
+      x: 6.4,
+      y: 22.5,
+      dependencies: [
+        "7A3BB30BFE654741",
+      ],
+      tasks: [
+        {
+          id: "034FCD2D8770F0FA",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:assembler",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "487ED8E933D40255",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      id: "646812DFC816876D",
+      x: 8.0,
+      y: 21.0,
+      dependencies: [
+        "59C44B4096072DB1",
+      ],
+      tasks: [
+        {
+          id: "2ED5B15D02257579",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:impulse_tech_part",
+          },
+        },
+        {
+          id: "058CEB4406072F7B",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:laser_tech_part",
+          },
+        },
+        {
+          id: "619119F6D51663AF",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:optical_tech_part",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "21ED4319886A9D16",
+          type: "xp",
+          xp: 150,
+        },
+      ],
+    },
+    {
+      id: "68503723EA0094CF",
+      x: 8.0,
+      y: 27.0,
+      dependencies: [
+        "751E218CC4922048",
+      ],
+      tasks: [
+        {
+          id: "4D40F94D8CA48CFA",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:arc_furnace",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "58042B9C8DB76F98",
+          type: "xp",
+          xp: 150,
+        },
+      ],
+    },
+    {
+      id: "7DEAA0826DC38524",
+      x: 8.0,
+      y: 28.5,
+      dependencies: [
+        "751E218CC4922048",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "0418C115E1F08F40",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:voltaic_injector",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "17D25FD674E0EFBA",
+          type: "xp",
+          xp: 150,
+        },
+      ],
+    },
+    {
+      id: "76F00C8C4F962DB5",
+      x: 0.0,
+      y: 37.1,
+      size: 1.5,
+      dependencies: [
+        "7A3BB30BFE654741",
+      ],
+      tasks: [
+        {
+          id: "2A057951033D6AC6",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:upgrade_station",
+          },
+        },
+        {
+          id: "034D4BB2BD41BDA9",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:empty_upgrade_module",
+          },
+          count: 2,
+        },
+      ],
+      rewards: [
+        {
+          id: "370125EE5868EABF",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      id: "5B65FE0D134B6833",
+      x: 0.0,
+      y: 32.6,
+      dependencies: [
+        "646812DFC816876D",
+      ],
+      tasks: [
+        {
+          id: "0ACF17906D22DD49",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:epsilon_drill",
+          },
+        },
+        {
+          id: "69DAD6249FF008EC",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:epsilon_sword",
+          },
+        },
+        {
+          id: "58093D4486804885",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:epsilon_axe",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0F991D59409F321F",
+          type: "xp",
+          xp: 250,
+        },
+        {
+          id: "06CC19DEB861C762",
+          type: "random",
+          table_id: 2210856162803377,
+        },
+      ],
+    },
+    {
+      id: "23F3F7700A5699AA",
+      x: 1.6,
+      y: 32.6,
+      dependencies: [
+        "5B65FE0D134B6833",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "76F026552E24DDB5",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:epsilon_shovel",
+          },
+        },
+        {
+          id: "4565810A69454110",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:epsilon_hoe",
+          },
+        },
+        {
+          id: "37687B0C33D53C50",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:epsilon_shears",
+          },
+        },
+        {
+          id: "299452860993C771",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:epsilon_wrench",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "09A93756CF5D7E69",
+          type: "xp",
+          xp: 150,
+        },
+      ],
+    },
+    {
+      id: "183DE3CD87E34A02",
+      x: 1.6,
+      y: 34.1,
+      dependencies: [
+        "5B65FE0D134B6833",
+        "6834FED41A7E2515",
+      ],
+      tasks: [
+        {
+          id: "71F9C183EF616BEB",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:wonderland_head",
+          },
+        },
+        {
+          id: "731C59D5C6791933",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:wonderland_body",
+          },
+        },
+        {
+          id: "28A0938DD0A75F98",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:wonderland_legs",
+          },
+        },
+        {
+          id: "42C07D900DE72BF0",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:wonderland_feet",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "09602C7ED21EC774",
+          type: "xp",
+          xp: 400,
+        },
+        {
+          id: "67A7557FFCEF4744",
+          type: "random",
+          table_id: 379532711335085,
+        },
+      ],
+    },
+    {
+      id: "718CDB14F9ABA6F1",
+      x: 0.0,
+      y: 34.1,
+      dependencies: [
+        "646812DFC816876D",
+      ],
+      tasks: [
+        {
+          id: "35F7D43379547BD1",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:arc_turret",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6395B5653ABA3014",
+          type: "xp",
+          xp: 200,
+        },
+        {
+          id: "0E81800FCCEB672F",
+          type: "random",
+          table_id: 253752461985528,
+        },
+      ],
+    },
+    {
+      id: "6F7B8FCA96E1C2DE",
+      x: 1.6,
+      y: 35.6,
+      dependencies: [
+        "718CDB14F9ABA6F1",
+        "6834FED41A7E2515",
+      ],
+      tasks: [
+        {
+          id: "26F3E145ACC6AC54",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:railgun_turret",
+          },
+        },
+        {
+          id: "75A5DC1AA3C144D9",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:rocket_turret",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6ECD6F75C1EC48F2",
+          type: "xp",
+          xp: 300,
+        },
+        {
+          id: "4A96803AEADF3DB5",
+          type: "random",
+          table_id: 2210856162803377,
+        },
+      ],
+    },
+    {
+      id: "5FF25406AF687ECB",
+      x: 1.6,
+      y: 31.1,
+      dependencies: [
+        "5B65FE0D134B6833",
+      ],
+      tasks: [
+        {
+          id: "45576D48BC814A77",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:repair_station",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "19CE8B047765A77B",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      id: "16F5EA3A166A3C3F",
+      x: 1.6,
+      y: 37.1,
+      dependencies: [
+        "30B8BF743D17D20E",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "755B4CE6E76B084A",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:ltx_lime_neon_light",
+          },
+          count: 8,
+        },
+        {
+          id: "5E0F6D5A11D92C41",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:energy_blue_neon_light",
+          },
+          count: 8,
+        },
+      ],
+      rewards: [
+        {
+          id: "652ABBDADBBEF216",
+          type: "xp",
+          xp: 25,
+        },
+      ],
+    },
+    {
+      id: "4D17ACC3890CBD04",
+      x: 3.2,
+      y: 37.1,
+      dependencies: [
+        "6193CFC2A93CD732",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "0E24AB39F670F816",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:hanabi",
+          },
+        },
+        {
+          id: "438A541FA7B64FF9",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:aurora",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "441010AE2A30D2EF",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      id: "74EC792AA4E74641",
+      x: 4.8,
+      y: 37.1,
+      dependencies: [
+        "6834FED41A7E2515",
+      ],
+      tasks: [
+        {
+          id: "72A994E892CD3AE6",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:infinite_water_tank",
+          },
+        },
+        {
+          id: "0D8411CFBD4CC800",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:infinite_lava_tank",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "22B9E38D6E8A6939",
+          type: "xp",
+          xp: 200,
+        },
+        {
+          id: "3718A727F8B3C062",
+          type: "random",
+          table_id: 2210856162803377,
+        },
+      ],
+    },
+    {
+      id: "451875488A68AA62",
+      x: 3.2,
+      y: 34.1,
+      shape: "gear",
+      size: 2.0,
+      dependencies: [
+        "48BD332B7A82BE19",
+        "183DE3CD87E34A02",
+        "31CD8AF3DC1AB915",
+      ],
+      tasks: [
+        {
+          id: "679E74873E0AC921",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ltxi:infinite_energy_cell_array",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "25F8AF1F47B13FBD",
+          type: "xp_levels",
+          xp_levels: 30,
+        },
+        {
+          id: "38B0CC8631C5FD57",
+          type: "random",
+          table_id: 379532711335085,
+        },
+      ],
+    },
+  ],
+  quest_links: [ ],
+  images: [
+    {
+      x: 5.4,
+      y: -1.5188,
+      width: 12.0,
+      height: 1.4375,
+      rotation: 0.0,
+      image: "gspack:textures/quests/ltx_header.png",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false,
+    },
+    {
+      x: 1.2,
+      y: 29.9,
+      width: 3.6,
+      height: 0.6,
+      rotation: 0.0,
+      image: "gspack:textures/quests/ltx_upgrades.png",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false,
+    },
+    {
+      x: 1.2,
+      y: 0.0,
+      width: 3.6,
+      height: 0.6,
+      rotation: 0.0,
+      image: "gspack:textures/quests/ltx_tablet.png",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false,
+    },
+    {
+      x: 0.6882,
+      y: 11.2,
+      width: 2.5765,
+      height: 0.6,
+      rotation: 0.0,
+      image: "gspack:textures/quests/ltx_mixer.png",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false,
+    },
+    {
+      x: 1.1471,
+      y: 5.6,
+      width: 3.4941,
+      height: 0.6,
+      rotation: 0.0,
+      image: "gspack:textures/quests/ltx_grinder.png",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false,
+    },
+    {
+      x: 1.7824,
+      y: 19.8,
+      width: 4.7647,
+      height: 0.6,
+      rotation: 0.0,
+      image: "gspack:textures/quests/ltx_press.png",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false,
+    },
+  ],
+}

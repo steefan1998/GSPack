@@ -1,0 +1,194 @@
+{
+  "chapter.031F584310838E55.chapter_subtitle": [
+    "Melt metals, cast parts and build tools that grow with you.",
+  ],
+  "chapter.031F584310838E55.title": "Tinkers' Construct",
+  "quest.00732211D4826FB7.quest_desc": [
+    "Make tool parts from wood, stone, flint, bone and other simple materials.",
+  ],
+  "quest.00732211D4826FB7.title": "Part Builder",
+  "quest.017A95EACDF1782B.quest_desc": [
+    "&bTinkers' Construct&r (here as &bContinuum Construct&r) lets you build tools from parts. Every material gives different stats and &etraits&r.",
+    "",
+    "The guide books explain everything:",
+    "- &eMaterials and You&r: tools and materials.",
+    "- &ePuny Smelting&r: the Smeltery.",
+    "- &eMighty Smelting&r: alloys and advanced smelting.",
+    "- &eFantastic Foundry&r: the Foundry.",
+    "- &eTinkers' Gadgetry&r: gadgets and extras.",
+  ],
+  "quest.017A95EACDF1782B.quest_subtitle": "Tinkers' Construct (Continuum Construct)",
+  "quest.017A95EACDF1782B.title": "Materials and You",
+  "quest.02094C2282922098.quest_desc": [
+    "A heavy slimy metal.",
+  ],
+  "quest.02094C2282922098.title": "Knightslime",
+  "quest.026D679C5F4E006A.quest_desc": [
+    "Forged with the souls of the Nether.",
+  ],
+  "quest.026D679C5F4E006A.title": "Soulsteel",
+  "quest.0424A7B23649ED6E.quest_desc": [
+    "Build a Vein Hammer with Manyullyn parts. You have mastered Tinkers' Construct!",
+  ],
+  "quest.0424A7B23649ED6E.title": "Master Tinker",
+  "quest.06FC8C9E607DF3B5.quest_desc": [
+    "Slime boots let you bounce instead of taking fall damage.",
+  ],
+  "quest.06FC8C9E607DF3B5.title": "Slime Gear",
+  "quest.0905454AA1B5D214.quest_desc": [
+    "Slime geodes grow crystals used for modifiers.",
+  ],
+  "quest.0905454AA1B5D214.title": "Slime Crystals",
+  "quest.0DBE2018B2772C71.quest_desc": [
+    "Nether grout and scorched bricks come from the Nether.",
+  ],
+  "quest.0DBE2018B2772C71.title": "Into the Nether",
+  "quest.1493C91E0D023665.quest_desc": [
+    "The upgraded Tinker Station. It has more slots and is needed for some modifiers.",
+  ],
+  "quest.1493C91E0D023665.title": "Tinker's Anvil",
+  "quest.17F980724602C603.quest_desc": [
+    "Reinforcements make your tools much more durable.",
+  ],
+  "quest.17F980724602C603.title": "Reinforcements",
+  "quest.184A4D69A4E57434.quest_desc": [
+    "Blank patterns are made from planks and sticks. The Part Builder uses them to make tool parts.",
+  ],
+  "quest.184A4D69A4E57434.title": "Patterns",
+  "quest.192B269B3D5C45EE.quest_desc": [
+    "Put parts together into tools here, and add modifiers.",
+  ],
+  "quest.192B269B3D5C45EE.title": "Tinker Station",
+  "quest.1AFC7DD9BCDF5AF3.quest_desc": [
+    "Collect all the guide books.",
+  ],
+  "quest.1AFC7DD9BCDF5AF3.title": "The Library",
+  "quest.1CA30EA3B7821320.quest_desc": [
+    "The building blocks of the Smeltery.",
+  ],
+  "quest.1CA30EA3B7821320.title": "Seared Bricks",
+  "quest.1E59D7D2D51476B9.quest_desc": [
+    "Build a hollow box of seared bricks with a floor, put the &eSmeltery Controller&r in a wall, and add a &eDrain&r and a &eFuel Tank&r filled with lava.",
+    "",
+    "The Smeltery melts many items at once, doubles ore output, and makes &ealloys&r automatically.",
+  ],
+  "quest.1E59D7D2D51476B9.title": "The Smeltery",
+  "quest.1EBD8DF876FCD3FF.quest_desc": [
+    "Repair tools with a repair kit of their material.",
+  ],
+  "quest.1EBD8DF876FCD3FF.title": "Repair Kit",
+  "quest.227160423E833F96.quest_desc": [
+    "Sand, gravel and clay. Smelt it into &eSeared Bricks&r.",
+  ],
+  "quest.227160423E833F96.title": "Grout",
+  "quest.2A2EB1BD71730A85.quest_desc": [
+    "Build a pickaxe from parts. Try different heads, handles and bindings to see how the stats change.",
+  ],
+  "quest.2A2EB1BD71730A85.title": "First Tinker Tool",
+  "quest.2B26CEAF2126CC4F.quest_desc": [
+    "Tinkers bows use limbs, grips and bowstrings. Arrows are built from parts too.",
+  ],
+  "quest.2B26CEAF2126CC4F.title": "Bows",
+  "quest.3161C829EE35DE67.quest_desc": [
+    "Staffs cast slime magic.",
+  ],
+  "quest.3161C829EE35DE67.title": "Slime Staffs",
+  "quest.34361E5A22B99EDF.quest_desc": [
+    "Cast a tool part in gold to make a reusable cast for it. Sand casts are cheap, single-use casts.",
+  ],
+  "quest.34361E5A22B99EDF.title": "Casts",
+  "quest.35613EB71F2B8A8B.quest_desc": [
+    "Light leather armor with more modifier slots.",
+  ],
+  "quest.35613EB71F2B8A8B.title": "Traveler's Gear",
+  "quest.4100A5B28A698C09.quest_desc": [
+    "Stores a modifier so you can move it to another tool.",
+  ],
+  "quest.4100A5B28A698C09.title": "Modifier Crystal",
+  "quest.488AA0AC0FDEC824.quest_desc": [
+    "Copper + amethyst.",
+  ],
+  "quest.488AA0AC0FDEC824.title": "Amethyst Bronze",
+  "quest.4E2B1DF5E928B05E.quest_desc": [
+    "A crafting table that remembers its contents and connects to nearby chests.",
+  ],
+  "quest.4E2B1DF5E928B05E.title": "Crafting Station",
+  "quest.4F90010E4665AC6E.quest_desc": [
+    "Iron, sky slime and seared stone alloyed in the Smeltery. Very durable.",
+  ],
+  "quest.4F90010E4665AC6E.title": "Slimesteel",
+  "quest.4FC3B0F3784C24EA.quest_desc": [
+    "Slime islands float in the sky, in the ocean, in the Nether and in the End. They have their own slime, trees and congealed slime.",
+    "",
+    "Check the &eDungeons \\& Structures&r chapter to find them all.",
+  ],
+  "quest.4FC3B0F3784C24EA.title": "Slime Islands",
+  "quest.54366F7975C203CD.quest_desc": [
+    "Gauges show the contents, chutes and ducts automate input and output.",
+  ],
+  "quest.54366F7975C203CD.title": "Smeltery Upgrades",
+  "quest.5F5B1932A4DFD220.quest_desc": [
+    "Cobalt, gold and magma.",
+  ],
+  "quest.5F5B1932A4DFD220.title": "Queen's Slime",
+  "quest.61B8475FD4F52D5F.quest_desc": [
+    "Copper + gold. Gives tools the &eEnhanced&r trait (more modifier slots).",
+  ],
+  "quest.61B8475FD4F52D5F.title": "Rose Gold",
+  "quest.61DF41BB084F1CC2.quest_desc": [
+    "Cleavers behead, daggers are fast, and scythes sweep.",
+  ],
+  "quest.61DF41BB084F1CC2.title": "Weapons",
+  "quest.6325B504265227B7.quest_desc": [
+    "Cobalt + Ancient Debris. One of the strongest tool materials.",
+  ],
+  "quest.6325B504265227B7.title": "Manyullyn",
+  "quest.67EF4D51C952FE78.quest_desc": [
+    "Copper, cobalt and quartz.",
+  ],
+  "quest.67EF4D51C952FE78.title": "Hepatizon",
+  "quest.6B3E005B0C35F78E.quest_desc": [
+    "Modular armor made of metal plating and maille.",
+  ],
+  "quest.6B3E005B0C35F78E.title": "Plate Armor",
+  "quest.708FA1BD302D4CC6.quest_desc": [
+    "Pour molten metal from a faucet into a &eCasting Table&r (with a cast) or a &eCasting Basin&r (for blocks).",
+    "",
+    "Right-click the faucet to start pouring.",
+  ],
+  "quest.708FA1BD302D4CC6.title": "Casting",
+  "quest.709A2203ABF32C66.quest_desc": [
+    "Modifiers add abilities to your tools: redstone for speed, lapis for luck, quartz for sharpness and many more.",
+    "",
+    "Tools gain extra modifier slots as you level them up by using them.",
+  ],
+  "quest.709A2203ABF32C66.title": "Modifiers",
+  "quest.71D7A17F40C06DE9.quest_desc": [
+    "A small melter for early game. It melts ores and metals into molten metal. Put it on a heater (or lava tank).",
+  ],
+  "quest.71D7A17F40C06DE9.title": "Seared Melter",
+  "quest.75660C97E9A05337.quest_desc": [
+    "Iron, blood and clay. Tools made of it are... tasty.",
+  ],
+  "quest.75660C97E9A05337.title": "Pig Iron",
+  "quest.7AD7DEDE561056D1.quest_desc": [
+    "Big tools mine a 3x3 area (or whole trees). They need tough handles and large plates.",
+  ],
+  "quest.7AD7DEDE561056D1.title": "Heavy Tools",
+  "quest.7CB0CF18DA267CF4.quest_desc": [
+    "The Nether version of the Smeltery. It gives byproducts when melting ores, and works with scorched bricks.",
+  ],
+  "quest.7CB0CF18DA267CF4.title": "The Foundry",
+  "quest.7E43D015863594FB.quest_desc": [
+    "A small machine for making alloys without a full Smeltery.",
+  ],
+  "quest.7E43D015863594FB.title": "Alloyer",
+  "quest.7E8AE69DF83E0AED.quest_desc": [
+    "Found in the Nether. Cobalt tools are very fast.",
+  ],
+  "quest.7E8AE69DF83E0AED.title": "Cobalt",
+  "quest.7F2B9DACFB045F12.quest_desc": [
+    "A full set of Tinkers tools. Metal parts from the Smeltery make them much stronger.",
+  ],
+  "quest.7F2B9DACFB045F12.title": "The Toolkit",
+}

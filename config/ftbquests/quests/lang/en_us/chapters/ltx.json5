@@ -1,0 +1,220 @@
+{
+  "chapter.77C54AC639C2D7B1.chapter_subtitle": [
+    "Chemistry, ore processing, fabrication, turrets and Epsilon gear.",
+  ],
+  "chapter.77C54AC639C2D7B1.title": "LTX Industries",
+  "quest.0167BBB6C6D1ABB7.quest_desc": [
+    "More capacity.",
+  ],
+  "quest.0167BBB6C6D1ABB7.title": "Bigger Cells",
+  "quest.05789FEC1199B3B1.quest_desc": [
+    "Crystallised ore gives even more.",
+  ],
+  "quest.05789FEC1199B3B1.title": "Ore Crystals",
+  "quest.07C38C2EF0A27270.quest_desc": [
+    "Plastics used in circuits and advanced parts.",
+  ],
+  "quest.07C38C2EF0A27270.title": "Polymers",
+  "quest.0E8020C2548CEB9C.quest_desc": [
+    "The first tier of LTX circuits.",
+  ],
+  "quest.0E8020C2548CEB9C.title": "T1 Circuit",
+  "quest.13D1F51E84263D19.quest_desc": [
+    "Dissolve ore in acid for the highest yield of all.",
+  ],
+  "quest.13D1F51E84263D19.title": "Ore Solutions",
+  "quest.165A80F1200A9BEF.quest_desc": [
+    "Synthesises minerals.",
+  ],
+  "quest.165A80F1200A9BEF.title": "Geo Synthesizer",
+  "quest.16F5EA3A166A3C3F.quest_desc": [
+    "Colourful neon lights for your base.",
+  ],
+  "quest.16F5EA3A166A3C3F.title": "Neon Lights",
+  "quest.183DE3CD87E34A02.quest_desc": [
+    "The armor of LTX Industries. Add modules for even more power.",
+  ],
+  "quest.183DE3CD87E34A02.title": "Wonderland Armor",
+  "quest.1F0621F63C40F35D.quest_desc": [
+    "Generators and solar panels power your machines.",
+  ],
+  "quest.1F0621F63C40F35D.title": "Power",
+  "quest.1F39FFC8BBA48611.quest_desc": [
+    "An extremely tough alloy for the best gear.",
+  ],
+  "quest.1F39FFC8BBA48611.title": "Tungsten Slatesteel",
+  "quest.208518E2E7054F70.quest_desc": [
+    "Processing cores for advanced machines.",
+  ],
+  "quest.208518E2E7054F70.title": "Logic Cores",
+  "quest.233C7A581A000D2C.quest_desc": [
+    "&bLTX Industries&r is a tech mod with chemistry, a deep ore processing chain, a fabrication system, defensive turrets and powerful Epsilon tools.",
+    "",
+    "The &eGuide Tablet&r is the in-game manual. Read it whenever you are unsure how a machine works. Check JEI for every recipe.",
+  ],
+  "quest.233C7A581A000D2C.quest_subtitle": "LTX Industries",
+  "quest.233C7A581A000D2C.title": "Guide Tablet",
+  "quest.23F3F7700A5699AA.quest_desc": [
+    "Complete your Epsilon set.",
+  ],
+  "quest.23F3F7700A5699AA.title": "Epsilon Toolkit",
+  "quest.26CC457758DA9ECA.quest_desc": [
+    "A tough deepslate-based steel. Used for machine housings and gears.",
+  ],
+  "quest.26CC457758DA9ECA.title": "Slatesteel",
+  "quest.2A13D18599BF7810.quest_desc": [
+    "Mixes items and fluids into new materials.",
+  ],
+  "quest.2A13D18599BF7810.title": "Mixer",
+  "quest.2D202ABF0A8EC15B.quest_desc": [
+    "A rare metal made through a long chemical chain. Check JEI.",
+  ],
+  "quest.2D202ABF0A8EC15B.title": "Rhenium",
+  "quest.2E77A4DE528C6DE4.quest_desc": [
+    "LTX adds titanium, niobium and silver ores. Smelt the raw ores for your first ingots.",
+  ],
+  "quest.2E77A4DE528C6DE4.title": "New Metals",
+  "quest.30B8BF743D17D20E.quest_desc": [
+    "The frame of every LTX machine.",
+  ],
+  "quest.30B8BF743D17D20E.title": "Machine Housing",
+  "quest.31CD8AF3DC1AB915.quest_desc": [
+    "Automatic fabrication.",
+  ],
+  "quest.31CD8AF3DC1AB915.title": "Auto Fabricator",
+  "quest.32EB4580D6069F86.quest_desc": [
+    "The next processing step.",
+  ],
+  "quest.32EB4580D6069F86.title": "Ore Chunks",
+  "quest.37CD732FA219F841.quest_desc": [
+    "Olivine, fluorite and other minerals from processing.",
+  ],
+  "quest.37CD732FA219F841.title": "Rare Materials",
+  "quest.38489B5605E20823.quest_desc": [
+    "The base for every circuit.",
+  ],
+  "quest.38489B5605E20823.title": "Circuit Boards",
+  "quest.3887CAB2977A9C71.quest_desc": [
+    "Presses ingots into plates.",
+  ],
+  "quest.3887CAB2977A9C71.title": "Material Press",
+  "quest.39D0138A19A89249.quest_desc": [
+    "Powered versions of the furnace, blast furnace and smoker.",
+  ],
+  "quest.39D0138A19A89249.title": "Digital Furnaces",
+  "quest.3B93A44AA860EF84.quest_desc": [
+    "The &eFabricator&r builds complex items from a &eFabrication Blueprint&r. Record a recipe onto a blueprint, then the fabricator crafts it with power.",
+    "",
+    "The &eAuto Fabricator&r does it automatically.",
+  ],
+  "quest.3B93A44AA860EF84.title": "Fabricator",
+  "quest.4481CA4C3FDB83B0.quest_desc": [
+    "Wash crushed ore for more output. The Hydrosieve works with water.",
+  ],
+  "quest.4481CA4C3FDB83B0.title": "Washed Ore",
+  "quest.451875488A68AA62.quest_desc": [
+    "An Infinite Energy Cell Array. You have mastered LTX Industries!",
+  ],
+  "quest.451875488A68AA62.title": "LTX Engineer",
+  "quest.488B511AE983FCE3.quest_desc": [
+    "Silicon for circuit boards.",
+  ],
+  "quest.488B511AE983FCE3.title": "Silicon",
+  "quest.48BD332B7A82BE19.quest_desc": [
+    "The best circuits.",
+  ],
+  "quest.48BD332B7A82BE19.title": "T5 Circuit",
+  "quest.4936F94F9423537B.quest_desc": [
+    "Separates mixtures into their parts.",
+  ],
+  "quest.4936F94F9423537B.title": "Electrocentrifuge",
+  "quest.4D17ACC3890CBD04.quest_desc": [
+    "Special chemicals for spectacular effects.",
+  ],
+  "quest.4D17ACC3890CBD04.title": "Light Show",
+  "quest.51C7B2976AB6987B.quest_desc": [
+    "Strong acids for ore solutions and chemistry.",
+  ],
+  "quest.51C7B2976AB6987B.title": "Acids",
+  "quest.53B0EA8BC4387713.quest_desc": [
+    "LTX has a deep ore processing chain. Each step gives more output:",
+    "1. &eGrinder&r: ore -> crushed ore.",
+    "2. Washing: crushed ore -> washed ore.",
+    "3. Chunks, crystals and solutions for the highest yields.",
+    "",
+    "Check the Guide Tablet and JEI for which machine handles each step.",
+  ],
+  "quest.53B0EA8BC4387713.title": "Grinder",
+  "quest.590B8E305DFE9522.quest_desc": [
+    "Copy input/output settings from one machine to another.",
+  ],
+  "quest.590B8E305DFE9522.title": "IO Config Cards",
+  "quest.59C44B4096072DB1.quest_desc": [
+    "Assembles tech parts from components.",
+  ],
+  "quest.59C44B4096072DB1.title": "Assembler",
+  "quest.5B65FE0D134B6833.quest_desc": [
+    "Powered high-tech tools. Upgrade them with modules.",
+  ],
+  "quest.5B65FE0D134B6833.title": "Epsilon Tools",
+  "quest.5FF25406AF687ECB.quest_desc": [
+    "Repairs your gear.",
+  ],
+  "quest.5FF25406AF687ECB.title": "Repair Station",
+  "quest.6193CFC2A93CD732.quest_desc": [
+    "Makes acids, gases and chemicals: sulfuric acid, hydrochloric acid, hydrofluoric acid and more.",
+  ],
+  "quest.6193CFC2A93CD732.title": "Chem Lab",
+  "quest.646812DFC816876D.quest_desc": [
+    "Parts for turrets, tools and armor.",
+  ],
+  "quest.646812DFC816876D.title": "Tech Parts",
+  "quest.6482B5B8645307BB.quest_desc": [
+    "Voltaic cells are batteries. Energy Cell Arrays store power for your base.",
+  ],
+  "quest.6482B5B8645307BB.title": "Energy Storage",
+  "quest.6834FED41A7E2515.quest_desc": [
+    "Tier 4.",
+  ],
+  "quest.6834FED41A7E2515.title": "T4 Circuit",
+  "quest.68503723EA0094CF.quest_desc": [
+    "A powerful furnace for the toughest materials.",
+  ],
+  "quest.68503723EA0094CF.title": "Arc Furnace",
+  "quest.6917148A17CD33CE.quest_desc": [
+    "Pulls gases like nitrogen, oxygen and argon from the air.",
+  ],
+  "quest.6917148A17CD33CE.title": "Atmospheric Scrubber",
+  "quest.6F7B8FCA96E1C2DE.quest_desc": [
+    "Railgun and rocket turrets for serious threats.",
+  ],
+  "quest.6F7B8FCA96E1C2DE.title": "Heavy Defense",
+  "quest.718CDB14F9ABA6F1.quest_desc": [
+    "Defend your base! The Arc Turret zaps nearby monsters.",
+  ],
+  "quest.718CDB14F9ABA6F1.title": "Turrets",
+  "quest.74EC792AA4E74641.quest_desc": [
+    "Never run out of water or lava.",
+  ],
+  "quest.74EC792AA4E74641.title": "Infinite Tanks",
+  "quest.751E218CC4922048.quest_desc": [
+    "Tier 3.",
+  ],
+  "quest.751E218CC4922048.title": "T3 Circuit",
+  "quest.76F00C8C4F962DB5.quest_desc": [
+    "Install upgrade modules into machines and gear at the &eUpgrade Station&r.",
+  ],
+  "quest.76F00C8C4F962DB5.title": "Upgrade Modules",
+  "quest.7A3BB30BFE654741.quest_desc": [
+    "Tier 2.",
+  ],
+  "quest.7A3BB30BFE654741.title": "T2 Circuit",
+  "quest.7A4CE0B5C0D8098F.quest_desc": [
+    "Grows plants indoors with power.",
+  ],
+  "quest.7A4CE0B5C0D8098F.title": "Digital Garden",
+  "quest.7DEAA0826DC38524.quest_desc": [
+    "Infuses items with energy.",
+  ],
+  "quest.7DEAA0826DC38524.title": "Voltaic Injector",
+}
