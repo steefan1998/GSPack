@@ -1,0 +1,93 @@
+# Tracks mod changes between GSPack versions.
+# Each run snapshots every mod (id, name, version, file) into modlists/<version>.json, compares it with the
+# previous snapshot, and adds a section to MOD-CHANGELOG.md listing added, removed and updated mods.
+# Usage:  powershell -ExecutionPolicy Bypass -File tools\track-mods.ps1 -Version 0.2 [-Instance <path>]
+param(
+    [Parameter(Mandatory = $true)][string]$Version,
+    [string]$Instance = 'D:\MinecraftModpacks\Instances\GSPack'
+)
+
+$ErrorActionPreference = 'Stop'
+$Root = Split-Path $PSScriptRoot -Parent
+$ListDir = Join-Path $Root 'modlists'
+$Changelog = Join-Path $Root 'MOD-CHANGELOG.md'
+$Utf8 = New-Object System.Text.UTF8Encoding($false)
+Add-Type -AssemblyName System.IO.Compression.FileSystem
+New-Item -ItemType Directory -Force $ListDir | Out-Null
+
+# ---------- snapshot ----------
+$mods = foreach ($jar in Get-ChildItem "$Instance\mods" -Filter *.jar | Sort-Object Name) {
+    $id = $null; $name = $null; $ver = $null
+    $zip = [System.IO.Compression.ZipFile]::OpenRead($jar.FullName)
+    try {
+        $e = $zip.GetEntry('META-INF/neoforge.mods.toml')
+        if ($e) {
+            $sr = New-Object System.IO.StreamReader($e.Open()); $toml = $sr.ReadToEnd(); $sr.Close()
+            # Only the first [[mods]] block describes the jar itself (later modId lines belong to dependencies).
+            $block = ($toml -split '\[\[dependencies')[0]
+            if ($block -match '(?m)^\s*modId\s*=\s*"([^"]+)"') { $id = $Matches[1] }
+            if ($block -match '(?m)^\s*displayName\s*=\s*"([^"]+)"') { $name = $Matches[1] }
+            if ($block -match '(?m)^\s*version\s*=\s*"([^"$]+)"') { $ver = $Matches[1] }
+        }
+        # Versions set to ${file.jarVersion} come from the jar manifest.
+        if (-not $ver) {
+            $m = $zip.GetEntry('META-INF/MANIFEST.MF')
+            if ($m) {
+                $sr = New-Object System.IO.StreamReader($m.Open()); $mf = $sr.ReadToEnd(); $sr.Close()
+                if ($mf -match '(?m)^Implementation-Version:\s*(\S+)') { $ver = $Matches[1] }
+            }
+        }
+    } finally { $zip.Dispose() }
+    [ordered]@{
+        id      = $(if ($id) { $id } else { 'file:' + $jar.BaseName })
+        name    = $(if ($name) { $name } else { $jar.BaseName })
+        version = $(if ($ver) { $ver } else { '' })
+        file    = $jar.Name
+    }
+}
+$snapFile = Join-Path $ListDir "$Version.json"
+[IO.File]::WriteAllText($snapFile, ((@($mods) | ConvertTo-Json -Depth 3) + "`n"), $Utf8)
+
+# ---------- diff with the previous snapshot ----------
+function Version-Key([string]$v) { (($v -replace '\.json$', '') -split '[.\-]' | ForEach-Object { if ($_ -match '^\d+$') { '{0:D6}' -f [int]$_ } else { $_ } }) -join '.' }
+$previous = Get-ChildItem $ListDir -Filter *.json | Where-Object { $_.BaseName -ne $Version } |
+    Where-Object { (Version-Key $_.BaseName) -lt (Version-Key $Version) } |
+    Sort-Object { Version-Key $_.BaseName } | Select-Object -Last 1
+
+$lines = New-Object System.Collections.Generic.List[string]
+$date = Get-Date -Format 'yyyy-MM-dd'
+if (-not $previous) {
+    $lines.Add("## $Version ($date): baseline")
+    $lines.Add('')
+    $lines.Add("First tracked version: **$(@($mods).Count) mods**. The full list is in ``modlists/$Version.json`` and [MODS.md](MODS.md).")
+} else {
+    $old = @{}; foreach ($m in (Get-Content -Raw $previous.FullName | ConvertFrom-Json)) { $old[$m.id] = $m }
+    $new = @{}; foreach ($m in $mods) { $new[$m.id] = $m }
+    $added = @($mods | Where-Object { -not $old.ContainsKey($_.id) })
+    $removed = @($old.Values | Where-Object { -not $new.ContainsKey($_.id) } | Sort-Object name)
+    $updated = @($mods | Where-Object { $old.ContainsKey($_.id) -and ($old[$_.id].version -ne $_.version -or $old[$_.id].file -ne $_.file) })
+
+    $lines.Add("## $Version ($date)")
+    $lines.Add('')
+    $lines.Add("Compared with $($previous.BaseName): $($added.Count) added, $($removed.Count) removed, $($updated.Count) updated. Total: $(@($mods).Count) mods.")
+    if ($added.Count) { $lines.Add(''); $lines.Add('### Added'); foreach ($m in $added) { $lines.Add("- **$($m.name)** $($m.version)") } }
+    if ($removed.Count) { $lines.Add(''); $lines.Add('### Removed'); foreach ($m in $removed) { $lines.Add("- **$($m.name)** $($m.version)") } }
+    if ($updated.Count) {
+        $lines.Add(''); $lines.Add('### Updated')
+        foreach ($m in $updated) {
+            $o = $old[$m.id]
+            $from = if ($o.version -and $o.version -ne $m.version) { $o.version } else { $o.file }
+            $to = if ($o.version -and $o.version -ne $m.version) { $m.version } else { $m.file }
+            $lines.Add("- **$($m.name)**: $from -> $to")
+        }
+    }
+    if (-not ($added.Count + $removed.Count + $updated.Count)) { $lines.Add(''); $lines.Add('No mod changes.') }
+}
+
+# Newest section on top; replace an existing section for the same version.
+$header = "# GSPack mod changelog`n`nGenerated by ``tools/track-mods.ps1``. Newest version first.`n"
+$body = if (Test-Path $Changelog) { ([IO.File]::ReadAllText($Changelog) -replace '(?s)^# GSPack mod changelog.*?\n(?=## |\z)', '') } else { '' }
+$body = [regex]::Replace($body, "(?s)## $([regex]::Escape($Version)) \(.*?(?=\n## |\z)", '').Trim()
+$text = $header + "`n" + ($lines -join "`n") + $(if ($body) { "`n`n" + $body } else { '' }) + "`n"
+[IO.File]::WriteAllText($Changelog, $text, $Utf8)
+$lines -join "`n"

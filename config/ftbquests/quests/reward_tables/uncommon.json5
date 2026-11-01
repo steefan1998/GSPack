@@ -1,84 +1,77 @@
 {
   id: "0000E6C9595B86F8",
-  filename: "uncommon",
   order_index: 1,
   loot_size: 1,
+  hide_tooltip: true,
+  use_title: true,
   rewards: [
     {
       id: "1F55EB81DAA5EBBB",
-      type: "item",
       item: {
-        count: 1,
         id: "minecraft:gold_ingot",
+        count: 1,
       },
       count: 8,
       weight: 20.0,
     },
     {
       id: "61BC72F67A5C17D9",
-      type: "item",
       item: {
-        count: 1,
         id: "minecraft:redstone",
+        count: 1,
       },
       count: 32,
       weight: 18.0,
     },
     {
       id: "28B8961E95D1E0F5",
-      type: "item",
       item: {
-        count: 1,
         id: "minecraft:lapis_lazuli",
+        count: 1,
       },
       count: 16,
       weight: 15.0,
     },
     {
       id: "3E18360601FC411C",
-      type: "item",
       item: {
-        count: 1,
         id: "minecraft:diamond",
+        count: 1,
       },
       weight: 10.0,
     },
     {
       id: "2E43914F08D7634E",
-      type: "item",
       item: {
-        count: 1,
         id: "minecraft:ender_pearl",
+        count: 1,
       },
       count: 4,
       weight: 10.0,
     },
     {
       id: "71AB914058F88277",
-      type: "item",
       item: {
-        count: 1,
         id: "minecraft:golden_carrot",
+        count: 1,
       },
       count: 8,
       weight: 10.0,
     },
     {
       id: "42BB8B7C36EB5227",
-      type: "item",
       item: {
-        count: 1,
         id: "mysticalagriculture:inferium_essence",
+        count: 1,
       },
       count: 32,
       weight: 10.0,
     },
     {
       id: "3F7B301D2CD55741",
-      type: "item",
       item: {
-        count: 1,
         id: "minecraft:experience_bottle",
+        count: 1,
       },
       count: 8,
       weight: 7.0,

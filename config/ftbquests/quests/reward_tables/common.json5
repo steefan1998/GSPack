@@ -1,83 +1,77 @@
 {
   id: "000F02953B69FE69",
-  filename: "common",
   order_index: 0,
   loot_size: 1,
+  hide_tooltip: true,
+  use_title: true,
   rewards: [
     {
       id: "7C57F65FB132EAF4",
-      type: "item",
       item: {
-        count: 1,
         id: "minecraft:iron_ingot",
+        count: 1,
       },
       count: 8,
       weight: 20.0,
     },
     {
       id: "032CE5DA4184B57D",
-      type: "item",
       item: {
-        count: 1,
         id: "minecraft:copper_ingot",
+        count: 1,
       },
       count: 16,
       weight: 15.0,
     },
     {
       id: "43C1F258AAA2ECE5",
-      type: "item",
       item: {
-        count: 1,
         id: "minecraft:coal",
+        count: 1,
       },
       count: 16,
       weight: 15.0,
     },
     {
       id: "769C85CE131016FD",
-      type: "item",
       item: {
-        count: 1,
         id: "minecraft:bread",
+        count: 1,
       },
       count: 8,
       weight: 15.0,
     },
     {
       id: "69FB2C1B9BA0045A",
-      type: "item",
       item: {
-        count: 1,
         id: "minecraft:torch",
+        count: 1,
       },
       count: 32,
       weight: 10.0,
     },
     {
       id: "4984D84E6D0D34CD",
-      type: "item",
       item: {
-        count: 1,
         id: "minecraft:arrow",
+        count: 1,
       },
       count: 16,
       weight: 8.0,
     },
     {
       id: "79D56B122EC409ED",
-      type: "item",
       item: {
-        count: 1,
         id: "minecraft:experience_bottle",
+        count: 1,
       },
       count: 4,
       weight: 10.0,
     },
     {
       id: "664D631A01D52665",
-      type: "xp",
       xp: 100,
+      type: "xp",
       weight: 7.0,
     },
   ],

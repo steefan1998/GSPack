@@ -1,83 +1,76 @@
 {
   id: "000887224FAE2F98",
-  filename: "atm",
   order_index: 10,
   loot_size: 1,
+  hide_tooltip: true,
+  use_title: true,
   rewards: [
     {
       id: "015537536A12264E",
-      type: "item",
       item: {
-        count: 1,
         id: "allthemodium:allthemodium_nugget",
+        count: 1,
       },
       count: 9,
       weight: 20.0,
     },
     {
       id: "62606E25CAA0E607",
-      type: "item",
       item: {
-        count: 1,
         id: "allthemodium:raw_allthemodium",
+        count: 1,
       },
       count: 2,
       weight: 12.0,
     },
     {
       id: "59AA6D8149FDD2C8",
-      type: "item",
       item: {
-        count: 1,
         id: "allthemodium:vibranium_nugget",
+        count: 1,
       },
       count: 9,
       weight: 12.0,
     },
     {
       id: "3CCF62CC6B9B206C",
-      type: "item",
       item: {
-        count: 1,
         id: "allthemodium:raw_vibranium",
+        count: 1,
       },
       weight: 6.0,
     },
     {
       id: "63625FD78D810D7D",
-      type: "item",
       item: {
-        count: 1,
         id: "allthemodium:unobtainium_nugget",
+        count: 1,
       },
       count: 4,
       weight: 6.0,
     },
     {
       id: "6D632D5A975207D1",
-      type: "item",
       item: {
-        count: 1,
         id: "allthemodium:allthemodium_apple",
+        count: 1,
       },
       weight: 8.0,
     },
     {
       id: "63B97371C890715F",
-      type: "item",
       item: {
-        count: 1,
         id: "allthemodium:allthemodium_carrot",
+        count: 1,
       },
       count: 2,
       weight: 8.0,
     },
     {
       id: "01B8AB9207A52C2B",
-      type: "item",
       item: {
-        count: 1,
         id: "minecraft:ancient_debris",
+        count: 1,
       },
       count: 2,
       weight: 10.0,

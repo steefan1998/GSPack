@@ -1,32 +1,32 @@
 {
   id: "488B1729DE986146",
   group: "11F64C4259C477EF",
-  order_index: 12,
-  filename: "aether",
+  order_index: 2,
   icon: {
-    count: 1,
     id: "aether_ii:ambrosium_shard",
+    count: 1,
   },
+  filename: "aether",
   default_quest_shape: "",
   default_hide_dependency_lines: true,
   quests: [
     {
-      id: "4EC198FA7D868FAB",
+      icon: {
+        id: "minecraft:glowstone",
+        count: 1,
+      },
       x: 0.0,
       y: 2.7,
       shape: "gear",
       size: 1.5,
-      icon: {
-        count: 1,
-        id: "minecraft:glowstone",
-      },
+      id: "4EC198FA7D868FAB",
       tasks: [
         {
           id: "1828BC0264CBD06C",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:aether_portal_frame",
+            count: 1,
           },
         },
         {
@@ -44,21 +44,23 @@
         {
           id: "55B0FA6E7D1C229E",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 3079252251675734,
         },
       ],
     },
     {
-      id: "4ED1ADB013E6B44F",
+      icon: {
+        id: "aether_ii:cold_aercloud",
+        count: 1,
+      },
       x: 1.6,
       y: 2.7,
-      icon: {
-        count: 1,
-        id: "aether_ii:cold_aercloud",
-      },
       dependencies: [
         "4EC198FA7D868FAB",
       ],
+      size: 1.0,
+      id: "4ED1ADB013E6B44F",
       tasks: [
         {
           id: "4FEE256F1496433A",
@@ -74,19 +76,20 @@
       ],
     },
     {
-      id: "61C03A450A93D3BE",
       x: 1.6,
       y: 4.2,
       dependencies: [
         "4EC198FA7D868FAB",
       ],
+      size: 1.0,
+      id: "61C03A450A93D3BE",
       tasks: [
         {
           id: "242F388789702691",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:skyroot_log",
+            count: 1,
           },
           count: 32,
         },
@@ -100,27 +103,28 @@
       ],
     },
     {
-      id: "7EC092D45D50BF38",
       x: 3.2,
       y: 4.2,
       dependencies: [
         "61C03A450A93D3BE",
       ],
+      size: 1.0,
+      id: "7EC092D45D50BF38",
       tasks: [
         {
           id: "58C0C7C91B728EFB",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:skyroot_pickaxe",
+            count: 1,
           },
         },
         {
           id: "49BF447FA7FF20F1",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:skyroot_axe",
+            count: 1,
           },
         },
       ],
@@ -133,20 +137,21 @@
       ],
     },
     {
-      id: "76521916A27FFBB2",
       x: 3.2,
       y: 5.7,
       dependencies: [
         "61C03A450A93D3BE",
       ],
+      size: 1.0,
       optional: true,
+      id: "76521916A27FFBB2",
       tasks: [
         {
           id: "391303E5E4DBB484",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:skyroot_bucket",
+            count: 1,
           },
         },
       ],
@@ -159,19 +164,20 @@
       ],
     },
     {
-      id: "4F9DC173E5D3A968",
       x: 4.8,
       y: 4.2,
       dependencies: [
         "7EC092D45D50BF38",
       ],
+      size: 1.0,
+      id: "4F9DC173E5D3A968",
       tasks: [
         {
           id: "70979670E2BA2389",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:holystone",
+            count: 1,
           },
           count: 32,
         },
@@ -185,35 +191,36 @@
       ],
     },
     {
-      id: "1DAD469FDE3B0B4D",
       x: 6.4,
       y: 4.2,
       dependencies: [
         "4F9DC173E5D3A968",
       ],
+      size: 1.0,
+      id: "1DAD469FDE3B0B4D",
       tasks: [
         {
           id: "062779198AF9C9A6",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:holystone_pickaxe",
+            count: 1,
           },
         },
         {
           id: "1E56C1C366298ACA",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:holystone_shortsword",
+            count: 1,
           },
         },
         {
           id: "31FB5AA88EF07222",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:holystone_furnace",
+            count: 1,
           },
         },
       ],
@@ -226,20 +233,21 @@
       ],
     },
     {
-      id: "48C52E92081D07B2",
       x: 1.6,
       y: 1.2,
       dependencies: [
         "4EC198FA7D868FAB",
       ],
+      size: 1.0,
       optional: true,
+      id: "48C52E92081D07B2",
       tasks: [
         {
           id: "241454AD9119E968",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:quicksoil",
+            count: 1,
           },
           count: 16,
         },
@@ -253,19 +261,20 @@
       ],
     },
     {
-      id: "476AF39EA0F8E76A",
       x: 6.4,
       y: 5.7,
       dependencies: [
         "4F9DC173E5D3A968",
       ],
+      size: 1.0,
+      id: "476AF39EA0F8E76A",
       tasks: [
         {
           id: "650C36FFCBAF8129",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:ambrosium_shard",
+            count: 1,
           },
           count: 16,
         },
@@ -273,8 +282,8 @@
           id: "300C546672520476",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:ambrosium_torch",
+            count: 1,
           },
           count: 16,
         },
@@ -288,20 +297,21 @@
       ],
     },
     {
-      id: "55CA348FC55CF671",
       x: 3.2,
       y: 2.7,
       dependencies: [
         "61C03A450A93D3BE",
       ],
+      size: 1.0,
       optional: true,
+      id: "55CA348FC55CF671",
       tasks: [
         {
           id: "4D3394B0FFC64D91",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:artisans_bench",
+            count: 1,
           },
         },
       ],
@@ -314,19 +324,20 @@
       ],
     },
     {
-      id: "2C620CD9B6F9C10D",
       x: 0.0,
       y: 9.8,
       dependencies: [
         "1DAD469FDE3B0B4D",
       ],
+      size: 1.0,
+      id: "2C620CD9B6F9C10D",
       tasks: [
         {
           id: "0A599D24FBE4F1E9",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:zanite_gemstone",
+            count: 1,
           },
           count: 16,
         },
@@ -340,40 +351,42 @@
         {
           id: "09C14357347E76D0",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 3079252251675734,
         },
       ],
     },
     {
-      id: "121A8CD4C11E9B78",
       x: 1.6,
       y: 9.8,
       dependencies: [
         "2C620CD9B6F9C10D",
       ],
+      size: 1.0,
+      id: "121A8CD4C11E9B78",
       tasks: [
         {
           id: "2CE5175E9C2D8E91",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:zanite_pickaxe",
+            count: 1,
           },
         },
         {
           id: "7ADA1958EC9685D0",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:zanite_shortsword",
+            count: 1,
           },
         },
         {
           id: "0BFF2A80F38D562E",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:zanite_axe",
+            count: 1,
           },
         },
       ],
@@ -386,51 +399,52 @@
       ],
     },
     {
-      id: "29EA42C1E2A80184",
       x: 1.6,
       y: 11.3,
       dependencies: [
         "2C620CD9B6F9C10D",
       ],
+      size: 1.0,
+      id: "29EA42C1E2A80184",
       tasks: [
         {
           id: "478B28A240BFE58F",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:zanite_helmet",
+            count: 1,
           },
         },
         {
           id: "01809355A6D2F674",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:zanite_chestplate",
+            count: 1,
           },
         },
         {
           id: "439EABDF4200E17F",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:zanite_leggings",
+            count: 1,
           },
         },
         {
           id: "44C51CD6A07B62CA",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:zanite_boots",
+            count: 1,
           },
         },
         {
           id: "00D11811CEDE1973",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:zanite_gloves",
+            count: 1,
           },
         },
       ],
@@ -443,33 +457,35 @@
         {
           id: "1564C3220F101F5D",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 253752461985528,
         },
       ],
     },
     {
-      id: "6B468943E9F3BDD1",
       x: 3.2,
       y: 11.3,
       dependencies: [
         "29EA42C1E2A80184",
       ],
+      size: 1.0,
       optional: true,
+      id: "6B468943E9F3BDD1",
       tasks: [
         {
           id: "7F12AE625266EB23",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:zanite_shield",
+            count: 1,
           },
         },
         {
           id: "5F2BD21B543AC715",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:zanite_pendant",
+            count: 1,
           },
         },
       ],
@@ -482,19 +498,20 @@
       ],
     },
     {
-      id: "483E6C98A196C51E",
       x: 3.2,
       y: 9.8,
       dependencies: [
         "121A8CD4C11E9B78",
       ],
+      size: 1.0,
+      id: "483E6C98A196C51E",
       tasks: [
         {
           id: "303EF3201014DCB9",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:undershale",
+            count: 1,
           },
           count: 16,
         },
@@ -508,20 +525,20 @@
       ],
     },
     {
-      id: "3AE3D5FFCA2ED68A",
       x: 4.8,
       y: 9.8,
-      size: 1.5,
       dependencies: [
         "483E6C98A196C51E",
       ],
+      size: 1.5,
+      id: "3AE3D5FFCA2ED68A",
       tasks: [
         {
           id: "758DE9E8CC083850",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:arkenium_plate",
+            count: 1,
           },
           count: 8,
         },
@@ -529,8 +546,8 @@
           id: "5E09F9AA56280F2A",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:arkenium_forge",
+            count: 1,
           },
         },
       ],
@@ -543,32 +560,34 @@
         {
           id: "68A1637D1F4A7E09",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 3079252251675734,
         },
       ],
     },
     {
-      id: "02348B10725E7845",
       x: 6.4,
       y: 9.8,
       dependencies: [
         "3AE3D5FFCA2ED68A",
       ],
+      size: 1.0,
+      id: "02348B10725E7845",
       tasks: [
         {
           id: "7BD3DC5045DB02DA",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:arkenium_pickaxe",
+            count: 1,
           },
         },
         {
           id: "45747FBDE8F0DBEC",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:arkenium_chestplate",
+            count: 1,
           },
         },
       ],
@@ -581,19 +600,20 @@
       ],
     },
     {
-      id: "7DD07D1FD8D50E79",
       x: 4.8,
       y: 11.3,
       dependencies: [
         "483E6C98A196C51E",
       ],
+      size: 1.0,
+      id: "7DD07D1FD8D50E79",
       tasks: [
         {
           id: "09A6E7A5F756C604",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:glint_gemstone",
+            count: 1,
           },
           count: 4,
         },
@@ -601,8 +621,8 @@
           id: "54B46F4DFE86019D",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:glint_coin",
+            count: 1,
           },
           count: 16,
         },
@@ -616,25 +636,26 @@
         {
           id: "2518306652F2B1CA",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 3079252251675734,
         },
       ],
     },
     {
-      id: "0B454266701E7E01",
       x: 6.4,
       y: 11.3,
-      size: 1.5,
       dependencies: [
         "3AE3D5FFCA2ED68A",
       ],
+      size: 1.5,
+      id: "0B454266701E7E01",
       tasks: [
         {
           id: "3DA9BB984DEAD932",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:gravitite_plate",
+            count: 1,
           },
           count: 8,
         },
@@ -648,40 +669,42 @@
         {
           id: "63E8EAA74C3BE9D2",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "29FB87FF6858065D",
       x: 8.0,
       y: 11.3,
       dependencies: [
         "0B454266701E7E01",
       ],
+      size: 1.0,
+      id: "29FB87FF6858065D",
       tasks: [
         {
           id: "2FDCC9BB205F7A01",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:gravitite_pickaxe",
+            count: 1,
           },
         },
         {
           id: "0AB9022CEE4A51B4",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:gravitite_shortsword",
+            count: 1,
           },
         },
         {
           id: "10866B5D276C764E",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:gravitite_hammer",
+            count: 1,
           },
         },
       ],
@@ -694,57 +717,58 @@
         {
           id: "1455DDACF4BF454F",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "6F4B2B8707DB09A1",
       x: 8.0,
       y: 12.8,
-      size: 1.5,
       dependencies: [
         "0B454266701E7E01",
       ],
+      size: 1.5,
+      id: "6F4B2B8707DB09A1",
       tasks: [
         {
           id: "36BFDE86CD80EA91",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:gravitite_helmet",
+            count: 1,
           },
         },
         {
           id: "0C4E9422E62E1A97",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:gravitite_chestplate",
+            count: 1,
           },
         },
         {
           id: "79652B7D0D53CF09",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:gravitite_leggings",
+            count: 1,
           },
         },
         {
           id: "635557BFDF3369F1",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:gravitite_boots",
+            count: 1,
           },
         },
         {
           id: "11B914BE0BBA6F3F",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:gravitite_gloves",
+            count: 1,
           },
         },
       ],
@@ -757,25 +781,27 @@
         {
           id: "2F5779B3FD8EF051",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 379532711335085,
         },
       ],
     },
     {
-      id: "1E19680C1C941F62",
       x: 4.8,
       y: 8.3,
       dependencies: [
         "483E6C98A196C51E",
       ],
+      size: 1.0,
       optional: true,
+      id: "1E19680C1C941F62",
       tasks: [
         {
           id: "44728D152D00CA54",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:corrobonite_crystal",
+            count: 1,
           },
           count: 4,
         },
@@ -789,28 +815,29 @@
       ],
     },
     {
-      id: "495781D75F076527",
       x: 3.2,
       y: 8.3,
       dependencies: [
         "121A8CD4C11E9B78",
       ],
+      size: 1.0,
       optional: true,
+      id: "495781D75F076527",
       tasks: [
         {
           id: "062FF2D9B9CF0D61",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:zanite_pike",
+            count: 1,
           },
         },
         {
           id: "3973B1FC43162CBA",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:zanite_crossbow",
+            count: 1,
           },
         },
       ],
@@ -823,19 +850,20 @@
       ],
     },
     {
-      id: "39ED542D50B4FECF",
       x: 0.0,
       y: 15.4,
       dependencies: [
         "4EC198FA7D868FAB",
       ],
+      size: 1.0,
+      id: "39ED542D50B4FECF",
       tasks: [
         {
           id: "04BD5C9ADEF37599",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:cold_aercloud",
+            count: 1,
           },
           count: 16,
         },
@@ -843,8 +871,8 @@
           id: "40B6B599F584461C",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:blue_aercloud",
+            count: 1,
           },
           count: 8,
         },
@@ -858,19 +886,20 @@
       ],
     },
     {
-      id: "3982750FC2FB407F",
       x: 1.6,
       y: 15.4,
       dependencies: [
         "39ED542D50B4FECF",
       ],
+      size: 1.0,
+      id: "3982750FC2FB407F",
       tasks: [
         {
           id: "460868BED05955DA",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:cloudtwine",
+            count: 1,
           },
           count: 8,
         },
@@ -884,19 +913,20 @@
       ],
     },
     {
-      id: "57B53BBE7F85BB19",
       x: 3.2,
       y: 15.4,
       dependencies: [
         "3982750FC2FB407F",
       ],
+      size: 1.0,
+      id: "57B53BBE7F85BB19",
       tasks: [
         {
           id: "674AD0230A65814E",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:cold_aercloud_glider",
+            count: 1,
           },
         },
       ],
@@ -909,33 +939,35 @@
         {
           id: "176173D75D4909FA",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 3079252251675734,
         },
       ],
     },
     {
-      id: "79CC4D115F337D40",
       x: 4.8,
       y: 15.4,
       dependencies: [
         "57B53BBE7F85BB19",
       ],
+      size: 1.0,
       optional: true,
+      id: "79CC4D115F337D40",
       tasks: [
         {
           id: "355237A6207829EC",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:blue_aercloud_glider",
+            count: 1,
           },
         },
         {
           id: "222BD7069E250CD3",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:golden_aercloud_glider",
+            count: 1,
           },
         },
       ],
@@ -948,19 +980,20 @@
       ],
     },
     {
-      id: "358EB5280D943513",
       x: 4.8,
       y: 16.9,
       dependencies: [
         "57B53BBE7F85BB19",
       ],
+      size: 1.0,
+      id: "358EB5280D943513",
       tasks: [
         {
           id: "2627ABB6FE24FE12",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:cloud_skiff",
+            count: 1,
           },
         },
       ],
@@ -973,19 +1006,20 @@
       ],
     },
     {
-      id: "483C3D3EB99CF700",
       x: 0.0,
       y: 22.5,
       dependencies: [
         "61C03A450A93D3BE",
       ],
+      size: 1.0,
+      id: "483C3D3EB99CF700",
       tasks: [
         {
           id: "204B6C188DEAB407",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:blueberry",
+            count: 1,
           },
           count: 16,
         },
@@ -993,8 +1027,8 @@
           id: "10617DE983139E14",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:orange",
+            count: 1,
           },
           count: 8,
         },
@@ -1002,8 +1036,8 @@
           id: "07F9FD52868588D9",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:wyndberry",
+            count: 1,
           },
           count: 8,
         },
@@ -1017,20 +1051,21 @@
       ],
     },
     {
-      id: "05733B0C63561902",
       x: 1.6,
       y: 22.5,
       dependencies: [
         "483C3D3EB99CF700",
         "34CD3206C9EFC260",
       ],
+      size: 1.0,
+      id: "05733B0C63561902",
       tasks: [
         {
           id: "58D5DA5B457683D1",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:enchanted_blueberry",
+            count: 1,
           },
           count: 4,
         },
@@ -1044,17 +1079,18 @@
       ],
     },
     {
-      id: "52CFD5B267417188",
+      icon: {
+        id: "aether_ii:moa_feather",
+        count: 1,
+      },
       x: 1.6,
       y: 24.0,
-      icon: {
-        count: 1,
-        id: "aether_ii:moa_feather",
-      },
       dependencies: [
         "483C3D3EB99CF700",
       ],
+      size: 1.0,
       optional: true,
+      id: "52CFD5B267417188",
       tasks: [
         {
           id: "6AB6461959393490",
@@ -1072,19 +1108,20 @@
       ],
     },
     {
-      id: "5D17FFD3D0CEDA89",
       x: 1.6,
       y: 21.0,
       dependencies: [
         "483C3D3EB99CF700",
       ],
+      size: 1.0,
+      id: "5D17FFD3D0CEDA89",
       tasks: [
         {
           id: "47A2E5C3EFFC3EDB",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:moa_feed",
+            count: 1,
           },
           count: 8,
         },
@@ -1092,8 +1129,8 @@
           id: "3D51AE0A40F2829D",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:moa_saddle",
+            count: 1,
           },
         },
       ],
@@ -1106,25 +1143,27 @@
         {
           id: "58B8223A4BF659DF",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 3079252251675734,
         },
       ],
     },
     {
-      id: "332A2F17D482964D",
       x: 0.0,
       y: 27.0,
       dependencies: [
         "4EC198FA7D868FAB",
       ],
+      size: 1.0,
       optional: true,
+      id: "332A2F17D482964D",
       tasks: [
         {
           id: "25E10B06A0159EE9",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:aerbunny_bell",
+            count: 1,
           },
         },
       ],
@@ -1137,16 +1176,17 @@
       ],
     },
     {
-      id: "018F3D74DAC7F4FB",
+      icon: {
+        id: "aether_ii:taegore_steak",
+        count: 1,
+      },
       x: 0.0,
       y: 24.0,
-      icon: {
-        count: 1,
-        id: "aether_ii:taegore_steak",
-      },
       dependencies: [
         "1DAD469FDE3B0B4D",
       ],
+      size: 1.0,
+      id: "018F3D74DAC7F4FB",
       tasks: [
         {
           id: "001CB3C693CCF9A3",
@@ -1176,24 +1216,26 @@
         {
           id: "5FA9138F4D04A682",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 3079252251675734,
         },
       ],
     },
     {
-      id: "238D64D357BA3E43",
       x: 1.6,
       y: 25.5,
       dependencies: [
         "018F3D74DAC7F4FB",
       ],
+      size: 1.0,
+      id: "238D64D357BA3E43",
       tasks: [
         {
           id: "658B2029C38E7D74",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:beast_pelt",
+            count: 1,
           },
           count: 4,
         },
@@ -1201,8 +1243,8 @@
           id: "1FF318466D3C1BBB",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:burrukai_plate",
+            count: 1,
           },
           count: 4,
         },
@@ -1216,16 +1258,17 @@
       ],
     },
     {
-      id: "575BF53264A8C083",
+      icon: {
+        id: "aether_ii:swet_gel",
+        count: 1,
+      },
       x: 0.0,
       y: 21.0,
-      icon: {
-        count: 1,
-        id: "aether_ii:swet_gel",
-      },
       dependencies: [
         "4EC198FA7D868FAB",
       ],
+      size: 1.0,
+      id: "575BF53264A8C083",
       tasks: [
         {
           id: "53A9A7C5E070856C",
@@ -1237,8 +1280,8 @@
           id: "0FC7AB69928831E3",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:swet_gel",
+            count: 1,
           },
           count: 8,
         },
@@ -1252,27 +1295,28 @@
       ],
     },
     {
-      id: "444BB976FD23C4F6",
       x: 1.6,
       y: 19.5,
       dependencies: [
         "575BF53264A8C083",
       ],
+      size: 1.0,
+      id: "444BB976FD23C4F6",
       tasks: [
         {
           id: "02B8AA95FD392C28",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:healing_stone",
+            count: 1,
           },
         },
         {
           id: "11E2CD71B9188119",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:bandage",
+            count: 1,
           },
           count: 4,
         },
@@ -1286,28 +1330,29 @@
       ],
     },
     {
-      id: "387041C7539E83D2",
       x: 3.2,
       y: 19.5,
       dependencies: [
         "444BB976FD23C4F6",
       ],
+      size: 1.0,
       optional: true,
+      id: "387041C7539E83D2",
       tasks: [
         {
           id: "66E75A4258EC3DF5",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:antitoxin_vial",
+            count: 1,
           },
         },
         {
           id: "7A7465EFB9F6D160",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:antivenom_vial",
+            count: 1,
           },
         },
       ],
@@ -1320,16 +1365,17 @@
       ],
     },
     {
-      id: "1F14EC8F13FDB852",
+      icon: {
+        id: "aether_ii:zephyr_husk",
+        count: 1,
+      },
       x: 1.6,
       y: 27.0,
-      icon: {
-        count: 1,
-        id: "aether_ii:zephyr_husk",
-      },
       dependencies: [
         "39ED542D50B4FECF",
       ],
+      size: 1.0,
+      id: "1F14EC8F13FDB852",
       tasks: [
         {
           id: "34ABE8099E03F97C",
@@ -1347,16 +1393,17 @@
       ],
     },
     {
-      id: "08A1EDA95CF09696",
+      icon: {
+        id: "aether_ii:cockatrice_feather",
+        count: 1,
+      },
       x: 3.2,
       y: 27.0,
-      icon: {
-        count: 1,
-        id: "aether_ii:cockatrice_feather",
-      },
       dependencies: [
         "29EA42C1E2A80184",
       ],
+      size: 1.0,
+      id: "08A1EDA95CF09696",
       tasks: [
         {
           id: "46DC5DC18124A42E",
@@ -1374,16 +1421,17 @@
       ],
     },
     {
-      id: "451357EE19737D9C",
+      icon: {
+        id: "aether_ii:arkenium_chip",
+        count: 1,
+      },
       x: 4.8,
       y: 27.0,
-      icon: {
-        count: 1,
-        id: "aether_ii:arkenium_chip",
-      },
       dependencies: [
         "29EA42C1E2A80184",
       ],
+      size: 1.0,
+      id: "451357EE19737D9C",
       tasks: [
         {
           id: "74F18CA63961D3FB",
@@ -1401,17 +1449,18 @@
       ],
     },
     {
-      id: "53F5D7FE0C9CD7DA",
+      icon: {
+        id: "aether_ii:blue_aercloud",
+        count: 1,
+      },
       x: 6.4,
       y: 27.0,
-      icon: {
-        count: 1,
-        id: "aether_ii:blue_aercloud",
-      },
       dependencies: [
         "39ED542D50B4FECF",
       ],
+      size: 1.0,
       optional: true,
+      id: "53F5D7FE0C9CD7DA",
       tasks: [
         {
           id: "54A574A40F0E51AF",
@@ -1427,16 +1476,17 @@
       ],
     },
     {
-      id: "3BA2D1D8DEB70474",
+      icon: {
+        id: "aether_ii:eye_of_the_mimic",
+        count: 1,
+      },
       x: 8.0,
       y: 27.0,
-      icon: {
-        count: 1,
-        id: "aether_ii:eye_of_the_mimic",
-      },
       dependencies: [
         "70443A4AA35914F9",
       ],
+      size: 1.0,
+      id: "3BA2D1D8DEB70474",
       tasks: [
         {
           id: "76C1F1EA7C09DC42",
@@ -1454,24 +1504,26 @@
         {
           id: "0A7AE89963DA18BF",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 3079252251675734,
         },
       ],
     },
     {
-      id: "34CD3206C9EFC260",
       x: 0.0,
       y: 31.1,
       dependencies: [
         "476AF39EA0F8E76A",
       ],
+      size: 1.0,
+      id: "34CD3206C9EFC260",
       tasks: [
         {
           id: "6A1D230A223A5AC9",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:altar",
+            count: 1,
           },
         },
       ],
@@ -1484,27 +1536,28 @@
       ],
     },
     {
-      id: "11CF77DBC1780DFB",
       x: 0.0,
       y: 32.6,
       dependencies: [
         "3AE3D5FFCA2ED68A",
       ],
+      size: 1.0,
+      id: "11CF77DBC1780DFB",
       tasks: [
         {
           id: "1892CEDDEB429598",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:charm_of_health_1",
+            count: 1,
           },
         },
         {
           id: "390E377AB248A432",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:charm_of_damage_1",
+            count: 1,
           },
         },
       ],
@@ -1517,44 +1570,45 @@
       ],
     },
     {
-      id: "24CFF793D067A4CE",
       x: 1.6,
       y: 32.6,
       dependencies: [
         "11CF77DBC1780DFB",
       ],
+      size: 1.0,
       optional: true,
+      id: "24CFF793D067A4CE",
       tasks: [
         {
           id: "152960A02026CD11",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:charm_of_agility_1",
+            count: 1,
           },
         },
         {
           id: "0D5F9A921B3FA2CE",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:charm_of_defense_1",
+            count: 1,
           },
         },
         {
           id: "05A163137C09BA25",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:charm_of_reach_1",
+            count: 1,
           },
         },
         {
           id: "0CA17A7CB8CEAFE6",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:charm_of_toughness_1",
+            count: 1,
           },
         },
       ],
@@ -1567,25 +1621,27 @@
         {
           id: "44465AF06E5DE608",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "30B1BDC14B01DC82",
       x: 0.0,
       y: 29.6,
       dependencies: [
         "483C3D3EB99CF700",
       ],
+      size: 1.0,
       optional: true,
+      id: "30B1BDC14B01DC82",
       tasks: [
         {
           id: "7C744E762703F0D6",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:valkyrie_tea",
+            count: 1,
           },
         },
       ],
@@ -1598,20 +1654,21 @@
       ],
     },
     {
-      id: "3284496F03F84DBF",
       x: 0.0,
       y: 34.1,
       dependencies: [
         "3982750FC2FB407F",
       ],
+      size: 1.0,
       optional: true,
+      id: "3284496F03F84DBF",
       tasks: [
         {
           id: "32E091AED33DB59E",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:lasso",
+            count: 1,
           },
         },
       ],
@@ -1624,20 +1681,21 @@
       ],
     },
     {
-      id: "4E00D3B66F49C793",
       x: 1.6,
       y: 31.1,
       dependencies: [
         "34CD3206C9EFC260",
       ],
+      size: 1.0,
       optional: true,
+      id: "4E00D3B66F49C793",
       tasks: [
         {
           id: "0F5B0B1270D63378",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:music_player",
+            count: 1,
           },
         },
       ],
@@ -1650,16 +1708,17 @@
       ],
     },
     {
-      id: "70443A4AA35914F9",
+      icon: {
+        id: "aether_ii:outpost_campfire",
+        count: 1,
+      },
       x: 0.0,
       y: 38.2,
-      icon: {
-        count: 1,
-        id: "aether_ii:outpost_campfire",
-      },
       dependencies: [
         "4EC198FA7D868FAB",
       ],
+      size: 1.0,
+      id: "70443A4AA35914F9",
       tasks: [
         {
           id: "6071A6E0986F6D21",
@@ -1676,21 +1735,23 @@
         {
           id: "5807C4D023268CBD",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 3079252251675734,
         },
       ],
     },
     {
-      id: "58F47BF719D673D8",
+      icon: {
+        id: "aether_ii:outpost_campfire",
+        count: 1,
+      },
       x: 1.6,
       y: 38.2,
-      icon: {
-        count: 1,
-        id: "aether_ii:outpost_campfire",
-      },
       dependencies: [
         "70443A4AA35914F9",
       ],
+      size: 1.0,
+      id: "58F47BF719D673D8",
       tasks: [
         {
           id: "45756D43CE837567",
@@ -1707,16 +1768,17 @@
       ],
     },
     {
-      id: "774F137067711AF1",
+      icon: {
+        id: "aether_ii:skyroot_beam",
+        count: 1,
+      },
       x: 1.6,
       y: 39.7,
-      icon: {
-        count: 1,
-        id: "aether_ii:skyroot_beam",
-      },
       dependencies: [
         "70443A4AA35914F9",
       ],
+      size: 1.0,
+      id: "774F137067711AF1",
       tasks: [
         {
           id: "21B9ECDD108F5F86",
@@ -1733,21 +1795,23 @@
         {
           id: "1C888E251FA9215D",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 3079252251675734,
         },
       ],
     },
     {
-      id: "640B5A8755113C03",
+      icon: {
+        id: "aether_ii:holystone_keystone",
+        count: 1,
+      },
       x: 0.0,
       y: 39.7,
-      icon: {
-        count: 1,
-        id: "aether_ii:holystone_keystone",
-      },
       dependencies: [
         "4EC198FA7D868FAB",
       ],
+      size: 1.0,
+      id: "640B5A8755113C03",
       tasks: [
         {
           id: "2C666A0A5269B9C8",
@@ -1764,16 +1828,17 @@
       ],
     },
     {
-      id: "242C8BB68DEA1A7E",
+      icon: {
+        id: "aether_ii:veradexian_vase",
+        count: 1,
+      },
       x: 1.6,
       y: 41.2,
-      icon: {
-        count: 1,
-        id: "aether_ii:veradexian_vase",
-      },
       dependencies: [
         "640B5A8755113C03",
       ],
+      size: 1.0,
+      id: "242C8BB68DEA1A7E",
       tasks: [
         {
           id: "01CC00A6FC744769",
@@ -1790,21 +1855,23 @@
         {
           id: "5F6C1D649B24D0B4",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 3079252251675734,
         },
       ],
     },
     {
-      id: "63C141662E9EA4DB",
+      icon: {
+        id: "aether_ii:guidebook_page",
+        count: 1,
+      },
       x: 3.2,
       y: 41.2,
-      icon: {
-        count: 1,
-        id: "aether_ii:guidebook_page",
-      },
       dependencies: [
         "242C8BB68DEA1A7E",
       ],
+      size: 1.0,
+      id: "63C141662E9EA4DB",
       tasks: [
         {
           id: "1C544D89E7ACEFE3",
@@ -1821,22 +1888,24 @@
         {
           id: "3BE31FD2D88E89F5",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "5CEBA88A13014610",
+      icon: {
+        id: "aether_ii:holystone_flagstones",
+        count: 1,
+      },
       x: 3.2,
       y: 42.7,
-      icon: {
-        count: 1,
-        id: "aether_ii:holystone_flagstones",
-      },
       dependencies: [
         "242C8BB68DEA1A7E",
       ],
+      size: 1.0,
       optional: true,
+      id: "5CEBA88A13014610",
       tasks: [
         {
           id: "66254C3255C06404",
@@ -1853,16 +1922,17 @@
       ],
     },
     {
-      id: "44C7209DC3B8592D",
+      icon: {
+        id: "aether_ii:brexallen_vase",
+        count: 1,
+      },
       x: 3.2,
       y: 39.7,
-      icon: {
-        count: 1,
-        id: "aether_ii:brexallen_vase",
-      },
       dependencies: [
         "242C8BB68DEA1A7E",
       ],
+      size: 1.0,
+      id: "44C7209DC3B8592D",
       tasks: [
         {
           id: "658D74E340FA454E",
@@ -1879,21 +1949,23 @@
         {
           id: "72161A66A0428F24",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 3079252251675734,
         },
       ],
     },
     {
-      id: "64D0ECE0EEB52029",
+      icon: {
+        id: "aether_ii:sentry_servo",
+        count: 1,
+      },
       x: 0.0,
       y: 36.7,
-      icon: {
-        count: 1,
-        id: "aether_ii:sentry_servo",
-      },
       dependencies: [
         "3AE3D5FFCA2ED68A",
       ],
+      size: 1.0,
+      id: "64D0ECE0EEB52029",
       tasks: [
         {
           id: "00FBD1A53AD82B62",
@@ -1910,21 +1982,23 @@
         {
           id: "77E3AABE31EE873B",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "68A0A2EECBC5D7CB",
+      icon: {
+        id: "aether_ii:sentry_servo",
+        count: 1,
+      },
       x: 1.6,
       y: 36.7,
-      icon: {
-        count: 1,
-        id: "aether_ii:sentry_servo",
-      },
       dependencies: [
         "64D0ECE0EEB52029",
       ],
+      size: 1.0,
+      id: "68A0A2EECBC5D7CB",
       tasks: [
         {
           id: "005FA724C1374031",
@@ -1942,21 +2016,23 @@
         {
           id: "1FA9ED8AE9C21612",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "1BC1153E9B8EA840",
+      icon: {
+        id: "aether_ii:arkenium_lantern",
+        count: 1,
+      },
       x: 0.0,
       y: 44.2,
-      icon: {
-        count: 1,
-        id: "aether_ii:arkenium_lantern",
-      },
       dependencies: [
         "483E6C98A196C51E",
       ],
+      size: 1.0,
+      id: "1BC1153E9B8EA840",
       tasks: [
         {
           id: "7853B501F790CE5F",
@@ -1973,21 +2049,23 @@
         {
           id: "32DA34137AED317D",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 3079252251675734,
         },
       ],
     },
     {
-      id: "5394621F4BE0D5C3",
+      icon: {
+        id: "aether_ii:guardian_log",
+        count: 1,
+      },
       x: 1.6,
       y: 44.2,
-      icon: {
-        count: 1,
-        id: "aether_ii:guardian_log",
-      },
       dependencies: [
         "286359BC0464235B",
       ],
+      size: 1.0,
+      id: "5394621F4BE0D5C3",
       tasks: [
         {
           id: "3543A73574A9B29A",
@@ -2004,21 +2082,23 @@
         {
           id: "56CEE495E5DA9F17",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "66424B090A665FA0",
+      icon: {
+        id: "aether_ii:irradiated_dust",
+        count: 1,
+      },
       x: 3.2,
       y: 44.2,
-      icon: {
-        count: 1,
-        id: "aether_ii:irradiated_dust",
-      },
       dependencies: [
         "286359BC0464235B",
       ],
+      size: 1.0,
+      id: "66424B090A665FA0",
       tasks: [
         {
           id: "36ECFF6DDA80B0D9",
@@ -2035,22 +2115,24 @@
         {
           id: "68F5B005B8ED1414",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "1094E38EDC01792F",
+      icon: {
+        id: "aether_ii:arctic_snow_block",
+        count: 1,
+      },
       x: 4.8,
       y: 44.2,
-      icon: {
-        count: 1,
-        id: "aether_ii:arctic_snow_block",
-      },
       dependencies: [
         "7F125FFE020B1A1C",
       ],
+      size: 1.0,
       optional: true,
+      id: "1094E38EDC01792F",
       tasks: [
         {
           id: "6DDAB4A9452EC265",
@@ -2067,16 +2149,17 @@
       ],
     },
     {
-      id: "069C65437132AB90",
+      icon: {
+        id: "aether_ii:aether_grass_block",
+        count: 1,
+      },
       x: 0.0,
       y: 48.3,
-      icon: {
-        count: 1,
-        id: "aether_ii:aether_grass_block",
-      },
       dependencies: [
         "4EC198FA7D868FAB",
       ],
+      size: 1.0,
+      id: "069C65437132AB90",
       tasks: [
         {
           id: "225629207B428A35",
@@ -2093,16 +2176,17 @@
       ],
     },
     {
-      id: "4EE2A44DDC19278B",
+      icon: {
+        id: "aether_ii:skyroot_sapling",
+        count: 1,
+      },
       x: 1.6,
       y: 48.3,
-      icon: {
-        count: 1,
-        id: "aether_ii:skyroot_sapling",
-      },
       dependencies: [
         "069C65437132AB90",
       ],
+      size: 1.0,
+      id: "4EE2A44DDC19278B",
       tasks: [
         {
           id: "6E0E38DC857E5B6B",
@@ -2119,16 +2203,17 @@
       ],
     },
     {
-      id: "723D39C153CD83FD",
+      icon: {
+        id: "aether_ii:greatroot_log",
+        count: 1,
+      },
       x: 3.2,
       y: 48.3,
-      icon: {
-        count: 1,
-        id: "aether_ii:greatroot_log",
-      },
       dependencies: [
         "4EE2A44DDC19278B",
       ],
+      size: 1.0,
+      id: "723D39C153CD83FD",
       tasks: [
         {
           id: "436577435FB93AD9",
@@ -2145,16 +2230,17 @@
       ],
     },
     {
-      id: "30378A5D9BE09CF6",
+      icon: {
+        id: "aether_ii:wisproot_log",
+        count: 1,
+      },
       x: 3.2,
       y: 49.8,
-      icon: {
-        count: 1,
-        id: "aether_ii:wisproot_log",
-      },
       dependencies: [
         "4EE2A44DDC19278B",
       ],
+      size: 1.0,
+      id: "30378A5D9BE09CF6",
       tasks: [
         {
           id: "7CB0B05F4BCB3580",
@@ -2171,16 +2257,17 @@
       ],
     },
     {
-      id: "281B527F0BECC49E",
+      icon: {
+        id: "aether_ii:magnetic_shroom",
+        count: 1,
+      },
       x: 4.8,
       y: 48.3,
-      icon: {
-        count: 1,
-        id: "aether_ii:magnetic_shroom",
-      },
       dependencies: [
         "723D39C153CD83FD",
       ],
+      size: 1.0,
+      id: "281B527F0BECC49E",
       tasks: [
         {
           id: "34CB863B145C3948",
@@ -2197,16 +2284,17 @@
       ],
     },
     {
-      id: "7F125FFE020B1A1C",
+      icon: {
+        id: "aether_ii:icestone",
+        count: 1,
+      },
       x: 6.4,
       y: 49.8,
-      icon: {
-        count: 1,
-        id: "aether_ii:icestone",
-      },
       dependencies: [
         "281B527F0BECC49E",
       ],
+      size: 1.0,
+      id: "7F125FFE020B1A1C",
       tasks: [
         {
           id: "032CBA932C5FDAD2",
@@ -2223,16 +2311,17 @@
       ],
     },
     {
-      id: "14CB7ECD3FA04787",
+      icon: {
+        id: "aether_ii:arctic_snow_block",
+        count: 1,
+      },
       x: 8.0,
       y: 49.8,
-      icon: {
-        count: 1,
-        id: "aether_ii:arctic_snow_block",
-      },
       dependencies: [
         "7F125FFE020B1A1C",
       ],
+      size: 1.0,
+      id: "14CB7ECD3FA04787",
       tasks: [
         {
           id: "0A03B9A4BD67F22B",
@@ -2249,16 +2338,17 @@
       ],
     },
     {
-      id: "286359BC0464235B",
+      icon: {
+        id: "aether_ii:irradiated_dust",
+        count: 1,
+      },
       x: 6.4,
       y: 48.3,
-      icon: {
-        count: 1,
-        id: "aether_ii:irradiated_dust",
-      },
       dependencies: [
         "281B527F0BECC49E",
       ],
+      size: 1.0,
+      id: "286359BC0464235B",
       tasks: [
         {
           id: "131D42E6B99B7301",
@@ -2275,21 +2365,23 @@
         {
           id: "0B32314CDF9516B1",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 3079252251675734,
         },
       ],
     },
     {
-      id: "60AA9FAAAB3B1C45",
+      icon: {
+        id: "aether_ii:shimmering_silt",
+        count: 1,
+      },
       x: 8.0,
       y: 48.3,
-      icon: {
-        count: 1,
-        id: "aether_ii:shimmering_silt",
-      },
       dependencies: [
         "286359BC0464235B",
       ],
+      size: 1.0,
+      id: "60AA9FAAAB3B1C45",
       tasks: [
         {
           id: "30C8DBD894F60F07",
@@ -2306,16 +2398,17 @@
       ],
     },
     {
-      id: "6A1738107FF5A3E1",
+      icon: {
+        id: "aether_ii:arkenium_shortsword",
+        count: 1,
+      },
       x: 8.0,
       y: 46.8,
-      icon: {
-        count: 1,
-        id: "aether_ii:arkenium_shortsword",
-      },
       dependencies: [
         "286359BC0464235B",
       ],
+      size: 1.0,
+      id: "6A1738107FF5A3E1",
       tasks: [
         {
           id: "5C11EB57DD948A9A",
@@ -2332,21 +2425,21 @@
       ],
     },
     {
-      id: "5F2AF1FBD7DFE621",
+      icon: {
+        id: "minecraft:filled_map",
+        count: 1,
+      },
       x: 9.6,
       y: 48.3,
       shape: "hexagon",
-      size: 1.5,
-      icon: {
-        count: 1,
-        id: "minecraft:filled_map",
-      },
       dependencies: [
         "30378A5D9BE09CF6",
         "14CB7ECD3FA04787",
         "60AA9FAAAB3B1C45",
         "6A1738107FF5A3E1",
       ],
+      size: 1.5,
+      id: "5F2AF1FBD7DFE621",
       tasks: [
         {
           id: "54981D1277987B1E",
@@ -2362,27 +2455,28 @@
         {
           id: "73CD69AA4A24CAF8",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "6320E282F5652FE4",
       x: 11.2,
       y: 48.3,
       shape: "gear",
-      size: 2.0,
       dependencies: [
         "6F4B2B8707DB09A1",
         "5F2AF1FBD7DFE621",
       ],
+      size: 2.0,
+      id: "6320E282F5652FE4",
       tasks: [
         {
           id: "40D154CB6C1A4B92",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:valkyrie_wings",
+            count: 1,
           },
         },
       ],
@@ -2395,25 +2489,27 @@
         {
           id: "2041593DA2CFB1AD",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 379532711335085,
         },
       ],
     },
     {
-      id: "0FDB06E3621AD2C6",
       x: 0.0,
       y: 49.8,
       dependencies: [
         "0B454266701E7E01",
       ],
+      size: 1.0,
       optional: true,
+      id: "0FDB06E3621AD2C6",
       tasks: [
         {
           id: "2FF1E8F8CAE7A532",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:neptune_chestplate",
+            count: 1,
           },
         },
       ],
@@ -2426,12 +2522,14 @@
         {
           id: "02E461532AF719B5",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 379532711335085,
         },
       ],
     },
   ],
-  quest_links: [ ],
+  quest_links: [
+  ],
   images: [
     {
       x: 5.6,
@@ -2440,10 +2538,7 @@
       height: 1.4375,
       rotation: 0.0,
       image: "gspack:textures/quests/aether_header.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false,
+      id: "4AF86FCC57FD0927",
     },
     {
       x: 0.2647,
@@ -2452,10 +2547,7 @@
       height: 0.6,
       rotation: 0.0,
       image: "gspack:textures/quests/aether_altar.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false,
+      id: "1E2ED68BB8EBDE7B",
     },
     {
       x: 0.3353,
@@ -2464,10 +2556,7 @@
       height: 0.6,
       rotation: 0.0,
       image: "gspack:textures/quests/aether_zanite.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false,
+      id: "632A0143B8389529",
     },
     {
       x: 0.4059,
@@ -2476,10 +2565,7 @@
       height: 0.6,
       rotation: 0.0,
       image: "gspack:textures/quests/aether_biome_highfields.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false,
+      id: "5D3CE2A656F735E7",
     },
     {
       x: 0.7059,
@@ -2488,10 +2574,7 @@
       height: 0.6,
       rotation: 0.0,
       image: "gspack:textures/quests/aether_outpost.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false,
+      id: "1F2CF3E15AE41DFC",
     },
     {
       x: 0.3353,
@@ -2500,10 +2583,7 @@
       height: 0.6,
       rotation: 0.0,
       image: "gspack:textures/quests/aether_portal.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false,
+      id: "58AE5B8C8089950E",
     },
     {
       x: 0.6353,
@@ -2512,10 +2592,7 @@
       height: 0.6,
       rotation: 0.0,
       image: "gspack:textures/quests/aether_food.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false,
+      id: "18C358F95DDA995E",
     },
     {
       x: 0.3,
@@ -2524,10 +2601,7 @@
       height: 0.6,
       rotation: 0.0,
       image: "gspack:textures/quests/aether_clouds.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false,
+      id: "0EAE56745FF0D364",
     },
   ],
 }

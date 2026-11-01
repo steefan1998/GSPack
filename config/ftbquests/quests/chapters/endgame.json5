@@ -1,28 +1,28 @@
 {
   id: "43AF5A6C91030254",
   group: "102546F445E619D7",
-  order_index: 17,
-  filename: "endgame",
+  order_index: 0,
   icon: {
-    count: 1,
     id: "gspack:infinity_trophy",
+    count: 1,
   },
+  filename: "endgame",
   default_quest_shape: "",
   default_hide_dependency_lines: true,
   quests: [
     {
-      id: "63A5F5C024728020",
+      icon: {
+        id: "gspack:infinity_trophy",
+        count: 1,
+      },
       x: 0.0,
       y: 1.7,
       shape: "gear",
-      size: 2.0,
-      icon: {
-        count: 1,
-        id: "gspack:infinity_trophy",
-      },
       dependencies: [
         "5C3EEB1D90C2418F",
       ],
+      size: 2.0,
+      id: "63A5F5C024728020",
       tasks: [
         {
           id: "6430B0C64CBD9505",
@@ -38,11 +38,9 @@
       ],
     },
     {
-      id: "6EF5BBD9118F05B1",
       x: 0.0,
       y: 4.55,
       shape: "hexagon",
-      size: 1.5,
       dependencies: [
         "63A5F5C024728020",
         "4550FAED0240DEC4",
@@ -50,13 +48,15 @@
         "3C406061E3598B02",
         "3DCB426C2D3D35BD",
       ],
+      size: 1.5,
+      id: "6EF5BBD9118F05B1",
       tasks: [
         {
           id: "7954B3F59C7959BF",
           type: "item",
           item: {
-            count: 1,
             id: "gspack:tech_core",
+            count: 1,
           },
         },
       ],
@@ -69,16 +69,15 @@
         {
           id: "393C516F3B17819C",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 379532711335085,
         },
       ],
     },
     {
-      id: "7B383D694996D3C1",
       x: 1.6,
       y: 4.55,
       shape: "hexagon",
-      size: 1.5,
       dependencies: [
         "63A5F5C024728020",
         "2A03590EF3738B08",
@@ -86,13 +85,15 @@
         "5787875D47C3264B",
         "043289633BB2DF06",
       ],
+      size: 1.5,
+      id: "7B383D694996D3C1",
       tasks: [
         {
           id: "1036B6C5349EF400",
           type: "item",
           item: {
-            count: 1,
             id: "gspack:arcane_core",
+            count: 1,
           },
         },
       ],
@@ -105,16 +106,15 @@
         {
           id: "3A658050D40218E5",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 379532711335085,
         },
       ],
     },
     {
-      id: "4593CB8C7998DC0F",
       x: 3.2,
       y: 4.55,
       shape: "hexagon",
-      size: 1.5,
       dependencies: [
         "63A5F5C024728020",
         "55875DB1E1D738EE",
@@ -122,13 +122,15 @@
         "526222F2B8422A57",
         "47FE050D1E620472",
       ],
+      size: 1.5,
+      id: "4593CB8C7998DC0F",
       tasks: [
         {
           id: "07FA10A2BBB58745",
           type: "item",
           item: {
-            count: 1,
             id: "gspack:verdant_core",
+            count: 1,
           },
         },
       ],
@@ -141,16 +143,15 @@
         {
           id: "0E01FFC79E7E1FD8",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 379532711335085,
         },
       ],
     },
     {
-      id: "24D85F4E0B73E8CE",
       x: 4.8,
       y: 4.55,
       shape: "hexagon",
-      size: 1.5,
       dependencies: [
         "63A5F5C024728020",
         "49DDCA926E7726A1",
@@ -159,13 +160,15 @@
         "597BF8B7684F26A6",
         "0B454266701E7E01",
       ],
+      size: 1.5,
+      id: "24D85F4E0B73E8CE",
       tasks: [
         {
           id: "7F39FE98F8A354CE",
           type: "item",
           item: {
-            count: 1,
             id: "gspack:dimensional_core",
+            count: 1,
           },
         },
       ],
@@ -178,29 +181,30 @@
         {
           id: "72A154983F478FF1",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 379532711335085,
         },
       ],
     },
     {
-      id: "0F9246D4F65EF111",
       x: 6.4,
       y: 4.55,
       shape: "hexagon",
-      size: 1.5,
       dependencies: [
         "63A5F5C024728020",
         "23FFF81DE7891C73",
         "2B6865F28F279B94",
         "68D65FD80F193B1B",
       ],
+      size: 1.5,
+      id: "0F9246D4F65EF111",
       tasks: [
         {
           id: "6A46D3277FF6FAF5",
           type: "item",
           item: {
-            count: 1,
             id: "gspack:cosmic_core",
+            count: 1,
           },
         },
       ],
@@ -213,16 +217,15 @@
         {
           id: "5E687B5747BDD4A0",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 379532711335085,
         },
       ],
     },
     {
-      id: "45A5E6B642F0DE42",
       x: 0.0,
       y: 7.65,
       shape: "gear",
-      size: 2.0,
       dependencies: [
         "6EF5BBD9118F05B1",
         "7B383D694996D3C1",
@@ -230,13 +233,15 @@
         "24D85F4E0B73E8CE",
         "0F9246D4F65EF111",
       ],
+      size: 2.0,
+      id: "45A5E6B642F0DE42",
       tasks: [
         {
           id: "3091819C43D0AB91",
           type: "item",
           item: {
-            count: 1,
             id: "gspack:creative_singularity",
+            count: 1,
           },
         },
       ],
@@ -249,24 +254,26 @@
         {
           id: "573197AD2150EDDF",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 379532711335085,
         },
       ],
     },
     {
-      id: "64B2FEC45C848AF6",
       x: 0.0,
       y: 10.25,
       dependencies: [
         "45A5E6B642F0DE42",
       ],
+      size: 1.0,
+      id: "64B2FEC45C848AF6",
       tasks: [
         {
           id: "19EBCBF3933A7DB0",
           type: "item",
           item: {
-            count: 1,
             id: "mekanism:creative_energy_cube",
+            count: 1,
           },
         },
       ],
@@ -279,24 +286,26 @@
         {
           id: "71ED4801744C8246",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 379532711335085,
         },
       ],
     },
     {
-      id: "2898DC9B19EB906F",
       x: 1.6,
       y: 10.25,
       dependencies: [
         "45A5E6B642F0DE42",
       ],
+      size: 1.0,
+      id: "2898DC9B19EB906F",
       tasks: [
         {
           id: "31355E34AF3EFF14",
           type: "item",
           item: {
-            count: 1,
             id: "mekanism:creative_fluid_tank",
+            count: 1,
           },
         },
       ],
@@ -309,24 +318,26 @@
         {
           id: "064137BE833594AA",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 379532711335085,
         },
       ],
     },
     {
-      id: "3C8AA2E3BE5359B4",
       x: 3.2,
       y: 10.25,
       dependencies: [
         "45A5E6B642F0DE42",
       ],
+      size: 1.0,
+      id: "3C8AA2E3BE5359B4",
       tasks: [
         {
           id: "0DF9868BFF03E210",
           type: "item",
           item: {
-            count: 1,
             id: "ae2:creative_storage_cell",
+            count: 1,
           },
         },
       ],
@@ -339,24 +350,26 @@
         {
           id: "1BCA733C9EE99836",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 379532711335085,
         },
       ],
     },
     {
-      id: "7B993D9D41977366",
       x: 4.8,
       y: 10.25,
       dependencies: [
         "45A5E6B642F0DE42",
       ],
+      size: 1.0,
+      id: "7B993D9D41977366",
       tasks: [
         {
           id: "3BBF9AE1C7E98BC0",
           type: "item",
           item: {
-            count: 1,
             id: "ae2:creative_energy_cell",
+            count: 1,
           },
         },
       ],
@@ -369,24 +382,26 @@
         {
           id: "03EFFE9E0B7B7EB6",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 379532711335085,
         },
       ],
     },
     {
-      id: "58B5171E08EAA508",
       x: 6.4,
       y: 10.25,
       dependencies: [
         "45A5E6B642F0DE42",
       ],
+      size: 1.0,
+      id: "58B5171E08EAA508",
       tasks: [
         {
           id: "51C872BCDA8D46D9",
           type: "item",
           item: {
-            count: 1,
             id: "oritech:creative_storage",
+            count: 1,
           },
         },
       ],
@@ -399,24 +414,26 @@
         {
           id: "4A6551D1DB28E8C8",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 379532711335085,
         },
       ],
     },
     {
-      id: "68B2FC3C9BC435B4",
       x: 8.0,
       y: 10.25,
       dependencies: [
         "45A5E6B642F0DE42",
       ],
+      size: 1.0,
+      id: "68B2FC3C9BC435B4",
       tasks: [
         {
           id: "1BEFAB18D0A86AFD",
           type: "item",
           item: {
-            count: 1,
             id: "powah:energy_cell_creative",
+            count: 1,
           },
         },
       ],
@@ -429,24 +446,26 @@
         {
           id: "579F50ED1ADF1A29",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 379532711335085,
         },
       ],
     },
     {
-      id: "7B22113098F5905B",
       x: 0.0,
       y: 11.75,
       dependencies: [
         "45A5E6B642F0DE42",
       ],
+      size: 1.0,
+      id: "7B22113098F5905B",
       tasks: [
         {
           id: "45DECAA807744DF6",
           type: "item",
           item: {
-            count: 1,
             id: "mysticalagradditions:creative_essence",
+            count: 1,
           },
         },
       ],
@@ -459,24 +478,26 @@
         {
           id: "00E9368632CD8A80",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 379532711335085,
         },
       ],
     },
     {
-      id: "36FD140C450E50BC",
       x: 1.6,
       y: 11.75,
       dependencies: [
         "45A5E6B642F0DE42",
       ],
+      size: 1.0,
+      id: "36FD140C450E50BC",
       tasks: [
         {
           id: "5552B424484011FD",
           type: "item",
           item: {
-            count: 1,
             id: "sophisticatedstorage:infinity_upgrade",
+            count: 1,
           },
         },
       ],
@@ -489,25 +510,27 @@
         {
           id: "6B99ED48BD2CD5CF",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 379532711335085,
         },
       ],
     },
     {
-      id: "68F78D2D8BEAB826",
       x: 3.2,
       y: 11.75,
       dependencies: [
         "45A5E6B642F0DE42",
       ],
+      size: 1.0,
       optional: true,
+      id: "68F78D2D8BEAB826",
       tasks: [
         {
           id: "5575CAE471AF6723",
           type: "item",
           item: {
-            count: 1,
             id: "mekanism:creative_chemical_tank",
+            count: 1,
           },
         },
       ],
@@ -520,25 +543,27 @@
         {
           id: "5EC875B99216D6BF",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 379532711335085,
         },
       ],
     },
     {
-      id: "71253CF4BB974D87",
       x: 4.8,
       y: 11.75,
       dependencies: [
         "45A5E6B642F0DE42",
       ],
+      size: 1.0,
       optional: true,
+      id: "71253CF4BB974D87",
       tasks: [
         {
           id: "7B03D05EBB2B4BF1",
           type: "item",
           item: {
-            count: 1,
             id: "mekanism:creative_bin",
+            count: 1,
           },
         },
       ],
@@ -551,25 +576,27 @@
         {
           id: "24D854831E11DFE2",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 379532711335085,
         },
       ],
     },
     {
-      id: "7DEB289538B47795",
       x: 6.4,
       y: 11.75,
       dependencies: [
         "45A5E6B642F0DE42",
       ],
+      size: 1.0,
       optional: true,
+      id: "7DEB289538B47795",
       tasks: [
         {
           id: "3BF04EED440441EC",
           type: "item",
           item: {
-            count: 1,
             id: "mekanism_extras:upgrade_creative",
+            count: 1,
           },
         },
       ],
@@ -582,25 +609,27 @@
         {
           id: "6A6BE703D2E55461",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 379532711335085,
         },
       ],
     },
     {
-      id: "392DEFF55226D216",
       x: 8.0,
       y: 11.75,
       dependencies: [
         "45A5E6B642F0DE42",
       ],
+      size: 1.0,
       optional: true,
+      id: "392DEFF55226D216",
       tasks: [
         {
           id: "74F5A0995CC2D779",
           type: "item",
           item: {
-            count: 1,
             id: "oritech:creative_tank",
+            count: 1,
           },
         },
       ],
@@ -613,25 +642,27 @@
         {
           id: "2059B2D4740F8B60",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 379532711335085,
         },
       ],
     },
     {
-      id: "00547ACAB11645CC",
       x: 0.0,
       y: 13.25,
       dependencies: [
         "45A5E6B642F0DE42",
       ],
+      size: 1.0,
       optional: true,
+      id: "00547ACAB11645CC",
       tasks: [
         {
           id: "54AA9D0042C51F11",
           type: "item",
           item: {
-            count: 1,
             id: "sophisticatedbackpacks:infinity_upgrade",
+            count: 1,
           },
         },
       ],
@@ -644,25 +675,27 @@
         {
           id: "749C483DA29B271A",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 379532711335085,
         },
       ],
     },
     {
-      id: "2310F5804578FDB6",
       x: 1.6,
       y: 13.25,
       dependencies: [
         "45A5E6B642F0DE42",
       ],
+      size: 1.0,
       optional: true,
+      id: "2310F5804578FDB6",
       tasks: [
         {
           id: "432EC8216D892868",
           type: "item",
           item: {
-            count: 1,
             id: "storagedrawers:creative_storage_upgrade",
+            count: 1,
           },
         },
       ],
@@ -675,25 +708,27 @@
         {
           id: "4E01FD911C762A14",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 379532711335085,
         },
       ],
     },
     {
-      id: "344B82BBFAAFB27B",
       x: 3.2,
       y: 13.25,
       dependencies: [
         "45A5E6B642F0DE42",
       ],
+      size: 1.0,
       optional: true,
+      id: "344B82BBFAAFB27B",
       tasks: [
         {
           id: "623BDCDC494AA81C",
           type: "item",
           item: {
-            count: 1,
             id: "storagedrawers:creative_vending_upgrade",
+            count: 1,
           },
         },
       ],
@@ -706,25 +741,27 @@
         {
           id: "1998912A79436892",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 379532711335085,
         },
       ],
     },
     {
-      id: "7BE71D092F5E8CBB",
       x: 4.8,
       y: 13.25,
       dependencies: [
         "45A5E6B642F0DE42",
       ],
+      size: 1.0,
       optional: true,
+      id: "7BE71D092F5E8CBB",
       tasks: [
         {
           id: "276A9E57649400D3",
           type: "item",
           item: {
-            count: 1,
             id: "functionalstorage:creative_vending_upgrade",
+            count: 1,
           },
         },
       ],
@@ -737,25 +774,27 @@
         {
           id: "02F52A3DAAFFEEDA",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 379532711335085,
         },
       ],
     },
     {
-      id: "1F4E2B13182CA4D7",
       x: 6.4,
       y: 13.25,
       dependencies: [
         "45A5E6B642F0DE42",
       ],
+      size: 1.0,
       optional: true,
+      id: "1F4E2B13182CA4D7",
       tasks: [
         {
           id: "50B0A8C23BF03C70",
           type: "item",
           item: {
-            count: 1,
             id: "pipez:infinity_upgrade",
+            count: 1,
           },
         },
       ],
@@ -768,16 +807,15 @@
         {
           id: "2F794E977B2E3197",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 379532711335085,
         },
       ],
     },
     {
-      id: "722C04D403F58970",
       x: 0.0,
       y: 16.85,
       shape: "gear",
-      size: 3.0,
       dependencies: [
         "64B2FEC45C848AF6",
         "2898DC9B19EB906F",
@@ -788,13 +826,15 @@
         "7B22113098F5905B",
         "36FD140C450E50BC",
       ],
+      size: 3.0,
+      id: "722C04D403F58970",
       tasks: [
         {
           id: "71C48400AF0707C5",
           type: "item",
           item: {
-            count: 1,
             id: "gspack:infinity_trophy",
+            count: 1,
           },
         },
       ],
@@ -807,7 +847,8 @@
       ],
     },
   ],
-  quest_links: [ ],
+  quest_links: [
+  ],
   images: [
     {
       x: 5.4,
@@ -816,10 +857,7 @@
       height: 1.4375,
       rotation: 0.0,
       image: "gspack:textures/quests/endgame_header.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false,
+      id: "0964A6E4CB2FADCE",
     },
     {
       x: 1.1647,
@@ -828,10 +866,7 @@
       height: 0.6,
       rotation: 0.0,
       image: "gspack:textures/quests/endgame_singularity.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false,
+      id: "0C0915467E57B272",
     },
     {
       x: 1.1294,
@@ -840,10 +875,7 @@
       height: 0.6,
       rotation: 0.0,
       image: "gspack:textures/quests/endgame_c_energy_cube.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false,
+      id: "05278CDCE3551567",
     },
     {
       x: 1.4118,
@@ -852,10 +884,7 @@
       height: 0.6,
       rotation: 0.0,
       image: "gspack:textures/quests/endgame_trophy.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false,
+      id: "725D8DD0364C8137",
     },
     {
       x: 1.0765,
@@ -864,10 +893,7 @@
       height: 0.6,
       rotation: 0.0,
       image: "gspack:textures/quests/endgame_intro.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false,
+      id: "07D4EBF1A205B408",
     },
     {
       x: 1.1118,
@@ -876,10 +902,7 @@
       height: 0.6,
       rotation: 0.0,
       image: "gspack:textures/quests/endgame_core_tech.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false,
+      id: "79B5370ACCA337F8",
     },
   ],
 }

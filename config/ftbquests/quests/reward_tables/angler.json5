@@ -1,90 +1,82 @@
 {
   id: "00092D359546AB3E",
-  filename: "angler",
   order_index: 6,
   loot_size: 1,
+  hide_tooltip: true,
+  use_title: true,
   rewards: [
     {
       id: "2B7F6FBEF7E0BF3A",
-      type: "item",
       item: {
-        count: 1,
         id: "aquaculture:worm",
+        count: 1,
       },
       count: 16,
       weight: 20.0,
     },
     {
       id: "57F4EF08BB4DA5E0",
-      type: "item",
       item: {
-        count: 1,
         id: "aquaculture:fish_fillet_raw",
+        count: 1,
       },
       count: 8,
       weight: 15.0,
     },
     {
       id: "66EC9B84EC748F3F",
-      type: "item",
       item: {
-        count: 1,
         id: "aquaculture:fishing_line",
+        count: 1,
       },
       count: 4,
       weight: 12.0,
     },
     {
       id: "50719C448AB3C2A9",
-      type: "item",
       item: {
-        count: 1,
         id: "aquaculture:iron_hook",
+        count: 1,
       },
       weight: 10.0,
     },
     {
       id: "2A1DE1CFDDA2CA52",
-      type: "item",
       item: {
-        count: 1,
         id: "aquaculture:gold_hook",
+        count: 1,
       },
       weight: 8.0,
     },
     {
       id: "38E50A156DC782A1",
-      type: "item",
       item: {
-        count: 1,
         id: "aquaculture:box",
+        count: 1,
       },
       weight: 10.0,
     },
     {
       id: "3D0EA72DE7120309",
-      type: "item",
       item: {
-        count: 1,
         id: "aquaculture:lockbox",
+        count: 1,
       },
       weight: 6.0,
     },
     {
       id: "1973E0ABCDC79688",
-      type: "item",
       item: {
-        count: 1,
         id: "aquaculture:treasure_chest",
+        count: 1,
       },
       weight: 3.0,
     },
     {
       id: "54ADFD4F6E1D4AB3",
-      type: "item",
       item: {
-        count: 1,
         id: "aquaculture:neptunium_nugget",
+        count: 1,
       },
       count: 4,
       weight: 5.0,

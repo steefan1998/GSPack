@@ -1,28 +1,28 @@
 {
   id: "20E42E4C1E46563E",
   group: "591262DAFEE441AF",
-  order_index: 7,
-  filename: "apotheosis",
+  order_index: 2,
   icon: {
-    count: 1,
     id: "apotheosis:gem",
+    count: 1,
   },
+  filename: "apotheosis",
   default_quest_shape: "",
   default_hide_dependency_lines: true,
   quests: [
     {
-      id: "0E640229B0CEAA89",
       x: 0.0,
       y: 5.7,
       shape: "gear",
       size: 1.5,
+      id: "0E640229B0CEAA89",
       tasks: [
         {
           id: "75B14B241719280A",
           type: "item",
           item: {
-            count: 1,
             id: "minecraft:enchanting_table",
+            count: 1,
           },
         },
       ],
@@ -36,24 +36,25 @@
           id: "77A2C786A348E724",
           type: "item",
           item: {
-            count: 1,
             id: "minecraft:lapis_lazuli",
+            count: 1,
           },
           count: 32,
         },
       ],
     },
     {
-      id: "2AAC21219A5D3F8F",
+      icon: {
+        id: "minecraft:bookshelf",
+        count: 1,
+      },
       x: 1.6,
       y: 5.7,
-      icon: {
-        count: 1,
-        id: "minecraft:bookshelf",
-      },
       dependencies: [
         "0E640229B0CEAA89",
       ],
+      size: 1.0,
+      id: "2AAC21219A5D3F8F",
       tasks: [
         {
           id: "660F7BF156298BF3",
@@ -69,19 +70,20 @@
       ],
     },
     {
-      id: "59F60E1698228111",
       x: 1.6,
       y: 7.2,
       dependencies: [
         "0E640229B0CEAA89",
       ],
+      size: 1.0,
+      id: "59F60E1698228111",
       tasks: [
         {
           id: "2F9785BCAFA4196F",
           type: "item",
           item: {
-            count: 1,
             id: "apothic_enchanting:hellshelf",
+            count: 1,
           },
           count: 4,
         },
@@ -95,19 +97,20 @@
       ],
     },
     {
-      id: "51C412195C1E92F9",
       x: 1.6,
       y: 4.2,
       dependencies: [
         "0E640229B0CEAA89",
       ],
+      size: 1.0,
+      id: "51C412195C1E92F9",
       tasks: [
         {
           id: "3910BA5154EE2DF1",
           type: "item",
           item: {
-            count: 1,
             id: "apothic_enchanting:seashelf",
+            count: 1,
           },
           count: 4,
         },
@@ -121,20 +124,21 @@
       ],
     },
     {
-      id: "66B64C036563B1A5",
       x: 1.6,
       y: 8.7,
       dependencies: [
         "0E640229B0CEAA89",
       ],
+      size: 1.0,
       optional: true,
+      id: "66B64C036563B1A5",
       tasks: [
         {
           id: "342BA25C361EEE4B",
           type: "item",
           item: {
-            count: 1,
             id: "apothic_enchanting:stoneshelf",
+            count: 1,
           },
         },
       ],
@@ -147,28 +151,29 @@
       ],
     },
     {
-      id: "7ED461B0BD3180C8",
       x: 1.6,
       y: 2.7,
       dependencies: [
         "0E640229B0CEAA89",
       ],
+      size: 1.0,
       optional: true,
+      id: "7ED461B0BD3180C8",
       tasks: [
         {
           id: "74F93374B0EBA155",
           type: "item",
           item: {
-            count: 1,
             id: "apothic_enchanting:beeshelf",
+            count: 1,
           },
         },
         {
           id: "466D7FD6CF7B6EFF",
           type: "item",
           item: {
-            count: 1,
             id: "apothic_enchanting:melonshelf",
+            count: 1,
           },
         },
       ],
@@ -181,28 +186,29 @@
       ],
     },
     {
-      id: "171A777DBE6F4AF7",
       x: 3.2,
       y: 5.7,
       dependencies: [
         "59F60E1698228111",
         "51C412195C1E92F9",
       ],
+      size: 1.0,
+      id: "171A777DBE6F4AF7",
       tasks: [
         {
           id: "564E168B64BD31F7",
           type: "item",
           item: {
-            count: 1,
             id: "apothic_enchanting:infused_hellshelf",
+            count: 1,
           },
         },
         {
           id: "794FAA3AFD90B4CB",
           type: "item",
           item: {
-            count: 1,
             id: "apothic_enchanting:infused_seashelf",
+            count: 1,
           },
         },
       ],
@@ -215,33 +221,35 @@
         {
           id: "4018AEE173FC32A5",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 4314132029995036,
         },
       ],
     },
     {
-      id: "7F06D746292B3817",
       x: 4.8,
       y: 5.7,
       dependencies: [
         "171A777DBE6F4AF7",
       ],
+      size: 1.0,
       optional: true,
+      id: "7F06D746292B3817",
       tasks: [
         {
           id: "1084D221A58002A5",
           type: "item",
           item: {
-            count: 1,
             id: "apothic_enchanting:glowing_hellshelf",
+            count: 1,
           },
         },
         {
           id: "78135268A7D41197",
           type: "item",
           item: {
-            count: 1,
             id: "apothic_enchanting:blazing_hellshelf",
+            count: 1,
           },
         },
       ],
@@ -254,28 +262,29 @@
       ],
     },
     {
-      id: "78BAB5BFDF395D81",
       x: 4.8,
       y: 7.2,
       dependencies: [
         "171A777DBE6F4AF7",
       ],
+      size: 1.0,
       optional: true,
+      id: "78BAB5BFDF395D81",
       tasks: [
         {
           id: "0E06F5C896612F40",
           type: "item",
           item: {
-            count: 1,
             id: "apothic_enchanting:crystal_seashelf",
+            count: 1,
           },
         },
         {
           id: "3586F4480966424A",
           type: "item",
           item: {
-            count: 1,
             id: "apothic_enchanting:heart_seashelf",
+            count: 1,
           },
         },
       ],
@@ -288,19 +297,20 @@
       ],
     },
     {
-      id: "205AAE796A8ED9E7",
       x: 4.8,
       y: 4.2,
       dependencies: [
         "171A777DBE6F4AF7",
       ],
+      size: 1.0,
+      id: "205AAE796A8ED9E7",
       tasks: [
         {
           id: "3A5B417D1ED86682",
           type: "item",
           item: {
-            count: 1,
             id: "apothic_enchanting:deepshelf",
+            count: 1,
           },
           count: 4,
         },
@@ -314,27 +324,28 @@
       ],
     },
     {
-      id: "15E6D193E088A80D",
       x: 6.4,
       y: 4.2,
       dependencies: [
         "205AAE796A8ED9E7",
       ],
+      size: 1.0,
+      id: "15E6D193E088A80D",
       tasks: [
         {
           id: "3E0F5E0B568A6360",
           type: "item",
           item: {
-            count: 1,
             id: "apothic_enchanting:echoing_sculkshelf",
+            count: 1,
           },
         },
         {
           id: "595CB7386C91CB9E",
           type: "item",
           item: {
-            count: 1,
             id: "apothic_enchanting:soul_touched_sculkshelf",
+            count: 1,
           },
         },
       ],
@@ -347,24 +358,26 @@
         {
           id: "564246E7618D4BD0",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "525C13E3C87AAB57",
       x: 6.4,
       y: 5.7,
       dependencies: [
         "205AAE796A8ED9E7",
       ],
+      size: 1.0,
+      id: "525C13E3C87AAB57",
       tasks: [
         {
           id: "4BDF2A96AFC418A0",
           type: "item",
           item: {
-            count: 1,
             id: "apothic_enchanting:endshelf",
+            count: 1,
           },
           count: 4,
         },
@@ -378,24 +391,26 @@
         {
           id: "4D2813AF2D5E154D",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "3DF81B882A534EFB",
       x: 8.0,
       y: 5.7,
       dependencies: [
         "525C13E3C87AAB57",
       ],
+      size: 1.0,
+      id: "3DF81B882A534EFB",
       tasks: [
         {
           id: "2BA3056EA299AFD3",
           type: "item",
           item: {
-            count: 1,
             id: "apothic_enchanting:draconic_endshelf",
+            count: 1,
           },
         },
       ],
@@ -408,24 +423,26 @@
         {
           id: "75FB7EFB12060FDE",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 379532711335085,
         },
       ],
     },
     {
-      id: "2731E3DC3AC76EB6",
       x: 4.8,
       y: 8.7,
       dependencies: [
         "171A777DBE6F4AF7",
       ],
+      size: 1.0,
+      id: "2731E3DC3AC76EB6",
       tasks: [
         {
           id: "002E4FAAD405FA92",
           type: "item",
           item: {
-            count: 1,
             id: "apothic_enchanting:sightshelf",
+            count: 1,
           },
         },
       ],
@@ -438,19 +455,20 @@
       ],
     },
     {
-      id: "76A4A166533AC480",
       x: 8.0,
       y: 7.2,
       dependencies: [
         "525C13E3C87AAB57",
       ],
+      size: 1.0,
+      id: "76A4A166533AC480",
       tasks: [
         {
           id: "31808383958AF6BC",
           type: "item",
           item: {
-            count: 1,
             id: "apothic_enchanting:treasure_shelf",
+            count: 1,
           },
         },
       ],
@@ -463,19 +481,20 @@
       ],
     },
     {
-      id: "6541A79BA1CF2FE9",
       x: 4.8,
       y: 2.7,
       dependencies: [
         "171A777DBE6F4AF7",
       ],
+      size: 1.0,
+      id: "6541A79BA1CF2FE9",
       tasks: [
         {
           id: "6E5E3214B64F9CB9",
           type: "item",
           item: {
-            count: 1,
             id: "apothic_enchanting:filtering_shelf",
+            count: 1,
           },
         },
       ],
@@ -488,19 +507,20 @@
       ],
     },
     {
-      id: "4A9117079066DAAF",
       x: 4.8,
       y: 10.2,
       dependencies: [
         "171A777DBE6F4AF7",
       ],
+      size: 1.0,
+      id: "4A9117079066DAAF",
       tasks: [
         {
           id: "6039BB706571C5FA",
           type: "item",
           item: {
-            count: 1,
             id: "apothic_enchanting:library",
+            count: 1,
           },
         },
       ],
@@ -513,25 +533,27 @@
         {
           id: "10F13C3AB5E87B3A",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 4314132029995036,
         },
       ],
     },
     {
-      id: "1B9B8A2C8C823B86",
       x: 8.0,
       y: 8.7,
       dependencies: [
         "4A9117079066DAAF",
         "525C13E3C87AAB57",
       ],
+      size: 1.0,
+      id: "1B9B8A2C8C823B86",
       tasks: [
         {
           id: "73319B630A84605C",
           type: "item",
           item: {
-            count: 1,
             id: "apothic_enchanting:ender_library",
+            count: 1,
           },
         },
       ],
@@ -544,40 +566,42 @@
         {
           id: "2196F95DD36F31FF",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "1F6286B4C6B65AFB",
       x: 1.6,
       y: 10.2,
       dependencies: [
         "0E640229B0CEAA89",
       ],
+      size: 1.0,
+      id: "1F6286B4C6B65AFB",
       tasks: [
         {
           id: "1A206021A56BA3F4",
           type: "item",
           item: {
-            count: 1,
             id: "apothic_enchanting:scrap_tome",
+            count: 1,
           },
         },
         {
           id: "373193DE46745907",
           type: "item",
           item: {
-            count: 1,
             id: "apothic_enchanting:improved_scrap_tome",
+            count: 1,
           },
         },
         {
           id: "7E45B226C22755DA",
           type: "item",
           item: {
-            count: 1,
             id: "apothic_enchanting:extraction_tome",
+            count: 1,
           },
         },
       ],
@@ -590,28 +614,29 @@
       ],
     },
     {
-      id: "255930C41BF7D5ED",
       x: 1.6,
       y: 1.2,
       dependencies: [
         "0E640229B0CEAA89",
       ],
+      size: 1.0,
       optional: true,
+      id: "255930C41BF7D5ED",
       tasks: [
         {
           id: "2DAA73BB0EF703F7",
           type: "item",
           item: {
-            count: 1,
             id: "apothic_enchanting:pickaxe_tome",
+            count: 1,
           },
         },
         {
           id: "5F128C1680477123",
           type: "item",
           item: {
-            count: 1,
             id: "apothic_enchanting:weapon_tome",
+            count: 1,
           },
         },
       ],
@@ -624,35 +649,36 @@
       ],
     },
     {
-      id: "3013834E0ECED732",
       x: 8.0,
       y: 4.2,
       dependencies: [
         "525C13E3C87AAB57",
       ],
+      size: 1.0,
+      id: "3013834E0ECED732",
       tasks: [
         {
           id: "2C1CB6288C7E97D8",
           type: "item",
           item: {
-            count: 1,
             id: "apothic_enchanting:prismatic_web",
+            count: 1,
           },
         },
         {
           id: "33DC0BDB24A9F4F0",
           type: "item",
           item: {
-            count: 1,
             id: "apothic_enchanting:infused_breath",
+            count: 1,
           },
         },
         {
           id: "01C2544B5D35A1B6",
           type: "item",
           item: {
-            count: 1,
             id: "apothic_enchanting:warden_tendril",
+            count: 1,
           },
         },
       ],
@@ -665,21 +691,23 @@
         {
           id: "693CEF6FA591F3CC",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "76549D310F3BCD52",
+      icon: {
+        id: "minecraft:experience_bottle",
+        count: 1,
+      },
       x: 8.0,
       y: 2.7,
-      icon: {
-        count: 1,
-        id: "minecraft:experience_bottle",
-      },
       dependencies: [
         "525C13E3C87AAB57",
       ],
+      size: 1.0,
+      id: "76549D310F3BCD52",
       tasks: [
         {
           id: "34318E935DF00847",
@@ -697,22 +725,23 @@
         {
           id: "7B466AC574F7E605",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 379532711335085,
         },
       ],
     },
     {
-      id: "1F6096770C121F0F",
       x: 0.0,
       y: 15.8,
       size: 1.5,
+      id: "1F6096770C121F0F",
       tasks: [
         {
           id: "62747B54C51F66B6",
           type: "item",
           item: {
-            count: 1,
             id: "apotheosis:mysterious_scrap_metal",
+            count: 1,
           },
           count: 8,
         },
@@ -726,16 +755,17 @@
       ],
     },
     {
-      id: "2230DD641161A337",
+      icon: {
+        id: "minecraft:iron_sword",
+        count: 1,
+      },
       x: 1.6,
       y: 15.8,
-      icon: {
-        count: 1,
-        id: "minecraft:iron_sword",
-      },
       dependencies: [
         "1F6096770C121F0F",
       ],
+      size: 1.0,
+      id: "2230DD641161A337",
       tasks: [
         {
           id: "34E8E04191CA056E",
@@ -753,24 +783,26 @@
         {
           id: "2FFCA7FF16C07CBC",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 253752461985528,
         },
       ],
     },
     {
-      id: "2995E651D56DEA66",
       x: 1.6,
       y: 17.3,
       dependencies: [
         "1F6096770C121F0F",
       ],
+      size: 1.0,
+      id: "2995E651D56DEA66",
       tasks: [
         {
           id: "691A594D26FACACE",
           type: "item",
           item: {
-            count: 1,
             id: "apotheosis:salvaging_table",
+            count: 1,
           },
         },
       ],
@@ -783,19 +815,20 @@
       ],
     },
     {
-      id: "3844378BA9ED680B",
       x: 3.2,
       y: 17.3,
       dependencies: [
         "2995E651D56DEA66",
       ],
+      size: 1.0,
+      id: "3844378BA9ED680B",
       tasks: [
         {
           id: "79BE3379287CFDB0",
           type: "item",
           item: {
-            count: 1,
             id: "apotheosis:simple_reforging_table",
+            count: 1,
           },
         },
       ],
@@ -808,24 +841,26 @@
         {
           id: "51115F150E8BE456",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "5BF92882A23A1A34",
       x: 4.8,
       y: 17.3,
       dependencies: [
         "3844378BA9ED680B",
       ],
+      size: 1.0,
+      id: "5BF92882A23A1A34",
       tasks: [
         {
           id: "237FA1562529E8E9",
           type: "item",
           item: {
-            count: 1,
             id: "apotheosis:reforging_table",
+            count: 1,
           },
         },
       ],
@@ -838,24 +873,26 @@
         {
           id: "62E5A182C82836A8",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "26F71346A9320B95",
       x: 6.4,
       y: 17.3,
       dependencies: [
         "5BF92882A23A1A34",
       ],
+      size: 1.0,
+      id: "26F71346A9320B95",
       tasks: [
         {
           id: "60C74410489729CA",
           type: "item",
           item: {
-            count: 1,
             id: "apotheosis:augmenting_table",
+            count: 1,
           },
         },
       ],
@@ -868,19 +905,20 @@
       ],
     },
     {
-      id: "5110644C0EAE0BDB",
       x: 1.6,
       y: 14.3,
       dependencies: [
         "1F6096770C121F0F",
       ],
+      size: 1.0,
+      id: "5110644C0EAE0BDB",
       tasks: [
         {
           id: "4392DAC630E9EBCF",
           type: "item",
           item: {
-            count: 1,
             id: "apotheosis:boss_summoner",
+            count: 1,
           },
         },
       ],
@@ -893,21 +931,23 @@
         {
           id: "4409BA8B73C0FF83",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "74B7C58E311667B6",
+      icon: {
+        id: "apotheosis:mysterious_scrap_metal",
+        count: 1,
+      },
       x: 1.6,
       y: 18.8,
-      icon: {
-        count: 1,
-        id: "apotheosis:mysterious_scrap_metal",
-      },
       dependencies: [
         "1F6096770C121F0F",
       ],
+      size: 1.0,
+      id: "74B7C58E311667B6",
       tasks: [
         {
           id: "5D15A6BDEEB8A741",
@@ -924,25 +964,27 @@
         {
           id: "482DB80B0D5B9254",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "64ACB0AEC2543526",
       x: 1.6,
       y: 12.8,
       dependencies: [
         "1F6096770C121F0F",
       ],
+      size: 1.0,
       optional: true,
+      id: "64ACB0AEC2543526",
       tasks: [
         {
           id: "1555BEEF422F12D9",
           type: "item",
           item: {
-            count: 1,
             id: "apotheosis:potion_charm",
+            count: 1,
           },
         },
       ],
@@ -955,20 +997,20 @@
       ],
     },
     {
-      id: "7CB9A35FD56D763A",
       x: 0.0,
       y: 22.9,
-      size: 1.5,
       dependencies: [
         "1F6096770C121F0F",
       ],
+      size: 1.5,
+      id: "7CB9A35FD56D763A",
       tasks: [
         {
           id: "7B249D5D4785CE88",
           type: "item",
           item: {
-            count: 1,
             id: "apotheosis:gem",
+            count: 1,
           },
           count: 3,
         },
@@ -982,24 +1024,26 @@
         {
           id: "50971B73A61BC78B",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 4314132029995036,
         },
       ],
     },
     {
-      id: "4C7FF803BDCA94E2",
       x: 1.6,
       y: 22.9,
       dependencies: [
         "7CB9A35FD56D763A",
       ],
+      size: 1.0,
+      id: "4C7FF803BDCA94E2",
       tasks: [
         {
           id: "2A3F88CE021AC704",
           type: "item",
           item: {
-            count: 1,
             id: "apotheosis:sigil_of_socketing",
+            count: 1,
           },
           count: 2,
         },
@@ -1013,19 +1057,20 @@
       ],
     },
     {
-      id: "16A73685F0E11F74",
       x: 3.2,
       y: 22.9,
       dependencies: [
         "4C7FF803BDCA94E2",
       ],
+      size: 1.0,
+      id: "16A73685F0E11F74",
       tasks: [
         {
           id: "33645D009BA69812",
           type: "item",
           item: {
-            count: 1,
             id: "apotheosis:sigil_of_withdrawal",
+            count: 1,
           },
         },
       ],
@@ -1038,27 +1083,28 @@
       ],
     },
     {
-      id: "24E1D7F31C0BA376",
       x: 1.6,
       y: 24.4,
       dependencies: [
         "7CB9A35FD56D763A",
       ],
+      size: 1.0,
+      id: "24E1D7F31C0BA376",
       tasks: [
         {
           id: "4D9580690C9D69EB",
           type: "item",
           item: {
-            count: 1,
             id: "apotheosis:gem_cutting_table",
+            count: 1,
           },
         },
         {
           id: "3E23D56712B0BE61",
           type: "item",
           item: {
-            count: 1,
             id: "apotheosis:gem_dust",
+            count: 1,
           },
           count: 16,
         },
@@ -1072,20 +1118,21 @@
       ],
     },
     {
-      id: "765EF0A77E33E311",
       x: 1.6,
       y: 21.4,
       dependencies: [
         "7CB9A35FD56D763A",
       ],
+      size: 1.0,
       optional: true,
+      id: "765EF0A77E33E311",
       tasks: [
         {
           id: "2C850319A32AE892",
           type: "item",
           item: {
-            count: 1,
             id: "apotheosis:gem_case",
+            count: 1,
           },
         },
       ],
@@ -1098,20 +1145,21 @@
       ],
     },
     {
-      id: "3041150808B4EF94",
       x: 3.2,
       y: 24.4,
       dependencies: [
         "24E1D7F31C0BA376",
         "3844378BA9ED680B",
       ],
+      size: 1.0,
+      id: "3041150808B4EF94",
       tasks: [
         {
           id: "3C0AA619B007961D",
           type: "item",
           item: {
-            count: 1,
             id: "apotheosis:sigil_of_enhancement",
+            count: 1,
           },
         },
       ],
@@ -1124,33 +1172,35 @@
         {
           id: "18889846618E60F8",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 379532711335085,
         },
       ],
     },
     {
-      id: "036E58938C1711E4",
       x: 4.8,
       y: 24.4,
       dependencies: [
         "3041150808B4EF94",
       ],
+      size: 1.0,
       optional: true,
+      id: "036E58938C1711E4",
       tasks: [
         {
           id: "58106EE6A86FB28B",
           type: "item",
           item: {
-            count: 1,
             id: "apotheosis:sigil_of_rebirth",
+            count: 1,
           },
         },
         {
           id: "229D34BB2C55B7C9",
           type: "item",
           item: {
-            count: 1,
             id: "apotheosis:sigil_of_malice",
+            count: 1,
           },
         },
       ],
@@ -1163,19 +1213,20 @@
       ],
     },
     {
-      id: "1766D169F849CC07",
       x: 4.8,
       y: 25.9,
       dependencies: [
         "3041150808B4EF94",
       ],
+      size: 1.0,
+      id: "1766D169F849CC07",
       tasks: [
         {
           id: "2D4BBFC403219A68",
           type: "item",
           item: {
-            count: 1,
             id: "apotheosis:sigil_of_supremacy",
+            count: 1,
           },
         },
       ],
@@ -1188,26 +1239,27 @@
         {
           id: "4EC2FE331CD8BB9B",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 379532711335085,
         },
       ],
     },
     {
-      id: "1346C69E953D3293",
       x: 6.4,
       y: 25.9,
       shape: "gear",
-      size: 2.0,
       dependencies: [
         "1766D169F849CC07",
       ],
+      size: 2.0,
+      id: "1346C69E953D3293",
       tasks: [
         {
           id: "1CA9D3F63215C94B",
           type: "item",
           item: {
-            count: 1,
             id: "apotheosis:godforged_pearl",
+            count: 1,
           },
         },
       ],
@@ -1220,25 +1272,27 @@
         {
           id: "699DE3AD1051368E",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 379532711335085,
         },
       ],
     },
     {
-      id: "307865E05B087381",
       x: 0.0,
       y: 24.4,
       dependencies: [
         "1F6096770C121F0F",
       ],
+      size: 1.0,
       optional: true,
+      id: "307865E05B087381",
       tasks: [
         {
           id: "5EE05A516C119C51",
           type: "item",
           item: {
-            count: 1,
             id: "apotheosis:iron_upgrade_smithing_template",
+            count: 1,
           },
         },
       ],
@@ -1251,17 +1305,17 @@
       ],
     },
     {
-      id: "6A127CCD085FD524",
       x: 0.0,
       y: 31.5,
       size: 1.5,
+      id: "6A127CCD085FD524",
       tasks: [
         {
           id: "70A7610F2A43026D",
           type: "item",
           item: {
-            count: 1,
             id: "minecraft:spawner",
+            count: 1,
           },
         },
       ],
@@ -1274,19 +1328,20 @@
       ],
     },
     {
-      id: "4369E2408BC93C8C",
       x: 1.6,
       y: 31.5,
       dependencies: [
         "6A127CCD085FD524",
       ],
+      size: 1.0,
+      id: "4369E2408BC93C8C",
       tasks: [
         {
           id: "0A618471B076E7BC",
           type: "item",
           item: {
-            count: 1,
             id: "apotheosis:spawner_rune",
+            count: 1,
           },
         },
       ],
@@ -1299,24 +1354,26 @@
         {
           id: "55E6A1A3050C3E91",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 4314132029995036,
         },
       ],
     },
     {
-      id: "0A2172DCCEA2116B",
       x: 3.2,
       y: 31.5,
       dependencies: [
         "4369E2408BC93C8C",
       ],
+      size: 1.0,
+      id: "0A2172DCCEA2116B",
       tasks: [
         {
           id: "0EC7897F56B55FCC",
           type: "item",
           item: {
-            count: 1,
             id: "apotheosis:youthful_spawner_rune",
+            count: 1,
           },
         },
       ],
@@ -1329,19 +1386,20 @@
       ],
     },
     {
-      id: "02331199FBBA102A",
       x: 3.2,
       y: 33.0,
       dependencies: [
         "4369E2408BC93C8C",
       ],
+      size: 1.0,
+      id: "02331199FBBA102A",
       tasks: [
         {
           id: "14A5FB5866398049",
           type: "item",
           item: {
-            count: 1,
             id: "apotheosis:ignore_players_spawner_rune",
+            count: 1,
           },
         },
       ],
@@ -1354,24 +1412,26 @@
         {
           id: "3FD639E890F3AA0A",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "5AED9A2A0FA9FBDF",
       x: 3.2,
       y: 30.0,
       dependencies: [
         "4369E2408BC93C8C",
       ],
+      size: 1.0,
+      id: "5AED9A2A0FA9FBDF",
       tasks: [
         {
           id: "35609CEFA97E0183",
           type: "item",
           item: {
-            count: 1,
             id: "apotheosis:ignore_light_spawner_rune",
+            count: 1,
           },
         },
       ],
@@ -1384,19 +1444,20 @@
       ],
     },
     {
-      id: "41BCF8BB904AA751",
       x: 3.2,
       y: 34.5,
       dependencies: [
         "4369E2408BC93C8C",
       ],
+      size: 1.0,
+      id: "41BCF8BB904AA751",
       tasks: [
         {
           id: "6209D95B4B0ACFED",
           type: "item",
           item: {
-            count: 1,
             id: "apotheosis:redstone_control_spawner_rune",
+            count: 1,
           },
         },
       ],
@@ -1409,20 +1470,21 @@
       ],
     },
     {
-      id: "3BD283833F32FA67",
       x: 3.2,
       y: 28.5,
       dependencies: [
         "4369E2408BC93C8C",
       ],
+      size: 1.0,
       optional: true,
+      id: "3BD283833F32FA67",
       tasks: [
         {
           id: "3B4D0C4138B4053F",
           type: "item",
           item: {
-            count: 1,
             id: "apotheosis:silent_spawner_rune",
+            count: 1,
           },
         },
       ],
@@ -1435,19 +1497,20 @@
       ],
     },
     {
-      id: "5167611CE78CD81B",
       x: 4.8,
       y: 33.0,
       dependencies: [
         "02331199FBBA102A",
       ],
+      size: 1.0,
+      id: "5167611CE78CD81B",
       tasks: [
         {
           id: "4D74ADDC22952779",
           type: "item",
           item: {
-            count: 1,
             id: "apotheosis:no_ai_spawner_rune",
+            count: 1,
           },
         },
       ],
@@ -1460,27 +1523,28 @@
       ],
     },
     {
-      id: "45E7715EFBEB197C",
       x: 4.8,
       y: 31.5,
       dependencies: [
         "0A2172DCCEA2116B",
       ],
+      size: 1.0,
+      id: "45E7715EFBEB197C",
       tasks: [
         {
           id: "4F02EB549FBC2D32",
           type: "item",
           item: {
-            count: 1,
             id: "apotheosis:frontier_spawner_upgrade_rune",
+            count: 1,
           },
         },
         {
           id: "15FC6C21730CD266",
           type: "item",
           item: {
-            count: 1,
             id: "apotheosis:ascent_spawner_upgrade_rune",
+            count: 1,
           },
         },
       ],
@@ -1493,34 +1557,35 @@
         {
           id: "48B90D85551BA36B",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "4D29D71C4EA68DD6",
       x: 6.4,
       y: 31.5,
       shape: "hexagon",
-      size: 1.5,
       dependencies: [
         "45E7715EFBEB197C",
       ],
+      size: 1.5,
+      id: "4D29D71C4EA68DD6",
       tasks: [
         {
           id: "45CF57261808F908",
           type: "item",
           item: {
-            count: 1,
             id: "apotheosis:summit_spawner_upgrade_rune",
+            count: 1,
           },
         },
         {
           id: "31256F5F0AE29B90",
           type: "item",
           item: {
-            count: 1,
             id: "apotheosis:pinnacle_spawner_upgrade_rune",
+            count: 1,
           },
         },
       ],
@@ -1533,12 +1598,14 @@
         {
           id: "7B2330C551A6871D",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 379532711335085,
         },
       ],
     },
   ],
-  quest_links: [ ],
+  quest_links: [
+  ],
   images: [
     {
       x: 5.4,
@@ -1547,10 +1614,7 @@
       height: 1.4375,
       rotation: 0.0,
       image: "gspack:textures/quests/apotheosis_header.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false,
+      id: "547884B8823E5872",
     },
     {
       x: 0.2294,
@@ -1559,10 +1623,7 @@
       height: 0.6,
       rotation: 0.0,
       image: "gspack:textures/quests/apotheosis_gems.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false,
+      id: "71EF3C88D9A9D379",
     },
     {
       x: 0.6529,
@@ -1571,10 +1632,7 @@
       height: 0.6,
       rotation: 0.0,
       image: "gspack:textures/quests/apotheosis_spawner.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false,
+      id: "2E15649708F60C16",
     },
     {
       x: 0.6353,
@@ -1583,10 +1641,7 @@
       height: 0.6,
       rotation: 0.0,
       image: "gspack:textures/quests/apotheosis_affix.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false,
+      id: "256DDDD5D5FC8419",
     },
     {
       x: 0.7941,
@@ -1595,10 +1650,7 @@
       height: 0.6,
       rotation: 0.0,
       image: "gspack:textures/quests/apotheosis_start.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false,
+      id: "3C3AAC7C7B6F7B06",
     },
   ],
 }

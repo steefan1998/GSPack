@@ -1,28 +1,28 @@
 {
   id: "7E23924E0E06C8EC",
   group: "7B03F4760298D646",
-  order_index: 16,
-  filename: "building",
+  order_index: 1,
   icon: {
-    count: 1,
     id: "mcwfurnitures:oak_chair",
+    count: 1,
   },
+  filename: "building",
   default_quest_shape: "",
   default_hide_dependency_lines: true,
   quests: [
     {
-      id: "270AA2E509417668",
       x: 0.0,
       y: 2.7,
       shape: "gear",
       size: 1.5,
+      id: "270AA2E509417668",
       tasks: [
         {
           id: "4D8DBABA60A0744D",
           type: "item",
           item: {
-            count: 1,
             id: "constructionstick:wooden_stick",
+            count: 1,
           },
         },
       ],
@@ -35,24 +35,26 @@
         {
           id: "0A063CFEDAA0483F",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 4224964620844649,
         },
       ],
     },
     {
-      id: "75967C897793BFF8",
       x: 1.6,
       y: 2.7,
       dependencies: [
         "270AA2E509417668",
       ],
+      size: 1.0,
+      id: "75967C897793BFF8",
       tasks: [
         {
           id: "66A9AE1A2D5F134F",
           type: "item",
           item: {
-            count: 1,
             id: "constructionstick:iron_stick",
+            count: 1,
           },
         },
       ],
@@ -65,19 +67,20 @@
       ],
     },
     {
-      id: "6C0BDC1F48F3A2D3",
       x: 3.2,
       y: 2.7,
       dependencies: [
         "75967C897793BFF8",
       ],
+      size: 1.0,
+      id: "6C0BDC1F48F3A2D3",
       tasks: [
         {
           id: "4D3198B95C865382",
           type: "item",
           item: {
-            count: 1,
             id: "constructionstick:diamond_stick",
+            count: 1,
           },
         },
       ],
@@ -90,19 +93,20 @@
       ],
     },
     {
-      id: "44172A55E688E226",
       x: 4.8,
       y: 2.7,
       dependencies: [
         "6C0BDC1F48F3A2D3",
       ],
+      size: 1.0,
+      id: "44172A55E688E226",
       tasks: [
         {
           id: "0E41F583EA530A18",
           type: "item",
           item: {
-            count: 1,
             id: "constructionstick:netherite_stick",
+            count: 1,
           },
         },
       ],
@@ -115,41 +119,43 @@
         {
           id: "232D8B79C3CB4E07",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 253752461985528,
         },
       ],
     },
     {
-      id: "654DF46DC64CBF8D",
       x: 4.8,
       y: 4.2,
       dependencies: [
         "6C0BDC1F48F3A2D3",
       ],
+      size: 1.0,
       optional: true,
+      id: "654DF46DC64CBF8D",
       tasks: [
         {
           id: "254C43D181AC172D",
           type: "item",
           item: {
-            count: 1,
             id: "constructionstick:template_angel",
+            count: 1,
           },
         },
         {
           id: "0CCEFD21F67B6DF9",
           type: "item",
           item: {
-            count: 1,
             id: "constructionstick:template_destruction",
+            count: 1,
           },
         },
         {
           id: "390DEC190E68E781",
           type: "item",
           item: {
-            count: 1,
             id: "constructionstick:template_replacement",
+            count: 1,
           },
         },
       ],
@@ -162,19 +168,20 @@
       ],
     },
     {
-      id: "13F33C12A0BE613C",
       x: 3.2,
       y: 4.2,
       dependencies: [
         "75967C897793BFF8",
       ],
+      size: 1.0,
+      id: "13F33C12A0BE613C",
       tasks: [
         {
           id: "7737A96D6ACB6AF9",
           type: "item",
           item: {
-            count: 1,
             id: "buildinggadgets2:gadget_building",
+            count: 1,
           },
         },
       ],
@@ -187,24 +194,26 @@
         {
           id: "4C9CBFA87BD2121E",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 253752461985528,
         },
       ],
     },
     {
-      id: "2FF4B64B78C1F526",
       x: 4.8,
       y: 5.7,
       dependencies: [
         "13F33C12A0BE613C",
       ],
+      size: 1.0,
+      id: "2FF4B64B78C1F526",
       tasks: [
         {
           id: "26AD541B9F5F6661",
           type: "item",
           item: {
-            count: 1,
             id: "buildinggadgets2:gadget_exchanging",
+            count: 1,
           },
         },
       ],
@@ -217,27 +226,28 @@
       ],
     },
     {
-      id: "262658C0C62D0DE0",
       x: 4.8,
       y: 7.2,
       dependencies: [
         "13F33C12A0BE613C",
       ],
+      size: 1.0,
+      id: "262658C0C62D0DE0",
       tasks: [
         {
           id: "0F62EF3FCC2C9789",
           type: "item",
           item: {
-            count: 1,
             id: "buildinggadgets2:gadget_copy_paste",
+            count: 1,
           },
         },
         {
           id: "41F3741263CDB117",
           type: "item",
           item: {
-            count: 1,
             id: "buildinggadgets2:template_manager",
+            count: 1,
           },
         },
       ],
@@ -250,25 +260,27 @@
         {
           id: "6FA37B33BCAA9BED",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "509A6CAF1F9BDD4A",
       x: 4.8,
       y: 1.2,
       dependencies: [
         "13F33C12A0BE613C",
       ],
+      size: 1.0,
       optional: true,
+      id: "509A6CAF1F9BDD4A",
       tasks: [
         {
           id: "435491610B320F0C",
           type: "item",
           item: {
-            count: 1,
             id: "buildinggadgets2:gadget_destruction",
+            count: 1,
           },
         },
       ],
@@ -281,27 +293,28 @@
       ],
     },
     {
-      id: "313678C93C3E8201",
       x: 6.4,
       y: 7.2,
       dependencies: [
         "262658C0C62D0DE0",
       ],
+      size: 1.0,
+      id: "313678C93C3E8201",
       tasks: [
         {
           id: "3B01DD390FD6048A",
           type: "item",
           item: {
-            count: 1,
             id: "rftoolsbuilder:builder",
+            count: 1,
           },
         },
         {
           id: "7852A0F6017233EE",
           type: "item",
           item: {
-            count: 1,
             id: "rftoolsbuilder:shape_card_def",
+            count: 1,
           },
         },
       ],
@@ -314,25 +327,27 @@
         {
           id: "08EB7634CA7FDF20",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "2AE318A75DE8F93A",
       x: 8.0,
       y: 7.2,
       dependencies: [
         "313678C93C3E8201",
       ],
+      size: 1.0,
       optional: true,
+      id: "2AE318A75DE8F93A",
       tasks: [
         {
           id: "74AC1B03F61BAEFC",
           type: "item",
           item: {
-            count: 1,
             id: "rftoolsbuilder:shape_card_quarry",
+            count: 1,
           },
         },
       ],
@@ -345,28 +360,29 @@
       ],
     },
     {
-      id: "7D425CC1CC30B1F7",
       x: 8.0,
       y: 8.7,
       dependencies: [
         "313678C93C3E8201",
       ],
+      size: 1.0,
       optional: true,
+      id: "7D425CC1CC30B1F7",
       tasks: [
         {
           id: "1DA83345B1CC5AF4",
           type: "item",
           item: {
-            count: 1,
             id: "rftoolsbuilder:space_chamber_controller",
+            count: 1,
           },
         },
         {
           id: "24B8BA30F52EE160",
           type: "item",
           item: {
-            count: 1,
             id: "rftoolsbuilder:space_chamber_card",
+            count: 1,
           },
         },
       ],
@@ -379,25 +395,25 @@
       ],
     },
     {
-      id: "210CDA2203AF717F",
       x: 0.0,
       y: 14.3,
       size: 1.5,
+      id: "210CDA2203AF717F",
       tasks: [
         {
           id: "438C69274EE9ED0A",
           type: "item",
           item: {
-            count: 1,
             id: "mcwfurnitures:oak_chair",
+            count: 1,
           },
         },
         {
           id: "0A34EB8D6C4F2683",
           type: "item",
           item: {
-            count: 1,
             id: "mcwfurnitures:oak_table",
+            count: 1,
           },
         },
       ],
@@ -410,32 +426,34 @@
         {
           id: "7ADA8F8FBDFC7E38",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 4224964620844649,
         },
       ],
     },
     {
-      id: "4299B772F0CD2230",
       x: 1.6,
       y: 14.3,
       dependencies: [
         "210CDA2203AF717F",
       ],
+      size: 1.0,
+      id: "4299B772F0CD2230",
       tasks: [
         {
           id: "41636C123D61E4EC",
           type: "item",
           item: {
-            count: 1,
             id: "mcwfurnitures:oak_kitchen_cabinet",
+            count: 1,
           },
         },
         {
           id: "71D6480ED49DD66A",
           type: "item",
           item: {
-            count: 1,
             id: "mcwfurnitures:oak_counter",
+            count: 1,
           },
         },
       ],
@@ -448,27 +466,28 @@
       ],
     },
     {
-      id: "138B8C634E681E30",
       x: 1.6,
       y: 15.8,
       dependencies: [
         "210CDA2203AF717F",
       ],
+      size: 1.0,
+      id: "138B8C634E681E30",
       tasks: [
         {
           id: "65077A60F969E62E",
           type: "item",
           item: {
-            count: 1,
             id: "mcwfurnitures:oak_wardrobe",
+            count: 1,
           },
         },
         {
           id: "6E44790BF787CE74",
           type: "item",
           item: {
-            count: 1,
             id: "mcwfurnitures:oak_drawer",
+            count: 1,
           },
         },
       ],
@@ -481,28 +500,29 @@
       ],
     },
     {
-      id: "6B42C45E357C8DB7",
       x: 1.6,
       y: 12.8,
       dependencies: [
         "210CDA2203AF717F",
       ],
+      size: 1.0,
       optional: true,
+      id: "6B42C45E357C8DB7",
       tasks: [
         {
           id: "2D63B3F173C615D7",
           type: "item",
           item: {
-            count: 1,
             id: "mcwfurnitures:oak_desk",
+            count: 1,
           },
         },
         {
           id: "696398E75ECDB387",
           type: "item",
           item: {
-            count: 1,
             id: "mcwfurnitures:oak_bookshelf",
+            count: 1,
           },
         },
       ],
@@ -515,35 +535,36 @@
       ],
     },
     {
-      id: "1FCF4DE8A203DAB2",
       x: 1.6,
       y: 17.3,
       dependencies: [
         "210CDA2203AF717F",
       ],
+      size: 1.0,
+      id: "1FCF4DE8A203DAB2",
       tasks: [
         {
           id: "1E4BB6ADF38D96BA",
           type: "item",
           item: {
-            count: 1,
             id: "mcwlights:chain_lantern",
+            count: 1,
           },
         },
         {
           id: "04E6E7FDFFF94CE5",
           type: "item",
           item: {
-            count: 1,
             id: "mcwlights:wall_lantern",
+            count: 1,
           },
         },
         {
           id: "78E8D4D940210802",
           type: "item",
           item: {
-            count: 1,
             id: "mcwlights:iron_chandelier",
+            count: 1,
           },
         },
       ],
@@ -556,28 +577,29 @@
       ],
     },
     {
-      id: "2116E883CDE05CF1",
       x: 3.2,
       y: 17.3,
       dependencies: [
         "1FCF4DE8A203DAB2",
       ],
+      size: 1.0,
       optional: true,
+      id: "2116E883CDE05CF1",
       tasks: [
         {
           id: "75DFB1CB3261D95F",
           type: "item",
           item: {
-            count: 1,
             id: "mcwlights:classic_street_lamp",
+            count: 1,
           },
         },
         {
           id: "4C427FB74295A40A",
           type: "item",
           item: {
-            count: 1,
             id: "mcwlights:oak_tiki_torch",
+            count: 1,
           },
         },
       ],
@@ -590,28 +612,29 @@
       ],
     },
     {
-      id: "6BE4F386E0024706",
       x: 1.6,
       y: 11.3,
       dependencies: [
         "210CDA2203AF717F",
       ],
+      size: 1.0,
       optional: true,
+      id: "6BE4F386E0024706",
       tasks: [
         {
           id: "5AFE9F8E8FB016EE",
           type: "item",
           item: {
-            count: 1,
             id: "mcwholidays:snowman",
+            count: 1,
           },
         },
         {
           id: "64D1B6EF99E6DF82",
           type: "item",
           item: {
-            count: 1,
             id: "mcwholidays:large_pumpkin",
+            count: 1,
           },
         },
       ],
@@ -624,33 +647,33 @@
       ],
     },
     {
-      id: "4FBD4707B4E310A0",
       x: 0.0,
       y: 24.4,
       size: 1.5,
+      id: "4FBD4707B4E310A0",
       tasks: [
         {
           id: "3E77BFA045A77A44",
           type: "item",
           item: {
-            count: 1,
             id: "mcwroofs:oak_roof",
+            count: 1,
           },
         },
         {
           id: "52C1FE31065D71FB",
           type: "item",
           item: {
-            count: 1,
             id: "mcwroofs:oak_steep_roof",
+            count: 1,
           },
         },
         {
           id: "0FB5CEC58BA243F4",
           type: "item",
           item: {
-            count: 1,
             id: "mcwroofs:oak_top_roof",
+            count: 1,
           },
         },
       ],
@@ -663,25 +686,27 @@
         {
           id: "5ACC23684DB62A34",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 4224964620844649,
         },
       ],
     },
     {
-      id: "5E9FB5F59C19F603",
       x: 1.6,
       y: 24.4,
       dependencies: [
         "4FBD4707B4E310A0",
       ],
+      size: 1.0,
       optional: true,
+      id: "5E9FB5F59C19F603",
       tasks: [
         {
           id: "7EE7E2656304BB16",
           type: "item",
           item: {
-            count: 1,
             id: "mcwroofs:rain_gutter",
+            count: 1,
           },
         },
       ],
@@ -694,27 +719,28 @@
       ],
     },
     {
-      id: "7844229D8A5D42EB",
       x: 1.6,
       y: 25.9,
       dependencies: [
         "4FBD4707B4E310A0",
       ],
+      size: 1.0,
+      id: "7844229D8A5D42EB",
       tasks: [
         {
           id: "4211B976EB5C7682",
           type: "item",
           item: {
-            count: 1,
             id: "mcwwindows:oak_window",
+            count: 1,
           },
         },
         {
           id: "57D3254801577978",
           type: "item",
           item: {
-            count: 1,
             id: "mcwwindows:oak_four_window",
+            count: 1,
           },
         },
       ],
@@ -727,36 +753,37 @@
       ],
     },
     {
-      id: "4A439AB2B78DB62E",
       x: 3.2,
       y: 25.9,
       dependencies: [
         "7844229D8A5D42EB",
       ],
+      size: 1.0,
       optional: true,
+      id: "4A439AB2B78DB62E",
       tasks: [
         {
           id: "787A2B32656F76DA",
           type: "item",
           item: {
-            count: 1,
             id: "mcwwindows:oak_shutter",
+            count: 1,
           },
         },
         {
           id: "520A1CDC457341F7",
           type: "item",
           item: {
-            count: 1,
             id: "mcwwindows:oak_curtain_rod",
+            count: 1,
           },
         },
         {
           id: "1437F2DF1D9670F2",
           type: "item",
           item: {
-            count: 1,
             id: "mcwwindows:oak_blinds",
+            count: 1,
           },
         },
       ],
@@ -769,35 +796,36 @@
       ],
     },
     {
-      id: "6EB0DD3E87942DEF",
       x: 1.6,
       y: 22.9,
       dependencies: [
         "4FBD4707B4E310A0",
       ],
+      size: 1.0,
+      id: "6EB0DD3E87942DEF",
       tasks: [
         {
           id: "0259B8A6288452D3",
           type: "item",
           item: {
-            count: 1,
             id: "mcwdoors:oak_cottage_door",
+            count: 1,
           },
         },
         {
           id: "00D140A0A69678C4",
           type: "item",
           item: {
-            count: 1,
             id: "mcwdoors:oak_barn_door",
+            count: 1,
           },
         },
         {
           id: "2DF2568C2202F4CE",
           type: "item",
           item: {
-            count: 1,
             id: "mcwdoors:oak_glass_door",
+            count: 1,
           },
         },
       ],
@@ -810,20 +838,21 @@
       ],
     },
     {
-      id: "3D7B6C4B750A6D0A",
       x: 3.2,
       y: 22.9,
       dependencies: [
         "6EB0DD3E87942DEF",
       ],
+      size: 1.0,
       optional: true,
+      id: "3D7B6C4B750A6D0A",
       tasks: [
         {
           id: "2D8A65FBA70173E7",
           type: "item",
           item: {
-            count: 1,
             id: "mcwtrpdoors:metal_trapdoor",
+            count: 1,
           },
         },
       ],
@@ -836,35 +865,36 @@
       ],
     },
     {
-      id: "050FE5C52EB9C6EA",
       x: 1.6,
       y: 27.4,
       dependencies: [
         "4FBD4707B4E310A0",
       ],
+      size: 1.0,
+      id: "050FE5C52EB9C6EA",
       tasks: [
         {
           id: "39D60CF401564BE7",
           type: "item",
           item: {
-            count: 1,
             id: "mcwstairs:oak_bulk_stairs",
+            count: 1,
           },
         },
         {
           id: "0F85AB9BD8E21992",
           type: "item",
           item: {
-            count: 1,
             id: "mcwstairs:oak_balcony",
+            count: 1,
           },
         },
         {
           id: "3A95F75C0952E984",
           type: "item",
           item: {
-            count: 1,
             id: "mcwstairs:oak_railing",
+            count: 1,
           },
         },
       ],
@@ -877,27 +907,28 @@
       ],
     },
     {
-      id: "5AD446E5EF047437",
       x: 1.6,
       y: 21.4,
       dependencies: [
         "4FBD4707B4E310A0",
       ],
+      size: 1.0,
+      id: "5AD446E5EF047437",
       tasks: [
         {
           id: "757B68C68474C4B1",
           type: "item",
           item: {
-            count: 1,
             id: "mcwfences:oak_picket_fence",
+            count: 1,
           },
         },
         {
           id: "4C723112403F63A9",
           type: "item",
           item: {
-            count: 1,
             id: "mcwfences:oak_hedge",
+            count: 1,
           },
         },
       ],
@@ -910,27 +941,28 @@
       ],
     },
     {
-      id: "329DB96676A4E45C",
       x: 3.2,
       y: 21.4,
       dependencies: [
         "5AD446E5EF047437",
       ],
+      size: 1.0,
+      id: "329DB96676A4E45C",
       tasks: [
         {
           id: "4CA852BC4512D1BE",
           type: "item",
           item: {
-            count: 1,
             id: "mcwbridges:rope_oak_bridge",
+            count: 1,
           },
         },
         {
           id: "27F13EB679A6E37D",
           type: "item",
           item: {
-            count: 1,
             id: "mcwbridges:stone_brick_bridge",
+            count: 1,
           },
         },
       ],
@@ -943,27 +975,28 @@
       ],
     },
     {
-      id: "5AA8D243918546FA",
       x: 3.2,
       y: 19.9,
       dependencies: [
         "5AD446E5EF047437",
       ],
+      size: 1.0,
+      id: "5AA8D243918546FA",
       tasks: [
         {
           id: "3FC43FF58C8FE061",
           type: "item",
           item: {
-            count: 1,
             id: "mcwpaths:andesite_flagstone",
+            count: 1,
           },
         },
         {
           id: "22D2F6079513D414",
           type: "item",
           item: {
-            count: 1,
             id: "mcwpaths:andesite_basket_weave_paving",
+            count: 1,
           },
         },
       ],
@@ -976,17 +1009,17 @@
       ],
     },
     {
-      id: "20A049CDBF046E7F",
       x: 0.0,
       y: 31.75,
       size: 1.5,
+      id: "20A049CDBF046E7F",
       tasks: [
         {
           id: "1E231F7F33EB0A92",
           type: "item",
           item: {
-            count: 1,
             id: "rechiseled:chisel",
+            count: 1,
           },
         },
       ],
@@ -999,41 +1032,43 @@
         {
           id: "49ED6C2D19AA99F2",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 4224964620844649,
         },
       ],
     },
     {
-      id: "3429737B24B948FA",
       x: 1.6,
       y: 31.75,
       dependencies: [
         "20A049CDBF046E7F",
       ],
+      size: 1.0,
       optional: true,
+      id: "3429737B24B948FA",
       tasks: [
         {
           id: "42FC1EBA4731659B",
           type: "item",
           item: {
-            count: 1,
             id: "rechiseled:basalt_tiles",
+            count: 1,
           },
         },
         {
           id: "7AE741482BD87C20",
           type: "item",
           item: {
-            count: 1,
             id: "rechiseled:basalt_pattern",
+            count: 1,
           },
         },
         {
           id: "1B35AB49B39D48FC",
           type: "item",
           item: {
-            count: 1,
             id: "rechiseled:amethyst_block_tiles",
+            count: 1,
           },
         },
       ],
@@ -1046,35 +1081,36 @@
       ],
     },
     {
-      id: "29DC83467A6DBE74",
       x: 1.6,
       y: 33.25,
       dependencies: [
         "20A049CDBF046E7F",
       ],
+      size: 1.0,
+      id: "29DC83467A6DBE74",
       tasks: [
         {
           id: "33B11767ADDBA37B",
           type: "item",
           item: {
-            count: 1,
             id: "framedblocks:framed_cube",
+            count: 1,
           },
         },
         {
           id: "3B87AD6D714D1D10",
           type: "item",
           item: {
-            count: 1,
             id: "framedblocks:framed_slab",
+            count: 1,
           },
         },
         {
           id: "5698072ECEE027A0",
           type: "item",
           item: {
-            count: 1,
             id: "framedblocks:framed_stairs",
+            count: 1,
           },
         },
       ],
@@ -1087,19 +1123,20 @@
       ],
     },
     {
-      id: "749A1AC899B0777E",
       x: 3.2,
       y: 33.25,
       dependencies: [
         "29DC83467A6DBE74",
       ],
+      size: 1.0,
+      id: "749A1AC899B0777E",
       tasks: [
         {
           id: "570E73B6790F4108",
           type: "item",
           item: {
-            count: 1,
             id: "framedblocks:framing_saw",
+            count: 1,
           },
         },
       ],
@@ -1112,36 +1149,37 @@
       ],
     },
     {
-      id: "368F6BF38C06E515",
       x: 3.2,
       y: 34.75,
       dependencies: [
         "29DC83467A6DBE74",
       ],
+      size: 1.0,
       optional: true,
+      id: "368F6BF38C06E515",
       tasks: [
         {
           id: "75C438D80CCFD280",
           type: "item",
           item: {
-            count: 1,
             id: "framedblocks:framed_hammer",
+            count: 1,
           },
         },
         {
           id: "5171AFFFABD7831C",
           type: "item",
           item: {
-            count: 1,
             id: "framedblocks:framed_wrench",
+            count: 1,
           },
         },
         {
           id: "056193CCB63C2111",
           type: "item",
           item: {
-            count: 1,
             id: "framedblocks:framed_screwdriver",
+            count: 1,
           },
         },
       ],
@@ -1154,20 +1192,21 @@
       ],
     },
     {
-      id: "5313D4FFAE371510",
       x: 3.2,
       y: 31.75,
       dependencies: [
         "29DC83467A6DBE74",
       ],
+      size: 1.0,
       optional: true,
+      id: "5313D4FFAE371510",
       tasks: [
         {
           id: "536CFF3DE8CE6731",
           type: "item",
           item: {
-            count: 1,
             id: "framedblocks:framed_chest",
+            count: 1,
           },
         },
       ],
@@ -1180,15 +1219,13 @@
       ],
     },
     {
-      id: "38E73FB59EAE4C4C",
+      icon: {
+        id: "mcwroofs:oak_roof",
+        count: 1,
+      },
       x: 3.2,
       y: 30.25,
       shape: "hexagon",
-      size: 1.5,
-      icon: {
-        count: 1,
-        id: "mcwroofs:oak_roof",
-      },
       dependencies: [
         "210CDA2203AF717F",
         "4FBD4707B4E310A0",
@@ -1199,6 +1236,8 @@
         "29DC83467A6DBE74",
         "13F33C12A0BE613C",
       ],
+      size: 1.5,
+      id: "38E73FB59EAE4C4C",
       tasks: [
         {
           id: "36270F0DC12CE705",
@@ -1214,12 +1253,14 @@
         {
           id: "4FD638D6D83A2C3B",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
   ],
-  quest_links: [ ],
+  quest_links: [
+  ],
   images: [
     {
       x: 5.4,
@@ -1228,10 +1269,7 @@
       height: 1.4375,
       rotation: 0.0,
       image: "gspack:textures/quests/building_header.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false,
+      id: "50EAAC3E4AC8ABCD",
     },
     {
       x: 1.4647,
@@ -1240,10 +1278,7 @@
       height: 0.6,
       rotation: 0.0,
       image: "gspack:textures/quests/building_furniture.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false,
+      id: "43137FE29B2B0B89",
     },
     {
       x: 0.6176,
@@ -1252,10 +1287,7 @@
       height: 0.6,
       rotation: 0.0,
       image: "gspack:textures/quests/building_roofs.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false,
+      id: "3A6A2761F0B1F642",
     },
     {
       x: 0.7588,
@@ -1264,10 +1296,7 @@
       height: 0.6,
       rotation: 0.0,
       image: "gspack:textures/quests/building_chisel.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false,
+      id: "3421E2C6AC5DC657",
     },
     {
       x: 0.7588,
@@ -1276,10 +1305,7 @@
       height: 0.6,
       rotation: 0.0,
       image: "gspack:textures/quests/building_start.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false,
+      id: "1CBD4C862A60D4BD",
     },
   ],
 }

@@ -1,28 +1,28 @@
 {
   id: "3819B71D4386F7AF",
   group: "591262DAFEE441AF",
-  order_index: 9,
-  filename: "equivox",
+  order_index: 4,
   icon: {
-    count: 1,
     id: "equivox:philosophers_stone",
+    count: 1,
   },
+  filename: "equivox",
   default_quest_shape: "",
   default_hide_dependency_lines: true,
   quests: [
     {
-      id: "703D1F64715D27A6",
       x: 0.0,
       y: 2.7,
       shape: "gear",
       size: 1.5,
+      id: "703D1F64715D27A6",
       tasks: [
         {
           id: "248F89A6FA3BD48E",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:philosophers_stone",
+            count: 1,
           },
         },
       ],
@@ -35,25 +35,31 @@
         {
           id: "40EBC88658FD3164",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 4314132029995036,
         },
       ],
     },
     {
-      id: "3DDAD38A2834DDF9",
       x: 1.6,
       y: 2.7,
       dependencies: [
         "703D1F64715D27A6",
       ],
+      size: 1.0,
       optional: true,
+      id: "3DDAD38A2834DDF9",
       tasks: [
         {
           id: "19C6DDCD2AE2E9BF",
           type: "item",
           item: {
+            id: "ftbquests:missing_item",
             count: 1,
-            id: "equivox:manual",
+            components: {
+              "ftbquests:missing_item": "equivox:manual",
+              "ftbquests:missing_item_count": 1,
+            },
           },
         },
       ],
@@ -66,16 +72,17 @@
       ],
     },
     {
-      id: "46F9F1554E551431",
+      icon: {
+        id: "equivox:low_covalence_dust",
+        count: 1,
+      },
       x: 1.6,
       y: 4.2,
-      icon: {
-        count: 1,
-        id: "equivox:low_covalence_dust",
-      },
       dependencies: [
         "703D1F64715D27A6",
       ],
+      size: 1.0,
+      id: "46F9F1554E551431",
       tasks: [
         {
           id: "32D88F857DDEE9C8",
@@ -91,19 +98,20 @@
       ],
     },
     {
-      id: "30C9D152E6350535",
       x: 1.6,
       y: 1.2,
       dependencies: [
         "703D1F64715D27A6",
       ],
+      size: 1.0,
+      id: "30C9D152E6350535",
       tasks: [
         {
           id: "44EA962BE31DD502",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:low_covalence_dust",
+            count: 1,
           },
           count: 32,
         },
@@ -111,8 +119,8 @@
           id: "528CE0DABBD302DE",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:medium_covalence_dust",
+            count: 1,
           },
           count: 16,
         },
@@ -120,8 +128,8 @@
           id: "1463A392F304D359",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:high_covalence_dust",
+            count: 1,
           },
           count: 8,
         },
@@ -135,19 +143,20 @@
       ],
     },
     {
-      id: "6192CC7B1507E4D7",
       x: 3.2,
       y: 1.2,
       dependencies: [
         "30C9D152E6350535",
       ],
+      size: 1.0,
+      id: "6192CC7B1507E4D7",
       tasks: [
         {
           id: "571B82EA5070E21E",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:repair_talisman",
+            count: 1,
           },
         },
       ],
@@ -160,20 +169,20 @@
       ],
     },
     {
-      id: "73B02129202C03FB",
       x: 0.0,
       y: 8.3,
-      size: 1.5,
       dependencies: [
         "703D1F64715D27A6",
       ],
+      size: 1.5,
+      id: "73B02129202C03FB",
       tasks: [
         {
           id: "13D8101251E3FBAA",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:transmutation_table",
+            count: 1,
           },
         },
       ],
@@ -186,25 +195,27 @@
         {
           id: "5621FA43CFD56D23",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 253752461985528,
         },
       ],
     },
     {
-      id: "610ED2A0727DED5E",
       x: 1.6,
       y: 8.3,
       dependencies: [
         "73B02129202C03FB",
         "1647F9EA97FA8A07",
       ],
+      size: 1.0,
+      id: "610ED2A0727DED5E",
       tasks: [
         {
           id: "7D150EB6E395B561",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:transmutation_tablet",
+            count: 1,
           },
         },
       ],
@@ -217,21 +228,22 @@
       ],
     },
     {
-      id: "28ADA1897DB4E343",
       x: 3.2,
       y: 8.3,
       dependencies: [
         "73B02129202C03FB",
         "1CB8909E36487976",
       ],
+      size: 1.0,
       optional: true,
+      id: "28ADA1897DB4E343",
       tasks: [
         {
           id: "0D0A32EBC10DD1C2",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:transmutation_provider",
+            count: 1,
           },
         },
       ],
@@ -244,25 +256,27 @@
         {
           id: "0E791616165A0173",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "3A18DA0F3D24B859",
       x: 0.0,
       y: 6.8,
       dependencies: [
         "5787875D47C3264B",
       ],
+      size: 1.0,
       optional: true,
+      id: "3A18DA0F3D24B859",
       tasks: [
         {
           id: "56FD8A5EA813ECB8",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:tome",
+            count: 1,
           },
         },
       ],
@@ -275,24 +289,26 @@
         {
           id: "4F36B7D82EEE766A",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 379532711335085,
         },
       ],
     },
     {
-      id: "6C401118F438E876",
       x: 0.0,
       y: 9.8,
       dependencies: [
         "703D1F64715D27A6",
       ],
+      size: 1.0,
+      id: "6C401118F438E876",
       tasks: [
         {
           id: "76F0662003562DC2",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:alchemical_chest",
+            count: 1,
           },
         },
       ],
@@ -305,19 +321,20 @@
       ],
     },
     {
-      id: "42E2DB7580835D0D",
       x: 1.6,
       y: 11.3,
       dependencies: [
         "6C401118F438E876",
       ],
+      size: 1.0,
+      id: "42E2DB7580835D0D",
       tasks: [
         {
           id: "19BB8EDF508BF94F",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:white_alchemical_bag",
+            count: 1,
           },
         },
       ],
@@ -330,21 +347,21 @@
       ],
     },
     {
-      id: "1CB8909E36487976",
       x: 1.6,
       y: 9.8,
-      size: 1.5,
       dependencies: [
         "6C401118F438E876",
         "73B02129202C03FB",
       ],
+      size: 1.5,
+      id: "1CB8909E36487976",
       tasks: [
         {
           id: "02911504BBAAC7AA",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:condenser_mk1",
+            count: 1,
           },
         },
       ],
@@ -357,25 +374,27 @@
         {
           id: "7BDB2A5D5F444031",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "00A3D0434AF7A0C0",
       x: 3.2,
       y: 9.8,
       dependencies: [
         "1CB8909E36487976",
         "5787875D47C3264B",
       ],
+      size: 1.0,
+      id: "00A3D0434AF7A0C0",
       tasks: [
         {
           id: "3AD7957DBAD6F3EF",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:condenser_mk2",
+            count: 1,
           },
         },
       ],
@@ -388,24 +407,26 @@
         {
           id: "48F5224A97A061D2",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "5C020AC796F70A83",
       x: 0.0,
       y: 11.3,
       dependencies: [
         "1647F9EA97FA8A07",
       ],
+      size: 1.0,
+      id: "5C020AC796F70A83",
       tasks: [
         {
           id: "20F7D6725813FEF0",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:gem_of_eternal_density",
+            count: 1,
           },
         },
       ],
@@ -418,19 +439,20 @@
       ],
     },
     {
-      id: "61957D3447A88FE4",
       x: 0.0,
       y: 13.9,
       dependencies: [
         "703D1F64715D27A6",
       ],
+      size: 1.0,
+      id: "61957D3447A88FE4",
       tasks: [
         {
           id: "74E35A0E73DB1D4F",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:alchemical_coal",
+            count: 1,
           },
           count: 16,
         },
@@ -438,8 +460,8 @@
           id: "560E0A62820351C1",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:mobius_fuel",
+            count: 1,
           },
           count: 8,
         },
@@ -453,19 +475,20 @@
       ],
     },
     {
-      id: "3F0881FD879BFC90",
       x: 1.6,
       y: 13.9,
       dependencies: [
         "61957D3447A88FE4",
       ],
+      size: 1.0,
+      id: "3F0881FD879BFC90",
       tasks: [
         {
           id: "3DBE5B733AAD1542",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:aeternalis_fuel",
+            count: 1,
           },
           count: 8,
         },
@@ -479,19 +502,20 @@
       ],
     },
     {
-      id: "49679038EDB9DABC",
       x: 1.6,
       y: 15.4,
       dependencies: [
         "61957D3447A88FE4",
       ],
+      size: 1.0,
+      id: "49679038EDB9DABC",
       tasks: [
         {
           id: "093D4B6FAB017B87",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:collector_mk1",
+            count: 1,
           },
           count: 4,
         },
@@ -505,24 +529,26 @@
         {
           id: "24C54317A463CF96",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 253752461985528,
         },
       ],
     },
     {
-      id: "28825A72D6DCBA60",
       x: 3.2,
       y: 15.4,
       dependencies: [
         "49679038EDB9DABC",
       ],
+      size: 1.0,
+      id: "28825A72D6DCBA60",
       tasks: [
         {
           id: "2D99367D22587F84",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:relay_mk1",
+            count: 1,
           },
         },
       ],
@@ -535,20 +561,21 @@
       ],
     },
     {
-      id: "0F1D5C46F1A6B7D1",
       x: 3.2,
       y: 16.9,
       dependencies: [
         "49679038EDB9DABC",
         "1647F9EA97FA8A07",
       ],
+      size: 1.0,
+      id: "0F1D5C46F1A6B7D1",
       tasks: [
         {
           id: "04F7807EC66F8670",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:collector_mk2",
+            count: 1,
           },
           count: 4,
         },
@@ -556,8 +583,8 @@
           id: "45B812C4BF48CFA3",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:relay_mk2",
+            count: 1,
           },
         },
       ],
@@ -570,20 +597,21 @@
       ],
     },
     {
-      id: "0EB0B86796CCC2C7",
       x: 4.8,
       y: 16.9,
       dependencies: [
         "0F1D5C46F1A6B7D1",
         "5787875D47C3264B",
       ],
+      size: 1.0,
+      id: "0EB0B86796CCC2C7",
       tasks: [
         {
           id: "022FA65832457637",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:collector_mk3",
+            count: 1,
           },
           count: 4,
         },
@@ -591,8 +619,8 @@
           id: "6342B9DB8218C640",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:relay_mk3",
+            count: 1,
           },
         },
       ],
@@ -605,24 +633,26 @@
         {
           id: "15B3A7578FB62C93",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "37BBC2E848D79319",
       x: 0.0,
       y: 15.4,
       dependencies: [
         "30C9D152E6350535",
       ],
+      size: 1.0,
+      id: "37BBC2E848D79319",
       tasks: [
         {
           id: "4872D8D6BB54AA7A",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:klein_star_ein",
+            count: 1,
           },
         },
       ],
@@ -635,27 +665,28 @@
       ],
     },
     {
-      id: "1F2A948BD1495916",
       x: 1.6,
       y: 16.9,
       dependencies: [
         "37BBC2E848D79319",
       ],
+      size: 1.0,
+      id: "1F2A948BD1495916",
       tasks: [
         {
           id: "3C143AC60BA8C8EB",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:klein_star_zwei",
+            count: 1,
           },
         },
         {
           id: "1E66EA3E79D06AE8",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:klein_star_drei",
+            count: 1,
           },
         },
       ],
@@ -668,20 +699,21 @@
       ],
     },
     {
-      id: "5D25E6CDF956C875",
       x: 3.2,
       y: 18.4,
       dependencies: [
         "1F2A948BD1495916",
         "5787875D47C3264B",
       ],
+      size: 1.0,
+      id: "5D25E6CDF956C875",
       tasks: [
         {
           id: "17F0B297C07F376B",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:klein_star_omega",
+            count: 1,
           },
         },
       ],
@@ -694,26 +726,27 @@
         {
           id: "444CF2541B2063FC",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 379532711335085,
         },
       ],
     },
     {
-      id: "1647F9EA97FA8A07",
       x: 0.0,
       y: 24.0,
       shape: "hexagon",
-      size: 1.5,
       dependencies: [
         "3F0881FD879BFC90",
       ],
+      size: 1.5,
+      id: "1647F9EA97FA8A07",
       tasks: [
         {
           id: "578D39896243C7EF",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:dark_matter",
+            count: 1,
           },
           count: 8,
         },
@@ -727,24 +760,26 @@
         {
           id: "5AE87C8075314BCA",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "6BB0515B6E63880C",
       x: 1.6,
       y: 25.5,
       dependencies: [
         "1647F9EA97FA8A07",
       ],
+      size: 1.0,
+      id: "6BB0515B6E63880C",
       tasks: [
         {
           id: "119ADF08BC023220",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:dm_pedestal",
+            count: 1,
           },
         },
       ],
@@ -757,43 +792,44 @@
       ],
     },
     {
-      id: "080A3D3DB3A27F90",
       x: 1.6,
       y: 22.5,
       dependencies: [
         "1647F9EA97FA8A07",
       ],
+      size: 1.0,
+      id: "080A3D3DB3A27F90",
       tasks: [
         {
           id: "1C5FC7A6786E911F",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:dm_pick",
+            count: 1,
           },
         },
         {
           id: "03705F24B87B1A82",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:dm_sword",
+            count: 1,
           },
         },
         {
           id: "1E6ACCDE34734249",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:dm_axe",
+            count: 1,
           },
         },
         {
           id: "48EF0D3DDC30BA7C",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:dm_shovel",
+            count: 1,
           },
         },
       ],
@@ -806,20 +842,21 @@
       ],
     },
     {
-      id: "64F0D78C7F6D4EF1",
       x: 3.2,
       y: 22.5,
       dependencies: [
         "080A3D3DB3A27F90",
       ],
+      size: 1.0,
       optional: true,
+      id: "64F0D78C7F6D4EF1",
       tasks: [
         {
           id: "6497D2ED16AB5DDA",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:dm_hammer",
+            count: 1,
           },
         },
       ],
@@ -832,43 +869,44 @@
       ],
     },
     {
-      id: "25DB6C7646971E18",
       x: 1.6,
       y: 27.0,
       dependencies: [
         "1647F9EA97FA8A07",
       ],
+      size: 1.0,
+      id: "25DB6C7646971E18",
       tasks: [
         {
           id: "4E40E7B4DF615F8D",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:dm_helmet",
+            count: 1,
           },
         },
         {
           id: "67E8A85522ED34A0",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:dm_chestplate",
+            count: 1,
           },
         },
         {
           id: "4E0BBE80456D9B04",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:dm_leggings",
+            count: 1,
           },
         },
         {
           id: "690A04B5B8CBD5AE",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:dm_boots",
+            count: 1,
           },
         },
       ],
@@ -881,25 +919,27 @@
         {
           id: "05A2F73980F82791",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "73245BC98C20FABB",
       x: 1.6,
       y: 21.0,
       dependencies: [
         "1647F9EA97FA8A07",
       ],
+      size: 1.0,
       optional: true,
+      id: "73245BC98C20FABB",
       tasks: [
         {
           id: "1A39EE5BC7F7F450",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:dm_furnace",
+            count: 1,
           },
         },
       ],
@@ -912,20 +952,20 @@
       ],
     },
     {
-      id: "5787875D47C3264B",
       x: 1.6,
       y: 24.0,
-      size: 1.5,
       dependencies: [
         "1647F9EA97FA8A07",
       ],
+      size: 1.5,
+      id: "5787875D47C3264B",
       tasks: [
         {
           id: "6470446772536103",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:red_matter",
+            count: 1,
           },
           count: 8,
         },
@@ -939,48 +979,50 @@
         {
           id: "4A204F9D35E3C9CB",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 379532711335085,
         },
       ],
     },
     {
-      id: "73B0A436F42B54CB",
       x: 3.2,
       y: 24.0,
       dependencies: [
         "5787875D47C3264B",
       ],
+      size: 1.0,
+      id: "73B0A436F42B54CB",
       tasks: [
         {
           id: "12FCBA2AE7EC928D",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:rm_pick",
+            count: 1,
           },
         },
         {
           id: "349677FC1118E4AC",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:rm_sword",
+            count: 1,
           },
         },
         {
           id: "1218EA1552BCB585",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:rm_katar",
+            count: 1,
           },
         },
         {
           id: "06FE21D572AF3629",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:rm_morning_star",
+            count: 1,
           },
         },
       ],
@@ -993,43 +1035,44 @@
       ],
     },
     {
-      id: "73AD05C38A409B1D",
       x: 3.2,
       y: 25.5,
       dependencies: [
         "5787875D47C3264B",
       ],
+      size: 1.0,
+      id: "73AD05C38A409B1D",
       tasks: [
         {
           id: "127ED33F5CE77855",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:rm_helmet",
+            count: 1,
           },
         },
         {
           id: "52C12B5F7F6FFD10",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:rm_chestplate",
+            count: 1,
           },
         },
         {
           id: "52F0D27874D984B6",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:rm_leggings",
+            count: 1,
           },
         },
         {
           id: "3229F8FE7E3C8476",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:rm_boots",
+            count: 1,
           },
         },
       ],
@@ -1042,25 +1085,27 @@
         {
           id: "4236932A500C0849",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 379532711335085,
         },
       ],
     },
     {
-      id: "644B0F03108465F5",
       x: 3.2,
       y: 27.0,
       dependencies: [
         "5787875D47C3264B",
       ],
+      size: 1.0,
       optional: true,
+      id: "644B0F03108465F5",
       tasks: [
         {
           id: "11CCB805960BB8D6",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:rm_furnace",
+            count: 1,
           },
         },
       ],
@@ -1073,19 +1118,20 @@
       ],
     },
     {
-      id: "4F85C5A1B3AAEAF0",
       x: 0.0,
       y: 31.1,
       dependencies: [
         "30C9D152E6350535",
       ],
+      size: 1.0,
+      id: "4F85C5A1B3AAEAF0",
       tasks: [
         {
           id: "3C06F639E7E783F1",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:iron_band",
+            count: 1,
           },
         },
       ],
@@ -1098,20 +1144,21 @@
       ],
     },
     {
-      id: "05F6B8E22D6FA4DA",
       x: 1.6,
       y: 31.1,
       dependencies: [
         "4F85C5A1B3AAEAF0",
         "37BBC2E848D79319",
       ],
+      size: 1.0,
+      id: "05F6B8E22D6FA4DA",
       tasks: [
         {
           id: "132E5FA7298ECF9A",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:swiftwolf_rending_gale",
+            count: 1,
           },
         },
       ],
@@ -1124,24 +1171,26 @@
         {
           id: "727D83B6753CDE88",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "564243F8A38D3CBC",
       x: 1.6,
       y: 32.6,
       dependencies: [
         "4F85C5A1B3AAEAF0",
       ],
+      size: 1.0,
+      id: "564243F8A38D3CBC",
       tasks: [
         {
           id: "2F01E249DF389EF8",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:black_hole_band",
+            count: 1,
           },
         },
       ],
@@ -1154,19 +1203,20 @@
       ],
     },
     {
-      id: "59926A01305ABB45",
       x: 1.6,
       y: 29.6,
       dependencies: [
         "4F85C5A1B3AAEAF0",
       ],
+      size: 1.0,
+      id: "59926A01305ABB45",
       tasks: [
         {
           id: "681E65105AA6BD95",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:harvest_goddess_band",
+            count: 1,
           },
         },
       ],
@@ -1179,28 +1229,29 @@
       ],
     },
     {
-      id: "32AEBDAE62FD9D51",
       x: 1.6,
       y: 34.1,
       dependencies: [
         "4F85C5A1B3AAEAF0",
       ],
+      size: 1.0,
       optional: true,
+      id: "32AEBDAE62FD9D51",
       tasks: [
         {
           id: "61EB5394676FA195",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:ignition_ring",
+            count: 1,
           },
         },
         {
           id: "5F0032472C2C863C",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:zero_ring",
+            count: 1,
           },
         },
       ],
@@ -1213,27 +1264,28 @@
       ],
     },
     {
-      id: "10D178A588AFCC20",
       x: 0.0,
       y: 35.6,
       dependencies: [
         "1647F9EA97FA8A07",
       ],
+      size: 1.0,
+      id: "10D178A588AFCC20",
       tasks: [
         {
           id: "3B3F521DD9ADC2AF",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:evertide_amulet",
+            count: 1,
           },
         },
         {
           id: "22BC283E91EA2E82",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:volcanite_amulet",
+            count: 1,
           },
         },
       ],
@@ -1246,19 +1298,20 @@
       ],
     },
     {
-      id: "4A382F7C371B3924",
       x: 4.8,
       y: 31.1,
       dependencies: [
         "7A1639B17E33BB13",
       ],
+      size: 1.0,
+      id: "4A382F7C371B3924",
       tasks: [
         {
           id: "749E862E4BAA61F3",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:arcana_ring",
+            count: 1,
           },
         },
       ],
@@ -1271,24 +1324,26 @@
         {
           id: "352484E5DDDF0621",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 379532711335085,
         },
       ],
     },
     {
-      id: "7A1639B17E33BB13",
+      icon: {
+        id: "equivox:iron_band",
+        count: 1,
+      },
       x: 3.2,
       y: 31.1,
-      icon: {
-        count: 1,
-        id: "equivox:iron_band",
-      },
       dependencies: [
         "05F6B8E22D6FA4DA",
         "564243F8A38D3CBC",
         "59926A01305ABB45",
         "32AEBDAE62FD9D51",
       ],
+      size: 1.0,
+      id: "7A1639B17E33BB13",
       tasks: [
         {
           id: "4585DF142E83B3A9",
@@ -1304,19 +1359,20 @@
       ],
     },
     {
-      id: "179E00500944B85C",
       x: 1.6,
       y: 35.6,
       dependencies: [
         "1647F9EA97FA8A07",
       ],
+      size: 1.0,
+      id: "179E00500944B85C",
       tasks: [
         {
           id: "1A119F096784341B",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:watch_of_flowing_time",
+            count: 1,
           },
         },
       ],
@@ -1329,25 +1385,27 @@
         {
           id: "1798A36855650C07",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "3BEA51A8E55B85E3",
       x: 3.2,
       y: 35.6,
       dependencies: [
         "1647F9EA97FA8A07",
       ],
+      size: 1.0,
       optional: true,
+      id: "3BEA51A8E55B85E3",
       tasks: [
         {
           id: "3944EDFFA8DB2A02",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:mercurial_eye",
+            count: 1,
           },
         },
       ],
@@ -1360,19 +1418,20 @@
       ],
     },
     {
-      id: "56C7E4D4A3470FFA",
       x: 4.8,
       y: 35.6,
       dependencies: [
         "1647F9EA97FA8A07",
       ],
+      size: 1.0,
+      id: "56C7E4D4A3470FFA",
       tasks: [
         {
           id: "48F76C85A11A250A",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:interdiction_torch",
+            count: 1,
           },
           count: 4,
         },
@@ -1386,20 +1445,21 @@
       ],
     },
     {
-      id: "5B169FECE96BE0C8",
       x: 6.4,
       y: 35.6,
       dependencies: [
         "1647F9EA97FA8A07",
       ],
+      size: 1.0,
       optional: true,
+      id: "5B169FECE96BE0C8",
       tasks: [
         {
           id: "609AD60A449FC452",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:destruction_catalyst",
+            count: 1,
           },
         },
       ],
@@ -1412,43 +1472,44 @@
       ],
     },
     {
-      id: "35BD3451B69206B4",
       x: 8.0,
       y: 35.6,
       dependencies: [
         "5787875D47C3264B",
       ],
+      size: 1.0,
+      id: "35BD3451B69206B4",
       tasks: [
         {
           id: "65EA286F13465BF1",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:body_stone",
+            count: 1,
           },
         },
         {
           id: "077731A9E8FABD9E",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:soul_stone",
+            count: 1,
           },
         },
         {
           id: "2AB012647071B883",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:life_stone",
+            count: 1,
           },
         },
         {
           id: "6A9A36C04EE599B0",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:mind_stone",
+            count: 1,
           },
         },
       ],
@@ -1461,26 +1522,28 @@
         {
           id: "3185862079FF357E",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 379532711335085,
         },
       ],
     },
     {
-      id: "3D9D7DE4B29E6C9B",
       x: 3.2,
       y: 32.6,
       dependencies: [
         "564243F8A38D3CBC",
         "5787875D47C3264B",
       ],
+      size: 1.0,
       optional: true,
+      id: "3D9D7DE4B29E6C9B",
       tasks: [
         {
           id: "34BA5869FD3DF335",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:void_ring",
+            count: 1,
           },
         },
       ],
@@ -1493,20 +1556,21 @@
       ],
     },
     {
-      id: "2A1B2CD44EA1E8E0",
       x: 0.0,
       y: 37.1,
       dependencies: [
         "5787875D47C3264B",
       ],
+      size: 1.0,
       optional: true,
+      id: "2A1B2CD44EA1E8E0",
       tasks: [
         {
           id: "44BBCFA1F4D1B7CD",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:archangel_smite",
+            count: 1,
           },
         },
       ],
@@ -1519,20 +1583,21 @@
       ],
     },
     {
-      id: "68F3DD3C5E405940",
       x: 1.6,
       y: 37.1,
       dependencies: [
         "5787875D47C3264B",
       ],
+      size: 1.0,
       optional: true,
+      id: "68F3DD3C5E405940",
       tasks: [
         {
           id: "4CC507739DC88116",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:nova_catalyst",
+            count: 1,
           },
         },
       ],
@@ -1545,46 +1610,46 @@
       ],
     },
     {
-      id: "43BF9AFF1A0B204E",
       x: 3.2,
       y: 37.1,
       shape: "gear",
-      size: 2.0,
       dependencies: [
         "73AD05C38A409B1D",
         "5D25E6CDF956C875",
       ],
+      size: 2.0,
+      id: "43BF9AFF1A0B204E",
       tasks: [
         {
           id: "4C2E22F969A166EE",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:gem_helmet",
+            count: 1,
           },
         },
         {
           id: "2204276B3967583A",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:gem_chestplate",
+            count: 1,
           },
         },
         {
           id: "2309026ED45D1632",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:gem_leggings",
+            count: 1,
           },
         },
         {
           id: "073931E72DA8CD3F",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:gem_boots",
+            count: 1,
           },
         },
       ],
@@ -1597,12 +1662,14 @@
         {
           id: "503C929D11A3C951",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 379532711335085,
         },
       ],
     },
   ],
-  quest_links: [ ],
+  quest_links: [
+  ],
   images: [
     {
       x: 5.4,
@@ -1611,10 +1678,7 @@
       height: 1.4375,
       rotation: 0.0,
       image: "gspack:textures/quests/equivox_header.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false,
+      id: "4E987D4902B6AE4F",
     },
     {
       x: 1.3235,
@@ -1623,10 +1687,7 @@
       height: 0.6,
       rotation: 0.0,
       image: "gspack:textures/quests/equivox_iron_band.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false,
+      id: "2C1549FE5679B5B3",
     },
     {
       x: 1.1294,
@@ -1635,10 +1696,7 @@
       height: 0.6,
       rotation: 0.0,
       image: "gspack:textures/quests/equivox_table.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false,
+      id: "1409B00C10082A12",
     },
     {
       x: 1.7294,
@@ -1647,10 +1705,7 @@
       height: 0.6,
       rotation: 0.0,
       image: "gspack:textures/quests/equivox_stone.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false,
+      id: "44B8B1687E19A4B3",
     },
     {
       x: 0.9882,
@@ -1659,10 +1714,7 @@
       height: 0.6,
       rotation: 0.0,
       image: "gspack:textures/quests/equivox_fuels.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false,
+      id: "0D82F456225DA36C",
     },
     {
       x: 1.5,
@@ -1671,10 +1723,7 @@
       height: 0.6,
       rotation: 0.0,
       image: "gspack:textures/quests/equivox_dark_matter.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false,
+      id: "448B3AFF0E85BFA6",
     },
   ],
 }
