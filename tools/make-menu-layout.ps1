@@ -42,8 +42,8 @@ function Common([string]$id, [string]$anchor, [int]$x, [int]$y, [int]$w, [int]$h
 "@
 }
 
-# A vanilla button that keeps its vanilla position (anchor "vanilla") but gets the GSPack texture.
-function VanillaButton([string]$id) {
+# A vanilla button with the GSPack texture, placed in the centred column (anchor mid-centered).
+function VanillaButton([string]$id, [int]$x = -100, [int]$y = 0, [int]$w = 200, [int]$h = 20) {
     $blk = Uid "$id-block"; $act = Uid "$id-active"
     @"
 vanilla_button {
@@ -62,7 +62,7 @@ vanilla_button {
   [loading_requirement_container_meta:$act] = [groups:][instances:]
   element_type = vanilla_button
   instance_identifier = $id
-$(Common $id 'vanilla' 0 0 200 20 $true)
+$(Common $id 'mid-centered' $x $y $w $h $false)
   is_hidden = false
   automated_button_clicks = 0
   nine_slice_slider_handle = false
@@ -94,7 +94,33 @@ $(Common $id 'vanilla' 0 0 100 20 $true)
 $meta = Uid 'meta'
 $bgId = Uid 'background'
 $logoId = Uid 'logo'
-$ghId = Uid 'github'; $ghBlock = Uid 'github-block'; $ghAction = Uid 'github-action'; $ghActive = Uid 'github-active'
+
+# A custom button in the top-left corner that opens a link.
+function LinkButton([string]$key, [string]$label, [string]$desc, [string]$url, [int]$x, [int]$w) {
+    $id = Uid $key; $blk = Uid "$key-block"; $act = Uid "$key-action"; $active = Uid "$key-active"
+    @"
+element {
+  button_element_executable_block_identifier = $blk
+  [executable_action_instance:$act][action_type:openlink] = $url
+  [executable_block:$blk][type:generic] = [executables:$act;]
+  backgroundnormal = $Assets/button_normal.png
+  backgroundhovered = $Assets/button_hover.png
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = true
+  nine_slice_border_x = 4
+  nine_slice_border_y = 4
+  label = $label
+  description = $desc
+  navigatable = true
+  widget_active_state_requirement_container_identifier = $active
+  [loading_requirement_container_meta:$active] = [groups:][instances:]
+  element_type = custom_button
+  instance_identifier = $id
+$(Common $key 'top-left' $x 4 $w 20 $false)
+}
+"@
+}
 
 $layout = @"
 type = fancymenu_layout
@@ -134,40 +160,23 @@ element {
   restart_animated_on_menu_load = false
   element_type = image
   instance_identifier = $logoId
-$(Common 'logo' 'top-centered' -120 12 240 62 $false)
+$(Common 'logo' 'mid-centered' -120 -104 240 62 $false)
 }
 
-element {
-  button_element_executable_block_identifier = $ghBlock
-  [executable_action_instance:$ghAction][action_type:openlink] = https://github.com/steefan1998
-  [executable_block:$ghBlock][type:generic] = [executables:$ghAction;]
-  backgroundnormal = $Assets/button_normal.png
-  backgroundhovered = $Assets/button_hover.png
-  restartbackgroundanimations = true
-  loopbackgroundanimations = true
-  nine_slice_custom_background = true
-  nine_slice_border_x = 4
-  nine_slice_border_y = 4
-  label = GitHub
-  description = Visit steefan1998 on GitHub
-  navigatable = true
-  widget_active_state_requirement_container_identifier = $ghActive
-  [loading_requirement_container_meta:$ghActive] = [groups:][instances:]
-  element_type = custom_button
-  instance_identifier = $ghId
-$(Common 'github' 'top-left' 4 4 60 20 $false)
-}
+$(LinkButton 'github' 'GitHub' 'Visit steefan1998 on GitHub' 'https://github.com/steefan1998' 4 60)
+$(LinkButton 'curseforge' 'CurseForge' 'View steef_an''s projects on CurseForge' 'https://www.curseforge.com/members/steef_an/projects' 68 76)
 
 $(HiddenWidget 'minecraft_logo_widget')
 $(HiddenWidget 'minecraft_splash_widget')
-$(VanillaButton 'mc_titlescreen_singleplayer_button')
-$(VanillaButton 'mc_titlescreen_multiplayer_button')
 $(HiddenWidget 'mc_titlescreen_realms_button')
 $(HiddenWidget 'minecraft_realms_notification_icons_widget')
-$(VanillaButton 'mc_titlescreen_options_button')
-$(VanillaButton 'mc_titlescreen_quit_button')
-$(VanillaButton 'forge_titlescreen_mods_button')
-$(VanillaButton 'neoforge_titlescreen_mods_button')
+$(HiddenWidget 'mc_titlescreen_language_button')
+$(HiddenWidget 'mc_titlescreen_accessibility_button')
+$(VanillaButton 'mc_titlescreen_singleplayer_button' -100 -30)
+$(VanillaButton 'mc_titlescreen_multiplayer_button' -100 -6)
+$(VanillaButton 'forge_titlescreen_mods_button' -100 18)
+$(VanillaButton 'mc_titlescreen_options_button' -100 50 98 20)
+$(VanillaButton 'mc_titlescreen_quit_button' 2 50 98 20)
 "@
 
 $utf8 = New-Object System.Text.UTF8Encoding($false)
