@@ -4,7 +4,7 @@
 # Usage:  powershell -ExecutionPolicy Bypass -File tools\track-mods.ps1 -Version 0.2 [-Instance <path>]
 param(
     [Parameter(Mandatory = $true)][string]$Version,
-    [string]$Instance = 'D:\MinecraftModpacks\Instances\GSPack'
+    [string]$Instance = 'D:\CurseForge\Instances\GSPack Dev Build'
 )
 
 $ErrorActionPreference = 'Stop'

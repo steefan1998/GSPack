@@ -23,7 +23,7 @@
       },
       "ftblibrary:toggle/night": {
         enabled: true,
-        x: 2,
+        x: 3,
       },
       "ftbessentials:trash_can": {
         enabled: true,
@@ -58,7 +58,7 @@
       },
       "ftblibrary:toggle/rain": {
         enabled: true,
-        x: 3,
+        x: 4,
       },
       "ftbteams:my_team": {
         enabled: true,
@@ -70,6 +70,10 @@
         y: 1,
       },
       "ftblibrary:toggle/day": {
+        enabled: true,
+        x: 2,
+      },
+      "leaderboards:leaderboards": {
         enabled: true,
         x: 1,
       },

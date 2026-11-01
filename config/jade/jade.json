@@ -110,6 +110,9 @@
     "hostilenetworks": {
       "io_port_mode": true
     },
+    "ftbquests": {
+      "barrier": true
+    },
     "thaumaturge": {
       "display.everfull_urns": "GOGGLES",
       "display.crystalizers": "GOGGLES",
@@ -160,6 +163,10 @@
     "ltxi": {
       "recipe_mode": true,
       "pg_fuel": true
+    },
+    "extendedae": {
+      "jade_chamber": true,
+      "jade_wireless": true
     },
     "ae2": {
       "part_icon": true,
@@ -219,9 +226,26 @@
       "display.content": true,
       "display.status": true
     },
+    "replication": {
+      "matter_tank": true
+    },
+    "evilcraft": {
+      "box_of_eternal_closure": true,
+      "broom": true
+    },
     "framedblocks": {
       "framed_item_frame": true,
       "framed_block_generic": true
+    },
+    "dimstorage": {
+      "dim_block_base": true,
+      "dim_tank": true
+    },
+    "railcraft": {
+      "signals": true,
+      "track_component": true,
+      "locomotive": true,
+      "switch_track": true
     },
     "jade_access": {
       "npc_description": true,
@@ -231,12 +255,17 @@
       "entity": true,
       "entity_variant": true
     },
+    "tombstone": {
+      "decorative_graves": true,
+      "player_graves": true
+    },
     "oritech": {
       "machine_core_controller": true
     },
     "applied_oritech": {
       "grid_node_state": true,
-      "pattern_provider": true
+      "pattern_provider": true,
+      "auto_return": true
     },
     "apotheosis": {
       "adventure": true
@@ -296,7 +325,9 @@
     "accessibilityModMemory": false,
     "themesHash": -825076755,
     "usersHash": [
-      1119783550
+      1119783550,
+      -956299494,
+      -1122165097
     ]
   }
 }

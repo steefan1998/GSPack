@@ -1,28 +1,28 @@
 {
   id: "5270340F88597176",
   group: "105EE503AFE85CA5",
-  order_index: 21,
-  filename: "railcraft",
+  order_index: 5,
   icon: {
-    count: 1,
     id: "railcraft:steam_locomotive",
+    count: 1,
   },
+  filename: "railcraft",
   default_quest_shape: "",
   default_hide_dependency_lines: true,
   quests: [
     {
-      id: "3398F2418ED5431B",
       x: 0.0,
       y: 1.45,
       shape: "gear",
       size: 1.5,
+      id: "3398F2418ED5431B",
       tasks: [
         {
           id: "7B05D4B9F655C826",
           type: "item",
           item: {
-            count: 1,
             id: "railcraft:coke_oven_bricks",
+            count: 1,
           },
           count: 26,
         },
@@ -36,24 +36,26 @@
         {
           id: "542B00A4FC0CE111",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 4224964620844649,
         },
       ],
     },
     {
-      id: "73A16ED6878F4237",
       x: 1.6,
       y: 1.45,
       dependencies: [
         "3398F2418ED5431B",
       ],
+      size: 1.0,
+      id: "73A16ED6878F4237",
       tasks: [
         {
           id: "05672C59E07403D4",
           type: "item",
           item: {
-            count: 1,
             id: "railcraft:coal_coke",
+            count: 1,
           },
           count: 16,
         },
@@ -67,19 +69,20 @@
       ],
     },
     {
-      id: "59250CD7A88EEF8F",
       x: 3.2,
       y: 1.45,
       dependencies: [
         "73A16ED6878F4237",
       ],
+      size: 1.0,
+      id: "59250CD7A88EEF8F",
       tasks: [
         {
           id: "3DA83671240D8033",
           type: "item",
           item: {
-            count: 1,
             id: "railcraft:blast_furnace_bricks",
+            count: 1,
           },
           count: 34,
         },
@@ -93,24 +96,26 @@
         {
           id: "09C3CBF1E71D2960",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2612120196957929,
         },
       ],
     },
     {
-      id: "443202C1EB8EE037",
       x: 4.8,
       y: 1.45,
       dependencies: [
         "59250CD7A88EEF8F",
       ],
+      size: 1.0,
+      id: "443202C1EB8EE037",
       tasks: [
         {
           id: "3EFA1B2E58F8D537",
           type: "item",
           item: {
-            count: 1,
             id: "railcraft:steel_ingot",
+            count: 1,
           },
           count: 16,
         },
@@ -124,28 +129,29 @@
       ],
     },
     {
-      id: "260A9A81F3C6107C",
       x: 6.4,
       y: 1.45,
       dependencies: [
         "443202C1EB8EE037",
       ],
+      size: 1.0,
       optional: true,
+      id: "260A9A81F3C6107C",
       tasks: [
         {
           id: "1CEC95AE806B29EA",
           type: "item",
           item: {
-            count: 1,
             id: "railcraft:steel_pickaxe",
+            count: 1,
           },
         },
         {
           id: "693CD20F617971E0",
           type: "item",
           item: {
-            count: 1,
             id: "railcraft:steel_sword",
+            count: 1,
           },
         },
       ],
@@ -158,16 +164,17 @@
       ],
     },
     {
-      id: "11E412D2300B84ED",
       x: 0.0,
       y: 4.05,
+      size: 1.0,
+      id: "11E412D2300B84ED",
       tasks: [
         {
           id: "5F387BE90944BB05",
           type: "item",
           item: {
-            count: 1,
             id: "railcraft:iron_crowbar",
+            count: 1,
           },
         },
       ],
@@ -180,19 +187,20 @@
       ],
     },
     {
-      id: "3109EA4814244AF9",
       x: 0.0,
       y: 5.55,
       dependencies: [
         "443202C1EB8EE037",
       ],
+      size: 1.0,
+      id: "3109EA4814244AF9",
       tasks: [
         {
           id: "78D52F9208D76DD2",
           type: "item",
           item: {
-            count: 1,
             id: "railcraft:manual_rolling_machine",
+            count: 1,
           },
         },
       ],
@@ -205,19 +213,20 @@
       ],
     },
     {
-      id: "43604FA9C0EC57C9",
       x: 1.6,
       y: 5.55,
       dependencies: [
         "3109EA4814244AF9",
       ],
+      size: 1.0,
+      id: "43604FA9C0EC57C9",
       tasks: [
         {
           id: "470F39FA44795D46",
           type: "item",
           item: {
-            count: 1,
             id: "railcraft:standard_rail",
+            count: 1,
           },
           count: 8,
         },
@@ -225,8 +234,8 @@
           id: "6BB86B93C9293BC2",
           type: "item",
           item: {
-            count: 1,
             id: "railcraft:wooden_tie",
+            count: 1,
           },
           count: 4,
         },
@@ -240,19 +249,20 @@
       ],
     },
     {
-      id: "045F4959AFE3FBE1",
       x: 3.2,
       y: 5.55,
       dependencies: [
         "43604FA9C0EC57C9",
       ],
+      size: 1.0,
+      id: "045F4959AFE3FBE1",
       tasks: [
         {
           id: "1F5F586D0FF99197",
           type: "item",
           item: {
-            count: 1,
             id: "railcraft:reinforced_track",
+            count: 1,
           },
           count: 16,
         },
@@ -266,19 +276,20 @@
       ],
     },
     {
-      id: "27BEF952A72213D1",
       x: 4.8,
       y: 5.55,
       dependencies: [
         "045F4959AFE3FBE1",
       ],
+      size: 1.0,
+      id: "27BEF952A72213D1",
       tasks: [
         {
           id: "409358CDF5DFA4BE",
           type: "item",
           item: {
-            count: 1,
             id: "railcraft:high_speed_track",
+            count: 1,
           },
           count: 32,
         },
@@ -286,8 +297,8 @@
           id: "44EB2CB9DEE572EA",
           type: "item",
           item: {
-            count: 1,
             id: "railcraft:high_speed_transition_track",
+            count: 1,
           },
           count: 2,
         },
@@ -301,40 +312,42 @@
         {
           id: "793E15EF582AAAD5",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2612120196957929,
         },
       ],
     },
     {
-      id: "3B39A9D281F98E25",
       x: 4.8,
       y: 7.05,
       dependencies: [
         "045F4959AFE3FBE1",
       ],
+      size: 1.0,
+      id: "3B39A9D281F98E25",
       tasks: [
         {
           id: "573E2E47007DA2EC",
           type: "item",
           item: {
-            count: 1,
             id: "railcraft:booster_track_kit",
+            count: 1,
           },
         },
         {
           id: "3C392BA0F0C39F36",
           type: "item",
           item: {
-            count: 1,
             id: "railcraft:detector_track_kit",
+            count: 1,
           },
         },
         {
           id: "751EEB5956BB8C04",
           type: "item",
           item: {
-            count: 1,
             id: "railcraft:locking_track_kit",
+            count: 1,
           },
         },
       ],
@@ -347,27 +360,28 @@
       ],
     },
     {
-      id: "64BECEE944AFB246",
       x: 0.0,
       y: 11.15,
       dependencies: [
         "045F4959AFE3FBE1",
       ],
+      size: 1.0,
+      id: "64BECEE944AFB246",
       tasks: [
         {
           id: "7DBAA9496C0FF4C7",
           type: "item",
           item: {
-            count: 1,
             id: "railcraft:item_loader",
+            count: 1,
           },
         },
         {
           id: "17FBE3FC360CF46A",
           type: "item",
           item: {
-            count: 1,
             id: "railcraft:item_unloader",
+            count: 1,
           },
         },
       ],
@@ -380,27 +394,28 @@
       ],
     },
     {
-      id: "7D358635E20DA9DF",
       x: 0.0,
       y: 12.65,
       dependencies: [
         "443202C1EB8EE037",
       ],
+      size: 1.0,
+      id: "7D358635E20DA9DF",
       tasks: [
         {
           id: "18A23442510F5FA0",
           type: "item",
           item: {
-            count: 1,
             id: "railcraft:solid_fueled_firebox",
+            count: 1,
           },
         },
         {
           id: "3E746EE31B11708B",
           type: "item",
           item: {
-            count: 1,
             id: "railcraft:low_pressure_steam_boiler_tank",
+            count: 1,
           },
           count: 2,
         },
@@ -414,25 +429,27 @@
         {
           id: "1909750C2FAD4EF5",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2612120196957929,
         },
       ],
     },
     {
-      id: "706488FC432710E2",
       x: 1.6,
       y: 12.65,
       dependencies: [
         "7D358635E20DA9DF",
       ],
+      size: 1.0,
       optional: true,
+      id: "706488FC432710E2",
       tasks: [
         {
           id: "029AEBAEFD98151C",
           type: "item",
           item: {
-            count: 1,
             id: "railcraft:steam_turbine",
+            count: 1,
           },
         },
       ],
@@ -445,21 +462,21 @@
       ],
     },
     {
-      id: "0D83328FFB568D9A",
       x: 1.6,
       y: 11.15,
-      size: 1.5,
       dependencies: [
         "7D358635E20DA9DF",
         "64BECEE944AFB246",
       ],
+      size: 1.5,
+      id: "0D83328FFB568D9A",
       tasks: [
         {
           id: "3BE0A06A31AEC4E9",
           type: "item",
           item: {
-            count: 1,
             id: "railcraft:steam_locomotive",
+            count: 1,
           },
         },
       ],
@@ -472,34 +489,36 @@
         {
           id: "5D93AA73DE9179A4",
           type: "choice",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "2441909C9FF9D045",
       x: 3.2,
       y: 11.15,
       dependencies: [
         "0D83328FFB568D9A",
         "706488FC432710E2",
       ],
+      size: 1.0,
       optional: true,
+      id: "2441909C9FF9D045",
       tasks: [
         {
           id: "0636FF459D33F9B7",
           type: "item",
           item: {
-            count: 1,
             id: "railcraft:electric_locomotive",
+            count: 1,
           },
         },
         {
           id: "32A166214D37EF6E",
           type: "item",
           item: {
-            count: 1,
             id: "railcraft:electric_track",
+            count: 1,
           },
           count: 16,
         },
@@ -513,20 +532,21 @@
       ],
     },
     {
-      id: "489A99CAFDB2FC9B",
       x: 3.2,
       y: 12.65,
       dependencies: [
         "0D83328FFB568D9A",
       ],
+      size: 1.0,
       optional: true,
+      id: "489A99CAFDB2FC9B",
       tasks: [
         {
           id: "08F19EC9ADECFB22",
           type: "item",
           item: {
-            count: 1,
             id: "railcraft:block_signal",
+            count: 1,
           },
           count: 2,
         },
@@ -534,8 +554,8 @@
           id: "02100B49B4192E50",
           type: "item",
           item: {
-            count: 1,
             id: "railcraft:signal_tuner",
+            count: 1,
           },
         },
       ],
@@ -548,20 +568,21 @@
       ],
     },
     {
-      id: "0441725B024EBDCF",
       x: 3.2,
       y: 9.65,
       dependencies: [
         "0D83328FFB568D9A",
       ],
+      size: 1.0,
       optional: true,
+      id: "0441725B024EBDCF",
       tasks: [
         {
           id: "3962B2BA41E8D527",
           type: "item",
           item: {
-            count: 1,
             id: "railcraft:tunnel_bore",
+            count: 1,
           },
         },
       ],
@@ -574,24 +595,26 @@
         {
           id: "0911010B7E27E7DC",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "78AF58A8966496C3",
       x: 0.0,
       y: 9.65,
       dependencies: [
         "443202C1EB8EE037",
       ],
+      size: 1.0,
+      id: "78AF58A8966496C3",
       tasks: [
         {
           id: "2B0CF3EB5347FACB",
           type: "item",
           item: {
-            count: 1,
             id: "railcraft:world_spike",
+            count: 1,
           },
         },
       ],
@@ -604,7 +627,8 @@
       ],
     },
   ],
-  quest_links: [ ],
+  quest_links: [
+  ],
   images: [
     {
       x: 5.4,
@@ -613,10 +637,7 @@
       height: 1.4375,
       rotation: 0.0,
       image: "gspack:textures/quests/railcraft_header.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false,
+      id: "2857AD5E34FE139D",
     },
     {
       x: 0.3353,
@@ -625,10 +646,7 @@
       height: 0.6,
       rotation: 0.0,
       image: "gspack:textures/quests/railcraft_crowbar.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false,
+      id: "730B1612F7E30CD3",
     },
     {
       x: 0.3,
@@ -637,10 +655,7 @@
       height: 0.6,
       rotation: 0.0,
       image: "gspack:textures/quests/railcraft_loaders.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false,
+      id: "7A4F212F37115914",
     },
     {
       x: 0.1765,
@@ -649,10 +664,7 @@
       height: 0.6,
       rotation: 0.0,
       image: "gspack:textures/quests/railcraft_coke_oven.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false,
+      id: "6ED8242730722D06",
     },
   ],
 }

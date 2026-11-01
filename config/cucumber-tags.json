@@ -33,5 +33,7 @@
   "c:ores/ruby": "alltheores:ruby_ore",
   "c:ores/sapphire": "alltheores:sapphire_ore",
   "c:ores/fluorite": "alltheores:fluorite_ore",
-  "c:ores/osmium": "alltheores:osmium_ore"
+  "c:ores/osmium": "alltheores:osmium_ore",
+  "c:dusts/saltpeter": "railcraft:saltpeter_dust",
+  "c:ores/saltpeter": "railcraft:saltpeter_ore"
 }
