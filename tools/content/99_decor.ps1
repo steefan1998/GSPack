@@ -4,7 +4,7 @@
 Decorate 'welcome' '#f5c542'
 Decorate 'basics' '#6cc04a' @{ wood = 'First Day'; iron = 'Iron Age'; diamonds = 'Diamonds & Enchanting'; nether = 'The Nether'; end = 'The End'; ancient_city = 'Exploration' }
 Decorate 'mekanism' '#3fa7e0' @{ osmium = 'Getting Started'; heat_gen = 'Power'; enrich = 'Ore Processing'; upgrades = 'Upgrades & Tiers'; transporter = 'Logistics'; disassembler = 'Gear'; dyntank = 'Nuclear & Multiblocks' }
-Decorate 'ae2' '#9b6be0' @{ certus = 'Quartz & Meteorites'; presses = 'Inscriber'; cable = 'The Network'; drive = 'Storage'; terminal = 'Terminals & Devices'; pattern = 'Autocrafting'; wireless = 'Wireless'; p2p = 'P2P & Quantum'; adv_ae = 'Advanced AE' }
+Decorate 'ae2' '#9b6be0' @{ certus = 'Quartz & Meteorites'; presses = 'Inscriber'; cable = 'The Network'; drive = 'Storage'; terminal = 'Terminals & Devices'; pattern = 'Autocrafting'; wireless = 'Wireless'; p2p = 'P2P & Quantum'; adv_ae = 'Advanced AE'; ex_start = 'AE2 Add-ons' }
 Decorate 'oritech' '#e8902a' @{ start = 'First Steps'; pulverizer = 'Processing'; addons = 'Machine Addons'; fuel_gen = 'Power'; pump = 'Fluids & Oil'; gantry = 'Automation'; laser = 'Lasers & Mining'; forge = 'Advanced Materials'; tools = 'Gear'; reactor = 'Endgame' }
 Decorate 'mystical' '#55c85a' @{ inferium = 'Getting Started'; altar = 'Infusion Altar'; watering = 'Farming Tools'; tools = 'Gear'; awakening = 'Awakening' }
 Decorate 'seeds' '#9be05a' @{
@@ -19,10 +19,14 @@ Decorate 'allthemodium' '#f2c230' @{ start = 'Preparation'; atm_ore = 'Allthemod
 Decorate 'aquaculture' '#2fb7b0' @{ rod = 'Rods & Tackle'; knife = 'Food'; freshwater = 'Fish by Biome'; junk = 'Junk & Treasure' }
 Decorate 'aether' '#8fd4ff' @{ portal = 'Arrival'; zanite = 'Metals'; clouds = 'Travel'; food = 'Creatures'; altar = 'Magic'; outpost = 'Structures'; biome_highfields = 'Biomes' }
 Decorate 'twilight' '#4fa84f' @{ portal = 'Arrival'; torch = 'Resources'; naga_court = 'The Bosses'; ore_magnet = 'Equipment' }
-Decorate 'storage' '#c99a5b' @{ chest = 'Sophisticated Storage'; backpack = 'Backpacks'; drawers = 'Drawers'; toms = 'Storage Networks'; pipez = 'Pipes & Magnets' }
+Decorate 'storage' '#c99a5b' @{ chest = 'Sophisticated Storage'; backpack = 'Backpacks'; drawers = 'Drawers'; toms = 'Storage Networks'; pipez = 'Pipes & Magnets'; dimchest = 'Dimensional & Compressed' }
 Decorate 'building' '#e07a9a' @{ start = 'Build Tools'; furniture = 'Furniture & Lights'; roofs = 'Structure'; chisel = 'Decoration' }
 Decorate 'endgame' '#ff4fd8' @{ intro = 'The Final Goal'; core_tech = 'The Five Cores'; singularity = 'The Singularity'; c_energy_cube = 'Creative Items'; trophy = 'Trophy of Infinity' }
 Decorate 'dungeons' '#b8864a' @{ intro = 'Start Exploring'; y_dungeon = 'YUNG''s Dungeons & Temples'; a_fort = 'When Dungeons Arise'; v_ctov = 'Villages & Towns'; t_mage = 'Terralith & Explorify'; s_slime_sky = 'Sky & End'; master = 'Master Explorer' }
 Decorate 'tinkers' '#5a8fd6' @{ book = 'Getting Started'; grout = 'The Smeltery'; tools_set = 'Tools & Armor'; slime = 'Slime & Alloys' }
 Decorate 'ltx' '#7ad64a' @{ tablet = 'Getting Started'; grinder = 'Ore Processing'; mixer = 'Chemistry'; press = 'Circuits & Fabrication'; upgrades = 'Gear & Defense' }
 Decorate 'stellaris' '#6f7ff0' @{ titanium = 'Ground Control'; power = 'Power'; oil_finder = 'Fuel'; suit = 'Life Support'; parts = 'Rockets'; orbit = 'Space'; forest = 'Lunar Forest'; heart = 'Bosses' }
+Decorate 'railcraft' '#8c5a3c' @{ coke_oven = 'Steel'; crowbar = 'Tracks'; loaders = 'Trains' }
+Decorate 'roots' '#5fa85a' @{ tablet = 'Herbalism'; spell = 'Spells'; altar = 'Rituals'; living_tools = 'Gear' }
+Decorate 'evilcraft' '#a8263a' @{ dark_gem = 'The First Age'; extractor = 'Blood'; glasses = 'Spirits & Monsters'; accumulator = 'Power' }
+Decorate 'utilities' '#4fb3c8' @{ tiab = 'Gadgets'; harvester = 'Pylons'; vector = 'Dark Utilities' }

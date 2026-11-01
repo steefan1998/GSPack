@@ -11,6 +11,14 @@
     "- &bFTB Backups&r: saves your world regularly, just in case.",
   ],
   "quest.04E0F5F6380DDE7A.title": "Quality of Life",
+  "quest.072B146391038909.quest_desc": [
+    "Died far from home? Do not panic.",
+    "",
+    "&bCorail Tombstone&r puts your items in a &egrave&r at the place where you died. Go back to it and open it to get everything back.",
+    "",
+    "Write down your death location, or set a waypoint there with &eB&r.",
+  ],
+  "quest.072B146391038909.title": "Rest in Peace",
   "quest.1B8E801C6E4876A5.quest_desc": [
     "Not sure where to begin? A good route:",
     "0. &aGetting Started&r for the basics: iron, diamonds, the Nether.",
@@ -58,8 +66,9 @@
   ],
   "quest.41DFCE691EF6620F.title": "Looking Up Recipes",
   "quest.54FDEAAC29880347.quest_desc": [
-    "- &eM&r opens the world map, with a minimap in the corner of your screen.",
-    "- Set waypoints so you never lose your base.",
+    "- &bJourneyMap&r draws a minimap in the corner of your screen. Press &eJ&r for the full-screen map, &eCtrl + J&r to hide or show the minimap.",
+    "- Press &eB&r to set a waypoint and &eN&r to see all your waypoints, so you never lose your base.",
+    "- &eM&r opens the &bFTB Chunks&r map, where you claim chunks.",
     "- &bWaystones&r let you teleport between places you have visited.",
     "- &bNature's Compass&r and &bExplorer's Compass&r help you find biomes and structures.",
   ],

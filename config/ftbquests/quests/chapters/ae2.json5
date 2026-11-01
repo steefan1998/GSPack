@@ -1,28 +1,28 @@
 {
   id: "51E24E671CE7E30E",
   group: "105EE503AFE85CA5",
-  order_index: 1,
-  icon: {
-    id: "ae2:controller",
-    count: 1,
-  },
+  order_index: 3,
   filename: "ae2",
+  icon: {
+    count: 1,
+    id: "ae2:controller",
+  },
   default_quest_shape: "",
   default_hide_dependency_lines: true,
   quests: [
     {
+      id: "77C8DB5AC6C4C1EF",
       x: 0.0,
       y: 4.2,
       shape: "gear",
       size: 1.5,
-      id: "77C8DB5AC6C4C1EF",
       tasks: [
         {
           id: "3BA04776ACF8B666",
           type: "item",
           item: {
-            id: "ae2:certus_quartz_crystal",
             count: 1,
+            id: "ae2:certus_quartz_crystal",
           },
           count: 16,
         },
@@ -36,23 +36,21 @@
         {
           id: "44BA3DA935B16438",
           type: "random",
-          exclude_from_claim_all: true,
           table_id: 4224964620844649,
         },
       ],
     },
     {
-      icon: {
-        id: "ae2:sky_stone_block",
-        count: 1,
-      },
+      id: "5DFF7365FFAC7652",
       x: 1.6,
       y: 4.2,
+      icon: {
+        count: 1,
+        id: "ae2:sky_stone_block",
+      },
       dependencies: [
         "77C8DB5AC6C4C1EF",
       ],
-      size: 1.0,
-      id: "5DFF7365FFAC7652",
       tasks: [
         {
           id: "196716B6158FB74D",
@@ -69,26 +67,24 @@
         {
           id: "6F3FDB46BB607A88",
           type: "random",
-          exclude_from_claim_all: true,
           table_id: 2612120196957929,
         },
       ],
     },
     {
+      id: "35F821B5CF20B34C",
       x: 1.6,
       y: 5.7,
       dependencies: [
         "77C8DB5AC6C4C1EF",
       ],
-      size: 1.0,
-      id: "35F821B5CF20B34C",
       tasks: [
         {
           id: "5F161D5B3D4A37FC",
           type: "item",
           item: {
-            id: "ae2:meteorite_compass",
             count: 1,
+            id: "ae2:meteorite_compass",
           },
         },
       ],
@@ -101,20 +97,19 @@
       ],
     },
     {
+      id: "014820B6FA99E2F3",
       x: 3.2,
       y: 4.2,
       dependencies: [
         "5DFF7365FFAC7652",
       ],
-      size: 1.0,
-      id: "014820B6FA99E2F3",
       tasks: [
         {
           id: "27680DD593D0C7C7",
           type: "item",
           item: {
-            id: "ae2:sky_stone_block",
             count: 1,
+            id: "ae2:sky_stone_block",
           },
           count: 32,
         },
@@ -128,20 +123,19 @@
       ],
     },
     {
+      id: "4A4F893F16E66A2D",
       x: 1.6,
       y: 2.7,
       dependencies: [
         "77C8DB5AC6C4C1EF",
       ],
-      size: 1.0,
-      id: "4A4F893F16E66A2D",
       tasks: [
         {
           id: "43D9E15F00CA46DF",
           type: "item",
           item: {
-            id: "ae2:flawed_budding_quartz",
             count: 1,
+            id: "ae2:flawed_budding_quartz",
           },
         },
       ],
@@ -154,21 +148,20 @@
       ],
     },
     {
+      id: "2DBA7B405F9F9DCF",
       x: 3.2,
       y: 2.7,
       dependencies: [
         "4A4F893F16E66A2D",
         "712ACDB93B851213",
       ],
-      size: 1.0,
-      id: "2DBA7B405F9F9DCF",
       tasks: [
         {
           id: "35BC23D78C0FBE65",
           type: "item",
           item: {
-            id: "ae2:growth_accelerator",
             count: 1,
+            id: "ae2:growth_accelerator",
           },
           count: 2,
         },
@@ -182,28 +175,27 @@
       ],
     },
     {
+      id: "732B0B16A71B5086",
       x: 1.6,
       y: 7.2,
       dependencies: [
         "77C8DB5AC6C4C1EF",
       ],
-      size: 1.0,
-      id: "732B0B16A71B5086",
       tasks: [
         {
           id: "2CF675E6E76F188A",
           type: "item",
           item: {
-            id: "ae2:charger",
             count: 1,
+            id: "ae2:charger",
           },
         },
         {
           id: "048F65037B4E93D4",
           type: "item",
           item: {
-            id: "ae2:crank",
             count: 1,
+            id: "ae2:crank",
           },
         },
       ],
@@ -216,20 +208,19 @@
       ],
     },
     {
+      id: "32348528C0CF1C3B",
       x: 3.2,
       y: 7.2,
       dependencies: [
         "732B0B16A71B5086",
       ],
-      size: 1.0,
-      id: "32348528C0CF1C3B",
       tasks: [
         {
           id: "77F42DF9C8B75919",
           type: "item",
           item: {
-            id: "ae2:charged_certus_quartz_crystal",
             count: 1,
+            id: "ae2:charged_certus_quartz_crystal",
           },
           count: 8,
         },
@@ -243,20 +234,19 @@
       ],
     },
     {
+      id: "6081472C7E729951",
       x: 4.8,
       y: 7.2,
       dependencies: [
         "32348528C0CF1C3B",
       ],
-      size: 1.0,
-      id: "6081472C7E729951",
       tasks: [
         {
           id: "415F167EA095A454",
           type: "item",
           item: {
-            id: "ae2:fluix_crystal",
             count: 1,
+            id: "ae2:fluix_crystal",
           },
           count: 16,
         },
@@ -270,27 +260,25 @@
         {
           id: "27066557BF94CD33",
           type: "random",
-          exclude_from_claim_all: true,
           table_id: 2612120196957929,
         },
       ],
     },
     {
+      id: "3BB984342977089F",
       x: 6.4,
       y: 7.2,
       dependencies: [
         "6081472C7E729951",
       ],
-      size: 1.0,
       optional: true,
-      id: "3BB984342977089F",
       tasks: [
         {
           id: "70491619DD9217A9",
           type: "item",
           item: {
-            id: "ae2:fluix_pickaxe",
             count: 1,
+            id: "ae2:fluix_pickaxe",
           },
         },
       ],
@@ -303,21 +291,20 @@
       ],
     },
     {
+      id: "0648539C34551F43",
       x: 1.6,
       y: 1.2,
       dependencies: [
         "77C8DB5AC6C4C1EF",
       ],
-      size: 1.0,
       optional: true,
-      id: "0648539C34551F43",
       tasks: [
         {
           id: "30ECF2B00CE1F023",
           type: "item",
           item: {
-            id: "ae2:certus_quartz_cutting_knife",
             count: 1,
+            id: "ae2:certus_quartz_cutting_knife",
           },
         },
       ],
@@ -330,20 +317,19 @@
       ],
     },
     {
+      id: "3E19DD13B4769306",
       x: 1.6,
       y: 8.7,
       dependencies: [
         "77C8DB5AC6C4C1EF",
       ],
-      size: 1.0,
-      id: "3E19DD13B4769306",
       tasks: [
         {
           id: "7BD3AA7A492B4BDD",
           type: "item",
           item: {
-            id: "ae2:certus_quartz_wrench",
             count: 1,
+            id: "ae2:certus_quartz_wrench",
           },
         },
       ],
@@ -356,44 +342,43 @@
       ],
     },
     {
+      id: "78CE003A3EB19363",
       x: 0.0,
       y: 11.55,
       dependencies: [
         "5DFF7365FFAC7652",
       ],
-      size: 1.0,
-      id: "78CE003A3EB19363",
       tasks: [
         {
           id: "0A5A264735A66E75",
           type: "item",
           item: {
-            id: "ae2:calculation_processor_press",
             count: 1,
+            id: "ae2:calculation_processor_press",
           },
         },
         {
           id: "7C93002DD32CAA7C",
           type: "item",
           item: {
-            id: "ae2:engineering_processor_press",
             count: 1,
+            id: "ae2:engineering_processor_press",
           },
         },
         {
           id: "3AB7CA27355EB0F2",
           type: "item",
           item: {
-            id: "ae2:logic_processor_press",
             count: 1,
+            id: "ae2:logic_processor_press",
           },
         },
         {
           id: "7427F82573C97E3E",
           type: "item",
           item: {
-            id: "ae2:silicon_press",
             count: 1,
+            id: "ae2:silicon_press",
           },
         },
       ],
@@ -406,27 +391,25 @@
         {
           id: "342C347787A58FFD",
           type: "random",
-          exclude_from_claim_all: true,
           table_id: 2612120196957929,
         },
       ],
     },
     {
+      id: "32C08C873EFF4D8A",
       x: 1.6,
       y: 11.55,
       dependencies: [
         "78CE003A3EB19363",
         "6081472C7E729951",
       ],
-      size: 1.0,
-      id: "32C08C873EFF4D8A",
       tasks: [
         {
           id: "777D8AA80B5B7A41",
           type: "item",
           item: {
-            id: "ae2:inscriber",
             count: 1,
+            id: "ae2:inscriber",
           },
         },
       ],
@@ -439,20 +422,19 @@
       ],
     },
     {
+      id: "680F8C34195B4A90",
       x: 3.2,
       y: 11.55,
       dependencies: [
         "32C08C873EFF4D8A",
       ],
-      size: 1.0,
-      id: "680F8C34195B4A90",
       tasks: [
         {
           id: "4EBF72911281823B",
           type: "item",
           item: {
-            id: "ae2:silicon",
             count: 1,
+            id: "ae2:silicon",
           },
           count: 16,
         },
@@ -460,8 +442,8 @@
           id: "6E8031ECE0906BC2",
           type: "item",
           item: {
-            id: "ae2:printed_silicon",
             count: 1,
+            id: "ae2:printed_silicon",
           },
           count: 4,
         },
@@ -475,20 +457,19 @@
       ],
     },
     {
+      id: "5F83D571EF6D998E",
       x: 3.2,
       y: 13.05,
       dependencies: [
         "32C08C873EFF4D8A",
       ],
-      size: 1.0,
-      id: "5F83D571EF6D998E",
       tasks: [
         {
           id: "0353E4630C747EA2",
           type: "item",
           item: {
-            id: "ae2:printed_logic_processor",
             count: 1,
+            id: "ae2:printed_logic_processor",
           },
           count: 4,
         },
@@ -496,8 +477,8 @@
           id: "781551383730840D",
           type: "item",
           item: {
-            id: "ae2:printed_calculation_processor",
             count: 1,
+            id: "ae2:printed_calculation_processor",
           },
           count: 4,
         },
@@ -505,8 +486,8 @@
           id: "079D5AD025FFFA66",
           type: "item",
           item: {
-            id: "ae2:printed_engineering_processor",
             count: 1,
+            id: "ae2:printed_engineering_processor",
           },
           count: 4,
         },
@@ -520,21 +501,21 @@
       ],
     },
     {
+      id: "2D3ABE72931F1F61",
       x: 4.8,
       y: 11.55,
+      size: 1.5,
       dependencies: [
         "680F8C34195B4A90",
         "5F83D571EF6D998E",
       ],
-      size: 1.5,
-      id: "2D3ABE72931F1F61",
       tasks: [
         {
           id: "2AF5ACF4751F9B36",
           type: "item",
           item: {
-            id: "ae2:logic_processor",
             count: 1,
+            id: "ae2:logic_processor",
           },
           count: 8,
         },
@@ -542,8 +523,8 @@
           id: "6AA021DF1958BA2D",
           type: "item",
           item: {
-            id: "ae2:calculation_processor",
             count: 1,
+            id: "ae2:calculation_processor",
           },
           count: 8,
         },
@@ -551,8 +532,8 @@
           id: "36ACBE88FCFE285C",
           type: "item",
           item: {
-            id: "ae2:engineering_processor",
             count: 1,
+            id: "ae2:engineering_processor",
           },
           count: 8,
         },
@@ -566,26 +547,24 @@
         {
           id: "2027799131013226",
           type: "random",
-          exclude_from_claim_all: true,
           table_id: 253752461985528,
         },
       ],
     },
     {
+      id: "61C7B199AAAA6D35",
       x: 0.0,
       y: 15.9,
       dependencies: [
         "6081472C7E729951",
       ],
-      size: 1.0,
-      id: "61C7B199AAAA6D35",
       tasks: [
         {
           id: "6DC2D1C33DD6C568",
           type: "item",
           item: {
-            id: "ae2:fluix_glass_cable",
             count: 1,
+            id: "ae2:fluix_glass_cable",
           },
           count: 32,
         },
@@ -599,20 +578,19 @@
       ],
     },
     {
+      id: "0AAC6691D69FD904",
       x: 1.6,
       y: 17.4,
       dependencies: [
         "61C7B199AAAA6D35",
       ],
-      size: 1.0,
-      id: "0AAC6691D69FD904",
       tasks: [
         {
           id: "7EA6D7FD98132A5D",
           type: "item",
           item: {
-            id: "ae2:fluix_smart_cable",
             count: 1,
+            id: "ae2:fluix_smart_cable",
           },
           count: 16,
         },
@@ -626,21 +604,20 @@
       ],
     },
     {
+      id: "0EB9335F990424F0",
       x: 3.2,
       y: 15.9,
       dependencies: [
         "0AAC6691D69FD904",
         "712ACDB93B851213",
       ],
-      size: 1.0,
-      id: "0EB9335F990424F0",
       tasks: [
         {
           id: "653D661355C55EA3",
           type: "item",
           item: {
-            id: "ae2:fluix_smart_dense_cable",
             count: 1,
+            id: "ae2:fluix_smart_dense_cable",
           },
           count: 8,
         },
@@ -654,30 +631,30 @@
       ],
     },
     {
+      id: "712ACDB93B851213",
       x: 1.6,
       y: 15.9,
       shape: "hexagon",
+      size: 1.5,
       dependencies: [
         "2D3ABE72931F1F61",
         "61C7B199AAAA6D35",
       ],
-      size: 1.5,
-      id: "712ACDB93B851213",
       tasks: [
         {
           id: "0504FD6245D2DEAF",
           type: "item",
           item: {
-            id: "ae2:controller",
             count: 1,
+            id: "ae2:controller",
           },
         },
         {
           id: "3C4B62B24E7C0FA0",
           type: "item",
           item: {
-            id: "ae2:energy_acceptor",
             count: 1,
+            id: "ae2:energy_acceptor",
           },
         },
       ],
@@ -690,26 +667,24 @@
         {
           id: "1FA994BBEB33BCE9",
           type: "random",
-          exclude_from_claim_all: true,
           table_id: 253752461985528,
         },
       ],
     },
     {
+      id: "59FE974BB8E9A846",
       x: 3.2,
       y: 17.4,
       dependencies: [
         "712ACDB93B851213",
       ],
-      size: 1.0,
-      id: "59FE974BB8E9A846",
       tasks: [
         {
           id: "210294188EF75B1C",
           type: "item",
           item: {
-            id: "ae2:energy_cell",
             count: 1,
+            id: "ae2:energy_cell",
           },
         },
       ],
@@ -722,18 +697,17 @@
       ],
     },
     {
-      icon: {
-        id: "ae2:fluix_smart_dense_cable",
-        count: 1,
-      },
+      id: "74755E618C84970D",
       x: 4.8,
       y: 15.9,
+      icon: {
+        count: 1,
+        id: "ae2:fluix_smart_dense_cable",
+      },
       dependencies: [
         "712ACDB93B851213",
         "0EB9335F990424F0",
       ],
-      size: 1.0,
-      id: "74755E618C84970D",
       tasks: [
         {
           id: "678A86D503465BAC",
@@ -749,20 +723,19 @@
       ],
     },
     {
+      id: "6484448D54D8BEF5",
       x: 0.0,
       y: 23.0,
       dependencies: [
         "712ACDB93B851213",
       ],
-      size: 1.0,
-      id: "6484448D54D8BEF5",
       tasks: [
         {
           id: "0C2B8F35D2F6CB62",
           type: "item",
           item: {
-            id: "ae2:drive",
             count: 1,
+            id: "ae2:drive",
           },
         },
       ],
@@ -775,20 +748,19 @@
       ],
     },
     {
+      id: "2A2390FE4DD4843F",
       x: 1.6,
       y: 23.0,
       dependencies: [
         "6484448D54D8BEF5",
       ],
-      size: 1.0,
-      id: "2A2390FE4DD4843F",
       tasks: [
         {
           id: "491CD3308FE4331C",
           type: "item",
           item: {
-            id: "ae2:item_storage_cell_1k",
             count: 1,
+            id: "ae2:item_storage_cell_1k",
           },
           count: 2,
         },
@@ -802,20 +774,19 @@
       ],
     },
     {
+      id: "4E549DE8B37D0AB8",
       x: 3.2,
       y: 23.0,
       dependencies: [
         "2A2390FE4DD4843F",
       ],
-      size: 1.0,
-      id: "4E549DE8B37D0AB8",
       tasks: [
         {
           id: "247296F2DAD26A15",
           type: "item",
           item: {
-            id: "ae2:cell_workbench",
             count: 1,
+            id: "ae2:cell_workbench",
           },
         },
       ],
@@ -828,36 +799,35 @@
       ],
     },
     {
+      id: "4108F5E7AE39F44D",
       x: 3.2,
       y: 24.5,
       dependencies: [
         "2A2390FE4DD4843F",
       ],
-      size: 1.0,
-      id: "4108F5E7AE39F44D",
       tasks: [
         {
           id: "49A69167CE0D2509",
           type: "item",
           item: {
-            id: "ae2:item_storage_cell_4k",
             count: 1,
+            id: "ae2:item_storage_cell_4k",
           },
         },
         {
           id: "0EA6AE9F5125E881",
           type: "item",
           item: {
-            id: "ae2:item_storage_cell_16k",
             count: 1,
+            id: "ae2:item_storage_cell_16k",
           },
         },
         {
           id: "5C0F76DEE554E108",
           type: "item",
           item: {
-            id: "ae2:item_storage_cell_64k",
             count: 1,
+            id: "ae2:item_storage_cell_64k",
           },
         },
       ],
@@ -870,26 +840,24 @@
         {
           id: "51E51D344D0FDBAF",
           type: "random",
-          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
+      id: "5E04DAC5C4D91017",
       x: 4.8,
       y: 24.5,
       dependencies: [
         "4108F5E7AE39F44D",
       ],
-      size: 1.0,
-      id: "5E04DAC5C4D91017",
       tasks: [
         {
           id: "795D33AFF28F748C",
           type: "item",
           item: {
-            id: "ae2:item_storage_cell_256k",
             count: 1,
+            id: "ae2:item_storage_cell_256k",
           },
           count: 2,
         },
@@ -903,26 +871,24 @@
         {
           id: "3980730DC29E7885",
           type: "random",
-          exclude_from_claim_all: true,
           table_id: 379532711335085,
         },
       ],
     },
     {
+      id: "6DE98D174383418D",
       x: 3.2,
       y: 21.5,
       dependencies: [
         "2A2390FE4DD4843F",
       ],
-      size: 1.0,
-      id: "6DE98D174383418D",
       tasks: [
         {
           id: "3EEE323348E9DDBD",
           type: "item",
           item: {
-            id: "ae2:fluid_storage_cell_4k",
             count: 1,
+            id: "ae2:fluid_storage_cell_4k",
           },
         },
       ],
@@ -935,21 +901,20 @@
       ],
     },
     {
+      id: "3FCDEDC469AB4497",
       x: 3.2,
       y: 26.0,
       dependencies: [
         "2A2390FE4DD4843F",
       ],
-      size: 1.0,
       optional: true,
-      id: "3FCDEDC469AB4497",
       tasks: [
         {
           id: "1698A586BFEFE49B",
           type: "item",
           item: {
-            id: "ae2:portable_item_cell_1k",
             count: 1,
+            id: "ae2:portable_item_cell_1k",
           },
         },
       ],
@@ -962,21 +927,20 @@
       ],
     },
     {
+      id: "30BE516549FA0D54",
       x: 3.2,
       y: 20.0,
       dependencies: [
         "2A2390FE4DD4843F",
       ],
-      size: 1.0,
       optional: true,
-      id: "30BE516549FA0D54",
       tasks: [
         {
           id: "549C632D6825793F",
           type: "item",
           item: {
-            id: "ae2:me_chest",
             count: 1,
+            id: "ae2:me_chest",
           },
         },
       ],
@@ -989,20 +953,19 @@
       ],
     },
     {
+      id: "4EF8C3753D6C3D54",
       x: 0.0,
       y: 31.6,
       dependencies: [
         "712ACDB93B851213",
       ],
-      size: 1.0,
-      id: "4EF8C3753D6C3D54",
       tasks: [
         {
           id: "3E8ED9C70D9D30CD",
           type: "item",
           item: {
-            id: "ae2:terminal",
             count: 1,
+            id: "ae2:terminal",
           },
         },
       ],
@@ -1015,20 +978,19 @@
       ],
     },
     {
+      id: "7E0DE3E91C9C70EC",
       x: 1.6,
       y: 31.6,
       dependencies: [
         "4EF8C3753D6C3D54",
       ],
-      size: 1.0,
-      id: "7E0DE3E91C9C70EC",
       tasks: [
         {
           id: "7D53EAFD5759E853",
           type: "item",
           item: {
-            id: "ae2:crafting_terminal",
             count: 1,
+            id: "ae2:crafting_terminal",
           },
         },
       ],
@@ -1041,20 +1003,19 @@
       ],
     },
     {
+      id: "75129AE84F82D6DD",
       x: 0.0,
       y: 33.1,
       dependencies: [
         "712ACDB93B851213",
       ],
-      size: 1.0,
-      id: "75129AE84F82D6DD",
       tasks: [
         {
           id: "7E50242D670062AD",
           type: "item",
           item: {
-            id: "ae2:import_bus",
             count: 1,
+            id: "ae2:import_bus",
           },
           count: 2,
         },
@@ -1068,20 +1029,19 @@
       ],
     },
     {
+      id: "74B13E780100F604",
       x: 0.0,
       y: 30.1,
       dependencies: [
         "712ACDB93B851213",
       ],
-      size: 1.0,
-      id: "74B13E780100F604",
       tasks: [
         {
           id: "04C2C4C47C3A8ED6",
           type: "item",
           item: {
-            id: "ae2:export_bus",
             count: 1,
+            id: "ae2:export_bus",
           },
           count: 2,
         },
@@ -1095,21 +1055,20 @@
       ],
     },
     {
+      id: "7D81EFDA3E495534",
       x: 1.6,
       y: 33.1,
       dependencies: [
         "75129AE84F82D6DD",
         "74B13E780100F604",
       ],
-      size: 1.0,
-      id: "7D81EFDA3E495534",
       tasks: [
         {
           id: "68BE9CFE7D085029",
           type: "item",
           item: {
-            id: "ae2:storage_bus",
             count: 1,
+            id: "ae2:storage_bus",
           },
           count: 2,
         },
@@ -1123,21 +1082,20 @@
       ],
     },
     {
+      id: "714E2728654BF641",
       x: 1.6,
       y: 30.1,
       dependencies: [
         "75129AE84F82D6DD",
         "74B13E780100F604",
       ],
-      size: 1.0,
-      id: "714E2728654BF641",
       tasks: [
         {
           id: "72F51BCE3EF72C13",
           type: "item",
           item: {
-            id: "ae2:interface",
             count: 1,
+            id: "ae2:interface",
           },
           count: 2,
         },
@@ -1151,21 +1109,20 @@
       ],
     },
     {
+      id: "7E14754EAEEB3F16",
       x: 3.2,
       y: 30.1,
       dependencies: [
         "714E2728654BF641",
       ],
-      size: 1.0,
       optional: true,
-      id: "7E14754EAEEB3F16",
       tasks: [
         {
           id: "397103146DD5389B",
           type: "item",
           item: {
-            id: "ae2:level_emitter",
             count: 1,
+            id: "ae2:level_emitter",
           },
         },
       ],
@@ -1178,20 +1135,19 @@
       ],
     },
     {
+      id: "1B3FF85646387335",
       x: 3.2,
       y: 31.6,
       dependencies: [
         "714E2728654BF641",
       ],
-      size: 1.0,
-      id: "1B3FF85646387335",
       tasks: [
         {
           id: "38D6EA64C69E7154",
           type: "item",
           item: {
-            id: "ae2:speed_card",
             count: 1,
+            id: "ae2:speed_card",
           },
           count: 2,
         },
@@ -1199,24 +1155,24 @@
           id: "27431EE874DCBAC6",
           type: "item",
           item: {
-            id: "ae2:capacity_card",
             count: 1,
+            id: "ae2:capacity_card",
           },
         },
         {
           id: "0C4E07426E62B41C",
           type: "item",
           item: {
-            id: "ae2:fuzzy_card",
             count: 1,
+            id: "ae2:fuzzy_card",
           },
         },
         {
           id: "592A8E679AF925D6",
           type: "item",
           item: {
-            id: "ae2:redstone_card",
             count: 1,
+            id: "ae2:redstone_card",
           },
         },
       ],
@@ -1229,29 +1185,28 @@
       ],
     },
     {
+      id: "118AEEE8F1FFC56B",
       x: 3.2,
       y: 28.6,
       dependencies: [
         "714E2728654BF641",
       ],
-      size: 1.0,
       optional: true,
-      id: "118AEEE8F1FFC56B",
       tasks: [
         {
           id: "6F792DEE3502C72E",
           type: "item",
           item: {
-            id: "ae2:formation_plane",
             count: 1,
+            id: "ae2:formation_plane",
           },
         },
         {
           id: "3F0C435888BFF9A2",
           type: "item",
           item: {
-            id: "ae2:annihilation_plane",
             count: 1,
+            id: "ae2:annihilation_plane",
           },
         },
       ],
@@ -1264,21 +1219,20 @@
       ],
     },
     {
+      id: "273A6F1933B91CAD",
       x: 0.0,
       y: 34.6,
       dependencies: [
         "4108F5E7AE39F44D",
       ],
-      size: 1.0,
       optional: true,
-      id: "273A6F1933B91CAD",
       tasks: [
         {
           id: "2CE1803A2D6C5EF0",
           type: "item",
           item: {
-            id: "ae2:io_port",
             count: 1,
+            id: "ae2:io_port",
           },
         },
       ],
@@ -1291,28 +1245,27 @@
       ],
     },
     {
+      id: "61513660EAAB7025",
       x: 0.0,
       y: 38.7,
       dependencies: [
         "7E0DE3E91C9C70EC",
       ],
-      size: 1.0,
-      id: "61513660EAAB7025",
       tasks: [
         {
           id: "0C12DAEE3290C3C7",
           type: "item",
           item: {
-            id: "ae2:pattern_encoding_terminal",
             count: 1,
+            id: "ae2:pattern_encoding_terminal",
           },
         },
         {
           id: "155A8CC5C4C40DD8",
           type: "item",
           item: {
-            id: "ae2:blank_pattern",
             count: 1,
+            id: "ae2:blank_pattern",
           },
           count: 16,
         },
@@ -1326,20 +1279,19 @@
       ],
     },
     {
+      id: "197EBAF6B72273C2",
       x: 1.6,
       y: 38.7,
       dependencies: [
         "61513660EAAB7025",
       ],
-      size: 1.0,
-      id: "197EBAF6B72273C2",
       tasks: [
         {
           id: "2E96FF9FE1C95502",
           type: "item",
           item: {
-            id: "ae2:crafting_unit",
             count: 1,
+            id: "ae2:crafting_unit",
           },
           count: 4,
         },
@@ -1347,24 +1299,24 @@
           id: "6A0822AA45FFFA0D",
           type: "item",
           item: {
-            id: "ae2:4k_crafting_storage",
             count: 1,
+            id: "ae2:4k_crafting_storage",
           },
         },
         {
           id: "4FE25E645F002E62",
           type: "item",
           item: {
-            id: "ae2:crafting_accelerator",
             count: 1,
+            id: "ae2:crafting_accelerator",
           },
         },
         {
           id: "148AB8D61106980F",
           type: "item",
           item: {
-            id: "ae2:crafting_monitor",
             count: 1,
+            id: "ae2:crafting_monitor",
           },
         },
       ],
@@ -1377,26 +1329,24 @@
         {
           id: "07CA09C987499AFB",
           type: "random",
-          exclude_from_claim_all: true,
           table_id: 253752461985528,
         },
       ],
     },
     {
+      id: "0ADA6540DB1C6940",
       x: 3.2,
       y: 38.7,
       dependencies: [
         "197EBAF6B72273C2",
       ],
-      size: 1.0,
-      id: "0ADA6540DB1C6940",
       tasks: [
         {
           id: "624D876417F49DC9",
           type: "item",
           item: {
-            id: "ae2:pattern_provider",
             count: 1,
+            id: "ae2:pattern_provider",
           },
           count: 2,
         },
@@ -1410,21 +1360,21 @@
       ],
     },
     {
+      id: "1FB3941ADA6BB034",
       x: 4.8,
       y: 38.7,
       shape: "hexagon",
+      size: 1.5,
       dependencies: [
         "0ADA6540DB1C6940",
       ],
-      size: 1.5,
-      id: "1FB3941ADA6BB034",
       tasks: [
         {
           id: "28440153299AE058",
           type: "item",
           item: {
-            id: "ae2:molecular_assembler",
             count: 1,
+            id: "ae2:molecular_assembler",
           },
           count: 4,
         },
@@ -1438,26 +1388,24 @@
         {
           id: "6531228368F751D5",
           type: "choice",
-          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
+      id: "5E5A4D6E3384BBBC",
       x: 4.8,
       y: 40.2,
       dependencies: [
         "0ADA6540DB1C6940",
       ],
-      size: 1.0,
-      id: "5E5A4D6E3384BBBC",
       tasks: [
         {
           id: "39A7B21EDAEFC116",
           type: "item",
           item: {
-            id: "ae2:pattern_access_terminal",
             count: 1,
+            id: "ae2:pattern_access_terminal",
           },
         },
       ],
@@ -1470,28 +1418,27 @@
       ],
     },
     {
+      id: "440E7BC045315C69",
       x: 6.4,
       y: 38.7,
       dependencies: [
         "1FB3941ADA6BB034",
       ],
-      size: 1.0,
-      id: "440E7BC045315C69",
       tasks: [
         {
           id: "043D3FC7DFA6374F",
           type: "item",
           item: {
-            id: "ae2:64k_crafting_storage",
             count: 1,
+            id: "ae2:64k_crafting_storage",
           },
         },
         {
           id: "2C0B5504E446D8C0",
           type: "item",
           item: {
-            id: "ae2:crafting_accelerator",
             count: 1,
+            id: "ae2:crafting_accelerator",
           },
           count: 8,
         },
@@ -1505,27 +1452,25 @@
         {
           id: "2EE12F4EDBCE5E08",
           type: "random",
-          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
+      id: "4723C67B1AA17F16",
       x: 6.4,
       y: 40.2,
       dependencies: [
         "1FB3941ADA6BB034",
       ],
-      size: 1.0,
       optional: true,
-      id: "4723C67B1AA17F16",
       tasks: [
         {
           id: "3896DB620D1D9D96",
           type: "item",
           item: {
-            id: "merequester:requester",
             count: 1,
+            id: "merequester:requester",
           },
         },
       ],
@@ -1538,18 +1483,17 @@
       ],
     },
     {
-      icon: {
-        id: "ae2:molecular_assembler",
-        count: 1,
-      },
+      id: "1BE6AE82C2C63DE2",
       x: 6.4,
       y: 37.2,
+      icon: {
+        count: 1,
+        id: "ae2:molecular_assembler",
+      },
       dependencies: [
         "1FB3941ADA6BB034",
       ],
-      size: 1.0,
       optional: true,
-      id: "1BE6AE82C2C63DE2",
       tasks: [
         {
           id: "11DEE361947D7A9F",
@@ -1565,28 +1509,27 @@
       ],
     },
     {
+      id: "16545F6399D951C1",
       x: 0.0,
       y: 42.8,
       dependencies: [
         "4EF8C3753D6C3D54",
       ],
-      size: 1.0,
-      id: "16545F6399D951C1",
       tasks: [
         {
           id: "62A13B22D8170F5A",
           type: "item",
           item: {
-            id: "ae2:wireless_access_point",
             count: 1,
+            id: "ae2:wireless_access_point",
           },
         },
         {
           id: "2471904678585025",
           type: "item",
           item: {
-            id: "ae2:wireless_booster",
             count: 1,
+            id: "ae2:wireless_booster",
           },
           count: 4,
         },
@@ -1600,26 +1543,24 @@
         {
           id: "7D9C046780A1A059",
           type: "random",
-          exclude_from_claim_all: true,
           table_id: 253752461985528,
         },
       ],
     },
     {
+      id: "4B50BCB44EDF65B6",
       x: 1.6,
       y: 42.8,
       dependencies: [
         "16545F6399D951C1",
       ],
-      size: 1.0,
-      id: "4B50BCB44EDF65B6",
       tasks: [
         {
           id: "133AB52EF736D992",
           type: "item",
           item: {
-            id: "ae2:wireless_terminal",
             count: 1,
+            id: "ae2:wireless_terminal",
           },
         },
       ],
@@ -1632,21 +1573,20 @@
       ],
     },
     {
+      id: "10E72CB88803CEC5",
       x: 3.2,
       y: 42.8,
       dependencies: [
         "4B50BCB44EDF65B6",
         "7E0DE3E91C9C70EC",
       ],
-      size: 1.0,
-      id: "10E72CB88803CEC5",
       tasks: [
         {
           id: "14792BAB417ED197",
           type: "item",
           item: {
-            id: "ae2:wireless_crafting_terminal",
             count: 1,
+            id: "ae2:wireless_crafting_terminal",
           },
         },
       ],
@@ -1659,20 +1599,19 @@
       ],
     },
     {
+      id: "15A116E0BCDA8A4C",
       x: 0.0,
       y: 46.9,
       dependencies: [
         "74755E618C84970D",
       ],
-      size: 1.0,
-      id: "15A116E0BCDA8A4C",
       tasks: [
         {
           id: "0B6012F812172B89",
           type: "item",
           item: {
-            id: "ae2:me_p2p_tunnel",
             count: 1,
+            id: "ae2:me_p2p_tunnel",
           },
           count: 2,
         },
@@ -1680,8 +1619,8 @@
           id: "5802BC2F184108A6",
           type: "item",
           item: {
-            id: "ae2:memory_card",
             count: 1,
+            id: "ae2:memory_card",
           },
         },
       ],
@@ -1694,21 +1633,20 @@
       ],
     },
     {
+      id: "767A29DA9EF5203D",
       x: 1.6,
       y: 46.9,
       dependencies: [
         "15A116E0BCDA8A4C",
       ],
-      size: 1.0,
       optional: true,
-      id: "767A29DA9EF5203D",
       tasks: [
         {
           id: "7665E073D57B7B18",
           type: "item",
           item: {
-            id: "ae2:fe_p2p_tunnel",
             count: 1,
+            id: "ae2:fe_p2p_tunnel",
           },
           count: 2,
         },
@@ -1716,8 +1654,8 @@
           id: "3F78333B10D6A664",
           type: "item",
           item: {
-            id: "ae2:item_p2p_tunnel",
             count: 1,
+            id: "ae2:item_p2p_tunnel",
           },
           count: 2,
         },
@@ -1725,8 +1663,8 @@
           id: "781FA025AF5D3C56",
           type: "item",
           item: {
-            id: "ae2:fluid_p2p_tunnel",
             count: 1,
+            id: "ae2:fluid_p2p_tunnel",
           },
           count: 2,
         },
@@ -1740,20 +1678,19 @@
       ],
     },
     {
+      id: "283E9173C8848993",
       x: 1.6,
       y: 48.4,
       dependencies: [
         "15A116E0BCDA8A4C",
       ],
-      size: 1.0,
-      id: "283E9173C8848993",
       tasks: [
         {
           id: "117C10F814933E77",
           type: "item",
           item: {
-            id: "ae2:quantum_ring",
             count: 1,
+            id: "ae2:quantum_ring",
           },
           count: 16,
         },
@@ -1761,8 +1698,8 @@
           id: "4B092B0A7197CF84",
           type: "item",
           item: {
-            id: "ae2:quantum_link",
             count: 1,
+            id: "ae2:quantum_link",
           },
           count: 2,
         },
@@ -1770,8 +1707,8 @@
           id: "41285007E00B5DBC",
           type: "item",
           item: {
-            id: "ae2:quantum_entangled_singularity",
             count: 1,
+            id: "ae2:quantum_entangled_singularity",
           },
           count: 2,
         },
@@ -1785,35 +1722,33 @@
         {
           id: "356FABAED269649E",
           type: "random",
-          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
+      id: "31F4F93DF2BD5A8B",
       x: 3.2,
       y: 48.4,
       dependencies: [
         "283E9173C8848993",
       ],
-      size: 1.0,
       optional: true,
-      id: "31F4F93DF2BD5A8B",
       tasks: [
         {
           id: "5BFD0640B5ABED47",
           type: "item",
           item: {
-            id: "ae2:spatial_io_port",
             count: 1,
+            id: "ae2:spatial_io_port",
           },
         },
         {
           id: "54ACD4838F74FAE3",
           type: "item",
           item: {
-            id: "ae2:spatial_pylon",
             count: 1,
+            id: "ae2:spatial_pylon",
           },
           count: 8,
         },
@@ -1821,8 +1756,8 @@
           id: "16378EB1D867920A",
           type: "item",
           item: {
-            id: "ae2:spatial_storage_cell_2",
             count: 1,
+            id: "ae2:spatial_storage_cell_2",
           },
         },
       ],
@@ -1835,28 +1770,27 @@
       ],
     },
     {
+      id: "285B84FAED473B5A",
       x: 0.0,
       y: 48.4,
       dependencies: [
         "2A2390FE4DD4843F",
       ],
-      size: 1.0,
-      id: "285B84FAED473B5A",
       tasks: [
         {
           id: "17757FA5B5313B28",
           type: "item",
           item: {
-            id: "appmek:chemical_cell_housing",
             count: 1,
+            id: "appmek:chemical_cell_housing",
           },
         },
         {
           id: "523279975587AB1C",
           type: "item",
           item: {
-            id: "appmek:chemical_storage_cell_4k",
             count: 1,
+            id: "appmek:chemical_storage_cell_4k",
           },
         },
       ],
@@ -1869,28 +1803,26 @@
         {
           id: "711AEBF8B8631BAE",
           type: "random",
-          exclude_from_claim_all: true,
           table_id: 2612120196957929,
         },
       ],
     },
     {
+      id: "05A17155B2CC1C4E",
       x: 1.6,
       y: 45.4,
       dependencies: [
         "285B84FAED473B5A",
         "15A116E0BCDA8A4C",
       ],
-      size: 1.0,
       optional: true,
-      id: "05A17155B2CC1C4E",
       tasks: [
         {
           id: "1B177733339382F1",
           type: "item",
           item: {
-            id: "appmek:chemical_p2p_tunnel",
             count: 1,
+            id: "appmek:chemical_p2p_tunnel",
           },
           count: 2,
         },
@@ -1904,28 +1836,27 @@
       ],
     },
     {
+      id: "55B0F0678EF0E6EC",
       x: 0.0,
       y: 45.4,
       dependencies: [
         "1FB3941ADA6BB034",
       ],
-      size: 1.0,
-      id: "55B0F0678EF0E6EC",
       tasks: [
         {
           id: "370890880BBAD09F",
           type: "item",
           item: {
-            id: "applied_oritech:me_interface_addon",
             count: 1,
+            id: "applied_oritech:me_interface_addon",
           },
         },
         {
           id: "4D05F25837320745",
           type: "item",
           item: {
-            id: "applied_oritech:me_pattern_provider_addon",
             count: 1,
+            id: "applied_oritech:me_pattern_provider_addon",
           },
         },
       ],
@@ -1938,26 +1869,25 @@
         {
           id: "2666EC461841CFBC",
           type: "random",
-          exclude_from_claim_all: true,
           table_id: 2612120196957929,
         },
       ],
     },
     {
+      id: "3DCB426C2D3D35BD",
       x: 0.0,
       y: 52.5,
+      size: 1.5,
       dependencies: [
         "1FB3941ADA6BB034",
       ],
-      size: 1.5,
-      id: "3DCB426C2D3D35BD",
       tasks: [
         {
           id: "612168CAA075B4E2",
           type: "item",
           item: {
-            id: "advanced_ae:quantum_processor",
             count: 1,
+            id: "advanced_ae:quantum_processor",
           },
           count: 4,
         },
@@ -1965,8 +1895,8 @@
           id: "50FC9C21383F6C21",
           type: "item",
           item: {
-            id: "advanced_ae:quantum_alloy",
             count: 1,
+            id: "advanced_ae:quantum_alloy",
           },
           count: 4,
         },
@@ -1980,26 +1910,24 @@
         {
           id: "60DDFCEA9CDBCA17",
           type: "random",
-          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
+      id: "78AB24FA8C4E547D",
       x: 1.6,
       y: 52.5,
       dependencies: [
         "3DCB426C2D3D35BD",
       ],
-      size: 1.0,
-      id: "78AB24FA8C4E547D",
       tasks: [
         {
           id: "541AA6B60649EC89",
           type: "item",
           item: {
-            id: "advanced_ae:reaction_chamber",
             count: 1,
+            id: "advanced_ae:reaction_chamber",
           },
         },
       ],
@@ -2012,20 +1940,19 @@
       ],
     },
     {
+      id: "69438C5C547C8877",
       x: 1.6,
       y: 54.0,
       dependencies: [
         "3DCB426C2D3D35BD",
       ],
-      size: 1.0,
-      id: "69438C5C547C8877",
       tasks: [
         {
           id: "48B67B3911EC07E0",
           type: "item",
           item: {
-            id: "advanced_ae:small_adv_pattern_provider",
             count: 1,
+            id: "advanced_ae:small_adv_pattern_provider",
           },
         },
       ],
@@ -2038,21 +1965,20 @@
       ],
     },
     {
+      id: "29A73A59ECB9B5A6",
       x: 1.6,
       y: 51.0,
       dependencies: [
         "3DCB426C2D3D35BD",
       ],
-      size: 1.0,
       optional: true,
-      id: "29A73A59ECB9B5A6",
       tasks: [
         {
           id: "7CB431FE6FD6F21F",
           type: "item",
           item: {
-            id: "advanced_ae:quantum_storage_256",
             count: 1,
+            id: "advanced_ae:quantum_storage_256",
           },
         },
       ],
@@ -2065,34 +1991,33 @@
         {
           id: "4FAD0878B0B65F84",
           type: "random",
-          exclude_from_claim_all: true,
           table_id: 379532711335085,
         },
       ],
     },
     {
+      id: "4421EF16E6AD3337",
       x: 1.6,
       y: 55.5,
+      size: 1.5,
       dependencies: [
         "3DCB426C2D3D35BD",
       ],
-      size: 1.5,
-      id: "4421EF16E6AD3337",
       tasks: [
         {
           id: "23821C2CDC325062",
           type: "item",
           item: {
-            id: "advanced_ae:quantum_core",
             count: 1,
+            id: "advanced_ae:quantum_core",
           },
         },
         {
           id: "5D312B0A83632860",
           type: "item",
           item: {
-            id: "advanced_ae:quantum_unit",
             count: 1,
+            id: "advanced_ae:quantum_unit",
           },
           count: 8,
         },
@@ -2100,8 +2025,8 @@
           id: "19895B6F627DE353",
           type: "item",
           item: {
-            id: "advanced_ae:quantum_structure",
             count: 1,
+            id: "advanced_ae:quantum_structure",
           },
           count: 16,
         },
@@ -2109,8 +2034,8 @@
           id: "04A50480B9094870",
           type: "item",
           item: {
-            id: "advanced_ae:quantum_accelerator",
             count: 1,
+            id: "advanced_ae:quantum_accelerator",
           },
           count: 2,
         },
@@ -2124,51 +2049,50 @@
         {
           id: "28B458F8DA114A02",
           type: "random",
-          exclude_from_claim_all: true,
           table_id: 379532711335085,
         },
       ],
     },
     {
+      id: "598913DCAF3E262F",
       x: 3.2,
       y: 52.5,
       shape: "gear",
+      size: 2.0,
       dependencies: [
         "78AB24FA8C4E547D",
       ],
-      size: 2.0,
-      id: "598913DCAF3E262F",
       tasks: [
         {
           id: "3D579398C2F5736F",
           type: "item",
           item: {
-            id: "advanced_ae:quantum_helmet",
             count: 1,
+            id: "advanced_ae:quantum_helmet",
           },
         },
         {
           id: "0750FD5A038863FA",
           type: "item",
           item: {
-            id: "advanced_ae:quantum_chestplate",
             count: 1,
+            id: "advanced_ae:quantum_chestplate",
           },
         },
         {
           id: "3E88F6631FC45323",
           type: "item",
           item: {
-            id: "advanced_ae:quantum_leggings",
             count: 1,
+            id: "advanced_ae:quantum_leggings",
           },
         },
         {
           id: "203A01197AD39F5F",
           type: "item",
           item: {
-            id: "advanced_ae:quantum_boots",
             count: 1,
+            id: "advanced_ae:quantum_boots",
           },
         },
       ],
@@ -2181,14 +2105,444 @@
         {
           id: "17CC9F26876A1D98",
           type: "random",
-          exclude_from_claim_all: true,
           table_id: 379532711335085,
         },
       ],
     },
+    {
+      id: "3DCF583935A1592C",
+      x: 0.0,
+      y: 59.6,
+      size: 1.5,
+      dependencies: [
+        "0ADA6540DB1C6940",
+      ],
+      tasks: [
+        {
+          id: "6D0ED0CC4D64EE5E",
+          type: "item",
+          item: {
+            count: 1,
+            id: "extendedae:ex_pattern_provider",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "614452B7710D5063",
+          type: "xp",
+          xp: 150,
+        },
+        {
+          id: "2F606177B0EC0AB2",
+          type: "random",
+          table_id: 2612120196957929,
+        },
+      ],
+    },
+    {
+      id: "22834634E9E10048",
+      x: 1.6,
+      y: 59.6,
+      dependencies: [
+        "3DCF583935A1592C",
+      ],
+      tasks: [
+        {
+          id: "1296ED00C2C1AC92",
+          type: "item",
+          item: {
+            count: 1,
+            id: "extendedae:ex_interface",
+          },
+        },
+        {
+          id: "43DAB4BDDB9BD71A",
+          type: "item",
+          item: {
+            count: 1,
+            id: "extendedae:ex_drive",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "23BAE03280D8F896",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      id: "1CAD1025C508E89A",
+      x: 1.6,
+      y: 61.1,
+      dependencies: [
+        "3DCF583935A1592C",
+      ],
+      tasks: [
+        {
+          id: "6D7C79782D5EDD9C",
+          type: "item",
+          item: {
+            count: 1,
+            id: "extendedae:assembler_matrix_frame",
+          },
+        },
+        {
+          id: "73EA439E6C5648FE",
+          type: "item",
+          item: {
+            count: 1,
+            id: "extendedae:assembler_matrix_crafter",
+          },
+        },
+        {
+          id: "68E146F39729AEBB",
+          type: "item",
+          item: {
+            count: 1,
+            id: "extendedae:assembler_matrix_pattern",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "644C5526EB8335C9",
+          type: "xp",
+          xp: 250,
+        },
+        {
+          id: "0049553BF12E410E",
+          type: "random",
+          table_id: 2210856162803377,
+        },
+      ],
+    },
+    {
+      id: "3AEE430308F06724",
+      x: 1.6,
+      y: 58.1,
+      dependencies: [
+        "3DCF583935A1592C",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "6F65E573C328E05A",
+          type: "item",
+          item: {
+            count: 1,
+            id: "extendedae:wireless_connect",
+          },
+          count: 2,
+        },
+        {
+          id: "69695E551649BB47",
+          type: "item",
+          item: {
+            count: 1,
+            id: "extendedae:wireless_tool",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "773C952539EE2150",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      id: "3BCEABAC45095316",
+      x: 1.6,
+      y: 62.6,
+      dependencies: [
+        "3DCF583935A1592C",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "3DE96626BF756529",
+          type: "item",
+          item: {
+            count: 1,
+            id: "extendedae:entro_crystal",
+          },
+          count: 8,
+        },
+      ],
+      rewards: [
+        {
+          id: "3923DF58DFB9DF8D",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      id: "504F1061E850B2FF",
+      x: 0.0,
+      y: 65.6,
+      dependencies: [
+        "6484448D54D8BEF5",
+      ],
+      tasks: [
+        {
+          id: "6C38C9D244B9E96A",
+          type: "item",
+          item: {
+            count: 1,
+            id: "appflux:flux_accessor",
+          },
+        },
+        {
+          id: "4F2A3A56C29AD731",
+          type: "item",
+          item: {
+            count: 1,
+            id: "appflux:fe_1k_cell",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7CFC8B070DBB5859",
+          type: "xp",
+          xp: 150,
+        },
+        {
+          id: "5DED181ADF022D16",
+          type: "random",
+          table_id: 2612120196957929,
+        },
+      ],
+    },
+    {
+      id: "16356B8188D0413D",
+      x: 1.6,
+      y: 65.6,
+      dependencies: [
+        "4B50BCB44EDF65B6",
+      ],
+      tasks: [
+        {
+          id: "503E80CFABB950E1",
+          type: "item",
+          item: {
+            count: 1,
+            id: "aeinfinitybooster:infinity_card",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "55170A5F7ED8C751",
+          type: "xp",
+          xp: 150,
+        },
+        {
+          id: "36237F587FE66E77",
+          type: "random",
+          table_id: 2210856162803377,
+        },
+      ],
+    },
+    {
+      id: "22794BCF72C37648",
+      x: 3.2,
+      y: 65.6,
+      dependencies: [
+        "2A2390FE4DD4843F",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "5BEBB440C6932B5D",
+          type: "item",
+          item: {
+            count: 1,
+            id: "enderdrives:ender_disk_1k",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "30C0E28C909E834E",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      id: "1921A0024EF4410C",
+      x: 0.0,
+      y: 61.1,
+      dependencies: [
+        "2A2390FE4DD4843F",
+      ],
+      tasks: [
+        {
+          id: "5A958520532B5BEF",
+          type: "item",
+          item: {
+            count: 1,
+            id: "replication:raw_replica",
+          },
+          count: 4,
+        },
+        {
+          id: "77BB93CC4A293D8C",
+          type: "item",
+          item: {
+            count: 1,
+            id: "replication:replica_ingot",
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "368977AB485FB111",
+          type: "xp",
+          xp: 150,
+        },
+        {
+          id: "517C11DD5DADB44E",
+          type: "random",
+          table_id: 2612120196957929,
+        },
+      ],
+    },
+    {
+      id: "1C47D1636E5D8ADC",
+      x: 1.6,
+      y: 64.1,
+      dependencies: [
+        "1921A0024EF4410C",
+      ],
+      tasks: [
+        {
+          id: "46AB160566102818",
+          type: "item",
+          item: {
+            count: 1,
+            id: "replication:identification_chamber",
+          },
+        },
+        {
+          id: "6FE307A107B414FD",
+          type: "item",
+          item: {
+            count: 1,
+            id: "replication:disintegrator",
+          },
+        },
+        {
+          id: "6344E4A6E88D73F7",
+          type: "item",
+          item: {
+            count: 1,
+            id: "replication:replicator",
+          },
+        },
+        {
+          id: "19981AAFC547116F",
+          type: "item",
+          item: {
+            count: 1,
+            id: "replication:memory_chip",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "72534A61F32A60CF",
+          type: "xp",
+          xp: 250,
+        },
+        {
+          id: "1E20FC727F49EDB9",
+          type: "random",
+          table_id: 2210856162803377,
+        },
+      ],
+    },
+    {
+      id: "3A618E03A0055D60",
+      x: 3.2,
+      y: 64.1,
+      dependencies: [
+        "1C47D1636E5D8ADC",
+      ],
+      tasks: [
+        {
+          id: "3779736D1844D45A",
+          type: "item",
+          item: {
+            count: 1,
+            id: "apprep:replication_connector",
+          },
+        },
+        {
+          id: "4E3C3F0703BB46C8",
+          type: "item",
+          item: {
+            count: 1,
+            id: "apprep:matter_cell_1k",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3FBB6811A5F9C09E",
+          type: "xp",
+          xp: 150,
+        },
+      ],
+    },
+    {
+      id: "45A49363645D4CCE",
+      x: 4.8,
+      y: 65.6,
+      dependencies: [
+        "2A2390FE4DD4843F",
+        "38B4D8374D7FA2E9",
+      ],
+      tasks: [
+        {
+          id: "19D4216C6A3C6830",
+          type: "item",
+          item: {
+            count: 1,
+            id: "appliedthaumaturge:essentia_cell_1k",
+          },
+        },
+        {
+          id: "0F6D9CD1F7F7456D",
+          type: "item",
+          item: {
+            count: 1,
+            id: "appliedthaumaturge:essentia_terminal",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "61805064663ABB2D",
+          type: "xp",
+          xp: 150,
+        },
+        {
+          id: "52835D32E2FFADA3",
+          type: "random",
+          table_id: 4314132029995036,
+        },
+      ],
+    },
   ],
-  quest_links: [
-  ],
+  quest_links: [ ],
   images: [
     {
       x: 5.4,
@@ -2197,7 +2551,10 @@
       height: 1.4375,
       rotation: 0.0,
       image: "gspack:textures/quests/ae2_header.png",
-      id: "1298B7361995D8C4",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false,
     },
     {
       x: 0.4588,
@@ -2206,7 +2563,10 @@
       height: 0.6,
       rotation: 0.0,
       image: "gspack:textures/quests/ae2_drive.png",
-      id: "46BC0311557B37D4",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false,
     },
     {
       x: 1.2353,
@@ -2215,7 +2575,10 @@
       height: 0.6,
       rotation: 0.0,
       image: "gspack:textures/quests/ae2_p2p.png",
-      id: "69D67EEFEA5670A5",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false,
     },
     {
       x: 1.6588,
@@ -2224,7 +2587,10 @@
       height: 0.6,
       rotation: 0.0,
       image: "gspack:textures/quests/ae2_certus.png",
-      id: "4B1AF5507798D89B",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false,
     },
     {
       x: 0.9529,
@@ -2233,7 +2599,10 @@
       height: 0.6,
       rotation: 0.0,
       image: "gspack:textures/quests/ae2_adv_ae.png",
-      id: "37DEDDC7F7626EE7",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false,
     },
     {
       x: 1.6765,
@@ -2242,7 +2611,10 @@
       height: 0.6,
       rotation: 0.0,
       image: "gspack:textures/quests/ae2_terminal.png",
-      id: "44AC59A5ECC2A7E3",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false,
     },
     {
       x: 0.5294,
@@ -2251,7 +2623,22 @@
       height: 0.6,
       rotation: 0.0,
       image: "gspack:textures/quests/ae2_wireless.png",
-      id: "480F1A05EAB34A00",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false,
+    },
+    {
+      x: 0.9353,
+      y: 56.9,
+      width: 3.0706,
+      height: 0.6,
+      rotation: 0.0,
+      image: "gspack:textures/quests/ae2_ex_start.png",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false,
     },
     {
       x: 0.9529,
@@ -2260,7 +2647,10 @@
       height: 0.6,
       rotation: 0.0,
       image: "gspack:textures/quests/ae2_cable.png",
-      id: "7DD993B000048C1E",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false,
     },
     {
       x: 0.5824,
@@ -2269,7 +2659,10 @@
       height: 0.6,
       rotation: 0.0,
       image: "gspack:textures/quests/ae2_presses.png",
-      id: "1BFBEF2FEC3AB499",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false,
     },
     {
       x: 0.9176,
@@ -2278,7 +2671,10 @@
       height: 0.6,
       rotation: 0.0,
       image: "gspack:textures/quests/ae2_pattern.png",
-      id: "4E2B8AC53971212A",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false,
     },
   ],
 }

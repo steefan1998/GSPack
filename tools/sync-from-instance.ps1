@@ -1,6 +1,6 @@
 # Copies the pack configuration from the GSPack instance into this repository and refreshes MODS.md.
 # Usage:  powershell -ExecutionPolicy Bypass -File tools\sync-from-instance.ps1 [-Instance <path>]
-param([string]$Instance = 'D:\MinecraftModpacks\Instances\GSPack')
+param([string]$Instance = 'D:\CurseForge\Instances\GSPack Dev Build')
 
 $ErrorActionPreference = 'Stop'
 $Root = Split-Path $PSScriptRoot -Parent

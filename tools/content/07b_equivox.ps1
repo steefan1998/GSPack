@@ -9,7 +9,6 @@ The &ePhilosopher's Stone&r is the first tool:
 - Use it in crafting recipes for alchemical conversions (for example 4 iron -> 1 gold).
 - Press the &ecraft key&r to open a portable crafting grid.
 '@
-Q 'manual' 'Read the Manual' 'equivox:manual' 'stone' 'xp:25' -opt -desc 'The manual explains EMC and all the devices in detail.'
 Q 'emc' 'What is EMC?' 'check' 'stone' 'xp:25' -icon 'equivox:low_covalence_dust' -desc @'
 Hover over any item to see its &eEMC&r value. Cobblestone is worth 1, iron 256, diamond 8192...
 

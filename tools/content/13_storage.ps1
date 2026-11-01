@@ -106,3 +106,18 @@ Q 'pipez_ultimate' 'Ultimate Upgrade' 'pipez:ultimate_upgrade' 'pipez_upgrades' 
 Q 'magnet' 'Magnet' 'simplemagnets:basicmagnet' 'pipez' 'xp:50' -desc 'Pulls items around you into your inventory. Toggle it with a keybind.'
 Q 'magnet2' 'Advanced Magnet' 'simplemagnets:advancedmagnet' 'magnet' 'xp:100' -desc 'A bigger range and a filter.'
 Q 'demagnetize' 'Demagnetization Coil' 'simplemagnets:basic_demagnetization_coil' 'magnet' 'xp:25' -opt -desc 'Stops magnets from pulling items near your farms and machines.'
+
+# ===== Dimensional & compressed storage =====
+Q 'dimchest' 'Dimensional Chest' 'dimstorage:dimensional_chest' '' 'xp:100;table:common' -size 1.5 -desc @'
+&bDimStorage&r chests share their inventory by &efrequency&r. Every Dimensional Chest on the same frequency has the same contents, anywhere in the world and even in other dimensions.
+
+Set the frequency in the chest's menu. You can also lock it so only you can use it.
+'@
+Q 'dimtank' 'Dimensional Tank' 'dimstorage:dimensional_tank' 'dimchest' 'xp:75' -desc 'The same idea for fluids: tanks on the same frequency share their contents.'
+Q 'dimtablet' 'Dimensional Tablet' 'dimstorage:dimensional_tablet' 'dimchest' 'xp:75' -opt -desc 'Open a linked Dimensional Chest from anywhere.'
+Q 'compressed' 'Compressed Blocks' 'allthecompressed:cobblestone_1x' '' 'xp:50' -desc @'
+&bAll The Compressed&r packs 9 blocks into 1 compressed block, and 9 of those into the next tier, up to 9x.
+
+Great for storing piles of cobblestone, dirt or netherrack. Every tier holds 9 times as much as the one before.
+'@
+Q 'compressed_big' 'Compression Master' 'allthecompressed:cobblestone_4x' 'compressed' 'xp:150' -opt -desc 'One 4x compressed cobblestone is 6,561 cobblestone. Keep going!'

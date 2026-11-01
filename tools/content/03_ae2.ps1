@@ -159,3 +159,51 @@ Armor powered by your ME network, with upgrade cards for flight, speed, step ass
 
 Install the cards in the Quantum Armor workbench menu.
 '@
+
+# ===== AE2 Add-ons =====
+Q 'ex_start' 'ExtendedAE' 'extendedae:ex_pattern_provider' 'provider' 'xp:150;table:tech' -size 1.5 -sub 'Bigger and better ME devices' -desc @'
+&bExtendedAE&r adds extended versions of the AE2 devices you already know, with more slots and more features:
+- &eExtended Pattern Provider&r: many more pattern slots.
+- &eExtended Interface&r, &eExtended Drive&r and &eExtended I/O Port&r.
+- New buses and emitters: tag, threshold, precise and mod filters.
+
+Press U on any AE2 device in JEI to see its extended version.
+'@
+Q 'ex_devices' 'Extended Devices' 'extendedae:ex_interface;extendedae:ex_drive' 'ex_start' 'xp:100' -desc 'The extended interface and drive hold much more than the normal ones. Great for big networks.'
+Q 'ex_assembler' 'Assembler Matrix' 'extendedae:assembler_matrix_frame;extendedae:assembler_matrix_crafter;extendedae:assembler_matrix_pattern' 'ex_start' 'xp:250;table:rare' -desc @'
+The &eAssembler Matrix&r is a multiblock that runs a huge number of crafting patterns at the same time. It replaces walls of Molecular Assemblers.
+
+Check JEI for the parts and how to build it.
+'@
+Q 'ex_wireless' 'Wireless Connector' 'extendedae:wireless_connect*2;extendedae:wireless_tool' 'ex_start' 'xp:75' -opt -desc 'Two Wireless Connectors link parts of a network without cables. Pair them with the Wireless Setup Kit.'
+Q 'entro' 'Entro Crystals' 'extendedae:entro_crystal*8' 'ex_start' 'xp:75' -opt -desc 'A crystal used in many ExtendedAE recipes. JEI shows how to grow and harvest it.'
+Q 'appflux' 'Applied Flux' 'appflux:flux_accessor;appflux:fe_1k_cell' 'drive' 'xp:150;table:tech' -desc @'
+&bApplied Flux&r stores &eFE energy&r in your ME network, in FE storage cells inside an ME Drive.
+
+The &eFlux Accessor&r lets machines take energy from the network and put it back. One network can now hold both your items and your power.
+'@
+Q 'infinity_card' 'Infinity Booster' 'aeinfinitybooster:infinity_card' 'wireless_term' 'xp:150;table:rare' -desc @'
+Put an &eInfinity Card&r in a Wireless Access Point and your wireless terminals work at any distance in that dimension.
+
+The &eDimension Card&r goes one step further and works across dimensions.
+'@
+Q 'ender_drives' 'Ender Drives' 'enderdrives:ender_disk_1k' 'cell1k' 'xp:100' -opt -desc 'Ender disks share their contents by frequency, so two networks (even in other dimensions) can use the same storage.'
+Q 'replication' 'Replication' 'replication:raw_replica*4;replication:replica_ingot*4' 'cell1k' 'xp:150;table:tech' -desc @'
+&bReplication&r copies items out of &ematter&r.
+
+Find &eReplica ore&r deep underground and smelt it into Replica ingots. They are used to build the machines.
+'@
+Q 'replicator' 'The Replicator' 'replication:identification_chamber;replication:disintegrator;replication:replicator;replication:memory_chip' 'replication' 'xp:250;table:rare' -desc @'
+How it works:
+1. The &eIdentification Chamber&r scans an item and saves it on a &eMemory Chip&r.
+2. The &eDisintegrator&r breaks items down into matter.
+3. The &eReplicator&r uses that matter to build copies of scanned items.
+
+Connect them with Matter Network Pipes.
+'@
+Q 'apprep' 'Applied Replicatics' 'apprep:replication_connector;apprep:matter_cell_1k' 'replicator' 'xp:150' -desc 'Connects Replication to your ME network and stores matter in ME cells.'
+Q 'app_thaum' 'Applied Thaumaturge' 'appliedthaumaturge:essentia_cell_1k;appliedthaumaturge:essentia_terminal' 'cell1k,thaumaturge/jars' 'xp:150;table:arcane' -desc @'
+&bApplied Thaumaturge&r stores &dessentia&r in your ME network, in essentia cells, and lets you see it in the Essentia Terminal.
+
+It also adds arcane crafting and infusion helpers for automation. Check JEI!
+'@

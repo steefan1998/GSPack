@@ -35,8 +35,9 @@ Q 'team' 'Playing Together' 'check' 'book' 'xp:25' -icon 'minecraft:cake' -desc 
     "Protect your base by claiming chunks on the &eFTB Chunks&r map (default &eM&r).")
 
 Q 'maps' 'Finding Your Way' 'check' 'jei' 'minecraft:compass;xp:25' -icon 'minecraft:filled_map' -desc (
-    "- &eM&r opens the world map, with a minimap in the corner of your screen.|" +
-    "- Set waypoints so you never lose your base.|" +
+    "- &bJourneyMap&r draws a minimap in the corner of your screen. Press &eJ&r for the full-screen map, &eCtrl + J&r to hide or show the minimap.|" +
+    "- Press &eB&r to set a waypoint and &eN&r to see all your waypoints, so you never lose your base.|" +
+    "- &eM&r opens the &bFTB Chunks&r map, where you claim chunks.|" +
     "- &bWaystones&r let you teleport between places you have visited.|" +
     "- &bNature's Compass&r and &bExplorer's Compass&r help you find biomes and structures.")
 
@@ -46,6 +47,11 @@ Q 'qol' 'Quality of Life' 'check' 'rewards' 'xp:25' -icon 'sophisticatedbackpack
     "- &bFTB Ultimine&r: hold the Ultimine key (see Options > Controls) while mining to break whole veins at once.|" +
     "- &bJade&r: shows what block or entity you are looking at.|" +
     "- &bFTB Backups&r: saves your world regularly, just in case.")
+
+Q 'grave' 'Rest in Peace' 'check' 'qol' 'xp:25' -icon 'tombstone:decorative_grave_simple' -desc (
+    "Died far from home? Do not panic.||" +
+    "&bCorail Tombstone&r puts your items in a &egrave&r at the place where you died. Go back to it and open it to get everything back.||" +
+    "Write down your death location, or set a waypoint there with &eB&r.")
 
 Q 'start' 'Where Do I Start?' 'check' 'team,maps,qol' 'table:uncommon' -size 1.5 -shape 'hexagon' -icon 'minecraft:iron_pickaxe' -desc (
     "Not sure where to begin? A good route:|" +

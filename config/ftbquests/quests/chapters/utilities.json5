@@ -1,0 +1,331 @@
+{
+  id: "1B5325199F5DF69B",
+  group: "105EE503AFE85CA5",
+  order_index: 24,
+  filename: "utilities",
+  icon: {
+    count: 1,
+    id: "tiab:time_in_a_bottle",
+  },
+  default_quest_shape: "",
+  default_hide_dependency_lines: true,
+  quests: [
+    {
+      id: "3D177CE1CBDB868D",
+      x: 0.0,
+      y: 1.45,
+      shape: "gear",
+      size: 1.5,
+      tasks: [
+        {
+          id: "1ABDA333C15C9B2A",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tiab:time_in_a_bottle",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "798790F2EFBAD201",
+          type: "xp",
+          xp: 100,
+        },
+        {
+          id: "3AC9362E31B538EF",
+          type: "random",
+          table_id: 253752461985528,
+        },
+      ],
+    },
+    {
+      id: "0E24C360BA8E0959",
+      x: 1.6,
+      y: 1.45,
+      dependencies: [
+        "3D177CE1CBDB868D",
+      ],
+      tasks: [
+        {
+          id: "6A757A05596B3D5F",
+          type: "item",
+          item: {
+            count: 1,
+            id: "energymeter:meter",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "113033021D1AEB56",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      id: "53E5DE25C3C13AF4",
+      x: 0.0,
+      y: 5.55,
+      dependencies: [
+        "3D177CE1CBDB868D",
+      ],
+      tasks: [
+        {
+          id: "1FB768134F987EDD",
+          type: "item",
+          item: {
+            count: 1,
+            id: "pylons:harvester_pylon",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "032CEE5BE8C9CF39",
+          type: "xp",
+          xp: 100,
+        },
+        {
+          id: "425C1CE356A37EC0",
+          type: "random",
+          table_id: 2612120196957929,
+        },
+      ],
+    },
+    {
+      id: "3A35AC0EF4533DFC",
+      x: 1.6,
+      y: 5.55,
+      dependencies: [
+        "53E5DE25C3C13AF4",
+      ],
+      tasks: [
+        {
+          id: "529D9A31E61D436A",
+          type: "item",
+          item: {
+            count: 1,
+            id: "pylons:infusion_pylon",
+          },
+        },
+        {
+          id: "649A6648100DCA60",
+          type: "item",
+          item: {
+            count: 1,
+            id: "pylons:potion_filter",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5DC3C4D2D1FC1759",
+          type: "xp",
+          xp: 150,
+        },
+        {
+          id: "64E0941675EA81C4",
+          type: "random",
+          table_id: 2210856162803377,
+        },
+      ],
+    },
+    {
+      id: "2AF8B32888E5DE80",
+      x: 1.6,
+      y: 7.05,
+      dependencies: [
+        "53E5DE25C3C13AF4",
+      ],
+      tasks: [
+        {
+          id: "7DCCA325CECFE40A",
+          type: "item",
+          item: {
+            count: 1,
+            id: "pylons:interdiction_pylon",
+          },
+        },
+        {
+          id: "4C2D3DD96C8D946A",
+          type: "item",
+          item: {
+            count: 1,
+            id: "pylons:mob_filter",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "72DF14A7DEE77D8B",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      id: "10841485D64ACACB",
+      x: 1.6,
+      y: 4.05,
+      dependencies: [
+        "53E5DE25C3C13AF4",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "096ECE15B438EFE7",
+          type: "item",
+          item: {
+            count: 1,
+            id: "pylons:expulsion_pylon",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5EFDBD9F3ECDFA9E",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      id: "629FD5D7AC2CDFCE",
+      x: 0.0,
+      y: 9.65,
+      dependencies: [
+        "3D177CE1CBDB868D",
+      ],
+      tasks: [
+        {
+          id: "6B3428A510D987A5",
+          type: "item",
+          item: {
+            count: 1,
+            id: "darkutils:vector_plate",
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "380B0A946EC3D102",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      id: "65C23ADB283C3A5F",
+      x: 1.6,
+      y: 9.65,
+      dependencies: [
+        "629FD5D7AC2CDFCE",
+      ],
+      tasks: [
+        {
+          id: "0849F7075185F651",
+          type: "item",
+          item: {
+            count: 1,
+            id: "darkutils:damage_plate",
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "54C91B9AD64AC813",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      id: "52FB051146A3A00A",
+      x: 1.6,
+      y: 11.15,
+      dependencies: [
+        "629FD5D7AC2CDFCE",
+      ],
+      tasks: [
+        {
+          id: "77FAEFF87A7F1080",
+          type: "item",
+          item: {
+            count: 1,
+            id: "darkutils:filter_hostile",
+          },
+        },
+        {
+          id: "11D72AC8ABB2BB01",
+          type: "item",
+          item: {
+            count: 1,
+            id: "darkutils:filter_player",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "21CF1FBFCADCC1B5",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+  ],
+  quest_links: [ ],
+  images: [
+    {
+      x: 5.4,
+      y: -1.5188,
+      width: 12.0,
+      height: 1.4375,
+      rotation: 0.0,
+      image: "gspack:textures/quests/utilities_header.png",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false,
+    },
+    {
+      x: 0.3353,
+      y: 2.85,
+      width: 1.8706,
+      height: 0.6,
+      rotation: 0.0,
+      image: "gspack:textures/quests/utilities_harvester.png",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false,
+    },
+    {
+      x: 0.4941,
+      y: 0.0,
+      width: 2.1882,
+      height: 0.6,
+      rotation: 0.0,
+      image: "gspack:textures/quests/utilities_tiab.png",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false,
+    },
+    {
+      x: 0.9706,
+      y: 8.45,
+      width: 3.1412,
+      height: 0.6,
+      rotation: 0.0,
+      image: "gspack:textures/quests/utilities_vector.png",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false,
+    },
+  ],
+}

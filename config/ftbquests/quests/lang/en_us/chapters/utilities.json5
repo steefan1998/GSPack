@@ -1,0 +1,47 @@
+{
+  "chapter.1B5325199F5DF69B.chapter_subtitle": [
+    "Handy gadgets: time bottles, pylons, mob plates and energy meters.",
+  ],
+  "chapter.1B5325199F5DF69B.title": "Utilities",
+  "quest.0E24C360BA8E0959.quest_desc": [
+    "Place it between two cables to measure how much energy flows through. Open its built-in guide for all the settings.",
+  ],
+  "quest.0E24C360BA8E0959.title": "Energy Meter",
+  "quest.10841485D64ACACB.quest_desc": [
+    "Keeps other players out of a range of 1x1 up to 5x5 chunks. Allow friends in with a &ePlayer Filter&r.",
+  ],
+  "quest.10841485D64ACACB.title": "Expulsion Pylon",
+  "quest.2AF8B32888E5DE80.quest_desc": [
+    "Stops the mobs in its &eMob Filters&r from spawning in a range of 1x1 up to 5x5 chunks.",
+  ],
+  "quest.2AF8B32888E5DE80.title": "Interdiction Pylon",
+  "quest.3A35AC0EF4533DFC.quest_desc": [
+    "Gives you the effects of activated &ePotion Filters&r from any distance. By default it also keeps its own chunk loaded.",
+  ],
+  "quest.3A35AC0EF4533DFC.title": "Infusion Pylon",
+  "quest.3D177CE1CBDB868D.quest_desc": [
+    "The &eTime in a Bottle&r stores up time while it sits in your inventory (its tooltip shows how much).",
+    "",
+    "Right-click a machine, crop or other ticking block to spend that time and make it run faster for a while.",
+  ],
+  "quest.3D177CE1CBDB868D.quest_subtitle": "Time is on your side",
+  "quest.3D177CE1CBDB868D.title": "Time in a Bottle",
+  "quest.52FB051146A3A00A.quest_desc": [
+    "Blocks that only certain mobs can pass through, for example only hostile mobs or only players. Perfect for mob farms.",
+  ],
+  "quest.52FB051146A3A00A.title": "Mob Filters",
+  "quest.53E5DE25C3C13AF4.quest_desc": [
+    "Harvests crops in a range around it (3x3 up to 9x9 blocks) and puts the harvest in an inventory above it.",
+    "",
+    "Place the pylon in the water block of your farm.",
+  ],
+  "quest.53E5DE25C3C13AF4.title": "Harvester Pylon",
+  "quest.629FD5D7AC2CDFCE.quest_desc": [
+    "Plates that push mobs around. Faster versions push harder. Use them to move mobs into your farm.",
+  ],
+  "quest.629FD5D7AC2CDFCE.title": "Vector Plates",
+  "quest.65C23ADB283C3A5F.quest_desc": [
+    "Hurts anything that walks on it. The Smite and Bane plates do extra damage to undead and arthropods.",
+  ],
+  "quest.65C23ADB283C3A5F.title": "Damage Plates",
+}

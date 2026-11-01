@@ -41,10 +41,22 @@
     "Link the two ends with a &eMemory Card&r (shift-click the input, then click the output).",
   ],
   "quest.15A116E0BCDA8A4C.title": "P2P Tunnels",
+  "quest.16356B8188D0413D.quest_desc": [
+    "Put an &eInfinity Card&r in a Wireless Access Point and your wireless terminals work at any distance in that dimension.",
+    "",
+    "The &eDimension Card&r goes one step further and works across dimensions.",
+  ],
+  "quest.16356B8188D0413D.title": "Infinity Booster",
   "quest.16545F6399D951C1.quest_desc": [
     "Gives wireless coverage around it. Wireless Boosters increase the range.",
   ],
   "quest.16545F6399D951C1.title": "Wireless Access Point",
+  "quest.1921A0024EF4410C.quest_desc": [
+    "&bReplication&r copies items out of &ematter&r.",
+    "",
+    "Find &eReplica ore&r deep underground and smelt it into Replica ingots. They are used to build the machines.",
+  ],
+  "quest.1921A0024EF4410C.title": "Replication",
   "quest.197EBAF6B72273C2.quest_desc": [
     "A crafting CPU is a solid cuboid multiblock of crafting units, at least one crafting storage, and optionally co-processors (accelerators) and a monitor.",
     "",
@@ -63,12 +75,35 @@
     "&bPolymorphic AE2&r makes autocrafting smarter when several recipes share the same ingredients. It works in the background.",
   ],
   "quest.1BE6AE82C2C63DE2.title": "Polymorphic AE2",
+  "quest.1C47D1636E5D8ADC.quest_desc": [
+    "How it works:",
+    "1. The &eIdentification Chamber&r scans an item and saves it on a &eMemory Chip&r.",
+    "2. The &eDisintegrator&r breaks items down into matter.",
+    "3. The &eReplicator&r uses that matter to build copies of scanned items.",
+    "",
+    "Connect them with Matter Network Pipes.",
+  ],
+  "quest.1C47D1636E5D8ADC.title": "The Replicator",
+  "quest.1CAD1025C508E89A.quest_desc": [
+    "The &eAssembler Matrix&r is a multiblock that runs a huge number of crafting patterns at the same time. It replaces walls of Molecular Assemblers.",
+    "",
+    "Check JEI for the parts and how to build it.",
+  ],
+  "quest.1CAD1025C508E89A.title": "Assembler Matrix",
   "quest.1FB3941ADA6BB034.quest_desc": [
     "Put crafting patterns in a &ePattern Provider&r next to &eMolecular Assemblers&r and AE2 crafts anything for you.",
     "",
     "Request a craft in the terminal with &eright-click&r (or middle-click) on an item. Welcome to autocrafting!",
   ],
   "quest.1FB3941ADA6BB034.title": "Molecular Assembler",
+  "quest.22794BCF72C37648.quest_desc": [
+    "Ender disks share their contents by frequency, so two networks (even in other dimensions) can use the same storage.",
+  ],
+  "quest.22794BCF72C37648.title": "Ender Drives",
+  "quest.22834634E9E10048.quest_desc": [
+    "The extended interface and drive hold much more than the normal ones. Great for big networks.",
+  ],
+  "quest.22834634E9E10048.title": "Extended Devices",
   "quest.273A6F1933B91CAD.quest_desc": [
     "Quickly empty or fill storage cells. Great for moving to bigger cells.",
   ],
@@ -121,16 +156,38 @@
     "Points to the nearest meteorite. Handy if you are having trouble finding one.",
   ],
   "quest.35F821B5CF20B34C.title": "Meteorite Compass",
+  "quest.3A618E03A0055D60.quest_desc": [
+    "Connects Replication to your ME network and stores matter in ME cells.",
+  ],
+  "quest.3A618E03A0055D60.title": "Applied Replicatics",
+  "quest.3AEE430308F06724.quest_desc": [
+    "Two Wireless Connectors link parts of a network without cables. Pair them with the Wireless Setup Kit.",
+  ],
+  "quest.3AEE430308F06724.title": "Wireless Connector",
   "quest.3BB984342977089F.quest_desc": [
     "Fluix tools are a bit faster than iron.",
   ],
   "quest.3BB984342977089F.title": "Fluix Tools",
+  "quest.3BCEABAC45095316.quest_desc": [
+    "A crystal used in many ExtendedAE recipes. JEI shows how to grow and harvest it.",
+  ],
+  "quest.3BCEABAC45095316.title": "Entro Crystals",
   "quest.3DCB426C2D3D35BD.quest_desc": [
     "&bAdvanced AE&r adds quantum tech: much faster crafting, huge storage and the Quantum Armor.",
     "",
     "Quantum Alloy and the other materials are made in the &eReaction Chamber&r.",
   ],
   "quest.3DCB426C2D3D35BD.title": "Advanced AE",
+  "quest.3DCF583935A1592C.quest_desc": [
+    "&bExtendedAE&r adds extended versions of the AE2 devices you already know, with more slots and more features:",
+    "- &eExtended Pattern Provider&r: many more pattern slots.",
+    "- &eExtended Interface&r, &eExtended Drive&r and &eExtended I/O Port&r.",
+    "- New buses and emitters: tag, threshold, precise and mod filters.",
+    "",
+    "Press U on any AE2 device in JEI to see its extended version.",
+  ],
+  "quest.3DCF583935A1592C.quest_subtitle": "Bigger and better ME devices",
+  "quest.3DCF583935A1592C.title": "ExtendedAE",
   "quest.3E19DD13B4769306.quest_desc": [
     "Rotate and pick up AE2 blocks and parts.",
   ],
@@ -151,6 +208,12 @@
     "A huge crafting CPU multiblock that can run many crafting jobs at once, with multi-threading.",
   ],
   "quest.4421EF16E6AD3337.title": "Quantum Computer",
+  "quest.45A49363645D4CCE.quest_desc": [
+    "&bApplied Thaumaturge&r stores &dessentia&r in your ME network, in essentia cells, and lets you see it in the Essentia Terminal.",
+    "",
+    "It also adds arcane crafting and infusion helpers for automation. Check JEI!",
+  ],
+  "quest.45A49363645D4CCE.title": "Applied Thaumaturge",
   "quest.4723C67B1AA17F16.quest_desc": [
     "&bME Requester&r keeps a set amount of items crafted at all times. Never run out of processors again!",
   ],
@@ -173,6 +236,12 @@
     "See and take every item in your network. Use the search bar, and sort by name, amount or mod.",
   ],
   "quest.4EF8C3753D6C3D54.title": "ME Terminal",
+  "quest.504F1061E850B2FF.quest_desc": [
+    "&bApplied Flux&r stores &eFE energy&r in your ME network, in FE storage cells inside an ME Drive.",
+    "",
+    "The &eFlux Accessor&r lets machines take energy from the network and put it back. One network can now hold both your items and your power.",
+  ],
+  "quest.504F1061E850B2FF.title": "Applied Flux",
   "quest.55B0F0678EF0E6EC.quest_desc": [
     "&bApplied Oritech&r adds ME addons for Oritech machines. Attach them to an Oritech machine to connect it straight to your network.",
   ],

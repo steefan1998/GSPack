@@ -79,12 +79,21 @@ Pass `-ItemList <file>` (one `namespace:id` per line, dumped from the mod jars) 
 
 ### Syncing with an instance
 
+Both scripts use the **GSPack Dev Build** instance (`D:\CurseForge\Instances\GSPack Dev Build`) by default. Pass `-Instance <path>` to use another one.
+
 ```powershell
-# Copy config/kubejs from your instance into this repo and refresh MODS.md
-powershell -ExecutionPolicy Bypass -File tools\sync-from-instance.ps1 -Instance "D:\MinecraftModpacks\Instances\GSPack"
+# Install the quest book and KubeJS from this repo into the instance (add -WhatIf to preview)
+powershell -ExecutionPolicy Bypass -File tools\sync-to-instance.ps1
 ```
 
-To install, copy `config/` and `kubejs/` into your instance folder. Then run `/ftbquests reload` in-game, and press F3+T to reload the textures.
+Then run `/ftbquests reload` in-game and press F3+T to reload the textures. Restart the game if KubeJS startup scripts changed.
+
+```powershell
+# Copy config/kubejs from the instance into this repo and refresh MODS.md
+powershell -ExecutionPolicy Bypass -File tools\sync-from-instance.ps1
+```
+
+Changes since the last release are collected in [CHANGELOG-DEV.md](CHANGELOG-DEV.md).
 
 ## Main menu (FancyMenu)
 

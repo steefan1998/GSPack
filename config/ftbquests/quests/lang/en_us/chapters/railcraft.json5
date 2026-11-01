@@ -1,0 +1,91 @@
+{
+  "chapter.5270340F88597176.chapter_subtitle": [
+    "Steel, tracks, steam and trains.",
+  ],
+  "chapter.5270340F88597176.title": "Railcraft Reborn",
+  "quest.0441725B024EBDCF.quest_desc": [
+    "A locomotive that digs a tunnel ahead of it and lays the track for you.",
+  ],
+  "quest.0441725B024EBDCF.title": "Tunnel Bore",
+  "quest.045F4959AFE3FBE1.quest_desc": [
+    "Strong track that creepers cannot blow up. Other track types: strap iron (cheap), high speed and electric.",
+  ],
+  "quest.045F4959AFE3FBE1.title": "Reinforced Track",
+  "quest.0D83328FFB568D9A.quest_desc": [
+    "A real train! The &eSteam Locomotive&r needs water and fuel and pulls a row of linked carts.",
+    "",
+    "Link carts with the Crowbar, and fill the locomotive from a Water Tank Siding and a loader.",
+  ],
+  "quest.0D83328FFB568D9A.title": "Steam Locomotive",
+  "quest.11E412D2300B84ED.quest_desc": [
+    "The railway tool: rotate tracks, link carts together and configure track kits.",
+  ],
+  "quest.11E412D2300B84ED.title": "Crowbar",
+  "quest.2441909C9FF9D045.quest_desc": [
+    "Runs on power from electric tracks. Quiet and clean.",
+  ],
+  "quest.2441909C9FF9D045.title": "Electric Locomotive",
+  "quest.260A9A81F3C6107C.quest_desc": [
+    "Steel tools and armor are a solid step up from iron.",
+  ],
+  "quest.260A9A81F3C6107C.title": "Steel Tools",
+  "quest.27BEF952A72213D1.quest_desc": [
+    "High Speed Track lets carts go much faster, but only on straight lines.",
+    "",
+    "Use &eHigh Speed Transition Tracks&r to speed up and slow down, or carts will derail in curves.",
+  ],
+  "quest.27BEF952A72213D1.title": "High Speed",
+  "quest.3109EA4814244AF9.quest_desc": [
+    "Rolls ingots into plates, rails and rebar. Look up its recipes in JEI.",
+  ],
+  "quest.3109EA4814244AF9.title": "Rolling Machine",
+  "quest.3398F2418ED5431B.quest_desc": [
+    "&bRailcraft Reborn&r is about building real railways: steel, tracks, signals and locomotives.",
+    "",
+    "Start with a &eCoke Oven&r: a hollow 3x3x3 cube of 26 Coke Oven Bricks. It bakes coal into &eCoal Coke&r and leaves &eCreosote Oil&r behind.",
+  ],
+  "quest.3398F2418ED5431B.quest_subtitle": "Railroads need steel",
+  "quest.3398F2418ED5431B.title": "Coke Oven",
+  "quest.3B39A9D281F98E25.quest_desc": [
+    "Track kits turn a normal track into a special one: boosters, detectors, locks, junctions and more. JEI shows how to combine a kit with a track.",
+  ],
+  "quest.3B39A9D281F98E25.title": "Track Kits",
+  "quest.43604FA9C0EC57C9.quest_desc": [
+    "Rails and ties are the parts of every Railcraft track.",
+  ],
+  "quest.43604FA9C0EC57C9.title": "Rails \\& Ties",
+  "quest.443202C1EB8EE037.quest_desc": [
+    "Railcraft steel is used for rails, machines and locomotives.",
+  ],
+  "quest.443202C1EB8EE037.title": "Steel",
+  "quest.489A99CAFDB2FC9B.quest_desc": [
+    "Block signals keep trains from crashing into each other. Pair them with the Signal Tuner.",
+  ],
+  "quest.489A99CAFDB2FC9B.title": "Signals",
+  "quest.59250CD7A88EEF8F.quest_desc": [
+    "The &eBlast Furnace&r is a hollow 3x4x3 multiblock (3 wide, 4 tall) made of Blast Furnace Bricks.",
+    "",
+    "Feed it iron and Coal Coke to make &eSteel&r. Check JEI for the exact build.",
+  ],
+  "quest.59250CD7A88EEF8F.title": "Blast Furnace",
+  "quest.64BECEE944AFB246.quest_desc": [
+    "Item loaders fill passing carts, unloaders empty them. Fluid loaders do the same for tank carts.",
+  ],
+  "quest.64BECEE944AFB246.title": "Loading Bay",
+  "quest.706488FC432710E2.quest_desc": [
+    "Turns steam into power for electric tracks and locomotives.",
+  ],
+  "quest.706488FC432710E2.title": "Steam Turbine",
+  "quest.73A16ED6878F4237.quest_desc": [
+    "A better fuel than coal, and the key ingredient for steel.",
+  ],
+  "quest.73A16ED6878F4237.title": "Coal Coke",
+  "quest.78AF58A8966496C3.quest_desc": [
+    "Keeps the chunks around it loaded, so your railway and machines keep running when you are away. Check its tooltip for what it needs to run.",
+  ],
+  "quest.78AF58A8966496C3.title": "World Spike",
+  "quest.7D358635E20DA9DF.quest_desc": [
+    "A multiblock steam boiler: a firebox at the bottom with boiler tanks on top. Keep it filled with water before you light it!",
+  ],
+  "quest.7D358635E20DA9DF.title": "Steam Boiler",
+}
