@@ -4,6 +4,21 @@ A Minecraft **26.1.2 NeoForge** modpack built around tech, magic and exploration
 
 This repository holds the pack's configuration: everything except the mod jars. The pack itself is published on [CurseForge](https://www.curseforge.com/members/steef_an/projects).
 
+## Running a server
+
+Server files are available through **[GSPackServerInstaller](https://github.com/steefan1998/GSPackServerInstaller)**. It builds a ready-to-run GSPack server on Windows or Linux: it downloads the mods (without the client-only ones), copies the configs, installs NeoForge and Java, and writes start scripts with 8 GB RAM.
+
+```powershell
+# Windows: or just double-click Build-ServerPack.bat
+powershell -ExecutionPolicy Bypass -File .\Build-ServerPack.ps1 -AcceptEula
+```
+```bash
+# Linux
+./build-serverpack.sh --accept-eula
+```
+
+The server ends up in `GSPackServer/`; start it with `start.bat` or `start.sh`. See the [installer README](https://github.com/steefan1998/GSPackServerInstaller#readme) for all options.
+
 ## What's in here
 
 | Path | Contents |
