@@ -1,4 +1,4 @@
-# Renders the 16x16 item textures for the KubeJS endgame items into kubejs/assets/gspack/textures/item.
+﻿# Renders the 16x16 item textures for the KubeJS endgame items into kubejs/assets/gspack/textures/item.
 # Usage:  powershell -ExecutionPolicy Bypass -File tools\make-item-textures.ps1
 $ErrorActionPreference = 'Stop'
 Add-Type -AssemblyName System.Drawing
@@ -7,7 +7,7 @@ New-Item -ItemType Directory -Force $Out | Out-Null
 
 function Col([string]$hex) { [Drawing.ColorTranslator]::FromHtml($hex) }
 function Mix([Drawing.Color]$a, [Drawing.Color]$b, [double]$t) {
-    $t = [Math]::Max(0, [Math]::Min(1, $t))
+    $t = [Math]::Max([double]0, [Math]::Min([double]1, [double]$t))   # double literals: an int 1 makes PowerShell round $t
     [Drawing.Color]::FromArgb(255, [int]($a.R + ($b.R - $a.R) * $t), [int]($a.G + ($b.G - $a.G) * $t), [int]($a.B + ($b.B - $a.B) * $t))
 }
 
