@@ -98,7 +98,7 @@ powershell -ExecutionPolicy Bypass -File tools\convert-world.ps1 -World "<path t
 powershell -ExecutionPolicy Bypass -File tools\convert-world.ps1 -World "<path to the world>"
 ```
 
-On a server, add `-KubeJS "<server>\kubejs"`. PowerShell 7 runs it on Linux (`pwsh -File convert-world.ps1 -World ./world -KubeJS ./kubejs`). Changed files are copied to `<world>\gspack-convert-backup` first; delete that folder once the world works.
+`-World` takes a world or a server folder. The id tables are built in, so any old world works; a GSPack 0.5 `kubejs` folder next to the world is used instead when there is one. After changing the unification table, refresh the built-in copy with `-UpdateBuiltIn`. PowerShell 7 runs it on Linux (`pwsh -File convert-world.ps1 -World ./server`). Changed files are copied to `<world>\gspack-convert-backup` first; delete that folder once the world works.
 
 ## Cross-mod recipes (KubeJS)
 
