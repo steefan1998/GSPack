@@ -1,6 +1,7 @@
 // GSPack: re-adds mod recipes that fail to load in 26.1.
-// Capacitor Additions and Grinding Ball Additions still write ingredients as {"item": "..."}, which 26.1
-// no longer reads, so their items had no recipe at all. Same patterns and results as the mods' own files.
+// Capacitor Additions, Grinding Ball Additions and Hostile Neural Networks' Twilight Living Matter recipes still
+// write ingredients as {"item": "..."}, which 26.1 no longer reads, so those recipes never loaded.
+// Same patterns and results as the mods' own files.
 
 ServerEvents.recipes(event => {
   // ----- Capacitor Additions (Ender IO capacitors) -----
@@ -23,4 +24,21 @@ ServerEvents.recipes(event => {
   event.shaped('grindingballadditions:infinite_grindingball', ['GEG', 'EEE', 'GEG'], {
     E: 'allthemodium:unobtainium_vibranium_alloy_ingot', G: 'enderio:grains_of_infinity'
   }).id('gspack:fix/infinite_grindingball')
+
+  // ----- Hostile Neural Networks: Twilight Living Matter (Twilight Prediction) -----
+  // [output, count, predictions, extra ingredient]
+  const twilight = [
+    ['twilightforest:cicada', 8, 2, 'minecraft:note_block'],
+    ['twilightforest:firefly', 8, 2, 'minecraft:torch'],
+    ['twilightforest:liveroot', 8, 4, 'minecraft:stick'],
+    ['twilightforest:moonworm', 8, 2, 'minecraft:soul_torch'],
+    ['twilightforest:raven_feather', 4, 1, 'minecraft:feather'],
+    ['twilightforest:steeleaf_ingot', 8, 4, '#minecraft:leaves'],
+    ['twilightforest:torchberries', 8, 1, 'minecraft:sweet_berries']
+  ]
+  twilight.forEach(([output, count, predictions, extra]) => {
+    const inputs = [extra]
+    for (let i = 0; i < predictions; i++) inputs.push('hostilenetworks:twilight_prediction')
+    event.shapeless(Item.of(output, count), inputs).id(`gspack:fix/living_matter_${output.split(':')[1]}`)
+  })
 })

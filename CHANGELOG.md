@@ -23,6 +23,7 @@ Many mods make the same materials: silver comes from five mods, steel from six. 
 - **Mystical Agriculture:** the *Guide Book* quest asked for an item that doesn't exist in this version. It's now *Looking Things Up* (a checkmark) and points to JEI.
 - **Apotheosis** no longer puts Tinkers' Construct tools and armor in affix loot (ContinuumConstruct's entries are turned off in `kubejs/data/apotheosis`).
 - **Hostile Neural Networks:** the Deep Learner's Curios slot showed a missing texture. The slot icon now points to a texture in the right place.
+- **Hostile Neural Networks:** the seven Twilight Living Matter recipes (Cicada, Firefly, Liveroot, Moonworm, Raven Feather, Steeleaf and Torchberries from Twilight Predictions) never loaded, because they use the old ingredient format. KubeJS re-adds them (`gspack_broken_recipe_fixes.js`).
 - **Title screen:** a **GSPack Wiki** button under *Mods* opens the wiki. GitHub and CurseForge moved one row down.
 
 ### Quest book
