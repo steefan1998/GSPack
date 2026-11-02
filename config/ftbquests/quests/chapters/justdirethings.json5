@@ -1,28 +1,28 @@
 {
   id: "1E4CA1EAB9003DC3",
   group: "105EE503AFE85CA5",
-  order_index: 27,
-  filename: "justdirethings",
+  order_index: 7,
   icon: {
-    count: 1,
     id: "justdirethings:gooblock_tier1",
+    count: 1,
   },
+  filename: "justdirethings",
   default_quest_shape: "",
   default_hide_dependency_lines: true,
   quests: [
     {
-      id: "2DB8AE43ABAB9872",
       x: 0.0,
       y: 1.45,
       shape: "gear",
       size: 1.5,
+      id: "2DB8AE43ABAB9872",
       tasks: [
         {
           id: "015E12DDF69261F7",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:gooblock_tier1",
+            count: 1,
           },
         },
       ],
@@ -35,24 +35,26 @@
         {
           id: "60DD346411BADB42",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 4224964620844649,
         },
       ],
     },
     {
-      id: "15455EAAD1E8A21D",
       x: 1.6,
       y: 1.45,
       dependencies: [
         "2DB8AE43ABAB9872",
       ],
+      size: 1.0,
+      id: "15455EAAD1E8A21D",
       tasks: [
         {
           id: "27A03E049CC970A2",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:gooblock_tier2",
+            count: 1,
           },
         },
       ],
@@ -65,19 +67,20 @@
       ],
     },
     {
-      id: "0040AEC79993EAE9",
       x: 3.2,
       y: 1.45,
       dependencies: [
         "15455EAAD1E8A21D",
       ],
+      size: 1.0,
+      id: "0040AEC79993EAE9",
       tasks: [
         {
           id: "4738D66FD4673D06",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:gooblock_tier3",
+            count: 1,
           },
         },
       ],
@@ -90,24 +93,26 @@
         {
           id: "6E8FB40ACCE4DCB5",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 253752461985528,
         },
       ],
     },
     {
-      id: "131F81E0625949F3",
       x: 4.8,
       y: 1.45,
       dependencies: [
         "0040AEC79993EAE9",
       ],
+      size: 1.0,
+      id: "131F81E0625949F3",
       tasks: [
         {
           id: "41784724E7812EA1",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:gooblock_tier4",
+            count: 1,
           },
         },
       ],
@@ -120,25 +125,27 @@
         {
           id: "6B94AA5DC964BE39",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "6508D4E10BFA5D63",
       x: 1.6,
       y: 2.95,
       dependencies: [
         "2DB8AE43ABAB9872",
       ],
+      size: 1.0,
       optional: true,
+      id: "6508D4E10BFA5D63",
       tasks: [
         {
           id: "281D1DD4A6A07BB6",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:goosoil_tier1",
+            count: 1,
           },
         },
       ],
@@ -151,19 +158,20 @@
       ],
     },
     {
-      id: "283077DA1AD108D8",
       x: 0.0,
       y: 7.05,
       dependencies: [
         "2DB8AE43ABAB9872",
       ],
+      size: 1.0,
+      id: "283077DA1AD108D8",
       tasks: [
         {
           id: "1FD0CDD641115FCC",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:raw_ferricore",
+            count: 1,
           },
         },
       ],
@@ -176,19 +184,20 @@
       ],
     },
     {
-      id: "5F8FF862F9B5DA8B",
       x: 1.6,
       y: 7.05,
       dependencies: [
         "283077DA1AD108D8",
       ],
+      size: 1.0,
+      id: "5F8FF862F9B5DA8B",
       tasks: [
         {
           id: "2B16A36656DBF62F",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:ferricore_ingot",
+            count: 1,
           },
           count: 8,
         },
@@ -202,27 +211,28 @@
       ],
     },
     {
-      id: "0C9E6CE350BDB1F1",
       x: 3.2,
       y: 7.05,
       dependencies: [
         "5F8FF862F9B5DA8B",
       ],
+      size: 1.0,
+      id: "0C9E6CE350BDB1F1",
       tasks: [
         {
           id: "1B3930C0AF1FBEB2",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:ferricore_pickaxe",
+            count: 1,
           },
         },
         {
           id: "2D023B7E2CC85EE7",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:ferricore_sword",
+            count: 1,
           },
         },
       ],
@@ -235,44 +245,45 @@
       ],
     },
     {
-      id: "2579A1468E14A08E",
       x: 3.2,
       y: 8.55,
       dependencies: [
         "5F8FF862F9B5DA8B",
       ],
+      size: 1.0,
       optional: true,
+      id: "2579A1468E14A08E",
       tasks: [
         {
           id: "73E26FE2F2BD4E18",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:ferricore_helmet",
+            count: 1,
           },
         },
         {
           id: "532FA9D54A45A6B6",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:ferricore_chestplate",
+            count: 1,
           },
         },
         {
           id: "4C945D457ED74201",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:ferricore_leggings",
+            count: 1,
           },
         },
         {
           id: "04AE1AADE432B24A",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:ferricore_boots",
+            count: 1,
           },
         },
       ],
@@ -285,20 +296,21 @@
       ],
     },
     {
-      id: "31CBDF9E32AE45A8",
       x: 3.2,
       y: 5.55,
       dependencies: [
         "5F8FF862F9B5DA8B",
       ],
+      size: 1.0,
       optional: true,
+      id: "31CBDF9E32AE45A8",
       tasks: [
         {
           id: "2E90D6FC0B7D0A80",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:ferricore_wrench",
+            count: 1,
           },
         },
       ],
@@ -311,19 +323,20 @@
       ],
     },
     {
-      id: "12484EE6A32C849B",
       x: 3.2,
       y: 10.05,
       dependencies: [
         "5F8FF862F9B5DA8B",
       ],
+      size: 1.0,
+      id: "12484EE6A32C849B",
       tasks: [
         {
           id: "7BD2A22DCA044D33",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:pocket_generator",
+            count: 1,
           },
         },
       ],
@@ -336,19 +349,20 @@
       ],
     },
     {
-      id: "350F2183504429CB",
       x: 0.0,
       y: 14.15,
       dependencies: [
         "15455EAAD1E8A21D",
       ],
+      size: 1.0,
+      id: "350F2183504429CB",
       tasks: [
         {
           id: "089E882313F5B6CC",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:raw_blazegold",
+            count: 1,
           },
         },
       ],
@@ -361,19 +375,20 @@
       ],
     },
     {
-      id: "363D1372EC2AFA63",
       x: 1.6,
       y: 14.15,
       dependencies: [
         "350F2183504429CB",
       ],
+      size: 1.0,
+      id: "363D1372EC2AFA63",
       tasks: [
         {
           id: "558F7F5806B22AF3",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:blazegold_ingot",
+            count: 1,
           },
           count: 8,
         },
@@ -387,33 +402,35 @@
         {
           id: "20FE372032277697",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 253752461985528,
         },
       ],
     },
     {
-      id: "1A306B210BA2F0CE",
       x: 3.2,
       y: 14.15,
       dependencies: [
         "363D1372EC2AFA63",
         "0C9E6CE350BDB1F1",
       ],
+      size: 1.0,
+      id: "1A306B210BA2F0CE",
       tasks: [
         {
           id: "13472C493AF5DA65",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:blazegold_pickaxe",
+            count: 1,
           },
         },
         {
           id: "7A5D813CBA685706",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:blazegold_sword",
+            count: 1,
           },
         },
       ],
@@ -426,44 +443,45 @@
       ],
     },
     {
-      id: "7C32AA9DE5B4107E",
       x: 3.2,
       y: 15.65,
       dependencies: [
         "363D1372EC2AFA63",
       ],
+      size: 1.0,
       optional: true,
+      id: "7C32AA9DE5B4107E",
       tasks: [
         {
           id: "4454BF931508057B",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:blazegold_helmet",
+            count: 1,
           },
         },
         {
           id: "5142EDA8F7545C1F",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:blazegold_chestplate",
+            count: 1,
           },
         },
         {
           id: "069803B1FF6727FC",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:blazegold_leggings",
+            count: 1,
           },
         },
         {
           id: "4E910FB3379BF1FE",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:blazegold_boots",
+            count: 1,
           },
         },
       ],
@@ -476,19 +494,20 @@
       ],
     },
     {
-      id: "3983C0E6985A4ABC",
       x: 3.2,
       y: 12.65,
       dependencies: [
         "363D1372EC2AFA63",
       ],
+      size: 1.0,
+      id: "3983C0E6985A4ABC",
       tasks: [
         {
           id: "59B4E3A2EF0EACEB",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:portalgun",
+            count: 1,
           },
         },
       ],
@@ -501,24 +520,26 @@
         {
           id: "438713900E0DA568",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 253752461985528,
         },
       ],
     },
     {
-      id: "30F1155C8BBB7457",
       x: 0.0,
       y: 18.25,
       dependencies: [
         "0040AEC79993EAE9",
       ],
+      size: 1.0,
+      id: "30F1155C8BBB7457",
       tasks: [
         {
           id: "7FF1EC412E93F005",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:celestigem",
+            count: 1,
           },
           count: 8,
         },
@@ -532,33 +553,35 @@
         {
           id: "4C46CF38F1866AE7",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "6B9A14919C41C9F2",
       x: 1.6,
       y: 18.25,
       dependencies: [
         "30F1155C8BBB7457",
         "1A306B210BA2F0CE",
       ],
+      size: 1.0,
+      id: "6B9A14919C41C9F2",
       tasks: [
         {
           id: "7412C6C4E1D81B45",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:celestigem_pickaxe",
+            count: 1,
           },
         },
         {
           id: "73E22E3CF597B533",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:celestigem_paxel",
+            count: 1,
           },
         },
       ],
@@ -571,44 +594,45 @@
       ],
     },
     {
-      id: "3B6CCC6103F167C8",
       x: 1.6,
       y: 19.75,
       dependencies: [
         "30F1155C8BBB7457",
       ],
+      size: 1.0,
       optional: true,
+      id: "3B6CCC6103F167C8",
       tasks: [
         {
           id: "681FBCC6E164732A",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:celestigem_helmet",
+            count: 1,
           },
         },
         {
           id: "154C0661B84F4EB9",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:celestigem_chestplate",
+            count: 1,
           },
         },
         {
           id: "54C9B8624C6C51B0",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:celestigem_leggings",
+            count: 1,
           },
         },
         {
           id: "3A3A555868DC7B06",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:celestigem_boots",
+            count: 1,
           },
         },
       ],
@@ -621,19 +645,20 @@
       ],
     },
     {
-      id: "4BEEE72F4D1DC155",
       x: 0.0,
       y: 22.6,
       dependencies: [
         "131F81E0625949F3",
       ],
+      size: 1.0,
+      id: "4BEEE72F4D1DC155",
       tasks: [
         {
           id: "1A024412D8DA83DB",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:raw_eclipsealloy",
+            count: 1,
           },
         },
       ],
@@ -646,26 +671,27 @@
         {
           id: "2BED6C9F04C98C36",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "4B23044D0ED94473",
       x: 1.6,
       y: 22.6,
       shape: "hexagon",
-      size: 1.5,
       dependencies: [
         "4BEEE72F4D1DC155",
       ],
+      size: 1.5,
+      id: "4B23044D0ED94473",
       tasks: [
         {
           id: "76406C11BE1ACF79",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:eclipsealloy_ingot",
+            count: 1,
           },
           count: 4,
         },
@@ -679,33 +705,35 @@
         {
           id: "5206864464313157",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 379532711335085,
         },
       ],
     },
     {
-      id: "28856CD4186C06B7",
       x: 3.2,
       y: 22.6,
       dependencies: [
         "4B23044D0ED94473",
         "6B9A14919C41C9F2",
       ],
+      size: 1.0,
+      id: "28856CD4186C06B7",
       tasks: [
         {
           id: "326D34C6F2CD39C3",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:eclipsealloy_pickaxe",
+            count: 1,
           },
         },
         {
           id: "0B84DFB1799D560F",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:eclipsealloy_paxel",
+            count: 1,
           },
         },
       ],
@@ -718,48 +746,50 @@
         {
           id: "34DBF484285CB149",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 379532711335085,
         },
       ],
     },
     {
-      id: "4771F464A289A321",
       x: 3.2,
       y: 24.1,
       dependencies: [
         "4B23044D0ED94473",
       ],
+      size: 1.0,
+      id: "4771F464A289A321",
       tasks: [
         {
           id: "0072AE892D6D5D3E",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:eclipsealloy_helmet",
+            count: 1,
           },
         },
         {
           id: "334B2B0268A54732",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:eclipsealloy_chestplate",
+            count: 1,
           },
         },
         {
           id: "6D767E877A4F59D8",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:eclipsealloy_leggings",
+            count: 1,
           },
         },
         {
           id: "7961B7CA83D295BD",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:eclipsealloy_boots",
+            count: 1,
           },
         },
       ],
@@ -772,24 +802,26 @@
         {
           id: "6D45693E1AB5DCBD",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 379532711335085,
         },
       ],
     },
     {
-      id: "7CDFB36B68738CF2",
       x: 0.0,
       y: 26.7,
       dependencies: [
         "2DB8AE43ABAB9872",
       ],
+      size: 1.0,
+      id: "7CDFB36B68738CF2",
       tasks: [
         {
           id: "06B83D07CD47C71B",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:coal_t1",
+            count: 1,
           },
           count: 16,
         },
@@ -803,21 +835,22 @@
       ],
     },
     {
-      id: "25EA5839701D2F55",
       x: 1.6,
       y: 26.7,
       dependencies: [
         "7CDFB36B68738CF2",
         "131F81E0625949F3",
       ],
+      size: 1.0,
       optional: true,
+      id: "25EA5839701D2F55",
       tasks: [
         {
           id: "4E158CAA9570F92F",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:coal_t4",
+            count: 1,
           },
           count: 8,
         },
@@ -831,19 +864,20 @@
       ],
     },
     {
-      id: "70EB4E751139A5BF",
       x: 0.0,
       y: 28.2,
       dependencies: [
         "15455EAAD1E8A21D",
       ],
+      size: 1.0,
+      id: "70EB4E751139A5BF",
       tasks: [
         {
           id: "738F0F6501B94205",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:polymorphic_fluid_bucket",
+            count: 1,
           },
         },
       ],
@@ -856,20 +890,21 @@
       ],
     },
     {
-      id: "4F7636CB9613188B",
       x: 1.6,
       y: 28.2,
       dependencies: [
         "70EB4E751139A5BF",
         "7CDFB36B68738CF2",
       ],
+      size: 1.0,
+      id: "4F7636CB9613188B",
       tasks: [
         {
           id: "73CA5F438E506338",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:refined_t2_fluid_bucket",
+            count: 1,
           },
         },
       ],
@@ -882,19 +917,20 @@
       ],
     },
     {
-      id: "583CEA5BA3F19A56",
       x: 3.2,
       y: 28.2,
       dependencies: [
         "4F7636CB9613188B",
       ],
+      size: 1.0,
+      id: "583CEA5BA3F19A56",
       tasks: [
         {
           id: "3762A6A92D990776",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:generatorfluidt1",
+            count: 1,
           },
         },
       ],
@@ -907,20 +943,20 @@
       ],
     },
     {
-      id: "562EACA985C07242",
       x: 1.6,
       y: 29.7,
-      size: 1.5,
       dependencies: [
         "70EB4E751139A5BF",
       ],
+      size: 1.5,
+      id: "562EACA985C07242",
       tasks: [
         {
           id: "4A25E1C33D6654BB",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:time_crystal",
+            count: 1,
           },
           count: 4,
         },
@@ -934,24 +970,26 @@
         {
           id: "4FE458F0601F4CEE",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "68CE15E75BE113D6",
       x: 3.2,
       y: 29.7,
       dependencies: [
         "562EACA985C07242",
       ],
+      size: 1.0,
+      id: "68CE15E75BE113D6",
       tasks: [
         {
           id: "71444C6F1FD6F6DD",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:time_fluid_bucket",
+            count: 1,
           },
         },
       ],
@@ -964,20 +1002,21 @@
       ],
     },
     {
-      id: "72F1BACCB3FE2661",
       x: 3.2,
       y: 31.2,
       dependencies: [
         "562EACA985C07242",
         "363D1372EC2AFA63",
       ],
+      size: 1.0,
+      id: "72F1BACCB3FE2661",
       tasks: [
         {
           id: "42FAD6196EC7F4BC",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:time_wand",
+            count: 1,
           },
         },
       ],
@@ -990,26 +1029,28 @@
         {
           id: "7FA27A535A8FB898",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "21D7707052785FE1",
       x: 1.6,
       y: 31.2,
       dependencies: [
         "70EB4E751139A5BF",
         "0040AEC79993EAE9",
       ],
+      size: 1.0,
       optional: true,
+      id: "21D7707052785FE1",
       tasks: [
         {
           id: "00348A4DB509932D",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:portal_fluid_bucket",
+            count: 1,
           },
         },
       ],
@@ -1022,22 +1063,22 @@
       ],
     },
     {
-      id: "5673D6477D7B08D2",
       x: 4.8,
       y: 29.7,
       shape: "gear",
-      size: 1.5,
       dependencies: [
         "68CE15E75BE113D6",
         "4B23044D0ED94473",
       ],
+      size: 1.5,
+      id: "5673D6477D7B08D2",
       tasks: [
         {
           id: "175D0946EF4AA679",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:paradoxmachine",
+            count: 1,
           },
         },
       ],
@@ -1050,24 +1091,26 @@
         {
           id: "1464174D972E9874",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 379532711335085,
         },
       ],
     },
     {
-      id: "117D79ADEB394A77",
       x: 0.0,
       y: 35.3,
       dependencies: [
         "5F8FF862F9B5DA8B",
       ],
+      size: 1.0,
+      id: "117D79ADEB394A77",
       tasks: [
         {
           id: "71B442BD5E9FB572",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:generatort1",
+            count: 1,
           },
         },
       ],
@@ -1080,19 +1123,20 @@
       ],
     },
     {
-      id: "1C2D65197B62C2AA",
       x: 0.0,
       y: 36.8,
       dependencies: [
         "5F8FF862F9B5DA8B",
       ],
+      size: 1.0,
+      id: "1C2D65197B62C2AA",
       tasks: [
         {
           id: "609BF376FED74470",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:blockbreakert1",
+            count: 1,
           },
         },
       ],
@@ -1105,19 +1149,20 @@
       ],
     },
     {
-      id: "356EC53324F781A2",
       x: 0.0,
       y: 33.8,
       dependencies: [
         "5F8FF862F9B5DA8B",
       ],
+      size: 1.0,
+      id: "356EC53324F781A2",
       tasks: [
         {
           id: "47FED4998E6C8ABE",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:blockplacert1",
+            count: 1,
           },
         },
       ],
@@ -1130,19 +1175,20 @@
       ],
     },
     {
-      id: "05A58136CEF100CD",
       x: 0.0,
       y: 38.3,
       dependencies: [
         "5F8FF862F9B5DA8B",
       ],
+      size: 1.0,
+      id: "05A58136CEF100CD",
       tasks: [
         {
           id: "256F70E94016ABEA",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:clickert1",
+            count: 1,
           },
         },
       ],
@@ -1155,19 +1201,20 @@
       ],
     },
     {
-      id: "2D9648F58216A9D1",
       x: 1.6,
       y: 38.3,
       dependencies: [
         "5F8FF862F9B5DA8B",
       ],
+      size: 1.0,
+      id: "2D9648F58216A9D1",
       tasks: [
         {
           id: "34652EFDEE4FB0A7",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:sensort1",
+            count: 1,
           },
         },
       ],
@@ -1180,19 +1227,20 @@
       ],
     },
     {
-      id: "0F71EC9F2FC9D5C8",
       x: 3.2,
       y: 38.3,
       dependencies: [
         "5F8FF862F9B5DA8B",
       ],
+      size: 1.0,
+      id: "0F71EC9F2FC9D5C8",
       tasks: [
         {
           id: "0CDCA2DC84E8FD78",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:itemcollector",
+            count: 1,
           },
         },
       ],
@@ -1205,28 +1253,29 @@
       ],
     },
     {
-      id: "47B843500123473C",
       x: 4.8,
       y: 38.3,
       dependencies: [
         "5F8FF862F9B5DA8B",
       ],
+      size: 1.0,
       optional: true,
+      id: "47B843500123473C",
       tasks: [
         {
           id: "450BDE7B05CFF312",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:fluidcollectort1",
+            count: 1,
           },
         },
         {
           id: "6A1926384F95F0D0",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:fluidplacert1",
+            count: 1,
           },
         },
       ],
@@ -1239,7 +1288,6 @@
       ],
     },
     {
-      id: "674C5EDFECAD24FE",
       x: 1.6,
       y: 35.3,
       dependencies: [
@@ -1247,21 +1295,23 @@
         "356EC53324F781A2",
         "363D1372EC2AFA63",
       ],
+      size: 1.0,
+      id: "674C5EDFECAD24FE",
       tasks: [
         {
           id: "77BC7AAE63C01FEF",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:blockbreakert2",
+            count: 1,
           },
         },
         {
           id: "07870543F55DBF3F",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:blockplacert2",
+            count: 1,
           },
         },
       ],
@@ -1274,25 +1324,27 @@
         {
           id: "3FC4056E98DECEED",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 253752461985528,
         },
       ],
     },
     {
-      id: "281CA117FD4FB6A8",
       x: 1.6,
       y: 36.8,
       dependencies: [
         "117D79ADEB394A77",
         "363D1372EC2AFA63",
       ],
+      size: 1.0,
+      id: "281CA117FD4FB6A8",
       tasks: [
         {
           id: "7E039A92B2CFF926",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:energytransmitter",
+            count: 1,
           },
         },
       ],
@@ -1305,20 +1357,21 @@
       ],
     },
     {
-      id: "23B57B2DB9B34547",
       x: 6.4,
       y: 38.3,
       dependencies: [
         "5F8FF862F9B5DA8B",
       ],
+      size: 1.0,
       optional: true,
+      id: "23B57B2DB9B34547",
       tasks: [
         {
           id: "7D6EC6D520708EB1",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:experienceholder",
+            count: 1,
           },
         },
       ],
@@ -1331,19 +1384,20 @@
       ],
     },
     {
-      id: "05537D0305294B4D",
       x: 0.0,
       y: 43.9,
       dependencies: [
         "0C9E6CE350BDB1F1",
       ],
+      size: 1.0,
+      id: "05537D0305294B4D",
       tasks: [
         {
           id: "7598CF40DB1FCA34",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:upgrade_blank",
+            count: 1,
           },
         },
       ],
@@ -1356,27 +1410,28 @@
       ],
     },
     {
-      id: "2200B95AABBDB068",
       x: 1.6,
       y: 43.9,
       dependencies: [
         "05537D0305294B4D",
       ],
+      size: 1.0,
+      id: "2200B95AABBDB068",
       tasks: [
         {
           id: "27FF5C01E2A4464A",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:upgrade_oreminer",
+            count: 1,
           },
         },
         {
           id: "437A64D788D56467",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:upgrade_hammer",
+            count: 1,
           },
         },
       ],
@@ -1389,20 +1444,21 @@
       ],
     },
     {
-      id: "5340DA8FF01C3911",
       x: 1.6,
       y: 45.4,
       dependencies: [
         "05537D0305294B4D",
       ],
+      size: 1.0,
       optional: true,
+      id: "5340DA8FF01C3911",
       tasks: [
         {
           id: "49CBF3C884C95197",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:upgrade_smelter",
+            count: 1,
           },
         },
       ],
@@ -1415,20 +1471,21 @@
       ],
     },
     {
-      id: "7FA6FE8C5C7CD866",
       x: 1.6,
       y: 42.4,
       dependencies: [
         "05537D0305294B4D",
       ],
+      size: 1.0,
       optional: true,
+      id: "7FA6FE8C5C7CD866",
       tasks: [
         {
           id: "5B1200485DF619A7",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:upgrade_treefeller",
+            count: 1,
           },
         },
       ],
@@ -1441,36 +1498,37 @@
       ],
     },
     {
-      id: "705693FCCE7139A1",
       x: 1.6,
       y: 46.9,
       dependencies: [
         "05537D0305294B4D",
       ],
+      size: 1.0,
       optional: true,
+      id: "705693FCCE7139A1",
       tasks: [
         {
           id: "41B5090D78316E05",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:upgrade_walkspeed",
+            count: 1,
           },
         },
         {
           id: "2DBB141962D60203",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:upgrade_jumpboost",
+            count: 1,
           },
         },
         {
           id: "196F8040422B7454",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:upgrade_stepheight",
+            count: 1,
           },
         },
       ],
@@ -1483,20 +1541,21 @@
       ],
     },
     {
-      id: "7C93E21A3F19FF1C",
       x: 3.2,
       y: 46.9,
       dependencies: [
         "705693FCCE7139A1",
         "4B23044D0ED94473",
       ],
+      size: 1.0,
+      id: "7C93E21A3F19FF1C",
       tasks: [
         {
           id: "798020934FCEC410",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:upgrade_flight",
+            count: 1,
           },
         },
       ],
@@ -1509,26 +1568,28 @@
         {
           id: "61619EA67212BBAF",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "10629AEA2366BB94",
       x: 1.6,
       y: 40.9,
       dependencies: [
         "05537D0305294B4D",
         "4B23044D0ED94473",
       ],
+      size: 1.0,
       optional: true,
+      id: "10629AEA2366BB94",
       tasks: [
         {
           id: "276FFFA6CA066BDC",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:upgrade_deathprotection",
+            count: 1,
           },
         },
       ],
@@ -1541,24 +1602,26 @@
         {
           id: "47984F6D3F9AA72F",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 379532711335085,
         },
       ],
     },
     {
-      id: "7A0DB9103E611EED",
       x: 0.0,
       y: 49.5,
       dependencies: [
         "0040AEC79993EAE9",
       ],
+      size: 1.0,
+      id: "7A0DB9103E611EED",
       tasks: [
         {
           id: "30C2FF1F065BEEA2",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:voidshift_wand",
+            count: 1,
           },
         },
       ],
@@ -1571,20 +1634,21 @@
       ],
     },
     {
-      id: "2EE56E4DB7D847BA",
       x: 1.6,
       y: 49.5,
       dependencies: [
         "70EB4E751139A5BF",
       ],
+      size: 1.0,
       optional: true,
+      id: "2EE56E4DB7D847BA",
       tasks: [
         {
           id: "11C9487BDA65D301",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:polymorphic_wand",
+            count: 1,
           },
         },
       ],
@@ -1597,20 +1661,21 @@
       ],
     },
     {
-      id: "37D22BFF0B172D01",
       x: 3.2,
       y: 49.5,
       dependencies: [
         "363D1372EC2AFA63",
       ],
+      size: 1.0,
       optional: true,
+      id: "37D22BFF0B172D01",
       tasks: [
         {
           id: "0F434DB0F23FA109",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:blazejet_wand",
+            count: 1,
           },
         },
       ],
@@ -1623,20 +1688,21 @@
       ],
     },
     {
-      id: "57CAFA0220F64D2F",
       x: 4.8,
       y: 49.5,
       dependencies: [
         "4B23044D0ED94473",
       ],
+      size: 1.0,
       optional: true,
+      id: "57CAFA0220F64D2F",
       tasks: [
         {
           id: "51B87F14BCE69E8A",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:eclipsegate_wand",
+            count: 1,
           },
         },
       ],
@@ -1649,20 +1715,21 @@
       ],
     },
     {
-      id: "1DFADAD084B7DC09",
       x: 6.4,
       y: 49.5,
       dependencies: [
         "5F8FF862F9B5DA8B",
       ],
+      size: 1.0,
       optional: true,
+      id: "1DFADAD084B7DC09",
       tasks: [
         {
           id: "3D97DE8DACC6B69B",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:creaturecatcher",
+            count: 1,
           },
         },
       ],
@@ -1675,20 +1742,21 @@
       ],
     },
     {
-      id: "372CD375C0DE281C",
       x: 8.0,
       y: 49.5,
       dependencies: [
         "363D1372EC2AFA63",
       ],
+      size: 1.0,
       optional: true,
+      id: "372CD375C0DE281C",
       tasks: [
         {
           id: "0B215C8D48289275",
           type: "item",
           item: {
-            count: 1,
             id: "justdirethings:totem_of_death_recall",
+            count: 1,
           },
         },
       ],
@@ -1701,7 +1769,8 @@
       ],
     },
   ],
-  quest_links: [ ],
+  quest_links: [
+  ],
   images: [
     {
       x: 5.4,
@@ -1710,10 +1779,7 @@
       height: 1.4375,
       rotation: 0.0,
       image: "gspack:textures/quests/justdirethings_header.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false,
+      id: "5A8735878FB5E05E",
     },
     {
       x: 0.5647,
@@ -1722,10 +1788,7 @@
       height: 0.6,
       rotation: 0.0,
       image: "gspack:textures/quests/justdirethings_ferricore_ore.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false,
+      id: "25D628EB8D80495E",
     },
     {
       x: 0.4765,
@@ -1734,10 +1797,7 @@
       height: 0.6,
       rotation: 0.0,
       image: "gspack:textures/quests/justdirethings_upgrade_blank.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false,
+      id: "3A0B68DC181C9B66",
     },
     {
       x: 0.9,
@@ -1746,10 +1806,7 @@
       height: 0.6,
       rotation: 0.0,
       image: "gspack:textures/quests/justdirethings_eclipse_ore.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false,
+      id: "300CB08A6351B70F",
     },
     {
       x: 1.4118,
@@ -1758,10 +1815,7 @@
       height: 0.6,
       rotation: 0.0,
       image: "gspack:textures/quests/justdirethings_voidshift.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false,
+      id: "56F7EDC02CE3930D",
     },
     {
       x: 1.5353,
@@ -1770,10 +1824,7 @@
       height: 0.6,
       rotation: 0.0,
       image: "gspack:textures/quests/justdirethings_coal1.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false,
+      id: "0B587789F080F9D9",
     },
     {
       x: 0.0706,
@@ -1782,10 +1833,7 @@
       height: 0.6,
       rotation: 0.0,
       image: "gspack:textures/quests/justdirethings_goo1.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false,
+      id: "6D5B406FE5150379",
     },
     {
       x: 0.6,
@@ -1794,10 +1842,7 @@
       height: 0.6,
       rotation: 0.0,
       image: "gspack:textures/quests/justdirethings_generator.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false,
+      id: "509B88A6F6C9E8CF",
     },
     {
       x: 0.6353,
@@ -1806,10 +1851,7 @@
       height: 0.6,
       rotation: 0.0,
       image: "gspack:textures/quests/justdirethings_blazegold_ore.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false,
+      id: "492BEBD32638A66A",
     },
     {
       x: 0.7765,
@@ -1818,10 +1860,7 @@
       height: 0.6,
       rotation: 0.0,
       image: "gspack:textures/quests/justdirethings_celestigem.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false,
+      id: "0224A20F0B84FE82",
     },
   ],
 }

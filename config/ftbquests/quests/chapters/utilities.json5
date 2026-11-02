@@ -1,28 +1,28 @@
 {
   id: "1B5325199F5DF69B",
   group: "105EE503AFE85CA5",
-  order_index: 24,
-  filename: "utilities",
+  order_index: 6,
   icon: {
-    count: 1,
     id: "tiab:time_in_a_bottle",
+    count: 1,
   },
+  filename: "utilities",
   default_quest_shape: "",
   default_hide_dependency_lines: true,
   quests: [
     {
-      id: "3D177CE1CBDB868D",
       x: 0.0,
       y: 1.45,
       shape: "gear",
       size: 1.5,
+      id: "3D177CE1CBDB868D",
       tasks: [
         {
           id: "1ABDA333C15C9B2A",
           type: "item",
           item: {
-            count: 1,
             id: "tiab:time_in_a_bottle",
+            count: 1,
           },
         },
       ],
@@ -35,24 +35,26 @@
         {
           id: "3AC9362E31B538EF",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 253752461985528,
         },
       ],
     },
     {
-      id: "0E24C360BA8E0959",
       x: 1.6,
       y: 1.45,
       dependencies: [
         "3D177CE1CBDB868D",
       ],
+      size: 1.0,
+      id: "0E24C360BA8E0959",
       tasks: [
         {
           id: "6A757A05596B3D5F",
           type: "item",
           item: {
-            count: 1,
             id: "energymeter:meter",
+            count: 1,
           },
         },
       ],
@@ -65,19 +67,20 @@
       ],
     },
     {
-      id: "53E5DE25C3C13AF4",
       x: 0.0,
       y: 5.55,
       dependencies: [
         "3D177CE1CBDB868D",
       ],
+      size: 1.0,
+      id: "53E5DE25C3C13AF4",
       tasks: [
         {
           id: "1FB768134F987EDD",
           type: "item",
           item: {
-            count: 1,
             id: "pylons:harvester_pylon",
+            count: 1,
           },
         },
       ],
@@ -90,32 +93,34 @@
         {
           id: "425C1CE356A37EC0",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2612120196957929,
         },
       ],
     },
     {
-      id: "3A35AC0EF4533DFC",
       x: 1.6,
       y: 5.55,
       dependencies: [
         "53E5DE25C3C13AF4",
       ],
+      size: 1.0,
+      id: "3A35AC0EF4533DFC",
       tasks: [
         {
           id: "529D9A31E61D436A",
           type: "item",
           item: {
-            count: 1,
             id: "pylons:infusion_pylon",
+            count: 1,
           },
         },
         {
           id: "649A6648100DCA60",
           type: "item",
           item: {
-            count: 1,
             id: "pylons:potion_filter",
+            count: 1,
           },
         },
       ],
@@ -128,32 +133,34 @@
         {
           id: "64E0941675EA81C4",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "2AF8B32888E5DE80",
       x: 1.6,
       y: 7.05,
       dependencies: [
         "53E5DE25C3C13AF4",
       ],
+      size: 1.0,
+      id: "2AF8B32888E5DE80",
       tasks: [
         {
           id: "7DCCA325CECFE40A",
           type: "item",
           item: {
-            count: 1,
             id: "pylons:interdiction_pylon",
+            count: 1,
           },
         },
         {
           id: "4C2D3DD96C8D946A",
           type: "item",
           item: {
-            count: 1,
             id: "pylons:mob_filter",
+            count: 1,
           },
         },
       ],
@@ -166,20 +173,21 @@
       ],
     },
     {
-      id: "10841485D64ACACB",
       x: 1.6,
       y: 4.05,
       dependencies: [
         "53E5DE25C3C13AF4",
       ],
+      size: 1.0,
       optional: true,
+      id: "10841485D64ACACB",
       tasks: [
         {
           id: "096ECE15B438EFE7",
           type: "item",
           item: {
-            count: 1,
             id: "pylons:expulsion_pylon",
+            count: 1,
           },
         },
       ],
@@ -192,19 +200,20 @@
       ],
     },
     {
-      id: "629FD5D7AC2CDFCE",
       x: 0.0,
       y: 9.65,
       dependencies: [
         "3D177CE1CBDB868D",
       ],
+      size: 1.0,
+      id: "629FD5D7AC2CDFCE",
       tasks: [
         {
           id: "6B3428A510D987A5",
           type: "item",
           item: {
-            count: 1,
             id: "darkutils:vector_plate",
+            count: 1,
           },
           count: 4,
         },
@@ -218,19 +227,20 @@
       ],
     },
     {
-      id: "65C23ADB283C3A5F",
       x: 1.6,
       y: 9.65,
       dependencies: [
         "629FD5D7AC2CDFCE",
       ],
+      size: 1.0,
+      id: "65C23ADB283C3A5F",
       tasks: [
         {
           id: "0849F7075185F651",
           type: "item",
           item: {
-            count: 1,
             id: "darkutils:damage_plate",
+            count: 1,
           },
           count: 4,
         },
@@ -244,27 +254,28 @@
       ],
     },
     {
-      id: "52FB051146A3A00A",
       x: 1.6,
       y: 11.15,
       dependencies: [
         "629FD5D7AC2CDFCE",
       ],
+      size: 1.0,
+      id: "52FB051146A3A00A",
       tasks: [
         {
           id: "77FAEFF87A7F1080",
           type: "item",
           item: {
-            count: 1,
             id: "darkutils:filter_hostile",
+            count: 1,
           },
         },
         {
           id: "11D72AC8ABB2BB01",
           type: "item",
           item: {
-            count: 1,
             id: "darkutils:filter_player",
+            count: 1,
           },
         },
       ],
@@ -277,27 +288,28 @@
       ],
     },
     {
-      id: "42EC01623F5CD38F",
       x: 0.0,
       y: 13.75,
       dependencies: [
         "3D177CE1CBDB868D",
       ],
+      size: 1.0,
+      id: "42EC01623F5CD38F",
       tasks: [
         {
           id: "1D8A56FEA4F3A114",
           type: "item",
           item: {
-            count: 1,
             id: "potionsmaster:tile_mortar",
+            count: 1,
           },
         },
         {
           id: "19FBF0B1310F353C",
           type: "item",
           item: {
-            count: 1,
             id: "potionsmaster:pestle",
+            count: 1,
           },
         },
       ],
@@ -310,27 +322,28 @@
       ],
     },
     {
-      id: "57DD43F5649658D9",
       x: 1.6,
       y: 13.75,
       dependencies: [
         "42EC01623F5CD38F",
       ],
+      size: 1.0,
+      id: "57DD43F5649658D9",
       tasks: [
         {
           id: "1757F0E84995E1D2",
           type: "item",
           item: {
-            count: 1,
             id: "potionsmaster:bezoar",
+            count: 1,
           },
         },
         {
           id: "05465203B66FAF6C",
           type: "item",
           item: {
-            count: 1,
             id: "potionsmaster:activated_charcoal",
+            count: 1,
           },
         },
       ],
@@ -343,25 +356,27 @@
         {
           id: "280CDDF6188E99C2",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 253752461985528,
         },
       ],
     },
     {
-      id: "7ABCBD303EE6B887",
       x: 3.2,
       y: 13.75,
       dependencies: [
         "57DD43F5649658D9",
       ],
+      size: 1.0,
       optional: true,
+      id: "7ABCBD303EE6B887",
       tasks: [
         {
           id: "4175053FE6CEBE0C",
           type: "item",
           item: {
-            count: 1,
             id: "potionsmaster:gallbladder",
+            count: 1,
           },
         },
       ],
@@ -374,7 +389,8 @@
       ],
     },
   ],
-  quest_links: [ ],
+  quest_links: [
+  ],
   images: [
     {
       x: 5.4,
@@ -383,10 +399,7 @@
       height: 1.4375,
       rotation: 0.0,
       image: "gspack:textures/quests/utilities_header.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false,
+      id: "7999B97F1CCCB182",
     },
     {
       x: 0.3353,
@@ -395,10 +408,7 @@
       height: 0.6,
       rotation: 0.0,
       image: "gspack:textures/quests/utilities_harvester.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false,
+      id: "79030F160747A86B",
     },
     {
       x: 1.1471,
@@ -407,10 +417,7 @@
       height: 0.6,
       rotation: 0.0,
       image: "gspack:textures/quests/utilities_pm_mortar.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false,
+      id: "3F64AD3793C11687",
     },
     {
       x: 0.4941,
@@ -419,10 +426,7 @@
       height: 0.6,
       rotation: 0.0,
       image: "gspack:textures/quests/utilities_tiab.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false,
+      id: "4759EFEC31BFC2FB",
     },
     {
       x: 0.9706,
@@ -431,10 +435,7 @@
       height: 0.6,
       rotation: 0.0,
       image: "gspack:textures/quests/utilities_vector.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false,
+      id: "4F73E3933E5F642C",
     },
   ],
 }

@@ -1,27 +1,28 @@
 {
   id: "7ABD67C9006B4869",
   group: "102546F445E619D7",
-  order_index: 19,
-  filename: "trophy",
+  order_index: 1,
   icon: {
-    count: 1,
     id: "gspack:infinity_trophy",
+    count: 1,
   },
+  filename: "trophy",
   default_quest_shape: "",
   default_hide_dependency_lines: true,
   quests: [
     {
-      id: "211472984F381C23",
       x: 0.0,
       y: -2.7,
       shape: "hexagon",
+      size: 1.0,
+      id: "211472984F381C23",
       tasks: [
         {
           id: "3AA22C62B7BBADA5",
           type: "item",
           item: {
-            count: 1,
             id: "extendedcrafting:ultimate_singularity",
+            count: 1,
           },
         },
       ],
@@ -34,22 +35,24 @@
         {
           id: "5D2E42EB445E7921",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "6423617BE3AF7FD4",
       x: 1.74,
       y: -2.07,
       shape: "hexagon",
+      size: 1.0,
+      id: "6423617BE3AF7FD4",
       tasks: [
         {
           id: "3117CFC2DAC714C1",
           type: "item",
           item: {
-            count: 1,
             id: "gspack:creative_singularity",
+            count: 1,
           },
           count: 8,
         },
@@ -63,22 +66,24 @@
         {
           id: "5924D945A1C8DB21",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "4B7EA33948A8A04B",
       x: 2.66,
       y: -0.47,
       shape: "hexagon",
+      size: 1.0,
+      id: "4B7EA33948A8A04B",
       tasks: [
         {
           id: "4304DE236782CA45",
           type: "item",
           item: {
-            count: 1,
             id: "extendedcrafting:ultimate_component",
+            count: 1,
           },
           count: 4,
         },
@@ -92,22 +97,24 @@
         {
           id: "2092CD396CD2BDAE",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "6930655444B64E63",
       x: 2.34,
       y: 1.35,
       shape: "hexagon",
+      size: 1.0,
+      id: "6930655444B64E63",
       tasks: [
         {
           id: "1D4091D1E2F13E74",
           type: "item",
           item: {
-            count: 1,
             id: "mekanism_extras:infinite_control_circuit",
+            count: 1,
           },
           count: 4,
         },
@@ -121,22 +128,24 @@
         {
           id: "2F3623520C13CD46",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "3AFDF71D0FE05B78",
       x: 0.92,
       y: 2.54,
       shape: "hexagon",
+      size: 1.0,
+      id: "3AFDF71D0FE05B78",
       tasks: [
         {
           id: "47191A9E4E5D6AE9",
           type: "item",
           item: {
-            count: 1,
             id: "allthecompressed:antimatter_block_1x",
+            count: 1,
           },
           count: 4,
         },
@@ -150,22 +159,24 @@
         {
           id: "2F8523E0CC8B59B9",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "4B49E2969F978968",
       x: -0.92,
       y: 2.54,
       shape: "hexagon",
+      size: 1.0,
+      id: "4B49E2969F978968",
       tasks: [
         {
           id: "3E42142EBABADF4D",
           type: "item",
           item: {
-            count: 1,
             id: "extendedcrafting:crystaltine_block",
+            count: 1,
           },
           count: 8,
         },
@@ -179,22 +190,24 @@
         {
           id: "10A14324CC1D3BDE",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "1FBAFB713A8BA439",
       x: -2.34,
       y: 1.35,
       shape: "hexagon",
+      size: 1.0,
+      id: "1FBAFB713A8BA439",
       tasks: [
         {
           id: "5AAA8B3D5FB8BC86",
           type: "item",
           item: {
-            count: 1,
             id: "extendedcrafting:nether_star_block",
+            count: 1,
           },
           count: 4,
         },
@@ -208,22 +221,24 @@
         {
           id: "11FE3F2530B0FF8A",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "0CBAA91E88C68B59",
       x: -2.66,
       y: -0.47,
       shape: "hexagon",
+      size: 1.0,
+      id: "0CBAA91E88C68B59",
       tasks: [
         {
           id: "73E5B9E519A36110",
           type: "item",
           item: {
-            count: 1,
             id: "allthecompressed:netherite_block_2x",
+            count: 1,
           },
           count: 8,
         },
@@ -237,22 +252,24 @@
         {
           id: "5ABAF00CA3076913",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "0B1A7DF20DC0C166",
       x: -1.74,
       y: -2.07,
       shape: "hexagon",
+      size: 1.0,
+      id: "0B1A7DF20DC0C166",
       tasks: [
         {
           id: "180F02A43A28E0FF",
           type: "item",
           item: {
-            count: 1,
             id: "allthecompressed:unobtainium_vibranium_block_2x",
+            count: 1,
           },
           count: 4,
         },
@@ -266,22 +283,24 @@
         {
           id: "24F66AC382BA4F6E",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "0A34B39F4E7ADC1A",
       x: 0.0,
       y: -4.9,
       shape: "diamond",
+      size: 1.0,
+      id: "0A34B39F4E7ADC1A",
       tasks: [
         {
           id: "5399AEED8908E483",
           type: "item",
           item: {
-            count: 1,
             id: "mekanism:creative_energy_cube",
+            count: 1,
           },
         },
       ],
@@ -294,22 +313,24 @@
         {
           id: "7A0E2B97DD7E9E9B",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 379532711335085,
         },
       ],
     },
     {
-      id: "1B78CE66104C95B3",
       x: 3.46,
       y: -3.46,
       shape: "diamond",
+      size: 1.0,
+      id: "1B78CE66104C95B3",
       tasks: [
         {
           id: "4E4395B27680493A",
           type: "item",
           item: {
-            count: 1,
             id: "ae2:creative_storage_cell",
+            count: 1,
           },
         },
       ],
@@ -322,22 +343,24 @@
         {
           id: "5BF6CF19F4432584",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 379532711335085,
         },
       ],
     },
     {
-      id: "3B10ABD2B235F671",
       x: 4.9,
       y: 0.0,
       shape: "diamond",
+      size: 1.0,
+      id: "3B10ABD2B235F671",
       tasks: [
         {
           id: "75CC8069337A63FF",
           type: "item",
           item: {
-            count: 1,
             id: "oritech:creative_storage",
+            count: 1,
           },
         },
       ],
@@ -350,22 +373,24 @@
         {
           id: "40D2FB148F043AED",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 379532711335085,
         },
       ],
     },
     {
-      id: "4533E9D28726F2EE",
       x: 3.46,
       y: 3.46,
       shape: "diamond",
+      size: 1.0,
+      id: "4533E9D28726F2EE",
       tasks: [
         {
           id: "59B3CAC442920500",
           type: "item",
           item: {
-            count: 1,
             id: "powah:energy_cell_creative",
+            count: 1,
           },
         },
       ],
@@ -378,22 +403,24 @@
         {
           id: "3F613AA7B5971A85",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 379532711335085,
         },
       ],
     },
     {
-      id: "5B5E21D24565AC3B",
       x: 0.0,
       y: 4.9,
       shape: "diamond",
+      size: 1.0,
+      id: "5B5E21D24565AC3B",
       tasks: [
         {
           id: "42CB755FCFD75909",
           type: "item",
           item: {
-            count: 1,
             id: "mysticalagradditions:creative_essence",
+            count: 1,
           },
         },
       ],
@@ -406,22 +433,24 @@
         {
           id: "39E61544C54F6314",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 379532711335085,
         },
       ],
     },
     {
-      id: "3DFBC3EBFAECE201",
       x: -3.46,
       y: 3.46,
       shape: "diamond",
+      size: 1.0,
+      id: "3DFBC3EBFAECE201",
       tasks: [
         {
           id: "4640825991145C6F",
           type: "item",
           item: {
-            count: 1,
             id: "sophisticatedstorage:infinity_upgrade",
+            count: 1,
           },
         },
       ],
@@ -434,22 +463,24 @@
         {
           id: "4683E4A08B929162",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 379532711335085,
         },
       ],
     },
     {
-      id: "19E8F922075C4FFD",
       x: -4.9,
       y: 0.0,
       shape: "diamond",
+      size: 1.0,
+      id: "19E8F922075C4FFD",
       tasks: [
         {
           id: "007AB12D7E455BCF",
           type: "item",
           item: {
-            count: 1,
             id: "mekanism:creative_fluid_tank",
+            count: 1,
           },
         },
       ],
@@ -462,22 +493,24 @@
         {
           id: "6DFE4CB2F90C3838",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 379532711335085,
         },
       ],
     },
     {
-      id: "4D74C962BF04C733",
       x: -3.46,
       y: -3.46,
       shape: "diamond",
+      size: 1.0,
+      id: "4D74C962BF04C733",
       tasks: [
         {
           id: "227D39A3B9C268CC",
           type: "item",
           item: {
-            count: 1,
             id: "ae2:creative_energy_cell",
+            count: 1,
           },
         },
       ],
@@ -490,21 +523,23 @@
         {
           id: "48F5B438E3E2B303",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 379532711335085,
         },
       ],
     },
     {
-      id: "4C9B6BF424C0EA6D",
       x: 0.0,
       y: -7.4,
+      size: 1.0,
+      id: "4C9B6BF424C0EA6D",
       tasks: [
         {
           id: "31DF4879B2EE3F30",
           type: "item",
           item: {
-            count: 1,
             id: "mekanism:mekasuit_bodyarmor",
+            count: 1,
           },
         },
       ],
@@ -517,21 +552,23 @@
         {
           id: "4597D0AB9A4AC02F",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "6B972CAFF0A107E1",
       x: 2.29,
       y: -7.04,
+      size: 1.0,
+      id: "6B972CAFF0A107E1",
       tasks: [
         {
           id: "3E9B7025B3A68A66",
           type: "item",
           item: {
-            count: 1,
             id: "advanced_ae:quantum_core",
+            count: 1,
           },
         },
       ],
@@ -544,21 +581,23 @@
         {
           id: "54AE9B550E5B513E",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "0354904EC98AF301",
       x: 4.35,
       y: -5.99,
+      size: 1.0,
+      id: "0354904EC98AF301",
       tasks: [
         {
           id: "52A53F927C1F48CC",
           type: "item",
           item: {
-            count: 1,
             id: "oritech:black_hole",
+            count: 1,
           },
         },
       ],
@@ -571,21 +610,23 @@
         {
           id: "25BB16AF4BAB0C72",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "71566518C93304B8",
       x: 5.99,
       y: -4.35,
+      size: 1.0,
+      id: "71566518C93304B8",
       tasks: [
         {
           id: "5F5FB68C065060E4",
           type: "item",
           item: {
-            count: 1,
             id: "ltxi:infinite_energy_cell_array",
+            count: 1,
           },
         },
       ],
@@ -598,21 +639,23 @@
         {
           id: "70FCA15359DFD4B1",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "3BF5C197358B3FFE",
       x: 7.04,
       y: -2.29,
+      size: 1.0,
+      id: "3BF5C197358B3FFE",
       tasks: [
         {
           id: "55559F43FC43C79C",
           type: "item",
           item: {
-            count: 1,
             id: "railcraft:electric_locomotive",
+            count: 1,
           },
         },
       ],
@@ -625,21 +668,23 @@
         {
           id: "7791B6D2A5D81265",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "057F38E9AB8AF57E",
       x: 7.4,
       y: 0.0,
+      size: 1.0,
+      id: "057F38E9AB8AF57E",
       tasks: [
         {
           id: "463C2A8078EA4813",
           type: "item",
           item: {
-            count: 1,
             id: "powah:energy_cell_nitro",
+            count: 1,
           },
         },
       ],
@@ -652,21 +697,23 @@
         {
           id: "46B347A383DFFF8F",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "186854CCD3EF9A2E",
       x: 7.04,
       y: 2.29,
+      size: 1.0,
+      id: "186854CCD3EF9A2E",
       tasks: [
         {
           id: "68ABB1BDCB8B042C",
           type: "item",
           item: {
-            count: 1,
             id: "tconstruct:queens_slime_ingot",
+            count: 1,
           },
         },
       ],
@@ -679,21 +726,23 @@
         {
           id: "41A5A92BBB1B5C3A",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "15ED014391DE667D",
       x: 5.99,
       y: 4.35,
+      size: 1.0,
+      id: "15ED014391DE667D",
       tasks: [
         {
           id: "580C29632B5B3D31",
           type: "item",
           item: {
-            count: 1,
             id: "thaumaturge:primordial_pearl",
+            count: 1,
           },
         },
       ],
@@ -706,21 +755,23 @@
         {
           id: "3CDAA4C018B9C1C9",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "0EB628FE52FA73AC",
       x: 4.35,
       y: 5.99,
+      size: 1.0,
+      id: "0EB628FE52FA73AC",
       tasks: [
         {
           id: "035C51C7D8FDF2D4",
           type: "item",
           item: {
-            count: 1,
             id: "apotheosis:godforged_pearl",
+            count: 1,
           },
         },
       ],
@@ -733,21 +784,23 @@
         {
           id: "6C5DB77C8C9D7875",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "12E8C02D4518B83F",
       x: 2.29,
       y: 7.04,
+      size: 1.0,
+      id: "12E8C02D4518B83F",
       tasks: [
         {
           id: "20B0EDD951AAA68E",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:klein_star_omega",
+            count: 1,
           },
         },
       ],
@@ -760,21 +813,23 @@
         {
           id: "4E9E4E53756BE177",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "0D797056F1541E10",
       x: 0.0,
       y: 7.4,
+      size: 1.0,
+      id: "0D797056F1541E10",
       tasks: [
         {
           id: "3B6A0756D2C47195",
           type: "item",
           item: {
-            count: 1,
             id: "mysticalagradditions:insanium_gemstone_block",
+            count: 1,
           },
         },
       ],
@@ -787,21 +842,23 @@
         {
           id: "73EF071064F8CF08",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "0F3E03DA5124F8DB",
       x: -2.29,
       y: 7.04,
+      size: 1.0,
+      id: "0F3E03DA5124F8DB",
       tasks: [
         {
           id: "5D5C7B6B6FABFE3A",
           type: "item",
           item: {
-            count: 1,
             id: "evilcraft:dark_power_gem_block",
+            count: 1,
           },
         },
       ],
@@ -814,21 +871,23 @@
         {
           id: "1CA551F5EEA126F1",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "7F07B4095A66780D",
       x: -4.35,
       y: 5.99,
+      size: 1.0,
+      id: "7F07B4095A66780D",
       tasks: [
         {
           id: "22E90D099C377151",
           type: "item",
           item: {
-            count: 1,
             id: "rootsclassic:crystal_staff",
+            count: 1,
           },
         },
       ],
@@ -841,21 +900,23 @@
         {
           id: "3FCD855180A302BA",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "3286D72115FB535D",
       x: -5.99,
       y: 4.35,
+      size: 1.0,
+      id: "3286D72115FB535D",
       tasks: [
         {
           id: "05333C7F1120E693",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:valkyrie_wings",
+            count: 1,
           },
         },
       ],
@@ -868,21 +929,23 @@
         {
           id: "6DF1A880767A3C6F",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "760788DD8819717E",
       x: -7.04,
       y: 2.29,
+      size: 1.0,
+      id: "760788DD8819717E",
       tasks: [
         {
           id: "25E2F8788CA68C23",
           type: "item",
           item: {
-            count: 1,
             id: "allthemodium:unobtainium_vibranium_block",
+            count: 1,
           },
         },
       ],
@@ -895,21 +958,23 @@
         {
           id: "21A736A388D6636F",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "3F6E1924F6C35CA2",
       x: -7.4,
       y: 0.0,
+      size: 1.0,
+      id: "3F6E1924F6C35CA2",
       tasks: [
         {
           id: "6DC1C59C4A026628",
           type: "item",
           item: {
-            count: 1,
             id: "stellaris:heart_of_luna_trophy",
+            count: 1,
           },
         },
       ],
@@ -922,21 +987,23 @@
         {
           id: "24498DD205358459",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "3B87E61C675503FE",
       x: -7.04,
       y: -2.29,
+      size: 1.0,
+      id: "3B87E61C675503FE",
       tasks: [
         {
           id: "621CF5BCF2B8674E",
           type: "item",
           item: {
-            count: 1,
             id: "stellaris:star_crawler_boss_trophy",
+            count: 1,
           },
         },
       ],
@@ -949,21 +1016,23 @@
         {
           id: "54539A62F3CF6F26",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "7E87EB44B2FB41E2",
       x: -5.99,
       y: -4.35,
+      size: 1.0,
+      id: "7E87EB44B2FB41E2",
       tasks: [
         {
           id: "612CB4BFC4962312",
           type: "item",
           item: {
-            count: 1,
             id: "aquaculture:neptunium_block",
+            count: 1,
           },
         },
       ],
@@ -976,21 +1045,23 @@
         {
           id: "3F23170C567D9DCD",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "1A5C915FF4C14842",
       x: -4.35,
       y: -5.99,
+      size: 1.0,
+      id: "1A5C915FF4C14842",
       tasks: [
         {
           id: "161C5C28258F5A1B",
           type: "item",
           item: {
-            count: 1,
             id: "stellaris:novite_block",
+            count: 1,
           },
         },
       ],
@@ -1003,21 +1074,23 @@
         {
           id: "6A401A010983ABE2",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "262AE0CCD5302B49",
       x: -2.29,
       y: -7.04,
+      size: 1.0,
+      id: "262AE0CCD5302B49",
       tasks: [
         {
           id: "3ECEA3D993F556D9",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:gravitite_block",
+            count: 1,
           },
         },
       ],
@@ -1030,22 +1103,24 @@
         {
           id: "1D49FA59CE14E11A",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "71C4ADA8801DF42A",
       x: 3.83,
       y: -9.24,
       shape: "gear",
+      size: 1.0,
+      id: "71C4ADA8801DF42A",
       tasks: [
         {
           id: "4129871CE25C4673",
           type: "item",
           item: {
-            count: 1,
             id: "twilightforest:naga_trophy",
+            count: 1,
           },
         },
       ],
@@ -1058,22 +1133,24 @@
         {
           id: "7815FC120634747C",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 3941786890615136,
         },
       ],
     },
     {
-      id: "341C1F6A79F1EB29",
       x: 9.24,
       y: -3.83,
       shape: "gear",
+      size: 1.0,
+      id: "341C1F6A79F1EB29",
       tasks: [
         {
           id: "5F938AEC7DA34575",
           type: "item",
           item: {
-            count: 1,
             id: "twilightforest:lich_trophy",
+            count: 1,
           },
         },
       ],
@@ -1086,22 +1163,24 @@
         {
           id: "246A10469B84DBCC",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 3941786890615136,
         },
       ],
     },
     {
-      id: "009E15054F5C2347",
       x: 9.24,
       y: 3.83,
       shape: "gear",
+      size: 1.0,
+      id: "009E15054F5C2347",
       tasks: [
         {
           id: "75DBC27E333535AF",
           type: "item",
           item: {
-            count: 1,
             id: "twilightforest:minoshroom_trophy",
+            count: 1,
           },
         },
       ],
@@ -1114,22 +1193,24 @@
         {
           id: "4BB31E004A791090",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 3941786890615136,
         },
       ],
     },
     {
-      id: "1F5FCBAA0B81860F",
       x: 3.83,
       y: 9.24,
       shape: "gear",
+      size: 1.0,
+      id: "1F5FCBAA0B81860F",
       tasks: [
         {
           id: "73593EBFD63854E2",
           type: "item",
           item: {
-            count: 1,
             id: "twilightforest:hydra_trophy",
+            count: 1,
           },
         },
       ],
@@ -1142,22 +1223,24 @@
         {
           id: "6BC76C2179B1AA21",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 3941786890615136,
         },
       ],
     },
     {
-      id: "1773D48E8DA64C24",
       x: -3.83,
       y: 9.24,
       shape: "gear",
+      size: 1.0,
+      id: "1773D48E8DA64C24",
       tasks: [
         {
           id: "24ACD3D256E71A61",
           type: "item",
           item: {
-            count: 1,
             id: "twilightforest:knight_phantom_trophy",
+            count: 1,
           },
         },
       ],
@@ -1170,22 +1253,24 @@
         {
           id: "4235FC139E24D59F",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 3941786890615136,
         },
       ],
     },
     {
-      id: "27D924167CCD0A9F",
       x: -9.24,
       y: 3.83,
       shape: "gear",
+      size: 1.0,
+      id: "27D924167CCD0A9F",
       tasks: [
         {
           id: "20F288E36B7A7D06",
           type: "item",
           item: {
-            count: 1,
             id: "twilightforest:ur_ghast_trophy",
+            count: 1,
           },
         },
       ],
@@ -1198,22 +1283,24 @@
         {
           id: "37B03FCCC814F230",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 3941786890615136,
         },
       ],
     },
     {
-      id: "5B0A4A47E2A328DE",
       x: -9.24,
       y: -3.83,
       shape: "gear",
+      size: 1.0,
+      id: "5B0A4A47E2A328DE",
       tasks: [
         {
           id: "2E630CB7B619E916",
           type: "item",
           item: {
-            count: 1,
             id: "twilightforest:alpha_yeti_trophy",
+            count: 1,
           },
         },
       ],
@@ -1226,22 +1313,24 @@
         {
           id: "2AFC26BFD8E5C8A9",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 3941786890615136,
         },
       ],
     },
     {
-      id: "0A556F51688DC21B",
       x: -3.83,
       y: -9.24,
       shape: "gear",
+      size: 1.0,
+      id: "0A556F51688DC21B",
       tasks: [
         {
           id: "027E49D8DAC4C3C2",
           type: "item",
           item: {
-            count: 1,
             id: "twilightforest:snow_queen_trophy",
+            count: 1,
           },
         },
       ],
@@ -1254,16 +1343,15 @@
         {
           id: "3ACF71EF84E85341",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 3941786890615136,
         },
       ],
     },
     {
-      id: "41DE5024E62E94A2",
       x: 0.0,
       y: 0.0,
       shape: "gear",
-      size: 3.0,
       dependencies: [
         "211472984F381C23",
         "6423617BE3AF7FD4",
@@ -1311,13 +1399,15 @@
         "5B0A4A47E2A328DE",
         "0A556F51688DC21B",
       ],
+      size: 3.0,
+      id: "41DE5024E62E94A2",
       tasks: [
         {
           id: "508FC1DC51B2A8B6",
           type: "item",
           item: {
-            count: 1,
             id: "gspack:infinity_trophy",
+            count: 1,
           },
         },
       ],
@@ -1330,7 +1420,8 @@
       ],
     },
   ],
-  quest_links: [ ],
+  quest_links: [
+  ],
   images: [
     {
       x: 5.4,
@@ -1339,10 +1430,7 @@
       height: 1.4375,
       rotation: 0.0,
       image: "gspack:textures/quests/trophy_header.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false,
+      id: "5D77F7A615EF2F66",
     },
   ],
 }

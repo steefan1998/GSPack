@@ -207,7 +207,7 @@
 | Polymorphic Extended Crafting | 1.0.4 | `polymorphic_extended_crafting-26.1.2-1.0.4.jar` |
 | Polymorphic Tinkers | 1.0.1 | `polymorphic_tinkers-26.1.2-1.0.1.jar` |
 | Potentials | 0.11.1 | `potentials-neoforge-26.1.2-0.11.1.jar` |
-| PotionsMaster | 2.0.1 | `potionsmaster-26.1.2.122-2.0.1.jar` |
+| PotionsMaster | 2.0.2 | `potionsmaster-26.1.2.122-2.0.2.jar` |
 | Powah | 7.0.4-alpha | `Powah-7.0.4-alpha.jar` |
 | PrickleMC | 26.1.2.6 | `PrickleMC-neoforge-MC26.1.2-26.1.2.6.jar` |
 | Prism | 1.1.1 | `Prism-26.1.2-neoforge-1.1.1.jar` |
@@ -237,10 +237,10 @@
 | Sodium | 0.9.2+mc26.1.2 | `sodium-neoforge-0.9.2+mc26.1.2.jar` |
 | Spice of Life: Carrot Edition | 1.19.0 | `solcarrot-26.1-1.19.0.jar` |
 | Sophisticated Backpacks | 3.26.18 | `sophisticatedbackpacks-26.1.2-3.26.18.2238.jar` |
-| Sophisticated Core | 1.5.24 | `sophisticatedcore-26.1.2-1.5.24.2445.jar` |
+| Sophisticated Core | 1.5.26 | `sophisticatedcore-26.1.2-1.5.26.2450.jar` |
 | Sophisticated Inventory Interactions | 0.1.19 | `sophisticatedinventoryinteractions-26.1.2-0.1.19.231.jar` |
 | Sophisticated Item Actions | 0.4.19 | `sophisticateditemactions-26.1.2-0.4.19.444.jar` |
-| Sophisticated Storage | 1.5.127 | `sophisticatedstorage-26.1.2-1.5.127.2213.jar` |
+| Sophisticated Storage | 1.5.129 | `sophisticatedstorage-26.1.2-1.5.129.2218.jar` |
 | Sophisticated Storage In Motion | 0.10.39 | `sophisticatedstorageinmotion-26.1.2-0.10.39.388.jar` |
 | spark | 1.10.187 | `spark-1.10.187-neoforge.jar` |
 | Stellaris | 2.0.10 | `stellaris-26.1.2-neoforge-2.0.10.jar` |

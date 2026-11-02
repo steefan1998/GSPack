@@ -2,9 +2,16 @@
 
 What changed in each version of GSPack. The exact mod changes (added, removed and updated mods with their versions) are in [MOD-CHANGELOG.md](MOD-CHANGELOG.md).
 
-## 0.5 (in development)
+## 0.5 (2026-11-02)
 
-Changes in the GSPack Dev Build that are not released yet.
+### Mods
+**3 updated** (274 mods). Full list: [MOD-CHANGELOG.md](MOD-CHANGELOG.md).
+
+- **Updated:** PotionsMaster 2.0.2, Sophisticated Core 1.5.26, Sophisticated Storage 1.5.129
+
+**Quest book: 1,484 quests in 29 chapters** (the same quests as 0.4, with many tasks fixed). Existing quest progress is kept.
+
+**Existing worlds:** see *Material unification* below. A world from 0.4 or older converts while you play, or all at once with `tools/convert-world.ps1` or *Convert World* in the [GSPack Server Installer](https://github.com/steefan1998/GSPackServerInstaller) v0.4.
 
 ### Material unification
 Many mods make the same materials: silver comes from five mods, steel from six. GSPack now treats them as one:
@@ -23,6 +30,7 @@ Many mods make the same materials: silver comes from five mods, steel from six. 
 - **Mystical Agriculture:** the *Guide Book* quest asked for an item that doesn't exist in this version. It's now *Looking Things Up* (a checkmark) and points to JEI.
 - **Apotheosis** no longer puts Tinkers' Construct tools and armor in affix loot (ContinuumConstruct's entries are turned off in `kubejs/data/apotheosis`).
 - **Hostile Neural Networks:** the Deep Learner's Curios slot showed a missing texture. The slot icon now points to a texture in the right place.
+- **Stellaris:** the *Ruined Moon Village* quest showed a missing item as its icon (`cracked_moon_stone_bricks` is not a registered item); it uses Moon Cracked Stone Bricks now.
 - **Hostile Neural Networks:** the seven Twilight Living Matter recipes (Cicada, Firefly, Liveroot, Moonworm, Raven Feather, Steeleaf and Torchberries from Twilight Predictions) never loaded, because they use the old ingredient format. KubeJS re-adds them (`gspack_broken_recipe_fixes.js`).
 - **Title screen:** a **GSPack Wiki** button under *Mods* opens the wiki. GitHub and CurseForge moved one row down.
 

@@ -81,7 +81,7 @@ Q 'lunar_base' 'Lunar Outpost' 'struct:stellaris:lunar_outpost' 'moon' 'xp:200;t
 Q 'space_base' 'Moon Space Base' 'struct:stellaris:moon_space_base' 'lunar_base' 'xp:250;table:rare' -icon 'stellaris:electric_light' -desc 'A large base, long abandoned.'
 Q 'spaceship' 'Wrecked Spaceship' 'struct:stellaris:moon_destroyed_spaceship' 'moon' 'xp:200;table:space' -icon 'stellaris:rocket_engine' -desc 'A ship crashed here. Search the wreck.'
 Q 'moon_village' 'Moon Village' 'struct:stellaris:moon_village' 'moon' 'xp:200;table:rare' -icon 'stellaris:moon_stone_bricks' -desc 'People... on the Moon?'
-Q 'destroyed_village' 'Ruined Moon Village' 'struct:stellaris:moon_destroyed_village' 'moon_village' 'xp:150' -opt -icon 'stellaris:cracked_moon_stone_bricks' -desc 'Something attacked this village.'
+Q 'destroyed_village' 'Ruined Moon Village' 'struct:stellaris:moon_destroyed_village' 'moon_village' 'xp:150' -opt -icon 'stellaris:moon_cracked_stone_bricks' -desc 'Something attacked this village.'
 Q 'aliens' 'Aliens' 'kill:stellaris:alien*3' 'moon_village' 'xp:150' -icon 'stellaris:alien_spawn_egg' -desc 'The Moon''s inhabitants are not always friendly.'
 Q 'rover' 'Rover' 'stellaris:rover' 'desh' 'xp:200' -desc 'Drive across the Moon in style.'
 Q 'rover_mods' 'Rover Upgrades' 'stellaris:rover_speed_module;stellaris:rover_tank_module' 'rover' 'xp:100' -opt -desc 'Make your rover faster and give it a bigger tank.'

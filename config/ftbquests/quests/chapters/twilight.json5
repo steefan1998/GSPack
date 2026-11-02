@@ -1,7 +1,7 @@
 {
   id: "6E76DF027A8636CC",
   group: "11F64C4259C477EF",
-  order_index: 2,
+  order_index: 1,
   icon: {
     id: "twilightforest:naga_trophy",
     count: 1,
@@ -1521,12 +1521,11 @@
         {
           id: "19C641A4FD059486",
           type: "gamestage",
-          stage: "gspack_tag_c_ingots_knightmetal_8",
-          team_stage: false,
           icon: {
-            count: 1,
             id: "twilightforest:knightmetal_ingot",
+            count: 1,
           },
+          stage: "gspack_tag_c_ingots_knightmetal_8",
         },
       ],
       rewards: [

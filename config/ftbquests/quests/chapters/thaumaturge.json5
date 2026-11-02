@@ -20,8 +20,8 @@
           id: "2B4F4DE8C22798FA",
           type: "item",
           item: {
-            count: 1,
             id: "thaumaturge:essentia_crystal",
+            count: 1,
             components: {
               "thaumaturge:crystal_aspect": {
                 aspect: "thaumaturge:aer",
@@ -34,8 +34,8 @@
           id: "56820F03F9B84AFC",
           type: "item",
           item: {
-            count: 1,
             id: "thaumaturge:essentia_crystal",
+            count: 1,
             components: {
               "thaumaturge:crystal_aspect": {
                 aspect: "thaumaturge:aqua",
@@ -48,8 +48,8 @@
           id: "70B3FF21900C5800",
           type: "item",
           item: {
-            count: 1,
             id: "thaumaturge:essentia_crystal",
+            count: 1,
             components: {
               "thaumaturge:crystal_aspect": {
                 aspect: "thaumaturge:ignis",
@@ -62,8 +62,8 @@
           id: "7080741DBB0AD6FC",
           type: "item",
           item: {
-            count: 1,
             id: "thaumaturge:essentia_crystal",
+            count: 1,
             components: {
               "thaumaturge:crystal_aspect": {
                 aspect: "thaumaturge:terra",
@@ -76,8 +76,8 @@
           id: "33B2152BBFAC0497",
           type: "item",
           item: {
-            count: 1,
             id: "thaumaturge:essentia_crystal",
+            count: 1,
             components: {
               "thaumaturge:crystal_aspect": {
                 aspect: "thaumaturge:ordo",
@@ -90,8 +90,8 @@
           id: "188A47A0D7A13437",
           type: "item",
           item: {
-            count: 1,
             id: "thaumaturge:essentia_crystal",
+            count: 1,
             components: {
               "thaumaturge:crystal_aspect": {
                 aspect: "thaumaturge:perditio",
@@ -652,12 +652,11 @@
         {
           id: "0ECF91D895F1A675",
           type: "gamestage",
-          stage: "gspack_tag_c_ingots_brass_8",
-          team_stage: false,
           icon: {
-            count: 1,
             id: "alltheores:brass_ingot",
+            count: 1,
           },
+          stage: "gspack_tag_c_ingots_brass_8",
         },
       ],
       rewards: [

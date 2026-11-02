@@ -1,28 +1,28 @@
 {
   id: "2C19BB0712B6C63A",
   group: "591262DAFEE441AF",
-  order_index: 22,
-  filename: "roots",
+  order_index: 6,
   icon: {
-    count: 1,
     id: "rootsclassic:staff",
+    count: 1,
   },
+  filename: "roots",
   default_quest_shape: "",
   default_hide_dependency_lines: true,
   quests: [
     {
-      id: "48B5626F56522A07",
       x: 0.0,
       y: 1.45,
       shape: "gear",
       size: 1.5,
+      id: "48B5626F56522A07",
       tasks: [
         {
           id: "52C653A81E9D03F3",
           type: "item",
           item: {
-            count: 1,
             id: "rootsclassic:runic_tablet",
+            count: 1,
           },
         },
       ],
@@ -35,32 +35,34 @@
         {
           id: "3C4AE317BF0E3EC6",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 4224964620844649,
         },
       ],
     },
     {
-      id: "060E2612E2122034",
       x: 1.6,
       y: 1.45,
       dependencies: [
         "48B5626F56522A07",
       ],
+      size: 1.0,
+      id: "060E2612E2122034",
       tasks: [
         {
           id: "7EB8EF72943B35C8",
           type: "item",
           item: {
-            count: 1,
             id: "rootsclassic:bark_knife",
+            count: 1,
           },
         },
         {
           id: "7C0BE28F23D34FD4",
           type: "item",
           item: {
-            count: 1,
             id: "rootsclassic:oak_bark",
+            count: 1,
           },
           count: 8,
         },
@@ -74,19 +76,20 @@
       ],
     },
     {
-      id: "20AFD499F96DC28D",
       x: 1.6,
       y: 2.95,
       dependencies: [
         "48B5626F56522A07",
       ],
+      size: 1.0,
+      id: "20AFD499F96DC28D",
       tasks: [
         {
           id: "129BBCE0FCC4454B",
           type: "item",
           item: {
-            count: 1,
             id: "rootsclassic:old_root",
+            count: 1,
           },
           count: 4,
         },
@@ -94,8 +97,8 @@
           id: "1F8FF2487CD14874",
           type: "item",
           item: {
-            count: 1,
             id: "rootsclassic:verdant_sprig",
+            count: 1,
           },
           count: 4,
         },
@@ -109,20 +112,21 @@
       ],
     },
     {
-      id: "4F7E0F59656282CB",
       x: 3.2,
       y: 2.95,
       dependencies: [
         "20AFD499F96DC28D",
       ],
+      size: 1.0,
       optional: true,
+      id: "4F7E0F59656282CB",
       tasks: [
         {
           id: "3AE303CDFCF261D3",
           type: "item",
           item: {
-            count: 1,
             id: "rootsclassic:elderberry",
+            count: 1,
           },
           count: 4,
         },
@@ -130,8 +134,8 @@
           id: "60073A39B964F709",
           type: "item",
           item: {
-            count: 1,
             id: "rootsclassic:blackcurrant",
+            count: 1,
           },
           count: 4,
         },
@@ -145,28 +149,29 @@
       ],
     },
     {
-      id: "5D66F377F4D2A7E9",
       x: 3.2,
       y: 1.45,
       dependencies: [
         "060E2612E2122034",
         "20AFD499F96DC28D",
       ],
+      size: 1.0,
+      id: "5D66F377F4D2A7E9",
       tasks: [
         {
           id: "7C3388CA51374727",
           type: "item",
           item: {
-            count: 1,
             id: "rootsclassic:mortar",
+            count: 1,
           },
         },
         {
           id: "45A4F35BD6CD9C83",
           type: "item",
           item: {
-            count: 1,
             id: "rootsclassic:pestle",
+            count: 1,
           },
         },
       ],
@@ -179,19 +184,20 @@
       ],
     },
     {
-      id: "570C9373E09DB641",
       x: 4.8,
       y: 1.45,
       dependencies: [
         "5D66F377F4D2A7E9",
       ],
+      size: 1.0,
+      id: "570C9373E09DB641",
       tasks: [
         {
           id: "73F15E5DCC79A1D8",
           type: "item",
           item: {
-            count: 1,
             id: "rootsclassic:growth_powder",
+            count: 1,
           },
           count: 8,
         },
@@ -205,20 +211,21 @@
       ],
     },
     {
-      id: "6D5A4299B6BB53DE",
       x: 4.8,
       y: 2.95,
       dependencies: [
         "5D66F377F4D2A7E9",
       ],
+      size: 1.0,
       optional: true,
+      id: "6D5A4299B6BB53DE",
       tasks: [
         {
           id: "0F6F56A2A397EF97",
           type: "item",
           item: {
-            count: 1,
             id: "rootsclassic:healing_poultice",
+            count: 1,
           },
           count: 2,
         },
@@ -232,19 +239,20 @@
       ],
     },
     {
-      id: "61695EC9B8EEBDDD",
       x: 0.0,
       y: 5.8,
       dependencies: [
         "5D66F377F4D2A7E9",
       ],
+      size: 1.0,
+      id: "61695EC9B8EEBDDD",
       tasks: [
         {
           id: "67E608F1F67E323F",
           type: "item",
           item: {
-            count: 1,
             id: "rootsclassic:spell_powder",
+            count: 1,
           },
         },
       ],
@@ -257,33 +265,34 @@
         {
           id: "5A76AA8DA07624EB",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 4314132029995036,
         },
       ],
     },
     {
-      id: "444C6EDFF52F9151",
       x: 1.6,
       y: 5.8,
-      size: 1.5,
       dependencies: [
         "61695EC9B8EEBDDD",
       ],
+      size: 1.5,
+      id: "444C6EDFF52F9151",
       tasks: [
         {
           id: "32CAB1787E73259B",
           type: "item",
           item: {
-            count: 1,
             id: "rootsclassic:staff",
+            count: 1,
           },
         },
         {
           id: "60328EAF82363AEC",
           type: "item",
           item: {
-            count: 1,
             id: "rootsclassic:imbuer",
+            count: 1,
           },
         },
       ],
@@ -296,25 +305,27 @@
         {
           id: "6F36B99772C7936D",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 4314132029995036,
         },
       ],
     },
     {
-      id: "3CEC3DABA7041067",
       x: 3.2,
       y: 5.8,
       dependencies: [
         "444C6EDFF52F9151",
       ],
+      size: 1.0,
       optional: true,
+      id: "3CEC3DABA7041067",
       tasks: [
         {
           id: "3B5326B075281542",
           type: "item",
           item: {
-            count: 1,
             id: "rootsclassic:crystal_staff",
+            count: 1,
           },
         },
       ],
@@ -327,27 +338,28 @@
       ],
     },
     {
-      id: "6ED22DE8413C81A3",
       x: 0.0,
       y: 8.4,
       dependencies: [
         "5D66F377F4D2A7E9",
       ],
+      size: 1.0,
+      id: "6ED22DE8413C81A3",
       tasks: [
         {
           id: "627B3225739ED30C",
           type: "item",
           item: {
-            count: 1,
             id: "rootsclassic:altar",
+            count: 1,
           },
         },
         {
           id: "57C4FD51DC18877C",
           type: "item",
           item: {
-            count: 1,
             id: "rootsclassic:brazier",
+            count: 1,
           },
         },
       ],
@@ -360,24 +372,26 @@
         {
           id: "7B4C88430EC2A090",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 4314132029995036,
         },
       ],
     },
     {
-      id: "589402B978D9F963",
       x: 1.6,
       y: 8.4,
       dependencies: [
         "6ED22DE8413C81A3",
       ],
+      size: 1.0,
+      id: "589402B978D9F963",
       tasks: [
         {
           id: "474F13FB0CEC5044",
           type: "item",
           item: {
-            count: 1,
             id: "rootsclassic:mundane_standing_stone",
+            count: 1,
           },
           count: 4,
         },
@@ -385,8 +399,8 @@
           id: "580447C0116B8E02",
           type: "item",
           item: {
-            count: 1,
             id: "rootsclassic:attuned_standing_stone",
+            count: 1,
           },
           count: 4,
         },
@@ -400,28 +414,29 @@
       ],
     },
     {
-      id: "7E182220D4EA2F94",
       x: 3.2,
       y: 8.4,
       dependencies: [
         "589402B978D9F963",
       ],
+      size: 1.0,
       optional: true,
+      id: "7E182220D4EA2F94",
       tasks: [
         {
           id: "26C9F05F2F6BE691",
           type: "item",
           item: {
-            count: 1,
             id: "rootsclassic:grower_standing_stone",
+            count: 1,
           },
         },
         {
           id: "3F51AFD29BC19413",
           type: "item",
           item: {
-            count: 1,
             id: "rootsclassic:healer_standing_stone",
+            count: 1,
           },
         },
       ],
@@ -434,27 +449,28 @@
       ],
     },
     {
-      id: "13D8524B00A3D0F1",
       x: 0.0,
       y: 11.0,
       dependencies: [
         "6ED22DE8413C81A3",
       ],
+      size: 1.0,
+      id: "13D8524B00A3D0F1",
       tasks: [
         {
           id: "0FF6D9846C9A8704",
           type: "item",
           item: {
-            count: 1,
             id: "rootsclassic:living_pickaxe",
+            count: 1,
           },
         },
         {
           id: "734E49B949C081E3",
           type: "item",
           item: {
-            count: 1,
             id: "rootsclassic:living_sword",
+            count: 1,
           },
         },
       ],
@@ -467,43 +483,44 @@
       ],
     },
     {
-      id: "22D6ADDBDC4C7075",
       x: 1.6,
       y: 11.0,
       dependencies: [
         "13D8524B00A3D0F1",
       ],
+      size: 1.0,
+      id: "22D6ADDBDC4C7075",
       tasks: [
         {
           id: "312FAE97C40FB079",
           type: "item",
           item: {
-            count: 1,
             id: "rootsclassic:sylvan_hood",
+            count: 1,
           },
         },
         {
           id: "4A4899C822DE4527",
           type: "item",
           item: {
-            count: 1,
             id: "rootsclassic:sylvan_robe",
+            count: 1,
           },
         },
         {
           id: "451B403674D3C6BB",
           type: "item",
           item: {
-            count: 1,
             id: "rootsclassic:sylvan_tunic",
+            count: 1,
           },
         },
         {
           id: "1E95737BEF1CF404",
           type: "item",
           item: {
-            count: 1,
             id: "rootsclassic:sylvan_boots",
+            count: 1,
           },
         },
       ],
@@ -516,49 +533,50 @@
         {
           id: "0C1A095218A6EE6F",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "4BF975DA337660A2",
       x: 1.6,
       y: 12.5,
-      size: 1.5,
       dependencies: [
         "13D8524B00A3D0F1",
       ],
+      size: 1.5,
+      id: "4BF975DA337660A2",
       tasks: [
         {
           id: "2288C611159744FE",
           type: "item",
           item: {
-            count: 1,
             id: "rootsclassic:wildwood_mask",
+            count: 1,
           },
         },
         {
           id: "4AC7B040AE24192A",
           type: "item",
           item: {
-            count: 1,
             id: "rootsclassic:wildwood_plate",
+            count: 1,
           },
         },
         {
           id: "4C9A5AC8F9620B78",
           type: "item",
           item: {
-            count: 1,
             id: "rootsclassic:wildwood_leggings",
+            count: 1,
           },
         },
         {
           id: "48978EDEED3C71D2",
           type: "item",
           item: {
-            count: 1,
             id: "rootsclassic:wildwood_boots",
+            count: 1,
           },
         },
       ],
@@ -571,12 +589,14 @@
         {
           id: "05B1D0CE574AA66A",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
   ],
-  quest_links: [ ],
+  quest_links: [
+  ],
   images: [
     {
       x: 5.4,
@@ -585,10 +605,7 @@
       height: 1.4375,
       rotation: 0.0,
       image: "gspack:textures/quests/roots_header.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false,
+      id: "0B98AF93511B72B5",
     },
     {
       x: 0.3706,
@@ -597,10 +614,7 @@
       height: 0.6,
       rotation: 0.0,
       image: "gspack:textures/quests/roots_altar.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false,
+      id: "6BCB4239DB925EE4",
     },
     {
       x: 0.6882,
@@ -609,10 +623,7 @@
       height: 0.6,
       rotation: 0.0,
       image: "gspack:textures/quests/roots_tablet.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false,
+      id: "17B12C6516C762FF",
     },
     {
       x: 0.2647,
@@ -621,10 +632,7 @@
       height: 0.6,
       rotation: 0.0,
       image: "gspack:textures/quests/roots_spell.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false,
+      id: "3E86AB76791E2BAA",
     },
     {
       x: 0.1588,
@@ -633,10 +641,7 @@
       height: 0.6,
       rotation: 0.0,
       image: "gspack:textures/quests/roots_living_tools.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false,
+      id: "1541F72159DDDB73",
     },
   ],
 }

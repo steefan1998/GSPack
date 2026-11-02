@@ -1,7 +1,7 @@
 {
   id: "5270340F88597176",
   group: "105EE503AFE85CA5",
-  order_index: 5,
+  order_index: 3,
   icon: {
     id: "railcraft:steam_locomotive",
     count: 1,
@@ -113,12 +113,11 @@
         {
           id: "3EFA1B2E58F8D537",
           type: "gamestage",
-          stage: "gspack_tag_c_ingots_steel_16",
-          team_stage: false,
           icon: {
-            count: 1,
             id: "alltheores:steel_ingot",
+            count: 1,
           },
+          stage: "gspack_tag_c_ingots_steel_16",
         },
       ],
       rewards: [

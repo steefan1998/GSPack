@@ -2,27 +2,27 @@
   id: "36A46344FB72D9F5",
   group: "",
   order_index: 2,
-  filename: "progression",
   icon: {
-    count: 1,
     id: "minecraft:compass",
+    count: 1,
   },
+  filename: "progression",
   default_quest_shape: "",
   default_hide_dependency_lines: false,
   quests: [
     {
-      id: "3CB23CE64EFDD940",
       x: 0.0,
       y: 0.0,
       shape: "gear",
       size: 1.5,
+      id: "3CB23CE64EFDD940",
       tasks: [
         {
           id: "68DE23D150D2973C",
           type: "item",
           item: {
-            count: 1,
             id: "minecraft:crafting_table",
+            count: 1,
           },
         },
       ],
@@ -35,19 +35,20 @@
       ],
     },
     {
-      id: "7C219F6953D0DA05",
       x: 1.6,
       y: 0.0,
       dependencies: [
         "3CB23CE64EFDD940",
       ],
+      size: 1.0,
+      id: "7C219F6953D0DA05",
       tasks: [
         {
           id: "09A230D270846725",
           type: "item",
           item: {
-            count: 1,
             id: "minecraft:iron_pickaxe",
+            count: 1,
           },
         },
       ],
@@ -60,19 +61,20 @@
       ],
     },
     {
-      id: "7517A918ECED3B6D",
       x: 3.2,
       y: -1.0,
       dependencies: [
         "7C219F6953D0DA05",
       ],
+      size: 1.0,
+      id: "7517A918ECED3B6D",
       tasks: [
         {
           id: "7B5361C10E62730F",
           type: "item",
           item: {
-            count: 1,
             id: "tconstruct:smeltery_controller",
+            count: 1,
           },
         },
       ],
@@ -85,16 +87,17 @@
       ],
     },
     {
-      id: "5DE21E16F099588A",
+      icon: {
+        id: "minecraft:netherrack",
+        count: 1,
+      },
       x: 3.2,
       y: 1.0,
-      icon: {
-        count: 1,
-        id: "minecraft:netherrack",
-      },
       dependencies: [
         "7C219F6953D0DA05",
       ],
+      size: 1.0,
+      id: "5DE21E16F099588A",
       tasks: [
         {
           id: "46DE39950133ADB8",
@@ -111,21 +114,21 @@
       ],
     },
     {
-      id: "040ECB00C94BF973",
       x: 4.8,
       y: 0.0,
-      size: 1.25,
       dependencies: [
         "7517A918ECED3B6D",
         "5DE21E16F099588A",
       ],
+      size: 1.25,
+      id: "040ECB00C94BF973",
       tasks: [
         {
           id: "3FC87DB5DC9C8D40",
           type: "item",
           item: {
-            count: 1,
             id: "minecraft:diamond_pickaxe",
+            count: 1,
           },
         },
       ],
@@ -138,24 +141,26 @@
         {
           id: "35F62FE066E46211",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 4224964620844649,
         },
       ],
     },
     {
-      id: "695EE127BCA815D8",
       x: 6.4,
       y: -3.0,
       dependencies: [
         "040ECB00C94BF973",
       ],
+      size: 1.0,
+      id: "695EE127BCA815D8",
       tasks: [
         {
           id: "7778160F2EDF0D24",
           type: "item",
           item: {
-            count: 1,
             id: "mekanism:metallurgic_infuser",
+            count: 1,
           },
         },
       ],
@@ -168,19 +173,20 @@
       ],
     },
     {
-      id: "0FE132183A9E2A3E",
       x: 8.0,
       y: -3.8,
       dependencies: [
         "695EE127BCA815D8",
       ],
+      size: 1.0,
+      id: "0FE132183A9E2A3E",
       tasks: [
         {
           id: "688F0E75EF8FF699",
           type: "item",
           item: {
-            count: 1,
             id: "ae2:controller",
+            count: 1,
           },
         },
       ],
@@ -193,19 +199,20 @@
       ],
     },
     {
-      id: "4A19ACFF6659EA44",
       x: 8.0,
       y: -2.2,
       dependencies: [
         "695EE127BCA815D8",
       ],
+      size: 1.0,
+      id: "4A19ACFF6659EA44",
       tasks: [
         {
           id: "4A1C7786DD9645C3",
           type: "item",
           item: {
-            count: 1,
             id: "oritech:foundry",
+            count: 1,
           },
         },
       ],
@@ -218,20 +225,21 @@
       ],
     },
     {
-      id: "7C03C7CB4AE0C5A7",
       x: 9.6,
       y: -3.0,
       dependencies: [
         "0FE132183A9E2A3E",
         "4A19ACFF6659EA44",
       ],
+      size: 1.0,
+      id: "7C03C7CB4AE0C5A7",
       tasks: [
         {
           id: "156DE51C87EEBCED",
           type: "item",
           item: {
-            count: 1,
             id: "mekanism:elite_control_circuit",
+            count: 1,
           },
         },
       ],
@@ -244,25 +252,26 @@
         {
           id: "4867D29F595872B4",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 253752461985528,
         },
       ],
     },
     {
-      id: "45340A1E8EC870FB",
       x: 11.2,
       y: -3.0,
-      size: 1.25,
       dependencies: [
         "7C03C7CB4AE0C5A7",
       ],
+      size: 1.25,
+      id: "45340A1E8EC870FB",
       tasks: [
         {
           id: "5028BF0CD0CD0A40",
           type: "item",
           item: {
-            count: 1,
             id: "mekanism:pellet_antimatter",
+            count: 1,
           },
         },
       ],
@@ -275,24 +284,26 @@
         {
           id: "13B2516F650141EA",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "39E731A91263BD52",
       x: 6.4,
       y: 0.0,
       dependencies: [
         "040ECB00C94BF973",
       ],
+      size: 1.0,
+      id: "39E731A91263BD52",
       tasks: [
         {
           id: "74F5B78A17D27AE0",
           type: "item",
           item: {
-            count: 1,
             id: "mysticalagriculture:infusion_altar",
+            count: 1,
           },
         },
       ],
@@ -305,19 +316,20 @@
       ],
     },
     {
-      id: "54102498A4AE1D14",
       x: 8.0,
       y: -0.8,
       dependencies: [
         "39E731A91263BD52",
       ],
+      size: 1.0,
+      id: "54102498A4AE1D14",
       tasks: [
         {
           id: "0BCB5441C0BEA123",
           type: "item",
           item: {
-            count: 1,
             id: "thaumaturge:thaumonomicon",
+            count: 1,
           },
         },
       ],
@@ -330,19 +342,20 @@
       ],
     },
     {
-      id: "3691393C3E98B5A3",
       x: 8.0,
       y: 0.8,
       dependencies: [
         "39E731A91263BD52",
       ],
+      size: 1.0,
+      id: "3691393C3E98B5A3",
       tasks: [
         {
           id: "4D6B41CF596E603A",
           type: "item",
           item: {
-            count: 1,
             id: "apotheosis:gem_dust",
+            count: 1,
           },
         },
       ],
@@ -355,20 +368,21 @@
       ],
     },
     {
-      id: "7BE6A17A6D9F43E3",
       x: 9.6,
       y: 0.0,
       dependencies: [
         "54102498A4AE1D14",
         "3691393C3E98B5A3",
       ],
+      size: 1.0,
+      id: "7BE6A17A6D9F43E3",
       tasks: [
         {
           id: "51CE794393FB10C7",
           type: "item",
           item: {
-            count: 1,
             id: "mysticalagriculture:supremium_ingot",
+            count: 1,
           },
         },
       ],
@@ -381,25 +395,26 @@
         {
           id: "11AAADB52610E786",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 253752461985528,
         },
       ],
     },
     {
-      id: "09B4200D6A64399A",
       x: 11.2,
       y: 0.0,
-      size: 1.25,
       dependencies: [
         "7BE6A17A6D9F43E3",
       ],
+      size: 1.25,
+      id: "09B4200D6A64399A",
       tasks: [
         {
           id: "48DED2F6F8B1AEE0",
           type: "item",
           item: {
-            count: 1,
             id: "mysticalagradditions:insanium_ingot",
+            count: 1,
           },
         },
       ],
@@ -412,21 +427,23 @@
         {
           id: "332FF1F1CCC5EC75",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "07CEC09293A330D4",
+      icon: {
+        id: "minecraft:end_stone",
+        count: 1,
+      },
       x: 6.4,
       y: 3.0,
-      icon: {
-        count: 1,
-        id: "minecraft:end_stone",
-      },
       dependencies: [
         "040ECB00C94BF973",
       ],
+      size: 1.0,
+      id: "07CEC09293A330D4",
       tasks: [
         {
           id: "57002741F7A177ED",
@@ -443,19 +460,20 @@
       ],
     },
     {
-      id: "79BD1EE8C76BAEDB",
       x: 8.0,
       y: 2.2,
       dependencies: [
         "07CEC09293A330D4",
       ],
+      size: 1.0,
+      id: "79BD1EE8C76BAEDB",
       tasks: [
         {
           id: "79529A913A611482",
           type: "item",
           item: {
-            count: 1,
             id: "aether_ii:zanite_gemstone",
+            count: 1,
           },
         },
       ],
@@ -468,19 +486,20 @@
       ],
     },
     {
-      id: "6DDAFB92818AF6D1",
       x: 8.0,
       y: 3.8,
       dependencies: [
         "07CEC09293A330D4",
       ],
+      size: 1.0,
+      id: "6DDAFB92818AF6D1",
       tasks: [
         {
           id: "4A6182F4B02C288D",
           type: "item",
           item: {
-            count: 1,
             id: "twilightforest:naga_scale",
+            count: 1,
           },
         },
       ],
@@ -493,19 +512,20 @@
       ],
     },
     {
-      id: "1D8895A769D06F38",
       x: 9.6,
       y: 2.2,
       dependencies: [
         "79BD1EE8C76BAEDB",
       ],
+      size: 1.0,
+      id: "1D8895A769D06F38",
       tasks: [
         {
           id: "590F80CC696C6A84",
           type: "item",
           item: {
-            count: 1,
             id: "allthemodium:allthemodium_ingot",
+            count: 1,
           },
         },
       ],
@@ -518,24 +538,26 @@
         {
           id: "312F3ABF1FD271AC",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 253752461985528,
         },
       ],
     },
     {
-      id: "7F3741482E6279A8",
       x: 9.6,
       y: 3.8,
       dependencies: [
         "6DDAFB92818AF6D1",
       ],
+      size: 1.0,
+      id: "7F3741482E6279A8",
       tasks: [
         {
           id: "6FFE6ED5437F992B",
           type: "item",
           item: {
-            count: 1,
             id: "stellaris:desh_ingot",
+            count: 1,
           },
         },
       ],
@@ -548,26 +570,27 @@
         {
           id: "5E0519662E47358E",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 253752461985528,
         },
       ],
     },
     {
-      id: "143A85C42BF5A10D",
       x: 11.2,
       y: 3.0,
-      size: 1.25,
       dependencies: [
         "1D8895A769D06F38",
         "7F3741482E6279A8",
       ],
+      size: 1.25,
+      id: "143A85C42BF5A10D",
       tasks: [
         {
           id: "672DBDF665D094AA",
           type: "item",
           item: {
-            count: 1,
             id: "allthemodium:unobtainium_ingot",
+            count: 1,
           },
         },
       ],
@@ -580,24 +603,26 @@
         {
           id: "25817BA0F3452940",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "75CEC8D79B57D3F1",
       x: 9.6,
       y: 1.4,
       dependencies: [
         "1D8895A769D06F38",
       ],
+      size: 1.0,
+      id: "75CEC8D79B57D3F1",
       tasks: [
         {
           id: "22147547C15A9519",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:philosophers_stone",
+            count: 1,
           },
         },
       ],
@@ -610,20 +635,21 @@
       ],
     },
     {
-      id: "4E77C0883E27C158",
       x: 11.2,
       y: 1.5,
       dependencies: [
         "75CEC8D79B57D3F1",
         "143A85C42BF5A10D",
       ],
+      size: 1.0,
+      id: "4E77C0883E27C158",
       tasks: [
         {
           id: "692E4D3B6736B901",
           type: "item",
           item: {
-            count: 1,
             id: "equivox:red_matter",
+            count: 1,
           },
         },
       ],
@@ -636,29 +662,30 @@
         {
           id: "56F9772C19703B7D",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "16E8BC56D17D7680",
       x: 12.9,
       y: 0.0,
       shape: "hexagon",
-      size: 1.5,
       dependencies: [
         "45340A1E8EC870FB",
         "09B4200D6A64399A",
         "143A85C42BF5A10D",
         "4E77C0883E27C158",
       ],
+      size: 1.5,
+      id: "16E8BC56D17D7680",
       tasks: [
         {
           id: "67CAAA09706BBE0B",
           type: "item",
           item: {
-            count: 1,
             id: "extendedcrafting:elite_table",
+            count: 1,
           },
         },
       ],
@@ -671,25 +698,26 @@
         {
           id: "047B8FC93F9FD158",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 379532711335085,
         },
       ],
     },
     {
-      id: "707A8DA8ADAA3EF6",
       x: 14.6,
       y: 0.0,
-      size: 1.5,
       dependencies: [
         "16E8BC56D17D7680",
       ],
+      size: 1.5,
+      id: "707A8DA8ADAA3EF6",
       tasks: [
         {
           id: "4385F058256E0F40",
           type: "item",
           item: {
-            count: 1,
             id: "gspack:creative_singularity",
+            count: 1,
           },
         },
       ],
@@ -702,25 +730,26 @@
         {
           id: "34F25B0A75D9A0CE",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 379532711335085,
         },
       ],
     },
     {
-      id: "1301F1BA2A9F98D4",
       x: 16.3,
       y: 0.0,
-      size: 1.5,
       dependencies: [
         "707A8DA8ADAA3EF6",
       ],
+      size: 1.5,
+      id: "1301F1BA2A9F98D4",
       tasks: [
         {
           id: "4024E4FFF2359A2D",
           type: "item",
           item: {
-            count: 1,
             id: "extendedcrafting:ultimate_singularity",
+            count: 1,
           },
         },
       ],
@@ -733,26 +762,27 @@
         {
           id: "4CBA027193DD62F7",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 379532711335085,
         },
       ],
     },
     {
-      id: "5EA6B455B82F34F0",
       x: 18.4,
       y: 0.0,
       shape: "gear",
-      size: 2.5,
       dependencies: [
         "1301F1BA2A9F98D4",
       ],
+      size: 2.5,
+      id: "5EA6B455B82F34F0",
       tasks: [
         {
           id: "581F1D7F987E4789",
           type: "item",
           item: {
-            count: 1,
             id: "gspack:infinity_trophy",
+            count: 1,
           },
         },
       ],
@@ -765,7 +795,8 @@
       ],
     },
   ],
-  quest_links: [ ],
+  quest_links: [
+  ],
   images: [
     {
       x: 9.2,
@@ -774,10 +805,7 @@
       height: 1.4375,
       rotation: 0.0,
       image: "gspack:textures/quests/progression_header.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false,
+      id: "5A46DC4DCE8787D0",
     },
   ],
 }
