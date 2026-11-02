@@ -1,5 +1,5 @@
 # Converts an existing GSPack world to the unified materials while the server is OFF (no players needed).
-# Every duplicate block and item id (see kubejs/server_scripts/gspack_zz_unify.js and gspack_zz_unify_blocks.js)
+# Every duplicate block and item id (kubejs/startup_scripts/gspack_unify_table.js and server_scripts/gspack_zz_unify_blocks.js)
 # is replaced by the preferred id in:
 #   - placed blocks (the block palette of every chunk), in all dimensions;
 #   - items in chests, machines and other block entities, item entities, minecarts, ...;
@@ -7,17 +7,56 @@
 # Only exact id strings are replaced. Every file that changes is copied to <world>\gspack-convert-backup first.
 #
 # Usage (stop the server first):
-#   powershell -ExecutionPolicy Bypass -File tools\convert-world.ps1 -World "D:\Servers\GSPack\world"
+#   powershell -ExecutionPolicy Bypass -File convert-world.ps1 -World "D:\Servers\GSPack"
+#   -World is a world folder (with level.dat) or a server folder (the world named in server.properties).
+#   Without -World it uses GSPackServer next to this script (the GSPack Server Installer's folder).
 #   add -DryRun to only count what would change.
-# On a server, point -KubeJS at the server's kubejs folder (the id tables come from its scripts).
-# PowerShell 7 runs it on Linux too:  pwsh -File convert-world.ps1 -World ./world -KubeJS ./kubejs
-param([Parameter(Mandatory = $true)][string]$World, [string]$KubeJS = '', [switch]$DryRun)
+#   -Interactive: a dry run first, then it asks before converting.
+#   -Pick: choose the folder in a File Explorer folder picker (Windows; with -Interactive).
+# The id tables come from the KubeJS scripts: by default the kubejs folder next to the world (a server or
+# instance), otherwise the GSPack repository's kubejs folder; -KubeJS <folder> picks another one.
+# This same file ships with the GSPack repository (tools/) and the GSPack Server Installer.
+# PowerShell 7 runs it on Linux too:  pwsh -File convert-world.ps1 -World ./server
+param([string]$World = '', [string]$KubeJS = '', [switch]$DryRun, [switch]$Interactive, [switch]$Pick)
 $ErrorActionPreference = 'Stop'
-$Root = Split-Path $PSScriptRoot -Parent
-if (-not $KubeJS) { $KubeJS = Join-Path $Root 'kubejs' }
-if (-not (Test-Path (Join-Path $World 'level.dat'))) { throw "No level.dat in $World. Point -World at the world folder." }
+
+if ($Interactive) {
+    if ($Pick) {
+        Add-Type -AssemblyName System.Windows.Forms
+        $dialog = New-Object System.Windows.Forms.FolderBrowserDialog
+        $dialog.Description = 'Choose the server folder (or a world folder) to convert to GSPack 0.5. Stop the server first.'
+        $dialog.ShowNewFolderButton = $false
+        $start = $(if ($World) { $World } else { Join-Path $PSScriptRoot 'GSPackServer' })
+        if (Test-Path $start) { $dialog.SelectedPath = (Resolve-Path $start).Path }
+        if ($dialog.ShowDialog() -ne [System.Windows.Forms.DialogResult]::OK) { 'Cancelled, nothing changed.'; exit 0 }
+        $World = $dialog.SelectedPath
+    }
+    $common = @{ World = $World }; if ($KubeJS) { $common.KubeJS = $KubeJS }
+    & $PSCommandPath @common -DryRun
+    ''
+    $answer = Read-Host 'Convert the world now? Changed files are backed up first. [y/N]'
+    if ($answer -match '^(y|j)') { & $PSCommandPath @common } else { 'Nothing changed.' }
+    exit 0
+}
+
+if (-not $World) { $World = Join-Path $PSScriptRoot 'GSPackServer' }
+if (-not (Test-Path $World)) { throw "Folder not found: $World" }
 $World = (Resolve-Path $World).Path.TrimEnd([char]92, [char]47)
+# A server folder: use the world named in server.properties (level-name, default "world").
+if (-not (Test-Path (Join-Path $World 'level.dat')) -and (Test-Path (Join-Path $World 'server.properties'))) {
+    $level = (Get-Content (Join-Path $World 'server.properties') | Where-Object { $_ -match '^level-name=' } | Select-Object -First 1) -replace '^level-name=', ''
+    if (-not $level) { $level = 'world' }
+    $World = Join-Path $World $level
+}
+if (-not (Test-Path (Join-Path $World 'level.dat'))) { throw "No world in $World (no level.dat). Start the server once to create its world, or point -World at a world folder." }
+if (-not $KubeJS) {
+    $KubeJS = @((Join-Path (Split-Path $World -Parent) 'kubejs'), (Join-Path (Split-Path (Split-Path $World -Parent) -Parent) 'kubejs'),
+        (Join-Path (Split-Path $PSScriptRoot -Parent) 'kubejs')) | Where-Object { Test-Path (Join-Path (Join-Path $_ 'startup_scripts') 'gspack_unify_table.js') } | Select-Object -First 1
+    if (-not $KubeJS) { throw 'No GSPack kubejs folder found next to the world. Pass -KubeJS <folder> (it needs GSPack 0.5 or newer).' }
+}
 $Scripts = Join-Path $KubeJS 'server_scripts'
+"World:  $World"
+"KubeJS: $KubeJS"
 
 # The server must be stopped: Minecraft keeps session.lock open while the world is loaded.
 $lock = Join-Path $World 'session.lock'
@@ -28,7 +67,7 @@ if (Test-Path $lock) {
 
 # ---------- id map from the KubeJS scripts ----------
 $map = New-Object 'System.Collections.Generic.Dictionary[string,string]'
-$unify = [IO.File]::ReadAllText((Join-Path $Scripts 'gspack_zz_unify.js'))
+$unify = [IO.File]::ReadAllText((Join-Path (Join-Path $KubeJS 'startup_scripts') 'gspack_unify_table.js'))
 foreach ($m in [regex]::Matches($unify, "\['([^']+)', '([^']+)', \[([^\]]*)\]\]")) {
     foreach ($o in [regex]::Matches($m.Groups[3].Value, "'([^']+)'")) { $map[$o.Groups[1].Value] = $m.Groups[2].Value }
 }
@@ -38,6 +77,8 @@ foreach ($m in [regex]::Matches($oreBlock, "'([a-z0-9_]+:[a-z0-9_/]+)': '([a-z0-
 "$($map.Count) duplicate ids will be replaced."
 
 # ---------- NBT / region rewriting (C#) ----------
+# Loaded once per session (the -Interactive mode runs this script again in the same session).
+if (-not ('GspackWorld' -as [type])) {
 Add-Type -TypeDefinition @'
 using System; using System.IO; using System.IO.Compression; using System.Collections.Generic; using System.Text;
 public static class GspackWorld {
@@ -139,6 +180,7 @@ public static class GspackWorld {
     static byte[] Sub(byte[] a, int off, int len) { var r = new byte[len]; Array.Copy(a, off, r, 0, len); return r; }
 }
 '@
+}
 [GspackWorld]::SetMap($map)
 
 $backup = Join-Path $World 'gspack-convert-backup'

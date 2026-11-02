@@ -1,6 +1,6 @@
 // GSPack: hides the duplicate materials that gspack_zz_unify.js replaces, so JEI shows one item per material.
 // Raw ores, raw blocks and gems stay visible: every mod's ores still generate and drop their own version.
-// Keep the list in sync with server_scripts/gspack_zz_unify.js (both come from the same generated table).
+// Keep the list in sync with startup_scripts/gspack_unify_table.js (both come from the same generated table).
 
 const GSPACK_UNIFY_HIDE = [
   'mekanism:dust_bronze',

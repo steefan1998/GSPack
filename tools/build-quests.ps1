@@ -103,10 +103,10 @@ function Use-Id([string]$id) { if ($id -notmatch '^#') { $script:UsedItems.Add($
 $script:TaskTitles = @{}
 $script:TagStages = [ordered]@{}   # stage -> @(item tag, count), written to kubejs/server_scripts/gspack_quest_tags.js
 
-# Unified materials (kubejs/server_scripts/gspack_zz_unify.js): an item task for any of these items accepts every
+# Unified materials (kubejs/startup_scripts/gspack_unify_table.js): an item task for any of these items accepts every
 # mod's version, so it becomes a tag task. item id -> @(tag, preferred item)
 $script:UnifyTag = @{}
-foreach ($m in [regex]::Matches([IO.File]::ReadAllText((Join-Path $Root 'kubejs\server_scripts\gspack_zz_unify.js')), "\['([^']+)', '([^']+)', \[([^\]]*)\]\]")) {
+foreach ($m in [regex]::Matches([IO.File]::ReadAllText((Join-Path $Root 'kubejs\startup_scripts\gspack_unify_table.js')), "\['([^']+)', '([^']+)', \[([^\]]*)\]\]")) {
     $tag = $m.Groups[1].Value; $pref = $m.Groups[2].Value
     foreach ($i in @($pref) + @([regex]::Matches($m.Groups[3].Value, "'([^']+)'") | ForEach-Object { $_.Groups[1].Value })) { $script:UnifyTag[$i] = @($tag, $pref) }
 }

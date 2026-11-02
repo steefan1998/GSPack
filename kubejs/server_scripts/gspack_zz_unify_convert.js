@@ -1,4 +1,4 @@
-// GSPack: converts duplicate materials in existing worlds to the preferred item (see gspack_zz_unify.js).
+// GSPack: converts duplicate materials in existing worlds to the preferred item (table: startup_scripts/gspack_unify_table.js).
 // Items picked up, crafted or carried from an older version of the pack become the preferred item:
 //   - the player's inventory, on login and whenever it changes;
 //   - a chest, barrel or other chest-like container, when a player opens it.

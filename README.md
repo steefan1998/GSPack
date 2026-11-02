@@ -78,7 +78,8 @@ Many mods make the same metals, dusts and plates. GSPack keeps one item per mate
 
 | File | What it does |
 |---|---|
-| `kubejs/server_scripts/gspack_zz_unify.js` | The table (113 materials); every recipe outputs the preferred item and accepts any mod's version |
+| `kubejs/startup_scripts/gspack_unify_table.js` | The table (113 materials), in a startup script because only startup scripts may write `global` |
+| `kubejs/server_scripts/gspack_zz_unify.js` | Every recipe outputs the preferred item and accepts any mod's version |
 | `kubejs/client_scripts/gspack_unify_hide.js` | Hides the duplicates in JEI (raw materials and gems stay visible) |
 | `kubejs/data/*/loot_table/blocks/` | Ores of other mods drop the AllTheOres materials (written by `tools/make-ore-loot.ps1`) |
 | `kubejs/data/*/neoforge/biome_modifier/` | Ores that AllTheOres also has no longer generate |
