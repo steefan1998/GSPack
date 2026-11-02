@@ -2,6 +2,13 @@
 
 What changed in each version of GSPack. The exact mod changes (added, removed and updated mods with their versions) are in [MOD-CHANGELOG.md](MOD-CHANGELOG.md).
 
+## 0.5 (in development)
+
+Changes in the GSPack Dev Build that are not released yet.
+
+### Configs
+- Removed leftover configs of mods that are not in the pack: Amendments, Avaritia Easy, Farmer's Delight, and Xaero's Minimap and World Map (`config/xaero`, `xaerohud.txt`, `xaeropatreon.txt`).
+
 ## 0.4 (2026-11-02)
 
 ### Mods
