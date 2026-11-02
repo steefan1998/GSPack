@@ -1,4 +1,4 @@
-﻿Chapter 'ltx' 'LTX Industries' 'ltxi:fabricator' 'tech' 'Chemistry, ore processing, fabrication, turrets and Epsilon gear.'
+Chapter 'ltx' 'LTX Industries' 'ltxi:fabricator' 'tech' 'Chemistry, ore processing, fabrication, turrets and Epsilon gear.'
 
 # ===== Getting started =====
 Q 'tablet' 'Guide Tablet' 'ltxi:guide_tablet' '' 'xp:50;table:common' -size 1.5 -shape 'gear' -sub 'LTX Industries' -desc @'
@@ -8,7 +8,7 @@ The &eGuide Tablet&r is the in-game manual. Read it whenever you are unsure how 
 '@
 Q 'metals' 'New Metals' 'ltxi:titanium_ingot*8;ltxi:niobium_ingot*4;ltxi:silver_ingot*4' 'tablet' 'xp:75' -desc 'LTX adds titanium, niobium and silver ores. Smelt the raw ores for your first ingots.'
 Q 'slatesteel' 'Slatesteel' 'ltxi:slatesteel_ingot*8' 'metals' 'xp:75' -desc 'A tough deepslate-based steel. Used for machine housings and gears.'
-Q 'housing' 'Machine Housing' 'ltxi:machine_housing*4' 'slatesteel' 'xp:75' -desc 'The frame of every LTX machine.'
+Q 'housing' 'Machine Housing' 'ltxi:machine_housing*4' 'slatesteel' 'xp:75' -desc 'The frame of every LTX machine. &6GSPack:&r it needs a Mekanism &eBasic Control Circuit&r instead of a titanium gear.'
 Q 'power' 'Power' 'ltxi:portable_generator;ltxi:solar_panel' 'housing' 'xp:100' -desc 'Generators and solar panels power your machines.'
 Q 'storage' 'Energy Storage' 'ltxi:small_voltaic_cell;ltxi:energy_cell_array' 'power' 'xp:100' -desc 'Voltaic cells are batteries. Energy Cell Arrays store power for your base.'
 Q 'big_cells' 'Bigger Cells' 'ltxi:medium_voltaic_cell;ltxi:large_voltaic_cell' 'storage' 'xp:100' -opt -desc 'More capacity.'
@@ -73,5 +73,5 @@ Q 'turrets2' 'Heavy Defense' 'ltxi:railgun_turret;ltxi:rocket_turret' 'turrets,t
 Q 'repair' 'Repair Station' 'ltxi:repair_station' 'epsilon' 'xp:100' -desc 'Repairs your gear.'
 Q 'neon' 'Neon Lights' 'ltxi:ltx_lime_neon_light*8;ltxi:energy_blue_neon_light*8' 'housing' 'xp:25' -opt -desc 'Colourful neon lights for your base.'
 Q 'fireworks' 'Light Show' 'ltxi:hanabi;ltxi:aurora' 'chem_lab' 'xp:50' -opt -desc 'Special chemicals for spectacular effects.'
-Q 'infinite' 'Infinite Tanks' 'ltxi:infinite_water_tank;ltxi:infinite_lava_tank' 't4' 'xp:200;table:rare' -desc 'Never run out of water or lava.'
-Q 'master' 'LTX Engineer' 'ltxi:infinite_energy_cell_array' 't5,wonderland,auto_fab' 'lvl:30;table:epic' -size 2 -shape 'gear' -desc 'An Infinite Energy Cell Array. You have mastered LTX Industries!'
+Q 'infinite' 'Infinite Tanks' 'ltxi:infinite_water_tank;ltxi:infinite_lava_tank' 't4' 'xp:200;table:rare' -desc 'Never run out of water or lava. &6GSPack:&r both tanks are crafted in an &eAdvanced Crafting Table&r (Extended Crafting) from T4 circuits, portable tanks and buckets.'
+Q 'master' 'LTX Engineer' 'ltxi:infinite_energy_cell_array' 't5,wonderland,auto_fab' 'lvl:30;table:epic' -size 2 -shape 'gear' -desc 'An Infinite Energy Cell Array. You have mastered LTX Industries! &6GSPack:&r it is crafted in an &eElite Crafting Table&r (Extended Crafting) from Large Voltaic Cells, T5 circuits, an Energy Cell Array and Nano Logic Cores.'

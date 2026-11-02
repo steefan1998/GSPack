@@ -63,6 +63,14 @@ Scripts: `kubejs/startup_scripts/gspack_endgame_items.js`, `kubejs/server_script
 
 `kubejs/server_scripts/gspack_allthemodium_alloys.js` lets you fuse the Allthemodium metals in a crafting table: 2 + 2 ingots (or dusts) of two metals make 2 alloy ingots (or dusts), and alloy dust smelts into the ingot.
 
+## Cross-mod recipes (KubeJS)
+
+`kubejs/server_scripts/gspack_crossmod_recipes.js` swaps one ingredient in eight key recipes for an item from another mod (for example steel in the AE2 Inscriber, a Mekanism Steel Casing in Oritech's Basic Generator). The new ingredient always comes from a mod that is reached earlier, so nothing is locked. The full list is in [CHANGELOG.md](CHANGELOG.md).
+
+## Quest stages (KubeJS)
+
+FTB Quests can't check item tags on its own here, so `kubejs/server_scripts/gspack_quest_stages.js` gives players a stage when a condition is met, and the quest uses a stage task (`stage:<name>` in `tools/content`, FTB Quests type `gamestage`). Used for **Punch a Tree** (16 logs of any kind).
+
 Every chapter has a pixel-art header banner and section labels, rendered by the build script.
 
 ### Editing quests

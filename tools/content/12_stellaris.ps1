@@ -47,7 +47,7 @@ Q 'jet' 'Jet Module' 'stellaris:space_suit_jet_module_tier_1' 'oxygen,desh' 'xp:
 Q 'gravity' 'Gravity Manipulator' 'stellaris:gravity_manipulator' 'desh' 'xp:200' -opt -desc 'Change the gravity around you.'
 
 # ===== Rockets =====
-Q 'parts' 'Rocket Parts' 'stellaris:rocket_nose_cone;stellaris:rocket_fin*4;stellaris:rocket_engine;stellaris:engine_fan' 'station' 'xp:200;table:space' -desc 'The parts every rocket needs.'
+Q 'parts' 'Rocket Parts' 'stellaris:rocket_nose_cone;stellaris:rocket_fin*4;stellaris:rocket_engine;stellaris:engine_fan' 'station' 'xp:200;table:space' -desc 'The parts every rocket needs. &6GSPack:&r the Rocket Engine needs an Oritech &eProcessing Unit&r.'
 Q 'pad' 'Launch Pad' 'stellaris:rocket_launch_pad*9' 'station' 'xp:100' -desc 'Build a 3x3 launch pad.'
 Q 'rocket' 'Rocket' 'stellaris:rocket' 'parts,pad,refinery' 'xp:300;choice:rare' -size 2 -shape 'hexagon' -desc @'
 Build your rocket and place it on the launch pad. Fill it with &erocket fuel&r.

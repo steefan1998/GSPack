@@ -3,20 +3,16 @@
     "Rods, tackle, bait and dozens of fish from every biome.",
   ],
   "chapter.3F4B3E9631DE14D7.title": "Aquaculture 2",
-  "quest.00ABB34716939A3D.quest_desc": [
-    "Tough hooks for heavy catches.",
-  ],
-  "quest.00ABB34716939A3D.title": "Obsidian Hook",
   "quest.021B2F53136B3481.quest_desc": [
-    "Big flat fish of the cold oceans.",
+    "Big flat fish. Atlantic halibut bite in oceans and on beaches that are not hot; Pacific halibut only in &ecold oceans&r and on cold beaches.",
   ],
   "quest.021B2F53136B3481.title": "Halibut",
   "quest.074BB561B0C57477.quest_desc": [
-    "One of the best hooks.",
+    "One of the best hooks: a 50% chance not to use rod durability.",
   ],
   "quest.074BB561B0C57477.title": "Diamond Hook",
   "quest.0765AD5FFA825D9F.quest_desc": [
-    "Fish the open ocean.",
+    "Atlantic herring bite in any ocean that is not hot. Atlantic cod and pollock only bite in &ecold oceans&r and on cold beaches.",
   ],
   "quest.0765AD5FFA825D9F.title": "Ocean Fish",
   "quest.094DD1EA7A617D1C.quest_desc": [
@@ -31,12 +27,8 @@
     "- &eBobber&r: colour.",
   ],
   "quest.0AD7EC7C443B4E07.title": "Tackle Box",
-  "quest.122B26F39AE5F969.quest_desc": [
-    "Hooks with Nether materials.",
-  ],
-  "quest.122B26F39AE5F969.title": "Nether Hooks",
   "quest.1305A4670790DD25.quest_desc": [
-    "Found in cold rivers and oceans.",
+    "Found in cold waters: cold rivers, beaches and oceans.",
   ],
   "quest.1305A4670790DD25.title": "Pink Salmon",
   "quest.14A1D55B22A1602D.quest_desc": [
@@ -48,37 +40,41 @@
   ],
   "quest.1DA2A3DA85F0D8E3.title": "Fish Mount",
   "quest.1EE1334A3434CEC8.quest_desc": [
-    "Fish in taiga and cold rivers.",
+    "Blackfish only bite in &ecold oceans&r and on &ecold beaches&r. Rainbow trout live there too, and also in rivers outside hot biomes.",
   ],
-  "quest.1EE1334A3434CEC8.title": "Cold Rivers",
+  "quest.1EE1334A3434CEC8.title": "Cold Waters",
   "quest.20F9AB53A4D695C7.quest_desc": [
     "Breathe and move freely underwater.",
   ],
   "quest.20F9AB53A4D695C7.title": "Neptunium Armor",
   "quest.2538A5FBCEDEC4A9.quest_desc": [
-    "Box turtles live in swamps, arrau turtles in jungles, and starshell turtles on beaches.",
+    "Box turtles are fished in swamps, arrau turtles in jungles, and starshell turtles in &2The Twilight Forest&r. All three are rare.",
   ],
   "quest.2538A5FBCEDEC4A9.title": "Turtles",
   "quest.25D619A250B95BFD.quest_desc": [
-    "Warm and lukewarm oceans hold bigger fish.",
+    "Red grouper and tuna bite in &eany ocean&r and on beaches. Tuna are rare, so keep at it!",
   ],
-  "quest.25D619A250B95BFD.title": "Warm Water Fish",
+  "quest.25D619A250B95BFD.title": "Big Ocean Fish",
   "quest.2C98AA08BDD35444.quest_desc": [
     "Fires arrows that fly straight underwater.",
   ],
   "quest.2C98AA08BDD35444.title": "Neptunium Bow",
   "quest.2E9D9B0ED1913D4A.quest_desc": [
-    "The ultimate hook. It needs a Nether Star.",
+    "The ultimate hook: a 50% chance not to use rod durability and more luck. It needs a Nether Star.",
   ],
   "quest.2E9D9B0ED1913D4A.title": "Nether Star Hook",
   "quest.366DDF43B00D1F38.quest_desc": [
-    "Light hooks favour smaller fish, heavy hooks bigger ones.",
+    "A light hook casts further, a heavy hook casts shorter.",
   ],
   "quest.366DDF43B00D1F38.title": "Light \\& Heavy",
   "quest.37B7D47BFBE38314.quest_desc": [
-    "Swamps have some strange, big fish.",
+    "Bigger freshwater fish of rivers, lakes and swamps. They do not bite in deserts, snowy biomes or jungles, and largemouth bass also avoid cold biomes. Catfish are rare.",
   ],
-  "quest.37B7D47BFBE38314.title": "Swamp Dwellers",
+  "quest.37B7D47BFBE38314.title": "Lake Fish",
+  "quest.38D2A41D591940A4.quest_desc": [
+    "The &eLeech&r (and the Box Turtle) can only be fished in &eswamps&r.",
+  ],
+  "quest.38D2A41D591940A4.title": "Swamp Dwellers",
   "quest.39B4D7531A4ADC9E.quest_desc": [
     "Cook the fillets for a filling meal.",
   ],
@@ -108,7 +104,7 @@
   ],
   "quest.42176234ED52E201.title": "Turtle Soup",
   "quest.448B432139D20BF0.quest_desc": [
-    "The redstone hook makes catches easier to notice, the note hook plays a sound, and the glowstone hook lights up underwater.",
+    "The redstone hook gives you more time to reel in a fish. The note hook plays an alert when a fish is approaching.",
   ],
   "quest.448B432139D20BF0.title": "Special Hooks",
   "quest.47FE050D1E620472.quest_desc": [
@@ -160,7 +156,7 @@
   ],
   "quest.5114D3CA37D6DAF3.title": "Neptunium Rod",
   "quest.5725EBA92DB30330.quest_desc": [
-    "Very rare! Goldfish can be used to tame turtles and look great in a fish mount.",
+    "Goldfish are not caught like normal fish: they turn up as &ejunk&r, in any biome. Keep fishing! A goldfish can be crafted into a gold nugget, or shown off in a fish mount.",
   ],
   "quest.5725EBA92DB30330.title": "Goldfish",
   "quest.646AAF9C7BF9C9DD.quest_desc": [
@@ -180,12 +176,12 @@
   ],
   "quest.6A563D311337982B.title": "Message in a Bottle",
   "quest.6C44F28133A89989.quest_desc": [
-    "Sometimes catches two fish at once!",
+    "Has a chance to catch two things at once!",
   ],
   "quest.6C44F28133A89989.title": "Double Hook",
   "quest.6F792E1D824D4CD6.quest_desc": [
-    "- &eIron Hook&r: catch fish a bit faster.",
-    "- &eGold Hook&r: more luck (better treasure).",
+    "- &eIron Hook&r: 20% chance not to use rod durability.",
+    "- &eGold Hook&r: more luck, for better catches.",
   ],
   "quest.6F792E1D824D4CD6.title": "Hooks",
   "quest.774FF50ED4370008.quest_desc": [
@@ -198,11 +194,11 @@
   "quest.774FF50ED4370008.quest_subtitle": "A fish for every biome",
   "quest.774FF50ED4370008.title": "Gone Fishing",
   "quest.78946FA8971ADEBA.quest_desc": [
-    "Not really a fish, but it counts! Careful, they sting.",
+    "Not really a fish, but it counts! Jellyfish can be caught in any ocean or on a beach.",
   ],
   "quest.78946FA8971ADEBA.title": "Jellyfish",
   "quest.7A8A2CA687430EBF.quest_desc": [
-    "A big predatory fish of cold lakes and rivers.",
+    "A big, rare predatory fish of rivers and lakes. It bites in fresh water anywhere except hot biomes, deserts and jungles.",
   ],
   "quest.7A8A2CA687430EBF.title": "Muskellunge",
   "quest.7F0907D8078A5B49.quest_desc": [

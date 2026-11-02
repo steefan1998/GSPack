@@ -84,10 +84,18 @@ function Use-Id([string]$id) { if ($id -notmatch '^#') { $script:UsedItems.Add($
 
 # Task specs: ns:item*N | check | dim:<id> | biome:<id> | kill:<entity>*N | struct:<id or #tag>
 #             adv:<advancement> | levels:N | look:<block id>
+#             stage:<stage>[@<icon item>][|<title>]   (FTB Quests "gamestage" task, set by KubeJS, see kubejs/server_scripts)
+$script:TaskTitles = @{}
 function Task-Obj([string]$spec, [string]$seed) {
     $o = [ordered]@{ id = (New-Id $seed) }
     switch -regex ($spec) {
         '^check$' { $o.type = 'checkmark'; return $o }
+        '^stage:([^@|]+)(?:@([^|]+))?(?:\|(.+))?$' {
+            $o.type = 'gamestage'; $o.stage = $Matches[1]; $o.team_stage = $false
+            if ($Matches[2]) { $o.icon = Item-Obj $Matches[2] }
+            if ($Matches[3]) { $script:TaskTitles[$o.id] = $Matches[3] }
+            return $o
+        }
         '^dim:(.+)$' { $o.type = 'dimension'; $o.dimension = $Matches[1]; Use-Id $Matches[1]; return $o }
         '^biome:(.+)$' { $o.type = 'biome'; $o.biome = $Matches[1]; Use-Id $Matches[1]; return $o }
         '^kill:(.+)$' { $e, $n = Split-Count $Matches[1]; $o.type = 'kill'; $o.entity = $e; $o.value = [long]$n; Use-Id $e; return $o }
@@ -403,6 +411,7 @@ foreach ($c in $script:Chapters) {
         if ($q.Opt) { $o.optional = $true }
         if ($q.HideLines) { $o.hide_dependency_lines = $true }
         $i = 0; $o.tasks = @(foreach ($t in $q.Tasks) { Task-Obj $t "task:$($q.Id):$(($i++))" })
+        foreach ($t in $o.tasks) { if ($script:TaskTitles[$t.id]) { Set-Lang $lf "task.$($t.id).title" $script:TaskTitles[$t.id] } }
         $i = 0; $o.rewards = @(foreach ($r in $q.Rewards) { Reward-Obj $r "reward:$($q.Id):$(($i++))" })
         [void]$quests.Add($o)
     }

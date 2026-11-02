@@ -4,7 +4,7 @@
   ],
   "chapter.3819B71D4386F7AF.title": "Equivox",
   "quest.00A3D0434AF7A0C0.quest_desc": [
-    "Much faster condensing.",
+    "Much faster condensing. &6GSPack:&r crafted in an &eElite Crafting Table&r (Extended Crafting) with Mekanism &eAntimatter&r.",
   ],
   "quest.00A3D0434AF7A0C0.title": "Condenser MK2",
   "quest.05F6B8E22D6FA4DA.quest_desc": [
@@ -16,11 +16,11 @@
   ],
   "quest.080A3D3DB3A27F90.title": "Dark Matter Tools",
   "quest.0EB0B86796CCC2C7.quest_desc": [
-    "The best EMC production.",
+    "The best EMC production. &6GSPack:&r they need a Red Matter Block instead of a single Red Matter.",
   ],
   "quest.0EB0B86796CCC2C7.title": "Collector MK3",
   "quest.0F1D5C46F1A6B7D1.quest_desc": [
-    "Better collectors and relays.",
+    "Better collectors and relays. &6GSPack:&r they need a Dark Matter Block instead of a single Dark Matter.",
   ],
   "quest.0F1D5C46F1A6B7D1.title": "Collector MK2",
   "quest.10D178A588AFCC20.quest_desc": [
@@ -28,7 +28,7 @@
   ],
   "quest.10D178A588AFCC20.title": "Elemental Amulets",
   "quest.1647F9EA97FA8A07.quest_desc": [
-    "A very dense material made from Aeternalis Fuel and diamond blocks. It is the next big step.",
+    "A very dense material made from Aeternalis Fuel and, in GSPack, a Mekanism &eRefined Obsidian Block&r. It is the next big step.",
   ],
   "quest.1647F9EA97FA8A07.title": "Dark Matter",
   "quest.179E00500944B85C.quest_desc": [
@@ -135,7 +135,7 @@
   ],
   "quest.56C7E4D4A3470FFA.title": "Interdiction Torch",
   "quest.5787875D47C3264B.quest_desc": [
-    "Even denser than dark matter. Made from dark matter and aeternalis fuel.",
+    "Even denser than dark matter. In GSPack it needs dark matter and &eAeternalis Fuel Blocks&r (9 fuel each).",
   ],
   "quest.5787875D47C3264B.title": "Red Matter",
   "quest.59926A01305ABB45.quest_desc": [
@@ -193,6 +193,8 @@
     "- Right-click blocks to &etransmute&r them (stone to grass, sand to cobblestone...).",
     "- Use it in crafting recipes for alchemical conversions (for example 4 iron -> 1 gold).",
     "- Press the &ecraft key&r to open a portable crafting grid.",
+    "",
+    "&6GSPack:&r Equivox is made more expensive. The stone needs &eredstone blocks&r, &eglowstone&r and &eSalis Mundus&r from Thaumaturge.",
   ],
   "quest.703D1F64715D27A6.quest_subtitle": "Equivalent Exchange",
   "quest.703D1F64715D27A6.title": "Philosopher's Stone",
@@ -210,6 +212,8 @@
     "- Click a learned item to create it, if you have enough EMC.",
     "",
     "&6Tip:&r Learn common items early: cobblestone, wood, iron, coal, redstone. Later you can make them whenever you want.",
+    "",
+    "&6GSPack:&r the table needs four &ePrudentium Essence&r from Mystical Agriculture instead of stone.",
   ],
   "quest.73B02129202C03FB.title": "Transmutation Table",
   "quest.73B0A436F42B54CB.quest_desc": [

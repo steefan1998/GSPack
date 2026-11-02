@@ -75,7 +75,7 @@
   ],
   "quest.2E77A4DE528C6DE4.title": "New Metals",
   "quest.30B8BF743D17D20E.quest_desc": [
-    "The frame of every LTX machine.",
+    "The frame of every LTX machine. &6GSPack:&r it needs a Mekanism &eBasic Control Circuit&r instead of a titanium gear.",
   ],
   "quest.30B8BF743D17D20E.title": "Machine Housing",
   "quest.31CD8AF3DC1AB915.quest_desc": [
@@ -113,7 +113,7 @@
   ],
   "quest.4481CA4C3FDB83B0.title": "Washed Ore",
   "quest.451875488A68AA62.quest_desc": [
-    "An Infinite Energy Cell Array. You have mastered LTX Industries!",
+    "An Infinite Energy Cell Array. You have mastered LTX Industries! &6GSPack:&r it is crafted in an &eElite Crafting Table&r (Extended Crafting) from Large Voltaic Cells, T5 circuits, an Energy Cell Array and Nano Logic Cores.",
   ],
   "quest.451875488A68AA62.title": "LTX Engineer",
   "quest.488B511AE983FCE3.quest_desc": [
@@ -194,7 +194,7 @@
   ],
   "quest.718CDB14F9ABA6F1.title": "Turrets",
   "quest.74EC792AA4E74641.quest_desc": [
-    "Never run out of water or lava.",
+    "Never run out of water or lava. &6GSPack:&r both tanks are crafted in an &eAdvanced Crafting Table&r (Extended Crafting) from T4 circuits, portable tanks and buckets.",
   ],
   "quest.74EC792AA4E74641.title": "Infinite Tanks",
   "quest.751E218CC4922048.quest_desc": [

@@ -150,6 +150,8 @@
     "The Inscriber presses circuits. Put the press in the top slot, the material in the middle, and (for processors) the second press in the bottom slot.",
     "",
     "&6Tip:&r With automation, use separate inscribers for each step.",
+    "",
+    "&6GSPack:&r the Inscriber is made with &esteel&r instead of iron. Steel comes from Mekanism (Metallurgic Infuser), Railcraft (Blast Furnace), Oritech or Tinkers'.",
   ],
   "quest.32C08C873EFF4D8A.title": "Inscriber",
   "quest.35F821B5CF20B34C.quest_desc": [

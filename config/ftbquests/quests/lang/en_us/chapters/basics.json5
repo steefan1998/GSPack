@@ -230,7 +230,7 @@
   ],
   "quest.78311BA5173B2B31.title": "Shield",
   "quest.798BBF8CA6794607.quest_desc": [
-    "The classic start. Any kind of log works for crafting, but this quest wants &eOak Logs&r.",
+    "The classic start. Collect &e16 logs&r of any kind: oak, birch, spruce, the trees from Terralith, the Twilight Forest, the Aether... they all count. The quest completes as soon as you carry 16 logs.",
     "",
     "Turn logs into planks, planks into sticks and a &eCrafting Table&r. From here you can make your first tools.",
     "",
@@ -248,4 +248,5 @@
     "&6Tip:&r &bAppleSkin&r shows how much hunger and saturation each food restores.",
   ],
   "quest.7DEFC22484C31C0B.title": "Something to Eat",
+  "task.2AD05A4876E73EF8.title": "16 logs of any kind",
 }

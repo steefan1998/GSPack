@@ -42,6 +42,8 @@ Q 'inscriber' 'Inscriber' 'ae2:inscriber' 'presses,fluix' 'xp:100' -desc @'
 The Inscriber presses circuits. Put the press in the top slot, the material in the middle, and (for processors) the second press in the bottom slot.
 
 &6Tip:&r With automation, use separate inscribers for each step.
+
+&6GSPack:&r the Inscriber is made with &esteel&r instead of iron. Steel comes from Mekanism (Metallurgic Infuser), Railcraft (Blast Furnace), Oritech or Tinkers'.
 '@
 Q 'silicon' 'Silicon' 'ae2:silicon*16;ae2:printed_silicon*4' 'inscriber' 'xp:75' -desc 'Smelt certus or nether quartz dust into silicon, then press it with the silicon press.'
 Q 'circuits' 'Printed Circuits' 'ae2:printed_logic_processor*4;ae2:printed_calculation_processor*4;ae2:printed_engineering_processor*4' 'inscriber' 'xp:75' -desc 'Gold makes logic circuits, certus makes calculation circuits, and diamond makes engineering circuits.'

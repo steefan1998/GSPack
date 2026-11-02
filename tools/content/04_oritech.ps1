@@ -1,4 +1,4 @@
-﻿Chapter 'oritech' 'Oritech' 'oritech:pulverizer' 'tech' 'Animated machines, addons, lasers, augments and particle physics.'
+Chapter 'oritech' 'Oritech' 'oritech:pulverizer' 'tech' 'Animated machines, addons, lasers, augments and particle physics.'
 
 # ===== First steps =====
 Q 'start' 'Oritech Begins' 'oritech:basic_generator' '' 'xp:75;table:common' -size 1.5 -shape 'gear' -sub 'Big machines, big ideas' -desc @'
@@ -7,6 +7,8 @@ Q 'start' 'Oritech Begins' 'oritech:basic_generator' '' 'xp:75;table:common' -si
 Start with a &eBasic Generator&r: it burns any furnace fuel for power (RF/FE). Look up every recipe in JEI, many of them are machine-only.
 
 &6Tip:&r Oritech has its own in-game guide. Check the mod's book or the JEI info tabs.
+
+&6GSPack:&r the Basic Generator needs a Mekanism &eSteel Casing&r instead of a furnace, so start Mekanism first.
 '@
 Q 'nickel' 'Nickel' 'oritech:raw_nickel*8;oritech:nickel_ingot*8' 'start' 'xp:50' -desc 'Nickel is an Oritech staple. AllTheOres nickel can often be used too, but the quest needs Oritech''s.'
 Q 'platinum' 'Platinum' 'oritech:raw_platinum*4' 'nickel' 'xp:75' -opt -desc 'Platinum ore is rarer and found deep underground and in the End. It is needed for advanced parts.'
@@ -130,4 +132,4 @@ A configurable reactor. Rods produce heat and power, heat pipes and vents move t
 '@
 Q 'accelerator' 'Particle Accelerator' 'oritech:particle_accelerator;oritech:accelerator_ring*32;oritech:accelerator_sensor' 'computing,superconductor' 'xp:400;table:epic' -size 1.5 -desc 'Smash particles together to create materials you cannot get anywhere else. Bigger rings mean faster particles.'
 Q 'strange' 'Strange Matter' 'oritech:still_strange_matter_bucket' 'accelerator' 'xp:400;table:epic' -desc 'Liquid strange matter, one of the strangest products of the particle accelerator.'
-Q 'black_hole' 'Event Horizon' 'oritech:black_hole' 'strange' 'lvl:40;table:epic' -size 2 -shape 'gear' -desc 'You have created a &5black hole&r. There is nothing left to learn from Oritech!'
+Q 'black_hole' 'Event Horizon' 'oritech:black_hole' 'strange' 'lvl:40;table:epic' -size 2 -shape 'gear' -desc 'You have created a &5black hole&r. There is nothing left to learn from Oritech! &6GSPack:&r the Black Hole is crafted in an &eElite Crafting Table&r (Extended Crafting) from strange matter, superconductors, fluxite blocks and Super AI Chips.'

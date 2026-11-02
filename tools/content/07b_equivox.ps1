@@ -1,4 +1,4 @@
-﻿Chapter 'equivox' 'Equivox' 'equivox:philosophers_stone' 'magic' 'Equivalent exchange: turn matter into EMC, and EMC into anything.'
+Chapter 'equivox' 'Equivox' 'equivox:philosophers_stone' 'magic' 'Equivalent exchange: turn matter into EMC, and EMC into anything.'
 
 # ===== The basics of EMC =====
 Q 'stone' 'Philosopher''s Stone' 'equivox:philosophers_stone' '' 'xp:100;table:arcane' -size 1.5 -shape 'gear' -sub 'Equivalent Exchange' -desc @'
@@ -8,6 +8,8 @@ The &ePhilosopher's Stone&r is the first tool:
 - Right-click blocks to &etransmute&r them (stone to grass, sand to cobblestone...).
 - Use it in crafting recipes for alchemical conversions (for example 4 iron -> 1 gold).
 - Press the &ecraft key&r to open a portable crafting grid.
+
+&6GSPack:&r Equivox is made more expensive. The stone needs &eredstone blocks&r, &eglowstone&r and &eSalis Mundus&r from Thaumaturge.
 '@
 Q 'emc' 'What is EMC?' 'check' 'stone' 'xp:25' -icon 'equivox:low_covalence_dust' -desc @'
 Hover over any item to see its &eEMC&r value. Cobblestone is worth 1, iron 256, diamond 8192...
@@ -24,6 +26,8 @@ The heart of Equivox.
 - Click a learned item to create it, if you have enough EMC.
 
 &6Tip:&r Learn common items early: cobblestone, wood, iron, coal, redstone. Later you can make them whenever you want.
+
+&6GSPack:&r the table needs four &ePrudentium Essence&r from Mystical Agriculture instead of stone.
 '@
 Q 'tablet' 'Transmutation Tablet' 'equivox:transmutation_tablet' 'table,dark_matter' 'xp:150' -desc 'A portable Transmutation Table.'
 Q 'provider' 'Transmutation Interface' 'equivox:transmutation_provider' 'table,condenser' 'xp:200;table:rare' -opt -desc 'Lets pipes and other mods access your learned items and EMC.'
@@ -37,7 +41,7 @@ Put an item in the &etarget&r slot and feed the condenser other items (or EMC). 
 
 Combine it with collectors for an endless source of anything.
 '@
-Q 'condenser2' 'Condenser MK2' 'equivox:condenser_mk2' 'condenser,red_matter' 'xp:300;table:rare' -desc 'Much faster condensing.'
+Q 'condenser2' 'Condenser MK2' 'equivox:condenser_mk2' 'condenser,red_matter' 'xp:300;table:rare' -desc 'Much faster condensing. &6GSPack:&r crafted in an &eElite Crafting Table&r (Extended Crafting) with Mekanism &eAntimatter&r.'
 Q 'gem_density' 'Gem of Eternal Density' 'equivox:gem_of_eternal_density' 'dark_matter' 'xp:150' -desc 'Condenses items in your inventory into something more valuable.'
 
 # ===== Power & fuel =====
@@ -49,20 +53,20 @@ Collectors make EMC from light. More light = more EMC.
 Put fuel in a collector to upgrade it (coal -> alchemical coal -> mobius -> aeternalis).
 '@
 Q 'relay' 'Anti-Matter Relay' 'equivox:relay_mk1' 'collector' 'xp:100' -desc 'Collects EMC from collectors around it and passes it on to condensers, with a small bonus.'
-Q 'collector2' 'Collector MK2' 'equivox:collector_mk2*4;equivox:relay_mk2' 'collector,dark_matter' 'xp:200' -desc 'Better collectors and relays.'
-Q 'collector3' 'Collector MK3' 'equivox:collector_mk3*4;equivox:relay_mk3' 'collector2,red_matter' 'xp:300;table:rare' -desc 'The best EMC production.'
+Q 'collector2' 'Collector MK2' 'equivox:collector_mk2*4;equivox:relay_mk2' 'collector,dark_matter' 'xp:200' -desc 'Better collectors and relays. &6GSPack:&r they need a Dark Matter Block instead of a single Dark Matter.'
+Q 'collector3' 'Collector MK3' 'equivox:collector_mk3*4;equivox:relay_mk3' 'collector2,red_matter' 'xp:300;table:rare' -desc 'The best EMC production. &6GSPack:&r they need a Red Matter Block instead of a single Red Matter.'
 Q 'klein' 'Klein Stars' 'equivox:klein_star_ein' 'covalence' 'xp:100' -desc 'Klein Stars store EMC. Many tools and rings drain EMC from them. Charge them in a condenser or collector.'
 Q 'klein2' 'Bigger Stars' 'equivox:klein_star_zwei;equivox:klein_star_drei' 'klein' 'xp:150' -desc 'Combine four stars into a bigger one: Ein, Zwei, Drei, Vier, Sphere, Omega.'
 Q 'klein_omega' 'Klein Star Omega' 'equivox:klein_star_omega' 'klein2,red_matter' 'xp:400;table:epic' -desc 'The biggest Klein Star.'
 
 # ===== Dark & red matter =====
-Q 'dark_matter' 'Dark Matter' 'equivox:dark_matter*8' 'aeternalis' 'xp:250;table:rare' -size 1.5 -shape 'hexagon' -desc 'A very dense material made from Aeternalis Fuel and diamond blocks. It is the next big step.'
+Q 'dark_matter' 'Dark Matter' 'equivox:dark_matter*8' 'aeternalis' 'xp:250;table:rare' -size 1.5 -shape 'hexagon' -desc 'A very dense material made from Aeternalis Fuel and, in GSPack, a Mekanism &eRefined Obsidian Block&r. It is the next big step.'
 Q 'dm_pedestal' 'Dark Matter Pedestal' 'equivox:dm_pedestal' 'dark_matter' 'xp:150' -desc 'Place a ring or talisman on it to use its power on the area around it.'
 Q 'dm_tools' 'Dark Matter Tools' 'equivox:dm_pick;equivox:dm_sword;equivox:dm_axe;equivox:dm_shovel' 'dark_matter' 'xp:250' -desc 'Unbreakable tools with &echarge levels&r (press the charge key) for more speed and area mining.'
 Q 'dm_hammer' 'Dark Matter Hammer' 'equivox:dm_hammer' 'dm_tools' 'xp:100' -opt -desc 'Mines a 3x3 area.'
 Q 'dm_armor' 'Dark Matter Armor' 'equivox:dm_helmet;equivox:dm_chestplate;equivox:dm_leggings;equivox:dm_boots' 'dark_matter' 'xp:300;table:rare' -desc 'Very strong armor.'
 Q 'dm_furnace' 'Dark Matter Furnace' 'equivox:dm_furnace' 'dark_matter' 'xp:100' -opt -desc 'Smelts very fast and doubles ore output.'
-Q 'red_matter' 'Red Matter' 'equivox:red_matter*8' 'dark_matter' 'xp:400;table:epic' -size 1.5 -desc 'Even denser than dark matter. Made from dark matter and aeternalis fuel.'
+Q 'red_matter' 'Red Matter' 'equivox:red_matter*8' 'dark_matter' 'xp:400;table:epic' -size 1.5 -desc 'Even denser than dark matter. In GSPack it needs dark matter and &eAeternalis Fuel Blocks&r (9 fuel each).'
 Q 'rm_tools' 'Red Matter Tools' 'equivox:rm_pick;equivox:rm_sword;equivox:rm_katar;equivox:rm_morning_star' 'red_matter' 'xp:300' -desc 'The strongest tools in Equivox. The &eKatar&r and &eMorning Star&r combine several tools in one.'
 Q 'rm_armor' 'Red Matter Armor' 'equivox:rm_helmet;equivox:rm_chestplate;equivox:rm_leggings;equivox:rm_boots' 'red_matter' 'xp:400;table:epic' -desc 'Better armor than dark matter.'
 Q 'rm_furnace' 'Red Matter Furnace' 'equivox:rm_furnace' 'red_matter' 'xp:100' -opt -desc 'Even faster smelting.'

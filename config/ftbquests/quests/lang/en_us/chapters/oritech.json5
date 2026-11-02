@@ -16,7 +16,7 @@
   ],
   "quest.01DDF59765AE84F2.title": "Platinum",
   "quest.04ABCDD36FEBC334.quest_desc": [
-    "You have created a &5black hole&r. There is nothing left to learn from Oritech!",
+    "You have created a &5black hole&r. There is nothing left to learn from Oritech! &6GSPack:&r the Black Hole is crafted in an &eElite Crafting Table&r (Extended Crafting) from strange matter, superconductors, fluxite blocks and Super AI Chips.",
   ],
   "quest.04ABCDD36FEBC334.title": "Event Horizon",
   "quest.04AC3F95642E09D2.quest_desc": [
@@ -121,6 +121,8 @@
     "Start with a &eBasic Generator&r: it burns any furnace fuel for power (RF/FE). Look up every recipe in JEI, many of them are machine-only.",
     "",
     "&6Tip:&r Oritech has its own in-game guide. Check the mod's book or the JEI info tabs.",
+    "",
+    "&6GSPack:&r the Basic Generator needs a Mekanism &eSteel Casing&r instead of a furnace, so start Mekanism first.",
   ],
   "quest.33A9814AAD99D26F.quest_subtitle": "Big machines, big ideas",
   "quest.33A9814AAD99D26F.title": "Oritech Begins",

@@ -1,28 +1,28 @@
 {
   id: "3F4B3E9631DE14D7",
   group: "11F64C4259C477EF",
-  order_index: 0,
-  icon: {
-    id: "aquaculture:iron_fishing_rod",
-    count: 1,
-  },
+  order_index: 11,
   filename: "aquaculture",
+  icon: {
+    count: 1,
+    id: "aquaculture:iron_fishing_rod",
+  },
   default_quest_shape: "",
   default_hide_dependency_lines: true,
   quests: [
     {
+      id: "774FF50ED4370008",
       x: 0.0,
       y: 2.7,
       shape: "gear",
       size: 1.5,
-      id: "774FF50ED4370008",
       tasks: [
         {
           id: "7E4A7FD51BEF131F",
           type: "item",
           item: {
-            id: "aquaculture:iron_fishing_rod",
             count: 1,
+            id: "aquaculture:iron_fishing_rod",
           },
         },
       ],
@@ -35,26 +35,24 @@
         {
           id: "2784DC64ACDB9F8F",
           type: "random",
-          exclude_from_claim_all: true,
           table_id: 2582982951349054,
         },
       ],
     },
     {
+      id: "3AB2B172A90B6995",
       x: 1.6,
       y: 2.7,
       dependencies: [
         "774FF50ED4370008",
       ],
-      size: 1.0,
-      id: "3AB2B172A90B6995",
       tasks: [
         {
           id: "2D0AA72337E6AD67",
           type: "item",
           item: {
-            id: "aquaculture:gold_fishing_rod",
             count: 1,
+            id: "aquaculture:gold_fishing_rod",
           },
         },
       ],
@@ -67,20 +65,19 @@
       ],
     },
     {
+      id: "498DCFDB70D41373",
       x: 3.2,
       y: 2.7,
       dependencies: [
         "3AB2B172A90B6995",
       ],
-      size: 1.0,
-      id: "498DCFDB70D41373",
       tasks: [
         {
           id: "041FE362237ED417",
           type: "item",
           item: {
-            id: "aquaculture:diamond_fishing_rod",
             count: 1,
+            id: "aquaculture:diamond_fishing_rod",
           },
         },
       ],
@@ -93,26 +90,24 @@
         {
           id: "088527D37AE652AA",
           type: "random",
-          exclude_from_claim_all: true,
           table_id: 253752461985528,
         },
       ],
     },
     {
+      id: "0AD7EC7C443B4E07",
       x: 1.6,
       y: 4.2,
       dependencies: [
         "774FF50ED4370008",
       ],
-      size: 1.0,
-      id: "0AD7EC7C443B4E07",
       tasks: [
         {
           id: "7D36239C5C8C9FFF",
           type: "item",
           item: {
-            id: "aquaculture:tackle_box",
             count: 1,
+            id: "aquaculture:tackle_box",
           },
         },
       ],
@@ -125,20 +120,19 @@
       ],
     },
     {
+      id: "4A1A31BF5C2ACEB1",
       x: 3.2,
       y: 4.2,
       dependencies: [
         "0AD7EC7C443B4E07",
       ],
-      size: 1.0,
-      id: "4A1A31BF5C2ACEB1",
       tasks: [
         {
           id: "4952A15CAAFF956B",
           type: "item",
           item: {
-            id: "aquaculture:fishing_line",
             count: 1,
+            id: "aquaculture:fishing_line",
           },
           count: 2,
         },
@@ -146,8 +140,8 @@
           id: "6D30CDA104F3A47E",
           type: "item",
           item: {
-            id: "aquaculture:bobber",
             count: 1,
+            id: "aquaculture:bobber",
           },
           count: 2,
         },
@@ -161,20 +155,19 @@
       ],
     },
     {
+      id: "3BAF97A3FB4A0A45",
       x: 1.6,
       y: 1.2,
       dependencies: [
         "774FF50ED4370008",
       ],
-      size: 1.0,
-      id: "3BAF97A3FB4A0A45",
       tasks: [
         {
           id: "329CE3276D550A48",
           type: "item",
           item: {
-            id: "aquaculture:worm",
             count: 1,
+            id: "aquaculture:worm",
           },
           count: 16,
         },
@@ -188,20 +181,19 @@
       ],
     },
     {
+      id: "40674E8A173A6DD1",
       x: 3.2,
       y: 1.2,
       dependencies: [
         "3BAF97A3FB4A0A45",
       ],
-      size: 1.0,
-      id: "40674E8A173A6DD1",
       tasks: [
         {
           id: "480A5886B17DAC5A",
           type: "item",
           item: {
-            id: "aquaculture:worm_farm",
             count: 1,
+            id: "aquaculture:worm_farm",
           },
         },
       ],
@@ -214,28 +206,27 @@
       ],
     },
     {
+      id: "6F792E1D824D4CD6",
       x: 3.2,
       y: 5.7,
       dependencies: [
         "0AD7EC7C443B4E07",
       ],
-      size: 1.0,
-      id: "6F792E1D824D4CD6",
       tasks: [
         {
           id: "4A918CB39657FC43",
           type: "item",
           item: {
-            id: "aquaculture:iron_hook",
             count: 1,
+            id: "aquaculture:iron_hook",
           },
         },
         {
           id: "4AED830A85ABD126",
           type: "item",
           item: {
-            id: "aquaculture:gold_hook",
             count: 1,
+            id: "aquaculture:gold_hook",
           },
         },
       ],
@@ -248,34 +239,32 @@
         {
           id: "05A3C7BC4171D6A4",
           type: "random",
-          exclude_from_claim_all: true,
           table_id: 2582982951349054,
         },
       ],
     },
     {
+      id: "366DDF43B00D1F38",
       x: 4.8,
       y: 5.7,
       dependencies: [
         "6F792E1D824D4CD6",
       ],
-      size: 1.0,
-      id: "366DDF43B00D1F38",
       tasks: [
         {
           id: "2FF38EA20005A9F2",
           type: "item",
           item: {
-            id: "aquaculture:light_hook",
             count: 1,
+            id: "aquaculture:light_hook",
           },
         },
         {
           id: "1EE94037B2F8B0BE",
           type: "item",
           item: {
-            id: "aquaculture:heavy_hook",
             count: 1,
+            id: "aquaculture:heavy_hook",
           },
         },
       ],
@@ -288,20 +277,19 @@
       ],
     },
     {
+      id: "6C44F28133A89989",
       x: 6.4,
       y: 5.7,
       dependencies: [
         "366DDF43B00D1F38",
       ],
-      size: 1.0,
-      id: "6C44F28133A89989",
       tasks: [
         {
           id: "691797A6B2B35A66",
           type: "item",
           item: {
-            id: "aquaculture:double_hook",
             count: 1,
+            id: "aquaculture:double_hook",
           },
         },
       ],
@@ -314,41 +302,28 @@
       ],
     },
     {
+      id: "448B432139D20BF0",
       x: 4.8,
       y: 7.2,
       dependencies: [
         "6F792E1D824D4CD6",
       ],
-      size: 1.0,
       optional: true,
-      id: "448B432139D20BF0",
       tasks: [
         {
           id: "372A2FA5F4783BE1",
           type: "item",
           item: {
-            id: "aquaculture:redstone_hook",
             count: 1,
+            id: "aquaculture:redstone_hook",
           },
         },
         {
           id: "020E984AAD775895",
           type: "item",
           item: {
+            count: 1,
             id: "aquaculture:note_hook",
-            count: 1,
-          },
-        },
-        {
-          id: "7CED41BAADAF0FBF",
-          type: "item",
-          item: {
-            id: "ftbquests:missing_item",
-            count: 1,
-            components: {
-              "ftbquests:missing_item": "aquaculture:glowstone_hook",
-              "ftbquests:missing_item_count": 1,
-            },
           },
         },
       ],
@@ -361,63 +336,19 @@
       ],
     },
     {
-      x: 4.8,
-      y: 4.2,
-      dependencies: [
-        "6F792E1D824D4CD6",
-      ],
-      size: 1.0,
-      optional: true,
-      id: "122B26F39AE5F969",
-      tasks: [
-        {
-          id: "24E3F7A96237F26A",
-          type: "item",
-          item: {
-            id: "ftbquests:missing_item",
-            count: 1,
-            components: {
-              "ftbquests:missing_item": "aquaculture:quartz_hook",
-              "ftbquests:missing_item_count": 1,
-            },
-          },
-        },
-        {
-          id: "4C62DA9578D7BA7C",
-          type: "item",
-          item: {
-            id: "ftbquests:missing_item",
-            count: 1,
-            components: {
-              "ftbquests:missing_item": "aquaculture:soul_sand_hook",
-              "ftbquests:missing_item_count": 1,
-            },
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "43A75F48A8CBBA64",
-          type: "xp",
-          xp: 75,
-        },
-      ],
-    },
-    {
+      id: "074BB561B0C57477",
       x: 6.4,
       y: 7.2,
       dependencies: [
         "366DDF43B00D1F38",
       ],
-      size: 1.0,
-      id: "074BB561B0C57477",
       tasks: [
         {
           id: "687F903922464201",
           type: "item",
           item: {
-            id: "aquaculture:diamond_hook",
             count: 1,
+            id: "aquaculture:diamond_hook",
           },
         },
       ],
@@ -430,26 +361,24 @@
         {
           id: "55CBD3AFD1776252",
           type: "random",
-          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
+      id: "2E9D9B0ED1913D4A",
       x: 8.0,
       y: 7.2,
       dependencies: [
         "074BB561B0C57477",
       ],
-      size: 1.0,
-      id: "2E9D9B0ED1913D4A",
       tasks: [
         {
           id: "4A5CC1D8057595E8",
           type: "item",
           item: {
-            id: "aquaculture:nether_star_hook",
             count: 1,
+            id: "aquaculture:nether_star_hook",
           },
         },
       ],
@@ -462,69 +391,24 @@
         {
           id: "1AF5A77A7071EBB4",
           type: "random",
-          exclude_from_claim_all: true,
           table_id: 379532711335085,
         },
       ],
     },
     {
-      x: 8.0,
-      y: 5.7,
-      dependencies: [
-        "6C44F28133A89989",
-      ],
-      size: 1.0,
-      optional: true,
-      id: "00ABB34716939A3D",
-      tasks: [
-        {
-          id: "3B8062E9553AAB40",
-          type: "item",
-          item: {
-            id: "ftbquests:missing_item",
-            count: 1,
-            components: {
-              "ftbquests:missing_item": "aquaculture:obsidian_hook",
-              "ftbquests:missing_item_count": 1,
-            },
-          },
-        },
-        {
-          id: "4C615A6882B019FF",
-          type: "item",
-          item: {
-            id: "ftbquests:missing_item",
-            count: 1,
-            components: {
-              "ftbquests:missing_item": "aquaculture:double_obsidian_hook",
-              "ftbquests:missing_item_count": 1,
-            },
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "06AE1F484E8F55D1",
-          type: "xp",
-          xp: 100,
-        },
-      ],
-    },
-    {
+      id: "4DBADD6E4618EF32",
       x: 0.0,
       y: 11.3,
       dependencies: [
         "774FF50ED4370008",
       ],
-      size: 1.0,
-      id: "4DBADD6E4618EF32",
       tasks: [
         {
           id: "72F1D1DBA12CD6C1",
           type: "item",
           item: {
-            id: "aquaculture:iron_fillet_knife",
             count: 1,
+            id: "aquaculture:iron_fillet_knife",
           },
         },
       ],
@@ -537,20 +421,19 @@
       ],
     },
     {
+      id: "39B4D7531A4ADC9E",
       x: 1.6,
       y: 11.3,
       dependencies: [
         "4DBADD6E4618EF32",
       ],
-      size: 1.0,
-      id: "39B4D7531A4ADC9E",
       tasks: [
         {
           id: "39AB1D0A9A87FA09",
           type: "item",
           item: {
-            id: "aquaculture:fish_fillet_cooked",
             count: 1,
+            id: "aquaculture:fish_fillet_cooked",
           },
           count: 16,
         },
@@ -564,21 +447,20 @@
       ],
     },
     {
+      id: "649652F53E84C3D6",
       x: 3.2,
       y: 11.3,
       dependencies: [
         "39B4D7531A4ADC9E",
         "4B221C84F499745C",
       ],
-      size: 1.0,
-      id: "649652F53E84C3D6",
       tasks: [
         {
           id: "62C98019A08D3B13",
           type: "item",
           item: {
-            id: "aquaculture:sushi",
             count: 1,
+            id: "aquaculture:sushi",
           },
           count: 8,
         },
@@ -592,21 +474,20 @@
       ],
     },
     {
+      id: "42176234ED52E201",
       x: 0.0,
       y: 9.8,
       dependencies: [
         "2538A5FBCEDEC4A9",
       ],
-      size: 1.0,
       optional: true,
-      id: "42176234ED52E201",
       tasks: [
         {
           id: "1AF1B78A71C84E28",
           type: "item",
           item: {
-            id: "aquaculture:turtle_soup",
             count: 1,
+            id: "aquaculture:turtle_soup",
           },
         },
       ],
@@ -619,20 +500,19 @@
       ],
     },
     {
+      id: "4B221C84F499745C",
       x: 0.0,
       y: 12.8,
       dependencies: [
         "774FF50ED4370008",
       ],
-      size: 1.0,
-      id: "4B221C84F499745C",
       tasks: [
         {
           id: "7351D4C60D708D62",
           type: "item",
           item: {
-            id: "aquaculture:algae",
             count: 1,
+            id: "aquaculture:algae",
           },
           count: 8,
         },
@@ -646,22 +526,21 @@
       ],
     },
     {
+      id: "3D8FEF7156CA8CD7",
       x: 1.6,
       y: 12.8,
       dependencies: [
         "47FE050D1E620472",
         "4DBADD6E4618EF32",
       ],
-      size: 1.0,
       optional: true,
-      id: "3D8FEF7156CA8CD7",
       tasks: [
         {
           id: "50BAEF49135B7F3F",
           type: "item",
           item: {
-            id: "aquaculture:neptunium_fillet_knife",
             count: 1,
+            id: "aquaculture:neptunium_fillet_knife",
           },
         },
       ],
@@ -674,44 +553,44 @@
       ],
     },
     {
+      id: "3F0A5D742CD3824B",
       x: 0.0,
-      y: 19.9,
+      y: 21.4,
+      size: 1.5,
       dependencies: [
         "774FF50ED4370008",
       ],
-      size: 1.5,
-      id: "3F0A5D742CD3824B",
       tasks: [
         {
           id: "54E57BB7469C0D60",
           type: "item",
           item: {
-            id: "aquaculture:smallmouth_bass",
             count: 1,
+            id: "aquaculture:smallmouth_bass",
           },
         },
         {
           id: "15F4E5C2228DC541",
           type: "item",
           item: {
-            id: "aquaculture:bluegill",
             count: 1,
+            id: "aquaculture:bluegill",
           },
         },
         {
           id: "3D28A61EEF0C62D9",
           type: "item",
           item: {
-            id: "aquaculture:brown_trout",
             count: 1,
+            id: "aquaculture:brown_trout",
           },
         },
         {
           id: "3E76D49F0E02ADCC",
           type: "item",
           item: {
-            id: "aquaculture:perch",
             count: 1,
+            id: "aquaculture:perch",
           },
         },
       ],
@@ -724,34 +603,32 @@
         {
           id: "3DDB451BEDB51856",
           type: "random",
-          exclude_from_claim_all: true,
           table_id: 2582982951349054,
         },
       ],
     },
     {
+      id: "094DD1EA7A617D1C",
       x: 1.6,
-      y: 18.4,
+      y: 19.9,
       dependencies: [
         "3F0A5D742CD3824B",
       ],
-      size: 1.0,
-      id: "094DD1EA7A617D1C",
       tasks: [
         {
           id: "065BB44445CD74B8",
           type: "item",
           item: {
-            id: "aquaculture:carp",
             count: 1,
+            id: "aquaculture:carp",
           },
         },
         {
           id: "5AF2CD8834D4FDEC",
           type: "item",
           item: {
-            id: "aquaculture:minnow",
             count: 1,
+            id: "aquaculture:minnow",
           },
         },
       ],
@@ -764,28 +641,27 @@
       ],
     },
     {
+      id: "1EE1334A3434CEC8",
       x: 1.6,
-      y: 22.9,
+      y: 24.4,
       dependencies: [
         "3F0A5D742CD3824B",
       ],
-      size: 1.0,
-      id: "1EE1334A3434CEC8",
       tasks: [
         {
           id: "26890A6C27D1D7C5",
           type: "item",
           item: {
-            id: "aquaculture:rainbow_trout",
             count: 1,
+            id: "aquaculture:rainbow_trout",
           },
         },
         {
           id: "1F6E44BF1271BEF0",
           type: "item",
           item: {
-            id: "aquaculture:blackfish",
             count: 1,
+            id: "aquaculture:blackfish",
           },
         },
       ],
@@ -798,20 +674,19 @@
       ],
     },
     {
+      id: "7A8A2CA687430EBF",
       x: 3.2,
-      y: 22.9,
+      y: 24.4,
       dependencies: [
         "1EE1334A3434CEC8",
       ],
-      size: 1.0,
-      id: "7A8A2CA687430EBF",
       tasks: [
         {
           id: "219733677E9940A1",
           type: "item",
           item: {
-            id: "aquaculture:muskellunge",
             count: 1,
+            id: "aquaculture:muskellunge",
           },
         },
       ],
@@ -824,36 +699,35 @@
       ],
     },
     {
+      id: "0765AD5FFA825D9F",
       x: 1.6,
-      y: 16.9,
+      y: 18.4,
       dependencies: [
         "3F0A5D742CD3824B",
       ],
-      size: 1.0,
-      id: "0765AD5FFA825D9F",
       tasks: [
         {
           id: "28DA2DC65C22CC01",
           type: "item",
           item: {
-            id: "aquaculture:atlantic_cod",
             count: 1,
+            id: "aquaculture:atlantic_cod",
           },
         },
         {
           id: "3AA192E1F021FC7B",
           type: "item",
           item: {
-            id: "aquaculture:atlantic_herring",
             count: 1,
+            id: "aquaculture:atlantic_herring",
           },
         },
         {
           id: "4793ED22BE7D2ED0",
           type: "item",
           item: {
-            id: "aquaculture:pollock",
             count: 1,
+            id: "aquaculture:pollock",
           },
         },
       ],
@@ -866,34 +740,32 @@
         {
           id: "5BCD9012D4A1F5DA",
           type: "random",
-          exclude_from_claim_all: true,
           table_id: 2582982951349054,
         },
       ],
     },
     {
+      id: "021B2F53136B3481",
       x: 3.2,
-      y: 16.9,
+      y: 18.4,
       dependencies: [
         "0765AD5FFA825D9F",
       ],
-      size: 1.0,
-      id: "021B2F53136B3481",
       tasks: [
         {
           id: "630078CA037A585F",
           type: "item",
           item: {
-            id: "aquaculture:atlantic_halibut",
             count: 1,
+            id: "aquaculture:atlantic_halibut",
           },
         },
         {
           id: "5888F6BD63DAF759",
           type: "item",
           item: {
-            id: "aquaculture:pacific_halibut",
             count: 1,
+            id: "aquaculture:pacific_halibut",
           },
         },
       ],
@@ -906,20 +778,19 @@
       ],
     },
     {
+      id: "1305A4670790DD25",
       x: 3.2,
-      y: 24.4,
+      y: 25.9,
       dependencies: [
         "1EE1334A3434CEC8",
       ],
-      size: 1.0,
-      id: "1305A4670790DD25",
       tasks: [
         {
           id: "671196640B569236",
           type: "item",
           item: {
-            id: "aquaculture:pink_salmon",
             count: 1,
+            id: "aquaculture:pink_salmon",
           },
         },
       ],
@@ -932,28 +803,27 @@
       ],
     },
     {
+      id: "25D619A250B95BFD",
       x: 3.2,
-      y: 18.4,
+      y: 19.9,
       dependencies: [
         "0765AD5FFA825D9F",
       ],
-      size: 1.0,
-      id: "25D619A250B95BFD",
       tasks: [
         {
           id: "31B1F5591BA7ADD8",
           type: "item",
           item: {
-            id: "aquaculture:red_grouper",
             count: 1,
+            id: "aquaculture:red_grouper",
           },
         },
         {
           id: "605EAD1A4E662B49",
           type: "item",
           item: {
-            id: "aquaculture:tuna",
             count: 1,
+            id: "aquaculture:tuna",
           },
         },
       ],
@@ -966,20 +836,19 @@
       ],
     },
     {
+      id: "78946FA8971ADEBA",
       x: 4.8,
-      y: 18.4,
+      y: 19.9,
       dependencies: [
         "25D619A250B95BFD",
       ],
-      size: 1.0,
-      id: "78946FA8971ADEBA",
       tasks: [
         {
           id: "2F1A2014A528DA7F",
           type: "item",
           item: {
-            id: "aquaculture:jellyfish",
             count: 1,
+            id: "aquaculture:jellyfish",
           },
         },
       ],
@@ -992,36 +861,35 @@
       ],
     },
     {
+      id: "646AAF9C7BF9C9DD",
       x: 1.6,
-      y: 21.4,
+      y: 22.9,
       dependencies: [
         "3F0A5D742CD3824B",
       ],
-      size: 1.0,
-      id: "646AAF9C7BF9C9DD",
       tasks: [
         {
           id: "6A00E521E5DE02B5",
           type: "item",
           item: {
-            id: "aquaculture:piranha",
             count: 1,
+            id: "aquaculture:piranha",
           },
         },
         {
           id: "1C40283711DAC875",
           type: "item",
           item: {
-            id: "aquaculture:arapaima",
             count: 1,
+            id: "aquaculture:arapaima",
           },
         },
         {
           id: "564DA7EFC5E620F5",
           type: "item",
           item: {
-            id: "aquaculture:tambaqui",
             count: 1,
+            id: "aquaculture:tambaqui",
           },
         },
       ],
@@ -1034,42 +902,40 @@
         {
           id: "4B2EFC306D35C706",
           type: "random",
-          exclude_from_claim_all: true,
           table_id: 2582982951349054,
         },
       ],
     },
     {
+      id: "37B7D47BFBE38314",
       x: 1.6,
-      y: 19.9,
+      y: 25.9,
       dependencies: [
         "3F0A5D742CD3824B",
       ],
-      size: 1.0,
-      id: "37B7D47BFBE38314",
       tasks: [
         {
           id: "5016A0FE272F4315",
           type: "item",
           item: {
-            id: "aquaculture:gar",
             count: 1,
+            id: "aquaculture:gar",
           },
         },
         {
           id: "39B98BCE9D5170B5",
           type: "item",
           item: {
-            id: "aquaculture:catfish",
             count: 1,
+            id: "aquaculture:catfish",
           },
         },
         {
           id: "16F647D0BFB9CE0E",
           type: "item",
           item: {
-            id: "aquaculture:largemouth_bass",
             count: 1,
+            id: "aquaculture:largemouth_bass",
           },
         },
       ],
@@ -1082,44 +948,68 @@
       ],
     },
     {
+      id: "38D2A41D591940A4",
       x: 1.6,
-      y: 24.4,
+      y: 21.4,
       dependencies: [
         "3F0A5D742CD3824B",
       ],
-      size: 1.0,
+      tasks: [
+        {
+          id: "066A9B57650D816F",
+          type: "item",
+          item: {
+            count: 1,
+            id: "aquaculture:leech",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "51BEA1757918B50D",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
       id: "68B39C312E1DC490",
+      x: 1.6,
+      y: 16.9,
+      dependencies: [
+        "3F0A5D742CD3824B",
+      ],
       tasks: [
         {
           id: "4637600D29AE09A6",
           type: "item",
           item: {
-            id: "aquaculture:boulti",
             count: 1,
+            id: "aquaculture:boulti",
           },
         },
         {
           id: "363D2E5A2057C369",
           type: "item",
           item: {
-            id: "aquaculture:bayad",
             count: 1,
+            id: "aquaculture:bayad",
           },
         },
         {
           id: "17719E2A20B76ADB",
           type: "item",
           item: {
-            id: "aquaculture:synodontis",
             count: 1,
+            id: "aquaculture:synodontis",
           },
         },
         {
           id: "538A34A6FD572ADD",
           type: "item",
           item: {
-            id: "aquaculture:capitaine",
             count: 1,
+            id: "aquaculture:capitaine",
           },
         },
       ],
@@ -1132,34 +1022,32 @@
         {
           id: "22CB85428B327ADB",
           type: "random",
-          exclude_from_claim_all: true,
           table_id: 2582982951349054,
         },
       ],
     },
     {
+      id: "4F2BE9966CFED966",
       x: 1.6,
-      y: 15.4,
+      y: 27.4,
       dependencies: [
         "3F0A5D742CD3824B",
       ],
-      size: 1.0,
-      id: "4F2BE9966CFED966",
       tasks: [
         {
           id: "0E0DC1DE2A423F08",
           type: "item",
           item: {
-            id: "aquaculture:red_shrooma",
             count: 1,
+            id: "aquaculture:red_shrooma",
           },
         },
         {
           id: "635641EA137ED188",
           type: "item",
           item: {
-            id: "aquaculture:brown_shrooma",
             count: 1,
+            id: "aquaculture:brown_shrooma",
           },
         },
       ],
@@ -1172,43 +1060,42 @@
         {
           id: "14A403B7F170E4E0",
           type: "random",
-          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      x: 3.2,
-      y: 19.9,
-      dependencies: [
-        "37B7D47BFBE38314",
-        "646AAF9C7BF9C9DD",
-      ],
-      size: 1.0,
       id: "2538A5FBCEDEC4A9",
+      x: 3.2,
+      y: 21.4,
+      dependencies: [
+        "38D2A41D591940A4",
+        "646AAF9C7BF9C9DD",
+        "74E94DE858E212A0",
+      ],
       tasks: [
         {
           id: "157515A193FA5659",
           type: "item",
           item: {
-            id: "aquaculture:box_turtle",
             count: 1,
+            id: "aquaculture:box_turtle",
           },
         },
         {
           id: "2991AE07993DAB14",
           type: "item",
           item: {
-            id: "aquaculture:arrau_turtle",
             count: 1,
+            id: "aquaculture:arrau_turtle",
           },
         },
         {
           id: "4D480E042A01611B",
           type: "item",
           item: {
-            id: "aquaculture:starshell_turtle",
             count: 1,
+            id: "aquaculture:starshell_turtle",
           },
         },
       ],
@@ -1221,28 +1108,25 @@
         {
           id: "6CD6ED96248D558A",
           type: "random",
-          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      x: 3.2,
-      y: 21.4,
-      dependencies: [
-        "646AAF9C7BF9C9DD",
-        "68B39C312E1DC490",
-        "37B7D47BFBE38314",
-      ],
-      size: 1.5,
       id: "5725EBA92DB30330",
+      x: 0.0,
+      y: 22.9,
+      size: 1.5,
+      dependencies: [
+        "14A1D55B22A1602D",
+      ],
       tasks: [
         {
           id: "2C67A0B44ECD6E70",
           type: "item",
           item: {
-            id: "aquaculture:goldfish",
             count: 1,
+            id: "aquaculture:goldfish",
           },
         },
       ],
@@ -1255,27 +1139,25 @@
         {
           id: "34FA0231091A407D",
           type: "random",
-          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
+      id: "7F0907D8078A5B49",
       x: 1.6,
-      y: 25.9,
+      y: 15.4,
       dependencies: [
         "3F0A5D742CD3824B",
       ],
-      size: 1.0,
       optional: true,
-      id: "7F0907D8078A5B49",
       tasks: [
         {
           id: "6C5D40932890906F",
           type: "item",
           item: {
-            id: "aquaculture:bluegill_bucket",
             count: 1,
+            id: "aquaculture:bluegill_bucket",
           },
         },
       ],
@@ -1288,20 +1170,19 @@
       ],
     },
     {
-      x: 4.8,
-      y: 21.4,
+      id: "1DA2A3DA85F0D8E3",
+      x: 1.6,
+      y: 28.9,
       dependencies: [
         "5725EBA92DB30330",
       ],
-      size: 1.0,
-      id: "1DA2A3DA85F0D8E3",
       tasks: [
         {
           id: "799EB8669354CAA6",
           type: "item",
           item: {
-            id: "aquaculture:fish_mount",
             count: 1,
+            id: "aquaculture:fish_mount",
           },
           count: 2,
         },
@@ -1315,13 +1196,15 @@
       ],
     },
     {
-      icon: {
-        id: "aquaculture:goldfish",
-        count: 1,
-      },
+      id: "48AAADF6F760D852",
       x: 6.4,
-      y: 19.9,
+      y: 21.4,
       shape: "hexagon",
+      size: 1.5,
+      icon: {
+        count: 1,
+        id: "aquaculture:goldfish",
+      },
       dependencies: [
         "094DD1EA7A617D1C",
         "7A8A2CA687430EBF",
@@ -1332,9 +1215,10 @@
         "2538A5FBCEDEC4A9",
         "5725EBA92DB30330",
         "25D619A250B95BFD",
+        "37B7D47BFBE38314",
+        "38D2A41D591940A4",
+        "68B39C312E1DC490",
       ],
-      size: 1.5,
-      id: "48AAADF6F760D852",
       tasks: [
         {
           id: "51A8490463D8846A",
@@ -1350,42 +1234,40 @@
         {
           id: "64FEDDF56E4D8E44",
           type: "random",
-          exclude_from_claim_all: true,
           table_id: 379532711335085,
         },
       ],
     },
     {
+      id: "14A1D55B22A1602D",
       x: 0.0,
-      y: 30.0,
+      y: 33.0,
       dependencies: [
         "774FF50ED4370008",
       ],
-      size: 1.0,
-      id: "14A1D55B22A1602D",
       tasks: [
         {
           id: "11BD9C67FB1ACA75",
           type: "item",
           item: {
-            id: "aquaculture:driftwood",
             count: 1,
+            id: "aquaculture:driftwood",
           },
         },
         {
           id: "714DD43F82EC4F42",
           type: "item",
           item: {
-            id: "aquaculture:tin_can",
             count: 1,
+            id: "aquaculture:tin_can",
           },
         },
         {
           id: "590BF7B816799D27",
           type: "item",
           item: {
-            id: "aquaculture:fish_bones",
             count: 1,
+            id: "aquaculture:fish_bones",
           },
         },
       ],
@@ -1398,20 +1280,19 @@
       ],
     },
     {
+      id: "6A563D311337982B",
       x: 1.6,
-      y: 31.5,
+      y: 34.5,
       dependencies: [
         "14A1D55B22A1602D",
       ],
-      size: 1.0,
-      id: "6A563D311337982B",
       tasks: [
         {
           id: "4A9B856492E0FDAB",
           type: "item",
           item: {
-            id: "aquaculture:message_in_a_bottle",
             count: 1,
+            id: "aquaculture:message_in_a_bottle",
           },
         },
       ],
@@ -1424,28 +1305,27 @@
       ],
     },
     {
+      id: "502D3E3FD9B95E23",
       x: 1.6,
-      y: 30.0,
+      y: 33.0,
       dependencies: [
         "14A1D55B22A1602D",
       ],
-      size: 1.0,
-      id: "502D3E3FD9B95E23",
       tasks: [
         {
           id: "3B12D6F5477D1246",
           type: "item",
           item: {
-            id: "aquaculture:box",
             count: 1,
+            id: "aquaculture:box",
           },
         },
         {
           id: "07796708916DF167",
           type: "item",
           item: {
-            id: "aquaculture:lockbox",
             count: 1,
+            id: "aquaculture:lockbox",
           },
         },
       ],
@@ -1458,26 +1338,24 @@
         {
           id: "426E946E601317E7",
           type: "random",
-          exclude_from_claim_all: true,
           table_id: 2582982951349054,
         },
       ],
     },
     {
+      id: "4B9A7D008B5EA0CF",
       x: 3.2,
-      y: 30.0,
+      y: 33.0,
       dependencies: [
         "502D3E3FD9B95E23",
       ],
-      size: 1.0,
-      id: "4B9A7D008B5EA0CF",
       tasks: [
         {
           id: "00E10ADD159049D9",
           type: "item",
           item: {
-            id: "aquaculture:treasure_chest",
             count: 1,
+            id: "aquaculture:treasure_chest",
           },
         },
       ],
@@ -1490,26 +1368,24 @@
         {
           id: "0DD09735D25E78C8",
           type: "random",
-          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
+      id: "4ED77B1D96C17159",
       x: 4.8,
-      y: 30.0,
+      y: 33.0,
       dependencies: [
         "4B9A7D008B5EA0CF",
       ],
-      size: 1.0,
-      id: "4ED77B1D96C17159",
       tasks: [
         {
           id: "2273F7473DB3558F",
           type: "item",
           item: {
-            id: "aquaculture:neptunes_bounty",
             count: 1,
+            id: "aquaculture:neptunes_bounty",
           },
         },
       ],
@@ -1522,26 +1398,25 @@
         {
           id: "6A0C6F44F8D6207C",
           type: "random",
-          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
+      id: "47FE050D1E620472",
       x: 6.4,
-      y: 30.0,
+      y: 33.0,
+      size: 1.5,
       dependencies: [
         "4ED77B1D96C17159",
       ],
-      size: 1.5,
-      id: "47FE050D1E620472",
       tasks: [
         {
           id: "79C948389271DA0B",
           type: "item",
           item: {
-            id: "aquaculture:neptunium_ingot",
             count: 1,
+            id: "aquaculture:neptunium_ingot",
           },
           count: 8,
         },
@@ -1555,28 +1430,27 @@
         {
           id: "64F09B89D0F447C4",
           type: "random",
-          exclude_from_claim_all: true,
           table_id: 379532711335085,
         },
       ],
     },
     {
+      id: "5114D3CA37D6DAF3",
       x: 8.0,
-      y: 30.0,
+      y: 33.0,
       shape: "gear",
+      size: 1.5,
       dependencies: [
         "47FE050D1E620472",
         "074BB561B0C57477",
       ],
-      size: 1.5,
-      id: "5114D3CA37D6DAF3",
       tasks: [
         {
           id: "22BB26E8E69A160C",
           type: "item",
           item: {
-            id: "aquaculture:neptunium_fishing_rod",
             count: 1,
+            id: "aquaculture:neptunium_fishing_rod",
           },
         },
       ],
@@ -1589,42 +1463,40 @@
         {
           id: "0660F76A9CA6C787",
           type: "random",
-          exclude_from_claim_all: true,
           table_id: 379532711335085,
         },
       ],
     },
     {
+      id: "4EB353C68F2CF88C",
       x: 8.0,
-      y: 31.5,
+      y: 34.5,
       dependencies: [
         "47FE050D1E620472",
       ],
-      size: 1.0,
-      id: "4EB353C68F2CF88C",
       tasks: [
         {
           id: "19F65FF3FEC9E6CF",
           type: "item",
           item: {
-            id: "aquaculture:neptunium_pickaxe",
             count: 1,
+            id: "aquaculture:neptunium_pickaxe",
           },
         },
         {
           id: "5FE3DDDD7E677B10",
           type: "item",
           item: {
-            id: "aquaculture:neptunium_sword",
             count: 1,
+            id: "aquaculture:neptunium_sword",
           },
         },
         {
           id: "43A9564A584504F6",
           type: "item",
           item: {
-            id: "aquaculture:neptunium_axe",
             count: 1,
+            id: "aquaculture:neptunium_axe",
           },
         },
       ],
@@ -1637,21 +1509,20 @@
       ],
     },
     {
+      id: "2C98AA08BDD35444",
       x: 8.0,
-      y: 28.5,
+      y: 31.5,
       dependencies: [
         "47FE050D1E620472",
       ],
-      size: 1.0,
       optional: true,
-      id: "2C98AA08BDD35444",
       tasks: [
         {
           id: "0518E4FBCD125EDC",
           type: "item",
           item: {
-            id: "aquaculture:neptunium_bow",
             count: 1,
+            id: "aquaculture:neptunium_bow",
           },
         },
       ],
@@ -1664,44 +1535,43 @@
       ],
     },
     {
+      id: "20F9AB53A4D695C7",
       x: 8.0,
-      y: 33.0,
+      y: 36.0,
       dependencies: [
         "47FE050D1E620472",
       ],
-      size: 1.0,
-      id: "20F9AB53A4D695C7",
       tasks: [
         {
           id: "42B08897CA555B28",
           type: "item",
           item: {
-            id: "aquaculture:neptunium_helmet",
             count: 1,
+            id: "aquaculture:neptunium_helmet",
           },
         },
         {
           id: "1FDE85583A2F6528",
           type: "item",
           item: {
-            id: "aquaculture:neptunium_chestplate",
             count: 1,
+            id: "aquaculture:neptunium_chestplate",
           },
         },
         {
           id: "530E3F7206FAA38E",
           type: "item",
           item: {
-            id: "aquaculture:neptunium_leggings",
             count: 1,
+            id: "aquaculture:neptunium_leggings",
           },
         },
         {
           id: "0FE6166D4955EB05",
           type: "item",
           item: {
-            id: "aquaculture:neptunium_boots",
             count: 1,
+            id: "aquaculture:neptunium_boots",
           },
         },
       ],
@@ -1714,14 +1584,12 @@
         {
           id: "3FE14E1D48273B8A",
           type: "random",
-          exclude_from_claim_all: true,
           table_id: 379532711335085,
         },
       ],
     },
   ],
-  quest_links: [
-  ],
+  quest_links: [ ],
   images: [
     {
       x: 5.4,
@@ -1730,7 +1598,10 @@
       height: 1.4375,
       rotation: 0.0,
       image: "gspack:textures/quests/aquaculture_header.png",
-      id: "7BDA9CF2EDBFB6B1",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false,
     },
     {
       x: 1.0412,
@@ -1739,7 +1610,10 @@
       height: 0.6,
       rotation: 0.0,
       image: "gspack:textures/quests/aquaculture_freshwater.png",
-      id: "0D6157EFAA18031E",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false,
     },
     {
       x: 1.0588,
@@ -1748,16 +1622,22 @@
       height: 0.6,
       rotation: 0.0,
       image: "gspack:textures/quests/aquaculture_rod.png",
-      id: "22AEA32B2AD94C01",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false,
     },
     {
       x: 1.2706,
-      y: 27.3,
+      y: 30.3,
       width: 3.7412,
       height: 0.6,
       rotation: 0.0,
       image: "gspack:textures/quests/aquaculture_junk.png",
-      id: "6E1D0B49A2C612E1",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false,
     },
     {
       x: 0.1588,
@@ -1766,7 +1646,10 @@
       height: 0.6,
       rotation: 0.0,
       image: "gspack:textures/quests/aquaculture_knife.png",
-      id: "0C9697A26029668E",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false,
     },
   ],
 }

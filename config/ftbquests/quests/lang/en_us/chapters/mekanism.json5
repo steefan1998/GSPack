@@ -347,6 +347,8 @@
     "- &5Refined Obsidian&r makes Atomic Alloy.",
     "",
     "It needs power (FE). Any generator in the pack works.",
+    "",
+    "&6GSPack:&r the recipe uses two &eIron Furnaces&r (Iron Furnaces mod) instead of normal furnaces.",
   ],
   "quest.6D241DF093DDFA4A.title": "Metallurgic Infuser",
   "quest.6D8EE069FED923AC.quest_desc": [

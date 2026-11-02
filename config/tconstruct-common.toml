@@ -1,7 +1,7 @@
 #Everything to do with gameplay
 [gameplay]
 	#Set this to false to disable new players spawning with the Tinkers' Book.
-	shouldSpawnWithTinkersBook = true
+	shouldSpawnWithTinkersBook = false
 	#If true, makes the knockback resistance attribute sync its value to client side. This allows modifiers such as springing and flinging to work properly.
 	#If false, knockback resistance will not sync so will hopefully be 0 client side. Can be disabled in case another mod relied on it not syncing.
 	syncKnockbackResistance = true

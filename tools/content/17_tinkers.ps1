@@ -10,6 +10,8 @@ The guide books explain everything:
 - &eMighty Smelting&r: alloys and advanced smelting.
 - &eFantastic Foundry&r: the Foundry.
 - &eTinkers' Gadgetry&r: gadgets and extras.
+
+Craft &eMaterials and You&r from a &eBook&r and a &ePattern&r. In GSPack you don't get it automatically when you join a world.
 '@
 Q 'books' 'The Library' 'tconstruct:puny_smelting;tconstruct:mighty_smelting;tconstruct:fantastic_foundry;tconstruct:tinkers_gadgetry' 'book' 'xp:50' -opt -desc 'Collect all the guide books.'
 Q 'pattern' 'Patterns' 'tconstruct:pattern*8' 'book' 'xp:25' -desc 'Blank patterns are made from planks and sticks. The Part Builder uses them to make tool parts.'

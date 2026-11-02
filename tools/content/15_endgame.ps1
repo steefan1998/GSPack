@@ -13,6 +13,8 @@ To reach it you need five &ecores&r, one for each pillar of the pack. Each core 
 Combine the five cores into a &dCreative Singularity&r. Every &ecreative item&r needs one.
 
 Craft eight creative items and you can make the &6Trophy of Infinity&r.
+
+Creative items are made in an &eElite Crafting Table&r and the trophy in an &eUltimate Crafting Table&r (Extended Crafting).
 {@pagebreak}
 &eThe five cores&r
 - &bTechnological Core&r: Mekanism, Oritech, Applied Energistics 2
@@ -70,6 +72,34 @@ All five cores, collapsed into a single point.
 Every creative item needs one Creative Singularity, so you will need several. Automate your pillars!
 '@
 
+# ===== Extended Crafting tables =====
+Q 'ec_elite' 'Elite Crafting Table' 'extendedcrafting:elite_table' 'intro' 'xp:500;table:epic' -size 1.5 -desc @'
+Creative items are too big for a normal crafting table: they are crafted in a 7x7 &eElite Crafting Table&r from &bExtended Crafting&r.
+
+Work your way up: &eBasic&r (3x3), &eAdvanced&r (5x5) and &eElite&r (7x7). In GSPack each table needs materials from other mods:
+- Basic: a steel block and a Basic Control Circuit
+- Advanced: an Imperium Block and an Advanced Control Circuit
+- Elite: a Refined Obsidian Block and an Elite Control Circuit
+
+The creative item recipes also use &eBlack Iron Ingots&r, &eElite Components&r and &eCrystaltine Ingots&r. Check JEI!
+'@
+Q 'ec_ultimate' 'Ultimate Crafting Table' 'extendedcrafting:ultimate_table' 'ec_elite' 'xp:1000;table:epic' -size 1.5 -desc @'
+The Trophy of Infinity is crafted in a 9x9 &eUltimate Crafting Table&r.
+
+In GSPack it needs a &5Vibranium Block&r (Allthemodium) and an &eUltimate Control Circuit&r (Mekanism), on top of the Ultimate Components and Catalyst.
+'@
+Q 'ec_singularity' 'Ultimate Singularity' 'extendedcrafting:ultimate_singularity' 'ec_ultimate' 'xp:1000;table:epic' -size 1.5 -shape 'hexagon' -desc @'
+The heart of the Trophy of Infinity: the &dUltimate Singularity&r from Extended Crafting.
+
+In GSPack it has its own recipe in the 9x9 &eUltimate Crafting Table&r:
+- All &e19 singularities&r. Each one is compressed from 10,000 of one material in the &eCompressor&r: iron, gold, copper, tin, steel, diamond and more.
+- A &dCreative Singularity&r in the middle.
+- 4 each of Antimatter Pellets, Insanium Gemstone Blocks, Unobtainium Blocks and Void Metal.
+- 24 Black Iron Blocks, 5 Nether Star Blocks, 4 Crystaltine Blocks, 4 Ultimate Components, 4 Ultimate Catalysts and 4 Infinite Control Circuits.
+
+Start your compressors early and automate the materials! Check JEI for the full recipe.
+'@
+
 # ===== Creative items =====
 $creative = @(
     @('c_energy_cube', 'Creative Energy Cube', 'mekanism:creative_energy_cube', 'Infinite Energy Cubes and Antimatter around a singularity. Endless power.', $true),
@@ -93,16 +123,25 @@ $creative = @(
 foreach ($ci in $creative) {
     $key, $title, $item, $text, $needed = $ci
     $extra = if ($needed) { '&6Needed for the Trophy of Infinity.&r' } else { '&7Optional: not needed for the trophy.&r' }
-    Q $key $title $item 'singularity' 'xp:500;table:epic' -opt:(-not $needed) -desc "&7Recipe:&r a Creative Singularity in the middle. $text||$extra"
+    Q $key $title $item 'singularity,ec_elite' 'xp:500;table:epic' -opt:(-not $needed) -desc "&7Recipe (Elite Crafting Table, 7x7):&r a Creative Singularity in the middle. $text Plus 16 Black Iron Ingots, 4 Elite Components and 4 Crystaltine Ingots.||$extra"
 }
 
 # ===== The trophy =====
-Q 'trophy' 'Trophy of Infinity' 'gspack:infinity_trophy' (($creative | Where-Object { $_[4] } | ForEach-Object { $_[0] }) -join ',') 'lvl:100' -size 3 -shape 'gear' -desc @'
+# The trophy needs the capstone item of most mods, so it also waits for those chapters' final quests.
+$capstones = 'mekanism/mekasuit,ae2/qcomputer,oritech/black_hole,ltx/master,railcraft/electric,tinkers/queens_slime,thaumaturge/pearl,apotheosis/pearl,equivox/klein_omega,mystical/insanium,evilcraft/infuser,roots/crystal_staff,aether/valkyrie,allthemodium/complete,stellaris/star_crawler,aquaculture/neptunium,twilight/trophies'
+Q 'trophy' 'Trophy of Infinity' 'gspack:infinity_trophy' ((@($creative | Where-Object { $_[4] } | ForEach-Object { $_[0] }) + 'ec_ultimate' + 'ec_singularity' + $capstones) -join ',') 'lvl:100' -size 3 -shape 'gear' -desc @'
 &6You did it!&r
 
 The Trophy of Infinity is proof that you have mastered every corner of GSPack: technology, magic, farming, exploration and space.
+{@pagebreak}
+&7Recipe (Ultimate Crafting Table, 9x9), from the outside in:&r
+- The eight &2Twilight Forest&r boss trophies, 20 Crystaltine Blocks and 4 Nether Star Blocks.
+- The top item of 20 mods: MekaSuit Bodyarmor, Quantum Core, Black Hole, Infinite Energy Cell Array, Electric Locomotive, Nitro Energy Cell, Queen's Slime Ingot, Primordial Pearl, Godforged Pearl, Klein Star Omega, Insanium Gemstone Block, Dark Power Gem Block, Crystal Staff, Valkyrie Wings, Unobtainium-Vibranium Block, Heart of Luna and Star Crawler trophies, Neptunium Block, Novite Block and Gravitite Block. Plus 4 Creative Singularities.
+- The eight creative items: Creative Energy Cube, Creative Storage Cell, Creative Oritech Storage, Creative Powah Cell, Creative Essence, Infinity Upgrade, Creative Fluid Tank and Creative Energy Cell. Plus 4 Infinite Control Circuits and 4 Crystaltine Blocks.
+- 4 more Creative Singularities and 4 Ultimate Components.
+- In the very middle: the &dUltimate Singularity&r.
 
-&7Recipe:&r a Creative Singularity in the middle, surrounded by the Creative Energy Cube, Creative Storage Cell, Creative Oritech Storage, Creative Powah Cell, Creative Essence, Infinity Upgrade, Creative Fluid Tank and Creative Energy Cell.
+That is &d16 Creative Singularities&r in total, counting the ones in the creative items.
 
 Place it somewhere everyone can see it. Thank you for playing GSPack!
 '@

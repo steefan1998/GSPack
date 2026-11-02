@@ -16,6 +16,8 @@ The &eMetallurgic Infuser&r is the first Mekanism machine. It combines a materia
 - &5Refined Obsidian&r makes Atomic Alloy.
 
 It needs power (FE). Any generator in the pack works.
+
+&6GSPack:&r the recipe uses two &eIron Furnaces&r (Iron Furnaces mod) instead of normal furnaces.
 '@
 Q 'circuit' 'Basic Control Circuit' 'mekanism:basic_control_circuit*8' 'infuser' 'xp:50' -desc 'Osmium + redstone in the Infuser. Almost every Mekanism machine needs at least one.'
 Q 'alloy' 'Infused Alloy' 'mekanism:alloy_infused*8' 'infuser' 'xp:50' -desc 'Iron + redstone. Used in tier 2 parts and many machines.'

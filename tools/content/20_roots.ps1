@@ -19,7 +19,7 @@ Q 'staff' 'The Staff' 'rootsclassic:staff;rootsclassic:imbuer' 'spell' 'xp:150;t
 Q 'crystal_staff' 'Crystal Staff' 'rootsclassic:crystal_staff' 'staff' 'xp:150' -opt -desc 'An advanced staff for the most powerful magic. See the Runic Tablet for how to make it.'
 
 # ===== Rituals =====
-Q 'altar' 'Altar & Brazier' 'rootsclassic:altar;rootsclassic:brazier' 'mortar' 'xp:100;table:arcane' -desc 'Rituals are performed at an &eAltar&r. The &eBrazier&r burns incense during the ritual. Each ritual needs its own ingredients and standing stones: see the Runic Tablet.'
+Q 'altar' 'Altar & Brazier' 'rootsclassic:altar;rootsclassic:brazier' 'mortar' 'xp:100;table:arcane' -desc 'Rituals are performed at an &eAltar&r. The &eBrazier&r burns incense during the ritual. Each ritual needs its own ingredients and standing stones: see the Runic Tablet. &6GSPack:&r the Altar needs an &eInferium Block&r from Mystical Agriculture instead of a gold block.'
 Q 'stones' 'Standing Stones' 'rootsclassic:mundane_standing_stone*4;rootsclassic:attuned_standing_stone*4' 'altar' 'xp:100' -desc 'Standing stones around the altar power rituals.'
 Q 'magic_stones' 'Living Stones' 'rootsclassic:grower_standing_stone;rootsclassic:healer_standing_stone' 'stones' 'xp:100' -opt -desc 'Some standing stones have a lasting effect: the Grower Stone boosts plant growth and the Healer Stone gives regeneration nearby.'
 

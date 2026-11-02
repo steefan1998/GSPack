@@ -24,6 +24,8 @@ The &eTeleport Pad&r is your gateway to the Allthemodium dimensions.
 - The End: &eThe Beyond&r
 
 Use a pad on the other side to come back. Look at a pad with Jade to see its target.
+
+&6GSPack:&r the pad needs a &eZanite Gemstone&r from The Aether II instead of an ender pearl.
 '@
 Q 'mining_dim' 'The Mining Dimension' 'dim:allthemodium:mining' 'teleport_pad' 'xp:150;table:atm' -icon 'minecraft:deepslate' -desc @'
 A whole world made for mining. Ores are much more common here, and nobody minds if you dig huge holes.

@@ -1,28 +1,28 @@
 {
   id: "031F584310838E55",
   group: "105EE503AFE85CA5",
-  order_index: 3,
-  icon: {
-    id: "tconstruct:smeltery_controller",
-    count: 1,
-  },
+  order_index: 19,
   filename: "tinkers",
+  icon: {
+    count: 1,
+    id: "tconstruct:smeltery_controller",
+  },
   default_quest_shape: "",
   default_hide_dependency_lines: true,
   quests: [
     {
+      id: "017A95EACDF1782B",
       x: 0.0,
       y: 2.7,
       shape: "gear",
       size: 1.5,
-      id: "017A95EACDF1782B",
       tasks: [
         {
           id: "746D85E236D878F4",
           type: "item",
           item: {
-            id: "tconstruct:materials_and_you",
             count: 1,
+            id: "tconstruct:materials_and_you",
           },
         },
       ],
@@ -35,51 +35,49 @@
         {
           id: "20FB526102961C2F",
           type: "random",
-          exclude_from_claim_all: true,
           table_id: 4224964620844649,
         },
       ],
     },
     {
+      id: "1AFC7DD9BCDF5AF3",
       x: 1.6,
       y: 2.7,
       dependencies: [
         "017A95EACDF1782B",
       ],
-      size: 1.0,
       optional: true,
-      id: "1AFC7DD9BCDF5AF3",
       tasks: [
         {
           id: "14D8D2E62BDC7338",
           type: "item",
           item: {
-            id: "tconstruct:puny_smelting",
             count: 1,
+            id: "tconstruct:puny_smelting",
           },
         },
         {
           id: "492E9666CE7AEE1F",
           type: "item",
           item: {
-            id: "tconstruct:mighty_smelting",
             count: 1,
+            id: "tconstruct:mighty_smelting",
           },
         },
         {
           id: "1EA4A070EF947989",
           type: "item",
           item: {
-            id: "tconstruct:fantastic_foundry",
             count: 1,
+            id: "tconstruct:fantastic_foundry",
           },
         },
         {
           id: "72BDFAB64ED9B11B",
           type: "item",
           item: {
-            id: "tconstruct:tinkers_gadgetry",
             count: 1,
+            id: "tconstruct:tinkers_gadgetry",
           },
         },
       ],
@@ -92,20 +90,19 @@
       ],
     },
     {
+      id: "184A4D69A4E57434",
       x: 1.6,
       y: 4.2,
       dependencies: [
         "017A95EACDF1782B",
       ],
-      size: 1.0,
-      id: "184A4D69A4E57434",
       tasks: [
         {
           id: "0AC27A82B6F93016",
           type: "item",
           item: {
-            id: "tconstruct:pattern",
             count: 1,
+            id: "tconstruct:pattern",
           },
           count: 8,
         },
@@ -119,20 +116,19 @@
       ],
     },
     {
+      id: "00732211D4826FB7",
       x: 3.2,
       y: 4.2,
       dependencies: [
         "184A4D69A4E57434",
       ],
-      size: 1.0,
-      id: "00732211D4826FB7",
       tasks: [
         {
           id: "404921AB3554EB12",
           type: "item",
           item: {
-            id: "tconstruct:part_builder",
             count: 1,
+            id: "tconstruct:part_builder",
           },
         },
       ],
@@ -145,20 +141,19 @@
       ],
     },
     {
+      id: "192B269B3D5C45EE",
       x: 4.8,
       y: 4.2,
       dependencies: [
         "00732211D4826FB7",
       ],
-      size: 1.0,
-      id: "192B269B3D5C45EE",
       tasks: [
         {
           id: "16CFB6D6E26CB385",
           type: "item",
           item: {
-            id: "tconstruct:tinker_station",
             count: 1,
+            id: "tconstruct:tinker_station",
           },
         },
       ],
@@ -171,20 +166,19 @@
       ],
     },
     {
+      id: "2A2EB1BD71730A85",
       x: 6.4,
       y: 4.2,
       dependencies: [
         "192B269B3D5C45EE",
       ],
-      size: 1.0,
-      id: "2A2EB1BD71730A85",
       tasks: [
         {
           id: "3B234C9013221746",
           type: "item",
           item: {
-            id: "tconstruct:pickaxe",
             count: 1,
+            id: "tconstruct:pickaxe",
           },
         },
       ],
@@ -197,27 +191,25 @@
         {
           id: "0E6F35DE8948990A",
           type: "random",
-          exclude_from_claim_all: true,
           table_id: 4224964620844649,
         },
       ],
     },
     {
+      id: "4E2B1DF5E928B05E",
       x: 1.6,
       y: 1.2,
       dependencies: [
         "017A95EACDF1782B",
       ],
-      size: 1.0,
       optional: true,
-      id: "4E2B1DF5E928B05E",
       tasks: [
         {
           id: "71749530F25ADF1D",
           type: "item",
           item: {
-            id: "tconstruct:crafting_station",
             count: 1,
+            id: "tconstruct:crafting_station",
           },
         },
       ],
@@ -230,17 +222,17 @@
       ],
     },
     {
+      id: "227160423E833F96",
       x: 0.0,
       y: 7.05,
       size: 1.5,
-      id: "227160423E833F96",
       tasks: [
         {
           id: "19B0B81FC8DC974C",
           type: "item",
           item: {
-            id: "tconstruct:grout",
             count: 1,
+            id: "tconstruct:grout",
           },
           count: 16,
         },
@@ -254,20 +246,19 @@
       ],
     },
     {
+      id: "1CA30EA3B7821320",
       x: 1.6,
       y: 7.05,
       dependencies: [
         "227160423E833F96",
       ],
-      size: 1.0,
-      id: "1CA30EA3B7821320",
       tasks: [
         {
           id: "1F99CD10B599D9DF",
           type: "item",
           item: {
-            id: "tconstruct:seared_brick",
             count: 1,
+            id: "tconstruct:seared_brick",
           },
           count: 32,
         },
@@ -281,28 +272,27 @@
       ],
     },
     {
+      id: "71D7A17F40C06DE9",
       x: 3.2,
       y: 7.05,
       dependencies: [
         "1CA30EA3B7821320",
       ],
-      size: 1.0,
-      id: "71D7A17F40C06DE9",
       tasks: [
         {
           id: "1E27FB975384B212",
           type: "item",
           item: {
-            id: "tconstruct:seared_melter",
             count: 1,
+            id: "tconstruct:seared_melter",
           },
         },
         {
           id: "53C7DA6980F64ECF",
           type: "item",
           item: {
-            id: "tconstruct:seared_heater",
             count: 1,
+            id: "tconstruct:seared_heater",
           },
         },
       ],
@@ -315,36 +305,35 @@
       ],
     },
     {
+      id: "708FA1BD302D4CC6",
       x: 4.8,
       y: 7.05,
       dependencies: [
         "71D7A17F40C06DE9",
       ],
-      size: 1.0,
-      id: "708FA1BD302D4CC6",
       tasks: [
         {
           id: "0CB6654FCC6A9A7D",
           type: "item",
           item: {
-            id: "tconstruct:seared_table",
             count: 1,
+            id: "tconstruct:seared_table",
           },
         },
         {
           id: "527D2CABB7463CF4",
           type: "item",
           item: {
-            id: "tconstruct:seared_basin",
             count: 1,
+            id: "tconstruct:seared_basin",
           },
         },
         {
           id: "25CE1FD10BEE90EF",
           type: "item",
           item: {
-            id: "tconstruct:seared_faucet",
             count: 1,
+            id: "tconstruct:seared_faucet",
           },
         },
       ],
@@ -357,28 +346,27 @@
       ],
     },
     {
+      id: "34361E5A22B99EDF",
       x: 6.4,
       y: 7.05,
       dependencies: [
         "708FA1BD302D4CC6",
       ],
-      size: 1.0,
-      id: "34361E5A22B99EDF",
       tasks: [
         {
           id: "0E7CDF62D0F17956",
           type: "item",
           item: {
-            id: "tconstruct:ingot_cast",
             count: 1,
+            id: "tconstruct:ingot_cast",
           },
         },
         {
           id: "7D96A229D739A038",
           type: "item",
           item: {
-            id: "tconstruct:pick_head_cast",
             count: 1,
+            id: "tconstruct:pick_head_cast",
           },
         },
       ],
@@ -391,37 +379,37 @@
       ],
     },
     {
+      id: "1E59D7D2D51476B9",
       x: 6.4,
       y: 8.55,
       shape: "hexagon",
+      size: 1.5,
       dependencies: [
         "708FA1BD302D4CC6",
       ],
-      size: 1.5,
-      id: "1E59D7D2D51476B9",
       tasks: [
         {
           id: "1934BD17980BED18",
           type: "item",
           item: {
-            id: "tconstruct:smeltery_controller",
             count: 1,
+            id: "tconstruct:smeltery_controller",
           },
         },
         {
           id: "4E99D13E7705161E",
           type: "item",
           item: {
-            id: "tconstruct:seared_drain",
             count: 1,
+            id: "tconstruct:seared_drain",
           },
         },
         {
           id: "0FD42181978EE5FB",
           type: "item",
           item: {
-            id: "tconstruct:seared_fuel_tank",
             count: 1,
+            id: "tconstruct:seared_fuel_tank",
           },
         },
       ],
@@ -434,43 +422,41 @@
         {
           id: "4387E447DCF59B85",
           type: "random",
-          exclude_from_claim_all: true,
           table_id: 253752461985528,
         },
       ],
     },
     {
+      id: "54366F7975C203CD",
       x: 8.0,
       y: 8.55,
       dependencies: [
         "1E59D7D2D51476B9",
       ],
-      size: 1.0,
       optional: true,
-      id: "54366F7975C203CD",
       tasks: [
         {
           id: "24A20541FF3F5CD3",
           type: "item",
           item: {
-            id: "tconstruct:seared_ingot_gauge",
             count: 1,
+            id: "tconstruct:seared_ingot_gauge",
           },
         },
         {
           id: "06E3248C818CE1C1",
           type: "item",
           item: {
-            id: "tconstruct:seared_casting_tank",
             count: 1,
+            id: "tconstruct:seared_casting_tank",
           },
         },
         {
           id: "0C9CA1FBBC610F39",
           type: "item",
           item: {
-            id: "tconstruct:seared_chute",
             count: 1,
+            id: "tconstruct:seared_chute",
           },
         },
       ],
@@ -483,29 +469,28 @@
       ],
     },
     {
+      id: "7CB0CF18DA267CF4",
       x: 9.6,
       y: 10.05,
       dependencies: [
         "1E59D7D2D51476B9",
         "0DBE2018B2772C71",
       ],
-      size: 1.0,
-      id: "7CB0CF18DA267CF4",
       tasks: [
         {
           id: "15346C93199A56D0",
           type: "item",
           item: {
-            id: "tconstruct:foundry_controller",
             count: 1,
+            id: "tconstruct:foundry_controller",
           },
         },
         {
           id: "113523FBDDAB544B",
           type: "item",
           item: {
-            id: "tconstruct:scorched_brick",
             count: 1,
+            id: "tconstruct:scorched_brick",
           },
           count: 32,
         },
@@ -519,27 +504,25 @@
         {
           id: "5D2FF8CB8B2726DE",
           type: "random",
-          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
+      id: "7E43D015863594FB",
       x: 11.2,
       y: 10.05,
       dependencies: [
         "7CB0CF18DA267CF4",
       ],
-      size: 1.0,
       optional: true,
-      id: "7E43D015863594FB",
       tasks: [
         {
           id: "6B4A72AAFE0273A1",
           type: "item",
           item: {
-            id: "tconstruct:scorched_alloyer",
             count: 1,
+            id: "tconstruct:scorched_alloyer",
           },
         },
       ],
@@ -552,17 +535,16 @@
       ],
     },
     {
-      icon: {
-        id: "tconstruct:nether_grout",
-        count: 1,
-      },
+      id: "0DBE2018B2772C71",
       x: 8.0,
       y: 10.05,
+      icon: {
+        count: 1,
+        id: "tconstruct:nether_grout",
+      },
       dependencies: [
         "1E59D7D2D51476B9",
       ],
-      size: 1.0,
-      id: "0DBE2018B2772C71",
       tasks: [
         {
           id: "020EE766448E359C",
@@ -579,45 +561,45 @@
       ],
     },
     {
+      id: "7F2B9DACFB045F12",
       x: 0.0,
       y: 17.15,
+      size: 1.5,
       dependencies: [
         "2A2EB1BD71730A85",
         "1E59D7D2D51476B9",
       ],
-      size: 1.5,
-      id: "7F2B9DACFB045F12",
       tasks: [
         {
           id: "33070C5533D6074D",
           type: "item",
           item: {
-            id: "tconstruct:pickaxe",
             count: 1,
+            id: "tconstruct:pickaxe",
           },
         },
         {
           id: "5CECE336EA3FE678",
           type: "item",
           item: {
-            id: "tconstruct:hand_axe",
             count: 1,
+            id: "tconstruct:hand_axe",
           },
         },
         {
           id: "251868D34F5ADC23",
           type: "item",
           item: {
-            id: "tconstruct:mattock",
             count: 1,
+            id: "tconstruct:mattock",
           },
         },
         {
           id: "798077C2BA0EA8AA",
           type: "item",
           item: {
-            id: "tconstruct:sword",
             count: 1,
+            id: "tconstruct:sword",
           },
         },
       ],
@@ -630,50 +612,48 @@
         {
           id: "6C875826F4E83A17",
           type: "random",
-          exclude_from_claim_all: true,
           table_id: 253752461985528,
         },
       ],
     },
     {
+      id: "7AD7DEDE561056D1",
       x: 1.6,
       y: 17.15,
       dependencies: [
         "7F2B9DACFB045F12",
       ],
-      size: 1.0,
-      id: "7AD7DEDE561056D1",
       tasks: [
         {
           id: "689179952EBE6623",
           type: "item",
           item: {
-            id: "tconstruct:sledge_hammer",
             count: 1,
+            id: "tconstruct:sledge_hammer",
           },
         },
         {
           id: "2D385A9BE24EA983",
           type: "item",
           item: {
-            id: "tconstruct:vein_hammer",
             count: 1,
+            id: "tconstruct:vein_hammer",
           },
         },
         {
           id: "50920F6478683354",
           type: "item",
           item: {
-            id: "tconstruct:excavator",
             count: 1,
+            id: "tconstruct:excavator",
           },
         },
         {
           id: "4D1F4CB2832FC535",
           type: "item",
           item: {
-            id: "tconstruct:broad_axe",
             count: 1,
+            id: "tconstruct:broad_axe",
           },
         },
       ],
@@ -686,42 +666,40 @@
         {
           id: "7924F591F7AFF345",
           type: "random",
-          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
+      id: "61DF41BB084F1CC2",
       x: 1.6,
       y: 18.65,
       dependencies: [
         "7F2B9DACFB045F12",
       ],
-      size: 1.0,
-      id: "61DF41BB084F1CC2",
       tasks: [
         {
           id: "325053A39332360A",
           type: "item",
           item: {
-            id: "tconstruct:cleaver",
             count: 1,
+            id: "tconstruct:cleaver",
           },
         },
         {
           id: "0E885B94A3A02B60",
           type: "item",
           item: {
-            id: "tconstruct:dagger",
             count: 1,
+            id: "tconstruct:dagger",
           },
         },
         {
           id: "6162554B4EF57A2D",
           type: "item",
           item: {
-            id: "tconstruct:scythe",
             count: 1,
+            id: "tconstruct:scythe",
           },
         },
       ],
@@ -734,28 +712,27 @@
       ],
     },
     {
+      id: "2B26CEAF2126CC4F",
       x: 1.6,
       y: 15.65,
       dependencies: [
         "7F2B9DACFB045F12",
       ],
-      size: 1.0,
-      id: "2B26CEAF2126CC4F",
       tasks: [
         {
           id: "7AA6CAF28FA6DF15",
           type: "item",
           item: {
-            id: "tconstruct:longbow",
             count: 1,
+            id: "tconstruct:longbow",
           },
         },
         {
           id: "05A3C57A6677ED3B",
           type: "item",
           item: {
-            id: "tconstruct:crossbow",
             count: 1,
+            id: "tconstruct:crossbow",
           },
         },
       ],
@@ -768,44 +745,43 @@
       ],
     },
     {
+      id: "6B3E005B0C35F78E",
       x: 1.6,
       y: 20.15,
       dependencies: [
         "7F2B9DACFB045F12",
       ],
-      size: 1.0,
-      id: "6B3E005B0C35F78E",
       tasks: [
         {
           id: "598C6B7367E69FDC",
           type: "item",
           item: {
-            id: "tconstruct:plate_helmet",
             count: 1,
+            id: "tconstruct:plate_helmet",
           },
         },
         {
           id: "2DF35383EAFE95B8",
           type: "item",
           item: {
-            id: "tconstruct:plate_chestplate",
             count: 1,
+            id: "tconstruct:plate_chestplate",
           },
         },
         {
           id: "39A348B5AA973C97",
           type: "item",
           item: {
-            id: "tconstruct:plate_leggings",
             count: 1,
+            id: "tconstruct:plate_leggings",
           },
         },
         {
           id: "608865E93F855A72",
           type: "item",
           item: {
-            id: "tconstruct:plate_boots",
             count: 1,
+            id: "tconstruct:plate_boots",
           },
         },
       ],
@@ -818,51 +794,49 @@
         {
           id: "6C733D69A400D806",
           type: "random",
-          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
+      id: "35613EB71F2B8A8B",
       x: 1.6,
       y: 14.15,
       dependencies: [
         "7F2B9DACFB045F12",
       ],
-      size: 1.0,
       optional: true,
-      id: "35613EB71F2B8A8B",
       tasks: [
         {
           id: "34179E50556BB2F1",
           type: "item",
           item: {
-            id: "tconstruct:travelers_helmet",
             count: 1,
+            id: "tconstruct:travelers_helmet",
           },
         },
         {
           id: "0DF7F3282C398BEF",
           type: "item",
           item: {
-            id: "tconstruct:travelers_chestplate",
             count: 1,
+            id: "tconstruct:travelers_chestplate",
           },
         },
         {
           id: "6CB162AF63199E12",
           type: "item",
           item: {
-            id: "tconstruct:travelers_leggings",
             count: 1,
+            id: "tconstruct:travelers_leggings",
           },
         },
         {
           id: "2903F34E4D7B552E",
           type: "item",
           item: {
-            id: "tconstruct:travelers_boots",
             count: 1,
+            id: "tconstruct:travelers_boots",
           },
         },
       ],
@@ -875,20 +849,19 @@
       ],
     },
     {
+      id: "709A2203ABF32C66",
       x: 1.6,
       y: 21.65,
       dependencies: [
         "7F2B9DACFB045F12",
       ],
-      size: 1.0,
-      id: "709A2203ABF32C66",
       tasks: [
         {
           id: "302B1D28251C6BF5",
           type: "item",
           item: {
-            id: "tconstruct:modifier_worktable",
             count: 1,
+            id: "tconstruct:modifier_worktable",
           },
         },
       ],
@@ -901,28 +874,27 @@
       ],
     },
     {
+      id: "17F980724602C603",
       x: 3.2,
       y: 21.65,
       dependencies: [
         "709A2203ABF32C66",
       ],
-      size: 1.0,
-      id: "17F980724602C603",
       tasks: [
         {
           id: "01870CAA605DF5F2",
           type: "item",
           item: {
-            id: "tconstruct:iron_reinforcement",
             count: 1,
+            id: "tconstruct:iron_reinforcement",
           },
         },
         {
           id: "4101D57E0E3C0859",
           type: "item",
           item: {
-            id: "tconstruct:obsidian_reinforcement",
             count: 1,
+            id: "tconstruct:obsidian_reinforcement",
           },
         },
       ],
@@ -935,20 +907,19 @@
       ],
     },
     {
+      id: "1EBD8DF876FCD3FF",
       x: 1.6,
       y: 12.65,
       dependencies: [
         "7F2B9DACFB045F12",
       ],
-      size: 1.0,
-      id: "1EBD8DF876FCD3FF",
       tasks: [
         {
           id: "58FC53827B408C35",
           type: "item",
           item: {
-            id: "tconstruct:repair_kit",
             count: 1,
+            id: "tconstruct:repair_kit",
           },
         },
       ],
@@ -961,21 +932,20 @@
       ],
     },
     {
+      id: "1493C91E0D023665",
       x: 3.2,
       y: 23.15,
       dependencies: [
         "709A2203ABF32C66",
         "7E8AE69DF83E0AED",
       ],
-      size: 1.0,
-      id: "1493C91E0D023665",
       tasks: [
         {
           id: "7C07779680DC1AFC",
           type: "item",
           item: {
-            id: "tconstruct:tinkers_anvil",
             count: 1,
+            id: "tconstruct:tinkers_anvil",
           },
         },
       ],
@@ -988,21 +958,20 @@
       ],
     },
     {
+      id: "4100A5B28A698C09",
       x: 4.8,
       y: 23.15,
       dependencies: [
         "1493C91E0D023665",
       ],
-      size: 1.0,
       optional: true,
-      id: "4100A5B28A698C09",
       tasks: [
         {
           id: "4F0053E82BC8D662",
           type: "item",
           item: {
-            id: "tconstruct:modifier_crystal",
             count: 1,
+            id: "tconstruct:modifier_crystal",
           },
         },
       ],
@@ -1015,23 +984,22 @@
         {
           id: "04D17F1E6CE458CA",
           type: "random",
-          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
+      id: "4FC3B0F3784C24EA",
       x: 0.0,
       y: 31.75,
       size: 1.5,
-      id: "4FC3B0F3784C24EA",
       tasks: [
         {
           id: "3666F1583365FFA4",
           type: "item",
           item: {
-            id: "tconstruct:sky_slime_ball",
             count: 1,
+            id: "tconstruct:sky_slime_ball",
           },
           count: 8,
         },
@@ -1039,8 +1007,8 @@
           id: "4E86D45669932B5A",
           type: "item",
           item: {
-            id: "tconstruct:ender_slime_ball",
             count: 1,
+            id: "tconstruct:ender_slime_ball",
           },
           count: 4,
         },
@@ -1054,26 +1022,24 @@
         {
           id: "0CF8CB01E29EE034",
           type: "random",
-          exclude_from_claim_all: true,
           table_id: 4224964620844649,
         },
       ],
     },
     {
+      id: "06FC8C9E607DF3B5",
       x: 1.6,
       y: 31.75,
       dependencies: [
         "4FC3B0F3784C24EA",
       ],
-      size: 1.0,
-      id: "06FC8C9E607DF3B5",
       tasks: [
         {
           id: "7E06D0A49FED3A81",
           type: "item",
           item: {
-            id: "tconstruct:slime_boots",
             count: 1,
+            id: "tconstruct:slime_boots",
           },
         },
       ],
@@ -1086,21 +1052,20 @@
       ],
     },
     {
+      id: "3161C829EE35DE67",
       x: 1.6,
       y: 33.25,
       dependencies: [
         "4FC3B0F3784C24EA",
       ],
-      size: 1.0,
       optional: true,
-      id: "3161C829EE35DE67",
       tasks: [
         {
           id: "1CFFB528DBD69BA6",
           type: "item",
           item: {
-            id: "tconstruct:sky_staff",
             count: 1,
+            id: "tconstruct:sky_staff",
           },
         },
       ],
@@ -1113,21 +1078,20 @@
       ],
     },
     {
+      id: "0905454AA1B5D214",
       x: 1.6,
       y: 30.25,
       dependencies: [
         "4FC3B0F3784C24EA",
       ],
-      size: 1.0,
       optional: true,
-      id: "0905454AA1B5D214",
       tasks: [
         {
           id: "01BD1C94F9C9FF17",
           type: "item",
           item: {
-            id: "tconstruct:sky_slime_crystal",
             count: 1,
+            id: "tconstruct:sky_slime_crystal",
           },
           count: 4,
         },
@@ -1141,21 +1105,20 @@
       ],
     },
     {
+      id: "4F90010E4665AC6E",
       x: 1.6,
       y: 34.75,
       dependencies: [
         "4FC3B0F3784C24EA",
         "1E59D7D2D51476B9",
       ],
-      size: 1.0,
-      id: "4F90010E4665AC6E",
       tasks: [
         {
           id: "20238F2AB1D769D9",
           type: "item",
           item: {
-            id: "tconstruct:slimesteel_ingot",
             count: 1,
+            id: "tconstruct:slimesteel_ingot",
           },
           count: 4,
         },
@@ -1169,20 +1132,19 @@
       ],
     },
     {
+      id: "61B8475FD4F52D5F",
       x: 0.0,
       y: 36.25,
       dependencies: [
         "1E59D7D2D51476B9",
       ],
-      size: 1.0,
-      id: "61B8475FD4F52D5F",
       tasks: [
         {
           id: "6240B5630C33D376",
           type: "item",
           item: {
-            id: "tconstruct:rose_gold_ingot",
             count: 1,
+            id: "tconstruct:rose_gold_ingot",
           },
           count: 4,
         },
@@ -1196,20 +1158,19 @@
       ],
     },
     {
+      id: "488AA0AC0FDEC824",
       x: 1.6,
       y: 36.25,
       dependencies: [
         "1E59D7D2D51476B9",
       ],
-      size: 1.0,
-      id: "488AA0AC0FDEC824",
       tasks: [
         {
           id: "40FF62B084231501",
           type: "item",
           item: {
-            id: "tconstruct:amethyst_bronze_ingot",
             count: 1,
+            id: "tconstruct:amethyst_bronze_ingot",
           },
           count: 4,
         },
@@ -1223,21 +1184,20 @@
       ],
     },
     {
+      id: "75660C97E9A05337",
       x: 3.2,
       y: 36.25,
       dependencies: [
         "1E59D7D2D51476B9",
       ],
-      size: 1.0,
       optional: true,
-      id: "75660C97E9A05337",
       tasks: [
         {
           id: "249C2AC1B7735D03",
           type: "item",
           item: {
-            id: "tconstruct:pig_iron_ingot",
             count: 1,
+            id: "tconstruct:pig_iron_ingot",
           },
           count: 4,
         },
@@ -1251,20 +1211,19 @@
       ],
     },
     {
+      id: "7E8AE69DF83E0AED",
       x: 0.0,
       y: 30.25,
       dependencies: [
         "0DBE2018B2772C71",
       ],
-      size: 1.0,
-      id: "7E8AE69DF83E0AED",
       tasks: [
         {
           id: "2292648DC6FB26B0",
           type: "item",
           item: {
-            id: "tconstruct:raw_cobalt",
             count: 1,
+            id: "tconstruct:raw_cobalt",
           },
           count: 4,
         },
@@ -1272,8 +1231,8 @@
           id: "3DEA382AA3180BC1",
           type: "item",
           item: {
-            id: "tconstruct:cobalt_ingot",
             count: 1,
+            id: "tconstruct:cobalt_ingot",
           },
           count: 8,
         },
@@ -1287,26 +1246,24 @@
         {
           id: "44FF6677F8C47272",
           type: "random",
-          exclude_from_claim_all: true,
           table_id: 253752461985528,
         },
       ],
     },
     {
+      id: "6325B504265227B7",
       x: 1.6,
       y: 28.75,
       dependencies: [
         "7E8AE69DF83E0AED",
       ],
-      size: 1.0,
-      id: "6325B504265227B7",
       tasks: [
         {
           id: "38907006064EEEA9",
           type: "item",
           item: {
-            id: "tconstruct:manyullyn_ingot",
             count: 1,
+            id: "tconstruct:manyullyn_ingot",
           },
           count: 4,
         },
@@ -1320,26 +1277,24 @@
         {
           id: "2ECC181BAE267496",
           type: "random",
-          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
+      id: "67EF4D51C952FE78",
       x: 1.6,
       y: 27.25,
       dependencies: [
         "7E8AE69DF83E0AED",
       ],
-      size: 1.0,
-      id: "67EF4D51C952FE78",
       tasks: [
         {
           id: "6ECA92EE697B361A",
           type: "item",
           item: {
-            id: "tconstruct:hepatizon_ingot",
             count: 1,
+            id: "tconstruct:hepatizon_ingot",
           },
           count: 4,
         },
@@ -1353,27 +1308,25 @@
         {
           id: "6188FD280D101B45",
           type: "random",
-          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
+      id: "5F5B1932A4DFD220",
       x: 1.6,
       y: 25.75,
       dependencies: [
         "7E8AE69DF83E0AED",
         "4FC3B0F3784C24EA",
       ],
-      size: 1.0,
-      id: "5F5B1932A4DFD220",
       tasks: [
         {
           id: "7AC3675C48D3F60B",
           type: "item",
           item: {
-            id: "tconstruct:queens_slime_ingot",
             count: 1,
+            id: "tconstruct:queens_slime_ingot",
           },
           count: 4,
         },
@@ -1387,27 +1340,25 @@
         {
           id: "70A55C7A0C236EFE",
           type: "random",
-          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
+      id: "02094C2282922098",
       x: 3.2,
       y: 34.75,
       dependencies: [
         "4F90010E4665AC6E",
       ],
-      size: 1.0,
       optional: true,
-      id: "02094C2282922098",
       tasks: [
         {
           id: "2BF0D72579E658DE",
           type: "item",
           item: {
-            id: "tconstruct:knightslime_ingot",
             count: 1,
+            id: "tconstruct:knightslime_ingot",
           },
           count: 4,
         },
@@ -1421,21 +1372,20 @@
       ],
     },
     {
+      id: "026D679C5F4E006A",
       x: 4.8,
       y: 36.25,
       dependencies: [
         "7CB0CF18DA267CF4",
       ],
-      size: 1.0,
       optional: true,
-      id: "026D679C5F4E006A",
       tasks: [
         {
           id: "56795EFC49B24765",
           type: "item",
           item: {
-            id: "tconstruct:soulsteel_ingot",
             count: 1,
+            id: "tconstruct:soulsteel_ingot",
           },
           count: 4,
         },
@@ -1449,23 +1399,23 @@
       ],
     },
     {
+      id: "0424A7B23649ED6E",
       x: 3.2,
       y: 28.75,
       shape: "gear",
+      size: 2.0,
       dependencies: [
         "6325B504265227B7",
         "7AD7DEDE561056D1",
         "1493C91E0D023665",
       ],
-      size: 2.0,
-      id: "0424A7B23649ED6E",
       tasks: [
         {
           id: "72D567EA76D91D6C",
           type: "item",
           item: {
-            id: "tconstruct:vein_hammer",
             count: 1,
+            id: "tconstruct:vein_hammer",
           },
         },
       ],
@@ -1478,14 +1428,12 @@
         {
           id: "42A2675671967685",
           type: "random",
-          exclude_from_claim_all: true,
           table_id: 379532711335085,
         },
       ],
     },
   ],
-  quest_links: [
-  ],
+  quest_links: [ ],
   images: [
     {
       x: 5.6,
@@ -1494,7 +1442,10 @@
       height: 1.4375,
       rotation: 0.0,
       image: "gspack:textures/quests/tinkers_header.png",
-      id: "05A857B54CA83326",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false,
     },
     {
       x: 1.0765,
@@ -1503,7 +1454,10 @@
       height: 0.6,
       rotation: 0.0,
       image: "gspack:textures/quests/tinkers_tools_set.png",
-      id: "3384247B2D17D27A",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false,
     },
     {
       x: 1.0765,
@@ -1512,7 +1466,10 @@
       height: 0.6,
       rotation: 0.0,
       image: "gspack:textures/quests/tinkers_slime.png",
-      id: "2A41C3B91813DA3A",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false,
     },
     {
       x: 1.2,
@@ -1521,7 +1478,10 @@
       height: 0.6,
       rotation: 0.0,
       image: "gspack:textures/quests/tinkers_book.png",
-      id: "363EC220C47EB386",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false,
     },
     {
       x: 0.9882,
@@ -1530,7 +1490,10 @@
       height: 0.6,
       rotation: 0.0,
       image: "gspack:textures/quests/tinkers_grout.png",
-      id: "54E3C3868A4C49EE",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false,
     },
   ],
 }
