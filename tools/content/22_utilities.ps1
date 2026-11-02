@@ -22,3 +22,15 @@ Q 'expulsion' 'Expulsion Pylon' 'pylons:expulsion_pylon' 'harvester' 'xp:100' -o
 Q 'vector' 'Vector Plates' 'darkutils:vector_plate*4' 'tiab' 'xp:50' -desc 'Plates that push mobs around. Faster versions push harder. Use them to move mobs into your farm.'
 Q 'damage' 'Damage Plates' 'darkutils:damage_plate*4' 'vector' 'xp:75' -desc 'Hurts anything that walks on it. The Smite and Bane plates do extra damage to undead and arthropods.'
 Q 'filters' 'Mob Filters' 'darkutils:filter_hostile;darkutils:filter_player' 'vector' 'xp:75' -desc 'Blocks that only certain mobs can pass through, for example only hostile mobs or only players. Perfect for mob farms.'
+
+# ===== Potions Master =====
+Q 'pm_mortar' 'Mortar & Pestle' 'potionsmaster:tile_mortar;potionsmaster:pestle' 'tiab' 'xp:50' -desc 'The tools of &bPotions Master&r: grind ingredients into powders. Ender Powder, for example, is an Ender Pearl ground with the Pestle in the Mortar.'
+Q 'pm_cures' 'Remedies' 'potionsmaster:bezoar;potionsmaster:activated_charcoal' 'pm_mortar' 'xp:100;table:uncommon' -desc @'
+Potions Master adds items that cure bad effects:
+- &eBezoar&r: cures Poison.
+- &eActivated Charcoal&r: cures Wither.
+- &ePolar Bear Gall Bladder&r: cures Mining Fatigue.
+
+Check JEI for how to get each one.
+'@
+Q 'pm_bladder' 'Gall Bladder' 'potionsmaster:gallbladder' 'pm_cures' 'xp:75' -opt -desc 'Cures Mining Fatigue. Very useful against Elder Guardians in ocean monuments.'

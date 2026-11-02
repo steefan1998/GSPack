@@ -1,0 +1,80 @@
+#Graphics profile: OFF, LOW, MEDIUM, HIGH, MAX, AUTO to adjust quality to hold autoTargetFps, or CUSTOM to use the values in the 'custom' section.
+#Allowed Values: OFF, LOW, MEDIUM, HIGH, MAX, AUTO, CUSTOM
+profile = "OFF"
+#Frame rate the AUTO profile aims for: it lowers effects and render scale below it and raises them while it holds.
+# Default: 60
+# Range: 30 ~ 240
+autoTargetFps = 60
+#Held and dropped light sources (torches, lanterns, glowstone, ...) and burning entities light up their surroundings.
+dynamicLights = true
+#Ray-traced lighting: rays traced through the blocks around you for glossy reflections on obsidian, metal, glass and polished stone, and coloured light from lava, glowstone and fire on the surroundings. Heavier than the other effects.
+rayTracing = false
+#Use WeatherStory's cloud cover and storm strength (when installed) to dim sun rays, glare and reflections.
+weatherStoryIntegration = true
+#When Distant Horizons is installed: draw its far-away terrain. Off turns DH's rendering off (its own setting comes back when this is on again).
+distantHorizons = true
+#When Distant Horizons is installed: ask at every game start whether to draw it this time.
+distantHorizonsAskOnStartup = true
+#When Distant Horizons is installed: also shade its far-away terrain (haze, sunset silhouettes, colour grading). Off leaves it as DH draws it, with our effects fading out towards the render distance.
+distantHorizonsShading = true
+
+#Per-effect quality (0 = off, 4 = ultra). Only used when profile = CUSTOM.
+[custom]
+	# Default: 3
+	# Range: 0 ~ 4
+	ambientOcclusion = 3
+	# Default: 3
+	# Range: 0 ~ 4
+	waterReflections = 3
+	# Default: 3
+	# Range: 0 ~ 4
+	godRays = 3
+	# Default: 3
+	# Range: 0 ~ 4
+	bloom = 3
+	# Default: 3
+	# Range: 0 ~ 4
+	sunShadows = 3
+
+#Look of the image, applied on every profile. Values are percentages.
+[look]
+	# Default: 100
+	# Range: 50 ~ 150
+	exposure = 100
+	# Default: 115
+	# Range: 50 ~ 150
+	saturation = 115
+	# Default: 110
+	# Range: 50 ~ 150
+	contrast = 110
+	# Default: 100
+	# Range: 0 ~ 200
+	warmth = 100
+	# Default: 100
+	# Range: 0 ~ 200
+	atmosphere = 100
+	# Default: 100
+	# Range: 0 ~ 150
+	waterReflectivity = 100
+	# Default: 35
+	# Range: 0 ~ 100
+	vignette = 35
+
+#Render the world at a lower resolution and upscale it with AMD FSR 1, set per profile. The HUD always stays sharp.
+[upscaling]
+	#Master switch for FSR 1 upscaling. When off, every profile renders at native resolution.
+	fsrEnabled = true
+	#Allowed Values: NATIVE, ULTRA_QUALITY, QUALITY, BALANCED, PERFORMANCE
+	renderScaleLow = "QUALITY"
+	#Allowed Values: NATIVE, ULTRA_QUALITY, QUALITY, BALANCED, PERFORMANCE
+	renderScaleMedium = "ULTRA_QUALITY"
+	#Allowed Values: NATIVE, ULTRA_QUALITY, QUALITY, BALANCED, PERFORMANCE
+	renderScaleHigh = "NATIVE"
+	#Allowed Values: NATIVE, ULTRA_QUALITY, QUALITY, BALANCED, PERFORMANCE
+	renderScaleMax = "NATIVE"
+	#Allowed Values: NATIVE, ULTRA_QUALITY, QUALITY, BALANCED, PERFORMANCE
+	renderScaleCustom = "NATIVE"
+	#FSR 1 sharpening (RCAS) strength in percent, applied after upscaling.
+	# Default: 80
+	# Range: 0 ~ 100
+	fsrSharpness = 80

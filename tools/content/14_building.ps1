@@ -45,6 +45,7 @@ Q 'office' 'Study' 'mcwfurnitures:oak_desk;mcwfurnitures:oak_bookshelf' 'furnitu
 Q 'lights' 'Lighting' 'mcwlights:chain_lantern;mcwlights:wall_lantern;mcwlights:iron_chandelier' 'furniture' 'xp:50' -desc '&bMacaw''s Lights&r: lanterns, chandeliers, lamps and street lights.'
 Q 'street' 'Street Lamps' 'mcwlights:classic_street_lamp;mcwlights:oak_tiki_torch' 'lights' 'xp:50' -opt -desc 'Light up your paths and gardens.'
 Q 'holidays' 'Holiday Spirit' 'mcwholidays:snowman;mcwholidays:large_pumpkin' 'furniture' 'xp:50' -opt -desc '&bMacaw''s Holidays&r has decorations for Christmas, Halloween and more.'
+Q 'chimes' 'Wind Chimes' 'chimes:bamboo_chimes;chimes:iron_chimes' 'furniture' 'xp:25' -opt -desc 'Wind chimes and glass bells from &bChimes&r: place them and listen to them ring in the wind. There are bamboo, iron, copper and amethyst versions.'
 
 # ===== Structure =====
 Q 'roofs' 'Roofs' 'mcwroofs:oak_roof;mcwroofs:oak_steep_roof;mcwroofs:oak_top_roof' '' 'xp:50;table:common' -size 1.5 -desc @'

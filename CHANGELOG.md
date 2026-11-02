@@ -2,6 +2,26 @@
 
 What changed in each version of GSPack. The exact mod changes (added, removed and updated mods with their versions) are in [MOD-CHANGELOG.md](MOD-CHANGELOG.md).
 
+## 0.3 (2026-11-02)
+
+### Mods
+**1 added, 6 updated** (274 → 275 mods). Full list: [MOD-CHANGELOG.md](MOD-CHANGELOG.md).
+
+- **New:** Clarity Shader: vibrant visuals (bloom, god rays, water reflections, color grading). It starts **off**: press **F6** to switch between the Off, Low, Medium, High, Max and Auto profiles. Auto adjusts the quality to reach a target frame rate.
+- **Updated:** Applied Oritech 1.0.6, Farming for Blockheads 26.1.2.6, FTB Teams 26.1.2.5, Resourceful Lib 4.0.2, TrashSlot 26.1.2.5, Waystones 26.1.2.17
+
+### Quest book
+**1,316 → 1,337 quests, 25 → 26 chapters.** Existing quest progress is kept.
+
+- **New chapter: Wildlife** (Exploration, 17 quests). Living Things: the Lexicon, savanna animals, ostrich eggs, bananas, crabs, sharks, seahorses, penguins, Shroomies and the Baby Ender Dragon. Variants & Ventures: the Gelid, Murk, Thicket and Verdant, ending with **Monster Hunter**.
+- **Utilities:** new section **Potions Master** (3 quests): the Mortar & Pestle, and the remedies that cure Poison, Wither and Mining Fatigue.
+- **Building:** new quest for the wind chimes and glass bells of **Chimes**.
+
+All 2,009 IDs in the quests and the 74 in the KubeJS recipes were checked against the mods in the pack.
+
+### KubeJS
+No changes.
+
 ## 0.2 (2026-11-01)
 
 ### Mods

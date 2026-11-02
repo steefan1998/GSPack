@@ -1,0 +1,548 @@
+{
+  id: "781F6B10D9E2FECB",
+  group: "11F64C4259C477EF",
+  order_index: 25,
+  filename: "wildlife",
+  icon: {
+    count: 1,
+    id: "livingthings:lexicon",
+  },
+  default_quest_shape: "",
+  default_hide_dependency_lines: true,
+  quests: [
+    {
+      id: "6F6C62A4D354D980",
+      x: 0.0,
+      y: 4.2,
+      shape: "gear",
+      size: 1.5,
+      tasks: [
+        {
+          id: "4EFC28B18D8B4308",
+          type: "item",
+          item: {
+            count: 1,
+            id: "livingthings:lexicon",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "09BCDD5E0C83068E",
+          type: "xp",
+          xp: 50,
+        },
+        {
+          id: "3D8315457ADA630E",
+          type: "random",
+          table_id: 4224964620844649,
+        },
+      ],
+    },
+    {
+      id: "25EB0F72EAC8964C",
+      x: 1.6,
+      y: 4.2,
+      icon: {
+        count: 1,
+        id: "livingthings:elephant_spawn_egg",
+      },
+      dependencies: [
+        "6F6C62A4D354D980",
+      ],
+      tasks: [
+        {
+          id: "74B036F6ACE8D3ED",
+          type: "biome",
+          biome: "minecraft:savanna",
+        },
+      ],
+      rewards: [
+        {
+          id: "63AF0B2604D8B865",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      id: "4136CCBEA3C9E6EE",
+      x: 3.2,
+      y: 4.2,
+      dependencies: [
+        "25EB0F72EAC8964C",
+      ],
+      tasks: [
+        {
+          id: "570BBE91FF218B4E",
+          type: "item",
+          item: {
+            count: 1,
+            id: "livingthings:ostrich_egg",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7C6633E9336A0C82",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      id: "2D0EDDF7E9C390CA",
+      x: 3.2,
+      y: 5.7,
+      dependencies: [
+        "25EB0F72EAC8964C",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "02DD8D1B054EB16F",
+          type: "item",
+          item: {
+            count: 1,
+            id: "livingthings:cooked_elephant",
+          },
+        },
+        {
+          id: "44C0E6A66D6D9285",
+          type: "item",
+          item: {
+            count: 1,
+            id: "livingthings:cooked_giraffe",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2C949B2526319A81",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      id: "5A46FB9FC579710C",
+      x: 1.6,
+      y: 5.7,
+      icon: {
+        count: 1,
+        id: "livingthings:monkey_spawn_egg",
+      },
+      dependencies: [
+        "6F6C62A4D354D980",
+      ],
+      tasks: [
+        {
+          id: "11570365366DA0D6",
+          type: "item",
+          item: {
+            count: 1,
+            id: "livingthings:banana",
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "277FBB424836E301",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      id: "33705DC19CF2FAFC",
+      x: 1.6,
+      y: 2.7,
+      dependencies: [
+        "6F6C62A4D354D980",
+      ],
+      tasks: [
+        {
+          id: "73E6132FEC40675D",
+          type: "item",
+          item: {
+            count: 1,
+            id: "livingthings:crab_shell",
+          },
+          count: 2,
+        },
+        {
+          id: "2B6E448D62827D34",
+          type: "item",
+          item: {
+            count: 1,
+            id: "livingthings:cooked_crab",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5AD3D5997AB526DB",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      id: "7C3F71C6428B75EA",
+      x: 3.2,
+      y: 2.7,
+      dependencies: [
+        "33705DC19CF2FAFC",
+      ],
+      tasks: [
+        {
+          id: "1D9DD6A38F12AFEF",
+          type: "item",
+          item: {
+            count: 1,
+            id: "livingthings:shark_tooth",
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "6E6481C3AA0E555F",
+          type: "xp",
+          xp: 100,
+        },
+        {
+          id: "0F7B00C058EFD39C",
+          type: "random",
+          table_id: 2582982951349054,
+        },
+      ],
+    },
+    {
+      id: "6CE077A054400D68",
+      x: 3.2,
+      y: 1.2,
+      dependencies: [
+        "33705DC19CF2FAFC",
+      ],
+      tasks: [
+        {
+          id: "149991A9F9197CE8",
+          type: "item",
+          item: {
+            count: 1,
+            id: "livingthings:seahorse_bucket",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "701CF26C10D3BA8E",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      id: "25955A16B0898EB3",
+      x: 1.6,
+      y: 7.2,
+      icon: {
+        count: 1,
+        id: "livingthings:penguin_spawn_egg",
+      },
+      dependencies: [
+        "6F6C62A4D354D980",
+      ],
+      tasks: [
+        {
+          id: "109AE5B3EC5B1524",
+          type: "biome",
+          biome: "minecraft:snowy_plains",
+        },
+      ],
+      rewards: [
+        {
+          id: "0000FBC43F336673",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      id: "2AF5366288300E86",
+      x: 1.6,
+      y: 1.2,
+      icon: {
+        count: 1,
+        id: "livingthings:shroomie_spawn_egg",
+      },
+      dependencies: [
+        "6F6C62A4D354D980",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "380428AEBDDA4E6D",
+          type: "biome",
+          biome: "minecraft:mushroom_fields",
+        },
+      ],
+      rewards: [
+        {
+          id: "4B55E2963683D293",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      id: "5B418D72991F4D39",
+      x: 1.6,
+      y: 8.7,
+      icon: {
+        count: 1,
+        id: "livingthings:baby_ender_dragon_spawn_egg",
+      },
+      dependencies: [
+        "6F6C62A4D354D980",
+      ],
+      optional: true,
+      tasks: [
+        {
+          id: "19B2AA1D40EB4503",
+          type: "dimension",
+          dimension: "minecraft:the_end",
+        },
+      ],
+      rewards: [
+        {
+          id: "5A9547AB796AA36A",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      id: "73B4BBA8EBDDE787",
+      x: 0.0,
+      y: 12.8,
+      icon: {
+        count: 1,
+        id: "variantsandventures:thicket_spawn_egg",
+      },
+      tasks: [
+        {
+          id: "38A82905AF33F34A",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "6A86C4DF7085E7CC",
+          type: "xp",
+          xp: 25,
+        },
+      ],
+    },
+    {
+      id: "1C6550849CF8FBC6",
+      x: 1.6,
+      y: 12.8,
+      icon: {
+        count: 1,
+        id: "variantsandventures:gelid_spawn_egg",
+      },
+      dependencies: [
+        "73B4BBA8EBDDE787",
+      ],
+      tasks: [
+        {
+          id: "796D3ABAF89C9F52",
+          type: "kill",
+          entity: "variantsandventures:gelid",
+          value: 3,
+        },
+      ],
+      rewards: [
+        {
+          id: "41521768C3E747BD",
+          type: "xp",
+          xp: 100,
+        },
+        {
+          id: "364F0AF7AE801F19",
+          type: "random",
+          table_id: 253752461985528,
+        },
+      ],
+    },
+    {
+      id: "14B7900208D51C19",
+      x: 1.6,
+      y: 14.3,
+      icon: {
+        count: 1,
+        id: "variantsandventures:murk_spawn_egg",
+      },
+      dependencies: [
+        "73B4BBA8EBDDE787",
+      ],
+      tasks: [
+        {
+          id: "62B58296305E46A6",
+          type: "kill",
+          entity: "variantsandventures:murk",
+          value: 3,
+        },
+      ],
+      rewards: [
+        {
+          id: "6979BF26C4208E97",
+          type: "xp",
+          xp: 100,
+        },
+        {
+          id: "0F025152C3749007",
+          type: "random",
+          table_id: 253752461985528,
+        },
+      ],
+    },
+    {
+      id: "71176428CCAF2770",
+      x: 1.6,
+      y: 11.3,
+      icon: {
+        count: 1,
+        id: "variantsandventures:thicket_spawn_egg",
+      },
+      dependencies: [
+        "73B4BBA8EBDDE787",
+      ],
+      tasks: [
+        {
+          id: "30724E7F83DD7A2C",
+          type: "kill",
+          entity: "variantsandventures:thicket",
+          value: 3,
+        },
+      ],
+      rewards: [
+        {
+          id: "27EAD35B7B1DBE45",
+          type: "xp",
+          xp: 100,
+        },
+        {
+          id: "32403AC2F91BF87C",
+          type: "random",
+          table_id: 253752461985528,
+        },
+      ],
+    },
+    {
+      id: "302F9F180BAFEFF7",
+      x: 1.6,
+      y: 15.8,
+      icon: {
+        count: 1,
+        id: "variantsandventures:verdant_spawn_egg",
+      },
+      dependencies: [
+        "73B4BBA8EBDDE787",
+      ],
+      tasks: [
+        {
+          id: "7C7FB5A84B939DA4",
+          type: "kill",
+          entity: "variantsandventures:verdant",
+          value: 3,
+        },
+      ],
+      rewards: [
+        {
+          id: "69C56A6A122CEA68",
+          type: "xp",
+          xp: 100,
+        },
+        {
+          id: "48389809E2A2A0A3",
+          type: "random",
+          table_id: 253752461985528,
+        },
+      ],
+    },
+    {
+      id: "7A3AF91E21DBCE56",
+      x: 3.2,
+      y: 12.8,
+      shape: "hexagon",
+      size: 1.5,
+      dependencies: [
+        "1C6550849CF8FBC6",
+        "14B7900208D51C19",
+        "71176428CCAF2770",
+        "302F9F180BAFEFF7",
+      ],
+      tasks: [
+        {
+          id: "2443E33B6A48DE4D",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "60A6A40B9DD9F30F",
+          type: "xp",
+          xp: 250,
+        },
+        {
+          id: "33BF9CAFE2842D68",
+          type: "random",
+          table_id: 2210856162803377,
+        },
+      ],
+    },
+  ],
+  quest_links: [ ],
+  images: [
+    {
+      x: 5.4,
+      y: -1.5188,
+      width: 12.0,
+      height: 1.4375,
+      rotation: 0.0,
+      image: "gspack:textures/quests/wildlife_header.png",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false,
+    },
+    {
+      x: 0.9882,
+      y: 0.0,
+      width: 3.1765,
+      height: 0.6,
+      rotation: 0.0,
+      image: "gspack:textures/quests/wildlife_lexicon.png",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false,
+    },
+    {
+      x: 1.6412,
+      y: 10.1,
+      width: 4.4824,
+      height: 0.6,
+      rotation: 0.0,
+      image: "gspack:textures/quests/wildlife_vv.png",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false,
+    },
+  ],
+}

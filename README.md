@@ -32,12 +32,12 @@ The server ends up in `GSPackServer/`; start it with `start.bat` or `start.sh`. 
 
 ## The quest book
 
-1,316 quests in English, in 25 chapters:
+1,337 quests in English, in 26 chapters:
 
 - **Start:** Welcome, Getting Started (vanilla progression)
 - **Technology:** Mekanism, Applied Energistics 2 (with an AE2 Add-ons section), Oritech, Tinkers' Construct, LTX Industries, Railcraft Reborn, Utilities
 - **Magic & Farming:** Mystical Agriculture, Seed Codex (every seed that loads in the pack, including the Allthemodium seeds), Apotheosis, Thaumaturge, Equivox, Roots Classic, EvilCraft
-- **Exploration & Dimensions:** Allthemodium, Aquaculture 2, The Aether II, The Twilight Forest, Stellaris, Dungeons & Structures
+- **Exploration & Dimensions:** Allthemodium, Aquaculture 2, The Aether II, The Twilight Forest, Stellaris, Dungeons & Structures, Wildlife
 - **Storage & Building:** Storage, Building
 - **Endgame:** Endgame: Infinity
 
@@ -108,7 +108,7 @@ A custom title screen: a pixel-art dusk background with floating islands, the GS
 For each new version, run:
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File tools\track-mods.ps1 -Version 0.3
+powershell -ExecutionPolicy Bypass -File tools\track-mods.ps1 -Version 0.4
 ```
 
 This saves a snapshot of all mods in `modlists/<version>.json` and lists what was added, removed and updated since the previous version.

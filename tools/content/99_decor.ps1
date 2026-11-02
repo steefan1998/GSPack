@@ -29,4 +29,5 @@ Decorate 'stellaris' '#6f7ff0' @{ titanium = 'Ground Control'; power = 'Power'; 
 Decorate 'railcraft' '#8c5a3c' @{ coke_oven = 'Steel'; crowbar = 'Tracks'; loaders = 'Trains' }
 Decorate 'roots' '#5fa85a' @{ tablet = 'Herbalism'; spell = 'Spells'; altar = 'Rituals'; living_tools = 'Gear' }
 Decorate 'evilcraft' '#a8263a' @{ dark_gem = 'The First Age'; extractor = 'Blood'; glasses = 'Spirits & Monsters'; accumulator = 'Power' }
-Decorate 'utilities' '#4fb3c8' @{ tiab = 'Gadgets'; harvester = 'Pylons'; vector = 'Dark Utilities' }
+Decorate 'utilities' '#4fb3c8' @{ tiab = 'Gadgets'; harvester = 'Pylons'; vector = 'Dark Utilities'; pm_mortar = 'Potions Master' }
+Decorate 'wildlife' '#c9a227' @{ lexicon = 'Living Things'; vv = 'Variants & Ventures' }

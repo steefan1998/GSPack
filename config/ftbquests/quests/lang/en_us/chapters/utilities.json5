@@ -26,6 +26,10 @@
   ],
   "quest.3D177CE1CBDB868D.quest_subtitle": "Time is on your side",
   "quest.3D177CE1CBDB868D.title": "Time in a Bottle",
+  "quest.42EC01623F5CD38F.quest_desc": [
+    "The tools of &bPotions Master&r: grind ingredients into powders. Ender Powder, for example, is an Ender Pearl ground with the Pestle in the Mortar.",
+  ],
+  "quest.42EC01623F5CD38F.title": "Mortar \\& Pestle",
   "quest.52FB051146A3A00A.quest_desc": [
     "Blocks that only certain mobs can pass through, for example only hostile mobs or only players. Perfect for mob farms.",
   ],
@@ -36,6 +40,15 @@
     "Place the pylon in the water block of your farm.",
   ],
   "quest.53E5DE25C3C13AF4.title": "Harvester Pylon",
+  "quest.57DD43F5649658D9.quest_desc": [
+    "Potions Master adds items that cure bad effects:",
+    "- &eBezoar&r: cures Poison.",
+    "- &eActivated Charcoal&r: cures Wither.",
+    "- &ePolar Bear Gall Bladder&r: cures Mining Fatigue.",
+    "",
+    "Check JEI for how to get each one.",
+  ],
+  "quest.57DD43F5649658D9.title": "Remedies",
   "quest.629FD5D7AC2CDFCE.quest_desc": [
     "Plates that push mobs around. Faster versions push harder. Use them to move mobs into your farm.",
   ],
@@ -44,4 +57,8 @@
     "Hurts anything that walks on it. The Smite and Bane plates do extra damage to undead and arthropods.",
   ],
   "quest.65C23ADB283C3A5F.title": "Damage Plates",
+  "quest.7ABCBD303EE6B887.quest_desc": [
+    "Cures Mining Fatigue. Very useful against Elder Guardians in ocean monuments.",
+  ],
+  "quest.7ABCBD303EE6B887.title": "Gall Bladder",
 }
