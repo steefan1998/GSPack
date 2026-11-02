@@ -125,7 +125,7 @@ A custom title screen: a pixel-art dusk background with floating islands, the GS
 For each new version, run:
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File tools\track-mods.ps1 -Version 0.4
+powershell -ExecutionPolicy Bypass -File tools\track-mods.ps1 -Version 0.5
 ```
 
 This saves a snapshot of all mods in `modlists/<version>.json` and lists what was added, removed and updated since the previous version.

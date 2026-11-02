@@ -2,9 +2,15 @@
 
 What changed in each version of GSPack. The exact mod changes (added, removed and updated mods with their versions) are in [MOD-CHANGELOG.md](MOD-CHANGELOG.md).
 
-## 0.4 (in development)
+## 0.4 (2026-11-02)
 
-Changes in the GSPack Dev Build that are not released yet.
+### Mods
+**1 removed, 1 updated** (275 → 274 mods). Full list: [MOD-CHANGELOG.md](MOD-CHANGELOG.md).
+
+- **Removed:** ATM X Mystical Ag Support. Its Allthemodium seeds are replaced by GSPack's own crops (see *Mystical Agriculture: new seeds* below).
+- **Updated:** Occultism 1.260.4
+
+**Quest book: 1,337 → 1,484 quests, 26 → 29 chapters.** Existing quest progress is kept. All 2,123 item IDs in the quests were checked against the mods in the pack.
 
 ### Cross-mod recipes (KubeJS)
 **47 items** (49 recipes) now need an ingredient from another mod, so the mods tie together. Each recipe keeps its pattern; usually one ingredient is swapped for something from a mod you reach earlier, so nothing gets locked. Every changed item has a tooltip: *"GSPack: crafted with items from other mods (see JEI)"*.
@@ -174,6 +180,7 @@ The *ATM x Mystical Ag Support* mod was removed. GSPack now adds its own crops w
 - Not fixed: the Dark Utilities rune templates (font changes for item names) need the Bookshelf library, which is not in the pack.
 
 ### Configs
+- Occultism: config updated for 1.260.4 (new lumberjack spirit settings, defaults kept).
 - Tinkers' Construct no longer gives new players its book when they join a world (`shouldSpawnWithTinkersBook = false`).
 
 ### For pack makers

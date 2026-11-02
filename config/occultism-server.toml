@@ -430,3 +430,14 @@
 	# Default: 20
 	# Range: > 0
 	wormholeTabletCooldown = 20
+
+#Lumberjack Settings
+[lumberjack]
+	#The maximum number of blocks a lumberjack spirit fells per tree.
+	# Default: 512
+	# Range: 1 ~ 4096
+	maxFelledBlocks = 512
+	#The maximum horizontal distance (in blocks) from the tree's base a lumberjack spirit fells logs.
+	# Default: 24
+	# Range: 1 ~ 128
+	maxFellHorizontalDistance = 24
