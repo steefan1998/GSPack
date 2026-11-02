@@ -51,6 +51,12 @@
     "Harvesting gives &ePhantom Essence&r. Craft the essence into the real resource. Check JEI (press &eU&r on the essence) for the exact recipe.",
   ],
   "quest.07B679B42357E169.title": "Phantom Seeds",
+  "quest.07C5DB4924DE9E09.quest_desc": [
+    "Craft &eTitanium Seeds&r on the Infusion Altar and plant them.",
+    "",
+    "Harvesting gives &eTitanium Essence&r. Craft the essence into the real resource. Check JEI (press &eU&r on the essence) for the exact recipe.",
+  ],
+  "quest.07C5DB4924DE9E09.title": "Titanium Seeds",
   "quest.07EAAC989095C321.quest_desc": [
     "Craft &eEmerald Seeds&r on the Infusion Altar and plant them.",
     "",
@@ -199,6 +205,12 @@
     "Harvesting gives &eNether Star Essence&r. Craft the essence into the real resource. Check JEI (press &eU&r on the essence) for the exact recipe.",
   ],
   "quest.1A31CCAD19045623.title": "Nether Star Seeds",
+  "quest.1A342A01BBF5D77D.quest_desc": [
+    "Craft &eFerricore Seeds&r on the Infusion Altar and plant them.",
+    "",
+    "Harvesting gives &eFerricore Essence&r. Craft the essence into the real resource. Check JEI (press &eU&r on the essence) for the exact recipe.",
+  ],
+  "quest.1A342A01BBF5D77D.title": "Ferricore Seeds",
   "quest.1AA258F90600BF51.quest_desc": [
     "Craft &eArmadillo Seeds&r on the Infusion Altar and plant them.",
     "",
@@ -265,6 +277,16 @@
     "Harvesting gives &eEnd Essence&r. Craft the essence into the real resource. Check JEI (press &eU&r on the essence) for the exact recipe.",
   ],
   "quest.27B637990B1F515C.title": "End Seeds",
+  "quest.28423218EDDF4E67.quest_desc": [
+    "Craft &eCinnabar Seeds&r on the Infusion Altar and plant them.",
+    "",
+    "Harvesting gives &eCinnabar Essence&r. Craft the essence into the real resource. Check JEI (press &eU&r on the essence) for the exact recipe.",
+  ],
+  "quest.28423218EDDF4E67.title": "Cinnabar Seeds",
+  "quest.28D7DBFF0E0A4BB5.quest_desc": [
+    "GSPack's own crops (Mystical Customization) for the ores of other mods: Stellaris, The Aether II, EvilCraft, LTX Industries, Occultism, AllTheOres, Just Dire Things and Aquaculture. Many of them are needed for the endgame cores and the Trophy of Infinity. You need the real material first to craft the seed.",
+  ],
+  "quest.28D7DBFF0E0A4BB5.title": "Ores From Other Mods",
   "quest.2A36FBD0EA04C33A.quest_desc": [
     "Craft &eCoral Seeds&r on the Infusion Altar and plant them.",
     "",
@@ -319,18 +341,42 @@
     "Harvesting gives &eAluminum Essence&r. Craft the essence into the real resource. Check JEI (press &eU&r on the essence) for the exact recipe.",
   ],
   "quest.35D1480C57511BC6.title": "Aluminum Seeds",
+  "quest.378AE9ACADB16638.quest_desc": [
+    "Craft &eGravitite Seeds&r on the Infusion Altar and plant them.",
+    "",
+    "Harvesting gives &eGravitite Essence&r. Craft the essence into the real resource. Check JEI (press &eU&r on the essence) for the exact recipe.",
+  ],
+  "quest.378AE9ACADB16638.title": "Gravitite Seeds",
   "quest.381955FE944413B7.quest_desc": [
     "Craft &eSpirited Crystal Seeds&r on the Infusion Altar and plant them.",
     "",
     "Harvesting gives &eSpirited Crystal Essence&r. Craft the essence into the real resource. Check JEI (press &eU&r on the essence) for the exact recipe.",
   ],
   "quest.381955FE944413B7.title": "Spirited Crystal Seeds",
+  "quest.3851F17FDD9BBB9D.quest_desc": [
+    "Craft &eNovite Seeds&r on the Infusion Altar and plant them.",
+    "",
+    "Harvesting gives &eNovite Essence&r. Craft the essence into the real resource. Check JEI (press &eU&r on the essence) for the exact recipe.",
+  ],
+  "quest.3851F17FDD9BBB9D.title": "Novite Seeds",
+  "quest.3852441E30DDD5DE.quest_desc": [
+    "Craft &eDesh Seeds&r on the Infusion Altar and plant them.",
+    "",
+    "Harvesting gives &eDesh Essence&r. Craft the essence into the real resource. Check JEI (press &eU&r on the essence) for the exact recipe.",
+  ],
+  "quest.3852441E30DDD5DE.title": "Desh Seeds",
   "quest.3A84F0B8BE5EEBE0.quest_desc": [
     "Craft &eIce Seeds&r on the Infusion Altar and plant them.",
     "",
     "Harvesting gives &eIce Essence&r. Craft the essence into the real resource. Check JEI (press &eU&r on the essence) for the exact recipe.",
   ],
   "quest.3A84F0B8BE5EEBE0.title": "Ice Seeds",
+  "quest.3BF8A1F259F31175.quest_desc": [
+    "Craft &eArkenium Seeds&r on the Infusion Altar and plant them.",
+    "",
+    "Harvesting gives &eArkenium Essence&r. Craft the essence into the real resource. Check JEI (press &eU&r on the essence) for the exact recipe.",
+  ],
+  "quest.3BF8A1F259F31175.title": "Arkenium Seeds",
   "quest.3C6028A8A0A2B571.quest_desc": [
     "Craft &eBlazing Crystal Seeds&r on the Infusion Altar and plant them.",
     "",
@@ -363,6 +409,12 @@
     "You have crafted &eevery single seed&r in the Seed Codex. You are a true Master Farmer!",
   ],
   "quest.3E72EBCE1E078C8F.title": "Master Farmer",
+  "quest.3E7FAD6B552D12C5.quest_desc": [
+    "Craft &eZanite Seeds&r on the Infusion Altar and plant them.",
+    "",
+    "Harvesting gives &eZanite Essence&r. Craft the essence into the real resource. Check JEI (press &eU&r on the essence) for the exact recipe.",
+  ],
+  "quest.3E7FAD6B552D12C5.title": "Zanite Seeds",
   "quest.3EF7377CEA3570BF.quest_desc": [
     "Craft &eBronze Seeds&r on the Infusion Altar and plant them.",
     "",
@@ -440,7 +492,7 @@
   ],
   "quest.4722BBA94B44B851.title": "Hepatizon Seeds",
   "quest.48BD11B7C3E4E044.quest_desc": [
-    "From the &bATM x Mystical Ag Support&r mod: grow the rarest metals! Each crop needs its own Crux block (Allthemodium, Vibranium or Unobtainium Crux) under the farmland. Check JEI for the recipes.",
+    "GSPack's own crops (Mystical Customization): grow the rarest metals! Each crop needs its own &eCrux&r block under the farmland: the &6Allthemodium&r, &3Vibranium&r and &5Unobtainium Crux&r. Each crux is crafted around the one before it. Vibranium and Unobtainium are tier 6 crops, so they also need Insanium farmland.",
   ],
   "quest.48BD11B7C3E4E044.title": "Allthemodium",
   "quest.490E9F1682383C9E.quest_desc": [
@@ -465,6 +517,12 @@
     "Ender IO's alloys, grown in the field.",
   ],
   "quest.4AF476C800012E03.title": "Ender IO Alloys",
+  "quest.4B06C483DA876E9B.quest_desc": [
+    "Craft &eEclipsealloy Seeds&r on the Infusion Altar and plant them.",
+    "",
+    "Harvesting gives &eEclipsealloy Essence&r. Craft the essence into the real resource. Check JEI (press &eU&r on the essence) for the exact recipe.",
+  ],
+  "quest.4B06C483DA876E9B.title": "Eclipsealloy Seeds",
   "quest.4BAAD3D18022CEDE.quest_desc": [
     "Craft &eBreeze Seeds&r on the Infusion Altar and plant them.",
     "",
@@ -483,12 +541,24 @@
     "Harvesting gives &eDiamond Essence&r. Craft the essence into the real resource. Check JEI (press &eU&r on the essence) for the exact recipe.",
   ],
   "quest.4E41753DB7CD31D1.title": "Diamond Seeds",
+  "quest.4FFC5A7C52620681.quest_desc": [
+    "Craft &eNiobium Seeds&r on the Infusion Altar and plant them.",
+    "",
+    "Harvesting gives &eNiobium Essence&r. Craft the essence into the real resource. Check JEI (press &eU&r on the essence) for the exact recipe.",
+  ],
+  "quest.4FFC5A7C52620681.title": "Niobium Seeds",
   "quest.51B4C35307A148FE.quest_desc": [
     "Craft &eVibrant Alloy Seeds&r on the Infusion Altar and plant them.",
     "",
     "Harvesting gives &eVibrant Alloy Essence&r. Craft the essence into the real resource. Check JEI (press &eU&r on the essence) for the exact recipe.",
   ],
   "quest.51B4C35307A148FE.title": "Vibrant Alloy Seeds",
+  "quest.52039691EA7A06CB.quest_desc": [
+    "Craft &eDark Gem Seeds&r on the Infusion Altar and plant them.",
+    "",
+    "Harvesting gives &eDark Gem Essence&r. Craft the essence into the real resource. Check JEI (press &eU&r on the essence) for the exact recipe.",
+  ],
+  "quest.52039691EA7A06CB.title": "Dark Gem Seeds",
   "quest.526222F2B8422A57.quest_desc": [
     "Craft &eUnobtainium Seeds&r on the Infusion Altar and plant them.",
     "",
@@ -549,6 +619,12 @@
     "Harvesting gives &eDirt Essence&r. Craft the essence into the real resource. Check JEI (press &eU&r on the essence) for the exact recipe.",
   ],
   "quest.567D5D18E28F4887.title": "Dirt Seeds",
+  "quest.56A823A63369CFC6.quest_desc": [
+    "Craft &eIesnium Seeds&r on the Infusion Altar and plant them.",
+    "",
+    "Harvesting gives &eIesnium Essence&r. Craft the essence into the real resource. Check JEI (press &eU&r on the essence) for the exact recipe.",
+  ],
+  "quest.56A823A63369CFC6.title": "Iesnium Seeds",
   "quest.57AEDF3D2E0261DF.quest_desc": [
     "Craft &eWood Seeds&r on the Infusion Altar and plant them.",
     "",
@@ -605,12 +681,12 @@
     "Gems and useful minerals.",
   ],
   "quest.60EE33D3A00F3432.title": "Gems \\& Minerals",
-  "quest.611A9D198DABD5DE.quest_desc": [
-    "Craft &eTotal Oreium Seeds&r on the Infusion Altar and plant them.",
+  "quest.62C04C9287111C01.quest_desc": [
+    "Craft &eNeptunium Seeds&r on the Infusion Altar and plant them.",
     "",
-    "Harvesting gives &eTotal Oreium Essence&r. Craft the essence into the real resource. Check JEI (press &eU&r on the essence) for the exact recipe.",
+    "Harvesting gives &eNeptunium Essence&r. Craft the essence into the real resource. Check JEI (press &eU&r on the essence) for the exact recipe.",
   ],
-  "quest.611A9D198DABD5DE.title": "Total Oreium Seeds",
+  "quest.62C04C9287111C01.title": "Neptunium Seeds",
   "quest.636721E5E9362528.quest_desc": [
     "Craft &eTurtle Seeds&r on the Infusion Altar and plant them.",
     "",
@@ -651,6 +727,12 @@
     "Harvesting gives &eSpider Essence&r. Craft the essence into the real resource. Check JEI (press &eU&r on the essence) for the exact recipe.",
   ],
   "quest.67735713814D99EB.title": "Spider Seeds",
+  "quest.68D63136537C9E6C.quest_desc": [
+    "Craft &eCelestigem Seeds&r on the Infusion Altar and plant them.",
+    "",
+    "Harvesting gives &eCelestigem Essence&r. Craft the essence into the real resource. Check JEI (press &eU&r on the essence) for the exact recipe.",
+  ],
+  "quest.68D63136537C9E6C.title": "Celestigem Seeds",
   "quest.69F09FF74112540A.quest_desc": [
     "Craft &eEnderman Seeds&r on the Infusion Altar and plant them.",
     "",
@@ -663,6 +745,12 @@
     "Harvesting gives &eSheep Essence&r. Craft the essence into the real resource. Check JEI (press &eU&r on the essence) for the exact recipe.",
   ],
   "quest.6AC749F8FF8F63C7.title": "Sheep Seeds",
+  "quest.6B7D2ED6F9919C9E.quest_desc": [
+    "Craft &eBlazegold Seeds&r on the Infusion Altar and plant them.",
+    "",
+    "Harvesting gives &eBlazegold Essence&r. Craft the essence into the real resource. Check JEI (press &eU&r on the essence) for the exact recipe.",
+  ],
+  "quest.6B7D2ED6F9919C9E.title": "Blazegold Seeds",
   "quest.6C18C1D2241CE08C.quest_desc": [
     "Craft &eFluorite Seeds&r on the Infusion Altar and plant them.",
     "",
@@ -717,6 +805,12 @@
     "Harvesting gives &eFire Essence&r. Craft the essence into the real resource. Check JEI (press &eU&r on the essence) for the exact recipe.",
   ],
   "quest.76773FFE4EE5C93C.title": "Fire Seeds",
+  "quest.76CC85B2EFA4D7EF.quest_desc": [
+    "Craft &eAmbrosium Seeds&r on the Infusion Altar and plant them.",
+    "",
+    "Harvesting gives &eAmbrosium Essence&r. Craft the essence into the real resource. Check JEI (press &eU&r on the essence) for the exact recipe.",
+  ],
+  "quest.76CC85B2EFA4D7EF.title": "Ambrosium Seeds",
   "quest.7796912DDD547CD8.quest_desc": [
     "Craft &eStone Seeds&r on the Infusion Altar and plant them.",
     "",

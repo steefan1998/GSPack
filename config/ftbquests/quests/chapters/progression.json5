@@ -1,0 +1,783 @@
+{
+  id: "36A46344FB72D9F5",
+  group: "",
+  order_index: 2,
+  filename: "progression",
+  icon: {
+    count: 1,
+    id: "minecraft:compass",
+  },
+  default_quest_shape: "",
+  default_hide_dependency_lines: false,
+  quests: [
+    {
+      id: "3CB23CE64EFDD940",
+      x: 0.0,
+      y: 0.0,
+      shape: "gear",
+      size: 1.5,
+      tasks: [
+        {
+          id: "68DE23D150D2973C",
+          type: "item",
+          item: {
+            count: 1,
+            id: "minecraft:crafting_table",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4F2C26E2EA4E02CC",
+          type: "xp",
+          xp: 25,
+        },
+      ],
+    },
+    {
+      id: "7C219F6953D0DA05",
+      x: 1.6,
+      y: 0.0,
+      dependencies: [
+        "3CB23CE64EFDD940",
+      ],
+      tasks: [
+        {
+          id: "09A230D270846725",
+          type: "item",
+          item: {
+            count: 1,
+            id: "minecraft:iron_pickaxe",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "275A4B8CB2B28B18",
+          type: "xp",
+          xp: 25,
+        },
+      ],
+    },
+    {
+      id: "7517A918ECED3B6D",
+      x: 3.2,
+      y: -1.0,
+      dependencies: [
+        "7C219F6953D0DA05",
+      ],
+      tasks: [
+        {
+          id: "7B5361C10E62730F",
+          type: "item",
+          item: {
+            count: 1,
+            id: "tconstruct:smeltery_controller",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5D6558C2CF3A0DFA",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      id: "5DE21E16F099588A",
+      x: 3.2,
+      y: 1.0,
+      icon: {
+        count: 1,
+        id: "minecraft:netherrack",
+      },
+      dependencies: [
+        "7C219F6953D0DA05",
+      ],
+      tasks: [
+        {
+          id: "46DE39950133ADB8",
+          type: "dimension",
+          dimension: "minecraft:the_nether",
+        },
+      ],
+      rewards: [
+        {
+          id: "536839D70266D023",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      id: "040ECB00C94BF973",
+      x: 4.8,
+      y: 0.0,
+      size: 1.25,
+      dependencies: [
+        "7517A918ECED3B6D",
+        "5DE21E16F099588A",
+      ],
+      tasks: [
+        {
+          id: "3FC87DB5DC9C8D40",
+          type: "item",
+          item: {
+            count: 1,
+            id: "minecraft:diamond_pickaxe",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "216C37A107AE973B",
+          type: "xp",
+          xp: 50,
+        },
+        {
+          id: "35F62FE066E46211",
+          type: "random",
+          table_id: 4224964620844649,
+        },
+      ],
+    },
+    {
+      id: "695EE127BCA815D8",
+      x: 6.4,
+      y: -3.0,
+      dependencies: [
+        "040ECB00C94BF973",
+      ],
+      tasks: [
+        {
+          id: "7778160F2EDF0D24",
+          type: "item",
+          item: {
+            count: 1,
+            id: "mekanism:metallurgic_infuser",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "135D3C870CDDAB31",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      id: "0FE132183A9E2A3E",
+      x: 8.0,
+      y: -3.8,
+      dependencies: [
+        "695EE127BCA815D8",
+      ],
+      tasks: [
+        {
+          id: "688F0E75EF8FF699",
+          type: "item",
+          item: {
+            count: 1,
+            id: "ae2:controller",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "03192BDD4AD05BEC",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      id: "4A19ACFF6659EA44",
+      x: 8.0,
+      y: -2.2,
+      dependencies: [
+        "695EE127BCA815D8",
+      ],
+      tasks: [
+        {
+          id: "4A1C7786DD9645C3",
+          type: "item",
+          item: {
+            count: 1,
+            id: "oritech:foundry",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "480569F611F2162F",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      id: "7C03C7CB4AE0C5A7",
+      x: 9.6,
+      y: -3.0,
+      dependencies: [
+        "0FE132183A9E2A3E",
+        "4A19ACFF6659EA44",
+      ],
+      tasks: [
+        {
+          id: "156DE51C87EEBCED",
+          type: "item",
+          item: {
+            count: 1,
+            id: "mekanism:elite_control_circuit",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "06896B8DDC4994A1",
+          type: "xp",
+          xp: 100,
+        },
+        {
+          id: "4867D29F595872B4",
+          type: "random",
+          table_id: 253752461985528,
+        },
+      ],
+    },
+    {
+      id: "45340A1E8EC870FB",
+      x: 11.2,
+      y: -3.0,
+      size: 1.25,
+      dependencies: [
+        "7C03C7CB4AE0C5A7",
+      ],
+      tasks: [
+        {
+          id: "5028BF0CD0CD0A40",
+          type: "item",
+          item: {
+            count: 1,
+            id: "mekanism:pellet_antimatter",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4AC983F66B18A8DD",
+          type: "xp",
+          xp: 150,
+        },
+        {
+          id: "13B2516F650141EA",
+          type: "random",
+          table_id: 2210856162803377,
+        },
+      ],
+    },
+    {
+      id: "39E731A91263BD52",
+      x: 6.4,
+      y: 0.0,
+      dependencies: [
+        "040ECB00C94BF973",
+      ],
+      tasks: [
+        {
+          id: "74F5B78A17D27AE0",
+          type: "item",
+          item: {
+            count: 1,
+            id: "mysticalagriculture:infusion_altar",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "59830BAF806634D3",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      id: "54102498A4AE1D14",
+      x: 8.0,
+      y: -0.8,
+      dependencies: [
+        "39E731A91263BD52",
+      ],
+      tasks: [
+        {
+          id: "0BCB5441C0BEA123",
+          type: "item",
+          item: {
+            count: 1,
+            id: "thaumaturge:thaumonomicon",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7F560A026DDFE0A9",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      id: "3691393C3E98B5A3",
+      x: 8.0,
+      y: 0.8,
+      dependencies: [
+        "39E731A91263BD52",
+      ],
+      tasks: [
+        {
+          id: "4D6B41CF596E603A",
+          type: "item",
+          item: {
+            count: 1,
+            id: "apotheosis:gem_dust",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "327F1A1BD38F04EA",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      id: "7BE6A17A6D9F43E3",
+      x: 9.6,
+      y: 0.0,
+      dependencies: [
+        "54102498A4AE1D14",
+        "3691393C3E98B5A3",
+      ],
+      tasks: [
+        {
+          id: "51CE794393FB10C7",
+          type: "item",
+          item: {
+            count: 1,
+            id: "mysticalagriculture:supremium_ingot",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1EDF6B14CDFBE39E",
+          type: "xp",
+          xp: 100,
+        },
+        {
+          id: "11AAADB52610E786",
+          type: "random",
+          table_id: 253752461985528,
+        },
+      ],
+    },
+    {
+      id: "09B4200D6A64399A",
+      x: 11.2,
+      y: 0.0,
+      size: 1.25,
+      dependencies: [
+        "7BE6A17A6D9F43E3",
+      ],
+      tasks: [
+        {
+          id: "48DED2F6F8B1AEE0",
+          type: "item",
+          item: {
+            count: 1,
+            id: "mysticalagradditions:insanium_ingot",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2584CED6D63B953D",
+          type: "xp",
+          xp: 150,
+        },
+        {
+          id: "332FF1F1CCC5EC75",
+          type: "random",
+          table_id: 2210856162803377,
+        },
+      ],
+    },
+    {
+      id: "07CEC09293A330D4",
+      x: 6.4,
+      y: 3.0,
+      icon: {
+        count: 1,
+        id: "minecraft:end_stone",
+      },
+      dependencies: [
+        "040ECB00C94BF973",
+      ],
+      tasks: [
+        {
+          id: "57002741F7A177ED",
+          type: "dimension",
+          dimension: "minecraft:the_end",
+        },
+      ],
+      rewards: [
+        {
+          id: "2318401257EA8604",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      id: "79BD1EE8C76BAEDB",
+      x: 8.0,
+      y: 2.2,
+      dependencies: [
+        "07CEC09293A330D4",
+      ],
+      tasks: [
+        {
+          id: "79529A913A611482",
+          type: "item",
+          item: {
+            count: 1,
+            id: "aether_ii:zanite_gemstone",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4F5A902022B0F5B0",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      id: "6DDAFB92818AF6D1",
+      x: 8.0,
+      y: 3.8,
+      dependencies: [
+        "07CEC09293A330D4",
+      ],
+      tasks: [
+        {
+          id: "4A6182F4B02C288D",
+          type: "item",
+          item: {
+            count: 1,
+            id: "twilightforest:naga_scale",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1FE89691A5DC6642",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      id: "1D8895A769D06F38",
+      x: 9.6,
+      y: 2.2,
+      dependencies: [
+        "79BD1EE8C76BAEDB",
+      ],
+      tasks: [
+        {
+          id: "590F80CC696C6A84",
+          type: "item",
+          item: {
+            count: 1,
+            id: "allthemodium:allthemodium_ingot",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7D2C9A952272D2BB",
+          type: "xp",
+          xp: 100,
+        },
+        {
+          id: "312F3ABF1FD271AC",
+          type: "random",
+          table_id: 253752461985528,
+        },
+      ],
+    },
+    {
+      id: "7F3741482E6279A8",
+      x: 9.6,
+      y: 3.8,
+      dependencies: [
+        "6DDAFB92818AF6D1",
+      ],
+      tasks: [
+        {
+          id: "6FFE6ED5437F992B",
+          type: "item",
+          item: {
+            count: 1,
+            id: "stellaris:desh_ingot",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2CC64CFE5E9E2344",
+          type: "xp",
+          xp: 100,
+        },
+        {
+          id: "5E0519662E47358E",
+          type: "random",
+          table_id: 253752461985528,
+        },
+      ],
+    },
+    {
+      id: "143A85C42BF5A10D",
+      x: 11.2,
+      y: 3.0,
+      size: 1.25,
+      dependencies: [
+        "1D8895A769D06F38",
+        "7F3741482E6279A8",
+      ],
+      tasks: [
+        {
+          id: "672DBDF665D094AA",
+          type: "item",
+          item: {
+            count: 1,
+            id: "allthemodium:unobtainium_ingot",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3DE21C3A6F7B9F10",
+          type: "xp",
+          xp: 150,
+        },
+        {
+          id: "25817BA0F3452940",
+          type: "random",
+          table_id: 2210856162803377,
+        },
+      ],
+    },
+    {
+      id: "75CEC8D79B57D3F1",
+      x: 9.6,
+      y: 1.4,
+      dependencies: [
+        "1D8895A769D06F38",
+      ],
+      tasks: [
+        {
+          id: "22147547C15A9519",
+          type: "item",
+          item: {
+            count: 1,
+            id: "equivox:philosophers_stone",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7B2DFAF7B4041412",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      id: "4E77C0883E27C158",
+      x: 11.2,
+      y: 1.5,
+      dependencies: [
+        "75CEC8D79B57D3F1",
+        "143A85C42BF5A10D",
+      ],
+      tasks: [
+        {
+          id: "692E4D3B6736B901",
+          type: "item",
+          item: {
+            count: 1,
+            id: "equivox:red_matter",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "34D767C9BF56EFE8",
+          type: "xp",
+          xp: 150,
+        },
+        {
+          id: "56F9772C19703B7D",
+          type: "random",
+          table_id: 2210856162803377,
+        },
+      ],
+    },
+    {
+      id: "16E8BC56D17D7680",
+      x: 12.9,
+      y: 0.0,
+      shape: "hexagon",
+      size: 1.5,
+      dependencies: [
+        "45340A1E8EC870FB",
+        "09B4200D6A64399A",
+        "143A85C42BF5A10D",
+        "4E77C0883E27C158",
+      ],
+      tasks: [
+        {
+          id: "67CAAA09706BBE0B",
+          type: "item",
+          item: {
+            count: 1,
+            id: "extendedcrafting:elite_table",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0C173DE3EFABCFEE",
+          type: "xp",
+          xp: 200,
+        },
+        {
+          id: "047B8FC93F9FD158",
+          type: "random",
+          table_id: 379532711335085,
+        },
+      ],
+    },
+    {
+      id: "707A8DA8ADAA3EF6",
+      x: 14.6,
+      y: 0.0,
+      size: 1.5,
+      dependencies: [
+        "16E8BC56D17D7680",
+      ],
+      tasks: [
+        {
+          id: "4385F058256E0F40",
+          type: "item",
+          item: {
+            count: 1,
+            id: "gspack:creative_singularity",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "786D949600070302",
+          type: "xp",
+          xp: 300,
+        },
+        {
+          id: "34F25B0A75D9A0CE",
+          type: "random",
+          table_id: 379532711335085,
+        },
+      ],
+    },
+    {
+      id: "1301F1BA2A9F98D4",
+      x: 16.3,
+      y: 0.0,
+      size: 1.5,
+      dependencies: [
+        "707A8DA8ADAA3EF6",
+      ],
+      tasks: [
+        {
+          id: "4024E4FFF2359A2D",
+          type: "item",
+          item: {
+            count: 1,
+            id: "extendedcrafting:ultimate_singularity",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "22FC820BB9FBD8A1",
+          type: "xp",
+          xp: 400,
+        },
+        {
+          id: "4CBA027193DD62F7",
+          type: "random",
+          table_id: 379532711335085,
+        },
+      ],
+    },
+    {
+      id: "5EA6B455B82F34F0",
+      x: 18.4,
+      y: 0.0,
+      shape: "gear",
+      size: 2.5,
+      dependencies: [
+        "1301F1BA2A9F98D4",
+      ],
+      tasks: [
+        {
+          id: "581F1D7F987E4789",
+          type: "item",
+          item: {
+            count: 1,
+            id: "gspack:infinity_trophy",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7F3C6349460CFE07",
+          type: "xp_levels",
+          xp_levels: 10,
+        },
+      ],
+    },
+  ],
+  quest_links: [ ],
+  images: [
+    {
+      x: 9.2,
+      y: -5.5188,
+      width: 12.0,
+      height: 1.4375,
+      rotation: 0.0,
+      image: "gspack:textures/quests/progression_header.png",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false,
+    },
+  ],
+}

@@ -56,15 +56,17 @@ Changes in the GSPack Dev Build that are not released yet.
 Steel comes from Mekanism, Railcraft, Oritech, Tinkers' and AllTheOres. Script: `kubejs/server_scripts/gspack_crossmod_recipes.js`, tooltips: `kubejs/client_scripts/gspack_crossmod_tooltips.js`.
 
 ### Extended Crafting endgame
-- **Creative items** are now crafted in an **Elite Crafting Table** (7x7): the singularity, the same corner and edge items as before, plus 16 Black Iron Ingots, 4 Elite Components and 4 Crystaltine Ingots.
+- **Creative items** are now crafted in an **Elite Crafting Table** (7x7): the singularity, the same corner and edge items as before, plus 4 double compressed blocks that match the item (osmium for Mekanism, fluix for AE2, steel for Oritech, nitro crystal for Powah, emerald, diamond, gold or Allthemodium for the others), 16 Black Iron Ingots, 4 Elite Components and 4 Crystaltine Ingots.
 - **Trophy of Infinity** is crafted in an **Ultimate Crafting Table** (9x9) and is now many times more expensive. You need to have done most of the pack:
   - the **capstone item of 20 mods** (MekaSuit Bodyarmor, Quantum Core, Black Hole, Infinite Energy Cell Array, Electric Locomotive, Nitro Energy Cell, Queen's Slime Ingot, Primordial Pearl, Godforged Pearl, Klein Star Omega, Insanium Gemstone Block, Dark Power Gem Block, Crystal Staff, Valkyrie Wings, Unobtainium-Vibranium Block, Heart of Luna and Star Crawler trophies, Neptunium Block, Novite Block, Gravitite Block)
   - all **eight Twilight Forest boss trophies**
   - the eight creative items and **8 more Creative Singularities** (16 in total)
   - the Extended Crafting **Ultimate Singularity** (one of every singularity)
-  - 24 Crystaltine Blocks, 4 Nether Star Blocks, 4 Ultimate Components and 4 Infinite Control Circuits
+  - compressed blocks from All The Compressed: 8 Double Compressed Netherite Blocks, 4 Double Compressed Unobtainium-Vibranium Alloy Blocks and 4 Compressed Antimatter Blocks
+  - 8 Crystaltine Blocks, 4 Nether Star Blocks, 4 Ultimate Components and 4 Infinite Control Circuits
+- **All The Compressed fixes** (`kubejs/server_scripts/gspack_compressed_fixes.js`): the **Antimatter Block** had no recipe, so Compressed Antimatter could not be made. 9 Antimatter Pellets now make one (and it breaks back into 9 pellets). Compressed Osmium and Steel Blocks now take any osmium or steel block (Mekanism, Railcraft, Tinkers', ...), not only the AllTheOres one.
 - The trophy quest now also waits for the final quests of those chapters. A new quest covers the **Ultimate Singularity**.
-- The **Ultimate Singularity** has its own GSPack recipe (9x9, Ultimate Crafting Table) instead of Extended Crafting's default: all 19 singularities, a Creative Singularity in the middle, 4 each of Antimatter Pellets, Insanium Gemstone Blocks, Unobtainium Blocks and Void Metal, plus 24 Black Iron Blocks, 5 Nether Star Blocks, 4 Crystaltine Blocks, 4 Ultimate Components, 4 Ultimate Catalysts and 4 Infinite Control Circuits. With the trophy that makes 17 Creative Singularities in total.
+- The **Ultimate Singularity** has its own GSPack recipe (9x9, Ultimate Crafting Table) instead of Extended Crafting's default: all 19 singularities, a Creative Singularity in the middle, 4 each of Antimatter Pellets, Insanium Gemstone Blocks, Compressed Unobtainium Blocks and Void Metal, plus 8 Triple Compressed Iron Blocks, 16 Black Iron Blocks, 5 Nether Star Blocks, 4 Crystaltine Blocks, 4 Ultimate Components, 4 Ultimate Catalysts and 4 Infinite Control Circuits. With the trophy that makes 17 Creative Singularities in total.
 
 ### Uncraftable items are now craftable
 These items had no recipe at all (boss trophies, rare drops, LTX's infinite blocks), so the Trophy of Infinity depended on luck and repeat boss kills, and two quests could not be completed. They now also have an Extended Crafting recipe made from their own mod's materials (the drops and boss kills still work too):
@@ -95,17 +97,18 @@ Equivalent exchange is very strong, so its EMC engine costs much more now:
 
 | Item | Change |
 |---|---|
-| Philosopher's Stone (both recipes) | redstone → redstone blocks, glowstone dust → glowstone, diamond → Salis Mundus (Thaumaturge) |
-| Dark Matter | diamond block → Refined Obsidian Block (Mekanism) |
-| Red Matter (both recipes) | Aeternalis Fuel → Aeternalis Fuel Blocks (9 times as much) |
+| Philosopher's Stone (both recipes) | redstone → redstone blocks, glowstone dust → glowstone, diamond → an Allthemodium Ingot |
+| Dark Matter | diamond block → a Vibranium Ingot (Allthemodium) |
+| Red Matter (both recipes) | Aeternalis Fuel → Aeternalis Fuel Blocks (9 times as much), plus 2 Unobtainium Ingots |
 | Collector MK2 / MK3, Relay MK2 / MK3 | one Dark / Red Matter → a Dark / Red Matter Block (4 times as much) |
-| Condenser MK2 | now in an Elite Crafting Table, with 4 Antimatter Pellets (Mekanism) |
-| Transmutation Tablet | stone → Imperium Essence (Mystical Agriculture) |
+| Collector MK3 / Relay MK3 | glowstone / obsidian → Compressed Glowstone / Compressed Obsidian (All The Compressed) |
+| Condenser MK2 | now in an Elite Crafting Table, with 4 Compressed Unobtainium Blocks |
+| Transmutation Tablet | stone → Allthemodium Ingots |
 | Transmutation Interface | hopper → ME Interface (AE2) |
 | Watch of Flowing Time | clock → Time in a Bottle |
 | Dark Matter Furnace | furnace → Diamond Furnace (Iron Furnaces) |
 
-Together with the earlier changes (Transmutation Table, Alchemical Chest, Collector MK1, Condenser MK1 in the Advanced table, Dark Matter Pedestal in the Elite table), most of Equivox now ties into other mods.
+Together with the earlier changes (Transmutation Table, Alchemical Chest, Collector MK1, Condenser MK1 in the Advanced table, Dark Matter Pedestal in the Elite table), most of Equivox now ties into other mods. Equivox's progression follows **Allthemodium**: the Philosopher's Stone needs Allthemodium, Dark Matter needs Vibranium and Red Matter needs Unobtainium (the quests wait for those ingots too).
 
 ### Late-game items moved to Extended Crafting tables
 The original recipe stays in the middle; around it go Extended Crafting components, Black Iron Ingots and a cross-mod ingredient.
@@ -117,11 +120,11 @@ The original recipe stays in the middle; around it go Extended Crafting componen
 | Advanced (5x5) | World Spike (Railcraft) | Zanite Gemstone (The Aether II) |
 | Advanced (5x5) | Loot Fabricator (Hostile Neural Networks) | Engineering Processor (AE2) |
 | Advanced (5x5) | Time in a Bottle | Quicksilver (Thaumaturge) |
-| Advanced (5x5) | Energy Condenser MK1 (Equivox) | Thaumium Ingot (Thaumaturge) |
+| Advanced (5x5) | Energy Condenser MK1 (Equivox) | Allthemodium Block |
 | Advanced (5x5) | Uncrafting Table (Twilight Forest) | Gem Dust (Apotheosis) |
 | Advanced (5x5) | Atomic Forge (Oritech) | Atomic Alloy (Mekanism) |
 | Elite (7x7) | Augmenting Table (Apotheosis) | Void Metal (Thaumaturge) |
-| Elite (7x7) | Dark Matter Pedestal (Equivox) | Supremium Block (Mystical Agriculture) |
+| Elite (7x7) | Dark Matter Pedestal (Equivox) | Vibranium Block (Allthemodium) |
 
 These items have a tooltip saying which table they need.
 - **The tables cost more**, one tier heavier each:
@@ -130,12 +133,29 @@ These items have a tooltip saying which table they need.
 |---|---|---|
 | Basic | Steel Block (iron block) | Basic Control Circuit |
 | Advanced | Imperium Block (gold block) | Advanced Control Circuit |
-| Elite | Refined Obsidian Block (diamond block) | Elite Control Circuit |
-| Ultimate | Vibranium Block (emerald block) | Ultimate Control Circuit |
+| Elite | Compressed Obsidian (diamond block) | Elite Control Circuit |
+| Ultimate | Compressed Vibranium Block (emerald block) | Ultimate Control Circuit |
 
 - The Endgame chapter has two new quests, **Elite Crafting Table** and **Ultimate Crafting Table**; creative items need the Elite one, the trophy needs the Ultimate one.
 
+### Allthemodium alloy tools
+The alloy tools (Sword, Pickaxe, Axe, Shovel, Mace, Trident, Paxel) had no recipe at all. They now have a very hard Extended Crafting recipe:
+- **Elite Crafting Table** (7x7) for each tool: the Unobtainium version of the tool (a Trident for the Alloy Trident) in the middle, wrapped in all three alloy ingots, 4 Compressed Unobtainium-Vibranium Alloy Blocks, 2 Antimatter Pellets and 4 Elite Components.
+- **Ultimate Crafting Table** (9x9) for the **Alloy Paxel**: the Alloy Pickaxe, Axe and Shovel, all three alloys, Compressed and Double Compressed Unobtainium-Vibranium Alloy Blocks, Antimatter and 4 Ultimate Components.
+
+### Mystical Agriculture: new seeds (Mystical Customization)
+The *ATM x Mystical Ag Support* mod was removed. GSPack now adds its own crops with Mystical Customization (`config/mysticalcustomization/crops`), and a KubeJS script turns their essence back into the resource (`kubejs/server_scripts/gspack_mystical_seeds.js`). Seeds are made on the Infusion Altar as usual.
+
+- **Allthemodium** (tier 5), **Vibranium** and **Unobtainium** (tier 6). Each one needs its own **Crux block** under the farmland: the new **Allthemodium, Vibranium and Unobtainium Crux** (KubeJS blocks). Each crux is crafted around the one before it, with Allthemodium / Vibranium / Unobtainium blocks and Supremium or Insanium Essence.
+- **16 ores from other mods**, many of them useful for the endgame: Titanium, Desh and Novite (Stellaris), Zanite, Arkenium, Gravitite and Ambrosium (The Aether II), Dark Gem (EvilCraft), Niobium (LTX Industries), Iesnium (Occultism), Cinnabar (AllTheOres), Ferricore, Blazegold, Celestigem and Eclipse Alloy (Just Dire Things) and Neptunium (Aquaculture).
+- Higher tiers give less per craft: 8 essence makes 6 / 4 / 3 (tier 2 / 3 / 4), 9 essence makes 2 / 1 (tier 5 / 6).
+- The **Verdant Core** now needs Unobtainium Seeds from this set.
+- **Seed Codex:** the Allthemodium section shows the three new seeds (the old Total Oreium seed is gone) and a new section **Ores From Other Mods** has the other 16. The *Crux Blocks* quest mentions the new crux blocks.
+
 ### Quest book
+- **New chapter: GSPack Progression** (after Getting Started, 27 quests): a hand-placed map of the pack with dependency lines. A shared start (iron, Smeltery, Nether, diamonds) splits into three roads (Technology, Magic, Exploration, with Equivox after Allthemodium) that meet again at Extended Crafting and lead to the Trophy of Infinity. The milestones complete when you have the item.
+- **New chapter: Just Dire Things** (Technology, 56 quests): the four goo tiers and what they transform (iron, gold, diamond and netherite blocks into Ferricore, Blazegold, Celestigem and Eclipse Alloy), the tools and armor of each metal, better coal, Polymorphic, fuel, time and portal fluids, the Time Wand, Portal Gun and Paradox Machine, the machines, ability upgrades, and the wands and gadgets.
+- **New chapter: Trophy Checklist** (Endgame, 46 quests): every ingredient of the Trophy of Infinity with the amount needed, laid out as a target like the 9x9 recipe: materials, creative items, the capstones of 20 mods and the Twilight Forest trophies on four rings around the trophy.
 - **Punch a Tree** accepts **16 logs of any kind** (everything in `#minecraft:logs`, including the wood of The Aether II, Twilight Forest, Thaumaturge and other mods), not just oak. A KubeJS player stage (`kubejs/server_scripts/gspack_quest_stages.js`) completes the new stage task; progress is kept.
 - **Tinkers' Construct:** the first quest explains how to craft *Materials and You* (Book + Pattern).
 - **Aquaculture 2:** the fish quests now match where each fish really bites (from the mod's fishing table):
@@ -149,10 +169,15 @@ These items have a tooltip saying which table they need.
   - *Master Angler* now also needs the Lake Fish, Leech and African Waters quests.
   - Hooks: removed the *Nether Hooks* and *Obsidian Hook* quests and the glowstone hook. Those hooks (glowstone, quartz, soul sand, obsidian, double obsidian, obsidian note) have no recipe in this Aquaculture version; they belong to Nether and lava fishing, which is empty. The other hook descriptions now match the mod's tooltips (for example: the iron hook saves durability, the light hook casts further, the redstone hook gives more time to reel in).
 
+### Broken mod recipes fixed
+- **Capacitor Additions** (Allthemodium, Vibranium and Unobtainium Capacitor) and **Grinding Ball Additions** (Allthemodium, Vibranium, Unobtainium and Infinite Grinding Ball) could not be crafted: their recipes use an ingredient format that Minecraft 26.1 no longer reads. KubeJS re-adds them with the same patterns (`kubejs/server_scripts/gspack_broken_recipe_fixes.js`).
+- Not fixed: the Dark Utilities rune templates (font changes for item names) need the Bookshelf library, which is not in the pack.
+
 ### Configs
 - Tinkers' Construct no longer gives new players its book when they join a world (`shouldSpawnWithTinkersBook = false`).
 
 ### For pack makers
+- `build-quests.ps1`: new `-showlines` switch for `Chapter` to draw dependency lines in a hand-placed chapter (lines stay hidden everywhere else).
 - `build-quests.ps1` supports stage tasks (FTB Quests type `gamestage`): `stage:<name>[@<icon>][|<title>]`.
 
 ## 0.3 (2026-11-02)

@@ -1,0 +1,7 @@
+{
+  "name": "Niobium",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagriculture:3",
+  "ingredient": { "item": "ltxi:niobium_ingot" },
+  "color": "#8f9fc8"
+}

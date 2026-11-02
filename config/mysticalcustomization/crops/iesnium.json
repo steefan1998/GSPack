@@ -1,0 +1,7 @@
+{
+  "name": "Iesnium",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagriculture:4",
+  "ingredient": { "item": "occultism:iesnium_ingot" },
+  "color": "#5cb8e0"
+}

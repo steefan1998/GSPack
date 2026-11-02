@@ -1,0 +1,7 @@
+{
+  "name": "Gravitite",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagriculture:4",
+  "ingredient": { "item": "aether_ii:gravitite_plate" },
+  "color": "#ff6fd0"
+}

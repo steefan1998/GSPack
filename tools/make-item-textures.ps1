@@ -80,6 +80,36 @@ function Draw-Trophy([string]$file) {
     $bmp.Save((Join-Path $Out $file), [Drawing.Imaging.ImageFormat]::Png); $bmp.Dispose()
 }
 
+# A crux block: a dark stone frame with a bevelled metal plate and a glowing gem in the middle.
+function Draw-Crux([string]$file, [string]$dark, [string]$mid, [string]$light, [string]$glow) {
+    $bmp = New-Object Drawing.Bitmap 16, 16
+    $cD = Col $dark; $cM = Col $mid; $cL = Col $light; $cG = Col $glow
+    $frame = Col '#2a2630'; $frameLit = Col '#4a4452'
+    for ($y = 0; $y -lt 16; $y++) {
+        for ($x = 0; $x -lt 16; $x++) {
+            $edge = [Math]::Min([Math]::Min($x, $y), [Math]::Min(15 - $x, 15 - $y))
+            if ($edge -eq 0) { $c = $frame }
+            elseif ($edge -eq 1) { $c = if ($x -lt 8 -and $y -lt 8) { $frameLit } else { Mix $frame $frameLit 0.5 } }
+            else {
+                $lit = ((15 - $x) + (15 - $y)) / 30.0           # 1 = top-left
+                $c = if ($lit -gt 0.5) { Mix $cM $cL (($lit - 0.5) * 2) } else { Mix $cD $cM ($lit * 2) }
+                if ($edge -eq 2) { $c = Mix $c $cD 0.45 }        # inner bevel
+                $d = [Math]::Abs($x - 7.5) + [Math]::Abs($y - 7.5) # diamond-shaped gem
+                if ($d -lt 4.2) { $c = Mix $cL $cG (1 - $d / 4.2) }
+                elseif ($d -lt 5.2) { $c = Mix $cD ([Drawing.Color]::Black) 0.3 }
+            }
+            $bmp.SetPixel($x, $y, $c)
+        }
+    }
+    $bmp.Save((Join-Path $BlockOut $file), [Drawing.Imaging.ImageFormat]::Png); $bmp.Dispose()
+}
+
+$BlockOut = Join-Path (Split-Path $PSScriptRoot -Parent) 'kubejs\assets\gspack\textures\block'
+New-Item -ItemType Directory -Force $BlockOut | Out-Null
+Draw-Crux 'allthemodium_crux.png' '#7a4a06' '#d99a1e' '#ffd46a' '#fff6d8'
+Draw-Crux 'vibranium_crux.png' '#0c5a46' '#22b48a' '#7af0cc' '#e8fff8'
+Draw-Crux 'unobtainium_crux.png' '#4a1470' '#9a3ad6' '#d79cff' '#fbefff'
+
 Draw-Orb 'tech_core.png' '#0e3a5c' '#2f8fd8' '#8fd8ff' '#e6fbff'
 Draw-Orb 'arcane_core.png' '#3a0f52' '#8a3fc4' '#d49cff' '#fff0ff'
 Draw-Orb 'verdant_core.png' '#13401a' '#3fa83a' '#a6f07a' '#f4ffe0'

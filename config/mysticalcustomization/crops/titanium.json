@@ -1,0 +1,7 @@
+{
+  "name": "Titanium",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagriculture:3",
+  "ingredient": { "item": "stellaris:titanium_ingot" },
+  "color": "#c9d1dd"
+}

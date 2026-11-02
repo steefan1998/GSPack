@@ -1,0 +1,8 @@
+{
+  "name": "Vibranium",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagradditions:6",
+  "ingredient": { "item": "allthemodium:vibranium_ingot" },
+  "color": "#3ee8b4",
+  "crux": "gspack:vibranium_crux"
+}

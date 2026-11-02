@@ -1,0 +1,7 @@
+{
+  "name": "Neptunium",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagriculture:5",
+  "ingredient": { "item": "aquaculture:neptunium_ingot" },
+  "color": "#3fd9c8"
+}

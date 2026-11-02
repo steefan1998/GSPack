@@ -16,6 +16,9 @@
       y: 1.45,
       shape: "gear",
       size: 1.5,
+      dependencies: [
+        "3D6CDFC350D4F63C",
+      ],
       tasks: [
         {
           id: "248F89A6FA3BD48E",
@@ -680,6 +683,7 @@
       size: 1.5,
       dependencies: [
         "3F0881FD879BFC90",
+        "2E088CACC9730C11",
       ],
       tasks: [
         {
@@ -892,6 +896,7 @@
       size: 1.5,
       dependencies: [
         "1647F9EA97FA8A07",
+        "49DDCA926E7726A1",
       ],
       tasks: [
         {

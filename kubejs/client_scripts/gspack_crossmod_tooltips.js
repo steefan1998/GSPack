@@ -28,7 +28,11 @@ ItemEvents.modifyTooltips(event => {
     'mekanism:teleporter', 'ae2:quantum_ring', 'railcraft:world_spike', 'hostilenetworks:loot_fabricator',
     'tiab:time_in_a_bottle', 'equivox:condenser_mk1', 'twilightforest:uncrafting_table', 'oritech:atomic_forge'
   ]
-  const elite = ['apotheosis:augmenting_table', 'equivox:dm_pedestal', 'equivox:condenser_mk2']
+  // plus the Allthemodium alloy tools (server_scripts/gspack_allthemodium_alloys.js)
+  const elite = ['apotheosis:augmenting_table', 'equivox:dm_pedestal', 'equivox:condenser_mk2',
+    'allthemodium:alloy_sword', 'allthemodium:alloy_pickaxe', 'allthemodium:alloy_axe', 'allthemodium:alloy_shovel',
+    'allthemodium:alloy_mace', 'allthemodium:alloy_trident']
+  event.add('allthemodium:alloy_paxel', Text.darkAqua('GSPack: crafted in an Ultimate Crafting Table (Extended Crafting)'))
   advanced.forEach(id => event.add(id, Text.darkAqua('GSPack: crafted in an Advanced Crafting Table (Extended Crafting)')))
   elite.forEach(id => event.add(id, Text.darkAqua('GSPack: crafted in an Elite Crafting Table (Extended Crafting)')))
   event.add('extendedcrafting:ultimate_singularity', Text.darkAqua('GSPack: own recipe in the Ultimate Crafting Table (see JEI)'))

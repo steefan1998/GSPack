@@ -44,7 +44,7 @@ Unlocks after: the Primordial Pearl (Thaumaturge), Godforged (Apotheosis), Red M
 Q 'core_verdant' 'Verdant Core' 'gspack:verdant_core' 'intro,mystical/insanium,seeds/s_nether_star,seeds/s_unobtainium,aquaculture/neptunium' 'xp:1000;table:epic' -size 1.5 -shape 'hexagon' -desc @'
 The essence of everything that grows, and everything that swims.
 
-&7Recipe:&r 4 Insanium Gemstone blocks, 2 Nether Star Seeds, 2 Neptunium blocks and an Unobtainium Seed in the middle.
+&7Recipe:&r 4 Insanium Gemstone blocks, 2 Nether Star Seeds, 2 Neptunium blocks and Unobtainium Seeds (Seed Codex) in the middle.
 
 Unlocks after: Insanium, the Nether Star and Unobtainium seeds (Seed Codex) and Neptunium (Aquaculture).
 '@
@@ -79,14 +79,14 @@ Creative items are too big for a normal crafting table: they are crafted in a 7x
 Work your way up: &eBasic&r (3x3), &eAdvanced&r (5x5) and &eElite&r (7x7). In GSPack each table needs materials from other mods:
 - Basic: a steel block and a Basic Control Circuit
 - Advanced: an Imperium Block and an Advanced Control Circuit
-- Elite: a Refined Obsidian Block and an Elite Control Circuit
+- Elite: a Compressed Obsidian block and an Elite Control Circuit
 
 The creative item recipes also use &eBlack Iron Ingots&r, &eElite Components&r and &eCrystaltine Ingots&r. Check JEI!
 '@
 Q 'ec_ultimate' 'Ultimate Crafting Table' 'extendedcrafting:ultimate_table' 'ec_elite' 'xp:1000;table:epic' -size 1.5 -desc @'
 The Trophy of Infinity is crafted in a 9x9 &eUltimate Crafting Table&r.
 
-In GSPack it needs a &5Vibranium Block&r (Allthemodium) and an &eUltimate Control Circuit&r (Mekanism), on top of the Ultimate Components and Catalyst.
+In GSPack it needs a &5Compressed Vibranium Block&r (All The Compressed) and an &eUltimate Control Circuit&r (Mekanism), on top of the Ultimate Components and Catalyst.
 '@
 Q 'ec_singularity' 'Ultimate Singularity' 'extendedcrafting:ultimate_singularity' 'ec_ultimate' 'xp:1000;table:epic' -size 1.5 -shape 'hexagon' -desc @'
 The heart of the Trophy of Infinity: the &dUltimate Singularity&r from Extended Crafting.
@@ -94,8 +94,8 @@ The heart of the Trophy of Infinity: the &dUltimate Singularity&r from Extended 
 In GSPack it has its own recipe in the 9x9 &eUltimate Crafting Table&r:
 - All &e19 singularities&r. Each one is compressed from 10,000 of one material in the &eCompressor&r: iron, gold, copper, tin, steel, diamond and more.
 - A &dCreative Singularity&r in the middle.
-- 4 each of Antimatter Pellets, Insanium Gemstone Blocks, Unobtainium Blocks and Void Metal.
-- 24 Black Iron Blocks, 5 Nether Star Blocks, 4 Crystaltine Blocks, 4 Ultimate Components, 4 Ultimate Catalysts and 4 Infinite Control Circuits.
+- 4 each of Antimatter Pellets, Insanium Gemstone Blocks, Compressed Unobtainium Blocks and Void Metal.
+- 8 &eTriple Compressed Iron Blocks&r (All The Compressed), 16 Black Iron Blocks, 5 Nether Star Blocks, 4 Crystaltine Blocks, 4 Ultimate Components, 4 Ultimate Catalysts and 4 Infinite Control Circuits.
 
 Start your compressors early and automate the materials! Check JEI for the full recipe.
 '@
@@ -123,7 +123,7 @@ $creative = @(
 foreach ($ci in $creative) {
     $key, $title, $item, $text, $needed = $ci
     $extra = if ($needed) { '&6Needed for the Trophy of Infinity.&r' } else { '&7Optional: not needed for the trophy.&r' }
-    Q $key $title $item 'singularity,ec_elite' 'xp:500;table:epic' -opt:(-not $needed) -desc "&7Recipe (Elite Crafting Table, 7x7):&r a Creative Singularity in the middle. $text Plus 16 Black Iron Ingots, 4 Elite Components and 4 Crystaltine Ingots.||$extra"
+    Q $key $title $item 'singularity,ec_elite' 'xp:500;table:epic' -opt:(-not $needed) -desc "&7Recipe (Elite Crafting Table, 7x7):&r a Creative Singularity in the middle. $text Plus 4 double compressed blocks (All The Compressed), 16 Black Iron Ingots, 4 Elite Components and 4 Crystaltine Ingots.||$extra"
 }
 
 # ===== The trophy =====
@@ -135,9 +135,9 @@ Q 'trophy' 'Trophy of Infinity' 'gspack:infinity_trophy' ((@($creative | Where-O
 The Trophy of Infinity is proof that you have mastered every corner of GSPack: technology, magic, farming, exploration and space.
 {@pagebreak}
 &7Recipe (Ultimate Crafting Table, 9x9), from the outside in:&r
-- The eight &2Twilight Forest&r boss trophies, 20 Crystaltine Blocks and 4 Nether Star Blocks.
-- The top item of 20 mods: MekaSuit Bodyarmor, Quantum Core, Black Hole, Infinite Energy Cell Array, Electric Locomotive, Nitro Energy Cell, Queen's Slime Ingot, Primordial Pearl, Godforged Pearl, Klein Star Omega, Insanium Gemstone Block, Dark Power Gem Block, Crystal Staff, Valkyrie Wings, Unobtainium-Vibranium Block, Heart of Luna and Star Crawler trophies, Neptunium Block, Novite Block and Gravitite Block. Plus 4 Creative Singularities.
-- The eight creative items: Creative Energy Cube, Creative Storage Cell, Creative Oritech Storage, Creative Powah Cell, Creative Essence, Infinity Upgrade, Creative Fluid Tank and Creative Energy Cell. Plus 4 Infinite Control Circuits and 4 Crystaltine Blocks.
+- The eight &2Twilight Forest&r boss trophies, 4 Nether Star Blocks, 4 Crystaltine Blocks, 8 &eDouble Compressed Netherite Blocks&r and 4 &eDouble Compressed Unobtainium-Vibranium Alloy Blocks&r.
+- The top item of 20 mods: MekaSuit Bodyarmor, Quantum Core, Black Hole, Infinite Energy Cell Array, Electric Locomotive, Nitro Energy Cell, Queen's Slime Ingot, Primordial Pearl, Godforged Pearl, Klein Star Omega, Insanium Gemstone Block, Dark Power Gem Block, Crystal Staff, Valkyrie Wings, Unobtainium-Vibranium Block, Heart of Luna and Star Crawler trophies, Neptunium Block, Novite Block and Gravitite Block. Plus 4 Creative Singularities and 4 Crystaltine Blocks.
+- The eight creative items: Creative Energy Cube, Creative Storage Cell, Creative Oritech Storage, Creative Powah Cell, Creative Essence, Infinity Upgrade, Creative Fluid Tank and Creative Energy Cell. Plus 4 Infinite Control Circuits and 4 &eCompressed Antimatter Blocks&r.
 - 4 more Creative Singularities and 4 Ultimate Components.
 - In the very middle: the &dUltimate Singularity&r.
 

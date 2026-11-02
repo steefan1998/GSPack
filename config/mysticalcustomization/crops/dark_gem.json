@@ -1,0 +1,7 @@
+{
+  "name": "Dark Gem",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagriculture:2",
+  "ingredient": { "item": "evilcraft:dark_gem" },
+  "color": "#40284a"
+}

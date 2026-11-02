@@ -32,14 +32,14 @@ The server ends up in `GSPackServer/`; start it with `start.bat` or `start.sh`. 
 
 ## The quest book
 
-1,337 quests in English, in 26 chapters:
+1,484 quests in English, in 29 chapters:
 
-- **Start:** Welcome, Getting Started (vanilla progression)
-- **Technology:** Mekanism, Applied Energistics 2 (with an AE2 Add-ons section), Oritech, Tinkers' Construct, LTX Industries, Railcraft Reborn, Utilities
-- **Magic & Farming:** Mystical Agriculture, Seed Codex (every seed that loads in the pack, including the Allthemodium seeds), Apotheosis, Thaumaturge, Equivox, Roots Classic, EvilCraft
+- **Start:** Welcome, Getting Started (vanilla progression), GSPack Progression (a map of the whole pack with dependency lines)
+- **Technology:** Mekanism, Applied Energistics 2 (with an AE2 Add-ons section), Oritech, Tinkers' Construct, LTX Industries, Railcraft Reborn, Utilities, Just Dire Things
+- **Magic & Farming:** Mystical Agriculture, Seed Codex (every seed that loads in the pack, including GSPack's own Allthemodium and mod-ore seeds), Apotheosis, Thaumaturge, Equivox, Roots Classic, EvilCraft
 - **Exploration & Dimensions:** Allthemodium, Aquaculture 2, The Aether II, The Twilight Forest, Stellaris, Dungeons & Structures, Wildlife
 - **Storage & Building:** Storage, Building
-- **Endgame:** Endgame: Infinity
+- **Endgame:** Endgame: Infinity, Trophy Checklist (every trophy ingredient on rings around the trophy)
 
 ## Endgame: craftable creative items (KubeJS)
 
@@ -49,7 +49,7 @@ The pack's end goal is the **Trophy of Infinity**. KubeJS adds five cores, each 
 |---|---|
 | Technological Core | Antimatter, Super AI Chips, Quantum Processors, Infinite Control Circuit |
 | Arcane Core | Void Metal, Godforged Pearls, Red Matter, Primordial Pearl |
-| Verdant Core | Insanium, Nether Star Seeds, Neptunium, Unobtainium Seed |
+| Verdant Core | Insanium, Nether Star Seeds, Neptunium, Unobtainium Seeds |
 | Dimensional Core | Unobtainium-Vibranium Alloy, Twilight boss trophies, Gravitite, Piglich Heart |
 | Cosmic Core | Novite, Stellaris boss trophies, Nether Star |
 
@@ -62,6 +62,15 @@ Scripts: `kubejs/startup_scripts/gspack_endgame_items.js`, `kubejs/server_script
 ## Allthemodium alloys (KubeJS)
 
 `kubejs/server_scripts/gspack_allthemodium_alloys.js` lets you fuse the Allthemodium metals in a crafting table: 2 + 2 ingots (or dusts) of two metals make 2 alloy ingots (or dusts), and alloy dust smelts into the ingot.
+
+## Extra Mystical Agriculture crops (Mystical Customization + KubeJS)
+
+`config/mysticalcustomization/crops` adds 19 crops: Allthemodium, Vibranium and Unobtainium, and 16 ores from other mods (Stellaris, The Aether II, EvilCraft, LTX Industries, Occultism, AllTheOres, Just Dire Things, Aquaculture). Their items are `mysticalagriculture:<name>_seeds` and `mysticalagriculture:<name>_essence`. `kubejs/server_scripts/gspack_mystical_seeds.js` turns the essence back into the resource and adds the Allthemodium, Vibranium and Unobtainium Crux blocks (registered in `kubejs/startup_scripts/gspack_crux_blocks.js`) that the three ATM crops need under their farmland.
+
+## Recipe fixes (KubeJS)
+
+- `kubejs/server_scripts/gspack_compressed_fixes.js`: a recipe for the All The Compressed Antimatter Block (9 Antimatter Pellets), and Compressed Osmium / Steel from any mod's block.
+- `kubejs/server_scripts/gspack_broken_recipe_fixes.js`: re-adds the Capacitor Additions and Grinding Ball Additions recipes, which use an ingredient format that 26.1 no longer reads.
 
 ## Cross-mod recipes (KubeJS)
 

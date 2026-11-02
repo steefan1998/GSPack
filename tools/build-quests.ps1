@@ -145,8 +145,9 @@ function Table([string]$key, [string]$title, [string[]]$entries, [int]$rolls = 1
     $script:Tables[$key] = @{ Key = $key; Id = (New-Id "table:$key" -Small); Title = $title; Entries = $entries; Rolls = $rolls; Order = $script:Tables.Count }
 }
 
-function Chapter([string]$key, [string]$title, [string]$icon, [string]$group = '', [string]$sub = '', [switch]$hidelines) {
-    $script:Cur = @{ Key = $key; Id = (New-Id "chapter:$key"); Title = $title; Icon = $icon; Group = $group; Sub = $sub; HideLines = [bool]$hidelines; Quests = (New-Object System.Collections.Generic.List[object]); ByKey = @{} }
+# -showlines: draw dependency lines in this chapter (only for hand-placed chapters; the auto layout makes them cross).
+function Chapter([string]$key, [string]$title, [string]$icon, [string]$group = '', [string]$sub = '', [switch]$hidelines, [switch]$showlines) {
+    $script:Cur = @{ Key = $key; Id = (New-Id "chapter:$key"); Title = $title; Icon = $icon; Group = $group; Sub = $sub; HideLines = [bool]$hidelines; ShowLines = [bool]$showlines; Quests = (New-Object System.Collections.Generic.List[object]); ByKey = @{} }
     $script:Chapters.Add($script:Cur)
 }
 
@@ -417,7 +418,7 @@ foreach ($c in $script:Chapters) {
     }
     Write-File "chapters\$($c.Key).json5" ([ordered]@{
             id = $c.Id; group = $(if ($c.Group) { $script:Groups[$c.Group] } else { '' }); order_index = $(($order++)); filename = $c.Key
-            icon = (Item-Obj $c.Icon); default_quest_shape = ''; default_hide_dependency_lines = $true   # lines off everywhere: the auto layout makes them cross
+            icon = (Item-Obj $c.Icon); default_quest_shape = ''; default_hide_dependency_lines = (-not $c.ShowLines)   # lines off unless -showlines: the auto layout makes them cross
             quests = $quests; quest_links = @(); images = @(Chapter-Images $c)
         })
 }

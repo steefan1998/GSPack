@@ -11,6 +11,7 @@ if (-not (Test-Path "$Instance\mods")) { throw "No mods folder in $Instance" }
 # KubeJS folders the game creates itself (config, data, ...) are left alone.
 $sync = @(
     @{ From = 'config\ftbquests\quests'; Mirror = $true },
+    @{ From = 'config\mysticalcustomization\crops'; Mirror = $true },
     @{ From = 'kubejs\assets\gspack'; Mirror = $true },
     @{ From = 'kubejs\startup_scripts'; Mirror = $false },
     @{ From = 'kubejs\server_scripts'; Mirror = $false },

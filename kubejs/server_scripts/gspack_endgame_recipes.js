@@ -3,7 +3,7 @@
 // Five cores, one per pillar of the pack, each made from the hardest items of that pillar:
 //   Technological Core  - Mekanism, Oritech, Advanced AE
 //   Arcane Core         - Thaumaturge, Apotheosis, Equivox, Mystical Agriculture
-//   Verdant Core        - Mystical Agradditions, Aquaculture, ATM seeds
+//   Verdant Core        - Mystical Agradditions, Aquaculture, Unobtainium seeds
 //   Dimensional Core    - Allthemodium, Twilight Forest, Aether II
 //   Cosmic Core         - Stellaris
 // The five cores make a Creative Singularity; every creative item needs one.
@@ -42,7 +42,7 @@ ServerEvents.recipes(event => {
     A: 'mysticalagradditions:insanium_gemstone_block',
     B: 'mysticalagriculture:nether_star_seeds',
     C: 'aquaculture:neptunium_block',
-    D: 'atm_xmystical_ag_support:unobtainium_seed'
+    D: 'mysticalagriculture:unobtainium_seeds'
   }).id('gspack:endgame/verdant_core')
 
   event.shaped('gspack:dimensional_core', [
@@ -83,40 +83,40 @@ ServerEvents.recipes(event => {
   }).id('gspack:endgame/creative_singularity')
 
   // ----- Creative items: Elite Crafting Table (7x7), a singularity in the middle, the best version of the item around it -----
-  // A = corners (4), B = edges (4), plus Extended Crafting materials:
+  // A = corners (4), B = edges (4), Z = a compressed block from All The Compressed (4), plus Extended Crafting materials:
   // C = Black Iron Ingot (16), D = Elite Component (4), E = Crystaltine Ingot (4)
-  // [output, ingredient A, ingredient B, recipe id]
+  // [output, ingredient A, ingredient B, recipe id, compressed block Z]
   const creative = [
-    ['mekanism:creative_energy_cube', 'mekanism_extras:infinite_energy_cube', 'mekanism:pellet_antimatter', 'mekanism_energy_cube'],
-    ['mekanism:creative_fluid_tank', 'mekanism_extras:infinite_fluid_tank', 'mekanism:pellet_antimatter', 'mekanism_fluid_tank'],
-    ['mekanism:creative_chemical_tank', 'mekanism_extras:infinite_chemical_tank', 'mekanism:pellet_antimatter', 'mekanism_chemical_tank'],
-    ['mekanism:creative_bin', 'mekanism_extras:infinite_bin', 'mekanism:pellet_antimatter', 'mekanism_bin'],
-    ['mekanism_extras:upgrade_creative', 'mekanism_extras:upgrade_stack', 'mekanism:upgrade_speed', 'mekanism_upgrade'],
-    ['ae2:creative_energy_cell', 'ae2:dense_energy_cell', 'advanced_ae:quantum_processor', 'ae2_energy_cell'],
-    ['ae2:creative_storage_cell', 'ae2:item_storage_cell_256k', 'advanced_ae:quantum_storage_256', 'ae2_storage_cell'],
-    ['oritech:creative_storage', 'oritech:large_storage', 'oritech:overcharged_crystal', 'oritech_storage'],
-    ['oritech:creative_tank', 'oritech:portable_tank', 'oritech:super_ai_chip', 'oritech_tank'],
-    ['powah:energy_cell_creative', 'powah:energy_cell_nitro', 'powah:crystal_nitro', 'powah_energy_cell'],
-    ['mysticalagradditions:creative_essence', 'mysticalagradditions:insanium_gemstone_block', 'mysticalagriculture:awakened_supremium_ingot_block', 'mystical_essence'],
-    ['sophisticatedstorage:infinity_upgrade', 'sophisticatedstorage:stack_upgrade_omega_tier', 'storage_allthemodium_upgrade:stack_upgrade_tier_8', 'storage_infinity'],
-    ['sophisticatedbackpacks:infinity_upgrade', 'sophisticatedbackpacks:stack_upgrade_omega_tier', 'backpack_allthemodium_upgrade:stack_upgrade_tier_7', 'backpack_infinity'],
-    ['storagedrawers:creative_storage_upgrade', 'storagedrawers:emerald_storage_upgrade', 'storagedrawers:netherite_storage_upgrade', 'drawers_storage'],
-    ['storagedrawers:creative_vending_upgrade', 'storagedrawers:creative_storage_upgrade', 'storagedrawers:netherite_storage_upgrade', 'drawers_vending'],
-    ['functionalstorage:creative_vending_upgrade', 'functionalstorage:max_storage_upgrade', 'functionalstorage:netherite_upgrade', 'functional_vending'],
-    ['pipez:infinity_upgrade', 'pipez:ultimate_upgrade', 'mekanism:pellet_antimatter', 'pipez_infinity']
+    ['mekanism:creative_energy_cube', 'mekanism_extras:infinite_energy_cube', 'mekanism:pellet_antimatter', 'mekanism_energy_cube', 'allthecompressed:osmium_block_2x'],
+    ['mekanism:creative_fluid_tank', 'mekanism_extras:infinite_fluid_tank', 'mekanism:pellet_antimatter', 'mekanism_fluid_tank', 'allthecompressed:osmium_block_2x'],
+    ['mekanism:creative_chemical_tank', 'mekanism_extras:infinite_chemical_tank', 'mekanism:pellet_antimatter', 'mekanism_chemical_tank', 'allthecompressed:osmium_block_2x'],
+    ['mekanism:creative_bin', 'mekanism_extras:infinite_bin', 'mekanism:pellet_antimatter', 'mekanism_bin', 'allthecompressed:osmium_block_2x'],
+    ['mekanism_extras:upgrade_creative', 'mekanism_extras:upgrade_stack', 'mekanism:upgrade_speed', 'mekanism_upgrade', 'allthecompressed:redstone_block_2x'],
+    ['ae2:creative_energy_cell', 'ae2:dense_energy_cell', 'advanced_ae:quantum_processor', 'ae2_energy_cell', 'allthecompressed:fluix_block_2x'],
+    ['ae2:creative_storage_cell', 'ae2:item_storage_cell_256k', 'advanced_ae:quantum_storage_256', 'ae2_storage_cell', 'allthecompressed:fluix_block_2x'],
+    ['oritech:creative_storage', 'oritech:large_storage', 'oritech:overcharged_crystal', 'oritech_storage', 'allthecompressed:steel_block_2x'],
+    ['oritech:creative_tank', 'oritech:portable_tank', 'oritech:super_ai_chip', 'oritech_tank', 'allthecompressed:steel_block_2x'],
+    ['powah:energy_cell_creative', 'powah:energy_cell_nitro', 'powah:crystal_nitro', 'powah_energy_cell', 'allthecompressed:nitro_crystal_block_2x'],
+    ['mysticalagradditions:creative_essence', 'mysticalagradditions:insanium_gemstone_block', 'mysticalagriculture:awakened_supremium_ingot_block', 'mystical_essence', 'allthecompressed:emerald_block_2x'],
+    ['sophisticatedstorage:infinity_upgrade', 'sophisticatedstorage:stack_upgrade_omega_tier', 'storage_allthemodium_upgrade:stack_upgrade_tier_8', 'storage_infinity', 'allthecompressed:allthemodium_block_1x'],
+    ['sophisticatedbackpacks:infinity_upgrade', 'sophisticatedbackpacks:stack_upgrade_omega_tier', 'backpack_allthemodium_upgrade:stack_upgrade_tier_7', 'backpack_infinity', 'allthecompressed:allthemodium_block_1x'],
+    ['storagedrawers:creative_storage_upgrade', 'storagedrawers:emerald_storage_upgrade', 'storagedrawers:netherite_storage_upgrade', 'drawers_storage', 'allthecompressed:emerald_block_2x'],
+    ['storagedrawers:creative_vending_upgrade', 'storagedrawers:creative_storage_upgrade', 'storagedrawers:netherite_storage_upgrade', 'drawers_vending', 'allthecompressed:emerald_block_2x'],
+    ['functionalstorage:creative_vending_upgrade', 'functionalstorage:max_storage_upgrade', 'functionalstorage:netherite_upgrade', 'functional_vending', 'allthecompressed:diamond_block_2x'],
+    ['pipez:infinity_upgrade', 'pipez:ultimate_upgrade', 'mekanism:pellet_antimatter', 'pipez_infinity', 'allthecompressed:gold_block_2x']
   ]
 
-  creative.forEach(([output, corner, edge, id]) => {
+  creative.forEach(([output, corner, edge, id, compressed]) => {
     event.remove({ output: output })
     event.custom({
       type: 'extendedcrafting:shaped_table',
       pattern: [
         'ACCBCCA',
-        'CD   DC',
+        'CD Z DC',
         'C  E  C',
-        'BE S EB',
+        'BEZSZEB',
         'C  E  C',
-        'CD   DC',
+        'CD Z DC',
         'ACCBCCA'
       ],
       key: {
@@ -125,7 +125,8 @@ ServerEvents.recipes(event => {
         C: 'extendedcrafting:black_iron_ingot',
         D: 'extendedcrafting:elite_component',
         E: 'extendedcrafting:crystaltine_ingot',
-        S: 'gspack:creative_singularity'
+        S: 'gspack:creative_singularity',
+        Z: compressed
       },
       result: { id: output, count: 1 }
     }).id(`gspack:endgame/creative/${id}`)
@@ -133,24 +134,26 @@ ServerEvents.recipes(event => {
 
   // ----- The final goal: Ultimate Crafting Table (9x9) -----
   // Proof that you have done most of the pack. From the outside in:
-  //   ring 1: the eight Twilight Forest boss trophies, 20 Crystaltine Blocks, 4 Nether Star Blocks
-  //   ring 2: the capstone item of 20 mods, 4 Creative Singularities
-  //   ring 3: the eight creative items, 4 Infinite Control Circuits, 4 Crystaltine Blocks
+  //   ring 1: the eight Twilight Forest boss trophies, 4 Nether Star Blocks, 4 Crystaltine Blocks and
+  //           compressed blocks from All The Compressed: 8 Double Compressed Netherite Blocks (L) and
+  //           4 Double Compressed Unobtainium-Vibranium Alloy Blocks (M)
+  //   ring 2: the capstone item of 20 mods, 4 Creative Singularities, 4 Crystaltine Blocks
+  //   ring 3: the eight creative items, 4 Infinite Control Circuits, 4 Compressed Antimatter Blocks (O)
   //   ring 4: 4 Creative Singularities, 4 Ultimate Components
   //   centre: the Extended Crafting Ultimate Singularity
   // With the eight creative items that is 16 Creative Singularities in total.
   event.custom({
     type: 'extendedcrafting:shaped_table',
     pattern: [
-      'NFaFFFbFN',
+      'NFaLMLbFN',
       'FSmqolrSF',
-      'cpFA+BFtd',
-      'FuCUSUEvF',
-      'Fk+S*S+iF',
-      'FeDUSUIsF',
-      '1wFG+HFx2',
+      'cpOA+BOtd',
+      'LuCUSUEvL',
+      'Mk+S*S+iM',
+      'LeDUSUIsL',
+      '1wOG+HOx2',
       'FSyznj@SF',
-      'NFgFFFhFN'
+      'NFgLMLhFN'
     ],
     key: {
       // creative items
@@ -169,6 +172,10 @@ ServerEvents.recipes(event => {
       F: 'extendedcrafting:crystaltine_block',
       N: 'extendedcrafting:nether_star_block',
       '+': 'mekanism_extras:infinite_control_circuit',
+      // compressed blocks (All The Compressed)
+      L: 'allthecompressed:netherite_block_2x',
+      M: 'allthecompressed:unobtainium_vibranium_block_2x',
+      O: 'allthecompressed:antimatter_block_1x',
       // capstones: one per mod
       m: 'mekanism:mekasuit_bodyarmor',
       q: 'advanced_ae:quantum_core',
@@ -205,9 +212,9 @@ ServerEvents.recipes(event => {
 
   // ----- The Ultimate Singularity (Extended Crafting): Ultimate Crafting Table (9x9) -----
   // Replaces Extended Crafting's own recipe. From the outside in:
-  //   ring 1: 24 Black Iron Blocks, 4 Nether Star Blocks, 4 Ultimate Catalysts
+  //   ring 1: 16 Black Iron Blocks, 8 Triple Compressed Iron Blocks, 4 Nether Star Blocks, 4 Ultimate Catalysts
   //   ring 2: all 19 Extended Crafting singularities, 1 Nether Star Block, 4 Ultimate Components
-  //   ring 3: 4 Antimatter Pellets, 4 Insanium Gemstone Blocks, 4 Unobtainium Blocks, 4 Void Metal
+  //   ring 3: 4 Antimatter Pellets, 4 Insanium Gemstone Blocks, 4 Compressed Unobtainium Blocks, 4 Void Metal
   //   ring 4: 4 Crystaltine Blocks, 4 Infinite Control Circuits
   //   centre: a Creative Singularity
   // Each singularity is the same item with a different extendedcrafting:singularity_id component.
@@ -225,7 +232,8 @@ ServerEvents.recipes(event => {
     U: 'extendedcrafting:ultimate_component',
     P: 'mekanism:pellet_antimatter',
     I: 'mysticalagradditions:insanium_gemstone_block',
-    O: 'allthemodium:unobtainium_block',
+    O: 'allthecompressed:unobtainium_block_1x',
+    R: 'allthecompressed:iron_block_3x',
     W: 'thaumaturge:metal_void',
     E: 'extendedcrafting:crystaltine_block',
     K: 'mekanism_extras:infinite_control_circuit',
@@ -302,15 +310,15 @@ ServerEvents.recipes(event => {
   event.custom({
     type: 'extendedcrafting:shaped_table',
     pattern: [
-      'CBBBNBBBC',
+      'CBRBNBRBC',
       'BUabcdeUB',
-      'BfPIWIPgB',
+      'RfPIWIPgR',
       'BhOEKEOiB',
       'NjWKXKWkN',
       'BlOEKEOmB',
-      'BnPIWIPoB',
+      'RnPIWIPoR',
       'BUpqNrsUB',
-      'CBBBNBBBC'
+      'CBRBNBRBC'
     ],
     key: ultimateKey,
     result: { id: 'extendedcrafting:ultimate_singularity', count: 1 }

@@ -1,0 +1,7 @@
+{
+  "name": "Novite",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagriculture:5",
+  "ingredient": { "item": "stellaris:novite_ingot" },
+  "color": "#4fd6ff"
+}

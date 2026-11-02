@@ -1,0 +1,7 @@
+{
+  "name": "Ferricore",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagriculture:2",
+  "ingredient": { "item": "justdirethings:ferricore_ingot" },
+  "color": "#b0b8a8"
+}

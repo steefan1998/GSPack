@@ -105,7 +105,7 @@ Fuse the rare metals into the three alloys in a crafting table:
 
 The same works with dusts. Alloy dust smelts into an alloy ingot.
 '@
-Q 'alloy_tools' 'Alloy Paxel' 'allthemodium:alloy_paxel' 'alloys' 'lvl:30;table:epic' -desc 'A pickaxe, axe and shovel in one, made of the best alloys.'
-Q 'alloy_weapons' 'Alloy Arsenal' 'allthemodium:alloy_sword;allthemodium:alloy_mace;allthemodium:alloy_trident' 'alloys' 'lvl:30;table:epic' -opt -desc 'The ultimate weapons.'
+Q 'alloy_tools' 'Alloy Paxel' 'allthemodium:alloy_paxel' 'alloys' 'lvl:30;table:epic' -desc 'A pickaxe, axe and shovel in one, made of the best alloys. &6GSPack:&r crafted in an &eUltimate Crafting Table&r (9x9) from the Alloy Pickaxe, Axe and Shovel, all three alloys, Compressed Unobtainium-Vibranium Alloy Blocks and Antimatter. Each alloy tool is crafted in an &eElite Crafting Table&r (7x7) around its Unobtainium version.'
+Q 'alloy_weapons' 'Alloy Arsenal' 'allthemodium:alloy_sword;allthemodium:alloy_mace;allthemodium:alloy_trident' 'alloys' 'lvl:30;table:epic' -opt -desc 'The ultimate weapons. &6GSPack:&r each one is crafted in an &eElite Crafting Table&r (7x7) around its Unobtainium version (or a Trident), with all three alloys, Compressed Unobtainium-Vibranium Alloy Blocks and Antimatter.'
 Q 'upgrades' 'Storage Upgrades' 'check' 'unob_ingot' 'xp:100' -icon 'allthemodium:unobtainium_block' -desc 'Allthemodium storage and backpack upgrades exist for &bSophisticated Storage&r and &bSophisticated Backpacks&r. Check JEI!'
 Q 'complete' 'Allthemodium Master' 'allthemodium:allthemodium_block;allthemodium:vibranium_block;allthemodium:unobtainium_block' 'alloy_tools,unob_armor' 'lvl:50;table:epic' -size 2 -shape 'gear' -desc 'A block of each metal. You have conquered Allthemodium!'

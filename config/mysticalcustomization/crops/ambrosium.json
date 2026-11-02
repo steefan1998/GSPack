@@ -1,0 +1,7 @@
+{
+  "name": "Ambrosium",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagriculture:2",
+  "ingredient": { "item": "aether_ii:ambrosium_shard" },
+  "color": "#ffe766"
+}

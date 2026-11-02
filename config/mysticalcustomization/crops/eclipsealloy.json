@@ -1,0 +1,7 @@
+{
+  "name": "Eclipse Alloy",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagriculture:5",
+  "ingredient": { "item": "justdirethings:eclipsealloy_ingot" },
+  "color": "#5a3c8c"
+}

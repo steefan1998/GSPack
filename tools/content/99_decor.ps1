@@ -2,6 +2,9 @@
 # Textures are rendered by build-quests.ps1 into kubejs/assets/gspack/textures/quests.
 
 Decorate 'welcome' '#f5c542'
+Decorate 'progression' '#e0e0ff'
+Decorate 'trophy' '#c77dff'
+Decorate 'justdirethings' '#7fd36b' @{ goo1 = 'Goo'; ferricore_ore = 'Ferricore'; blazegold_ore = 'Blazegold'; celestigem = 'Celestigem'; eclipse_ore = 'Eclipse Alloy'; coal1 = 'Fuel, Fluids & Time'; generator = 'Machines'; upgrade_blank = 'Abilities'; voidshift = 'Wands & Gadgets' }
 Decorate 'basics' '#6cc04a' @{ wood = 'First Day'; iron = 'Iron Age'; diamonds = 'Diamonds & Enchanting'; nether = 'The Nether'; end = 'The End'; ancient_city = 'Exploration' }
 Decorate 'mekanism' '#3fa7e0' @{ osmium = 'Getting Started'; heat_gen = 'Power'; enrich = 'Ore Processing'; upgrades = 'Upgrades & Tiers'; transporter = 'Logistics'; disassembler = 'Gear'; dyntank = 'Nuclear & Multiblocks' }
 Decorate 'ae2' '#9b6be0' @{ certus = 'Quartz & Meteorites'; presses = 'Inscriber'; cable = 'The Network'; drive = 'Storage'; terminal = 'Terminals & Devices'; pattern = 'Autocrafting'; wireless = 'Wireless'; p2p = 'P2P & Quantum'; adv_ae = 'Advanced AE'; ex_start = 'AE2 Add-ons' }
@@ -10,7 +13,7 @@ Decorate 'mystical' '#55c85a' @{ inferium = 'Getting Started'; altar = 'Infusion
 Decorate 'seeds' '#9be05a' @{
     g_elemental = 'Elemental'; g_t1 = 'Tier 1'; g_t2 = 'Tier 2'; g_mobs = 'Mobs'; g_t3 = 'Tier 3'; g_t4 = 'Tier 4'; g_t5 = 'Tier 5'
     g_metals = 'Metals'; g_alloys = 'Alloys'; g_gems = 'Gems'; g_mekanism = 'Mekanism'; g_ae2 = 'AE2'; g_enderio = 'Ender IO'
-    g_tinkers = 'Tinkers'; g_twilight = 'Twilight'; g_powah = 'Powah'; g_soulium = 'Soulium'; g_t6 = 'Tier 6'; g_atm = 'Allthemodium'
+    g_tinkers = 'Tinkers'; g_twilight = 'Twilight'; g_powah = 'Powah'; g_soulium = 'Soulium'; g_t6 = 'Tier 6'; g_atm = 'Allthemodium'; g_modores = 'Mod Ores'
 }
 Decorate 'apotheosis' '#d94848' @{ start = 'Enchanting'; affix = 'Affix Loot'; gems = 'Gems'; spawner = 'Spawners' }
 Decorate 'thaumaturge' '#a35bd6' @{ crystals = 'Beginnings'; wand = 'Wands'; crucible = 'Alchemy'; thaumium_tools = 'Gear'; infusion = 'Infusion'; foci = 'Foci'; golem = 'Golemancy'; cultists = 'The Eldritch' }

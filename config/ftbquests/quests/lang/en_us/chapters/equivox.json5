@@ -4,7 +4,7 @@
   ],
   "chapter.3819B71D4386F7AF.title": "Equivox",
   "quest.00A3D0434AF7A0C0.quest_desc": [
-    "Much faster condensing. &6GSPack:&r crafted in an &eElite Crafting Table&r (Extended Crafting) with Mekanism &eAntimatter&r.",
+    "Much faster condensing. &6GSPack:&r crafted in an &eElite Crafting Table&r (Extended Crafting) with a &5Compressed Unobtainium Block&r (All The Compressed).",
   ],
   "quest.00A3D0434AF7A0C0.title": "Condenser MK2",
   "quest.05F6B8E22D6FA4DA.quest_desc": [
@@ -16,7 +16,7 @@
   ],
   "quest.080A3D3DB3A27F90.title": "Dark Matter Tools",
   "quest.0EB0B86796CCC2C7.quest_desc": [
-    "The best EMC production. &6GSPack:&r they need a Red Matter Block instead of a single Red Matter.",
+    "The best EMC production. &6GSPack:&r they need a Red Matter Block instead of a single Red Matter, and &eCompressed Glowstone&r / &eCompressed Obsidian&r (All The Compressed).",
   ],
   "quest.0EB0B86796CCC2C7.title": "Collector MK3",
   "quest.0F1D5C46F1A6B7D1.quest_desc": [
@@ -28,7 +28,7 @@
   ],
   "quest.10D178A588AFCC20.title": "Elemental Amulets",
   "quest.1647F9EA97FA8A07.quest_desc": [
-    "A very dense material made from Aeternalis Fuel and, in GSPack, a Mekanism &eRefined Obsidian Block&r. It is the next big step.",
+    "A very dense material made from Aeternalis Fuel and, in GSPack, a &3Vibranium Ingot&r (Allthemodium). It is the next big step.",
   ],
   "quest.1647F9EA97FA8A07.title": "Dark Matter",
   "quest.179E00500944B85C.quest_desc": [
@@ -39,6 +39,8 @@
     "Put an item in the &etarget&r slot and feed the condenser other items (or EMC). It turns them into copies of the target.",
     "",
     "Combine it with collectors for an endless source of anything.",
+    "",
+    "&6GSPack:&r crafted in an &eAdvanced Crafting Table&r (Extended Crafting) with &6Allthemodium Blocks&r.",
   ],
   "quest.1CB8909E36487976.title": "Energy Condenser",
   "quest.1F2A948BD1495916.quest_desc": [
@@ -135,7 +137,7 @@
   ],
   "quest.56C7E4D4A3470FFA.title": "Interdiction Torch",
   "quest.5787875D47C3264B.quest_desc": [
-    "Even denser than dark matter. In GSPack it needs dark matter and &eAeternalis Fuel Blocks&r (9 fuel each).",
+    "Even denser than dark matter. In GSPack it needs dark matter, &eAeternalis Fuel Blocks&r (9 fuel each) and &5Unobtainium Ingots&r (Allthemodium).",
   ],
   "quest.5787875D47C3264B.title": "Red Matter",
   "quest.59926A01305ABB45.quest_desc": [
@@ -155,7 +157,7 @@
   ],
   "quest.5D25E6CDF956C875.title": "Klein Star Omega",
   "quest.610ED2A0727DED5E.quest_desc": [
-    "A portable Transmutation Table.",
+    "A portable Transmutation Table. &6GSPack:&r it needs Allthemodium Ingots.",
   ],
   "quest.610ED2A0727DED5E.title": "Transmutation Tablet",
   "quest.6192CC7B1507E4D7.quest_desc": [
@@ -194,7 +196,7 @@
     "- Use it in crafting recipes for alchemical conversions (for example 4 iron -> 1 gold).",
     "- Press the &ecraft key&r to open a portable crafting grid.",
     "",
-    "&6GSPack:&r Equivox is made more expensive. The stone needs &eredstone blocks&r, &eglowstone&r and &eSalis Mundus&r from Thaumaturge.",
+    "&6GSPack:&r Equivox is made more expensive. The stone needs &eredstone blocks&r, &eglowstone&r and an &6Allthemodium Ingot&r: you need to reach Allthemodium first.",
   ],
   "quest.703D1F64715D27A6.quest_subtitle": "Equivalent Exchange",
   "quest.703D1F64715D27A6.title": "Philosopher's Stone",

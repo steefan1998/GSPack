@@ -1,0 +1,8 @@
+{
+  "name": "Allthemodium",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagriculture:5",
+  "ingredient": { "item": "allthemodium:allthemodium_ingot" },
+  "color": "#f5b83d",
+  "crux": "gspack:allthemodium_crux"
+}

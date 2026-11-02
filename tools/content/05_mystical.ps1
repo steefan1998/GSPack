@@ -101,6 +101,8 @@ Tier 6 crops need a special &eCrux&r block placed directly &ounder&r the farmlan
 - Nether Star Seeds: Nether Star Crux
 - Dragon Egg Seeds: Dragon Egg Crux
 - Nitro Crystal Seeds: Nitro Crystal Crux
+
+&6GSPack:&r the Allthemodium seeds (Seed Codex) have their own crux blocks: the &6Allthemodium&r, &3Vibranium&r and &5Unobtainium Crux&r. Each one is crafted around the one before it.
 '@
 Q 'codex' 'Open the Seed Codex' 'check' 'altar' 'xp:50' -shape 'hexagon' -icon 'mysticalagriculture:iron_seeds' -desc 'The &eSeed Codex&r chapter has a quest for every single seed in this pack. Can you collect them all?'
 
@@ -153,8 +155,10 @@ $seedGroups = @(
         'soulium'),
     @('t6', 'Tier 6: Insanium', 'mystical/crux', 'epic', 'The rarest crops. They need Insanium farmland and the matching Crux block below it.',
         'nether_star dragon_egg nitro_crystal'),
-    @('atm', 'Allthemodium', 'allthemodium/atm_ingot', 'epic', 'From the &bATM x Mystical Ag Support&r mod: grow the rarest metals! Each crop needs its own Crux block (Allthemodium, Vibranium or Unobtainium Crux) under the farmland. Check JEI for the recipes.',
-        'atm_xmystical_ag_support:allthemodium_seed atm_xmystical_ag_support:vibranium_seed atm_xmystical_ag_support:unobtainium_seed atm_xmystical_ag_support:total_oreium_seed')
+    @('atm', 'Allthemodium', 'allthemodium/atm_ingot', 'epic', 'GSPack''s own crops (Mystical Customization): grow the rarest metals! Each crop needs its own &eCrux&r block under the farmland: the &6Allthemodium&r, &3Vibranium&r and &5Unobtainium Crux&r. Each crux is crafted around the one before it. Vibranium and Unobtainium are tier 6 crops, so they also need Insanium farmland.',
+        'mysticalagriculture:allthemodium_seeds mysticalagriculture:vibranium_seeds mysticalagriculture:unobtainium_seeds'),
+    @('modores', 'Ores From Other Mods', 'mystical/imperium', 'rare', 'GSPack''s own crops (Mystical Customization) for the ores of other mods: Stellaris, The Aether II, EvilCraft, LTX Industries, Occultism, AllTheOres, Just Dire Things and Aquaculture. Many of them are needed for the endgame cores and the Trophy of Infinity. You need the real material first to craft the seed.',
+        'mysticalagriculture:titanium_seeds mysticalagriculture:desh_seeds mysticalagriculture:novite_seeds mysticalagriculture:zanite_seeds mysticalagriculture:arkenium_seeds mysticalagriculture:gravitite_seeds mysticalagriculture:ambrosium_seeds mysticalagriculture:dark_gem_seeds mysticalagriculture:niobium_seeds mysticalagriculture:iesnium_seeds mysticalagriculture:cinnabar_seeds mysticalagriculture:ferricore_seeds mysticalagriculture:blazegold_seeds mysticalagriculture:celestigem_seeds mysticalagriculture:eclipsealloy_seeds mysticalagriculture:neptunium_seeds')
 )
 
 Q 'start' 'The Seed Codex' 'mysticalagriculture:prosperity_seed_base' 'mystical/altar' 'xp:50' -size 2 -shape 'gear' -pos '1.5,-2.4' -desc @'

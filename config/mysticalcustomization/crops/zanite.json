@@ -1,0 +1,7 @@
+{
+  "name": "Zanite",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagriculture:3",
+  "ingredient": { "item": "aether_ii:zanite_gemstone" },
+  "color": "#9b5cff"
+}

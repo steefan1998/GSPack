@@ -1,0 +1,7 @@
+{
+  "name": "Cinnabar",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagriculture:2",
+  "ingredient": { "item": "alltheores:cinnabar" },
+  "color": "#d3333c"
+}

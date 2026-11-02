@@ -1,0 +1,7 @@
+{
+  "name": "Celestigem",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagriculture:4",
+  "ingredient": { "item": "justdirethings:celestigem" },
+  "color": "#8de8ff"
+}

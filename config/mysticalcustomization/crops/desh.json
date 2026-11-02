@@ -1,0 +1,7 @@
+{
+  "name": "Desh",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagriculture:4",
+  "ingredient": { "item": "stellaris:desh_ingot" },
+  "color": "#d9773f"
+}
