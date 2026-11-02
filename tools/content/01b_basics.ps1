@@ -32,8 +32,8 @@ A farm gives you endless food. Till dirt with a hoe next to water and plant seed
 Later, &bMystical Agriculture&r lets you grow almost every resource in the same way!
 '@
 Q 'animals' 'Animal Husbandry' 'adv:minecraft:husbandry/breed_an_animal' 'farm' 'xp:50' -icon 'minecraft:wheat' -desc 'Breed two animals of the same kind by feeding them. Cows, sheep, pigs and chickens all make great farms.'
-Q 'shelter' 'A Place to Call Home' 'minecraft:chest*2;minecraft:oak_door' 'bed' 'xp:25;table:common' -desc @'
-Build a simple shelter with a door and some storage.
+Q 'shelter' 'A Place to Call Home' 'tag:gspack:home_storage*2@minecraft:chest|2 Chests or Barrels;tag:minecraft:wooden_doors*1@minecraft:oak_door|A wooden door' 'bed' 'xp:25;table:common' -desc @'
+Build a simple shelter with a wooden door and some storage: chests or barrels of any wood, from any mod.
 
 &6Tip:&r Claim your base on the map (&eM&r) so other players cannot grief it. Later, upgrade your storage with &bSophisticated Storage&r.
 '@

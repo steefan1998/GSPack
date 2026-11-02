@@ -59,6 +59,46 @@ element {
 }
 
 element {
+  button_element_executable_block_identifier = 9d48b496-f5fd-1bdd-6fe5-31d2c092111b-1793500000000
+  [executable_action_instance:03f22702-355b-1d21-7e17-58784aec970d-1793500000000][action_type:openlink] = https://github.com/steefan1998/GSPack/wiki
+  [executable_block:9d48b496-f5fd-1bdd-6fe5-31d2c092111b-1793500000000][type:generic] = [executables:03f22702-355b-1d21-7e17-58784aec970d-1793500000000;]
+  backgroundnormal = [source:local]/config/fancymenu/assets/gspack/button_normal.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/gspack/button_hover.png
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = true
+  nine_slice_border_x = 4
+  nine_slice_border_y = 4
+  label = GSPack Wiki
+  description = Guides for the quest book, the endgame and everything GSPack adds
+  navigatable = true
+  widget_active_state_requirement_container_identifier = c341d60b-e665-99f8-f6fe-20f9dfbad731-1793500000000
+  [loading_requirement_container_meta:c341d60b-e665-99f8-f6fe-20f9dfbad731-1793500000000] = [groups:][instances:]
+  element_type = custom_button
+  instance_identifier = b7b54ee3-9f86-089f-b457-d12b654c2f9b-1793500000000
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 0
+  auto_sizing_base_screen_height = 0
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = -100
+  y = 42
+  width = 200
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = e244242f-c53b-2b0a-e868-f5a766f3fd5c-1793500000000
+  [loading_requirement_container_meta:e244242f-c53b-2b0a-e868-f5a766f3fd5c-1793500000000] = [groups:][instances:]
+}
+element {
   button_element_executable_block_identifier = 818a6bf1-1871-4d38-e2a7-da10bc7f67e3-1793500000000
   [executable_action_instance:a2408712-7f9b-8bb5-1064-25cfe20d4e9f-1793500000000][action_type:openlink] = https://github.com/steefan1998
   [executable_block:818a6bf1-1871-4d38-e2a7-da10bc7f67e3-1793500000000][type:generic] = [executables:a2408712-7f9b-8bb5-1064-25cfe20d4e9f-1793500000000;]
@@ -89,7 +129,7 @@ element {
   sticky_anchor = false
   anchor_point = mid-centered
   x = -100
-  y = 42
+  y = 98
   width = 98
   height = 20
   stretch_x = false
@@ -129,7 +169,7 @@ element {
   sticky_anchor = false
   anchor_point = mid-centered
   x = 2
-  y = 42
+  y = 98
   width = 98
   height = 20
   stretch_x = false

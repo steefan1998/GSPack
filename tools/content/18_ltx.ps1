@@ -6,7 +6,7 @@ Q 'tablet' 'Guide Tablet' 'ltxi:guide_tablet' '' 'xp:50;table:common' -size 1.5 
 
 The &eGuide Tablet&r is the in-game manual. Read it whenever you are unsure how a machine works. Check JEI for every recipe.
 '@
-Q 'metals' 'New Metals' 'ltxi:titanium_ingot*8;ltxi:niobium_ingot*4;ltxi:silver_ingot*4' 'tablet' 'xp:75' -desc 'LTX adds titanium, niobium and silver ores. Smelt the raw ores for your first ingots.'
+Q 'metals' 'New Metals' 'tag:c:ingots/titanium*8@stellaris:titanium_ingot|8 Titanium Ingots (any mod);ltxi:niobium_ingot*4;tag:c:ingots/silver*4@alltheores:silver_ingot|4 Silver Ingots (any mod)' 'tablet' 'xp:75' -desc 'LTX adds titanium, niobium and silver ores. Smelt the raw ores for your first ingots.'
 Q 'slatesteel' 'Slatesteel' 'ltxi:slatesteel_ingot*8' 'metals' 'xp:75' -desc 'A tough deepslate-based steel. Used for machine housings and gears.'
 Q 'housing' 'Machine Housing' 'ltxi:machine_housing*4' 'slatesteel' 'xp:75' -desc 'The frame of every LTX machine. &6GSPack:&r it needs a Mekanism &eBasic Control Circuit&r instead of a titanium gear.'
 Q 'power' 'Power' 'ltxi:portable_generator;ltxi:solar_panel' 'housing' 'xp:100' -desc 'Generators and solar panels power your machines.'
@@ -30,7 +30,7 @@ Q 'chunks' 'Ore Chunks' 'ltxi:iron_ore_chunk*4' 'washed' 'xp:100' -desc 'The nex
 Q 'crystals' 'Ore Crystals' 'ltxi:iron_ore_crystal*4' 'chunks' 'xp:150;table:uncommon' -desc 'Crystallised ore gives even more.'
 Q 'solutions' 'Ore Solutions' 'ltxi:iron_ore_solution' 'crystals,chem_lab' 'xp:200;table:rare' -desc 'Dissolve ore in acid for the highest yield of all.'
 Q 'centrifuge' 'Electrocentrifuge' 'ltxi:electrocentrifuge' 'grinder' 'xp:100' -desc 'Separates mixtures into their parts.'
-Q 'rare_ores' 'Rare Materials' 'ltxi:olivine*4;ltxi:fluorite*4' 'grinder' 'xp:75' -opt -desc 'Olivine, fluorite and other minerals from processing.'
+Q 'rare_ores' 'Rare Materials' 'ltxi:olivine*4;tag:c:gems/fluorite*4@alltheores:fluorite|4 Fluorite (any mod)' 'grinder' 'xp:75' -opt -desc 'Olivine, fluorite and other minerals from processing.'
 
 # ===== Chemistry =====
 Q 'mixer' 'Mixer' 'ltxi:mixer' 'housing' 'xp:75' -size 1.5 -desc 'Mixes items and fluids into new materials.'

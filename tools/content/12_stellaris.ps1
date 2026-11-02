@@ -1,7 +1,7 @@
 Chapter 'stellaris' 'Stellaris' 'stellaris:rocket' 'explore' 'Build a space program: fuel, space suits, rockets and the Moon.'
 
 # ===== Ground control =====
-Q 'titanium' 'Titanium' 'stellaris:raw_titanium*8;stellaris:titanium_ingot*16' '' 'xp:75;table:space' -size 1.5 -shape 'gear' -sub 'The space program begins' -desc @'
+Q 'titanium' 'Titanium' 'tag:c:raw_materials/titanium*8@stellaris:raw_titanium|8 Raw Titanium (any mod);tag:c:ingots/titanium*16@stellaris:titanium_ingot|16 Titanium Ingots (any mod)' '' 'xp:75;table:space' -size 1.5 -shape 'gear' -sub 'The space program begins' -desc @'
 &bStellaris&r takes you into space and to the Moon.
 
 Start by finding &eTitanium ore&r underground (also in deepslate). Titanium is the core material of your space program.

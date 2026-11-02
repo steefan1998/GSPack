@@ -16,9 +16,6 @@
       y: 1.45,
       shape: "gear",
       size: 1.5,
-      dependencies: [
-        "3D6CDFC350D4F63C",
-      ],
       tasks: [
         {
           id: "248F89A6FA3BD48E",

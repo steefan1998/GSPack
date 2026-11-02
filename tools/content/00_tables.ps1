@@ -21,7 +21,7 @@ Table 'epic' 'Epic Loot' @(
     'mysticalagriculture:imperium_essence*16@12', 'apotheosis:sigil_of_socketing*2@10', 'minecraft:nether_star*1@5', 'minecraft:elytra*1@3', 'lvl:20@8')
 
 Table 'tech' 'Engineer''s Crate' @(
-    'mekanism:basic_control_circuit*4@20', 'mekanism:alloy_infused*8@15', 'mekanism:ingot_steel*8@15', 'mekanism:upgrade_speed*1@6',
+    'mekanism:basic_control_circuit*4@20', 'mekanism:alloy_infused*8@15', 'alltheores:steel_ingot*8@15', 'mekanism:upgrade_speed*1@6',
     'mekanism:upgrade_energy*1@6', 'ae2:certus_quartz_crystal*16@15', 'ae2:fluix_crystal*8@10', 'ae2:silicon*16@10', 'oritech:plastic_sheet*8@8')
 
 Table 'arcane' 'Arcane Cache' @(

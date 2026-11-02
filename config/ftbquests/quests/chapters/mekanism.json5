@@ -19,12 +19,13 @@
       tasks: [
         {
           id: "1131C0182B58A350",
-          type: "item",
-          item: {
+          type: "gamestage",
+          stage: "gspack_tag_c_ingots_osmium_16",
+          team_stage: false,
+          icon: {
             count: 1,
             id: "mekanism:ingot_osmium",
           },
-          count: 16,
         },
       ],
       rewards: [
@@ -133,12 +134,13 @@
       tasks: [
         {
           id: "183A1A54D30413DB",
-          type: "item",
-          item: {
+          type: "gamestage",
+          stage: "gspack_tag_c_ingots_steel_16",
+          team_stage: false,
+          icon: {
             count: 1,
             id: "mekanism:ingot_steel",
           },
-          count: 16,
         },
       ],
       rewards: [

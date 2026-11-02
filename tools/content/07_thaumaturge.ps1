@@ -1,13 +1,15 @@
 Chapter 'thaumaturge' 'Thaumaturge' 'thaumaturge:thaumonomicon' 'magic' 'Research the arcane: aspects, vis, essentia, infusion and the eldritch.'
 
 # ===== Beginnings =====
-Q 'crystals' 'Vis Crystals' 'thaumaturge:crystal_aer;thaumaturge:crystal_aqua;thaumaturge:crystal_ignis;thaumaturge:crystal_terra;thaumaturge:crystal_ordo;thaumaturge:crystal_perditio' '' 'xp:100;table:arcane' -size 1.5 -sub 'The six primal aspects' -desc @'
+# A Vis Crystal is one item (thaumaturge:essentia_crystal) with an aspect component, dropped by the crystal blocks.
+$visCrystals = (@('aer', 'aqua', 'ignis', 'terra', 'ordo', 'perditio') | ForEach-Object { "thaumaturge:essentia_crystal[thaumaturge:crystal_aspect.aspect=thaumaturge:$_]" }) -join ';'
+Q 'crystals' 'Vis Crystals' $visCrystals '' 'xp:100;table:arcane' -size 1.5 -sub 'The six primal aspects' -desc @'
 &bThaumaturge&r is a mod about magical research.
 
 Everything in the world is made of &easpects&r. The six &eprimal&r aspects are:
 &eAer&r (air), &bAqua&r (water), &cIgnis&r (fire), &2Terra&r (earth), &fOrdo&r (order) and &8Perditio&r (entropy).
 
-Find a vis crystal of each aspect growing in caves.
+Find a crystal of each aspect growing in caves and break it for its &eVis Crystals&r.
 '@
 Q 'salis' 'Salis Mundus' 'thaumaturge:salis_mundus*4' 'crystals' 'xp:50' -size 1.5 -shape 'gear' -desc 'Combine crystals with redstone and flint to make &eSalis Mundus&r, the magical dust that turns ordinary blocks into magical ones.'
 Q 'book' 'Thaumonomicon' 'thaumaturge:thaumonomicon' 'salis' 'xp:50' -desc @'
@@ -42,7 +44,7 @@ Use Salis Mundus on a cauldron and fill it with water over a fire (or a nitor).
 Throw items in and they melt into &eessentia&r. Then throw in a catalyst to make an alchemy recipe from that essentia.
 '@
 Q 'thaumium' 'Thaumium' 'thaumaturge:ingot_thaumium*8' 'crucible,cinnabar' 'xp:150;table:uncommon' -desc 'Iron infused with magic. The base metal for most Thaumaturge gear.'
-Q 'brass' 'Brass' 'thaumaturge:ingot_brass*8' 'crucible' 'xp:50' -desc 'Brass is used for tubes, mechanisms and many devices.'
+Q 'brass' 'Brass' 'tag:c:ingots/brass*8@alltheores:brass_ingot|8 Brass Ingots (any mod)' 'crucible' 'xp:50' -desc 'Brass is used for tubes, mechanisms and many devices.'
 Q 'tallow' 'Tallow' 'thaumaturge:tallow*8' 'crucible' 'xp:25' -opt -desc 'Rendered fat, used for candles and seals.'
 Q 'nitor' 'Nitor' 'thaumaturge:nitor_yellow*4' 'crucible' 'xp:50' -desc 'Magical light that never goes out. Also a great heat source for the crucible.'
 Q 'alumentum' 'Alumentum' 'thaumaturge:alumentum*4' 'crucible' 'xp:50' -opt -desc 'An explosive magical fuel.'

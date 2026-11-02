@@ -49,21 +49,23 @@
       tasks: [
         {
           id: "65B30DE5E6BA69F6",
-          type: "item",
-          item: {
+          type: "gamestage",
+          stage: "gspack_tag_c_raw_materials_nickel_8",
+          team_stage: false,
+          icon: {
             count: 1,
             id: "oritech:raw_nickel",
           },
-          count: 8,
         },
         {
           id: "5918123D6461DC57",
-          type: "item",
-          item: {
+          type: "gamestage",
+          stage: "gspack_tag_c_ingots_nickel_8",
+          team_stage: false,
+          icon: {
             count: 1,
             id: "oritech:nickel_ingot",
           },
-          count: 8,
         },
       ],
       rewards: [
@@ -85,12 +87,13 @@
       tasks: [
         {
           id: "02FD7C97AF01A34D",
-          type: "item",
-          item: {
+          type: "gamestage",
+          stage: "gspack_tag_c_raw_materials_platinum_4",
+          team_stage: false,
+          icon: {
             count: 1,
             id: "oritech:raw_platinum",
           },
-          count: 4,
         },
       ],
       rewards: [
@@ -363,21 +366,23 @@
       tasks: [
         {
           id: "25F92B10999EC975",
-          type: "item",
-          item: {
+          type: "gamestage",
+          stage: "gspack_tag_c_ingots_steel_16",
+          team_stage: false,
+          icon: {
             count: 1,
             id: "oritech:steel_ingot",
           },
-          count: 16,
         },
         {
           id: "33ECEFB7F754C07A",
-          type: "item",
-          item: {
+          type: "gamestage",
+          stage: "gspack_tag_c_ingots_electrum_8",
+          team_stage: false,
+          icon: {
             count: 1,
             id: "oritech:electrum_ingot",
           },
-          count: 8,
         },
       ],
       rewards: [

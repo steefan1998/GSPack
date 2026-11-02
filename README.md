@@ -72,6 +72,33 @@ Scripts: `kubejs/startup_scripts/gspack_endgame_items.js`, `kubejs/server_script
 - `kubejs/server_scripts/gspack_compressed_fixes.js`: a recipe for the All The Compressed Antimatter Block (9 Antimatter Pellets), and Compressed Osmium / Steel from any mod's block.
 - `kubejs/server_scripts/gspack_broken_recipe_fixes.js`: re-adds the Capacitor Additions and Grinding Ball Additions recipes, which use an ingredient format that 26.1 no longer reads.
 
+## Material unification (KubeJS + datapack)
+
+Many mods make the same metals, dusts and plates. GSPack keeps one item per material: Minecraft first, then AllTheOres, then Mekanism, then the mod the material comes from.
+
+| File | What it does |
+|---|---|
+| `kubejs/server_scripts/gspack_zz_unify.js` | The table (113 materials); every recipe outputs the preferred item and accepts any mod's version |
+| `kubejs/client_scripts/gspack_unify_hide.js` | Hides the duplicates in JEI (raw materials and gems stay visible) |
+| `kubejs/data/*/loot_table/blocks/` | Ores of other mods drop the AllTheOres materials (written by `tools/make-ore-loot.ps1`) |
+| `kubejs/data/*/neoforge/biome_modifier/` | Ores that AllTheOres also has no longer generate |
+| `kubejs/server_scripts/gspack_zz_unify_convert.js` | Converts duplicates in player inventories and opened chests |
+| `kubejs/server_scripts/gspack_zz_unify_blocks.js` | Replaces duplicate ores and material blocks in existing chunks when they load |
+| `tools/convert-world.ps1` | Converts a whole world offline, while the server is stopped |
+
+Quest tasks for these materials accept every mod's version automatically (the quest builder turns them into tag tasks).
+
+### Converting an existing world
+
+Stop the server (or close the game), then run:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File tools\convert-world.ps1 -World "<path to the world>" -DryRun
+powershell -ExecutionPolicy Bypass -File tools\convert-world.ps1 -World "<path to the world>"
+```
+
+On a server, add `-KubeJS "<server>\kubejs"`. PowerShell 7 runs it on Linux (`pwsh -File convert-world.ps1 -World ./world -KubeJS ./kubejs`). Changed files are copied to `<world>\gspack-convert-backup` first; delete that folder once the world works.
+
 ## Cross-mod recipes (KubeJS)
 
 `kubejs/server_scripts/gspack_crossmod_recipes.js` swaps one ingredient in eight key recipes for an item from another mod (for example steel in the AE2 Inscriber, a Mekanism Steel Casing in Oritech's Basic Generator). The new ingredient always comes from a mod that is reached earlier, so nothing is locked. The full list is in [CHANGELOG.md](CHANGELOG.md).

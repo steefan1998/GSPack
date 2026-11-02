@@ -10,8 +10,8 @@ Start with a &eBasic Generator&r: it burns any furnace fuel for power (RF/FE). L
 
 &6GSPack:&r the Basic Generator needs a Mekanism &eSteel Casing&r instead of a furnace, so start Mekanism first.
 '@
-Q 'nickel' 'Nickel' 'oritech:raw_nickel*8;oritech:nickel_ingot*8' 'start' 'xp:50' -desc 'Nickel is an Oritech staple. AllTheOres nickel can often be used too, but the quest needs Oritech''s.'
-Q 'platinum' 'Platinum' 'oritech:raw_platinum*4' 'nickel' 'xp:75' -opt -desc 'Platinum ore is rarer and found deep underground and in the End. It is needed for advanced parts.'
+Q 'nickel' 'Nickel' 'tag:c:raw_materials/nickel*8@alltheores:raw_nickel|8 Raw Nickel (any mod);tag:c:ingots/nickel*8@alltheores:nickel_ingot|8 Nickel Ingots (any mod)' 'start' 'xp:50' -desc 'Nickel is an Oritech staple. AllTheOres nickel can often be used too, but the quest needs Oritech''s.'
+Q 'platinum' 'Platinum' 'tag:c:raw_materials/platinum*4@alltheores:raw_platinum|4 Raw Platinum (any mod)' 'nickel' 'xp:75' -opt -desc 'Platinum ore is rarer and found deep underground and in the End. It is needed for advanced parts.'
 Q 'motor' 'Motors' 'oritech:motor*4' 'start' 'xp:50' -desc 'A key part for almost every machine.'
 Q 'frame' 'Machine Frames' 'oritech:machine_frame*16' 'start' 'xp:50' -desc 'Frame blocks form the area that gantry machines like the Destroyer and Placer move along.'
 Q 'pipes' 'Pipes' 'oritech:energy_pipe*16;oritech:item_pipe*16;oritech:fluid_pipe*16' 'start' 'xp:50' -desc @'
@@ -27,7 +27,7 @@ Q 'pulverizer' 'Pulverizer' 'oritech:pulverizer' 'motor' 'xp:100' -desc 'Grinds 
 Q 'furnace' 'Powered Furnace' 'oritech:powered_furnace' 'motor' 'xp:50' -desc 'A fast powered furnace.'
 Q 'grinder' 'Fragment Forge' 'oritech:fragment_forge' 'pulverizer,alloys' 'xp:150;table:uncommon' -desc 'Breaks ore down into clumps and gems for much more output than the Pulverizer.'
 Q 'foundry' 'Foundry' 'oritech:foundry' 'pulverizer' 'xp:150' -desc 'Melts metals together into alloys.'
-Q 'alloys' 'First Alloys' 'oritech:steel_ingot*16;oritech:electrum_ingot*8' 'foundry' 'xp:100;table:tech' -desc 'Steel (iron + coal) and electrum (gold + silver/nickel, check JEI) are used in nearly every better machine.'
+Q 'alloys' 'First Alloys' 'tag:c:ingots/steel*16@alltheores:steel_ingot|16 Steel Ingots (any mod);tag:c:ingots/electrum*8@alltheores:electrum_ingot|8 Electrum Ingots (any mod)' 'foundry' 'xp:100;table:tech' -desc 'Steel (iron + coal) and electrum (gold + silver/nickel, check JEI) are used in nearly every better machine.'
 Q 'centrifuge' 'Centrifuge' 'oritech:centrifuge' 'alloys' 'xp:150' -desc 'Separates materials, and with the &eFluid Addon&r it also processes fluids.'
 Q 'assembler' 'Assembler' 'oritech:assembler' 'alloys' 'xp:150' -desc 'Assembles complex components from up to four inputs. Most electronics are made here.'
 Q 'silicon' 'Silicon' 'oritech:silicon*16;oritech:silicon_wafer*4' 'centrifuge' 'xp:100' -desc 'Silicon is made from sand and quartz. Wafers are used for processing units.'

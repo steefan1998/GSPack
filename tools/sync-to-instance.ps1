@@ -13,6 +13,8 @@ $sync = @(
     @{ From = 'config\ftbquests\quests'; Mirror = $true },
     @{ From = 'config\mysticalcustomization\crops'; Mirror = $true },
     @{ From = 'kubejs\assets\gspack'; Mirror = $true },
+    @{ From = 'kubejs\assets\hostilenetworks'; Mirror = $true },
+    @{ From = 'kubejs\data'; Mirror = $false },
     @{ From = 'kubejs\startup_scripts'; Mirror = $false },
     @{ From = 'kubejs\server_scripts'; Mirror = $false },
     @{ From = 'kubejs\client_scripts'; Mirror = $false }

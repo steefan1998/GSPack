@@ -247,6 +247,12 @@ ServerEvents.recipes(event => {
   // Extended Crafting recipe: a 3x3 core of their own mod's materials, framed by components (1),
   // Black Iron Ingots (2) and an extra material (3). Advanced = 5x5, Elite = 7x7.
   // [tier, output, core pattern, core key, extra ingredient, recipe name]
+  // A Thaumaturge Vis Crystal is one item with a thaumaturge:crystal_aspect component (the crystal blocks don't drop themselves).
+  const visCrystal = aspect => ({
+    'neoforge:ingredient_type': 'neoforge:components',
+    items: 'thaumaturge:essentia_crystal',
+    components: { 'thaumaturge:crystal_aspect': { aspect: `thaumaturge:${aspect}` } }
+  })
   const newTableRecipes = [
     // The Twilight Forest boss trophies
     ['advanced', 'twilightforest:naga_trophy', ['SSS', 'SNS', 'SSS'],
@@ -281,8 +287,8 @@ ServerEvents.recipes(event => {
       { T: 'ltxi:t4_circuit', L: 'minecraft:lava_bucket', P: 'ltxi:portable_tank' }, 'twilightforest:fiery_ingot', 'infinite_lava_tank'],
     // Elite: the rarest items
     ['elite', 'thaumaturge:primordial_pearl', ['ABC', 'DVE', 'FGH'],
-      { A: 'thaumaturge:crystal_aer', B: 'thaumaturge:crystal_aqua', C: 'thaumaturge:crystal_ignis', D: 'thaumaturge:crystal_terra',
-        E: 'thaumaturge:crystal_ordo', F: 'thaumaturge:crystal_perditio', G: 'thaumaturge:primal_charm', H: 'thaumaturge:ingot_void',
+      { A: visCrystal('aer'), B: visCrystal('aqua'), C: visCrystal('ignis'), D: visCrystal('terra'),
+        E: visCrystal('ordo'), F: visCrystal('perditio'), G: 'thaumaturge:primal_charm', H: 'thaumaturge:ingot_void',
         V: 'thaumaturge:metal_void' }, 'thaumaturge:salis_mundus', 'primordial_pearl'],
     ['elite', 'apotheosis:godforged_pearl', ['LSL', 'SNS', 'LSL'],
       { L: 'apotheosis:luminous_crystal_shard', S: 'apotheosis:sigil_of_supremacy', N: 'minecraft:nether_star' }, 'apotheosis:sigil_of_enhancement', 'godforged_pearl'],

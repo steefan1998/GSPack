@@ -61,7 +61,22 @@ function To-Json5($v, [string]$ind = '') {
     throw "Cannot serialize $($v.GetType())"
 }
 
-function Item-Obj([string]$id) { $script:UsedItems.Add($id); [ordered]@{ count = 1; id = $id } }
+# An item can carry data components: ns:item[component.field=value,...], for example
+# thaumaturge:essentia_crystal[thaumaturge:crystal_aspect.aspect=thaumaturge:aer] (an Air Vis Crystal).
+function Item-Obj([string]$id) {
+    if ($id -notmatch '^([^\[]+)\[(.+)\]$') { $script:UsedItems.Add($id); return [ordered]@{ count = 1; id = $id } }
+    $base = $Matches[1]; $script:UsedItems.Add($base)
+    $comps = [ordered]@{}
+    foreach ($pair in ($Matches[2] -split ',')) {
+        $key, $value = $pair -split '=', 2
+        $type, $field = $key -split '\.(?=[^.:]+$)', 2
+        if ($field) {
+            if (-not $comps.Contains($type)) { $comps[$type] = [ordered]@{} }
+            $comps[$type][$field] = $value
+        } else { $comps[$type] = $value }
+    }
+    [ordered]@{ count = 1; id = $base; components = $comps }
+}
 function Split-Count([string]$spec) {
     if ($spec -match '^(.+)\*(\d+)$') { return @($Matches[1], [int]$Matches[2]) }
     return @($spec, 1)
@@ -86,6 +101,28 @@ function Use-Id([string]$id) { if ($id -notmatch '^#') { $script:UsedItems.Add($
 #             adv:<advancement> | levels:N | look:<block id>
 #             stage:<stage>[@<icon item>][|<title>]   (FTB Quests "gamestage" task, set by KubeJS, see kubejs/server_scripts)
 $script:TaskTitles = @{}
+$script:TagStages = [ordered]@{}   # stage -> @(item tag, count), written to kubejs/server_scripts/gspack_quest_tags.js
+
+# Unified materials (kubejs/server_scripts/gspack_zz_unify.js): an item task for any of these items accepts every
+# mod's version, so it becomes a tag task. item id -> @(tag, preferred item)
+$script:UnifyTag = @{}
+foreach ($m in [regex]::Matches([IO.File]::ReadAllText((Join-Path $Root 'kubejs\server_scripts\gspack_zz_unify.js')), "\['([^']+)', '([^']+)', \[([^\]]*)\]\]")) {
+    $tag = $m.Groups[1].Value; $pref = $m.Groups[2].Value
+    foreach ($i in @($pref) + @([regex]::Matches($m.Groups[3].Value, "'([^']+)'") | ForEach-Object { $_.Groups[1].Value })) { $script:UnifyTag[$i] = @($tag, $pref) }
+}
+# A readable name for a material tag: c:ingots/osmium -> Osmium Ingot(s), c:raw_materials/tin -> Raw Tin, ...
+function Tag-Title([string]$tag, [int]$n) {
+    $kind, $mat = ($tag -replace '^c:', '') -split '/', 2
+    $name = (($mat -split '_') | ForEach-Object { $_.Substring(0, 1).ToUpper() + $_.Substring(1) }) -join ' '
+    $s = if ($n -gt 1) { 's' } else { '' }
+    $label = switch ($kind) {
+        'ingots' { "$name Ingot$s" } 'nuggets' { "$name Nugget$s" } 'dusts' { "$name Dust" } 'plates' { "$name Plate$s" }
+        'gears' { "$name Gear$s" } 'rods' { "$name Rod$s" } 'gems' { $name } 'raw_materials' { "Raw $name" }
+        'storage_blocks' { "Block$s of $name" }
+        default { $name }
+    }
+    "$n $label (any mod)"
+}
 function Task-Obj([string]$spec, [string]$seed) {
     $o = [ordered]@{ id = (New-Id $seed) }
     switch -regex ($spec) {
@@ -94,6 +131,15 @@ function Task-Obj([string]$spec, [string]$seed) {
             $o.type = 'gamestage'; $o.stage = $Matches[1]; $o.team_stage = $false
             if ($Matches[2]) { $o.icon = Item-Obj $Matches[2] }
             if ($Matches[3]) { $script:TaskTitles[$o.id] = $Matches[3] }
+            return $o
+        }
+        # tag:<item tag>*N@<icon>[|<title>]: N items of any mod's version (a KubeJS stage, see gspack_quest_tags.js)
+        '^tag:#?([a-z0-9_.-]+:[a-z0-9_/.-]+)(?:\*(\d+))?@([^|]+)(?:\|(.+))?$' {
+            $tag = $Matches[1]; $n = $(if ($Matches[2]) { [int]$Matches[2] } else { 1 })
+            $stage = 'gspack_tag_' + ($tag -replace '[^a-z0-9]+', '_') + "_$n"
+            $script:TagStages[$stage] = @($tag, $n)
+            $o.type = 'gamestage'; $o.stage = $stage; $o.team_stage = $false; $o.icon = Item-Obj $Matches[3]
+            $script:TaskTitles[$o.id] = $(if ($Matches[4]) { $Matches[4] } else { "${n}x #$tag (any mod)" })
             return $o
         }
         '^dim:(.+)$' { $o.type = 'dimension'; $o.dimension = $Matches[1]; Use-Id $Matches[1]; return $o }
@@ -105,8 +151,15 @@ function Task-Obj([string]$spec, [string]$seed) {
         '^look:(.+)$' { $o.type = 'observation'; $o.observe_type = 'block'; $o.to_observe = $Matches[1]; $o.timer = [long]0; Use-Id $Matches[1]; return $o }
         default {
             $item, $n = Split-Count $spec
+            if ($script:UnifyTag.ContainsKey($item)) {
+                # A unified material: accept any mod's version.
+                $tag, $pref = $script:UnifyTag[$item]
+                return Task-Obj "tag:$tag*$n@$pref|$(Tag-Title $tag $n)" $seed
+            }
             $o.type = 'item'; $o.item = Item-Obj $item
             if ($n -gt 1) { $o.count = [long]$n }
+            # Items with components (ns:item[...]) must match those components; other components are ignored.
+            if ($o.item.Contains('components')) { $o.match_components = 'fuzzy' }
             return $o
         }
     }
@@ -172,6 +225,10 @@ function Layout($c) {
     foreach ($q in $c.Quests) {
         foreach ($d in $q.Deps) {
             if (-not (Dep-Quest $c $d)) { throw "Quest '$($q.Key)' in chapter $($c.Key) depends on unknown '$d'" }
+        }
+        # A chapter's starting quests must not wait for another chapter: every chapter is open from the start.
+        if ($q.Deps.Count -and -not @($q.Deps | Where-Object { $_ -notmatch '/' }).Count) {
+            Write-Warning "Starting quest '$($q.Key)' in chapter $($c.Key) only depends on other chapters ($($q.Deps -join ', '))"
         }
     }
     # Topological order (parents first), keeping file order where possible.
@@ -422,6 +479,25 @@ foreach ($c in $script:Chapters) {
             quests = $quests; quest_links = @(); images = @(Chapter-Images $c)
         })
 }
+
+# ---------- tag tasks: KubeJS gives the stage once the player holds enough of the tag ----------
+$tagJs = @(
+    '// GENERATED by tools/build-quests.ps1 from the tag:<tag>*N tasks in tools/content. Do not edit by hand.',
+    '// An item task only accepts one item id. For materials that several mods make (steel, osmium, titanium, ...)',
+    '// the quest uses a stage task instead, and this script gives the stage when the inventory holds N of the tag.',
+    '',
+    'const GSPACK_TAG_STAGES = ['
+) + @($script:TagStages.Keys | ForEach-Object { "  ['$_', '#$($script:TagStages[$_][0])', $($script:TagStages[$_][1])]," }) + @(
+    ']',
+    '',
+    'PlayerEvents.inventoryChanged(event => {',
+    '  const player = event.player',
+    '  GSPACK_TAG_STAGES.forEach(([stage, tag, count]) => {',
+    '    if (!player.stages.has(stage) && player.inventory.count(tag) >= count) player.stages.add(stage)',
+    '  })',
+    '})'
+)
+[IO.File]::WriteAllText((Join-Path $Root 'kubejs\server_scripts\gspack_quest_tags.js'), ($tagJs -join "`n") + "`n", $Utf8)
 
 # ---------- groups, data, lang ----------
 Write-File 'chapter_groups.json5' ([ordered]@{ chapter_groups = @($script:Groups.Values | ForEach-Object { [ordered]@{ id = $_ } }) })

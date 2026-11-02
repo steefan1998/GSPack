@@ -49,12 +49,13 @@
       tasks: [
         {
           id: "32737F148493C5B7",
-          type: "item",
-          item: {
+          type: "gamestage",
+          stage: "gspack_tag_c_ingots_titanium_8",
+          team_stage: false,
+          icon: {
             count: 1,
             id: "ltxi:titanium_ingot",
           },
-          count: 8,
         },
         {
           id: "420E846EA4F29210",
@@ -67,12 +68,13 @@
         },
         {
           id: "5385EB5E9283FAE4",
-          type: "item",
-          item: {
+          type: "gamestage",
+          stage: "gspack_tag_c_ingots_silver_4",
+          team_stage: false,
+          icon: {
             count: 1,
             id: "ltxi:silver_ingot",
           },
-          count: 4,
         },
       ],
       rewards: [
@@ -537,12 +539,13 @@
         },
         {
           id: "784731D421D3A125",
-          type: "item",
-          item: {
+          type: "gamestage",
+          stage: "gspack_tag_c_gems_fluorite_4",
+          team_stage: false,
+          icon: {
             count: 1,
             id: "ltxi:fluorite",
           },
-          count: 4,
         },
       ],
       rewards: [

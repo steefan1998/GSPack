@@ -6,6 +6,33 @@ What changed in each version of GSPack. The exact mod changes (added, removed an
 
 Changes in the GSPack Dev Build that are not released yet.
 
+### Material unification
+Many mods make the same materials: silver comes from five mods, steel from six. GSPack now treats them as one:
+
+- **One item per material.** 113 materials (ingots, nuggets, dusts, gems, plates, gears, raw materials and blocks) have a preferred item: Minecraft first, then AllTheOres, then Mekanism, then the mod the material comes from (Twilight Forest for Knightmetal, Stellaris for Titanium). Every recipe gives the preferred item, and every recipe accepts any mod's version as input (`kubejs/server_scripts/gspack_zz_unify.js`).
+- **JEI shows one item per material.** The 159 duplicates are hidden (`kubejs/client_scripts/gspack_unify_hide.js`). Raw materials and gems stay visible.
+- **Mining gives AllTheOres materials.** 35 ores of other mods (Mekanism, Railcraft, Oritech, LTX Industries, Occultism, More Machines) drop the same as the matching AllTheOres ore, also with Fortune and Silk Touch (`kubejs/data/*/loot_table/blocks`, made by `tools/make-ore-loot.ps1`). Thaumaturge's cinnabar is kept, because quicksilver needs it.
+- **Duplicate ores no longer generate.** Ores that AllTheOres also has are turned off for Mekanism (osmium, tin, lead, uranium, fluorite), Railcraft (lead, nickel, silver, sulfur, tin, zinc), Oritech (nickel, platinum, uranium), LTX Industries, Occultism and More Machines (silver). Ores AllTheOres doesn't have keep generating: Titanium, Niobium, Iesnium, Firestone, Saltpeter, Mekanism's salt, Thaumaturge's cinnabar and more. This only affects newly generated chunks; ores already in the world drop AllTheOres materials.
+- **Existing worlds are converted.** Duplicate items become the preferred item in your inventory (on login and whenever it changes) and in chests, barrels and other chest-like containers when you open them (`kubejs/server_scripts/gspack_zz_unify_convert.js`). Machines and storage networks are left alone; their items convert as soon as you take them out. Ores and material blocks already placed in the world are replaced by the AllTheOres block when their chunk loads (`kubejs/server_scripts/gspack_zz_unify_blocks.js`; a quick palette check skips chunks without duplicates, and the work is spread over ticks). Titanium ores stay, because AllTheOres has no titanium.
+- **Offline world converter.** `tools/convert-world.ps1` converts a whole world while the server is stopped, so no player has to visit every chunk: placed blocks in every dimension, items in chests, machines and other block entities, item entities, player inventories and saved mod data. It refuses to run while the world is in use, copies every file it changes to `<world>/gspack-convert-backup` first, and has a `-DryRun` mode. On a server, pass `-KubeJS <server>/kubejs`; PowerShell 7 (`pwsh`) runs it on Linux too.
+- **Quests accept every mod's version.** Every quest task for one of these materials now accepts the whole tag, for example 16 Osmium Ingots from any mod. The quest builder does this automatically.
+
+### More fixes
+- **Thaumaturge:** *Vis Crystals* asks for the Vis Crystals you get from breaking the crystals (it asked for the crystal blocks, which never drop). The Primordial Pearl recipe uses Vis Crystals too. *Brass* accepts any mod's brass.
+- **Getting Started:** *A Place to Call Home* accepts chests or barrels of any wood and any wooden door (was: 2 chests and an oak door).
+- **Mystical Agriculture:** the *Guide Book* quest asked for an item that doesn't exist in this version. It's now *Looking Things Up* (a checkmark) and points to JEI.
+- **Apotheosis** no longer puts Tinkers' Construct tools and armor in affix loot (ContinuumConstruct's entries are turned off in `kubejs/data/apotheosis`).
+- **Hostile Neural Networks:** the Deep Learner's Curios slot showed a missing texture. The slot icon now points to a texture in the right place.
+- **Title screen:** a **GSPack Wiki** button under *Mods* opens the wiki. GitHub and CurseForge moved one row down.
+
+### Quest book
+- **Items you already carry now count.** FTB Quests only checked item tasks when your inventory changed, so items picked up before a quest unlocked (for example a Prosperity Seed Base before the Seed Codex, or Thaumaturge items) were ignored until you moved something. `kubejs/server_scripts/gspack_quest_detection.js` runs FTB Quests' own inventory check on login and every 5 seconds.
+- **Any mod's metal counts.** 11 tasks asked for one mod's version of a metal that several mods make, and refused the others. They now accept the whole tag (any mod): Osmium and Steel (Mekanism), Steel, Electrum, Nickel, Raw Nickel and Raw Platinum (Oritech), Titanium and Raw Titanium (Stellaris), Titanium, Silver and Fluorite (LTX Industries). These are stage tasks given by the generated `kubejs/server_scripts/gspack_quest_tags.js`. Progress is kept.
+- **Every chapter is open from the start.** The first quests of Endgame: Infinity (was: after the Ender Dragon), the Seed Codex (was: after the Infusion Altar) and Equivox (was: after an Allthemodium Ingot) no longer wait for another chapter. Later quests in those chapters still do.
+
+### For pack makers
+- `build-quests.ps1`: new task type `tag:<item tag>*N@<icon>[|<title>]` for "N of any mod's version"; the build writes the matching stages to `kubejs/server_scripts/gspack_quest_tags.js`. It also warns when a chapter's starting quest depends only on other chapters. Item tasks for a unified material become tag tasks automatically, and items can carry data components: `ns:item[component.field=value]` (matched with `match_components: fuzzy`).
+
 ### Configs
 - Removed leftover configs of mods that are not in the pack: Amendments, Avaritia Easy, Farmer's Delight, and Xaero's Minimap and World Map (`config/xaero`, `xaerohud.txt`, `xaeropatreon.txt`).
 

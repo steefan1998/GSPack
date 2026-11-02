@@ -312,17 +312,20 @@
       tasks: [
         {
           id: "0971802368A3E8FB",
-          type: "item",
-          item: {
+          type: "gamestage",
+          stage: "gspack_tag_gspack_home_storage_2",
+          team_stage: false,
+          icon: {
             count: 1,
             id: "minecraft:chest",
           },
-          count: 2,
         },
         {
           id: "137E3A327CCD7813",
-          type: "item",
-          item: {
+          type: "gamestage",
+          stage: "gspack_tag_minecraft_wooden_doors_1",
+          team_stage: false,
+          icon: {
             count: 1,
             id: "minecraft:oak_door",
           },

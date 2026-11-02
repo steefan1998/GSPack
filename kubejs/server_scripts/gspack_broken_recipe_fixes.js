@@ -8,7 +8,7 @@ ServerEvents.recipes(event => {
     A: 'allthemodium:allthemodium_ingot', D: 'minecraft:diamond', G: 'enderio:grains_of_infinity'
   }).id('gspack:fix/allthemodium_capacitor')
   event.shaped('capacitoradditions:vibranium_capacitor', [' I ', 'ACA', ' I '], {
-    A: 'capacitoradditions:allthemodium_capacitor', C: 'enderio:powdered_coal', I: 'allthemodium:vibranium_ingot'
+    A: 'capacitoradditions:allthemodium_capacitor', C: '#c:dusts/coal', I: 'allthemodium:vibranium_ingot'
   }).id('gspack:fix/vibranium_capacitor')
   event.shaped('capacitoradditions:unobtainium_capacitor', [' I ', 'CGC', ' I '], {
     C: 'capacitoradditions:vibranium_capacitor', G: 'enderio:grains_of_infinity', I: 'allthemodium:unobtainium_ingot'

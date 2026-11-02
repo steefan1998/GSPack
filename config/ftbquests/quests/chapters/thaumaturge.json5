@@ -20,49 +20,85 @@
           id: "2B4F4DE8C22798FA",
           type: "item",
           item: {
-            id: "thaumaturge:crystal_aer",
             count: 1,
+            id: "thaumaturge:essentia_crystal",
+            components: {
+              "thaumaturge:crystal_aspect": {
+                aspect: "thaumaturge:aer",
+              },
+            },
           },
+          match_components: "fuzzy",
         },
         {
           id: "56820F03F9B84AFC",
           type: "item",
           item: {
-            id: "thaumaturge:crystal_aqua",
             count: 1,
+            id: "thaumaturge:essentia_crystal",
+            components: {
+              "thaumaturge:crystal_aspect": {
+                aspect: "thaumaturge:aqua",
+              },
+            },
           },
+          match_components: "fuzzy",
         },
         {
           id: "70B3FF21900C5800",
           type: "item",
           item: {
-            id: "thaumaturge:crystal_ignis",
             count: 1,
+            id: "thaumaturge:essentia_crystal",
+            components: {
+              "thaumaturge:crystal_aspect": {
+                aspect: "thaumaturge:ignis",
+              },
+            },
           },
+          match_components: "fuzzy",
         },
         {
           id: "7080741DBB0AD6FC",
           type: "item",
           item: {
-            id: "thaumaturge:crystal_terra",
             count: 1,
+            id: "thaumaturge:essentia_crystal",
+            components: {
+              "thaumaturge:crystal_aspect": {
+                aspect: "thaumaturge:terra",
+              },
+            },
           },
+          match_components: "fuzzy",
         },
         {
           id: "33B2152BBFAC0497",
           type: "item",
           item: {
-            id: "thaumaturge:crystal_ordo",
             count: 1,
+            id: "thaumaturge:essentia_crystal",
+            components: {
+              "thaumaturge:crystal_aspect": {
+                aspect: "thaumaturge:ordo",
+              },
+            },
           },
+          match_components: "fuzzy",
         },
         {
           id: "188A47A0D7A13437",
           type: "item",
           item: {
-            id: "thaumaturge:crystal_perditio",
             count: 1,
+            id: "thaumaturge:essentia_crystal",
+            components: {
+              "thaumaturge:crystal_aspect": {
+                aspect: "thaumaturge:perditio",
+              },
+            },
           },
+          match_components: "fuzzy",
         },
       ],
       rewards: [
@@ -615,12 +651,13 @@
       tasks: [
         {
           id: "0ECF91D895F1A675",
-          type: "item",
-          item: {
-            id: "thaumaturge:ingot_brass",
+          type: "gamestage",
+          stage: "gspack_tag_c_ingots_brass_8",
+          team_stage: false,
+          icon: {
             count: 1,
+            id: "alltheores:brass_ingot",
           },
-          count: 8,
         },
       ],
       rewards: [

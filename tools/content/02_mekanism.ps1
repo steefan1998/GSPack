@@ -1,7 +1,7 @@
 Chapter 'mekanism' 'Mekanism' 'mekanism:metallurgic_infuser' 'tech' 'Ore processing, chemistry, logistics, reactors and the MekaSuit.'
 
 # ===== Start =====
-Q 'osmium' 'The Blue Metal' 'mekanism:ingot_osmium*16' '' 'xp:75;table:common' -size 1.5 -shape 'gear' -sub 'Osmium is the heart of Mekanism' -desc @'
+Q 'osmium' 'The Blue Metal' 'tag:c:ingots/osmium*16@alltheores:osmium_ingot|16 Osmium Ingots (any mod)' '' 'xp:75;table:common' -size 1.5 -shape 'gear' -sub 'Osmium is the heart of Mekanism' -desc @'
 Welcome to &bMekanism&r, one of the biggest tech mods in the pack!
 
 Everything starts with &eosmium&r. It generates as ore underground. This pack has both Mekanism and AllTheOres osmium: they are interchangeable in recipes, but the quest needs Mekanism's ingot, so make sure it ends up as &eMekanism Osmium Ingots&r (for example, by smelting Mekanism dust later).
@@ -21,7 +21,7 @@ It needs power (FE). Any generator in the pack works.
 '@
 Q 'circuit' 'Basic Control Circuit' 'mekanism:basic_control_circuit*8' 'infuser' 'xp:50' -desc 'Osmium + redstone in the Infuser. Almost every Mekanism machine needs at least one.'
 Q 'alloy' 'Infused Alloy' 'mekanism:alloy_infused*8' 'infuser' 'xp:50' -desc 'Iron + redstone. Used in tier 2 parts and many machines.'
-Q 'steel' 'Steel' 'mekanism:ingot_steel*16' 'infuser' 'xp:75' -desc @'
+Q 'steel' 'Steel' 'tag:c:ingots/steel*16@alltheores:steel_ingot|16 Steel Ingots (any mod)' 'infuser' 'xp:75' -desc @'
 Infuse iron with carbon to get &eEnriched Iron&r, then infuse that again for &eSteel Dust&r. Smelt it into ingots.
 
 Steel is everywhere in Mekanism.

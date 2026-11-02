@@ -20,9 +20,6 @@
         count: 1,
         id: "gspack:infinity_trophy",
       },
-      dependencies: [
-        "5C3EEB1D90C2418F",
-      ],
       tasks: [
         {
           id: "6430B0C64CBD9505",

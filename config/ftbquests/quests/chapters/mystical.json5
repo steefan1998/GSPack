@@ -77,15 +77,7 @@
       tasks: [
         {
           id: "7B75E518FD806713",
-          type: "item",
-          item: {
-            id: "ftbquests:missing_item",
-            count: 1,
-            components: {
-              "ftbquests:missing_item": "mysticalagriculture:guide_book",
-              "ftbquests:missing_item_count": 1,
-            },
-          },
+          type: "checkmark",
         },
       ],
       rewards: [

@@ -9,7 +9,7 @@ Mine &eInferium Ore&r (it looks like stone with green specks) for &eInferium Ess
 &6Tip:&r Inferium Ore is fairly common at most heights, including deepslate.
 '@
 Q 'prosperity' 'Prosperity Shards' 'mysticalagriculture:prosperity_shard*16' '' 'xp:50' -desc 'Mine &eProsperity Ore&r for shards. They are used for seed bases and many crafting recipes.'
-Q 'guide' 'The Guide Book' 'mysticalagriculture:guide_book' 'inferium' 'xp:25' -opt -desc 'The in-game guide explains every block, item and crop in the mod.'
+Q 'guide' 'Looking Things Up' 'check' 'inferium' 'xp:25' -opt -icon 'mysticalagriculture:inferium_essence' -desc 'Mystical Agriculture has no guide book in this version. Hover over an item for its tooltip, and press &eR&r (recipe) or &eU&r (uses) in JEI to see how essence, seeds and machines work.'
 Q 'seedbase' 'Prosperity Seed Base' 'mysticalagriculture:prosperity_seed_base*4' 'inferium,prosperity' 'xp:50' -desc 'The base of every resource seed. You will need a lot of these!'
 Q 'inferium_seeds' 'Inferium Seeds' 'mysticalagriculture:inferium_seeds*2' 'seedbase' 'mysticalagriculture:inferium_essence*32' -desc @'
 Plant them on farmland to grow more Inferium Essence. Each harvest has a small chance to drop an extra seed.
@@ -161,7 +161,7 @@ $seedGroups = @(
         'mysticalagriculture:titanium_seeds mysticalagriculture:desh_seeds mysticalagriculture:novite_seeds mysticalagriculture:zanite_seeds mysticalagriculture:arkenium_seeds mysticalagriculture:gravitite_seeds mysticalagriculture:ambrosium_seeds mysticalagriculture:dark_gem_seeds mysticalagriculture:niobium_seeds mysticalagriculture:iesnium_seeds mysticalagriculture:cinnabar_seeds mysticalagriculture:ferricore_seeds mysticalagriculture:blazegold_seeds mysticalagriculture:celestigem_seeds mysticalagriculture:eclipsealloy_seeds mysticalagriculture:neptunium_seeds')
 )
 
-Q 'start' 'The Seed Codex' 'mysticalagriculture:prosperity_seed_base' 'mystical/altar' 'xp:50' -size 2 -shape 'gear' -pos '1.5,-2.4' -desc @'
+Q 'start' 'The Seed Codex' 'mysticalagriculture:prosperity_seed_base' '' 'xp:50' -size 2 -shape 'gear' -pos '1.5,-2.4' -desc @'
 This chapter has a quest for &eevery seed&r you can grow in GSPack, sorted by category.
 
 Seeds are crafted on the &eInfusion Altar&r: a seed base in the middle and the ingredients on the pedestals. Check each seed's recipe in JEI.

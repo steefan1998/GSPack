@@ -1,7 +1,7 @@
 Chapter 'equivox' 'Equivox' 'equivox:philosophers_stone' 'magic' 'Equivalent exchange: turn matter into EMC, and EMC into anything.'
 
 # ===== The basics of EMC =====
-Q 'stone' 'Philosopher''s Stone' 'equivox:philosophers_stone' 'allthemodium/atm_ingot' 'xp:100;table:arcane' -size 1.5 -shape 'gear' -sub 'Equivalent Exchange' -desc @'
+Q 'stone' 'Philosopher''s Stone' 'equivox:philosophers_stone' '' 'xp:100;table:arcane' -size 1.5 -shape 'gear' -sub 'Equivalent Exchange' -desc @'
 &bEquivox&r is all about &eEMC&r: every item has an energy value. Trade items you do not need for EMC, and turn EMC into anything you have learned.
 
 The &ePhilosopher's Stone&r is the first tool:

@@ -163,8 +163,9 @@ element {
 $(Common 'logo' 'mid-centered' -120 -110 240 62 $false)
 }
 
-$(LinkButton 'github' 'GitHub' 'Visit steefan1998 on GitHub' 'https://github.com/steefan1998' -100 98 42 'mid-centered')
-$(LinkButton 'curseforge' 'CurseForge' 'View steef_an''s projects on CurseForge' 'https://www.curseforge.com/members/steef_an/projects' 2 98 42 'mid-centered')
+$(LinkButton 'wiki' 'GSPack Wiki' 'Guides for the quest book, the endgame and everything GSPack adds' 'https://github.com/steefan1998/GSPack/wiki' -100 200 42 'mid-centered')
+$(LinkButton 'github' 'GitHub' 'Visit steefan1998 on GitHub' 'https://github.com/steefan1998' -100 98 98 'mid-centered')
+$(LinkButton 'curseforge' 'CurseForge' 'View steef_an''s projects on CurseForge' 'https://www.curseforge.com/members/steef_an/projects' 2 98 98 'mid-centered')
 
 $(HiddenWidget 'minecraft_logo_widget')
 $(HiddenWidget 'minecraft_splash_widget')

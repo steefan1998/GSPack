@@ -10,3 +10,9 @@ PlayerEvents.inventoryChanged(event => {
     player.stages.add('gspack_logs')
   }
 })
+
+// Item tags for quest tag tasks (tag:<tag>*N in tools/content).
+//   gspack:home_storage: any wooden chest or barrel -> Getting Started, "A Place to Call Home"
+ServerEvents.tags('item', event => {
+  event.add('gspack:home_storage', ['#c:chests/wooden', '#c:barrels/wooden'])
+})

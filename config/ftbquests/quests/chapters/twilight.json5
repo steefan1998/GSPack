@@ -1520,12 +1520,13 @@
         },
         {
           id: "19C641A4FD059486",
-          type: "item",
-          item: {
-            id: "twilightforest:knightmetal_ingot",
+          type: "gamestage",
+          stage: "gspack_tag_c_ingots_knightmetal_8",
+          team_stage: false,
+          icon: {
             count: 1,
+            id: "twilightforest:knightmetal_ingot",
           },
-          count: 8,
         },
       ],
       rewards: [

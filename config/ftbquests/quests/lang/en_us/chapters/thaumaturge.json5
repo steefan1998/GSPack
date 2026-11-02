@@ -125,7 +125,7 @@
     "Everything in the world is made of &easpects&r. The six &eprimal&r aspects are:",
     "&eAer&r (air), &bAqua&r (water), &cIgnis&r (fire), &2Terra&r (earth), &fOrdo&r (order) and &8Perditio&r (entropy).",
     "",
-    "Find a vis crystal of each aspect growing in caves.",
+    "Find a crystal of each aspect growing in caves and break it for its &eVis Crystals&r.",
   ],
   "quest.372FF004746B204D.quest_subtitle": "The six primal aspects",
   "quest.372FF004746B204D.title": "Vis Crystals",
@@ -297,4 +297,5 @@
     "Collects essentia from a smelter below it.",
   ],
   "quest.7FB078AFCB499495.title": "Alembic",
+  "task.0ECF91D895F1A675.title": "8 Brass Ingots (any mod)",
 }

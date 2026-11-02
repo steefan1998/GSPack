@@ -19,21 +19,23 @@
       tasks: [
         {
           id: "64CED4200C98B952",
-          type: "item",
-          item: {
+          type: "gamestage",
+          stage: "gspack_tag_c_raw_materials_titanium_8",
+          team_stage: false,
+          icon: {
             count: 1,
             id: "stellaris:raw_titanium",
           },
-          count: 8,
         },
         {
           id: "2FD6D9F31410D7C9",
-          type: "item",
-          item: {
+          type: "gamestage",
+          stage: "gspack_tag_c_ingots_titanium_16",
+          team_stage: false,
+          icon: {
             count: 1,
             id: "stellaris:titanium_ingot",
           },
-          count: 16,
         },
       ],
       rewards: [

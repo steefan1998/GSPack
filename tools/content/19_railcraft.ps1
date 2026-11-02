@@ -12,7 +12,7 @@ The &eBlast Furnace&r is a hollow 3x4x3 multiblock (3 wide, 4 tall) made of Blas
 
 Feed it iron and Coal Coke to make &eSteel&r. Check JEI for the exact build.
 '@
-Q 'steel' 'Steel' 'railcraft:steel_ingot*16' 'blast_furnace' 'xp:100' -desc 'Railcraft steel is used for rails, machines and locomotives.'
+Q 'steel' 'Steel' 'tag:c:ingots/steel*16@alltheores:steel_ingot|16 Steel Ingots (any mod)' 'blast_furnace' 'xp:100' -desc 'Railcraft steel is used for rails, machines and locomotives.'
 Q 'steel_gear' 'Steel Tools' 'railcraft:steel_pickaxe;railcraft:steel_sword' 'steel' 'xp:50' -opt -desc 'Steel tools and armor are a solid step up from iron.'
 
 # ===== Tracks =====

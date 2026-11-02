@@ -5,7 +5,7 @@ Chapter 'endgame' 'Endgame: Infinity' 'gspack:infinity_trophy' 'endgame' 'Master
 # Each core unlocks only after the capstone quests of its chapters are done ('chapter/quest' dependencies),
 # so this chapter follows your progression through the whole pack.
 
-Q 'intro' 'The Final Goal' 'check' 'basics/dragon' 'xp:100' -size 2 -shape 'gear' -icon 'gspack:infinity_trophy' -sub 'Craft the Trophy of Infinity' -desc @'
+Q 'intro' 'The Final Goal' 'check' '' 'xp:100' -size 2 -shape 'gear' -icon 'gspack:infinity_trophy' -sub 'Craft the Trophy of Infinity' -desc @'
 This is the end goal of &6GSPack&r.
 
 To reach it you need five &ecores&r, one for each pillar of the pack. Each core is made from the hardest items of its pillar, and its quest only unlocks once you have finished the final quests of those chapters.

@@ -106,7 +106,7 @@
   ],
   "quest.4034820F97D1187D.title": "Animal Husbandry",
   "quest.40B5CC37297FEFE7.quest_desc": [
-    "Build a simple shelter with a door and some storage.",
+    "Build a simple shelter with a wooden door and some storage: chests or barrels of any wood, from any mod.",
     "",
     "&6Tip:&r Claim your base on the map (&eM&r) so other players cannot grief it. Later, upgrade your storage with &bSophisticated Storage&r.",
   ],
@@ -249,4 +249,6 @@
   ],
   "quest.7DEFC22484C31C0B.title": "Something to Eat",
   "task.2AD05A4876E73EF8.title": "16 logs of any kind",
+  "task.0971802368A3E8FB.title": "2 Chests or Barrels",
+  "task.137E3A327CCD7813.title": "A wooden door",
 }

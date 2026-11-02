@@ -112,12 +112,13 @@
       tasks: [
         {
           id: "3EFA1B2E58F8D537",
-          type: "item",
-          item: {
-            id: "railcraft:steel_ingot",
+          type: "gamestage",
+          stage: "gspack_tag_c_ingots_steel_16",
+          team_stage: false,
+          icon: {
             count: 1,
+            id: "alltheores:steel_ingot",
           },
-          count: 16,
         },
       ],
       rewards: [
