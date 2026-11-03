@@ -14,9 +14,9 @@ global.GSPACK_UNIFY.forEach(([tag, preferred, others]) => {
 function gspackConvertContainer(container) {
   let changed = 0
   for (let i = 0; i < container.getContainerSize(); i++) {
-    const stack = container.getItem(i)
+    let stack = container.getItem(i)
     if (stack.isEmpty()) continue
-    const preferred = GSPACK_UNIFY_TO[stack.id]
+    let preferred = GSPACK_UNIFY_TO[stack.id]
     if (!preferred) continue
     container.setItem(i, Item.of(preferred, stack.count))
     changed++

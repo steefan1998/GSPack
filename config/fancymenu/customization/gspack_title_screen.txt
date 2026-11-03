@@ -129,7 +129,7 @@ element {
   sticky_anchor = false
   anchor_point = mid-centered
   x = -100
-  y = 98
+  y = 66
   width = 98
   height = 20
   stretch_x = false
@@ -169,7 +169,7 @@ element {
   sticky_anchor = false
   anchor_point = mid-centered
   x = 2
-  y = 98
+  y = 66
   width = 98
   height = 20
   stretch_x = false
@@ -529,7 +529,7 @@ vanilla_button {
   sticky_anchor = false
   anchor_point = mid-centered
   x = -100
-  y = 74
+  y = 94
   width = 98
   height = 20
   stretch_x = false
@@ -572,7 +572,7 @@ vanilla_button {
   sticky_anchor = false
   anchor_point = mid-centered
   x = 2
-  y = 74
+  y = 94
   width = 98
   height = 20
   stretch_x = false
@@ -647,7 +647,7 @@ vanilla_button {
   sticky_anchor = false
   anchor_point = mid-centered
   x = -124
-  y = 74
+  y = 94
   width = 20
   height = 20
   stretch_x = false
@@ -690,7 +690,7 @@ vanilla_button {
   sticky_anchor = false
   anchor_point = mid-centered
   x = 104
-  y = 74
+  y = 94
   width = 20
   height = 20
   stretch_x = false

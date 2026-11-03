@@ -14,7 +14,7 @@
 | AllTheCompressed | 5.0.1 | `allthecompressed-26.1.2-5.0.1.jar` |
 | AllTheModium | 26.1.2-4.2.0 | `allthemodium-26.1.2-4.2.0.jar` |
 | AllTheOres | 4.0.4 | `alltheores-4.0.4.jar` |
-| Almanac | 1.26.10.2 | `almanac-neoforge-26.1.2-1.26.10.2.jar` |
+| Almanac | 1.26.11.1 | `almanac-neoforge-26.1.2-1.26.11.1.jar` |
 | Apotheosis | 9.1.0 | `Apotheosis-26.1.2-9.1.0.jar` |
 | Apothic Attributes | 3.1.0 | `ApothicAttributes-26.1.2-3.1.0.jar` |
 | Apothic Enchanting | 2.1.0 | `ApothicEnchanting-26.1.2-2.1.0.jar` |
@@ -84,7 +84,7 @@
 | Ender IO | 9.0.6-alpha | `enderio-9.0.6-alpha.jar` |
 | Energy Meter | 26.1.2-0.6.0 | `energymeter-neoforge-26.1.2-0.6.0.jar` |
 | Entity Model Features | 3.3.12 | `entity_model_features-3.3.12-26.1-neoforge.jar` |
-| Entity Texture Features | 7.2.6 | `entity_texture_features-7.2.6-26.1-neoforge.jar` |
+| Entity Texture Features | 7.2.7 | `entity_texture_features-7.2.7-26.1-neoforge.jar` |
 | EntityCulling | 1.11.3 | `entityculling-neoforge-1.11.3-mc26.1.2.jar` |
 | Equivox | 1.4.0 | `Equivox-26.1.2-1.4.0.jar` |
 | EvilCraft | 1.2.109 | `evilcraft-26.1.2-neoforge-1.2.109.jar` |
@@ -147,7 +147,7 @@
 | Leaderboards | 2.0.4 | `leaderboards-26.1.2-NeoForge-2.0.4.jar` |
 | Leaves Be Gone | 26.1.0 | `LeavesBeGone-v26.1.0-mc26.1.x-NeoForge.jar` |
 | Legendary Tooltips | 1.6.1 | `LegendaryTooltips-26.1.2-neoforge-1.6.1.jar` |
-| LetMeDespawn | 1.26.10.2 | `letmedespawn-neoforge-26.1.2-1.26.10.2.jar` |
+| LetMeDespawn | 1.26.11.1 | `letmedespawn-neoforge-26.1.2-1.26.11.1.jar` |
 | LimaCore | 2.11.3 | `limacore-26.1.2-2.11.3.jar` |
 | Lithium | 0.24.7 | `lithium-neoforge-0.24.7+mc26.1.2.jar` |
 | Lithostitched | 1.8.1 | `lithostitched-1.8.1-neoforge-26.1.jar` |
@@ -180,7 +180,7 @@
 | ModernFix | 5.27.25+mc26.1.2 | `modernfix-neoforge-5.27.25+mc26.1.2.jar` |
 | Modonomicon | 2.20.0 | `modonomicon-26.1.2-neoforge-2.20.0.jar` |
 | Modular Routers | 26.1.2.2 | `modular-routers-26.1.2.2.jar` |
-| Moonlight Lib | 26.1.2-4.2.0 | `moonlight-26.1.2-4.2.0-neoforge.jar` |
+| Moonlight Lib | 26.1.2-4.2.1 | `moonlight-26.1.2-4.2.1-neoforge.jar` |
 | More Overlays Updated | 1.24.4 | `moreoverlays-1.24.4-mc26.1.2-neoforge.jar` |
 | Mouse Tweaks | 2.31 | `MouseTweaks-neoforge-mc26.1-2.31.jar` |
 | Mystical Agradditions | 9.0.4 | `MysticalAgradditions-26.1.2-9.0.4.jar` |
@@ -194,7 +194,7 @@
 | NotEnoughAnimations | 1.12.7 | `notenoughanimations-neoforge-1.12.7-mc26.1.2.jar` |
 | Nullscape | 1.2.20 | `Nullscape_26.1.2_v1.2.20.jar` |
 | Nyctography | 26.1.2.3 | `Nyctography-neoforge-MC26.1.2-26.1.2.3.jar` |
-| Occultism | 1.260.4 | `occultism-26.1.2-neoforge-1.260.4.jar` |
+| Occultism | 1.261.0 | `occultism-26.1.2-neoforge-1.261.0.jar` |
 | Oritech | 2.0.0-exp12 | `oritech-2.0.0-exp12.jar` |
 | PacketFixer | 3.3.4 | `packetfixer-neoforge-3.3.4-26.1.jar` |
 | Patchouli | 26.1-94 | `patchouli-neoforge-26.1-94.jar` |
@@ -225,7 +225,7 @@
 | Rhino | 2101.2.8-build.91 | `rhino-2101.2.8-build.91.jar` |
 | Roots Classic |  | `RootsClassic-26.1.2-1.6.7.jar` |
 | Runelic | 26.1.2.3 | `Runelic-neoforge-MC26.1.2-26.1.2.3.jar` |
-| Universal Sawmill | 26.1.2-1.9.1 | `sawmill-26.1.2-1.9.1-neoforge.jar` |
+| Universal Sawmill | 26.1.2-1.9.2 | `sawmill-26.1.2-1.9.2-neoforge.jar` |
 | Searchables | 1.0.2 | `Searchables-neoforge-26.1.2-1.0.2.jar` |
 | ShatterLib | 0.7.0+26.1.2 | `shatterlib-neoforge-0.7.0+26.1.2.jar` |
 | Shogi | 26.1.2.12 | `shogi-neoforge-26.1.2-26.1.2.12.jar` |
@@ -260,7 +260,7 @@
 | Tom's Simple Storage Mod | 2.10.3 | `toms_storage-26.1-2.10.3.jar` |
 | Trash Cans | 1.1.2+a | `trashcans-1.1.2a-neoforge-mc26.1.jar` |
 | TrashSlot | 26.1.2.5 | `trashslot-neoforge-26.1.2-26.1.2.5.jar` |
-| The Twilight Forest | 4.9.3817 | `twilightforest-26.1.2-4.9.3817-universal.jar` |
+| The Twilight Forest | 4.9.3850 | `twilightforest-26.1.2-4.9.3850-universal.jar` |
 | Variants&Ventures | 1.0.29 | `variantsandventures-neoforge-1.0.29-mc26.1.2.jar` |
 | Waystones | 26.1.2.17 | `waystones-neoforge-26.1.2-26.1.2.17.jar` |
 | YUNG's API | 26.1.2-NeoForge-6.1.3 | `YungsApi-26.1.2-NeoForge-6.1.3.jar` |

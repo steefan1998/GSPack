@@ -81,14 +81,14 @@ function gspackConvertChunk(level, cx, cz) {
   const chunk = level.getChunk(cx, cz)
   const sections = chunk.getSections()
   for (let i = 0; i < sections.length; i++) {
-    const section = sections[i]
+    let section = sections[i]
     if (section.hasOnlyAir() || !section.maybeHas(state => gspackIsDuplicate(state))) continue
-    const baseY = chunk.getSectionYFromSectionIndex(i) * 16
+    let baseY = chunk.getSectionYFromSectionIndex(i) * 16
     for (let y = 0; y < 16; y++) {
       for (let z = 0; z < 16; z++) {
         for (let x = 0; x < 16; x++) {
-          const id = gspackBlockId(section.getBlockState(x, y, z))
-          const preferred = GSPACK_BLOCK_TO[id]
+          let id = gspackBlockId(section.getBlockState(x, y, z))
+          let preferred = GSPACK_BLOCK_TO[id]
           // Flag 2: update clients only, no neighbour updates (an ore swap changes nothing around it).
           if (preferred) level.getBlock(cx * 16 + x, baseY + y, cz * 16 + z).setBlockState(gspackTarget(preferred), 2)
         }
@@ -101,7 +101,7 @@ ServerEvents.tick(event => {
   if (gspackBlockConvertFailed) return
   const start = Date.now()
   while (!gspackChunkQueue.isEmpty() && Date.now() - start < GSPACK_BLOCK_MS_PER_TICK) {
-    const [level, cx, cz] = gspackChunkQueue.poll()
+    let [level, cx, cz] = gspackChunkQueue.poll()
     try {
       gspackConvertChunk(level, cx, cz)
     } catch (e) {

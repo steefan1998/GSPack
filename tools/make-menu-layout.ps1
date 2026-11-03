@@ -164,8 +164,8 @@ $(Common 'logo' 'mid-centered' -120 -110 240 62 $false)
 }
 
 $(LinkButton 'wiki' 'GSPack Wiki' 'Guides for the quest book, the endgame and everything GSPack adds' 'https://github.com/steefan1998/GSPack/wiki' -100 200 42 'mid-centered')
-$(LinkButton 'github' 'GitHub' 'Visit steefan1998 on GitHub' 'https://github.com/steefan1998' -100 98 98 'mid-centered')
-$(LinkButton 'curseforge' 'CurseForge' 'View steef_an''s projects on CurseForge' 'https://www.curseforge.com/members/steef_an/projects' 2 98 98 'mid-centered')
+$(LinkButton 'github' 'GitHub' 'Visit steefan1998 on GitHub' 'https://github.com/steefan1998' -100 98 66 'mid-centered')
+$(LinkButton 'curseforge' 'CurseForge' 'View steef_an''s projects on CurseForge' 'https://www.curseforge.com/members/steef_an/projects' 2 98 66 'mid-centered')
 
 $(HiddenWidget 'minecraft_logo_widget')
 $(HiddenWidget 'minecraft_splash_widget')
@@ -176,11 +176,11 @@ $(HiddenWidget 'mc_titlescreen_accessibility_button')
 $(VanillaButton 'mc_titlescreen_singleplayer_button' -100 -30)
 $(VanillaButton 'mc_titlescreen_multiplayer_button' -100 -6)
 $(VanillaButton 'forge_titlescreen_mods_button' -100 18)
-$(VanillaButton 'mc_titlescreen_options_button' -100 74 98 20)
-$(VanillaButton 'mc_titlescreen_quit_button' 2 74 98 20)
+$(VanillaButton 'mc_titlescreen_options_button' -100 94 98 20)
+$(VanillaButton 'mc_titlescreen_quit_button' 2 94 98 20)
 $(HiddenWidget '604282')
-$(VanillaButton '376390' -124 74 20 20)
-$(VanillaButton '604390' 104 74 20 20)
+$(VanillaButton '376390' -124 94 20 20)
+$(VanillaButton '604390' 104 94 20 20)
 "@
 
 $utf8 = New-Object System.Text.UTF8Encoding($false)

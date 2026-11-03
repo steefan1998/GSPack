@@ -2,6 +2,21 @@
 
 What changed in each version of GSPack. The exact mod changes (added, removed and updated mods with their versions) are in [MOD-CHANGELOG.md](MOD-CHANGELOG.md).
 
+## 0.6 (2026-11-03)
+
+### Mods
+**7 updated** (274 mods), **3 resource packs removed**. Full list: [MOD-CHANGELOG.md](MOD-CHANGELOG.md).
+
+- **Updated:** Almanac 1.26.11.1, Entity Texture Features 7.2.7, LetMeDespawn 1.26.11.1, Moonlight Lib 4.2.1, Occultism 1.261.0, Universal Sawmill 1.9.2, The Twilight Forest 4.9.3850
+- **Removed resource packs:** Freshly Modded (F.M.R.P), Fresh Animations, Fresh Animations: Extensions. The Waystones pack and the shaders stay.
+- **Twilight Forest:** the Uncrafting Table settings moved from `twilightforest-common.toml` to the new `twilightforest-server.toml` (same values).
+
+**Quest book:** unchanged, 1,484 quests in 29 chapters.
+
+### Fixes
+- **KubeJS error every tick** (`redeclaration of var level` in `gspack_zz_unify_blocks.js`), in singleplayer and on servers: Rhino doesn't allow `const` inside loops. The chunk block converter and the inventory converter (`gspack_zz_unify_convert.js`) use `let` there now, so existing worlds convert again.
+- **Title screen:** GitHub and CurseForge sit right under GSPack Wiki now, with Options and Quit Game below them.
+
 ## 0.5 (2026-11-02)
 
 ### Mods
