@@ -1,4 +1,4 @@
-﻿<p align="center">
+<p align="center">
   <img src="config/fancymenu/assets/gspack/logo.png" alt="GSPack: Tech, Magic, Exploration" width="600">
 </p>
 
@@ -164,4 +164,4 @@ The 0.7 quest book has 1,720 quests across 36 chapters, including Farming, Mob H
 
 All players can use /mastery to view completed chapters and /mastery player <player> to inspect another online player. Welcome explains the commands. See [mastery](docs/MASTERY.md), [EMC policy](docs/EMC.md) and the [in-game test checklist](docs/DEV-TEST-CHECKLIST.md). Restart after installing the silicon and EMC changes.
 
-Download the CurseForge import archive from [GSPack 0.7](https://github.com/steefan1998/GSPack/releases/tag/v0.7). It contains the manifest and pack overrides; mod downloads are resolved by CurseForge.
+Download and update GSPack through [CurseForge](https://www.curseforge.com/members/steef_an/projects). GitHub releases provide the changelog; pack downloads are distributed through CurseForge.
