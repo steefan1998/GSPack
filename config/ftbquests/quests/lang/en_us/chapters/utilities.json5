@@ -1,43 +1,43 @@
 {
   "chapter.1B5325199F5DF69B.chapter_subtitle": [
-    "Handy gadgets: time bottles, pylons, mob plates and energy meters.",
+    "Handy gadgets: time bottles, pylons, mob plates and energy meters."
   ],
   "chapter.1B5325199F5DF69B.title": "Utilities",
   "quest.0E24C360BA8E0959.quest_desc": [
-    "Place it between two cables to measure how much energy flows through. Open its built-in guide for all the settings.",
+    "Place it between two cables to measure how much energy flows through. Open its built-in guide for all the settings."
   ],
   "quest.0E24C360BA8E0959.title": "Energy Meter",
   "quest.10841485D64ACACB.quest_desc": [
-    "Keeps other players out of a range of 1x1 up to 5x5 chunks. Allow friends in with a &ePlayer Filter&r.",
+    "Keeps other players out of a range of 1x1 up to 5x5 chunks. Allow friends in with a &ePlayer Filter&r."
   ],
   "quest.10841485D64ACACB.title": "Expulsion Pylon",
   "quest.2AF8B32888E5DE80.quest_desc": [
-    "Stops the mobs in its &eMob Filters&r from spawning in a range of 1x1 up to 5x5 chunks.",
+    "Stops the mobs in its &eMob Filters&r from spawning in a range of 1x1 up to 5x5 chunks."
   ],
   "quest.2AF8B32888E5DE80.title": "Interdiction Pylon",
   "quest.3A35AC0EF4533DFC.quest_desc": [
-    "Gives you the effects of activated &ePotion Filters&r from any distance. By default it also keeps its own chunk loaded.",
+    "Gives you the effects of activated &ePotion Filters&r from any distance. By default it also keeps its own chunk loaded."
   ],
   "quest.3A35AC0EF4533DFC.title": "Infusion Pylon",
   "quest.3D177CE1CBDB868D.quest_desc": [
     "The &eTime in a Bottle&r stores up time while it sits in your inventory (its tooltip shows how much).",
     "",
-    "Right-click a machine, crop or other ticking block to spend that time and make it run faster for a while.",
+    "Right-click a machine, crop or other ticking block to spend that time and make it run faster for a while."
   ],
   "quest.3D177CE1CBDB868D.quest_subtitle": "Time is on your side",
   "quest.3D177CE1CBDB868D.title": "Time in a Bottle",
   "quest.42EC01623F5CD38F.quest_desc": [
-    "The tools of &bPotions Master&r: grind ingredients into powders. Ender Powder, for example, is an Ender Pearl ground with the Pestle in the Mortar.",
+    "The tools of &bPotions Master&r: grind ingredients into powders. Ender Powder, for example, is an Ender Pearl ground with the Pestle in the Mortar."
   ],
   "quest.42EC01623F5CD38F.title": "Mortar \\& Pestle",
   "quest.52FB051146A3A00A.quest_desc": [
-    "Blocks that only certain mobs can pass through, for example only hostile mobs or only players. Perfect for mob farms.",
+    "Blocks that only certain mobs can pass through, for example only hostile mobs or only players. Perfect for mob farms."
   ],
   "quest.52FB051146A3A00A.title": "Mob Filters",
   "quest.53E5DE25C3C13AF4.quest_desc": [
     "Harvests crops in a range around it (3x3 up to 9x9 blocks) and puts the harvest in an inventory above it.",
     "",
-    "Place the pylon in the water block of your farm.",
+    "Place the pylon in the water block of your farm."
   ],
   "quest.53E5DE25C3C13AF4.title": "Harvester Pylon",
   "quest.57DD43F5649658D9.quest_desc": [
@@ -46,19 +46,59 @@
     "- &eActivated Charcoal&r: cures Wither.",
     "- &ePolar Bear Gall Bladder&r: cures Mining Fatigue.",
     "",
-    "Check JEI for how to get each one.",
+    "Check JEI for how to get each one."
   ],
   "quest.57DD43F5649658D9.title": "Remedies",
   "quest.629FD5D7AC2CDFCE.quest_desc": [
-    "Plates that push mobs around. Faster versions push harder. Use them to move mobs into your farm.",
+    "Plates that push mobs around. Faster versions push harder. Use them to move mobs into your farm."
   ],
   "quest.629FD5D7AC2CDFCE.title": "Vector Plates",
   "quest.65C23ADB283C3A5F.quest_desc": [
-    "Hurts anything that walks on it. The Smite and Bane plates do extra damage to undead and arthropods.",
+    "Hurts anything that walks on it. The Smite and Bane plates do extra damage to undead and arthropods."
   ],
   "quest.65C23ADB283C3A5F.title": "Damage Plates",
   "quest.7ABCBD303EE6B887.quest_desc": [
-    "Cures Mining Fatigue. Very useful against Elder Guardians in ocean monuments.",
+    "Cures Mining Fatigue. Very useful against Elder Guardians in ocean monuments."
   ],
   "quest.7ABCBD303EE6B887.title": "Gall Bladder",
+  "quest.047D97ABCD382742.quest_desc": [
+    "Consult the Waystones interface and JEI for linking and transport setup."
+  ],
+  "quest.047D97ABCD382742.title": "Warp Plates",
+  "quest.0B3E76526D3BE0E7.quest_desc": [
+    "Activate waystones and give them useful names. Teleport costs depend on the server settings."
+  ],
+  "quest.0B3E76526D3BE0E7.title": "Waystone Network",
+  "quest.185E28D798700312.quest_desc": [
+    "Search for biomes. Open the compass interface and select a biome."
+  ],
+  "quest.185E28D798700312.title": "Natures Compass",
+  "quest.2D43FF83623D498B.quest_desc": [
+    "Use the stronger magnet and configure its filtering options."
+  ],
+  "quest.2D43FF83623D498B.title": "Advanced Magnet",
+  "quest.4B3AF5099289F412.quest_desc": [
+    "Toggle the magnet to collect nearby dropped items. Respect other players and farms."
+  ],
+  "quest.4B3AF5099289F412.title": "Basic Magnet",
+  "quest.5DD103A7CDC82B09.quest_desc": [
+    "Search for supported structures. Search range and availability depend on the installed configuration."
+  ],
+  "quest.5DD103A7CDC82B09.title": "Explorers Compass",
+  "quest.658779EF257E2DFE.quest_desc": [
+    "Prepare consumable scrolls for travel."
+  ],
+  "quest.658779EF257E2DFE.title": "Warp Scrolls",
+  "quest.65A4C12174654ACD.quest_desc": [
+    "Place a demagnetization coil near systems where items should stay on the ground."
+  ],
+  "quest.65A4C12174654ACD.title": "Keep Drops in Place",
+  "quest.7046EB35C132E52D.quest_desc": [
+    "Use a Warp Stone to access your available waystones. GSPack may change the recipe."
+  ],
+  "quest.7046EB35C132E52D.title": "Portable Warp Stone",
+  "quest.7C6E5C284CA0D71D.quest_desc": [
+    "Pick the mod category you need. Time in a Bottle, Energy Meter, Pylons, Dark Utilities, Potions Master, Compasses, Waystones and Simple Magnets are independent branches."
+  ],
+  "quest.7C6E5C284CA0D71D.title": "Choose Your Utility"
 }

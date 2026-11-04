@@ -1,0 +1,12 @@
+# Append rewards to preserve the stable IDs of all existing table entries.
+$script:Tables['common'].Entries += @('minecraft:cobblestone*64@12', 'minecraft:oak_log*16@10', 'minecraft:glass*16@10', 'minecraft:cooked_beef*8@10', 'minecraft:carrot*8@8', 'minecraft:baked_potato*8@8', 'minecraft:paper*16@8', 'minecraft:string*8@8')
+$script:Tables['uncommon'].Entries += @('minecraft:quartz*16@10', 'minecraft:glowstone_dust*16@10', 'minecraft:slime_ball*8@8', 'minecraft:leather*8@10', 'minecraft:honey_bottle*4@8', 'minecraft:sea_lantern*4@6', 'minecraft:bone_meal*32@10')
+$script:Tables['rare'].Entries += @('minecraft:prismarine_shard*16@8', 'minecraft:prismarine_crystals*8@8', 'minecraft:shulker_shell*2@4', 'minecraft:firework_rocket*32@10', 'minecraft:ender_pearl*8@10', 'minecraft:obsidian*16@10')
+$script:Tables['epic'].Entries += @('minecraft:experience_bottle*32@12', 'minecraft:gold_block*4@10', 'minecraft:emerald_block*2@8', 'minecraft:shulker_shell*4@5', 'minecraft:firework_rocket*64@10', 'minecraft:golden_carrot*32@12')
+$script:Tables['tech'].Entries += @('minecraft:piston*4@10', 'minecraft:observer*4@10', 'minecraft:hopper*2@8', 'minecraft:repeater*8@10', 'minecraft:comparator*4@8', 'minecraft:quartz*16@12')
+$script:Tables['arcane'].Entries += @('minecraft:amethyst_shard*16@12', 'minecraft:lapis_lazuli*16@10', 'minecraft:blaze_powder*8@8', 'minecraft:ghast_tear*2@4', 'minecraft:glass_bottle*16@10', 'minecraft:glowstone_dust*16@10')
+$script:Tables['angler'].Entries += @('minecraft:cod*8@12', 'minecraft:salmon*8@12', 'minecraft:kelp*16@10', 'minecraft:sea_pickle*4@6', 'minecraft:prismarine_shard*8@6', 'minecraft:lily_pad*4@6')
+$script:Tables['sky'].Entries += @('minecraft:feather*16@10', 'minecraft:white_wool*16@10', 'minecraft:golden_carrot*8@8', 'minecraft:glowstone_dust*16@10', 'minecraft:arrow*32@10', 'minecraft:experience_bottle*8@8')
+$script:Tables['twilight'].Entries += @('minecraft:moss_block*16@10', 'minecraft:glow_berries*16@10', 'minecraft:brown_mushroom*16@10', 'minecraft:red_mushroom*16@10', 'minecraft:book*8@8', 'minecraft:golden_carrot*8@8')
+$script:Tables['space'].Entries += @('minecraft:iron_block*2@12', 'minecraft:copper_block*4@12', 'minecraft:glass*32@12', 'minecraft:redstone*32@10', 'minecraft:gold_ingot*8@8', 'minecraft:dried_kelp_block*4@8')
+$script:Tables['atm'].Entries += @('minecraft:diamond*4@10', 'minecraft:emerald*8@10', 'minecraft:experience_bottle*16@10', 'minecraft:golden_carrot*16@10', 'minecraft:obsidian*16@8', 'minecraft:gold_block*2@8')

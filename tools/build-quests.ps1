@@ -1,4 +1,4 @@
-﻿# Builds the GSPack FTB Quests data (config/ftbquests/quests, JSON5 format for FTB Quests 26.1)
+# Builds the GSPack FTB Quests data (config/ftbquests/quests, JSON5 format for FTB Quests 26.1)
 # from the chapter scripts in tools/content.
 # Usage:  powershell -ExecutionPolicy Bypass -File tools\build-quests.ps1 [-ItemList <file with ns:id per line>]
 param([string]$ItemList = '')
@@ -113,6 +113,7 @@ foreach ($m in [regex]::Matches([IO.File]::ReadAllText((Join-Path $Root 'kubejs\
 # A readable name for a material tag: c:ingots/osmium -> Osmium Ingot(s), c:raw_materials/tin -> Raw Tin, ...
 function Tag-Title([string]$tag, [int]$n) {
     $kind, $mat = ($tag -replace '^c:', '') -split '/', 2
+    if (-not $mat) { $mat = $kind; $kind = 'material' }
     $name = (($mat -split '_') | ForEach-Object { $_.Substring(0, 1).ToUpper() + $_.Substring(1) }) -join ' '
     $s = if ($n -gt 1) { 's' } else { '' }
     $label = switch ($kind) {
@@ -208,11 +209,20 @@ function Chapter([string]$key, [string]$title, [string]$icon, [string]$group = '
 function Q {
     param([string]$key, [string]$title, [string]$tasks, [string]$deps = '', [string]$rewards = '', [string]$desc = '',
         [string]$sub = '', [string]$shape = '', [double]$size = 0, [string]$icon = '', [string]$pos = '', [switch]$opt, [switch]$any, [switch]$hidelines)
+    # A standard 16-item collection is a discovery task: one item is enough.
+    # Apply only to task specifications, never to reward quantities.
+    $tasks = (($tasks -split ';' | ForEach-Object {
+        if ($_ -match '\*16(?=@|\||$)') {
+            ($_ -replace '\*16(?=@|\||$)', '*1') -replace '\|16 ', '|1 '
+        } else { $_ }
+    }) -join ';')
     $c = $script:Cur
     if ($c.ByKey.ContainsKey($key)) { throw "Duplicate quest key '$key' in chapter $($c.Key)" }
-    $q = @{ Key = $key; Id = (New-Id "quest:$($c.Key):$key"); Title = $title; Sub = $sub; Desc = $desc; Shape = $shape; Size = $size; Icon = $icon; Opt = $opt; Any = $any; HideLines = $hidelines
+    # Chapters are self-contained: references to chapter/key must not gate quests.
+    $localDeps = @($deps -split ',' | ForEach-Object { $_.Trim() } | Where-Object { $_ -and $_ -notmatch '/' })
+    $q = @{ Key = $key; Id = (New-Id "quest:$($c.Key):$key"); Title = $title; Sub = $sub; Desc = $desc; Shape = $shape; Size = $size; Icon = $icon; Opt = $opt; Any = $any; HideLines = $hidelines; ExplicitHideLines = [bool]$hidelines
         Tasks = @($tasks -split ';' | Where-Object { $_ }); Rewards = @($rewards -split ';' | Where-Object { $_ })
-        Deps = @($deps -split ',' | ForEach-Object { $_.Trim() } | Where-Object { $_ }); Pos = $pos }
+        Deps = @($localDeps); OriginalDeps = @($localDeps); Pos = $pos }
     # A dependency is a quest key in this chapter, or 'chapter/key' for a quest in another chapter.
     # They are checked after all content is loaded, so order in the file does not matter.
     $c.Quests.Add($q); $c.ByKey[$key] = $q; $script:AllQuests["$($c.Key)/$key"] = $q
@@ -222,6 +232,16 @@ function Dep-Quest($c, [string]$d) { if ($d -match '/') { $script:AllQuests[$d] 
 
 # Tree layout: column = dependency depth, row = nearest free slot to the parents' average row.
 function Layout($c) {
+    # Shared visual language across the book; stable IDs and gameplay are untouched.
+    $c.ShowLines = -not $c.HideLines
+    foreach ($q in $c.Quests) {
+        $q.HideLines = [bool]$c.HideLines -or [bool]$q.ExplicitHideLines
+        if ($q.Size -ge 1.25) { $q.Shape = 'gear'; $q.Size = 1.3 }
+        elseif (-not $q.Deps.Count) { $q.Shape = 'hexagon'; $q.Size = 1.15 }
+        elseif ($q.Opt) { $q.Shape = 'diamond'; $q.Size = 1.0 }
+        elseif ($q.Tasks -contains 'check') { $q.Shape = 'circle'; $q.Size = 1.0 }
+        else { $q.Shape = $(if ($q.Deps.Count -gt 1) { 'hexagon' } else { 'circle' }); $q.Size = 1.0 }
+    }
     foreach ($q in $c.Quests) {
         foreach ($d in $q.Deps) {
             if (-not (Dep-Quest $c $d)) { throw "Quest '$($q.Key)' in chapter $($c.Key) depends on unknown '$d'" }
@@ -246,54 +266,73 @@ function Layout($c) {
     $d = $script:Decor[$c.Key]
     $labels = if ($d) { $d.Labels } else { @{} }
     $c.LabelPos = @{}
+    if ($c.LayoutVariant) { Layout-Variant $c $ordered $labels; return }
     # Chapters with hand-placed quests (Seed Codex) keep their positions.
     if (@($c.Quests | Where-Object { $_.Pos }).Count -eq $c.Quests.Count) {
         foreach ($q in $c.Quests) { $p = $q.Pos -split ','; $q.X = [double]::Parse($p[0], $Inv); $q.Y = [double]::Parse($p[1], $Inv) }
+        if ($c.BranchGroups) {
+            foreach ($q in $c.Quests) {
+                $q.HideLines = [bool]$q.ExplicitHideLines -or [bool]@($q.Deps | Where-Object { $_ -match '/' -or $c.BranchGroups[$_] -ne $c.BranchGroups[$q.Key] }).Count
+            }
+        }
+        if ($c.Key -eq 'welcome') { $c.ByKey['start'].HideLines = $true }
         return
     }
 
-    # Sections: a labelled quest starts a new section, and the quests after it (file order) belong to it.
-    # Each section is laid out as its own tree in a horizontal band, with free space at the top for its label.
-    $secOf = @{}; $secs = New-Object System.Collections.Generic.List[string]; $secs.Add(''); $cur = ''
-    foreach ($q in $c.Quests) { if ($labels.ContainsKey($q.Key)) { $cur = $q.Key; $secs.Add($cur) }; $secOf[$q.Key] = $cur }
-    $bandTop = 0.0
-    foreach ($s in $secs) {
-        $members = @($ordered | Where-Object { $secOf[$_.Key] -eq $s })
+    # Category trees in two columns. Each tree grows downward and fans out
+    # into compact sibling rows; labels have a dedicated gutter on the left.
+    $secOf = @{}; $sections = [Collections.Generic.List[string]]::new()
+    $sections.Add(''); $current = ''
+    foreach ($q in $c.Quests) {
+        if ($labels.ContainsKey($q.Key)) { $current = $q.Key; $sections.Add($current) }
+        $secOf[$q.Key] = $current
+    }
+    $c.LabelAnchors = @{}
+    $panel = 0; $pairY = 0.0; $pairHeight = 0.0
+    foreach ($section in $sections) {
+        $members = @($ordered | Where-Object { $secOf[$_.Key] -eq $section })
         if (-not $members.Count) { continue }
-        $taken = @{}; $rowOf = @{}; $colOf = @{}
-        # Loose quests (no parent and no child inside this section) go in a grid below the tree instead of one long column.
-        $inSec = { param($dk) $dk -notmatch '/' -and $secOf[$dk] -eq $s }
-        $hasChild = @{}
-        foreach ($q in $members) { foreach ($dk in $q.Deps) { if (& $inSec $dk) { $hasChild[$dk] = $true } } }
-        $loose = @($members | Where-Object { -not $hasChild[$_.Key] -and -not @($_.Deps | Where-Object { & $inSec $_ }).Count })
-        if ($loose.Count -lt 4) { $loose = @() }
-        $looseKeys = @{}; foreach ($q in $loose) { $looseKeys[$q.Key] = $true }
+        $depths = @{}; $layers = @{}
         foreach ($q in $members) {
-            if ($looseKeys[$q.Key]) { continue }
-            $depth = 0; $rs = @()
-            foreach ($dk in $q.Deps) {
-                if ($dk -match '/' -or $secOf[$dk] -ne $s) { continue }   # links to other sections do not shape the tree
-                $depth = [Math]::Max($depth, $colOf[$dk] + 1); $rs += $rowOf[$dk]
+            $depth = 0
+            foreach ($dep in $q.Deps) {
+                if ($dep -notmatch '/' -and $secOf[$dep] -eq $section) {
+                    $depth = [Math]::Max($depth, [int]$depths[$dep] + 1)
+                }
             }
-            $want = if ($rs.Count) { [int][Math]::Round(($rs | Measure-Object -Average).Average) } else { 0 }
-            if (-not $taken.ContainsKey($depth)) { $taken[$depth] = @{} }
-            $col = $taken[$depth]; $row = $null
-            for ($i = 0; $null -eq $row; $i++) {
-                foreach ($r in @(($want + $i), ($want - $i))) { if (-not $col.ContainsKey([int]$r)) { $row = [int]$r; break } }
+            $depths[$q.Key] = $depth
+            if (-not $layers.ContainsKey($depth)) { $layers[$depth] = [Collections.Generic.List[object]]::new() }
+            $layers[$depth].Add($q)
+        }
+        $centreX = ($panel % 2) * 21.0
+        $rowY = $pairY + 1.5
+        $left = $centreX
+        foreach ($depth in @($layers.Keys | Sort-Object)) {
+            $layer = @($layers[$depth])
+            for ($i = 0; $i -lt $layer.Count; $i++) {
+                $row = [int][Math]::Floor($i / 6)
+                $count = [Math]::Min(6, $layer.Count - $row * 6)
+                $q = $layer[$i]
+                $q.X = $centreX + (($i % 6) - ($count - 1) / 2.0) * 2.2
+                $q.Y = $rowY + $row * 2.2
+                $left = [Math]::Min($left, $q.X)
             }
-            $col[$row] = $true; $rowOf[$q.Key] = $row; $colOf[$q.Key] = $depth
+            $rowY += [Math]::Ceiling($layer.Count / 6.0) * 2.2
         }
-        $gridTop = if ($rowOf.Count) { ($rowOf.Values | Measure-Object -Maximum).Maximum + 1 } else { 0 }
-        for ($i = 0; $i -lt $loose.Count; $i++) {
-            $rowOf[$loose[$i].Key] = $gridTop + [Math]::Floor($i / $GridCols); $colOf[$loose[$i].Key] = $i % $GridCols
+        if ($section) {
+            $c.LabelAnchors[$section] = '{0},{1}' -f ($left - 1.1).ToString($Inv), ($pairY + 1.5).ToString($Inv)
         }
-        $minRow = ($rowOf.Values | Measure-Object -Minimum).Minimum; $maxRow = ($rowOf.Values | Measure-Object -Maximum).Maximum
-        # Big quests in the first row need extra room below the label.
-        $firstSize = (@($members | Where-Object { $rowOf[$_.Key] -eq $minRow } | ForEach-Object { if ($_.Size) { $_.Size } else { 1.0 } }) | Measure-Object -Maximum).Maximum
-        $top = $bandTop + $(if ($s) { $LabelSpace + ($firstSize - 1) / 2 } else { 0.0 })
-        foreach ($q in $members) { $q.X = $colOf[$q.Key] * $ColStep; $q.Y = $top + ($rowOf[$q.Key] - $minRow) * $RowStep }
-        if ($s) { $c.LabelPos[$s] = $bandTop }
-        $bandTop = $top + ($maxRow - $minRow) * $RowStep + $SectionGap
+        $pairHeight = [Math]::Max($pairHeight, $rowY - $pairY + 2.5)
+        $panel++
+        if ($panel % 2 -eq 0) { $pairY += $pairHeight; $pairHeight = 0.0 }
+    }
+    # FTB hides dependency lines per quest, rather than per edge. Hide lines
+    # on quests spanning categories so distant prerequisites do not cut across
+    # the entire chapter. The dependencies themselves remain fully intact.
+    foreach ($q in $c.Quests) {
+        $q.HideLines = [bool]$q.ExplicitHideLines -or [bool]@($q.Deps | Where-Object {
+            $_ -match '/' -or $secOf[$_] -ne $secOf[$q.Key]
+        }).Count
     }
 }
 
@@ -406,20 +445,28 @@ function Chapter-Images($c) {
     $hw = 12.0; $hh = $hw / $ratio
     $topY = $minY - 0.5
     if ($c.LabelPos.Count) { $topY = [Math]::Min($topY, (($c.LabelPos.Values | Measure-Object -Minimum).Minimum) - $LabelHeight / 2) }
-    [void]$imgs.Add((Image-Obj "$($c.Key)_header.png" ([Math]::Max(($minX + $maxX) / 2, $hw / 2 - 0.6)) ($topY - 0.5 - $hh / 2) $hw $hh))
+    [void]$imgs.Add((Image-Obj "$($c.Key)_header.png" (($minX + $maxX) / 2) ($topY - 0.5 - $hh / 2) $hw $hh))
     foreach ($k in $d.Labels.Keys) {
         $q = $c.ByKey[$k]
         if (-not $q) { throw "Label for unknown quest '$k' in chapter $($c.Key)" }
         $file = "$($c.Key)_$k.png"
         $ratio = Render-Label (Join-Path $TexDir $file) $d.Labels[$k] $d.Color
         $lw = $LabelHeight * $ratio
-        if ($c.LabelPos.ContainsKey($k)) {
+        if ($c.LabelAnchors -and $c.LabelAnchors.ContainsKey($k)) {
+            $anchor = $c.LabelAnchors[$k] -split ','
+            $right = [double]::Parse($anchor[0], $Inv)
+            $labelY = [double]::Parse($anchor[1], $Inv)
+            [void]$imgs.Add((Image-Obj $file ($right - $lw / 2) $labelY $lw $LabelHeight))
+        } elseif ($c.LabelPos.ContainsKey($k)) {
             # Banded layout: label in its own free row, left-aligned with the first column.
             [void]$imgs.Add((Image-Obj $file (-0.6 + $lw / 2) $c.LabelPos[$k] $lw $LabelHeight))
         } else {
             # Hand-placed layout: label to the left of the quest.
             [void]$imgs.Add((Image-Obj $file ($q.X - 0.8 - $lw / 2) $q.Y $lw $LabelHeight))
         }
+    }
+    foreach ($extra in $c.ExtraImages) {
+        [void]$imgs.Add((Image-Obj $extra.File $extra.X $extra.Y $extra.Width $extra.Height))
     }
     return $imgs
 }
@@ -435,6 +482,11 @@ Get-ChildItem (Join-Path $PSScriptRoot 'content') -Filter *.ps1 | Sort-Object Na
 
 if (Test-Path $Out) { Remove-Item -Recurse -Force $Out }
 if (Test-Path $TexDir) { Remove-Item -Recurse -Force $TexDir }
+$packLogo = Join-Path $Root 'config\fancymenu\assets\gspack\logo.png'
+if (Test-Path $packLogo) {
+    New-Item -ItemType Directory -Force $TexDir | Out-Null
+    Copy-Item -LiteralPath $packLogo -Destination (Join-Path $TexDir 'pack_logo.png')
+}
 
 # ---------- reward tables ----------
 foreach ($t in $script:Tables.Values) {
@@ -468,7 +520,9 @@ foreach ($c in $script:Chapters) {
         if ($q.Any) { $o.dependency_requirement = 'one_completed' }
         if ($q.Opt) { $o.optional = $true }
         if ($q.HideLines) { $o.hide_dependency_lines = $true }
-        $i = 0; $o.tasks = @(foreach ($t in $q.Tasks) { Task-Obj $t "task:$($q.Id):$(($i++))" })
+        if ($q.LineControlPoints -and $q.LineControlPoints.Count) { $o.dep_control_pts = $q.LineControlPoints }
+        $i = if ($q.TaskSeedOffset) { [int]$q.TaskSeedOffset } else { 0 }
+        $o.tasks = @(foreach ($t in $q.Tasks) { Task-Obj $t "task:$($q.Id):$(($i++))" })
         foreach ($t in $o.tasks) { if ($script:TaskTitles[$t.id]) { Set-Lang $lf "task.$($t.id).title" $script:TaskTitles[$t.id] } }
         $i = 0; $o.rewards = @(foreach ($r in $q.Rewards) { Reward-Obj $r "reward:$($q.Id):$(($i++))" })
         [void]$quests.Add($o)
@@ -477,10 +531,15 @@ foreach ($c in $script:Chapters) {
             id = $c.Id; group = $(if ($c.Group) { $script:Groups[$c.Group] } else { '' }); order_index = $(($order++)); filename = $c.Key
             icon = (Item-Obj $c.Icon); default_quest_shape = ''; default_hide_dependency_lines = (-not $c.ShowLines)   # lines off unless -showlines: the auto layout makes them cross
             quests = $quests; quest_links = @(); images = @(Chapter-Images $c)
+            autofocus_id = $(if ($c.Key -eq 'welcome') { $c.ByKey['welcome'].Id } else { '' })
         })
 }
 
 # ---------- tag tasks: KubeJS gives the stage once the player holds enough of the tag ----------
+$masteryDir = Join-Path $Root 'kubejs\data\gspack'
+New-Item -ItemType Directory -Force $masteryDir | Out-Null
+$masteryCatalog = @($script:Chapters | ForEach-Object { [ordered]@{ key = $_.Key; id = $_.Id; title = $_.Title } })
+[IO.File]::WriteAllText((Join-Path $masteryDir 'mastery_chapters.json'), ($masteryCatalog | ConvertTo-Json -Depth 4) + "`n", $Utf8)
 $tagJs = @(
     '// GENERATED by tools/build-quests.ps1 from the tag:<tag>*N tasks in tools/content. Do not edit by hand.',
     '// An item task only accepts one item id. For materials that several mods make (steel, osmium, titanium, ...)',

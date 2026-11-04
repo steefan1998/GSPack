@@ -1,0 +1,118 @@
+{
+  "chapter.16CD30383C8744B2.chapter_subtitle": [
+    "Pollinate trees, discover new species and build a productive orchard."
+  ],
+  "chapter.16CD30383C8744B2.title": "Productive Trees",
+  "quest.058B016AD1C0C582.quest_desc": [
+    "The Stripper removes bark from wood and requires an axe to operate."
+  ],
+  "quest.058B016AD1C0C582.title": "Remove the Bark",
+  "quest.06CDAE2351E415C0.quest_desc": [
+    "Harvest fruit from your orchard. Inspect each tree in JEI to learn which produce it supplies."
+  ],
+  "quest.06CDAE2351E415C0.title": "Orchard Harvest",
+  "quest.079AA205C4FE9CB8.quest_desc": [
+    "Discover Sweet Chestnut using the parent species and pollination conditions shown in JEI. Save a spare sapling and plant a labelled specimen."
+  ],
+  "quest.079AA205C4FE9CB8.title": "Sweet Chestnut",
+  "quest.07ECD0BB724A28CE.quest_desc": [
+    "Discover Red Maple using the parent species and pollination conditions shown in JEI. Save a spare sapling and plant a labelled specimen."
+  ],
+  "quest.07ECD0BB724A28CE.title": "Red Maple",
+  "quest.0E0580B9DAE2C185.quest_desc": [
+    "Use the Tree Pollination recipes in JEI to discover Silver Lime. Keep parent trees close enough to the hive and make sure bees can work."
+  ],
+  "quest.0E0580B9DAE2C185.title": "Your First Hybrid",
+  "quest.19A0CBCF414ECAC7.quest_desc": [
+    "Use the Wood Worker for the wood-processing recipes available in JEI."
+  ],
+  "quest.19A0CBCF414ECAC7.title": "Wood Workshop",
+  "quest.291D6594D763E3C2.quest_desc": [
+    "Discover Teak using the parent species and pollination conditions shown in JEI. Save a spare sapling and plant a labelled specimen."
+  ],
+  "quest.291D6594D763E3C2.title": "Teak",
+  "quest.2AE34AFC48319EFD.quest_desc": [
+    "Discover Mahogany using the parent species and pollination conditions shown in JEI. Save a spare sapling and plant a labelled specimen."
+  ],
+  "quest.2AE34AFC48319EFD.title": "Mahogany",
+  "quest.2EAE7CC7C593E27E.quest_desc": [
+    "The Sawmill processes wood. Check JEI and its GUI for compatible inputs and outputs."
+  ],
+  "quest.2EAE7CC7C593E27E.title": "Timber Processing",
+  "quest.4155A1873717EEFF.quest_desc": [
+    "Build a labelled arboretum with several species, a pollination area and a workshop. Tick this after testing that you can repeat a successful cross and keep spare saplings."
+  ],
+  "quest.4155A1873717EEFF.title": "An Arboretum to Be Proud Of",
+  "quest.422DE12247F2DAA7.quest_desc": [
+    "Discover Soul Tree using the parent species and pollination conditions shown in JEI. Save a spare sapling and plant a labelled specimen."
+  ],
+  "quest.422DE12247F2DAA7.title": "Soul Tree",
+  "quest.42D34465B35190CE.quest_desc": [
+    "Discover Rubber Tree using the parent species and pollination conditions shown in JEI. Save a spare sapling and plant a labelled specimen."
+  ],
+  "quest.42D34465B35190CE.title": "Rubber Tree",
+  "quest.46447CDE9D580164.quest_desc": [
+    "Use a Spyglass to identify pollinated leaves. Collect the resulting saplings and save a spare before experimenting."
+  ],
+  "quest.46447CDE9D580164.title": "Look at the Leaves",
+  "quest.466245AA4C19D3ED.quest_desc": [
+    "Discover Lemon using the parent species and pollination conditions shown in JEI. Save a spare sapling and plant a labelled specimen."
+  ],
+  "quest.466245AA4C19D3ED.title": "Lemon",
+  "quest.4D70A61516BB3660.quest_desc": [
+    "Discover Banana using the parent species and pollination conditions shown in JEI. Save a spare sapling and plant a labelled specimen."
+  ],
+  "quest.4D70A61516BB3660.title": "Banana",
+  "quest.4D8023F197E10AFD.quest_desc": [
+    "Discover Black Ember using the parent species and pollination conditions shown in JEI. Save a spare sapling and plant a labelled specimen."
+  ],
+  "quest.4D8023F197E10AFD.title": "Black Ember",
+  "quest.52319F5CEC629AF8.quest_desc": [
+    "Discover Alder through the combination shown in JEI. Plant and label a specimen in your collection."
+  ],
+  "quest.52319F5CEC629AF8.title": "Alder",
+  "quest.538BDB7028F9B7B6.quest_desc": [
+    "Harvest Walnuts and process them using their JEI recipe."
+  ],
+  "quest.538BDB7028F9B7B6.title": "Nuts for the Pantry",
+  "quest.546A99F7B8958D6B.quest_desc": [
+    "Use species-specific pollen on compatible leaves to pollinate them manually. Look up both parents in JEI instead of guessing combinations."
+  ],
+  "quest.546A99F7B8958D6B.title": "Collect Pollen",
+  "quest.55A4A5ED0D955822.quest_desc": [
+    "Discover Balsa using the parent species and pollination conditions shown in JEI. Save a spare sapling and plant a labelled specimen."
+  ],
+  "quest.55A4A5ED0D955822.title": "Balsa",
+  "quest.5C7A4FB66239B73F.quest_desc": [
+    "Discover Orange using the parent species and pollination conditions shown in JEI. Save a spare sapling and plant a labelled specimen."
+  ],
+  "quest.5C7A4FB66239B73F.title": "Orange",
+  "quest.5EB198E6AFC64B40.quest_desc": [
+    "Discover Time Traveller using the parent species and pollination conditions shown in JEI. Save a spare sapling and plant a labelled specimen."
+  ],
+  "quest.5EB198E6AFC64B40.title": "Time Traveller",
+  "quest.63CED029316E78E9.quest_desc": [
+    "Grow compatible trees close to bees and keep flowers nearby. Productive Trees uses pollination to discover new species. JEI shows the parent combinations; a Spyglass helps reveal pollinated leaves."
+  ],
+  "quest.63CED029316E78E9.title": "Grow Your Collection",
+  "quest.6528523EE347F3F0.quest_desc": [
+    "Check the Rubber Tree and processing recipes in JEI for collecting and curing rubber."
+  ],
+  "quest.6528523EE347F3F0.title": "Renewable Rubber",
+  "quest.6F84F75957AAD14D.quest_desc": [
+    "Follow the maple sap and syrup recipes shown in JEI."
+  ],
+  "quest.6F84F75957AAD14D.title": "Something Sweet",
+  "quest.701769C1392F466F.quest_desc": [
+    "Install a Pollen Sieve Upgrade in an expanded advanced hive. Nearby trees supply pollen; range upgrades extend the collection area. Additional sieve upgrades do not increase yield."
+  ],
+  "quest.701769C1392F466F.title": "Pollen from Your Apiary",
+  "quest.70F1921E19C96CCA.quest_desc": [
+    "Discover Sugar Maple using the parent species and pollination conditions shown in JEI. Save a spare sapling and plant a labelled specimen."
+  ],
+  "quest.70F1921E19C96CCA.title": "Sugar Maple",
+  "quest.7EB010B6C6701D42.quest_desc": [
+    "Discover Walnut using the parent species and pollination conditions shown in JEI. Save a spare sapling and plant a labelled specimen."
+  ],
+  "quest.7EB010B6C6701D42.title": "Walnut"
+}

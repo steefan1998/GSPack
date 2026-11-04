@@ -9,71 +9,131 @@
       id: "015537536A12264E",
       item: {
         id: "allthemodium:allthemodium_nugget",
-        count: 1,
+        count: 1
       },
       count: 9,
-      weight: 20.0,
+      weight: 20
     },
     {
       id: "62606E25CAA0E607",
       item: {
         id: "allthemodium:raw_allthemodium",
-        count: 1,
+        count: 1
       },
       count: 2,
-      weight: 12.0,
+      weight: 12
     },
     {
       id: "59AA6D8149FDD2C8",
       item: {
         id: "allthemodium:vibranium_nugget",
-        count: 1,
+        count: 1
       },
       count: 9,
-      weight: 12.0,
+      weight: 12
     },
     {
       id: "3CCF62CC6B9B206C",
       item: {
         id: "allthemodium:raw_vibranium",
-        count: 1,
+        count: 1
       },
-      weight: 6.0,
+      weight: 6
     },
     {
       id: "63625FD78D810D7D",
       item: {
         id: "allthemodium:unobtainium_nugget",
-        count: 1,
+        count: 1
       },
       count: 4,
-      weight: 6.0,
+      weight: 6
     },
     {
       id: "6D632D5A975207D1",
       item: {
         id: "allthemodium:allthemodium_apple",
-        count: 1,
+        count: 1
       },
-      weight: 8.0,
+      weight: 8
     },
     {
       id: "63B97371C890715F",
       item: {
         id: "allthemodium:allthemodium_carrot",
-        count: 1,
+        count: 1
       },
       count: 2,
-      weight: 8.0,
+      weight: 8
     },
     {
       id: "01B8AB9207A52C2B",
       item: {
         id: "minecraft:ancient_debris",
-        count: 1,
+        count: 1
       },
       count: 2,
-      weight: 10.0,
+      weight: 10
     },
-  ],
+    {
+      id: "0C0FA5819F2D7E60",
+      type: "item",
+      item: {
+        count: 1,
+        id: "minecraft:diamond"
+      },
+      count: 4,
+      weight: 10
+    },
+    {
+      id: "11E51D3046AF23CF",
+      type: "item",
+      item: {
+        count: 1,
+        id: "minecraft:emerald"
+      },
+      count: 8,
+      weight: 10
+    },
+    {
+      id: "4A603F4ECEE6FD48",
+      type: "item",
+      item: {
+        count: 1,
+        id: "minecraft:experience_bottle"
+      },
+      count: 16,
+      weight: 10
+    },
+    {
+      id: "05271121F901F2DE",
+      type: "item",
+      item: {
+        count: 1,
+        id: "minecraft:golden_carrot"
+      },
+      count: 16,
+      weight: 10
+    },
+    {
+      id: "7A96C3FB899A1C5B",
+      type: "item",
+      item: {
+        count: 1,
+        id: "minecraft:obsidian"
+      },
+      count: 16,
+      weight: 8
+    },
+    {
+      id: "44F52F2BAD534FB5",
+      type: "item",
+      item: {
+        count: 1,
+        id: "minecraft:gold_block"
+      },
+      count: 2,
+      weight: 8
+    }
+  ]
 }

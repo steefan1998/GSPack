@@ -1,6 +1,49 @@
 # GSPack changelog
 
-What changed in each version of GSPack. The exact mod changes (added, removed and updated mods with their versions) are in [MOD-CHANGELOG.md](MOD-CHANGELOG.md).
+Pack changes are listed here. Exact added and updated mods are in [MOD-CHANGELOG.md](MOD-CHANGELOG.md).
+
+## 0.7 (2026-11-04)
+
+### Mods
+291 mods: 17 added and 9 updated since 0.6. Includes Productive Bees, Productive Trees, Productive Farming, Neo Vitae, The Bumblezone and integration add-ons. See [MOD-CHANGELOG.md](MOD-CHANGELOG.md) for exact versions.
+
+### Quest book
+- **1,720 quests in 36 chapters.** Seven new chapters: Productive Bees (32), Productive Trees (28), Productive Farming (32), Extended Crafting (44), Farming (25), Mob Hunting Board (22) and Neo Vitae (28).
+- Compact branching layouts and category textures, with varied quest-icon shapes. Seed Codex has no visible dependency lines; Trophy Checklist retains its layout.
+- AE2 starts with Inscriber, Fallen Star, then Certus Quartz. Mekanism has separate circuit, alloy and tier-installer branches. Utilities has eight mod categories.
+- Chapters have local prerequisites; optional routes unlock from local milestones. Optional mod trophy lines are hidden in Progression.
+- Item requirements of exactly 16 are reduced to 1. Unified materials, including silicon, accept their common tags.
+- Added a Thaumaturge sleep quest. Into the Sky detects entering The Aether II. Extended Crafting starts with a checkmark instead of an unavailable guide book.
+- Added 69 rewards across all eleven reward tables; existing reward entries and quest IDs retained.
+
+### Mastery
+- Completing required quests awards chapter mastery based on FTB Quests team progress; optional quests do not block it.
+- Everyone can use /mastery, /mastery player <player>, /mastery chapter <key> and /mastery list without OP.
+- Coloured overviews show completed chapters only. Welcome explains the commands.
+- Corrected KubeJS text feedback, colour-overload handling, array-catalog loading and the sleep-stat API.
+
+### Recipes and EMC
+- Arcane Core now needs a tier-4 Occultism Storage Stabilizer. Three Occultism rituals have cross-mod ingredients while retaining their bindings, pentacles and ritual mechanics.
+- Dark Matter equipment consumes corresponding Allthemodium equipment. Dark Matter stats exceed Allthemodium, Red Matter exceeds Unobtainium and Gem Armor exceeds Red Matter.
+- Silicon from AE2, Ender IO, Oritech and Stellaris unifies to AE2 silicon. Printed Silicon remains separate. The offline converter includes the new mappings.
+- Bread crafts shapelessly from three wheat.
+- EMC excludes endgame items, ores/raw ores, machines, Mystical seeds, tools, weapons and armour. Added 88 material conversions and the public /gspackemc audit command. Items without valid derived values are reported rather than given guessed prices.
+- Fixed EMC startup component timing and primitive-map Java overloads. Fresh game logs confirm successful exclusion-tag construction and remapping.
+
+### Compatibility and presentation
+- Added missing Thaumometer aspects for 141 AllTheOres material tags and a scan fallback for otherwise aspect-less modded blocks.
+- Added PotionsMaster Ancient Debris/Nether Quartz aliases and ten legacy Allthemodium smithing GUI slot sprites.
+- Added the GSPack logo to the pause menu and corrected Welcome focus, logo and dependency-line rendering.
+- Flux Goo uses temporary movement compensation to retain slower movement without excessive drag; its hazards remain.
+- Replaced twelve invalid neoforge:false conditions with neoforge:never.
+- Inventory unification uses explicit stack counts to preserve amounts.
+
+### Installation and known limitations
+- Fully restart Minecraft and dedicated servers after updating; silicon changes a startup table and EMC needs remapping.
+- Existing quest progress is retained through stable IDs. New required quests can change mastery completion.
+- Thaumaturge 1.1.0 compatibility guard temporarily removes crafting/arcane recipes whose empty-input assembly returns null, preventing its aspect-index crash. Affected IDs are logged in logs/kubejs/server.log; 544 recipes were quarantined in the latest validation run.
+- Fresh logs show 23 scripts loaded without errors, zero failed recipes, 7,131 policy exclusions and 184 additional removals after EMC remapping. Full gameplay balance and EMC coverage remain subject to in-game testing.
+- See [the test checklist](docs/DEV-TEST-CHECKLIST.md), [mastery guide](docs/MASTERY.md) and [EMC policy](docs/EMC.md).
 
 ## 0.6 (2026-11-03)
 

@@ -1,8 +1,8 @@
 Chapter 'basics' 'Getting Started' 'minecraft:iron_pickaxe' '' 'Survive, gear up and conquer the Nether and the End.'
 
 # --- First day ---
-Q 'wood' 'Punch a Tree' 'stage:gspack_logs@minecraft:oak_log|16 logs of any kind' '' 'xp:25;minecraft:apple*4' -size 1.5 -shape 'gear' -icon 'minecraft:oak_log' -sub 'Every journey starts with wood' -desc @'
-The classic start. Collect &e16 logs&r of any kind: oak, birch, spruce, the trees from Terralith, the Twilight Forest, the Aether... they all count. The quest completes as soon as you carry 16 logs.
+Q 'wood' 'Punch a Tree' 'stage:gspack_logs@minecraft:oak_log|1 log of any kind' '' 'xp:25;minecraft:apple*4' -size 1.5 -shape 'gear' -icon 'minecraft:oak_log' -sub 'Every journey starts with wood' -desc @'
+The classic start. Collect &e1 log&r of any kind: oak, birch, spruce, the trees from Terralith, the Twilight Forest, the Aether... they all count. The quest completes as soon as you carry one log.
 
 Turn logs into planks, planks into sticks and a &eCrafting Table&r. From here you can make your first tools.
 

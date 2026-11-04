@@ -16,3 +16,7 @@ desktop.ini
 .DS_Store
 .vscode/
 .idea/
+
+# Local investigation and release artifacts
+.scratch/
+dist/

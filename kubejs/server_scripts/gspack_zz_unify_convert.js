@@ -18,7 +18,8 @@ function gspackConvertContainer(container) {
     if (stack.isEmpty()) continue
     let preferred = GSPACK_UNIFY_TO[stack.id]
     if (!preferred) continue
-    container.setItem(i, Item.of(preferred, stack.count))
+    // Use the explicit getter: Rhino can resolve stack.count to a function.
+    container.setItem(i, Item.of(preferred, stack.getCount()))
     changed++
   }
   return changed

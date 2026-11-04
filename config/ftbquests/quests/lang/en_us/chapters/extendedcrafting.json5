@@ -1,0 +1,182 @@
+{
+  "chapter.674CEC491DA62D7F.chapter_subtitle": [
+    "Bigger crafting grids, automation and the road to the Ultimate Singularity.",
+  ],
+  "chapter.674CEC491DA62D7F.title": "Extended Crafting",
+  "quest.0064AF6558A64DC5.quest_desc": [
+    "The 5x5 table handles many GSPack machines and several ingredients made craftable for the trophy. Check the recipe grid size in JEI.",
+  ],
+  "quest.0064AF6558A64DC5.title": "Advanced Table: 5x5",
+  "quest.00C8F86867B203D3.quest_desc": [
+    "Produce this specific singularity in the Quantum Compressor. Its component data identifies the material: another singularity type will not complete this quest. All 19 listed types are used in the GSPack Ultimate Singularity recipe.",
+  ],
+  "quest.00C8F86867B203D3.title": "Invar Singularity",
+  "quest.08F3AB7C1F6C0108.quest_desc": [
+    "Craft the GSPack 9x9 recipe with all 19 singularity types, a Creative Singularity and the other capstone materials shown in JEI. The optional material quests help track your collection.",
+  ],
+  "quest.08F3AB7C1F6C0108.title": "The Ultimate Singularity",
+  "quest.0A3DDD9B7515597B.quest_desc": [
+    "Automate supported 7x7 recipes. Plan ingredient supply before starting large jobs.",
+  ],
+  "quest.0A3DDD9B7515597B.title": "Automatic Elite Table",
+  "quest.0B1E8B5FE8D9DD13.quest_desc": [
+    "A building material for several Extended Crafting recipes. Check JEI for crafting and uses.",
+  ],
+  "quest.0B1E8B5FE8D9DD13.title": "Black Iron Slate",
+  "quest.0ED902332572C70E.quest_desc": [
+    "Produce this specific singularity in the Quantum Compressor. Its component data identifies the material: another singularity type will not complete this quest. All 19 listed types are used in the GSPack Ultimate Singularity recipe.",
+  ],
+  "quest.0ED902332572C70E.title": "Lead Singularity",
+  "quest.0EE412272ACB0570.quest_desc": [
+    "Produce this specific singularity in the Quantum Compressor. Its component data identifies the material: another singularity type will not complete this quest. All 19 listed types are used in the GSPack Ultimate Singularity recipe.",
+  ],
+  "quest.0EE412272ACB0570.title": "Glowstone Singularity",
+  "quest.10B512BE6B6B8C60.quest_desc": [
+    "Produce this specific singularity in the Quantum Compressor. Its component data identifies the material: another singularity type will not complete this quest. All 19 listed types are used in the GSPack Ultimate Singularity recipe.",
+  ],
+  "quest.10B512BE6B6B8C60.title": "Electrum Singularity",
+  "quest.14675A47F1034803.quest_desc": [
+    "Components and catalysts come in tiers. Collect both basic parts before making the first table.",
+  ],
+  "quest.14675A47F1034803.title": "Basic Components",
+  "quest.18AB3867111779A8.quest_desc": [
+    "Black Iron is the foundation of Extended Crafting components and machines. Follow its JEI recipe and keep a steady supply.",
+  ],
+  "quest.18AB3867111779A8.title": "Black Iron",
+  "quest.1F0C79535E13AC87.quest_desc": [
+    "A Crafting Core and nearby Pedestals handle combination crafting. Check JEI for supported recipes and their power requirements; this is a different system from table crafting.",
+  ],
+  "quest.1F0C79535E13AC87.title": "Combination Crafting",
+  "quest.242B6418D4C24B18.quest_desc": [
+    "Produce this specific singularity in the Quantum Compressor. Its component data identifies the material: another singularity type will not complete this quest. All 19 listed types are used in the GSPack Ultimate Singularity recipe.",
+  ],
+  "quest.242B6418D4C24B18.title": "Redstone Singularity",
+  "quest.2562B72D1A5D81B2.quest_desc": [
+    "Prepare advanced components and a catalyst for the next table tier.",
+  ],
+  "quest.2562B72D1A5D81B2.title": "Advanced Components",
+  "quest.2575F7916BF7DA5D.quest_desc": [
+    "Produce this specific singularity in the Quantum Compressor. Its component data identifies the material: another singularity type will not complete this quest. All 19 listed types are used in the GSPack Ultimate Singularity recipe.",
+  ],
+  "quest.2575F7916BF7DA5D.title": "Iron Singularity",
+  "quest.27EA1C65CA1BC423.quest_desc": [
+    "Produce this specific singularity in the Quantum Compressor. Its component data identifies the material: another singularity type will not complete this quest. All 19 listed types are used in the GSPack Ultimate Singularity recipe.",
+  ],
+  "quest.27EA1C65CA1BC423.title": "Nickel Singularity",
+  "quest.27ECDAB31B71D5EE.quest_desc": [
+    "Flux crafting uses its own crafter and alternators. Check its recipes and energy requirements rather than using a normal table.",
+  ],
+  "quest.27ECDAB31B71D5EE.title": "Flux Crafting",
+  "quest.30800A279127E9EE.quest_desc": [
+    "Produce this specific singularity in the Quantum Compressor. Its component data identifies the material: another singularity type will not complete this quest. All 19 listed types are used in the GSPack Ultimate Singularity recipe.",
+  ],
+  "quest.30800A279127E9EE.title": "Emerald Singularity",
+  "quest.332E93979B2F1408.quest_desc": [
+    "Extended Crafting adds larger crafting grids and machines for late-game production. GSPack changes many of its recipes. Use JEI for the installed recipes for machine recipes and uses. Read this introduction and tick the checkmark to begin. This chapter can be started independently.",
+  ],
+  "quest.332E93979B2F1408.title": "Beyond the Crafting Table",
+  "quest.33B7DFDBBB570022.quest_desc": [
+    "Produce this specific singularity in the Quantum Compressor. Its component data identifies the material: another singularity type will not complete this quest. All 19 listed types are used in the GSPack Ultimate Singularity recipe.",
+  ],
+  "quest.33B7DFDBBB570022.title": "Silver Singularity",
+  "quest.3EF87F711B496FFA.quest_desc": [
+    "The first Extended Crafting table uses a 3x3 grid. GSPack adds cross-mod ingredients to table recipes; JEI is the authority for the materials.",
+  ],
+  "quest.3EF87F711B496FFA.title": "Basic Table: 3x3",
+  "quest.41AC0A8AC4EDA195.quest_desc": [
+    "Produce this specific singularity in the Quantum Compressor. Its component data identifies the material: another singularity type will not complete this quest. All 19 listed types are used in the GSPack Ultimate Singularity recipe.",
+  ],
+  "quest.41AC0A8AC4EDA195.title": "Aluminum Singularity",
+  "quest.4270A72134950D16.quest_desc": [
+    "Automate supported 5x5 crafting recipes and keep output storage available.",
+  ],
+  "quest.4270A72134950D16.title": "Automatic Advanced Table",
+  "quest.47194A8027FE5716.quest_desc": [
+    "The Quantum Compressor turns large quantities of materials into singularities. JEI lists the ingredient, quantity, catalyst and energy for each type. Do not assume every singularity uses the same amount.",
+  ],
+  "quest.47194A8027FE5716.title": "Quantum Compression",
+  "quest.47F8EDE282AB01DD.quest_desc": [
+    "Produce this specific singularity in the Quantum Compressor. Its component data identifies the material: another singularity type will not complete this quest. All 19 listed types are used in the GSPack Ultimate Singularity recipe.",
+  ],
+  "quest.47F8EDE282AB01DD.title": "Platinum Singularity",
+  "quest.47F9FA74B1CCFD3E.quest_desc": [
+    "An automatic variant for repeated recipes. Check its GUI for power and recipe setup.",
+  ],
+  "quest.47F9FA74B1CCFD3E.title": "Automatic Basic Table",
+  "quest.48F7BBDC8926B0D8.quest_desc": [
+    "The 7x7 table is used for GSPack creative items and other expensive recipes. It does not require completing another chapter to register this quest.",
+  ],
+  "quest.48F7BBDC8926B0D8.title": "Elite Table: 7x7",
+  "quest.493CB064CAF4F63D.quest_desc": [
+    "Automate supported 9x9 recipes. Use JEI to distinguish table recipes from the other Extended Crafting recipe types.",
+  ],
+  "quest.493CB064CAF4F63D.title": "Automatic Ultimate Table",
+  "quest.4A3980AA38A85642.quest_desc": [
+    "Ender crafting uses the Ender Crafter and Ender Alternators. Use JEI for recipes and check the machine setup before automating.",
+  ],
+  "quest.4A3980AA38A85642.title": "Ender Crafting",
+  "quest.4A3E1BC7C9F1BFC3.quest_desc": [
+    "Luminessence is used in crafting components and catalysts.",
+  ],
+  "quest.4A3E1BC7C9F1BFC3.title": "A Little Light",
+  "quest.4CF493386F6A5863.quest_desc": [
+    "Produce this specific singularity in the Quantum Compressor. Its component data identifies the material: another singularity type will not complete this quest. All 19 listed types are used in the GSPack Ultimate Singularity recipe.",
+  ],
+  "quest.4CF493386F6A5863.title": "Bronze Singularity",
+  "quest.594ED768645188A4.quest_desc": [
+    "GSPack adds the Creative Singularity, made from five custom cores. See Endgame: Infinity for the core recipes. This is an item requirement, not a prerequisite from another chapter.",
+  ],
+  "quest.594ED768645188A4.title": "Creative Singularity",
+  "quest.5C4918B9135F7E17.quest_desc": [
+    "Produce this specific singularity in the Quantum Compressor. Its component data identifies the material: another singularity type will not complete this quest. All 19 listed types are used in the GSPack Ultimate Singularity recipe.",
+  ],
+  "quest.5C4918B9135F7E17.title": "Tin Singularity",
+  "quest.62DFF79BF78BAC00.quest_desc": [
+    "Ultimate parts are needed for the biggest crafting grid and the pack endgame.",
+  ],
+  "quest.62DFF79BF78BAC00.title": "Ultimate Components",
+  "quest.6A5A1AC7373958C5.quest_desc": [
+    "Produce this specific singularity in the Quantum Compressor. Its component data identifies the material: another singularity type will not complete this quest. All 19 listed types are used in the GSPack Ultimate Singularity recipe.",
+  ],
+  "quest.6A5A1AC7373958C5.title": "Diamond Singularity",
+  "quest.6D5315B2C427EECF.quest_desc": [
+    "Prepare the elite tier of crafting parts.",
+  ],
+  "quest.6D5315B2C427EECF.title": "Elite Components",
+  "quest.726EB243B6B6B399.quest_desc": [
+    "Produce this specific singularity in the Quantum Compressor. Its component data identifies the material: another singularity type will not complete this quest. All 19 listed types are used in the GSPack Ultimate Singularity recipe.",
+  ],
+  "quest.726EB243B6B6B399.title": "Coal Singularity",
+  "quest.729C2A01C97A9B59.quest_desc": [
+    "GSPack endgame recipes use these blocks in bulk. This quest only asks you to obtain a sample of each.",
+  ],
+  "quest.729C2A01C97A9B59.title": "Blocks for the Endgame",
+  "quest.72FF85D6A13BE86B.quest_desc": [
+    "The largest standard table supports 9x9 recipes. GSPack uses it for the Ultimate Singularity and Trophy of Infinity.",
+  ],
+  "quest.72FF85D6A13BE86B.title": "Ultimate Table: 9x9",
+  "quest.758B8EC251BE6248.quest_desc": [
+    "Crystaltine is a late-game crafting material. Check JEI for its current recipe and stock it for creative-item recipes.",
+  ],
+  "quest.758B8EC251BE6248.title": "Crystaltine",
+  "quest.796CC7D0ED52EBEB.quest_desc": [
+    "Craft the Trophy of Infinity in the Ultimate Table. The Trophy Checklist documents the complete bill of materials. This chapter finishes by detecting the trophy itself.",
+  ],
+  "quest.796CC7D0ED52EBEB.title": "Ready for Infinity",
+  "quest.7A8D4206928F5F65.quest_desc": [
+    "Produce this specific singularity in the Quantum Compressor. Its component data identifies the material: another singularity type will not complete this quest. All 19 listed types are used in the GSPack Ultimate Singularity recipe.",
+  ],
+  "quest.7A8D4206928F5F65.title": "Copper Singularity",
+  "quest.7D5440C40808B748.quest_desc": [
+    "Produce this specific singularity in the Quantum Compressor. Its component data identifies the material: another singularity type will not complete this quest. All 19 listed types are used in the GSPack Ultimate Singularity recipe.",
+  ],
+  "quest.7D5440C40808B748.title": "Gold Singularity",
+  "quest.7E5ABDED275871F7.quest_desc": [
+    "Produce this specific singularity in the Quantum Compressor. Its component data identifies the material: another singularity type will not complete this quest. All 19 listed types are used in the GSPack Ultimate Singularity recipe.",
+  ],
+  "quest.7E5ABDED275871F7.title": "Steel Singularity",
+  "quest.7F9F5D945D3DAFB4.quest_desc": [
+    "Produce this specific singularity in the Quantum Compressor. Its component data identifies the material: another singularity type will not complete this quest. All 19 listed types are used in the GSPack Ultimate Singularity recipe.",
+  ],
+  "quest.7F9F5D945D3DAFB4.title": "Lapis Lazuli Singularity",
+}

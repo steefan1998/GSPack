@@ -1,14 +1,14 @@
-Chapter 'ae2' 'Applied Energistics 2' 'ae2:controller' 'tech' 'Digital storage, channels and automated crafting.'
+Chapter 'ae2' 'Applied Energistics 2' 'ae2:controller' 'tech' 'Digital storage, channels and automated crafting.' -showlines
 
 # ===== Quartz & meteorites =====
-Q 'certus' 'Certus Quartz' 'ae2:certus_quartz_crystal*16' '' 'xp:75;table:common' -size 1.5 -shape 'gear' -sub 'The crystal that powers the network' -desc @'
+Q 'certus' 'Certus Quartz' 'ae2:certus_quartz_crystal*16' 'meteorite' 'xp:75;table:common' -size 1.5 -shape 'gear' -sub 'The crystal that powers the network' -desc @'
 &bApplied Energistics 2&r turns items into data. Instead of chests full of stuff, you get one network that holds everything and can craft for you.
 
 Find &eCertus Quartz&r in &emeteorites&r (craters of sky stone) and in quartz geodes underground.
 
 &6Tip:&r Read the in-game guide! Hold &eG&r while hovering over any AE2 item to open its page.
 '@
-Q 'meteorite' 'Fallen Star' 'struct:ae2:meteorite' 'certus' 'xp:100;table:tech' -icon 'ae2:sky_stone_block' -desc @'
+Q 'meteorite' 'Fallen Star' 'struct:ae2:meteorite' 'inscriber' 'xp:100;table:tech' -icon 'ae2:sky_stone_block' -desc @'
 Find a meteorite. They are big craters full of &eSky Stone&r.
 
 In the middle is a &eMysterious Cube&r with one of the four inscriber presses. Bring a pickaxe, sky stone is very hard!
@@ -38,7 +38,7 @@ Each meteorite holds one press. Collect all four: &eCalculation&r, &eEngineering
 
 Once you have one, the Inscriber can make copies from an iron block, so you only need to find each press once.
 '@
-Q 'inscriber' 'Inscriber' 'ae2:inscriber' 'presses,fluix' 'xp:100' -desc @'
+Q 'inscriber' 'Inscriber' 'ae2:inscriber' '' 'xp:100' -size 1.3 -shape 'gear' -desc @'
 The Inscriber presses circuits. Put the press in the top slot, the material in the middle, and (for processors) the second press in the bottom slot.
 
 &6Tip:&r With automation, use separate inscribers for each step.
@@ -209,3 +209,41 @@ Q 'app_thaum' 'Applied Thaumaturge' 'appliedthaumaturge:essentia_cell_1k;applied
 
 It also adds arcane crafting and infusion helpers for automation. Check JEI!
 '@
+
+# Compact circuit-board layout: materials above, network in the centre,
+# storage on the left, logistics on the right and crafting/add-ons below.
+# Coordinates affect presentation only; stable quest/task/reward IDs are retained.
+$ae2Layout = @{
+    certus='0,-12'; meteorite='0,-14'; compass='-5,-12'; skystone='-5,-10'
+    budding='3,-12'; growth='5,-10'; charger='0,-10'; charged='0,-8'; fluix='0,-6'
+    fluix_tools='3,-8'; knife='5,-12'; wrench='5,-8'
+    presses='-3,-10'; inscriber='0,-16.5'; silicon='-5,-6'; circuits='-3,-6'; processors='-3,-4'
+    cable='0,-4'; smart='3,-6'; dense='3,-4'; controller='0,-2'; energy_cell='0,0'; channels='3,-2'
+    drive='-4,0'; cell1k='-7,0'; workbench='-9,0'; cells='-7,2'; cell256='-7,4'
+    fluid_cell='-9,2'; portable='-11,0'; me_chest='-11,2'; io_port='-9,4'
+    terminal='0,2'; crafting_term='0,4'
+    import='4,0'; export='6,0'; storage_bus='6,2'; interface='4,2'
+    level_emitter='8,2'; cards='6,4'; planes='8,4'
+    pattern='0,6'; cpu='0,8'; provider='0,10'; assembler='0,12'
+    access='-2,10'; big_cpu='0,14'; requester='2,14'; polymorphic='4,14'
+    wireless='3,2'; wireless_term='3,4'; wireless_craft='3,6'; infinity_card='5,6'
+    p2p='8,-2'; p2p_types='10,-2'; quantum='8,0'; spatial='10,0'; chem_p2p='10,2'
+    chem_cell='-11,4'; appflux='-11,6'; ender_drives='-9,6'
+    replication='-11,9'; replicator='-9,9'; apprep='-7,9'; app_thaum='-7,6'
+    oritech_link='5,12'
+    adv_ae='0,17'; reaction='-3,19'; adv_provider='-1,19'; qstorage='1,19'; qcomputer='3,19'; qarmor='-3,22'
+    ex_start='-5,12'; ex_devices='-7,14'; ex_assembler='-5,14'; ex_wireless='-7,16'; entro='-5,16'
+}
+# Label anchor = right edge of the category texture, then vertical centre.
+# Offset crowded categories into the free space between their quest rows.
+$script:Cur.LabelAnchors = @{
+    certus='-0.9,-13'; presses='-3.8,-9'; cable='-0.9,-5'
+    drive='-4.9,-1'; terminal='-0.9,3'; pattern='-0.9,7'
+    wireless='6.5,7'; p2p='10.5,-3.2'; adv_ae='-0.9,17'; ex_start='-5.9,12'
+}
+foreach ($quest in $script:Cur.Quests) {
+    if (-not $ae2Layout.ContainsKey($quest.Key)) { throw "Missing AE2 layout position: $($quest.Key)" }
+    $quest.Pos = $ae2Layout[$quest.Key]
+    if ($quest.Size -gt 1) { $quest.Shape = 'gear'; $quest.Size = 1.3 }
+    else { $quest.Shape = 'square'; $quest.Size = 1.0 }
+}

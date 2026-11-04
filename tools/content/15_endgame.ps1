@@ -8,7 +8,7 @@ Chapter 'endgame' 'Endgame: Infinity' 'gspack:infinity_trophy' 'endgame' 'Master
 Q 'intro' 'The Final Goal' 'check' '' 'xp:100' -size 2 -shape 'gear' -icon 'gspack:infinity_trophy' -sub 'Craft the Trophy of Infinity' -desc @'
 This is the end goal of &6GSPack&r.
 
-To reach it you need five &ecores&r, one for each pillar of the pack. Each core is made from the hardest items of its pillar, and its quest only unlocks once you have finished the final quests of those chapters.
+To reach it you need five &ecores&r, one for each pillar of the pack. Each core is made from the hardest items of its pillar, and its recipe draws on the capstones of those mods. This chapter can be started independently.
 
 Combine the five cores into a &dCreative Singularity&r. Every &ecreative item&r needs one.
 
@@ -18,7 +18,7 @@ Creative items are made in an &eElite Crafting Table&r and the trophy in an &eUl
 {@pagebreak}
 &eThe five cores&r
 - &bTechnological Core&r: Mekanism, Oritech, Applied Energistics 2
-- &5Arcane Core&r: Thaumaturge, Apotheosis, Equivox, Mystical Agriculture
+- &5Arcane Core&r: Thaumaturge, Apotheosis, Equivox, Occultism
 - &aVerdant Core&r: Mystical Agriculture, Aquaculture, the Seed Codex
 - &6Dimensional Core&r: Allthemodium, The Twilight Forest, The Aether II
 - &9Cosmic Core&r: Stellaris
@@ -32,35 +32,35 @@ Antimatter, AI and quantum computing in one core.
 
 &7Recipe:&r 4 Antimatter Pellets, 2 Super AI Chips, 2 Quantum Processors and an Infinite Control Circuit in the middle.
 
-Unlocks after: the Infinite tier and the SPS (Mekanism), Advanced Computing (Oritech) and Advanced AE.
+Suggested progression: the Infinite tier and the SPS (Mekanism), Advanced Computing (Oritech) and Advanced AE.
 '@
 Q 'core_arcane' 'Arcane Core' 'gspack:arcane_core' 'intro,thaumaturge/pearl,apotheosis/pearl,equivox/red_matter,mystical/awakened' 'xp:1000;table:epic' -size 1.5 -shape 'hexagon' -desc @'
 The combined power of every kind of magic in the pack.
 
-&7Recipe:&r 4 Void Metal blocks, 2 Godforged Pearls, 2 Red Matter blocks and a Primordial Pearl in the middle.
+&7Recipe:&r 3 Void Metal ingots, 2 Godforged Pearls, 2 Red Matter blocks, a tier-4 Occultism Storage Stabilizer and a Primordial Pearl in the middle. The stabilizer requires Occultism spirit and ritual progression. GSPack also changes the Controller Base, Infused Lenses and Dimensional Matrix rituals: check JEI.
 
-Unlocks after: the Primordial Pearl (Thaumaturge), Godforged (Apotheosis), Red Matter (Equivox) and Awakened Supremium (Mystical Agriculture).
+Suggested progression: the Primordial Pearl (Thaumaturge), Godforged (Apotheosis), Red Matter (Equivox) and a tier-4 Storage Stabilizer (Occultism).
 '@
 Q 'core_verdant' 'Verdant Core' 'gspack:verdant_core' 'intro,mystical/insanium,seeds/s_nether_star,seeds/s_unobtainium,aquaculture/neptunium' 'xp:1000;table:epic' -size 1.5 -shape 'hexagon' -desc @'
 The essence of everything that grows, and everything that swims.
 
 &7Recipe:&r 4 Insanium Gemstone blocks, 2 Nether Star Seeds, 2 Neptunium blocks and Unobtainium Seeds (Seed Codex) in the middle.
 
-Unlocks after: Insanium, the Nether Star and Unobtainium seeds (Seed Codex) and Neptunium (Aquaculture).
+Suggested progression: Insanium, the Nether Star and Unobtainium seeds (Seed Codex) and Neptunium (Aquaculture).
 '@
 Q 'core_dimensional' 'Dimensional Core' 'gspack:dimensional_core' 'intro,allthemodium/unob_ingot,allthemodium/piglich,twilight/snow_queen,twilight/ur_ghast,aether/gravitite' 'xp:1000;table:epic' -size 1.5 -shape 'hexagon' -desc @'
 Trophies and metals from the far-away worlds.
 
 &7Recipe:&r 4 Unobtainium-Vibranium blocks, a Snow Queen trophy, an Ur-Ghast trophy, 2 Gravitite blocks and a Piglich Heart block in the middle.
 
-Unlocks after: Unobtainium and the Piglich (Allthemodium), the Ur-Ghast and the Snow Queen (Twilight Forest) and Gravitite (Aether II).
+Suggested progression: Unobtainium and the Piglich (Allthemodium), the Ur-Ghast and the Snow Queen (Twilight Forest) and Gravitite (Aether II).
 '@
 Q 'core_cosmic' 'Cosmic Core' 'gspack:cosmic_core' 'intro,stellaris/heart,stellaris/star_crawler,stellaris/novite' 'xp:1000;table:epic' -size 1.5 -shape 'hexagon' -desc @'
 Forged from the bosses of the Moon.
 
 &7Recipe:&r 4 Novite blocks, 2 Heart of Luna trophies, 2 Star Crawler trophies and a Nether Star in the middle.
 
-Unlocks after: the Heart of Luna, the Star Crawler Queen and Novite (Stellaris).
+Suggested progression: the Heart of Luna, the Star Crawler Queen and Novite (Stellaris).
 '@
 
 # ===== The singularity =====

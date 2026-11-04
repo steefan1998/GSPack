@@ -1,4 +1,9 @@
 {
-  "comment": "Use the in-game commands to edit this file",
-  "entries": []
+  "comment": "GSPack progression exclusions; zero disables EMC and recipe inheritance for this tag.",
+  "entries": [
+    {
+      "tag": "gspack:emc_excluded",
+      "emc": 0
+    }
+  ]
 }

@@ -8,13 +8,13 @@
   },
   filename: "building",
   default_quest_shape: "",
-  default_hide_dependency_lines: true,
+  default_hide_dependency_lines: false,
   quests: [
     {
-      x: 0.0,
+      x: 0,
       y: 2.7,
       shape: "gear",
-      size: 1.5,
+      size: 1.3,
       id: "270AA2E509417668",
       tasks: [
         {
@@ -41,12 +41,12 @@
       ],
     },
     {
-      x: 1.6,
+      x: 1.8,
       y: 2.7,
-      dependencies: [
-        "270AA2E509417668",
-      ],
-      size: 1.0,
+      dependencies: ["270AA2E509417668"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"270AA2E509417668":[0,2.7,1.8,2.7]},
       id: "75967C897793BFF8",
       tasks: [
         {
@@ -67,12 +67,12 @@
       ],
     },
     {
-      x: 3.2,
-      y: 2.7,
-      dependencies: [
-        "75967C897793BFF8",
-      ],
-      size: 1.0,
+      x: 3.6,
+      y: 1.8,
+      dependencies: ["75967C897793BFF8"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"75967C897793BFF8":[1.8,2.7,3.6,1.8]},
       id: "6C0BDC1F48F3A2D3",
       tasks: [
         {
@@ -93,12 +93,12 @@
       ],
     },
     {
-      x: 4.8,
-      y: 2.7,
-      dependencies: [
-        "6C0BDC1F48F3A2D3",
-      ],
-      size: 1.0,
+      x: 5.4,
+      y: 0,
+      dependencies: ["6C0BDC1F48F3A2D3"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"6C0BDC1F48F3A2D3":[3.6,1.8,5.4,0]},
       id: "44172A55E688E226",
       tasks: [
         {
@@ -125,13 +125,13 @@
       ],
     },
     {
-      x: 4.8,
-      y: 4.2,
-      dependencies: [
-        "6C0BDC1F48F3A2D3",
-      ],
-      size: 1.0,
+      x: 5.4,
+      y: 1.8,
       optional: true,
+      dependencies: ["6C0BDC1F48F3A2D3"],
+      shape: "diamond",
+      size: 1,
+      dep_control_pts: {"6C0BDC1F48F3A2D3":[3.6,1.8,5.4,1.8]},
       id: "654DF46DC64CBF8D",
       tasks: [
         {
@@ -168,12 +168,12 @@
       ],
     },
     {
-      x: 3.2,
-      y: 4.2,
-      dependencies: [
-        "75967C897793BFF8",
-      ],
-      size: 1.0,
+      x: 3.6,
+      y: 3.6,
+      dependencies: ["75967C897793BFF8"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"75967C897793BFF8":[1.8,2.7,3.6,3.6]},
       id: "13F33C12A0BE613C",
       tasks: [
         {
@@ -200,12 +200,12 @@
       ],
     },
     {
-      x: 4.8,
-      y: 5.7,
-      dependencies: [
-        "13F33C12A0BE613C",
-      ],
-      size: 1.0,
+      x: 5.4,
+      y: 3.6,
+      dependencies: ["13F33C12A0BE613C"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"13F33C12A0BE613C":[3.6,3.6,5.4,3.6]},
       id: "2FF4B64B78C1F526",
       tasks: [
         {
@@ -226,12 +226,12 @@
       ],
     },
     {
-      x: 4.8,
-      y: 7.2,
-      dependencies: [
-        "13F33C12A0BE613C",
-      ],
-      size: 1.0,
+      x: 5.4,
+      y: 5.4,
+      dependencies: ["13F33C12A0BE613C"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"13F33C12A0BE613C":[3.6,3.6,5.4,5.4]},
       id: "262658C0C62D0DE0",
       tasks: [
         {
@@ -266,13 +266,13 @@
       ],
     },
     {
-      x: 4.8,
-      y: 1.2,
-      dependencies: [
-        "13F33C12A0BE613C",
-      ],
-      size: 1.0,
+      x: 7.2,
+      y: 2.7,
       optional: true,
+      dependencies: ["13F33C12A0BE613C"],
+      shape: "diamond",
+      size: 1,
+      dep_control_pts: {"13F33C12A0BE613C":[3.6,3.6,7.2,2.7]},
       id: "509A6CAF1F9BDD4A",
       tasks: [
         {
@@ -293,12 +293,12 @@
       ],
     },
     {
-      x: 6.4,
-      y: 7.2,
-      dependencies: [
-        "262658C0C62D0DE0",
-      ],
-      size: 1.0,
+      x: 9,
+      y: 2.7,
+      dependencies: ["262658C0C62D0DE0"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"262658C0C62D0DE0":[5.4,5.4,9,2.7]},
       id: "313678C93C3E8201",
       tasks: [
         {
@@ -333,13 +333,13 @@
       ],
     },
     {
-      x: 8.0,
-      y: 7.2,
-      dependencies: [
-        "313678C93C3E8201",
-      ],
-      size: 1.0,
+      x: 10.8,
+      y: 1.8,
       optional: true,
+      dependencies: ["313678C93C3E8201"],
+      shape: "diamond",
+      size: 1,
+      dep_control_pts: {"313678C93C3E8201":[9,2.7,10.8,1.8]},
       id: "2AE318A75DE8F93A",
       tasks: [
         {
@@ -360,13 +360,13 @@
       ],
     },
     {
-      x: 8.0,
-      y: 8.7,
-      dependencies: [
-        "313678C93C3E8201",
-      ],
-      size: 1.0,
+      x: 10.8,
+      y: 3.6,
       optional: true,
+      dependencies: ["313678C93C3E8201"],
+      shape: "diamond",
+      size: 1,
+      dep_control_pts: {"313678C93C3E8201":[9,2.7,10.8,3.6]},
       id: "7D425CC1CC30B1F7",
       tasks: [
         {
@@ -395,9 +395,10 @@
       ],
     },
     {
-      x: 0.0,
-      y: 14.3,
-      size: 1.5,
+      x: 21.5,
+      y: 0,
+      shape: "gear",
+      size: 1.3,
       id: "210CDA2203AF717F",
       tasks: [
         {
@@ -432,12 +433,12 @@
       ],
     },
     {
-      x: 1.6,
-      y: 14.3,
-      dependencies: [
-        "210CDA2203AF717F",
-      ],
-      size: 1.0,
+      x: 18.8,
+      y: 1.8,
+      dependencies: ["210CDA2203AF717F"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"210CDA2203AF717F":[21.5,0,18.8,1.8]},
       id: "4299B772F0CD2230",
       tasks: [
         {
@@ -466,12 +467,12 @@
       ],
     },
     {
-      x: 1.6,
-      y: 15.8,
-      dependencies: [
-        "210CDA2203AF717F",
-      ],
-      size: 1.0,
+      x: 20.6,
+      y: 1.8,
+      dependencies: ["210CDA2203AF717F"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"210CDA2203AF717F":[21.5,0,20.6,1.8]},
       id: "138B8C634E681E30",
       tasks: [
         {
@@ -500,13 +501,13 @@
       ],
     },
     {
-      x: 1.6,
-      y: 12.8,
-      dependencies: [
-        "210CDA2203AF717F",
-      ],
-      size: 1.0,
+      x: 22.4,
+      y: 1.8,
       optional: true,
+      dependencies: ["210CDA2203AF717F"],
+      shape: "diamond",
+      size: 1,
+      dep_control_pts: {"210CDA2203AF717F":[21.5,0,22.4,1.8]},
       id: "6B42C45E357C8DB7",
       tasks: [
         {
@@ -535,12 +536,12 @@
       ],
     },
     {
-      x: 1.6,
-      y: 17.3,
-      dependencies: [
-        "210CDA2203AF717F",
-      ],
-      size: 1.0,
+      x: 24.2,
+      y: 1.8,
+      dependencies: ["210CDA2203AF717F"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"210CDA2203AF717F":[21.5,0,24.2,1.8]},
       id: "1FCF4DE8A203DAB2",
       tasks: [
         {
@@ -577,13 +578,13 @@
       ],
     },
     {
-      x: 3.2,
-      y: 17.3,
-      dependencies: [
-        "1FCF4DE8A203DAB2",
-      ],
-      size: 1.0,
+      x: 21.5,
+      y: 5.4,
       optional: true,
+      dependencies: ["1FCF4DE8A203DAB2"],
+      shape: "diamond",
+      size: 1,
+      dep_control_pts: {"1FCF4DE8A203DAB2":[24.2,1.8,21.5,5.4]},
       id: "2116E883CDE05CF1",
       tasks: [
         {
@@ -612,13 +613,13 @@
       ],
     },
     {
-      x: 1.6,
-      y: 11.3,
-      dependencies: [
-        "210CDA2203AF717F",
-      ],
-      size: 1.0,
+      x: 20.6,
+      y: 3.6,
       optional: true,
+      dependencies: ["210CDA2203AF717F"],
+      shape: "diamond",
+      size: 1,
+      dep_control_pts: {"210CDA2203AF717F":[21.5,0,20.6,3.6]},
       id: "6BE4F386E0024706",
       tasks: [
         {
@@ -647,13 +648,13 @@
       ],
     },
     {
-      x: 1.6,
-      y: 18.8,
-      dependencies: [
-        "210CDA2203AF717F",
-      ],
-      size: 1.0,
+      x: 22.4,
+      y: 3.6,
       optional: true,
+      dependencies: ["210CDA2203AF717F"],
+      shape: "diamond",
+      size: 1,
+      dep_control_pts: {"210CDA2203AF717F":[21.5,0,22.4,3.6]},
       id: "6BAE519DD7E0080D",
       tasks: [
         {
@@ -682,9 +683,10 @@
       ],
     },
     {
-      x: 0.0,
-      y: 25.9,
-      size: 1.5,
+      x: 0,
+      y: 11.3,
+      shape: "gear",
+      size: 1.3,
       id: "4FBD4707B4E310A0",
       tasks: [
         {
@@ -727,13 +729,13 @@
       ],
     },
     {
-      x: 1.6,
-      y: 25.9,
-      dependencies: [
-        "4FBD4707B4E310A0",
-      ],
-      size: 1.0,
+      x: 1.8,
+      y: 8.6,
       optional: true,
+      dependencies: ["4FBD4707B4E310A0"],
+      shape: "diamond",
+      size: 1,
+      dep_control_pts: {"4FBD4707B4E310A0":[0,11.3,1.8,8.6]},
       id: "5E9FB5F59C19F603",
       tasks: [
         {
@@ -754,12 +756,12 @@
       ],
     },
     {
-      x: 1.6,
-      y: 27.4,
-      dependencies: [
-        "4FBD4707B4E310A0",
-      ],
-      size: 1.0,
+      x: 1.8,
+      y: 10.4,
+      dependencies: ["4FBD4707B4E310A0"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"4FBD4707B4E310A0":[0,11.3,1.8,10.4]},
       id: "7844229D8A5D42EB",
       tasks: [
         {
@@ -788,13 +790,13 @@
       ],
     },
     {
-      x: 3.2,
-      y: 27.4,
-      dependencies: [
-        "7844229D8A5D42EB",
-      ],
-      size: 1.0,
+      x: 5.4,
+      y: 8.6,
       optional: true,
+      dependencies: ["7844229D8A5D42EB"],
+      shape: "diamond",
+      size: 1,
+      dep_control_pts: {"7844229D8A5D42EB":[1.8,10.4,5.4,8.6]},
       id: "4A439AB2B78DB62E",
       tasks: [
         {
@@ -831,12 +833,12 @@
       ],
     },
     {
-      x: 1.6,
-      y: 24.4,
-      dependencies: [
-        "4FBD4707B4E310A0",
-      ],
-      size: 1.0,
+      x: 1.8,
+      y: 12.2,
+      dependencies: ["4FBD4707B4E310A0"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"4FBD4707B4E310A0":[0,11.3,1.8,12.2]},
       id: "6EB0DD3E87942DEF",
       tasks: [
         {
@@ -873,13 +875,13 @@
       ],
     },
     {
-      x: 3.2,
-      y: 24.4,
-      dependencies: [
-        "6EB0DD3E87942DEF",
-      ],
-      size: 1.0,
+      x: 5.4,
+      y: 10.4,
       optional: true,
+      dependencies: ["6EB0DD3E87942DEF"],
+      shape: "diamond",
+      size: 1,
+      dep_control_pts: {"6EB0DD3E87942DEF":[1.8,12.2,5.4,10.4]},
       id: "3D7B6C4B750A6D0A",
       tasks: [
         {
@@ -900,12 +902,12 @@
       ],
     },
     {
-      x: 1.6,
-      y: 28.9,
-      dependencies: [
-        "4FBD4707B4E310A0",
-      ],
-      size: 1.0,
+      x: 1.8,
+      y: 14,
+      dependencies: ["4FBD4707B4E310A0"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"4FBD4707B4E310A0":[0,11.3,1.8,14]},
       id: "050FE5C52EB9C6EA",
       tasks: [
         {
@@ -942,12 +944,12 @@
       ],
     },
     {
-      x: 1.6,
-      y: 22.9,
-      dependencies: [
-        "4FBD4707B4E310A0",
-      ],
-      size: 1.0,
+      x: 3.6,
+      y: 11.3,
+      dependencies: ["4FBD4707B4E310A0"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"4FBD4707B4E310A0":[0,11.3,3.6,11.3]},
       id: "5AD446E5EF047437",
       tasks: [
         {
@@ -976,12 +978,12 @@
       ],
     },
     {
-      x: 3.2,
-      y: 22.9,
-      dependencies: [
-        "5AD446E5EF047437",
-      ],
-      size: 1.0,
+      x: 5.4,
+      y: 12.2,
+      dependencies: ["5AD446E5EF047437"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"5AD446E5EF047437":[3.6,11.3,5.4,12.2]},
       id: "329DB96676A4E45C",
       tasks: [
         {
@@ -1010,12 +1012,12 @@
       ],
     },
     {
-      x: 3.2,
-      y: 21.4,
-      dependencies: [
-        "5AD446E5EF047437",
-      ],
-      size: 1.0,
+      x: 5.4,
+      y: 14,
+      dependencies: ["5AD446E5EF047437"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"5AD446E5EF047437":[3.6,11.3,5.4,14]},
       id: "5AA8D243918546FA",
       tasks: [
         {
@@ -1044,9 +1046,10 @@
       ],
     },
     {
-      x: 0.0,
-      y: 33.25,
-      size: 1.5,
+      x: 13.4,
+      y: 11.3,
+      shape: "gear",
+      size: 1.3,
       id: "20A049CDBF046E7F",
       tasks: [
         {
@@ -1073,13 +1076,13 @@
       ],
     },
     {
-      x: 1.6,
-      y: 33.25,
-      dependencies: [
-        "20A049CDBF046E7F",
-      ],
-      size: 1.0,
+      x: 15.2,
+      y: 10.4,
       optional: true,
+      dependencies: ["20A049CDBF046E7F"],
+      shape: "diamond",
+      size: 1,
+      dep_control_pts: {"20A049CDBF046E7F":[13.4,11.3,15.2,10.4]},
       id: "3429737B24B948FA",
       tasks: [
         {
@@ -1116,12 +1119,12 @@
       ],
     },
     {
-      x: 1.6,
-      y: 34.75,
-      dependencies: [
-        "20A049CDBF046E7F",
-      ],
-      size: 1.0,
+      x: 15.2,
+      y: 12.2,
+      dependencies: ["20A049CDBF046E7F"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"20A049CDBF046E7F":[13.4,11.3,15.2,12.2]},
       id: "29DC83467A6DBE74",
       tasks: [
         {
@@ -1158,12 +1161,12 @@
       ],
     },
     {
-      x: 3.2,
-      y: 34.75,
-      dependencies: [
-        "29DC83467A6DBE74",
-      ],
-      size: 1.0,
+      x: 17,
+      y: 8.6,
+      dependencies: ["29DC83467A6DBE74"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"29DC83467A6DBE74":[15.2,12.2,17,8.6]},
       id: "749A1AC899B0777E",
       tasks: [
         {
@@ -1184,13 +1187,13 @@
       ],
     },
     {
-      x: 3.2,
-      y: 36.25,
-      dependencies: [
-        "29DC83467A6DBE74",
-      ],
-      size: 1.0,
+      x: 17,
+      y: 10.4,
       optional: true,
+      dependencies: ["29DC83467A6DBE74"],
+      shape: "diamond",
+      size: 1,
+      dep_control_pts: {"29DC83467A6DBE74":[15.2,12.2,17,10.4]},
       id: "368F6BF38C06E515",
       tasks: [
         {
@@ -1227,13 +1230,13 @@
       ],
     },
     {
-      x: 3.2,
-      y: 33.25,
-      dependencies: [
-        "29DC83467A6DBE74",
-      ],
-      size: 1.0,
+      x: 17,
+      y: 12.2,
       optional: true,
+      dependencies: ["29DC83467A6DBE74"],
+      shape: "diamond",
+      size: 1,
+      dep_control_pts: {"29DC83467A6DBE74":[15.2,12.2,17,12.2]},
       id: "5313D4FFAE371510",
       tasks: [
         {
@@ -1258,20 +1261,13 @@
         id: "mcwroofs:oak_roof",
         count: 1,
       },
-      x: 3.2,
-      y: 31.75,
-      shape: "hexagon",
-      dependencies: [
-        "210CDA2203AF717F",
-        "4FBD4707B4E310A0",
-        "7844229D8A5D42EB",
-        "6EB0DD3E87942DEF",
-        "050FE5C52EB9C6EA",
-        "20A049CDBF046E7F",
-        "29DC83467A6DBE74",
-        "13F33C12A0BE613C",
-      ],
-      size: 1.5,
+      x: 17,
+      y: 14,
+      dependencies: ["210CDA2203AF717F","4FBD4707B4E310A0","7844229D8A5D42EB","6EB0DD3E87942DEF","050FE5C52EB9C6EA","20A049CDBF046E7F","29DC83467A6DBE74","13F33C12A0BE613C"],
+      hide_dependency_lines: true,
+      shape: "gear",
+      size: 1.3,
+      dep_control_pts: {"210CDA2203AF717F":[21.5,0,17,14],"4FBD4707B4E310A0":[0,11.3,17,14],"7844229D8A5D42EB":[1.8,10.4,17,14],"6EB0DD3E87942DEF":[1.8,12.2,17,14],"050FE5C52EB9C6EA":[1.8,14,17,14],"20A049CDBF046E7F":[13.4,11.3,17,14],"29DC83467A6DBE74":[15.2,12.2,17,14],"13F33C12A0BE613C":[3.6,3.6,17,14]},
       id: "38E73FB59EAE4C4C",
       tasks: [
         {
@@ -1297,50 +1293,65 @@
   quest_links: [
   ],
   images: [
-    {
-      x: 5.4,
-      y: -1.5188,
-      width: 12.0,
-      height: 1.4375,
-      rotation: 0.0,
-      image: "gspack:textures/quests/building_header.png",
-      id: "196BB95A889E0019",
-    },
-    {
-      x: 1.4647,
-      y: 10.1,
-      width: 4.1294,
-      height: 0.6,
-      rotation: 0.0,
-      image: "gspack:textures/quests/building_furniture.png",
-      id: "7E54467FA5BA8FF3",
-    },
-    {
-      x: 0.6176,
-      y: 20.2,
-      width: 2.4353,
-      height: 0.6,
-      rotation: 0.0,
-      image: "gspack:textures/quests/building_roofs.png",
-      id: "40BE86AF332D5328",
-    },
-    {
-      x: 0.7588,
-      y: 30.3,
-      width: 2.7176,
-      height: 0.6,
-      rotation: 0.0,
-      image: "gspack:textures/quests/building_chisel.png",
-      id: "1185CCBAFE6D02D6",
-    },
-    {
-      x: 0.7588,
-      y: 0.0,
-      width: 2.7176,
-      height: 0.6,
-      rotation: 0.0,
-      image: "gspack:textures/quests/building_start.png",
-      id: "2F7AB5A9811CDBB3",
-    },
-  ],
+  {
+    "x": 12.1,
+    "y": -1.7188,
+    "width": 12,
+    "height": 1.4375,
+    "rotation": 0,
+    "image": "gspack:textures/quests/building_header.png",
+    "color": 16777215,
+    "alpha": 255,
+    "order": 0,
+    "corner": false
+  },
+  {
+    "x": -2.2588,
+    "y": 2.7,
+    "width": 2.7176,
+    "height": 0.6,
+    "rotation": 0,
+    "image": "gspack:textures/quests/building_start.png",
+    "color": 16777215,
+    "alpha": 255,
+    "order": 0,
+    "corner": false
+  },
+  {
+    "x": -2.1176,
+    "y": 11.3,
+    "width": 2.4353,
+    "height": 0.6,
+    "rotation": 0,
+    "image": "gspack:textures/quests/building_roofs.png",
+    "color": 16777215,
+    "alpha": 255,
+    "order": 0,
+    "corner": false
+  },
+  {
+    "x": 15.8353,
+    "y": 0,
+    "width": 4.1294,
+    "height": 0.6,
+    "rotation": 0,
+    "image": "gspack:textures/quests/building_furniture.png",
+    "color": 16777215,
+    "alpha": 255,
+    "order": 0,
+    "corner": false
+  },
+  {
+    "x": 11.1412,
+    "y": 11.3,
+    "width": 2.7176,
+    "height": 0.6,
+    "rotation": 0,
+    "image": "gspack:textures/quests/building_chisel.png",
+    "color": 16777215,
+    "alpha": 255,
+    "order": 0,
+    "corner": false
+  }
+],
 }

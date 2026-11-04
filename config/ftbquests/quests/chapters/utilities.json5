@@ -1,441 +1,978 @@
 {
   id: "1B5325199F5DF69B",
   group: "105EE503AFE85CA5",
-  order_index: 6,
+  order_index: 27,
   icon: {
-    id: "tiab:time_in_a_bottle",
     count: 1,
+    id: "tiab:time_in_a_bottle"
   },
   filename: "utilities",
   default_quest_shape: "",
-  default_hide_dependency_lines: true,
+  default_hide_dependency_lines: false,
   quests: [
     {
-      x: 0.0,
-      y: 1.45,
+      id: "7C6E5C284CA0D71D",
+      x: 0,
+      y: 0,
+      shape: "hexagon",
+      size: 1.15,
+      icon: {
+        count: 1,
+        id: "minecraft:compass"
+      },
+      tasks: [
+        {
+          id: "4D89FB84995282B0",
+          type: "checkmark"
+        }
+      ],
+      rewards: [
+        {
+          id: "001E6C411080A35A",
+          type: "xp",
+          xp: 25
+        }
+      ]
+    },
+    {
+      x: 8,
+      y: 0,
       shape: "gear",
-      size: 1.5,
+      size: 1.3,
       id: "3D177CE1CBDB868D",
       tasks: [
         {
           id: "1ABDA333C15C9B2A",
           type: "item",
           item: {
-            id: "tiab:time_in_a_bottle",
             count: 1,
-          },
-        },
+            id: "tiab:time_in_a_bottle"
+          }
+        }
       ],
       rewards: [
         {
           id: "798790F2EFBAD201",
           type: "xp",
-          xp: 100,
+          xp: 100
         },
         {
           id: "3AC9362E31B538EF",
           type: "random",
           exclude_from_claim_all: true,
-          table_id: 253752461985528,
-        },
+          table_id: 253752461985528
+        }
       ],
+      dependencies: [
+        "7C6E5C284CA0D71D"
+      ],
+      hide_dependency_lines: true,
+      dep_control_pts: {
+        "7C6E5C284CA0D71D": [
+          0,
+          0,
+          8,
+          0
+        ]
+      }
     },
     {
-      x: 1.6,
-      y: 1.45,
+      x: 16,
+      y: 0,
       dependencies: [
-        "3D177CE1CBDB868D",
+        "7C6E5C284CA0D71D"
       ],
-      size: 1.0,
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {
+        "7C6E5C284CA0D71D": [
+          0,
+          0,
+          16,
+          0
+        ]
+      },
       id: "0E24C360BA8E0959",
       tasks: [
         {
           id: "6A757A05596B3D5F",
           type: "item",
           item: {
-            id: "energymeter:meter",
             count: 1,
-          },
-        },
+            id: "energymeter:meter"
+          }
+        }
       ],
       rewards: [
         {
           id: "113033021D1AEB56",
           type: "xp",
-          xp: 50,
-        },
+          xp: 50
+        }
       ],
+      hide_dependency_lines: true
     },
     {
-      x: 0.0,
-      y: 5.55,
+      x: 24,
+      y: 1.8,
       dependencies: [
-        "3D177CE1CBDB868D",
+        "7C6E5C284CA0D71D"
       ],
-      size: 1.0,
+      hide_dependency_lines: true,
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {
+        "7C6E5C284CA0D71D": [
+          0,
+          0,
+          24,
+          1.8
+        ]
+      },
       id: "53E5DE25C3C13AF4",
       tasks: [
         {
           id: "1FB768134F987EDD",
           type: "item",
           item: {
-            id: "pylons:harvester_pylon",
             count: 1,
-          },
-        },
+            id: "pylons:harvester_pylon"
+          }
+        }
       ],
       rewards: [
         {
           id: "032CEE5BE8C9CF39",
           type: "xp",
-          xp: 100,
+          xp: 100
         },
         {
           id: "425C1CE356A37EC0",
           type: "random",
           exclude_from_claim_all: true,
-          table_id: 2612120196957929,
-        },
-      ],
+          table_id: 2612120196957929
+        }
+      ]
     },
     {
-      x: 1.6,
-      y: 5.55,
+      x: 25.8,
+      y: 0,
       dependencies: [
-        "53E5DE25C3C13AF4",
+        "53E5DE25C3C13AF4"
       ],
-      size: 1.0,
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {
+        "53E5DE25C3C13AF4": [
+          24,
+          1.8,
+          25.8,
+          0
+        ]
+      },
       id: "3A35AC0EF4533DFC",
       tasks: [
         {
           id: "529D9A31E61D436A",
           type: "item",
           item: {
-            id: "pylons:infusion_pylon",
             count: 1,
-          },
+            id: "pylons:infusion_pylon"
+          }
         },
         {
           id: "649A6648100DCA60",
           type: "item",
           item: {
-            id: "pylons:potion_filter",
             count: 1,
-          },
-        },
+            id: "pylons:potion_filter"
+          }
+        }
       ],
       rewards: [
         {
           id: "5DC3C4D2D1FC1759",
           type: "xp",
-          xp: 150,
+          xp: 150
         },
         {
           id: "64E0941675EA81C4",
           type: "random",
           exclude_from_claim_all: true,
-          table_id: 2210856162803377,
-        },
-      ],
+          table_id: 2210856162803377
+        }
+      ]
     },
     {
-      x: 1.6,
-      y: 7.05,
+      x: 25.8,
+      y: 1.8,
       dependencies: [
-        "53E5DE25C3C13AF4",
+        "53E5DE25C3C13AF4"
       ],
-      size: 1.0,
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {
+        "53E5DE25C3C13AF4": [
+          24,
+          1.8,
+          25.8,
+          1.8
+        ]
+      },
       id: "2AF8B32888E5DE80",
       tasks: [
         {
           id: "7DCCA325CECFE40A",
           type: "item",
           item: {
-            id: "pylons:interdiction_pylon",
             count: 1,
-          },
+            id: "pylons:interdiction_pylon"
+          }
         },
         {
           id: "4C2D3DD96C8D946A",
           type: "item",
           item: {
-            id: "pylons:mob_filter",
             count: 1,
-          },
-        },
+            id: "pylons:mob_filter"
+          }
+        }
       ],
       rewards: [
         {
           id: "72DF14A7DEE77D8B",
           type: "xp",
-          xp: 100,
-        },
-      ],
+          xp: 100
+        }
+      ]
     },
     {
-      x: 1.6,
-      y: 4.05,
-      dependencies: [
-        "53E5DE25C3C13AF4",
-      ],
-      size: 1.0,
+      x: 25.8,
+      y: 3.6,
       optional: true,
+      dependencies: [
+        "53E5DE25C3C13AF4"
+      ],
+      shape: "diamond",
+      size: 1,
+      dep_control_pts: {
+        "53E5DE25C3C13AF4": [
+          24,
+          1.8,
+          25.8,
+          3.6
+        ]
+      },
       id: "10841485D64ACACB",
       tasks: [
         {
           id: "096ECE15B438EFE7",
           type: "item",
           item: {
-            id: "pylons:expulsion_pylon",
             count: 1,
-          },
-        },
+            id: "pylons:expulsion_pylon"
+          }
+        }
       ],
       rewards: [
         {
           id: "5EFDBD9F3ECDFA9E",
           type: "xp",
-          xp: 100,
-        },
-      ],
+          xp: 100
+        }
+      ]
     },
     {
-      x: 0.0,
-      y: 9.65,
+      x: 0.9,
+      y: 6.8,
       dependencies: [
-        "3D177CE1CBDB868D",
+        "7C6E5C284CA0D71D"
       ],
-      size: 1.0,
+      hide_dependency_lines: true,
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {
+        "7C6E5C284CA0D71D": [
+          0,
+          0,
+          0.9,
+          6.8
+        ]
+      },
       id: "629FD5D7AC2CDFCE",
       tasks: [
         {
           id: "6B3428A510D987A5",
           type: "item",
           item: {
-            id: "darkutils:vector_plate",
             count: 1,
+            id: "darkutils:vector_plate"
           },
-          count: 4,
-        },
+          count: 4
+        }
       ],
       rewards: [
         {
           id: "380B0A946EC3D102",
           type: "xp",
-          xp: 50,
-        },
-      ],
+          xp: 50
+        }
+      ]
     },
     {
-      x: 1.6,
-      y: 9.65,
+      x: 0,
+      y: 8.6,
       dependencies: [
-        "629FD5D7AC2CDFCE",
+        "629FD5D7AC2CDFCE"
       ],
-      size: 1.0,
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {
+        "629FD5D7AC2CDFCE": [
+          0.9,
+          6.8,
+          0,
+          8.6
+        ]
+      },
       id: "65C23ADB283C3A5F",
       tasks: [
         {
           id: "0849F7075185F651",
           type: "item",
           item: {
-            id: "darkutils:damage_plate",
             count: 1,
+            id: "darkutils:damage_plate"
           },
-          count: 4,
-        },
+          count: 4
+        }
       ],
       rewards: [
         {
           id: "54C91B9AD64AC813",
           type: "xp",
-          xp: 75,
-        },
-      ],
+          xp: 75
+        }
+      ]
     },
     {
-      x: 1.6,
-      y: 11.15,
+      x: 1.8,
+      y: 8.6,
       dependencies: [
-        "629FD5D7AC2CDFCE",
+        "629FD5D7AC2CDFCE"
       ],
-      size: 1.0,
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {
+        "629FD5D7AC2CDFCE": [
+          0.9,
+          6.8,
+          1.8,
+          8.6
+        ]
+      },
       id: "52FB051146A3A00A",
       tasks: [
         {
           id: "77FAEFF87A7F1080",
           type: "item",
           item: {
-            id: "darkutils:filter_hostile",
             count: 1,
-          },
+            id: "darkutils:filter_hostile"
+          }
         },
         {
           id: "11D72AC8ABB2BB01",
           type: "item",
           item: {
-            id: "darkutils:filter_player",
             count: 1,
-          },
-        },
+            id: "darkutils:filter_player"
+          }
+        }
       ],
       rewards: [
         {
           id: "21CF1FBFCADCC1B5",
           type: "xp",
-          xp: 75,
-        },
-      ],
+          xp: 75
+        }
+      ]
     },
     {
-      x: 0.0,
-      y: 13.75,
+      x: 9.8,
+      y: 6.8,
       dependencies: [
-        "3D177CE1CBDB868D",
+        "7C6E5C284CA0D71D"
       ],
-      size: 1.0,
+      hide_dependency_lines: true,
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {
+        "7C6E5C284CA0D71D": [
+          0,
+          0,
+          9.8,
+          6.8
+        ]
+      },
       id: "42EC01623F5CD38F",
       tasks: [
         {
           id: "1D8A56FEA4F3A114",
           type: "item",
           item: {
-            id: "potionsmaster:tile_mortar",
             count: 1,
-          },
+            id: "potionsmaster:tile_mortar"
+          }
         },
         {
           id: "19FBF0B1310F353C",
           type: "item",
           item: {
-            id: "potionsmaster:pestle",
             count: 1,
-          },
-        },
+            id: "potionsmaster:pestle"
+          }
+        }
       ],
       rewards: [
         {
           id: "61C5B9E6F4C84CC9",
           type: "xp",
-          xp: 50,
-        },
-      ],
+          xp: 50
+        }
+      ]
     },
     {
-      x: 1.6,
-      y: 13.75,
+      x: 11.6,
+      y: 6.8,
       dependencies: [
-        "42EC01623F5CD38F",
+        "42EC01623F5CD38F"
       ],
-      size: 1.0,
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {
+        "42EC01623F5CD38F": [
+          9.8,
+          6.8,
+          11.6,
+          6.8
+        ]
+      },
       id: "57DD43F5649658D9",
       tasks: [
         {
           id: "1757F0E84995E1D2",
           type: "item",
           item: {
-            id: "potionsmaster:bezoar",
             count: 1,
-          },
+            id: "potionsmaster:bezoar"
+          }
         },
         {
           id: "05465203B66FAF6C",
           type: "item",
           item: {
-            id: "potionsmaster:activated_charcoal",
             count: 1,
-          },
-        },
+            id: "potionsmaster:activated_charcoal"
+          }
+        }
       ],
       rewards: [
         {
           id: "708AD9C1E6CE1758",
           type: "xp",
-          xp: 100,
+          xp: 100
         },
         {
           id: "280CDDF6188E99C2",
           type: "random",
           exclude_from_claim_all: true,
-          table_id: 253752461985528,
-        },
-      ],
+          table_id: 253752461985528
+        }
+      ]
     },
     {
-      x: 3.2,
-      y: 13.75,
-      dependencies: [
-        "57DD43F5649658D9",
-      ],
-      size: 1.0,
+      x: 13.4,
+      y: 6.8,
       optional: true,
+      dependencies: [
+        "57DD43F5649658D9"
+      ],
+      shape: "diamond",
+      size: 1,
+      dep_control_pts: {
+        "57DD43F5649658D9": [
+          11.6,
+          6.8,
+          13.4,
+          6.8
+        ]
+      },
       id: "7ABCBD303EE6B887",
       tasks: [
         {
           id: "4175053FE6CEBE0C",
           type: "item",
           item: {
-            id: "potionsmaster:gallbladder",
             count: 1,
-          },
-        },
+            id: "potionsmaster:gallbladder"
+          }
+        }
       ],
       rewards: [
         {
           id: "744863C5D3E5E419",
           type: "xp",
-          xp: 75,
-        },
-      ],
+          xp: 75
+        }
+      ]
     },
+    {
+      id: "185E28D798700312",
+      x: 21.4,
+      y: 6.8,
+      shape: "circle",
+      size: 1,
+      dependencies: [
+        "7C6E5C284CA0D71D"
+      ],
+      hide_dependency_lines: true,
+      dep_control_pts: {
+        "7C6E5C284CA0D71D": [
+          0,
+          0,
+          21.4,
+          6.8
+        ]
+      },
+      tasks: [
+        {
+          id: "23EFC5618DCC82C7",
+          type: "item",
+          item: {
+            count: 1,
+            id: "naturescompass:naturescompass"
+          }
+        }
+      ],
+      rewards: [
+        {
+          id: "30594611181E5224",
+          type: "xp",
+          xp: 50
+        }
+      ]
+    },
+    {
+      id: "5DD103A7CDC82B09",
+      x: 23.2,
+      y: 6.8,
+      shape: "diamond",
+      size: 1,
+      dependencies: [
+        "185E28D798700312"
+      ],
+      optional: true,
+      dep_control_pts: {
+        "185E28D798700312": [
+          21.4,
+          6.8,
+          23.2,
+          6.8
+        ]
+      },
+      tasks: [
+        {
+          id: "4137D486E232BD45",
+          type: "item",
+          item: {
+            count: 1,
+            id: "explorerscompass:explorerscompass"
+          }
+        }
+      ],
+      rewards: [
+        {
+          id: "4463D6E26A4BEB5E",
+          type: "xp",
+          xp: 50
+        }
+      ]
+    },
+    {
+      id: "0B3E76526D3BE0E7",
+      x: 1.8,
+      y: 11.8,
+      shape: "circle",
+      size: 1,
+      dependencies: [
+        "7C6E5C284CA0D71D"
+      ],
+      hide_dependency_lines: true,
+      dep_control_pts: {
+        "7C6E5C284CA0D71D": [
+          0,
+          0,
+          1.8,
+          11.8
+        ]
+      },
+      tasks: [
+        {
+          id: "06ACFC7DB3C4DF49",
+          type: "item",
+          item: {
+            count: 1,
+            id: "waystones:andesite_waystone"
+          }
+        }
+      ],
+      rewards: [
+        {
+          id: "2F4476A562722FD1",
+          type: "xp",
+          xp: 50
+        }
+      ]
+    },
+    {
+      id: "7046EB35C132E52D",
+      x: 0,
+      y: 13.6,
+      shape: "circle",
+      size: 1,
+      dependencies: [
+        "0B3E76526D3BE0E7"
+      ],
+      dep_control_pts: {
+        "0B3E76526D3BE0E7": [
+          1.8,
+          11.8,
+          0,
+          13.6
+        ]
+      },
+      tasks: [
+        {
+          id: "503E64F19B4225D7",
+          type: "item",
+          item: {
+            count: 1,
+            id: "waystones:warp_stone"
+          }
+        }
+      ],
+      rewards: [
+        {
+          id: "47A2ACD5D095D692",
+          type: "xp",
+          xp: 50
+        }
+      ]
+    },
+    {
+      id: "658779EF257E2DFE",
+      x: 1.8,
+      y: 13.6,
+      shape: "diamond",
+      size: 1,
+      dependencies: [
+        "0B3E76526D3BE0E7"
+      ],
+      optional: true,
+      dep_control_pts: {
+        "0B3E76526D3BE0E7": [
+          1.8,
+          11.8,
+          1.8,
+          13.6
+        ]
+      },
+      tasks: [
+        {
+          id: "6F4D07B56E0BBB25",
+          type: "item",
+          item: {
+            count: 1,
+            id: "waystones:warp_scroll"
+          },
+          count: 3
+        }
+      ],
+      rewards: [
+        {
+          id: "6446B298566A1727",
+          type: "xp",
+          xp: 50
+        }
+      ]
+    },
+    {
+      id: "047D97ABCD382742",
+      x: 3.6,
+      y: 13.6,
+      shape: "diamond",
+      size: 1,
+      dependencies: [
+        "0B3E76526D3BE0E7"
+      ],
+      optional: true,
+      dep_control_pts: {
+        "0B3E76526D3BE0E7": [
+          1.8,
+          11.8,
+          3.6,
+          13.6
+        ]
+      },
+      tasks: [
+        {
+          id: "6F6CBB901B4D701C",
+          type: "item",
+          item: {
+            count: 1,
+            id: "waystones:warp_plate"
+          }
+        }
+      ],
+      rewards: [
+        {
+          id: "61753804A50903A4",
+          type: "xp",
+          xp: 50
+        }
+      ]
+    },
+    {
+      id: "4B3AF5099289F412",
+      x: 11.6,
+      y: 12.7,
+      shape: "circle",
+      size: 1,
+      dependencies: [
+        "7C6E5C284CA0D71D"
+      ],
+      hide_dependency_lines: true,
+      dep_control_pts: {
+        "7C6E5C284CA0D71D": [
+          0,
+          0,
+          11.6,
+          12.7
+        ]
+      },
+      tasks: [
+        {
+          id: "50B782B1161AD165",
+          type: "item",
+          item: {
+            count: 1,
+            id: "simplemagnets:basicmagnet"
+          }
+        }
+      ],
+      rewards: [
+        {
+          id: "2F1EDC8E4C5D61E3",
+          type: "xp",
+          xp: 50
+        }
+      ]
+    },
+    {
+      id: "2D43FF83623D498B",
+      x: 13.4,
+      y: 11.8,
+      shape: "circle",
+      size: 1,
+      dependencies: [
+        "4B3AF5099289F412"
+      ],
+      dep_control_pts: {
+        "4B3AF5099289F412": [
+          11.6,
+          12.7,
+          13.4,
+          11.8
+        ]
+      },
+      tasks: [
+        {
+          id: "02865E6E97638E92",
+          type: "item",
+          item: {
+            count: 1,
+            id: "simplemagnets:advancedmagnet"
+          }
+        }
+      ],
+      rewards: [
+        {
+          id: "6CA76201385CF9A7",
+          type: "xp",
+          xp: 50
+        }
+      ]
+    },
+    {
+      id: "65A4C12174654ACD",
+      x: 13.4,
+      y: 13.6,
+      shape: "diamond",
+      size: 1,
+      dependencies: [
+        "4B3AF5099289F412"
+      ],
+      optional: true,
+      dep_control_pts: {
+        "4B3AF5099289F412": [
+          11.6,
+          12.7,
+          13.4,
+          13.6
+        ]
+      },
+      tasks: [
+        {
+          id: "0AA869B20DDFF1E4",
+          type: "item",
+          item: {
+            count: 1,
+            id: "simplemagnets:basic_demagnetization_coil"
+          }
+        }
+      ],
+      rewards: [
+        {
+          id: "30BCEB1933E84D06",
+          type: "xp",
+          xp: 50
+        }
+      ]
+    }
   ],
-  quest_links: [
-  ],
+  quest_links: [],
   images: [
     {
-      x: 5.4,
-      y: -1.5188,
-      width: 12.0,
+      x: 12.9,
+      y: -1.7188,
+      width: 12,
       height: 1.4375,
-      rotation: 0.0,
+      rotation: 0,
       image: "gspack:textures/quests/utilities_header.png",
-      id: "7999B97F1CCCB182",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false
     },
     {
-      x: 0.3353,
-      y: 2.85,
-      width: 1.8706,
-      height: 0.6,
-      rotation: 0.0,
-      image: "gspack:textures/quests/utilities_harvester.png",
-      id: "79030F160747A86B",
-    },
-    {
-      x: 1.1471,
-      y: 12.55,
+      x: 7.1529,
+      y: 6.8,
       width: 3.4941,
       height: 0.6,
-      rotation: 0.0,
+      rotation: 0,
       image: "gspack:textures/quests/utilities_pm_mortar.png",
-      id: "3F64AD3793C11687",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false
     },
     {
-      x: 0.4941,
-      y: 0.0,
-      width: 2.1882,
+      x: 13.5118,
+      y: 0,
+      width: 3.1765,
       height: 0.6,
-      rotation: 0.0,
-      image: "gspack:textures/quests/utilities_tiab.png",
-      id: "4759EFEC31BFC2FB",
+      rotation: 0,
+      image: "gspack:textures/quests/utilities_energy_meter.png",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false
     },
     {
-      x: 0.9706,
-      y: 8.45,
+      x: -2.4706,
+      y: 6.8,
       width: 3.1412,
       height: 0.6,
-      rotation: 0.0,
+      rotation: 0,
       image: "gspack:textures/quests/utilities_vector.png",
-      id: "4F73E3933E5F642C",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false
     },
+    {
+      x: -3.0706,
+      y: 0,
+      width: 4.3412,
+      height: 0.6,
+      rotation: 0,
+      image: "gspack:textures/quests/utilities_start.png",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false
+    },
+    {
+      x: 8.8647,
+      y: 12.7,
+      width: 3.6706,
+      height: 0.6,
+      rotation: 0,
+      image: "gspack:textures/quests/utilities_magnet.png",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false
+    },
+    {
+      x: 5.2647,
+      y: 0,
+      width: 3.6706,
+      height: 0.6,
+      rotation: 0,
+      image: "gspack:textures/quests/utilities_tiab.png",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false
+    },
+    {
+      x: 22.1647,
+      y: 1.8,
+      width: 1.8706,
+      height: 0.6,
+      rotation: 0,
+      image: "gspack:textures/quests/utilities_harvester.png",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false
+    },
+    {
+      x: -2.2588,
+      y: 11.8,
+      width: 2.7176,
+      height: 0.6,
+      rotation: 0,
+      image: "gspack:textures/quests/utilities_waystone.png",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false
+    },
+    {
+      x: 19.1235,
+      y: 6.8,
+      width: 2.7529,
+      height: 0.6,
+      rotation: 0,
+      image: "gspack:textures/quests/utilities_compass.png",
+      color: 16777215,
+      alpha: 255,
+      order: 0,
+      corner: false
+    }
   ],
+  autofocus_id: ""
 }

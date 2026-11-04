@@ -11,10 +11,11 @@
   default_hide_dependency_lines: true,
   quests: [
     {
+      shape: "gear",
+      size: 1.3,
       x: 1.5,
       y: -2.4,
-      shape: "gear",
-      size: 2.0,
+      hide_dependency_lines: true,
       id: "56401BF53CAB4362",
       tasks: [
         {
@@ -39,14 +40,12 @@
         id: "mysticalagriculture:air_seeds",
         count: 1,
       },
-      x: 0.0,
-      y: 0.0,
-      shape: "hexagon",
-      dependencies: [
-        "56401BF53CAB4362",
-        "726606855F33F1C5",
-      ],
-      size: 1.0,
+      shape: "circle",
+      size: 1,
+      x: 0,
+      y: 0,
+      dependencies: ["56401BF53CAB4362"],
+      hide_dependency_lines: true,
       id: "14346930C7CA5ECB",
       tasks: [
         {
@@ -63,12 +62,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 1.5,
-      y: 0.0,
-      dependencies: [
-        "14346930C7CA5ECB",
-      ],
-      size: 1.0,
+      y: 0,
+      dependencies: ["14346930C7CA5ECB"],
+      hide_dependency_lines: true,
       id: "2CDE70764C9B55CD",
       tasks: [
         {
@@ -95,12 +94,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 2.6,
-      y: 0.0,
-      dependencies: [
-        "14346930C7CA5ECB",
-      ],
-      size: 1.0,
+      y: 0,
+      dependencies: ["14346930C7CA5ECB"],
+      hide_dependency_lines: true,
       id: "0E034058582DFBD7",
       tasks: [
         {
@@ -127,12 +126,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 3.7,
-      y: 0.0,
-      dependencies: [
-        "14346930C7CA5ECB",
-      ],
-      size: 1.0,
+      y: 0,
+      dependencies: ["14346930C7CA5ECB"],
+      hide_dependency_lines: true,
       id: "0356A4FB187CD379",
       tasks: [
         {
@@ -159,12 +158,12 @@
       ],
     },
     {
-      x: 4.8,
-      y: 0.0,
-      dependencies: [
-        "14346930C7CA5ECB",
-      ],
-      size: 1.0,
+      shape: "circle",
+      size: 1,
+      x: 4.800000000000001,
+      y: 0,
+      dependencies: ["14346930C7CA5ECB"],
+      hide_dependency_lines: true,
       id: "76773FFE4EE5C93C",
       tasks: [
         {
@@ -195,14 +194,12 @@
         id: "mysticalagriculture:stone_seeds",
         count: 1,
       },
-      x: 0.0,
+      shape: "circle",
+      size: 1,
+      x: 0,
       y: 1.5,
-      shape: "hexagon",
-      dependencies: [
-        "56401BF53CAB4362",
-        "726606855F33F1C5",
-      ],
-      size: 1.0,
+      dependencies: ["56401BF53CAB4362"],
+      hide_dependency_lines: true,
       id: "15DC6480A1C89EE7",
       tasks: [
         {
@@ -219,12 +216,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 1.5,
       y: 1.5,
-      dependencies: [
-        "15DC6480A1C89EE7",
-      ],
-      size: 1.0,
+      dependencies: ["15DC6480A1C89EE7"],
+      hide_dependency_lines: true,
       id: "7796912DDD547CD8",
       tasks: [
         {
@@ -251,12 +248,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 2.6,
       y: 1.5,
-      dependencies: [
-        "15DC6480A1C89EE7",
-      ],
-      size: 1.0,
+      dependencies: ["15DC6480A1C89EE7"],
+      hide_dependency_lines: true,
       id: "567D5D18E28F4887",
       tasks: [
         {
@@ -283,12 +280,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 3.7,
       y: 1.5,
-      dependencies: [
-        "15DC6480A1C89EE7",
-      ],
-      size: 1.0,
+      dependencies: ["15DC6480A1C89EE7"],
+      hide_dependency_lines: true,
       id: "57AEDF3D2E0261DF",
       tasks: [
         {
@@ -315,12 +312,12 @@
       ],
     },
     {
-      x: 4.8,
+      shape: "circle",
+      size: 1,
+      x: 4.800000000000001,
       y: 1.5,
-      dependencies: [
-        "15DC6480A1C89EE7",
-      ],
-      size: 1.0,
+      dependencies: ["15DC6480A1C89EE7"],
+      hide_dependency_lines: true,
       id: "3A84F0B8BE5EEBE0",
       tasks: [
         {
@@ -347,12 +344,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 5.9,
       y: 1.5,
-      dependencies: [
-        "15DC6480A1C89EE7",
-      ],
-      size: 1.0,
+      dependencies: ["15DC6480A1C89EE7"],
+      hide_dependency_lines: true,
       id: "7513123FC86F57EF",
       tasks: [
         {
@@ -383,14 +380,12 @@
         id: "mysticalagriculture:nature_seeds",
         count: 1,
       },
-      x: 0.0,
-      y: 3.0,
-      shape: "hexagon",
-      dependencies: [
-        "56401BF53CAB4362",
-        "1FEB4BB346895D4B",
-      ],
-      size: 1.0,
+      shape: "circle",
+      size: 1,
+      x: 0,
+      y: 3,
+      dependencies: ["56401BF53CAB4362"],
+      hide_dependency_lines: true,
       id: "311B35EEFBCAD935",
       tasks: [
         {
@@ -407,12 +402,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 1.5,
-      y: 3.0,
-      dependencies: [
-        "311B35EEFBCAD935",
-      ],
-      size: 1.0,
+      y: 3,
+      dependencies: ["311B35EEFBCAD935"],
+      hide_dependency_lines: true,
       id: "464FA88F62177BC4",
       tasks: [
         {
@@ -439,12 +434,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 2.6,
-      y: 3.0,
-      dependencies: [
-        "311B35EEFBCAD935",
-      ],
-      size: 1.0,
+      y: 3,
+      dependencies: ["311B35EEFBCAD935"],
+      hide_dependency_lines: true,
       id: "0F3EAAADB94D9413",
       tasks: [
         {
@@ -471,12 +466,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 3.7,
-      y: 3.0,
-      dependencies: [
-        "311B35EEFBCAD935",
-      ],
-      size: 1.0,
+      y: 3,
+      dependencies: ["311B35EEFBCAD935"],
+      hide_dependency_lines: true,
       id: "1815C737B6FEA16E",
       tasks: [
         {
@@ -503,12 +498,12 @@
       ],
     },
     {
-      x: 4.8,
-      y: 3.0,
-      dependencies: [
-        "311B35EEFBCAD935",
-      ],
-      size: 1.0,
+      shape: "circle",
+      size: 1,
+      x: 4.800000000000001,
+      y: 3,
+      dependencies: ["311B35EEFBCAD935"],
+      hide_dependency_lines: true,
       id: "74565DFBDAF5CF24",
       tasks: [
         {
@@ -535,12 +530,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 5.9,
-      y: 3.0,
-      dependencies: [
-        "311B35EEFBCAD935",
-      ],
-      size: 1.0,
+      y: 3,
+      dependencies: ["311B35EEFBCAD935"],
+      hide_dependency_lines: true,
       id: "2A36FBD0EA04C33A",
       tasks: [
         {
@@ -567,12 +562,12 @@
       ],
     },
     {
-      x: 7.0,
-      y: 3.0,
-      dependencies: [
-        "311B35EEFBCAD935",
-      ],
-      size: 1.0,
+      shape: "circle",
+      size: 1,
+      x: 7,
+      y: 3,
+      dependencies: ["311B35EEFBCAD935"],
+      hide_dependency_lines: true,
       id: "7A92EF38E1130DB9",
       tasks: [
         {
@@ -599,12 +594,12 @@
       ],
     },
     {
-      x: 8.1,
-      y: 3.0,
-      dependencies: [
-        "311B35EEFBCAD935",
-      ],
-      size: 1.0,
+      shape: "circle",
+      size: 1,
+      x: 8.100000000000001,
+      y: 3,
+      dependencies: ["311B35EEFBCAD935"],
+      hide_dependency_lines: true,
       id: "3D6741D312CE9426",
       tasks: [
         {
@@ -635,14 +630,12 @@
         id: "mysticalagriculture:pig_seeds",
         count: 1,
       },
-      x: 0.0,
+      shape: "circle",
+      size: 1,
+      x: 0,
       y: 4.5,
-      shape: "hexagon",
-      dependencies: [
-        "56401BF53CAB4362",
-        "72BB33B7B9A9208C",
-      ],
-      size: 1.0,
+      dependencies: ["56401BF53CAB4362"],
+      hide_dependency_lines: true,
       id: "53E901B0C7957B23",
       tasks: [
         {
@@ -659,12 +652,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 1.5,
       y: 4.5,
-      dependencies: [
-        "53E901B0C7957B23",
-      ],
-      size: 1.0,
+      dependencies: ["53E901B0C7957B23"],
+      hide_dependency_lines: true,
       id: "538964600C1AB0E2",
       tasks: [
         {
@@ -691,12 +684,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 2.6,
       y: 4.5,
-      dependencies: [
-        "53E901B0C7957B23",
-      ],
-      size: 1.0,
+      dependencies: ["53E901B0C7957B23"],
+      hide_dependency_lines: true,
       id: "7F0B91669BB2D3A1",
       tasks: [
         {
@@ -723,12 +716,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 3.7,
       y: 4.5,
-      dependencies: [
-        "53E901B0C7957B23",
-      ],
-      size: 1.0,
+      dependencies: ["53E901B0C7957B23"],
+      hide_dependency_lines: true,
       id: "1BFA4348ADE76F6F",
       tasks: [
         {
@@ -755,12 +748,12 @@
       ],
     },
     {
-      x: 4.8,
+      shape: "circle",
+      size: 1,
+      x: 4.800000000000001,
       y: 4.5,
-      dependencies: [
-        "53E901B0C7957B23",
-      ],
-      size: 1.0,
+      dependencies: ["53E901B0C7957B23"],
+      hide_dependency_lines: true,
       id: "6AC749F8FF8F63C7",
       tasks: [
         {
@@ -787,12 +780,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 5.9,
       y: 4.5,
-      dependencies: [
-        "53E901B0C7957B23",
-      ],
-      size: 1.0,
+      dependencies: ["53E901B0C7957B23"],
+      hide_dependency_lines: true,
       id: "58678DBAF726A209",
       tasks: [
         {
@@ -819,12 +812,12 @@
       ],
     },
     {
-      x: 7.0,
+      shape: "circle",
+      size: 1,
+      x: 7,
       y: 4.5,
-      dependencies: [
-        "53E901B0C7957B23",
-      ],
-      size: 1.0,
+      dependencies: ["53E901B0C7957B23"],
+      hide_dependency_lines: true,
       id: "79115CCBACB579DA",
       tasks: [
         {
@@ -851,12 +844,12 @@
       ],
     },
     {
-      x: 8.1,
+      shape: "circle",
+      size: 1,
+      x: 8.100000000000001,
       y: 4.5,
-      dependencies: [
-        "53E901B0C7957B23",
-      ],
-      size: 1.0,
+      dependencies: ["53E901B0C7957B23"],
+      hide_dependency_lines: true,
       id: "012F864B4C0B8071",
       tasks: [
         {
@@ -883,12 +876,12 @@
       ],
     },
     {
-      x: 9.2,
+      shape: "circle",
+      size: 1,
+      x: 9.200000000000001,
       y: 4.5,
-      dependencies: [
-        "53E901B0C7957B23",
-      ],
-      size: 1.0,
+      dependencies: ["53E901B0C7957B23"],
+      hide_dependency_lines: true,
       id: "636721E5E9362528",
       tasks: [
         {
@@ -915,12 +908,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 10.3,
       y: 4.5,
-      dependencies: [
-        "53E901B0C7957B23",
-      ],
-      size: 1.0,
+      dependencies: ["53E901B0C7957B23"],
+      hide_dependency_lines: true,
       id: "1AA258F90600BF51",
       tasks: [
         {
@@ -947,12 +940,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 11.4,
       y: 4.5,
-      dependencies: [
-        "53E901B0C7957B23",
-      ],
-      size: 1.0,
+      dependencies: ["53E901B0C7957B23"],
+      hide_dependency_lines: true,
       id: "0CAB9D8DADCC3669",
       tasks: [
         {
@@ -979,12 +972,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 12.5,
       y: 4.5,
-      dependencies: [
-        "53E901B0C7957B23",
-      ],
-      size: 1.0,
+      dependencies: ["53E901B0C7957B23"],
+      hide_dependency_lines: true,
       id: "2E4EA70B59BC32A2",
       tasks: [
         {
@@ -1011,12 +1004,12 @@
       ],
     },
     {
-      x: 13.6,
+      shape: "circle",
+      size: 1,
+      x: 13.600000000000001,
       y: 4.5,
-      dependencies: [
-        "53E901B0C7957B23",
-      ],
-      size: 1.0,
+      dependencies: ["53E901B0C7957B23"],
+      hide_dependency_lines: true,
       id: "0186EEA0494E9E5B",
       tasks: [
         {
@@ -1043,12 +1036,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 1.5,
-      y: 6.0,
-      dependencies: [
-        "53E901B0C7957B23",
-      ],
-      size: 1.0,
+      y: 6,
+      dependencies: ["53E901B0C7957B23"],
+      hide_dependency_lines: true,
       id: "67735713814D99EB",
       tasks: [
         {
@@ -1075,12 +1068,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 2.6,
-      y: 6.0,
-      dependencies: [
-        "53E901B0C7957B23",
-      ],
-      size: 1.0,
+      y: 6,
+      dependencies: ["53E901B0C7957B23"],
+      hide_dependency_lines: true,
       id: "07B679B42357E169",
       tasks: [
         {
@@ -1107,12 +1100,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 3.7,
-      y: 6.0,
-      dependencies: [
-        "53E901B0C7957B23",
-      ],
-      size: 1.0,
+      y: 6,
+      dependencies: ["53E901B0C7957B23"],
+      hide_dependency_lines: true,
       id: "7865EA757E8C56FE",
       tasks: [
         {
@@ -1139,12 +1132,12 @@
       ],
     },
     {
-      x: 4.8,
-      y: 6.0,
-      dependencies: [
-        "53E901B0C7957B23",
-      ],
-      size: 1.0,
+      shape: "circle",
+      size: 1,
+      x: 4.800000000000001,
+      y: 6,
+      dependencies: ["53E901B0C7957B23"],
+      hide_dependency_lines: true,
       id: "4BAAD3D18022CEDE",
       tasks: [
         {
@@ -1171,12 +1164,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 5.9,
-      y: 6.0,
-      dependencies: [
-        "53E901B0C7957B23",
-      ],
-      size: 1.0,
+      y: 6,
+      dependencies: ["53E901B0C7957B23"],
+      hide_dependency_lines: true,
       id: "7D16B41B1932615C",
       tasks: [
         {
@@ -1203,12 +1196,12 @@
       ],
     },
     {
-      x: 7.0,
-      y: 6.0,
-      dependencies: [
-        "53E901B0C7957B23",
-      ],
-      size: 1.0,
+      shape: "circle",
+      size: 1,
+      x: 7,
+      y: 6,
+      dependencies: ["53E901B0C7957B23"],
+      hide_dependency_lines: true,
       id: "53C7506B6F5B36F5",
       tasks: [
         {
@@ -1235,12 +1228,12 @@
       ],
     },
     {
-      x: 8.1,
-      y: 6.0,
-      dependencies: [
-        "53E901B0C7957B23",
-      ],
-      size: 1.0,
+      shape: "circle",
+      size: 1,
+      x: 8.100000000000001,
+      y: 6,
+      dependencies: ["53E901B0C7957B23"],
+      hide_dependency_lines: true,
       id: "69F09FF74112540A",
       tasks: [
         {
@@ -1267,12 +1260,12 @@
       ],
     },
     {
-      x: 9.2,
-      y: 6.0,
-      dependencies: [
-        "53E901B0C7957B23",
-      ],
-      size: 1.0,
+      shape: "circle",
+      size: 1,
+      x: 9.200000000000001,
+      y: 6,
+      dependencies: ["53E901B0C7957B23"],
+      hide_dependency_lines: true,
       id: "205ED13FE8AB2768",
       tasks: [
         {
@@ -1303,14 +1296,12 @@
         id: "mysticalagriculture:iron_seeds",
         count: 1,
       },
-      x: 0.0,
+      shape: "circle",
+      size: 1,
+      x: 0,
       y: 7.5,
-      shape: "hexagon",
-      dependencies: [
-        "56401BF53CAB4362",
-        "17507E0C6980788A",
-      ],
-      size: 1.0,
+      dependencies: ["56401BF53CAB4362"],
+      hide_dependency_lines: true,
       id: "08C2BA2771FFBEBD",
       tasks: [
         {
@@ -1327,12 +1318,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 1.5,
       y: 7.5,
-      dependencies: [
-        "08C2BA2771FFBEBD",
-      ],
-      size: 1.0,
+      dependencies: ["08C2BA2771FFBEBD"],
+      hide_dependency_lines: true,
       id: "0DA753E9EA926C70",
       tasks: [
         {
@@ -1359,12 +1350,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 2.6,
       y: 7.5,
-      dependencies: [
-        "08C2BA2771FFBEBD",
-      ],
-      size: 1.0,
+      dependencies: ["08C2BA2771FFBEBD"],
+      hide_dependency_lines: true,
       id: "6D8A458657595719",
       tasks: [
         {
@@ -1391,12 +1382,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 3.7,
       y: 7.5,
-      dependencies: [
-        "08C2BA2771FFBEBD",
-      ],
-      size: 1.0,
+      dependencies: ["08C2BA2771FFBEBD"],
+      hide_dependency_lines: true,
       id: "14C824C606D093FA",
       tasks: [
         {
@@ -1423,12 +1414,12 @@
       ],
     },
     {
-      x: 4.8,
+      shape: "circle",
+      size: 1,
+      x: 4.800000000000001,
       y: 7.5,
-      dependencies: [
-        "08C2BA2771FFBEBD",
-      ],
-      size: 1.0,
+      dependencies: ["08C2BA2771FFBEBD"],
+      hide_dependency_lines: true,
       id: "2B13A36041105BEE",
       tasks: [
         {
@@ -1455,12 +1446,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 5.9,
       y: 7.5,
-      dependencies: [
-        "08C2BA2771FFBEBD",
-      ],
-      size: 1.0,
+      dependencies: ["08C2BA2771FFBEBD"],
+      hide_dependency_lines: true,
       id: "18A95A10A0118870",
       tasks: [
         {
@@ -1487,12 +1478,12 @@
       ],
     },
     {
-      x: 7.0,
+      shape: "circle",
+      size: 1,
+      x: 7,
       y: 7.5,
-      dependencies: [
-        "08C2BA2771FFBEBD",
-      ],
-      size: 1.0,
+      dependencies: ["08C2BA2771FFBEBD"],
+      hide_dependency_lines: true,
       id: "1F013EEF0EC13451",
       tasks: [
         {
@@ -1519,12 +1510,12 @@
       ],
     },
     {
-      x: 8.1,
+      shape: "circle",
+      size: 1,
+      x: 8.100000000000001,
       y: 7.5,
-      dependencies: [
-        "08C2BA2771FFBEBD",
-      ],
-      size: 1.0,
+      dependencies: ["08C2BA2771FFBEBD"],
+      hide_dependency_lines: true,
       id: "4967ABAD92873D7A",
       tasks: [
         {
@@ -1551,12 +1542,12 @@
       ],
     },
     {
-      x: 9.2,
+      shape: "circle",
+      size: 1,
+      x: 9.200000000000001,
       y: 7.5,
-      dependencies: [
-        "08C2BA2771FFBEBD",
-      ],
-      size: 1.0,
+      dependencies: ["08C2BA2771FFBEBD"],
+      hide_dependency_lines: true,
       id: "064EAE4C85541C03",
       tasks: [
         {
@@ -1587,14 +1578,12 @@
         id: "mysticalagriculture:gold_seeds",
         count: 1,
       },
-      x: 0.0,
-      y: 9.0,
-      shape: "hexagon",
-      dependencies: [
-        "56401BF53CAB4362",
-        "4888816C1D76F7BE",
-      ],
-      size: 1.0,
+      shape: "circle",
+      size: 1,
+      x: 0,
+      y: 9,
+      dependencies: ["56401BF53CAB4362"],
+      hide_dependency_lines: true,
       id: "31C3487DCBCF80BF",
       tasks: [
         {
@@ -1611,12 +1600,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 1.5,
-      y: 9.0,
-      dependencies: [
-        "31C3487DCBCF80BF",
-      ],
-      size: 1.0,
+      y: 9,
+      dependencies: ["31C3487DCBCF80BF"],
+      hide_dependency_lines: true,
       id: "5441CFB8F85E1C6C",
       tasks: [
         {
@@ -1643,12 +1632,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 2.6,
-      y: 9.0,
-      dependencies: [
-        "31C3487DCBCF80BF",
-      ],
-      size: 1.0,
+      y: 9,
+      dependencies: ["31C3487DCBCF80BF"],
+      hide_dependency_lines: true,
       id: "405451AA6DA658F9",
       tasks: [
         {
@@ -1675,12 +1664,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 3.7,
-      y: 9.0,
-      dependencies: [
-        "31C3487DCBCF80BF",
-      ],
-      size: 1.0,
+      y: 9,
+      dependencies: ["31C3487DCBCF80BF"],
+      hide_dependency_lines: true,
       id: "27B637990B1F515C",
       tasks: [
         {
@@ -1707,12 +1696,12 @@
       ],
     },
     {
-      x: 4.8,
-      y: 9.0,
-      dependencies: [
-        "31C3487DCBCF80BF",
-      ],
-      size: 1.0,
+      shape: "circle",
+      size: 1,
+      x: 4.800000000000001,
+      y: 9,
+      dependencies: ["31C3487DCBCF80BF"],
+      hide_dependency_lines: true,
       id: "59FAD7F78AF52FD6",
       tasks: [
         {
@@ -1743,14 +1732,12 @@
         id: "mysticalagriculture:diamond_seeds",
         count: 1,
       },
-      x: 0.0,
+      shape: "circle",
+      size: 1,
+      x: 0,
       y: 10.5,
-      shape: "hexagon",
-      dependencies: [
-        "56401BF53CAB4362",
-        "3B0BEDDA3323ACE2",
-      ],
-      size: 1.0,
+      dependencies: ["56401BF53CAB4362"],
+      hide_dependency_lines: true,
       id: "7DA6AFE7A0999E20",
       tasks: [
         {
@@ -1767,12 +1754,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 1.5,
       y: 10.5,
-      dependencies: [
-        "7DA6AFE7A0999E20",
-      ],
-      size: 1.0,
+      dependencies: ["7DA6AFE7A0999E20"],
+      hide_dependency_lines: true,
       id: "4E41753DB7CD31D1",
       tasks: [
         {
@@ -1799,12 +1786,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 2.6,
       y: 10.5,
-      dependencies: [
-        "7DA6AFE7A0999E20",
-      ],
-      size: 1.0,
+      dependencies: ["7DA6AFE7A0999E20"],
+      hide_dependency_lines: true,
       id: "07EAAC989095C321",
       tasks: [
         {
@@ -1831,12 +1818,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 3.7,
       y: 10.5,
-      dependencies: [
-        "7DA6AFE7A0999E20",
-      ],
-      size: 1.0,
+      dependencies: ["7DA6AFE7A0999E20"],
+      hide_dependency_lines: true,
       id: "4DE8DD4C6C291014",
       tasks: [
         {
@@ -1867,14 +1854,12 @@
         id: "mysticalagriculture:aluminum_seeds",
         count: 1,
       },
-      x: 0.0,
-      y: 12.0,
-      shape: "hexagon",
-      dependencies: [
-        "56401BF53CAB4362",
-        "17507E0C6980788A",
-      ],
-      size: 1.0,
+      shape: "circle",
+      size: 1,
+      x: 0,
+      y: 12,
+      dependencies: ["56401BF53CAB4362"],
+      hide_dependency_lines: true,
       id: "45E57D5E4B6C4B25",
       tasks: [
         {
@@ -1891,12 +1876,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 1.5,
-      y: 12.0,
-      dependencies: [
-        "45E57D5E4B6C4B25",
-      ],
-      size: 1.0,
+      y: 12,
+      dependencies: ["45E57D5E4B6C4B25"],
+      hide_dependency_lines: true,
       id: "35D1480C57511BC6",
       tasks: [
         {
@@ -1923,12 +1908,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 2.6,
-      y: 12.0,
-      dependencies: [
-        "45E57D5E4B6C4B25",
-      ],
-      size: 1.0,
+      y: 12,
+      dependencies: ["45E57D5E4B6C4B25"],
+      hide_dependency_lines: true,
       id: "0413F1707723C694",
       tasks: [
         {
@@ -1955,12 +1940,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 3.7,
-      y: 12.0,
-      dependencies: [
-        "45E57D5E4B6C4B25",
-      ],
-      size: 1.0,
+      y: 12,
+      dependencies: ["45E57D5E4B6C4B25"],
+      hide_dependency_lines: true,
       id: "1E73DE30D0F01C94",
       tasks: [
         {
@@ -1987,12 +1972,12 @@
       ],
     },
     {
-      x: 4.8,
-      y: 12.0,
-      dependencies: [
-        "45E57D5E4B6C4B25",
-      ],
-      size: 1.0,
+      shape: "circle",
+      size: 1,
+      x: 4.800000000000001,
+      y: 12,
+      dependencies: ["45E57D5E4B6C4B25"],
+      hide_dependency_lines: true,
       id: "3CB88C8BAEC4953A",
       tasks: [
         {
@@ -2019,12 +2004,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 5.9,
-      y: 12.0,
-      dependencies: [
-        "45E57D5E4B6C4B25",
-      ],
-      size: 1.0,
+      y: 12,
+      dependencies: ["45E57D5E4B6C4B25"],
+      hide_dependency_lines: true,
       id: "4A749701794B26D1",
       tasks: [
         {
@@ -2051,12 +2036,12 @@
       ],
     },
     {
-      x: 7.0,
-      y: 12.0,
-      dependencies: [
-        "45E57D5E4B6C4B25",
-      ],
-      size: 1.0,
+      shape: "circle",
+      size: 1,
+      x: 7,
+      y: 12,
+      dependencies: ["45E57D5E4B6C4B25"],
+      hide_dependency_lines: true,
       id: "3CD2D5C21462D1B2",
       tasks: [
         {
@@ -2083,12 +2068,12 @@
       ],
     },
     {
-      x: 8.1,
-      y: 12.0,
-      dependencies: [
-        "45E57D5E4B6C4B25",
-      ],
-      size: 1.0,
+      shape: "circle",
+      size: 1,
+      x: 8.100000000000001,
+      y: 12,
+      dependencies: ["45E57D5E4B6C4B25"],
+      hide_dependency_lines: true,
       id: "1A20E07EA6F2E933",
       tasks: [
         {
@@ -2115,12 +2100,12 @@
       ],
     },
     {
-      x: 9.2,
-      y: 12.0,
-      dependencies: [
-        "45E57D5E4B6C4B25",
-      ],
-      size: 1.0,
+      shape: "circle",
+      size: 1,
+      x: 9.200000000000001,
+      y: 12,
+      dependencies: ["45E57D5E4B6C4B25"],
+      hide_dependency_lines: true,
       id: "1D9B8BE0987067C8",
       tasks: [
         {
@@ -2147,12 +2132,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 10.3,
-      y: 12.0,
-      dependencies: [
-        "45E57D5E4B6C4B25",
-      ],
-      size: 1.0,
+      y: 12,
+      dependencies: ["45E57D5E4B6C4B25"],
+      hide_dependency_lines: true,
       id: "06EF1900C44FB888",
       tasks: [
         {
@@ -2179,12 +2164,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 11.4,
-      y: 12.0,
-      dependencies: [
-        "45E57D5E4B6C4B25",
-      ],
-      size: 1.0,
+      y: 12,
+      dependencies: ["45E57D5E4B6C4B25"],
+      hide_dependency_lines: true,
       id: "1994314C68273200",
       tasks: [
         {
@@ -2215,14 +2200,12 @@
         id: "mysticalagriculture:bronze_seeds",
         count: 1,
       },
-      x: 0.0,
+      shape: "circle",
+      size: 1,
+      x: 0,
       y: 13.5,
-      shape: "hexagon",
-      dependencies: [
-        "56401BF53CAB4362",
-        "4888816C1D76F7BE",
-      ],
-      size: 1.0,
+      dependencies: ["56401BF53CAB4362"],
+      hide_dependency_lines: true,
       id: "45319DEF460C39FB",
       tasks: [
         {
@@ -2239,12 +2222,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 1.5,
       y: 13.5,
-      dependencies: [
-        "45319DEF460C39FB",
-      ],
-      size: 1.0,
+      dependencies: ["45319DEF460C39FB"],
+      hide_dependency_lines: true,
       id: "3EF7377CEA3570BF",
       tasks: [
         {
@@ -2271,12 +2254,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 2.6,
       y: 13.5,
-      dependencies: [
-        "45319DEF460C39FB",
-      ],
-      size: 1.0,
+      dependencies: ["45319DEF460C39FB"],
+      hide_dependency_lines: true,
       id: "5C2C7FC746EEB942",
       tasks: [
         {
@@ -2303,12 +2286,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 3.7,
       y: 13.5,
-      dependencies: [
-        "45319DEF460C39FB",
-      ],
-      size: 1.0,
+      dependencies: ["45319DEF460C39FB"],
+      hide_dependency_lines: true,
       id: "0BB630911338C903",
       tasks: [
         {
@@ -2335,12 +2318,12 @@
       ],
     },
     {
-      x: 4.8,
+      shape: "circle",
+      size: 1,
+      x: 4.800000000000001,
       y: 13.5,
-      dependencies: [
-        "45319DEF460C39FB",
-      ],
-      size: 1.0,
+      dependencies: ["45319DEF460C39FB"],
+      hide_dependency_lines: true,
       id: "13CEE99BCE269AF8",
       tasks: [
         {
@@ -2367,12 +2350,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 5.9,
       y: 13.5,
-      dependencies: [
-        "45319DEF460C39FB",
-      ],
-      size: 1.0,
+      dependencies: ["45319DEF460C39FB"],
+      hide_dependency_lines: true,
       id: "461882AEC2424E61",
       tasks: [
         {
@@ -2399,12 +2382,12 @@
       ],
     },
     {
-      x: 7.0,
+      shape: "circle",
+      size: 1,
+      x: 7,
       y: 13.5,
-      dependencies: [
-        "45319DEF460C39FB",
-      ],
-      size: 1.0,
+      dependencies: ["45319DEF460C39FB"],
+      hide_dependency_lines: true,
       id: "07433B863A43C4C4",
       tasks: [
         {
@@ -2431,12 +2414,12 @@
       ],
     },
     {
-      x: 8.1,
+      shape: "circle",
+      size: 1,
+      x: 8.100000000000001,
       y: 13.5,
-      dependencies: [
-        "45319DEF460C39FB",
-      ],
-      size: 1.0,
+      dependencies: ["45319DEF460C39FB"],
+      hide_dependency_lines: true,
       id: "6D21AD96B9E9F5A4",
       tasks: [
         {
@@ -2463,12 +2446,12 @@
       ],
     },
     {
-      x: 9.2,
+      shape: "circle",
+      size: 1,
+      x: 9.200000000000001,
       y: 13.5,
-      dependencies: [
-        "45319DEF460C39FB",
-      ],
-      size: 1.0,
+      dependencies: ["45319DEF460C39FB"],
+      hide_dependency_lines: true,
       id: "5F18CA2B82533566",
       tasks: [
         {
@@ -2495,12 +2478,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 10.3,
       y: 13.5,
-      dependencies: [
-        "45319DEF460C39FB",
-      ],
-      size: 1.0,
+      dependencies: ["45319DEF460C39FB"],
+      hide_dependency_lines: true,
       id: "7E1E549388045E65",
       tasks: [
         {
@@ -2531,14 +2514,12 @@
         id: "mysticalagriculture:ruby_seeds",
         count: 1,
       },
-      x: 0.0,
-      y: 15.0,
-      shape: "hexagon",
-      dependencies: [
-        "56401BF53CAB4362",
-        "17507E0C6980788A",
-      ],
-      size: 1.0,
+      shape: "circle",
+      size: 1,
+      x: 0,
+      y: 15,
+      dependencies: ["56401BF53CAB4362"],
+      hide_dependency_lines: true,
       id: "60EE33D3A00F3432",
       tasks: [
         {
@@ -2555,12 +2536,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 1.5,
-      y: 15.0,
-      dependencies: [
-        "60EE33D3A00F3432",
-      ],
-      size: 1.0,
+      y: 15,
+      dependencies: ["60EE33D3A00F3432"],
+      hide_dependency_lines: true,
       id: "666EF6649957E609",
       tasks: [
         {
@@ -2587,12 +2568,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 2.6,
-      y: 15.0,
-      dependencies: [
-        "60EE33D3A00F3432",
-      ],
-      size: 1.0,
+      y: 15,
+      dependencies: ["60EE33D3A00F3432"],
+      hide_dependency_lines: true,
       id: "3F82D8F6FC42B752",
       tasks: [
         {
@@ -2619,12 +2600,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 3.7,
-      y: 15.0,
-      dependencies: [
-        "60EE33D3A00F3432",
-      ],
-      size: 1.0,
+      y: 15,
+      dependencies: ["60EE33D3A00F3432"],
+      hide_dependency_lines: true,
       id: "18F3F87EF38C546C",
       tasks: [
         {
@@ -2651,12 +2632,12 @@
       ],
     },
     {
-      x: 4.8,
-      y: 15.0,
-      dependencies: [
-        "60EE33D3A00F3432",
-      ],
-      size: 1.0,
+      shape: "circle",
+      size: 1,
+      x: 4.800000000000001,
+      y: 15,
+      dependencies: ["60EE33D3A00F3432"],
+      hide_dependency_lines: true,
       id: "6C18C1D2241CE08C",
       tasks: [
         {
@@ -2683,12 +2664,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 5.9,
-      y: 15.0,
-      dependencies: [
-        "60EE33D3A00F3432",
-      ],
-      size: 1.0,
+      y: 15,
+      dependencies: ["60EE33D3A00F3432"],
+      hide_dependency_lines: true,
       id: "1E46345E0AA65195",
       tasks: [
         {
@@ -2715,12 +2696,12 @@
       ],
     },
     {
-      x: 7.0,
-      y: 15.0,
-      dependencies: [
-        "60EE33D3A00F3432",
-      ],
-      size: 1.0,
+      shape: "circle",
+      size: 1,
+      x: 7,
+      y: 15,
+      dependencies: ["60EE33D3A00F3432"],
+      hide_dependency_lines: true,
       id: "66482FD7A9DEB8BC",
       tasks: [
         {
@@ -2747,12 +2728,12 @@
       ],
     },
     {
-      x: 8.1,
-      y: 15.0,
-      dependencies: [
-        "60EE33D3A00F3432",
-      ],
-      size: 1.0,
+      shape: "circle",
+      size: 1,
+      x: 8.100000000000001,
+      y: 15,
+      dependencies: ["60EE33D3A00F3432"],
+      hide_dependency_lines: true,
       id: "59CC3985A1990B0B",
       tasks: [
         {
@@ -2783,14 +2764,12 @@
         id: "mysticalagriculture:refined_glowstone_seeds",
         count: 1,
       },
-      x: 0.0,
+      shape: "circle",
+      size: 1,
+      x: 0,
       y: 16.5,
-      shape: "hexagon",
-      dependencies: [
-        "56401BF53CAB4362",
-        "5E941B99E35E8CCC",
-      ],
-      size: 1.0,
+      dependencies: ["56401BF53CAB4362"],
+      hide_dependency_lines: true,
       id: "405A443F7655857D",
       tasks: [
         {
@@ -2807,12 +2786,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 1.5,
       y: 16.5,
-      dependencies: [
-        "405A443F7655857D",
-      ],
-      size: 1.0,
+      dependencies: ["405A443F7655857D"],
+      hide_dependency_lines: true,
       id: "556418CDDA7AACD5",
       tasks: [
         {
@@ -2839,12 +2818,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 2.6,
       y: 16.5,
-      dependencies: [
-        "405A443F7655857D",
-      ],
-      size: 1.0,
+      dependencies: ["405A443F7655857D"],
+      hide_dependency_lines: true,
       id: "567BC64157EDB8F4",
       tasks: [
         {
@@ -2875,14 +2854,12 @@
         id: "mysticalagriculture:sky_stone_seeds",
         count: 1,
       },
-      x: 0.0,
-      y: 18.0,
-      shape: "hexagon",
-      dependencies: [
-        "56401BF53CAB4362",
-        "77C8DB5AC6C4C1EF",
-      ],
-      size: 1.0,
+      shape: "circle",
+      size: 1,
+      x: 0,
+      y: 18,
+      dependencies: ["56401BF53CAB4362"],
+      hide_dependency_lines: true,
       id: "1A1CD3F58CD73B4F",
       tasks: [
         {
@@ -2899,12 +2876,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 1.5,
-      y: 18.0,
-      dependencies: [
-        "1A1CD3F58CD73B4F",
-      ],
-      size: 1.0,
+      y: 18,
+      dependencies: ["1A1CD3F58CD73B4F"],
+      hide_dependency_lines: true,
       id: "45B9E1A4F8D82991",
       tasks: [
         {
@@ -2931,12 +2908,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 2.6,
-      y: 18.0,
-      dependencies: [
-        "1A1CD3F58CD73B4F",
-      ],
-      size: 1.0,
+      y: 18,
+      dependencies: ["1A1CD3F58CD73B4F"],
+      hide_dependency_lines: true,
       id: "18F1FB83D4B5A8CA",
       tasks: [
         {
@@ -2963,12 +2940,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 3.7,
-      y: 18.0,
-      dependencies: [
-        "1A1CD3F58CD73B4F",
-      ],
-      size: 1.0,
+      y: 18,
+      dependencies: ["1A1CD3F58CD73B4F"],
+      hide_dependency_lines: true,
       id: "200DE692872E0E5D",
       tasks: [
         {
@@ -2999,14 +2976,12 @@
         id: "mysticalagriculture:grains_of_infinity_seeds",
         count: 1,
       },
-      x: 0.0,
+      shape: "circle",
+      size: 1,
+      x: 0,
       y: 19.5,
-      shape: "hexagon",
-      dependencies: [
-        "56401BF53CAB4362",
-        "4888816C1D76F7BE",
-      ],
-      size: 1.0,
+      dependencies: ["56401BF53CAB4362"],
+      hide_dependency_lines: true,
       id: "4AF476C800012E03",
       tasks: [
         {
@@ -3023,12 +2998,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 1.5,
       y: 19.5,
-      dependencies: [
-        "4AF476C800012E03",
-      ],
-      size: 1.0,
+      dependencies: ["4AF476C800012E03"],
+      hide_dependency_lines: true,
       id: "139FEB5321DD5C8B",
       tasks: [
         {
@@ -3055,12 +3030,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 2.6,
       y: 19.5,
-      dependencies: [
-        "4AF476C800012E03",
-      ],
-      size: 1.0,
+      dependencies: ["4AF476C800012E03"],
+      hide_dependency_lines: true,
       id: "66B2D08F483D858E",
       tasks: [
         {
@@ -3087,12 +3062,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 3.7,
       y: 19.5,
-      dependencies: [
-        "4AF476C800012E03",
-      ],
-      size: 1.0,
+      dependencies: ["4AF476C800012E03"],
+      hide_dependency_lines: true,
       id: "26328D3FB16A6B80",
       tasks: [
         {
@@ -3119,12 +3094,12 @@
       ],
     },
     {
-      x: 4.8,
+      shape: "circle",
+      size: 1,
+      x: 4.800000000000001,
       y: 19.5,
-      dependencies: [
-        "4AF476C800012E03",
-      ],
-      size: 1.0,
+      dependencies: ["4AF476C800012E03"],
+      hide_dependency_lines: true,
       id: "72283BAF19174DD5",
       tasks: [
         {
@@ -3151,12 +3126,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 5.9,
       y: 19.5,
-      dependencies: [
-        "4AF476C800012E03",
-      ],
-      size: 1.0,
+      dependencies: ["4AF476C800012E03"],
+      hide_dependency_lines: true,
       id: "109F44F60CF311BF",
       tasks: [
         {
@@ -3183,12 +3158,12 @@
       ],
     },
     {
-      x: 7.0,
+      shape: "circle",
+      size: 1,
+      x: 7,
       y: 19.5,
-      dependencies: [
-        "4AF476C800012E03",
-      ],
-      size: 1.0,
+      dependencies: ["4AF476C800012E03"],
+      hide_dependency_lines: true,
       id: "0D3DB780E12C3C0A",
       tasks: [
         {
@@ -3215,12 +3190,12 @@
       ],
     },
     {
-      x: 8.1,
+      shape: "circle",
+      size: 1,
+      x: 8.100000000000001,
       y: 19.5,
-      dependencies: [
-        "4AF476C800012E03",
-      ],
-      size: 1.0,
+      dependencies: ["4AF476C800012E03"],
+      hide_dependency_lines: true,
       id: "730C96DA2C52755F",
       tasks: [
         {
@@ -3247,12 +3222,12 @@
       ],
     },
     {
-      x: 9.2,
+      shape: "circle",
+      size: 1,
+      x: 9.200000000000001,
       y: 19.5,
-      dependencies: [
-        "4AF476C800012E03",
-      ],
-      size: 1.0,
+      dependencies: ["4AF476C800012E03"],
+      hide_dependency_lines: true,
       id: "51B4C35307A148FE",
       tasks: [
         {
@@ -3279,12 +3254,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 10.3,
       y: 19.5,
-      dependencies: [
-        "4AF476C800012E03",
-      ],
-      size: 1.0,
+      dependencies: ["4AF476C800012E03"],
+      hide_dependency_lines: true,
       id: "4321AAC4E4987112",
       tasks: [
         {
@@ -3315,14 +3290,12 @@
         id: "mysticalagriculture:amethyst_bronze_seeds",
         count: 1,
       },
-      x: 0.0,
-      y: 21.0,
-      shape: "hexagon",
-      dependencies: [
-        "56401BF53CAB4362",
-        "4888816C1D76F7BE",
-      ],
-      size: 1.0,
+      shape: "circle",
+      size: 1,
+      x: 0,
+      y: 21,
+      dependencies: ["56401BF53CAB4362"],
+      hide_dependency_lines: true,
       id: "657B236DD6BDA0ED",
       tasks: [
         {
@@ -3339,12 +3312,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 1.5,
-      y: 21.0,
-      dependencies: [
-        "657B236DD6BDA0ED",
-      ],
-      size: 1.0,
+      y: 21,
+      dependencies: ["657B236DD6BDA0ED"],
+      hide_dependency_lines: true,
       id: "4071A155C685678D",
       tasks: [
         {
@@ -3371,12 +3344,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 2.6,
-      y: 21.0,
-      dependencies: [
-        "657B236DD6BDA0ED",
-      ],
-      size: 1.0,
+      y: 21,
+      dependencies: ["657B236DD6BDA0ED"],
+      hide_dependency_lines: true,
       id: "646FCD6F054DA226",
       tasks: [
         {
@@ -3403,12 +3376,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 3.7,
-      y: 21.0,
-      dependencies: [
-        "657B236DD6BDA0ED",
-      ],
-      size: 1.0,
+      y: 21,
+      dependencies: ["657B236DD6BDA0ED"],
+      hide_dependency_lines: true,
       id: "30A9834FA375F7D3",
       tasks: [
         {
@@ -3435,12 +3408,12 @@
       ],
     },
     {
-      x: 4.8,
-      y: 21.0,
-      dependencies: [
-        "657B236DD6BDA0ED",
-      ],
-      size: 1.0,
+      shape: "circle",
+      size: 1,
+      x: 4.800000000000001,
+      y: 21,
+      dependencies: ["657B236DD6BDA0ED"],
+      hide_dependency_lines: true,
       id: "745FF57CA4DD41CA",
       tasks: [
         {
@@ -3467,12 +3440,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 5.9,
-      y: 21.0,
-      dependencies: [
-        "657B236DD6BDA0ED",
-      ],
-      size: 1.0,
+      y: 21,
+      dependencies: ["657B236DD6BDA0ED"],
+      hide_dependency_lines: true,
       id: "133014CF8481FCB4",
       tasks: [
         {
@@ -3499,12 +3472,12 @@
       ],
     },
     {
-      x: 7.0,
-      y: 21.0,
-      dependencies: [
-        "657B236DD6BDA0ED",
-      ],
-      size: 1.0,
+      shape: "circle",
+      size: 1,
+      x: 7,
+      y: 21,
+      dependencies: ["657B236DD6BDA0ED"],
+      hide_dependency_lines: true,
       id: "10D7E937CCC2EC0E",
       tasks: [
         {
@@ -3531,12 +3504,12 @@
       ],
     },
     {
-      x: 8.1,
-      y: 21.0,
-      dependencies: [
-        "657B236DD6BDA0ED",
-      ],
-      size: 1.0,
+      shape: "circle",
+      size: 1,
+      x: 8.100000000000001,
+      y: 21,
+      dependencies: ["657B236DD6BDA0ED"],
+      hide_dependency_lines: true,
       id: "490E9F1682383C9E",
       tasks: [
         {
@@ -3563,12 +3536,12 @@
       ],
     },
     {
-      x: 9.2,
-      y: 21.0,
-      dependencies: [
-        "657B236DD6BDA0ED",
-      ],
-      size: 1.0,
+      shape: "circle",
+      size: 1,
+      x: 9.200000000000001,
+      y: 21,
+      dependencies: ["657B236DD6BDA0ED"],
+      hide_dependency_lines: true,
       id: "4722BBA94B44B851",
       tasks: [
         {
@@ -3599,14 +3572,12 @@
         id: "mysticalagriculture:ironwood_seeds",
         count: 1,
       },
-      x: 0.0,
+      shape: "circle",
+      size: 1,
+      x: 0,
       y: 22.5,
-      shape: "hexagon",
-      dependencies: [
-        "56401BF53CAB4362",
-        "4888816C1D76F7BE",
-      ],
-      size: 1.0,
+      dependencies: ["56401BF53CAB4362"],
+      hide_dependency_lines: true,
       id: "4284D46E0608D28A",
       tasks: [
         {
@@ -3623,12 +3594,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 1.5,
       y: 22.5,
-      dependencies: [
-        "4284D46E0608D28A",
-      ],
-      size: 1.0,
+      dependencies: ["4284D46E0608D28A"],
+      hide_dependency_lines: true,
       id: "55B29A21F34B425F",
       tasks: [
         {
@@ -3655,12 +3626,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 2.6,
       y: 22.5,
-      dependencies: [
-        "4284D46E0608D28A",
-      ],
-      size: 1.0,
+      dependencies: ["4284D46E0608D28A"],
+      hide_dependency_lines: true,
       id: "79B65EFDE523A12C",
       tasks: [
         {
@@ -3687,12 +3658,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 3.7,
       y: 22.5,
-      dependencies: [
-        "4284D46E0608D28A",
-      ],
-      size: 1.0,
+      dependencies: ["4284D46E0608D28A"],
+      hide_dependency_lines: true,
       id: "40A7FF8C1014B0EE",
       tasks: [
         {
@@ -3719,12 +3690,12 @@
       ],
     },
     {
-      x: 4.8,
+      shape: "circle",
+      size: 1,
+      x: 4.800000000000001,
       y: 22.5,
-      dependencies: [
-        "4284D46E0608D28A",
-      ],
-      size: 1.0,
+      dependencies: ["4284D46E0608D28A"],
+      hide_dependency_lines: true,
       id: "193FBAFF66D34686",
       tasks: [
         {
@@ -3755,14 +3726,12 @@
         id: "mysticalagriculture:uraninite_seeds",
         count: 1,
       },
-      x: 0.0,
-      y: 24.0,
-      shape: "hexagon",
-      dependencies: [
-        "56401BF53CAB4362",
-        "4888816C1D76F7BE",
-      ],
-      size: 1.0,
+      shape: "circle",
+      size: 1,
+      x: 0,
+      y: 24,
+      dependencies: ["56401BF53CAB4362"],
+      hide_dependency_lines: true,
       id: "34C124334A2BC009",
       tasks: [
         {
@@ -3779,12 +3748,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 1.5,
-      y: 24.0,
-      dependencies: [
-        "34C124334A2BC009",
-      ],
-      size: 1.0,
+      y: 24,
+      dependencies: ["34C124334A2BC009"],
+      hide_dependency_lines: true,
       id: "7C075E5B0ADBB2EA",
       tasks: [
         {
@@ -3811,12 +3780,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 2.6,
-      y: 24.0,
-      dependencies: [
-        "34C124334A2BC009",
-      ],
-      size: 1.0,
+      y: 24,
+      dependencies: ["34C124334A2BC009"],
+      hide_dependency_lines: true,
       id: "15AF247A41B89F1E",
       tasks: [
         {
@@ -3843,12 +3812,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 3.7,
-      y: 24.0,
-      dependencies: [
-        "34C124334A2BC009",
-      ],
-      size: 1.0,
+      y: 24,
+      dependencies: ["34C124334A2BC009"],
+      hide_dependency_lines: true,
       id: "3C6028A8A0A2B571",
       tasks: [
         {
@@ -3875,12 +3844,12 @@
       ],
     },
     {
-      x: 4.8,
-      y: 24.0,
-      dependencies: [
-        "34C124334A2BC009",
-      ],
-      size: 1.0,
+      shape: "circle",
+      size: 1,
+      x: 4.800000000000001,
+      y: 24,
+      dependencies: ["34C124334A2BC009"],
+      hide_dependency_lines: true,
       id: "7AB74A16ED9BAD89",
       tasks: [
         {
@@ -3907,12 +3876,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 5.9,
-      y: 24.0,
-      dependencies: [
-        "34C124334A2BC009",
-      ],
-      size: 1.0,
+      y: 24,
+      dependencies: ["34C124334A2BC009"],
+      hide_dependency_lines: true,
       id: "381955FE944413B7",
       tasks: [
         {
@@ -3943,14 +3912,12 @@
         id: "mysticalagriculture:soulium_seeds",
         count: 1,
       },
-      x: 0.0,
+      shape: "circle",
+      size: 1,
+      x: 0,
       y: 25.5,
-      shape: "hexagon",
-      dependencies: [
-        "56401BF53CAB4362",
-        "53FA654EAFFB934B",
-      ],
-      size: 1.0,
+      dependencies: ["56401BF53CAB4362"],
+      hide_dependency_lines: true,
       id: "3E68CCBF03D032D7",
       tasks: [
         {
@@ -3967,12 +3934,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 1.5,
       y: 25.5,
-      dependencies: [
-        "3E68CCBF03D032D7",
-      ],
-      size: 1.0,
+      dependencies: ["3E68CCBF03D032D7"],
+      hide_dependency_lines: true,
       id: "250F4B6F53B4B1F7",
       tasks: [
         {
@@ -4003,14 +3970,12 @@
         id: "mysticalagriculture:nether_star_seeds",
         count: 1,
       },
-      x: 0.0,
-      y: 27.0,
-      shape: "hexagon",
-      dependencies: [
-        "56401BF53CAB4362",
-        "1796C97EA4B00222",
-      ],
-      size: 1.0,
+      shape: "circle",
+      size: 1,
+      x: 0,
+      y: 27,
+      dependencies: ["56401BF53CAB4362"],
+      hide_dependency_lines: true,
       id: "5C7FF881878E7967",
       tasks: [
         {
@@ -4027,12 +3992,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 1.5,
-      y: 27.0,
-      dependencies: [
-        "5C7FF881878E7967",
-      ],
-      size: 1.0,
+      y: 27,
+      dependencies: ["5C7FF881878E7967"],
+      hide_dependency_lines: true,
       id: "1A31CCAD19045623",
       tasks: [
         {
@@ -4059,12 +4024,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 2.6,
-      y: 27.0,
-      dependencies: [
-        "5C7FF881878E7967",
-      ],
-      size: 1.0,
+      y: 27,
+      dependencies: ["5C7FF881878E7967"],
+      hide_dependency_lines: true,
       id: "60E0670ECEBA05D1",
       tasks: [
         {
@@ -4091,12 +4056,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 3.7,
-      y: 27.0,
-      dependencies: [
-        "5C7FF881878E7967",
-      ],
-      size: 1.0,
+      y: 27,
+      dependencies: ["5C7FF881878E7967"],
+      hide_dependency_lines: true,
       id: "7E7CEA3293FF8D9C",
       tasks: [
         {
@@ -4127,14 +4092,12 @@
         id: "mysticalagriculture:allthemodium_seeds",
         count: 1,
       },
-      x: 0.0,
+      shape: "circle",
+      size: 1,
+      x: 0,
       y: 28.5,
-      shape: "hexagon",
-      dependencies: [
-        "56401BF53CAB4362",
-        "3D6CDFC350D4F63C",
-      ],
-      size: 1.0,
+      dependencies: ["56401BF53CAB4362"],
+      hide_dependency_lines: true,
       id: "48BD11B7C3E4E044",
       tasks: [
         {
@@ -4151,12 +4114,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 1.5,
       y: 28.5,
-      dependencies: [
-        "48BD11B7C3E4E044",
-      ],
-      size: 1.0,
+      dependencies: ["48BD11B7C3E4E044"],
+      hide_dependency_lines: true,
       id: "31E30DF03ADAE277",
       tasks: [
         {
@@ -4183,12 +4146,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 2.6,
       y: 28.5,
-      dependencies: [
-        "48BD11B7C3E4E044",
-      ],
-      size: 1.0,
+      dependencies: ["48BD11B7C3E4E044"],
+      hide_dependency_lines: true,
       id: "5978C64B616B195B",
       tasks: [
         {
@@ -4215,12 +4178,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 3.7,
       y: 28.5,
-      dependencies: [
-        "48BD11B7C3E4E044",
-      ],
-      size: 1.0,
+      dependencies: ["48BD11B7C3E4E044"],
+      hide_dependency_lines: true,
       id: "526222F2B8422A57",
       tasks: [
         {
@@ -4251,14 +4214,12 @@
         id: "mysticalagriculture:titanium_seeds",
         count: 1,
       },
-      x: 0.0,
-      y: 30.0,
-      shape: "hexagon",
-      dependencies: [
-        "56401BF53CAB4362",
-        "4888816C1D76F7BE",
-      ],
-      size: 1.0,
+      shape: "circle",
+      size: 1,
+      x: 0,
+      y: 30,
+      dependencies: ["56401BF53CAB4362"],
+      hide_dependency_lines: true,
       id: "28D7DBFF0E0A4BB5",
       tasks: [
         {
@@ -4275,12 +4236,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 1.5,
-      y: 30.0,
-      dependencies: [
-        "28D7DBFF0E0A4BB5",
-      ],
-      size: 1.0,
+      y: 30,
+      dependencies: ["28D7DBFF0E0A4BB5"],
+      hide_dependency_lines: true,
       id: "07C5DB4924DE9E09",
       tasks: [
         {
@@ -4307,12 +4268,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 2.6,
-      y: 30.0,
-      dependencies: [
-        "28D7DBFF0E0A4BB5",
-      ],
-      size: 1.0,
+      y: 30,
+      dependencies: ["28D7DBFF0E0A4BB5"],
+      hide_dependency_lines: true,
       id: "3852441E30DDD5DE",
       tasks: [
         {
@@ -4339,12 +4300,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 3.7,
-      y: 30.0,
-      dependencies: [
-        "28D7DBFF0E0A4BB5",
-      ],
-      size: 1.0,
+      y: 30,
+      dependencies: ["28D7DBFF0E0A4BB5"],
+      hide_dependency_lines: true,
       id: "3851F17FDD9BBB9D",
       tasks: [
         {
@@ -4371,12 +4332,12 @@
       ],
     },
     {
-      x: 4.8,
-      y: 30.0,
-      dependencies: [
-        "28D7DBFF0E0A4BB5",
-      ],
-      size: 1.0,
+      shape: "circle",
+      size: 1,
+      x: 4.800000000000001,
+      y: 30,
+      dependencies: ["28D7DBFF0E0A4BB5"],
+      hide_dependency_lines: true,
       id: "3E7FAD6B552D12C5",
       tasks: [
         {
@@ -4403,12 +4364,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 5.9,
-      y: 30.0,
-      dependencies: [
-        "28D7DBFF0E0A4BB5",
-      ],
-      size: 1.0,
+      y: 30,
+      dependencies: ["28D7DBFF0E0A4BB5"],
+      hide_dependency_lines: true,
       id: "3BF8A1F259F31175",
       tasks: [
         {
@@ -4435,12 +4396,12 @@
       ],
     },
     {
-      x: 7.0,
-      y: 30.0,
-      dependencies: [
-        "28D7DBFF0E0A4BB5",
-      ],
-      size: 1.0,
+      shape: "circle",
+      size: 1,
+      x: 7,
+      y: 30,
+      dependencies: ["28D7DBFF0E0A4BB5"],
+      hide_dependency_lines: true,
       id: "378AE9ACADB16638",
       tasks: [
         {
@@ -4467,12 +4428,12 @@
       ],
     },
     {
-      x: 8.1,
-      y: 30.0,
-      dependencies: [
-        "28D7DBFF0E0A4BB5",
-      ],
-      size: 1.0,
+      shape: "circle",
+      size: 1,
+      x: 8.100000000000001,
+      y: 30,
+      dependencies: ["28D7DBFF0E0A4BB5"],
+      hide_dependency_lines: true,
       id: "76CC85B2EFA4D7EF",
       tasks: [
         {
@@ -4499,12 +4460,12 @@
       ],
     },
     {
-      x: 9.2,
-      y: 30.0,
-      dependencies: [
-        "28D7DBFF0E0A4BB5",
-      ],
-      size: 1.0,
+      shape: "circle",
+      size: 1,
+      x: 9.200000000000001,
+      y: 30,
+      dependencies: ["28D7DBFF0E0A4BB5"],
+      hide_dependency_lines: true,
       id: "52039691EA7A06CB",
       tasks: [
         {
@@ -4531,12 +4492,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 10.3,
-      y: 30.0,
-      dependencies: [
-        "28D7DBFF0E0A4BB5",
-      ],
-      size: 1.0,
+      y: 30,
+      dependencies: ["28D7DBFF0E0A4BB5"],
+      hide_dependency_lines: true,
       id: "4FFC5A7C52620681",
       tasks: [
         {
@@ -4563,12 +4524,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 11.4,
-      y: 30.0,
-      dependencies: [
-        "28D7DBFF0E0A4BB5",
-      ],
-      size: 1.0,
+      y: 30,
+      dependencies: ["28D7DBFF0E0A4BB5"],
+      hide_dependency_lines: true,
       id: "56A823A63369CFC6",
       tasks: [
         {
@@ -4595,12 +4556,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 12.5,
-      y: 30.0,
-      dependencies: [
-        "28D7DBFF0E0A4BB5",
-      ],
-      size: 1.0,
+      y: 30,
+      dependencies: ["28D7DBFF0E0A4BB5"],
+      hide_dependency_lines: true,
       id: "28423218EDDF4E67",
       tasks: [
         {
@@ -4627,12 +4588,12 @@
       ],
     },
     {
-      x: 13.6,
-      y: 30.0,
-      dependencies: [
-        "28D7DBFF0E0A4BB5",
-      ],
-      size: 1.0,
+      shape: "circle",
+      size: 1,
+      x: 13.600000000000001,
+      y: 30,
+      dependencies: ["28D7DBFF0E0A4BB5"],
+      hide_dependency_lines: true,
       id: "1A342A01BBF5D77D",
       tasks: [
         {
@@ -4659,12 +4620,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 1.5,
       y: 31.5,
-      dependencies: [
-        "28D7DBFF0E0A4BB5",
-      ],
-      size: 1.0,
+      dependencies: ["28D7DBFF0E0A4BB5"],
+      hide_dependency_lines: true,
       id: "6B7D2ED6F9919C9E",
       tasks: [
         {
@@ -4691,12 +4652,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 2.6,
       y: 31.5,
-      dependencies: [
-        "28D7DBFF0E0A4BB5",
-      ],
-      size: 1.0,
+      dependencies: ["28D7DBFF0E0A4BB5"],
+      hide_dependency_lines: true,
       id: "68D63136537C9E6C",
       tasks: [
         {
@@ -4723,12 +4684,12 @@
       ],
     },
     {
+      shape: "circle",
+      size: 1,
       x: 3.7,
       y: 31.5,
-      dependencies: [
-        "28D7DBFF0E0A4BB5",
-      ],
-      size: 1.0,
+      dependencies: ["28D7DBFF0E0A4BB5"],
+      hide_dependency_lines: true,
       id: "4B06C483DA876E9B",
       tasks: [
         {
@@ -4755,12 +4716,12 @@
       ],
     },
     {
-      x: 4.8,
+      shape: "circle",
+      size: 1,
+      x: 4.800000000000001,
       y: 31.5,
-      dependencies: [
-        "28D7DBFF0E0A4BB5",
-      ],
-      size: 1.0,
+      dependencies: ["28D7DBFF0E0A4BB5"],
+      hide_dependency_lines: true,
       id: "62C04C9287111C01",
       tasks: [
         {
@@ -4791,144 +4752,12 @@
         id: "mysticalagriculture:awakened_supremium_ingot",
         count: 1,
       },
+      shape: "gear",
+      size: 1.3,
       x: 4.5,
       y: -2.4,
-      shape: "gear",
+      dependencies: ["2CDE70764C9B55CD","0E034058582DFBD7","0356A4FB187CD379","76773FFE4EE5C93C","7796912DDD547CD8","567D5D18E28F4887","57AEDF3D2E0261DF","3A84F0B8BE5EEBE0","7513123FC86F57EF","464FA88F62177BC4","0F3EAAADB94D9413","1815C737B6FEA16E","74565DFBDAF5CF24","2A36FBD0EA04C33A","7A92EF38E1130DB9","3D6741D312CE9426","538964600C1AB0E2","7F0B91669BB2D3A1","1BFA4348ADE76F6F","6AC749F8FF8F63C7","58678DBAF726A209","79115CCBACB579DA","012F864B4C0B8071","636721E5E9362528","1AA258F90600BF51","0CAB9D8DADCC3669","2E4EA70B59BC32A2","0186EEA0494E9E5B","67735713814D99EB","07B679B42357E169","7865EA757E8C56FE","4BAAD3D18022CEDE","7D16B41B1932615C","53C7506B6F5B36F5","69F09FF74112540A","205ED13FE8AB2768","0DA753E9EA926C70","6D8A458657595719","14C824C606D093FA","2B13A36041105BEE","18A95A10A0118870","1F013EEF0EC13451","4967ABAD92873D7A","064EAE4C85541C03","5441CFB8F85E1C6C","405451AA6DA658F9","27B637990B1F515C","59FAD7F78AF52FD6","4E41753DB7CD31D1","07EAAC989095C321","4DE8DD4C6C291014","35D1480C57511BC6","0413F1707723C694","1E73DE30D0F01C94","3CB88C8BAEC4953A","4A749701794B26D1","3CD2D5C21462D1B2","1A20E07EA6F2E933","1D9B8BE0987067C8","06EF1900C44FB888","1994314C68273200","3EF7377CEA3570BF","5C2C7FC746EEB942","0BB630911338C903","13CEE99BCE269AF8","461882AEC2424E61","07433B863A43C4C4","6D21AD96B9E9F5A4","5F18CA2B82533566","7E1E549388045E65","666EF6649957E609","3F82D8F6FC42B752","18F3F87EF38C546C","6C18C1D2241CE08C","1E46345E0AA65195","66482FD7A9DEB8BC","59CC3985A1990B0B","556418CDDA7AACD5","567BC64157EDB8F4","45B9E1A4F8D82991","18F1FB83D4B5A8CA","200DE692872E0E5D","139FEB5321DD5C8B","66B2D08F483D858E","26328D3FB16A6B80","72283BAF19174DD5","109F44F60CF311BF","0D3DB780E12C3C0A","730C96DA2C52755F","51B4C35307A148FE","4321AAC4E4987112","4071A155C685678D","646FCD6F054DA226","30A9834FA375F7D3","745FF57CA4DD41CA","133014CF8481FCB4","10D7E937CCC2EC0E","490E9F1682383C9E","4722BBA94B44B851","55B29A21F34B425F","79B65EFDE523A12C","40A7FF8C1014B0EE","193FBAFF66D34686","7C075E5B0ADBB2EA","15AF247A41B89F1E","3C6028A8A0A2B571","7AB74A16ED9BAD89","381955FE944413B7","250F4B6F53B4B1F7","1A31CCAD19045623","60E0670ECEBA05D1","7E7CEA3293FF8D9C","31E30DF03ADAE277","5978C64B616B195B","526222F2B8422A57","07C5DB4924DE9E09","3852441E30DDD5DE","3851F17FDD9BBB9D","3E7FAD6B552D12C5","3BF8A1F259F31175","378AE9ACADB16638","76CC85B2EFA4D7EF","52039691EA7A06CB","4FFC5A7C52620681","56A823A63369CFC6","28423218EDDF4E67","1A342A01BBF5D77D","6B7D2ED6F9919C9E","68D63136537C9E6C","4B06C483DA876E9B","62C04C9287111C01"],
       hide_dependency_lines: true,
-      dependencies: [
-        "2CDE70764C9B55CD",
-        "0E034058582DFBD7",
-        "0356A4FB187CD379",
-        "76773FFE4EE5C93C",
-        "7796912DDD547CD8",
-        "567D5D18E28F4887",
-        "57AEDF3D2E0261DF",
-        "3A84F0B8BE5EEBE0",
-        "7513123FC86F57EF",
-        "464FA88F62177BC4",
-        "0F3EAAADB94D9413",
-        "1815C737B6FEA16E",
-        "74565DFBDAF5CF24",
-        "2A36FBD0EA04C33A",
-        "7A92EF38E1130DB9",
-        "3D6741D312CE9426",
-        "538964600C1AB0E2",
-        "7F0B91669BB2D3A1",
-        "1BFA4348ADE76F6F",
-        "6AC749F8FF8F63C7",
-        "58678DBAF726A209",
-        "79115CCBACB579DA",
-        "012F864B4C0B8071",
-        "636721E5E9362528",
-        "1AA258F90600BF51",
-        "0CAB9D8DADCC3669",
-        "2E4EA70B59BC32A2",
-        "0186EEA0494E9E5B",
-        "67735713814D99EB",
-        "07B679B42357E169",
-        "7865EA757E8C56FE",
-        "4BAAD3D18022CEDE",
-        "7D16B41B1932615C",
-        "53C7506B6F5B36F5",
-        "69F09FF74112540A",
-        "205ED13FE8AB2768",
-        "0DA753E9EA926C70",
-        "6D8A458657595719",
-        "14C824C606D093FA",
-        "2B13A36041105BEE",
-        "18A95A10A0118870",
-        "1F013EEF0EC13451",
-        "4967ABAD92873D7A",
-        "064EAE4C85541C03",
-        "5441CFB8F85E1C6C",
-        "405451AA6DA658F9",
-        "27B637990B1F515C",
-        "59FAD7F78AF52FD6",
-        "4E41753DB7CD31D1",
-        "07EAAC989095C321",
-        "4DE8DD4C6C291014",
-        "35D1480C57511BC6",
-        "0413F1707723C694",
-        "1E73DE30D0F01C94",
-        "3CB88C8BAEC4953A",
-        "4A749701794B26D1",
-        "3CD2D5C21462D1B2",
-        "1A20E07EA6F2E933",
-        "1D9B8BE0987067C8",
-        "06EF1900C44FB888",
-        "1994314C68273200",
-        "3EF7377CEA3570BF",
-        "5C2C7FC746EEB942",
-        "0BB630911338C903",
-        "13CEE99BCE269AF8",
-        "461882AEC2424E61",
-        "07433B863A43C4C4",
-        "6D21AD96B9E9F5A4",
-        "5F18CA2B82533566",
-        "7E1E549388045E65",
-        "666EF6649957E609",
-        "3F82D8F6FC42B752",
-        "18F3F87EF38C546C",
-        "6C18C1D2241CE08C",
-        "1E46345E0AA65195",
-        "66482FD7A9DEB8BC",
-        "59CC3985A1990B0B",
-        "556418CDDA7AACD5",
-        "567BC64157EDB8F4",
-        "45B9E1A4F8D82991",
-        "18F1FB83D4B5A8CA",
-        "200DE692872E0E5D",
-        "139FEB5321DD5C8B",
-        "66B2D08F483D858E",
-        "26328D3FB16A6B80",
-        "72283BAF19174DD5",
-        "109F44F60CF311BF",
-        "0D3DB780E12C3C0A",
-        "730C96DA2C52755F",
-        "51B4C35307A148FE",
-        "4321AAC4E4987112",
-        "4071A155C685678D",
-        "646FCD6F054DA226",
-        "30A9834FA375F7D3",
-        "745FF57CA4DD41CA",
-        "133014CF8481FCB4",
-        "10D7E937CCC2EC0E",
-        "490E9F1682383C9E",
-        "4722BBA94B44B851",
-        "55B29A21F34B425F",
-        "79B65EFDE523A12C",
-        "40A7FF8C1014B0EE",
-        "193FBAFF66D34686",
-        "7C075E5B0ADBB2EA",
-        "15AF247A41B89F1E",
-        "3C6028A8A0A2B571",
-        "7AB74A16ED9BAD89",
-        "381955FE944413B7",
-        "250F4B6F53B4B1F7",
-        "1A31CCAD19045623",
-        "60E0670ECEBA05D1",
-        "7E7CEA3293FF8D9C",
-        "31E30DF03ADAE277",
-        "5978C64B616B195B",
-        "526222F2B8422A57",
-        "07C5DB4924DE9E09",
-        "3852441E30DDD5DE",
-        "3851F17FDD9BBB9D",
-        "3E7FAD6B552D12C5",
-        "3BF8A1F259F31175",
-        "378AE9ACADB16638",
-        "76CC85B2EFA4D7EF",
-        "52039691EA7A06CB",
-        "4FFC5A7C52620681",
-        "56A823A63369CFC6",
-        "28423218EDDF4E67",
-        "1A342A01BBF5D77D",
-        "6B7D2ED6F9919C9E",
-        "68D63136537C9E6C",
-        "4B06C483DA876E9B",
-        "62C04C9287111C01",
-      ],
-      size: 2.0,
       id: "3E72EBCE1E078C8F",
       tasks: [
         {
@@ -4954,194 +4783,257 @@
   quest_links: [
   ],
   images: [
-    {
-      x: 6.8,
-      y: -4.1188,
-      width: 12.0,
-      height: 1.4375,
-      rotation: 0.0,
-      image: "gspack:textures/quests/seeds_header.png",
-      id: "6726E242B06BB85B",
-    },
-    {
-      x: -1.6471,
-      y: 1.5,
-      width: 1.6941,
-      height: 0.6,
-      rotation: 0.0,
-      image: "gspack:textures/quests/seeds_g_t1.png",
-      id: "5B9A3C4F1249DD53",
-    },
-    {
-      x: -2.0176,
-      y: 30.0,
-      width: 2.4353,
-      height: 0.6,
-      rotation: 0.0,
-      image: "gspack:textures/quests/seeds_g_modores.png",
-      id: "03D1264FC312D98B",
-    },
-    {
-      x: -1.6471,
-      y: 9.0,
-      width: 1.6941,
-      height: 0.6,
-      rotation: 0.0,
-      image: "gspack:textures/quests/seeds_g_t4.png",
-      id: "17EAC982B76D1412",
-    },
-    {
-      x: -1.6471,
-      y: 3.0,
-      width: 1.6941,
-      height: 0.6,
-      rotation: 0.0,
-      image: "gspack:textures/quests/seeds_g_t2.png",
-      id: "44AC5DC45FB917FD",
-    },
-    {
-      x: -1.8059,
-      y: 21.0,
-      width: 2.0118,
-      height: 0.6,
-      rotation: 0.0,
-      image: "gspack:textures/quests/seeds_g_tinkers.png",
-      id: "7C9E3B31FB6E03BD",
-    },
-    {
-      x: -2.0882,
-      y: 16.5,
-      width: 2.5765,
-      height: 0.6,
-      rotation: 0.0,
-      image: "gspack:textures/quests/seeds_g_mekanism.png",
-      id: "1F96145AF2B2DE22",
-    },
-    {
-      x: -1.6294,
-      y: 15.0,
-      width: 1.6588,
-      height: 0.6,
-      rotation: 0.0,
-      image: "gspack:textures/quests/seeds_g_gems.png",
-      id: "1D4CF5A7FEDA7404",
-    },
-    {
-      x: -1.6118,
-      y: 4.5,
-      width: 1.6235,
-      height: 0.6,
-      rotation: 0.0,
-      image: "gspack:textures/quests/seeds_g_mobs.png",
-      id: "11AD0AA7578FC330",
-    },
-    {
-      x: -1.9647,
-      y: 19.5,
-      width: 2.3294,
-      height: 0.6,
-      rotation: 0.0,
-      image: "gspack:textures/quests/seeds_g_enderio.png",
-      id: "5AEA7B120FE141E9",
-    },
-    {
-      x: -1.6471,
-      y: 27.0,
-      width: 1.6941,
-      height: 0.6,
-      rotation: 0.0,
-      image: "gspack:textures/quests/seeds_g_t6.png",
-      id: "32063778B1C22DDC",
-    },
-    {
-      x: -1.7353,
-      y: 12.0,
-      width: 1.8706,
-      height: 0.6,
-      rotation: 0.0,
-      image: "gspack:textures/quests/seeds_g_metals.png",
-      id: "0ED0D0B6612F6204",
-    },
-    {
-      x: -2.4588,
-      y: 28.5,
-      width: 3.3176,
-      height: 0.6,
-      rotation: 0.0,
-      image: "gspack:textures/quests/seeds_g_atm.png",
-      id: "660D3D56F31C28B3",
-    },
-    {
-      x: -1.8941,
-      y: 22.5,
-      width: 2.1882,
-      height: 0.6,
-      rotation: 0.0,
-      image: "gspack:textures/quests/seeds_g_twilight.png",
-      id: "43A7C5437D2E7D70",
-    },
-    {
-      x: -1.6647,
-      y: 13.5,
-      width: 1.7294,
-      height: 0.6,
-      rotation: 0.0,
-      image: "gspack:textures/quests/seeds_g_alloys.png",
-      id: "47DF762BF25EE21A",
-    },
-    {
-      x: -1.6471,
-      y: 10.5,
-      width: 1.6941,
-      height: 0.6,
-      rotation: 0.0,
-      image: "gspack:textures/quests/seeds_g_t5.png",
-      id: "03F10A4367A03356",
-    },
-    {
-      x: -1.7529,
-      y: 24.0,
-      width: 1.9059,
-      height: 0.6,
-      rotation: 0.0,
-      image: "gspack:textures/quests/seeds_g_powah.png",
-      id: "0980D6FF6037F1E0",
-    },
-    {
-      x: -1.4706,
-      y: 18.0,
-      width: 1.3412,
-      height: 0.6,
-      rotation: 0.0,
-      image: "gspack:textures/quests/seeds_g_ae2.png",
-      id: "6C5F32AD5FF7A914",
-    },
-    {
-      x: -1.8765,
-      y: 25.5,
-      width: 2.1529,
-      height: 0.6,
-      rotation: 0.0,
-      image: "gspack:textures/quests/seeds_g_soulium.png",
-      id: "7F3C0DDB955F1E7D",
-    },
-    {
-      x: -2.0706,
-      y: 0.0,
-      width: 2.5412,
-      height: 0.6,
-      rotation: 0.0,
-      image: "gspack:textures/quests/seeds_g_elemental.png",
-      id: "4B2CC897D303B309",
-    },
-    {
-      x: -1.6471,
-      y: 7.5,
-      width: 1.6941,
-      height: 0.6,
-      rotation: 0.0,
-      image: "gspack:textures/quests/seeds_g_t3.png",
-      id: "2BF35BCF2AB8FBEA",
-    },
-  ],
+  {
+    "x": 6.800000000000001,
+    "y": -4.11875,
+    "width": 12,
+    "height": 1.4375,
+    "rotation": 0,
+    "image": "gspack:textures/quests/seeds_header.png",
+    "color": 16777215,
+    "alpha": 255,
+    "order": 0,
+    "corner": false
+  },
+  {
+    "x": -2.458823529411765,
+    "y": 28.5,
+    "width": 3.317647058823529,
+    "height": 0.6,
+    "rotation": 0,
+    "image": "gspack:textures/quests/seeds_g_atm.png",
+    "color": 16777215,
+    "alpha": 255,
+    "order": 0,
+    "corner": false
+  },
+  {
+    "x": -1.664705882352941,
+    "y": 13.5,
+    "width": 1.7294117647058822,
+    "height": 0.6,
+    "rotation": 0,
+    "image": "gspack:textures/quests/seeds_g_alloys.png",
+    "color": 16777215,
+    "alpha": 255,
+    "order": 0,
+    "corner": false
+  },
+  {
+    "x": -2.0882352941176467,
+    "y": 16.5,
+    "width": 2.576470588235294,
+    "height": 0.6,
+    "rotation": 0,
+    "image": "gspack:textures/quests/seeds_g_mekanism.png",
+    "color": 16777215,
+    "alpha": 255,
+    "order": 0,
+    "corner": false
+  },
+  {
+    "x": -1.8058823529411765,
+    "y": 21,
+    "width": 2.011764705882353,
+    "height": 0.6,
+    "rotation": 0,
+    "image": "gspack:textures/quests/seeds_g_tinkers.png",
+    "color": 16777215,
+    "alpha": 255,
+    "order": 0,
+    "corner": false
+  },
+  {
+    "x": -1.4705882352941178,
+    "y": 18,
+    "width": 1.3411764705882352,
+    "height": 0.6,
+    "rotation": 0,
+    "image": "gspack:textures/quests/seeds_g_ae2.png",
+    "color": 16777215,
+    "alpha": 255,
+    "order": 0,
+    "corner": false
+  },
+  {
+    "x": -1.6470588235294117,
+    "y": 7.5,
+    "width": 1.6941176470588235,
+    "height": 0.6,
+    "rotation": 0,
+    "image": "gspack:textures/quests/seeds_g_t3.png",
+    "color": 16777215,
+    "alpha": 255,
+    "order": 0,
+    "corner": false
+  },
+  {
+    "x": -1.6470588235294117,
+    "y": 9,
+    "width": 1.6941176470588235,
+    "height": 0.6,
+    "rotation": 0,
+    "image": "gspack:textures/quests/seeds_g_t4.png",
+    "color": 16777215,
+    "alpha": 255,
+    "order": 0,
+    "corner": false
+  },
+  {
+    "x": -1.7529411764705882,
+    "y": 24,
+    "width": 1.9058823529411764,
+    "height": 0.6,
+    "rotation": 0,
+    "image": "gspack:textures/quests/seeds_g_powah.png",
+    "color": 16777215,
+    "alpha": 255,
+    "order": 0,
+    "corner": false
+  },
+  {
+    "x": -2.0176470588235293,
+    "y": 30,
+    "width": 2.4352941176470586,
+    "height": 0.6,
+    "rotation": 0,
+    "image": "gspack:textures/quests/seeds_g_modores.png",
+    "color": 16777215,
+    "alpha": 255,
+    "order": 0,
+    "corner": false
+  },
+  {
+    "x": -1.611764705882353,
+    "y": 4.5,
+    "width": 1.6235294117647059,
+    "height": 0.6,
+    "rotation": 0,
+    "image": "gspack:textures/quests/seeds_g_mobs.png",
+    "color": 16777215,
+    "alpha": 255,
+    "order": 0,
+    "corner": false
+  },
+  {
+    "x": -2.0705882352941174,
+    "y": 0,
+    "width": 2.541176470588235,
+    "height": 0.6,
+    "rotation": 0,
+    "image": "gspack:textures/quests/seeds_g_elemental.png",
+    "color": 16777215,
+    "alpha": 255,
+    "order": 0,
+    "corner": false
+  },
+  {
+    "x": -1.8941176470588235,
+    "y": 22.5,
+    "width": 2.188235294117647,
+    "height": 0.6,
+    "rotation": 0,
+    "image": "gspack:textures/quests/seeds_g_twilight.png",
+    "color": 16777215,
+    "alpha": 255,
+    "order": 0,
+    "corner": false
+  },
+  {
+    "x": -1.7352941176470589,
+    "y": 12,
+    "width": 1.8705882352941177,
+    "height": 0.6,
+    "rotation": 0,
+    "image": "gspack:textures/quests/seeds_g_metals.png",
+    "color": 16777215,
+    "alpha": 255,
+    "order": 0,
+    "corner": false
+  },
+  {
+    "x": -1.964705882352941,
+    "y": 19.5,
+    "width": 2.329411764705882,
+    "height": 0.6,
+    "rotation": 0,
+    "image": "gspack:textures/quests/seeds_g_enderio.png",
+    "color": 16777215,
+    "alpha": 255,
+    "order": 0,
+    "corner": false
+  },
+  {
+    "x": -1.6470588235294117,
+    "y": 27,
+    "width": 1.6941176470588235,
+    "height": 0.6,
+    "rotation": 0,
+    "image": "gspack:textures/quests/seeds_g_t6.png",
+    "color": 16777215,
+    "alpha": 255,
+    "order": 0,
+    "corner": false
+  },
+  {
+    "x": -1.6294117647058823,
+    "y": 15,
+    "width": 1.6588235294117646,
+    "height": 0.6,
+    "rotation": 0,
+    "image": "gspack:textures/quests/seeds_g_gems.png",
+    "color": 16777215,
+    "alpha": 255,
+    "order": 0,
+    "corner": false
+  },
+  {
+    "x": -1.6470588235294117,
+    "y": 3,
+    "width": 1.6941176470588235,
+    "height": 0.6,
+    "rotation": 0,
+    "image": "gspack:textures/quests/seeds_g_t2.png",
+    "color": 16777215,
+    "alpha": 255,
+    "order": 0,
+    "corner": false
+  },
+  {
+    "x": -1.8764705882352941,
+    "y": 25.5,
+    "width": 2.152941176470588,
+    "height": 0.6,
+    "rotation": 0,
+    "image": "gspack:textures/quests/seeds_g_soulium.png",
+    "color": 16777215,
+    "alpha": 255,
+    "order": 0,
+    "corner": false
+  },
+  {
+    "x": -1.6470588235294117,
+    "y": 10.5,
+    "width": 1.6941176470588235,
+    "height": 0.6,
+    "rotation": 0,
+    "image": "gspack:textures/quests/seeds_g_t5.png",
+    "color": 16777215,
+    "alpha": 255,
+    "order": 0,
+    "corner": false
+  },
+  {
+    "x": -1.6470588235294117,
+    "y": 1.5,
+    "width": 1.6941176470588235,
+    "height": 0.6,
+    "rotation": 0,
+    "image": "gspack:textures/quests/seeds_g_t1.png",
+    "color": 16777215,
+    "alpha": 255,
+    "order": 0,
+    "corner": false
+  }
+],
 }

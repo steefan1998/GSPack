@@ -11,7 +11,8 @@ Everything in the world is made of &easpects&r. The six &eprimal&r aspects are:
 
 Find a crystal of each aspect growing in caves and break it for its &eVis Crystals&r.
 '@
-Q 'salis' 'Salis Mundus' 'thaumaturge:salis_mundus*4' 'crystals' 'xp:50' -size 1.5 -shape 'gear' -desc 'Combine crystals with redstone and flint to make &eSalis Mundus&r, the magical dust that turns ordinary blocks into magical ones.'
+Q 'dream' 'A Strange Dream' 'stage:gspack_thaumaturge_slept@minecraft:red_bed|Sleep in a bed' 'crystals' 'xp:50' -icon 'minecraft:red_bed' -desc 'Thaumaturge begins with a dream. After discovering Vis Crystals, sleep in an Overworld bed and read the dream or research notification when you wake up. If you slept before finding crystals and the mod has not started its research, sleep again after discovering them. This quest recognises your recorded bed-sleep statistic; the mod still handles its own dream progression.'
+Q 'salis' 'Salis Mundus' 'thaumaturge:salis_mundus*4' 'dream' 'xp:50' -size 1.5 -shape 'gear' -desc 'Combine crystals with redstone and flint to make &eSalis Mundus&r, the magical dust that turns ordinary blocks into magical ones.'
 Q 'book' 'Thaumonomicon' 'thaumaturge:thaumonomicon' 'salis' 'xp:50' -desc @'
 Use Salis Mundus on a bookshelf to make the &eThaumonomicon&r. All your research lives in this book.
 

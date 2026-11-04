@@ -1,18 +1,18 @@
 {
   "chapter.20E42E4C1E46563E.chapter_subtitle": [
-    "Enchanting, affix loot, gems, adventure and spawners.",
+    "Enchanting, affix loot, gems, adventure and spawners."
   ],
   "chapter.20E42E4C1E46563E.title": "Apotheosis",
   "quest.02331199FBBA102A.quest_desc": [
-    "This rune lets the spawner work even when no player is nearby.",
+    "This rune lets the spawner work even when no player is nearby."
   ],
   "quest.02331199FBBA102A.title": "No Players Needed",
   "quest.036E58938C1711E4.quest_desc": [
-    "Special sigils that change affixes in powerful ways. Check JEI for what each one does.",
+    "Special sigils that change affixes in powerful ways. Check JEI for what each one does."
   ],
   "quest.036E58938C1711E4.title": "More Sigils",
   "quest.0A2172DCCEA2116B.quest_desc": [
-    "Runes can increase spawn count, max nearby mobs, spawn range, and speed. Check JEI for each rune's effect.",
+    "Runes can increase spawn count, max nearby mobs, spawn range, and speed. Check JEI for each rune's effect."
   ],
   "quest.0A2172DCCEA2116B.title": "More Mobs",
   "quest.0E640229B0CEAA89.quest_desc": [
@@ -23,34 +23,34 @@
     "- &cQuanta&r: how random the results are (and how strong they can roll).",
     "- &dArcana&r: how rare and how many enchantments you get.",
     "",
-    "Different bookshelves give different stats. Look at the stats in the table's GUI!",
+    "Different bookshelves give different stats. Look at the stats in the table's GUI!"
   ],
   "quest.0E640229B0CEAA89.quest_subtitle": "Apothic Enchanting",
   "quest.0E640229B0CEAA89.title": "A New Kind of Enchanting",
   "quest.1346C69E953D3293.quest_desc": [
-    "One of the rarest materials in Apotheosis, used for the most powerful upgrades.",
+    "One of the rarest materials in Apotheosis, used for the most powerful upgrades."
   ],
   "quest.1346C69E953D3293.title": "Godforged",
   "quest.15E6D193E088A80D.quest_desc": [
-    "Sculk shelves from the Deep Dark. Watch out for the Warden!",
+    "Sculk shelves from the Deep Dark. Watch out for the Warden!"
   ],
   "quest.15E6D193E088A80D.title": "Echoing Sculkshelf",
   "quest.16A73685F0E11F74.quest_desc": [
-    "Removes the gems from an item without breaking them.",
+    "Removes the gems from an item without breaking them."
   ],
   "quest.16A73685F0E11F74.title": "Sigil of Withdrawal",
   "quest.171A777DBE6F4AF7.quest_desc": [
     "Infuse shelves by &eenchanting the shelf itself&r in an enchanting table with high enough stats. The table shows special \"infusion\" recipes when it can.",
     "",
-    "Infused shelves are much stronger.",
+    "Infused shelves are much stronger."
   ],
   "quest.171A777DBE6F4AF7.title": "Infused Shelves",
   "quest.1766D169F849CC07.quest_desc": [
-    "One of the strongest sigils.",
+    "One of the strongest sigils."
   ],
   "quest.1766D169F849CC07.title": "Sigil of Supremacy",
   "quest.1B9B8A2C8C823B86.quest_desc": [
-    "A library with a much higher level cap.",
+    "A library with a much higher level cap."
   ],
   "quest.1B9B8A2C8C823B86.title": "Ender Library",
   "quest.1F6096770C121F0F.quest_desc": [
@@ -58,181 +58,181 @@
     "",
     "Rarity, from worst to best: &7Common&r, &aUncommon&r, &9Rare&r, &5Epic&r, &6Mythic&r and more.",
     "",
-    "Salvage affix items you do not need for rarity materials.",
+    "Salvage affix items you do not need for rarity materials."
   ],
   "quest.1F6096770C121F0F.quest_subtitle": "Adventure Module",
   "quest.1F6096770C121F0F.title": "Affix Loot",
   "quest.1F6286B4C6B65AFB.quest_desc": [
     "- &eScrap Tome&r: destroys an item and gives a book with some of its enchantments.",
     "- &eImproved Scrap Tome&r: gives all enchantments.",
-    "- &eExtraction Tome&r: removes all enchantments without destroying the item.",
+    "- &eExtraction Tome&r: removes all enchantments without destroying the item."
   ],
   "quest.1F6286B4C6B65AFB.title": "Tomes",
   "quest.205AAE796A8ED9E7.quest_desc": [
-    "Made from deep dark materials. A big step up in Eterna.",
+    "Made from deep dark materials. A big step up in Eterna."
   ],
   "quest.205AAE796A8ED9E7.title": "Deepshelf",
   "quest.2230DD641161A337.quest_desc": [
-    "Monsters can spawn with affixes and better gear too. Kill 50 zombies and see what drops!",
+    "Monsters can spawn with affixes and better gear too. Kill 50 zombies and see what drops!"
   ],
   "quest.2230DD641161A337.title": "Elite Hunter",
   "quest.24E1D7F31C0BA376.quest_desc": [
-    "Combine identical gems to upgrade their rarity. Salvage unwanted gems into &eGem Dust&r.",
+    "Combine identical gems to upgrade their rarity. Salvage unwanted gems into &eGem Dust&r."
   ],
   "quest.24E1D7F31C0BA376.title": "Gem Cutting Table",
   "quest.255930C41BF7D5ED.quest_desc": [
-    "Typed tomes can be enchanted with enchantments for that tool type, then put on the tool in an anvil.",
+    "Typed tomes can be enchanted with enchantments for that tool type, then put on the tool in an anvil."
   ],
   "quest.255930C41BF7D5ED.title": "Typed Tomes",
   "quest.26F71346A9320B95.quest_desc": [
-    "Upgrade or reroll single affixes on your favourite gear.",
+    "Upgrade or reroll single affixes on your favourite gear."
   ],
   "quest.26F71346A9320B95.title": "Augmenting Table",
   "quest.2731E3DC3AC76EB6.quest_desc": [
-    "Shows the stats of nearby shelves when you look at them.",
+    "Shows the stats of nearby shelves when you look at them."
   ],
   "quest.2731E3DC3AC76EB6.title": "Sightshelf",
   "quest.2995E651D56DEA66.quest_desc": [
-    "Turns affix items into rarity materials based on their rarity.",
+    "Turns affix items into rarity materials based on their rarity."
   ],
   "quest.2995E651D56DEA66.title": "Salvaging Table",
   "quest.2AAC21219A5D3F8F.quest_desc": [
     "Each shelf type adds Eterna, Quanta and/or Arcana, up to a maximum. To reach level 100+ enchants, you need the strongest shelves.",
     "",
-    "&6Tip:&r Hover over a shelf in JEI to see exactly what stats it gives. The &eSightshelf&r shows the stats in the world.",
+    "&6Tip:&r Hover over a shelf in JEI to see exactly what stats it gives. The &eSightshelf&r shows the stats in the world."
   ],
   "quest.2AAC21219A5D3F8F.title": "Reading the Stats",
   "quest.3013834E0ECED732.quest_desc": [
-    "Rare materials for the best shelves and special recipes. The Warden Tendril comes from... the Warden.",
+    "Rare materials for the best shelves and special recipes. The Warden Tendril comes from... the Warden."
   ],
   "quest.3013834E0ECED732.title": "Enchanting Materials",
   "quest.3041150808B4EF94.quest_desc": [
-    "Upgrades the gems that are already socketed into an item.",
+    "Upgrades the gems that are already socketed into an item."
   ],
   "quest.3041150808B4EF94.title": "Sigil of Enhancement",
   "quest.307865E05B087381.quest_desc": [
-    "Apotheosis adds smithing templates that upgrade gear material while keeping the affixes.",
+    "Apotheosis adds smithing templates that upgrade gear material while keeping the affixes."
   ],
   "quest.307865E05B087381.title": "Upgrade Templates",
   "quest.3844378BA9ED680B.quest_desc": [
-    "Reroll the affixes of an item using rarity materials and gem dust. The full &eReforging Table&r handles higher rarities.",
+    "Reroll the affixes of an item using rarity materials and gem dust. The full &eReforging Table&r handles higher rarities."
   ],
   "quest.3844378BA9ED680B.title": "Reforging Table",
   "quest.3BD283833F32FA67.quest_desc": [
-    "Silences the spawner and its mobs.",
+    "Silences the spawner and its mobs."
   ],
   "quest.3BD283833F32FA67.title": "Silence",
   "quest.3DF81B882A534EFB.quest_desc": [
-    "Needs a dragon head. One of the very best shelves.",
+    "Needs a dragon head. One of the very best shelves."
   ],
   "quest.3DF81B882A534EFB.title": "Draconic Endshelf",
   "quest.41BCF8BB904AA751.quest_desc": [
-    "Turn the spawner on and off with redstone.",
+    "Turn the spawner on and off with redstone."
   ],
   "quest.41BCF8BB904AA751.title": "Redstone Control",
   "quest.4369E2408BC93C8C.quest_desc": [
-    "The basic rune. Combine it with other items to make specific runes. Apply runes by right-clicking the spawner.",
+    "The basic rune. Combine it with other items to make specific runes. Apply runes by right-clicking the spawner."
   ],
   "quest.4369E2408BC93C8C.title": "Spawner Runes",
   "quest.45E7715EFBEB197C.quest_desc": [
-    "Upgrade runes raise the limits of a spawner's stats. Collect the full set: Frontier, Ascent, Summit and Pinnacle.",
+    "Upgrade runes raise the limits of a spawner's stats. Collect the full set: Frontier, Ascent, Summit and Pinnacle."
   ],
   "quest.45E7715EFBEB197C.title": "Spawner Upgrades",
   "quest.4A9117079066DAAF.quest_desc": [
     "Store enchanted books in the Library. It stores the enchantments, not the books, and you can take out exactly the enchantment and level you want.",
     "",
-    "Two books of the same level combine into the next level, up to the library's cap.",
+    "Two books of the same level combine into the next level, up to the library's cap."
   ],
   "quest.4A9117079066DAAF.title": "Enchantment Library",
   "quest.4C7FF803BDCA94E2.quest_desc": [
-    "Use it in a smithing table to add a socket to an item.",
+    "Use it in a smithing table to add a socket to an item."
   ],
   "quest.4C7FF803BDCA94E2.title": "Sigil of Socketing",
   "quest.4D29D71C4EA68DD6.quest_desc": [
-    "The highest spawner upgrade. Your mob farm is now unstoppable.",
+    "The highest spawner upgrade. Your mob farm is now unstoppable."
   ],
   "quest.4D29D71C4EA68DD6.title": "Pinnacle Spawner",
   "quest.5110644C0EAE0BDB.quest_desc": [
     "Bosses spawn naturally in the world (and can be summoned with the &eBoss Summoner&r). They are tough, have affix gear, and drop great loot.",
     "",
-    "&cBe prepared!&r",
+    "&cBe prepared!&r"
   ],
   "quest.5110644C0EAE0BDB.title": "Apotheosis Bosses",
   "quest.5167611CE78CD81B.quest_desc": [
-    "Spawned mobs have no AI: they stand still. Perfect for a safe mob farm.",
+    "Spawned mobs have no AI: they stand still. Perfect for a safe mob farm."
   ],
   "quest.5167611CE78CD81B.title": "Mindless",
   "quest.51C412195C1E92F9.quest_desc": [
-    "Made from prismarine. Adds Eterna and Arcana.",
+    "Made from prismarine. Adds Eterna and Arcana."
   ],
   "quest.51C412195C1E92F9.title": "Seashelf",
   "quest.525C13E3C87AAB57.quest_desc": [
-    "The End holds the strongest shelves.",
+    "The End holds the strongest shelves."
   ],
   "quest.525C13E3C87AAB57.title": "Endshelf",
   "quest.59F60E1698228111.quest_desc": [
-    "Made from nether bricks. Adds Eterna and Quanta.",
+    "Made from nether bricks. Adds Eterna and Quanta."
   ],
   "quest.59F60E1698228111.title": "Hellshelf",
   "quest.5AED9A2A0FA9FBDF.quest_desc": [
-    "Mobs spawn even in full light.",
+    "Mobs spawn even in full light."
   ],
   "quest.5AED9A2A0FA9FBDF.title": "Lights On",
   "quest.5BF92882A23A1A34.quest_desc": [
-    "Reforge items up to the highest rarities.",
+    "Reforge items up to the highest rarities."
   ],
   "quest.5BF92882A23A1A34.title": "Master Reforger",
   "quest.64ACB0AEC2543526.quest_desc": [
-    "A charm that gives you a potion effect permanently, using up potions as fuel.",
+    "A charm that gives you a potion effect permanently, using up potions as fuel."
   ],
   "quest.64ACB0AEC2543526.title": "Potion Charm",
   "quest.6541A79BA1CF2FE9.quest_desc": [
-    "Put enchanted books in it to block those enchantments from the table.",
+    "Put enchanted books in it to block those enchantments from the table."
   ],
   "quest.6541A79BA1CF2FE9.title": "Filtering Shelf",
   "quest.66B64C036563B1A5.quest_desc": [
-    "A shelf that lowers Arcana and Eterna. Useful for fine-tuning.",
+    "A shelf that lowers Arcana and Eterna. Useful for fine-tuning."
   ],
   "quest.66B64C036563B1A5.title": "Stoneshelf",
   "quest.6A127CCD085FD524.quest_desc": [
     "In this pack, spawners can be mined with a &eSilk Touch&r pickaxe and placed anywhere.",
     "",
-    "&bApothic Spawners&r lets you upgrade them with &erunes&r. You can also right-click a spawner with a spawn egg to change its mob.",
+    "&bApothic Spawners&r lets you upgrade them with &erunes&r. You can also right-click a spawner with a spawn egg to change its mob."
   ],
   "quest.6A127CCD085FD524.quest_subtitle": "Apothic Spawners",
   "quest.6A127CCD085FD524.title": "Spawner Hunting",
   "quest.74B7C58E311667B6.quest_desc": [
-    "Apotheosis adds towers with tough enemies and good loot. Find one!",
+    "Apotheosis adds towers with tough enemies and good loot. Find one!"
   ],
   "quest.74B7C58E311667B6.title": "Adventure Towers",
   "quest.76549D310F3BCD52.quest_desc": [
-    "Reach experience level 50. You will need it for the strongest enchantments!",
+    "Reach experience level 50. You will need it for the strongest enchantments!"
   ],
   "quest.76549D310F3BCD52.title": "Level 50 Enchanting",
   "quest.765EF0A77E33E311.quest_desc": [
-    "Stores your gem collection.",
+    "Stores your gem collection."
   ],
   "quest.765EF0A77E33E311.title": "Gem Case",
   "quest.76A4A166533AC480.quest_desc": [
-    "Lets the table roll treasure enchantments like Mending and Frost Walker.",
+    "Lets the table roll treasure enchantments like Mending and Frost Walker."
   ],
   "quest.76A4A166533AC480.title": "Treasure Shelf",
   "quest.78BAB5BFDF395D81.quest_desc": [
-    "Special seashelves with extra Arcana.",
+    "Special seashelves with extra Arcana."
   ],
   "quest.78BAB5BFDF395D81.title": "Crystal \\& Heart Seashelf",
   "quest.7CB9A35FD56D763A.quest_desc": [
     "Gems drop from monsters and chests. Put them into the &esockets&r of your gear for extra stats.",
     "",
-    "Each gem has a rarity, and gives different bonuses depending on the item type it is in (weapon, armor, tool, bow...).",
+    "Each gem has a rarity, and gives different bonuses depending on the item type it is in (weapon, armor, tool, bow...)."
   ],
   "quest.7CB9A35FD56D763A.title": "Gems",
   "quest.7ED461B0BD3180C8.quest_desc": [
-    "Silly but useful: they change Quanta and Arcana in special ways.",
+    "Silly but useful: they change Quanta and Arcana in special ways."
   ],
   "quest.7ED461B0BD3180C8.title": "Beeshelf \\& Melonshelf",
   "quest.7F06D746292B3817.quest_desc": [
-    "Special hellshelves with extra Quanta.",
+    "Special hellshelves with extra Quanta."
   ],
-  "quest.7F06D746292B3817.title": "Glowing \\& Blazing",
+  "quest.7F06D746292B3817.title": "Glowing \\& Blazing"
 }

@@ -9,77 +9,137 @@
       id: "2B7F6FBEF7E0BF3A",
       item: {
         id: "aquaculture:worm",
-        count: 1,
+        count: 1
       },
       count: 16,
-      weight: 20.0,
+      weight: 20
     },
     {
       id: "57F4EF08BB4DA5E0",
       item: {
         id: "aquaculture:fish_fillet_raw",
-        count: 1,
+        count: 1
       },
       count: 8,
-      weight: 15.0,
+      weight: 15
     },
     {
       id: "66EC9B84EC748F3F",
       item: {
         id: "aquaculture:fishing_line",
-        count: 1,
+        count: 1
       },
       count: 4,
-      weight: 12.0,
+      weight: 12
     },
     {
       id: "50719C448AB3C2A9",
       item: {
         id: "aquaculture:iron_hook",
-        count: 1,
+        count: 1
       },
-      weight: 10.0,
+      weight: 10
     },
     {
       id: "2A1DE1CFDDA2CA52",
       item: {
         id: "aquaculture:gold_hook",
-        count: 1,
+        count: 1
       },
-      weight: 8.0,
+      weight: 8
     },
     {
       id: "38E50A156DC782A1",
       item: {
         id: "aquaculture:box",
-        count: 1,
+        count: 1
       },
-      weight: 10.0,
+      weight: 10
     },
     {
       id: "3D0EA72DE7120309",
       item: {
         id: "aquaculture:lockbox",
-        count: 1,
+        count: 1
       },
-      weight: 6.0,
+      weight: 6
     },
     {
       id: "1973E0ABCDC79688",
       item: {
         id: "aquaculture:treasure_chest",
-        count: 1,
+        count: 1
       },
-      weight: 3.0,
+      weight: 3
     },
     {
       id: "54ADFD4F6E1D4AB3",
       item: {
         id: "aquaculture:neptunium_nugget",
-        count: 1,
+        count: 1
       },
       count: 4,
-      weight: 5.0,
+      weight: 5
     },
-  ],
+    {
+      id: "5CCE1A3EC8CF62ED",
+      type: "item",
+      item: {
+        count: 1,
+        id: "minecraft:cod"
+      },
+      count: 8,
+      weight: 12
+    },
+    {
+      id: "375ADFFC87C7901A",
+      type: "item",
+      item: {
+        count: 1,
+        id: "minecraft:salmon"
+      },
+      count: 8,
+      weight: 12
+    },
+    {
+      id: "62712D93AB2FA967",
+      type: "item",
+      item: {
+        count: 1,
+        id: "minecraft:kelp"
+      },
+      count: 16,
+      weight: 10
+    },
+    {
+      id: "653318544BD06DA0",
+      type: "item",
+      item: {
+        count: 1,
+        id: "minecraft:sea_pickle"
+      },
+      count: 4,
+      weight: 6
+    },
+    {
+      id: "1154777992DC046D",
+      type: "item",
+      item: {
+        count: 1,
+        id: "minecraft:prismarine_shard"
+      },
+      count: 8,
+      weight: 6
+    },
+    {
+      id: "0EC755A42BA925F0",
+      type: "item",
+      item: {
+        count: 1,
+        id: "minecraft:lily_pad"
+      },
+      count: 4,
+      weight: 6
+    }
+  ]
 }

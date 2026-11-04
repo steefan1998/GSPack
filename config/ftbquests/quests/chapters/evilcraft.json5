@@ -8,13 +8,13 @@
   },
   filename: "evilcraft",
   default_quest_shape: "",
-  default_hide_dependency_lines: true,
+  default_hide_dependency_lines: false,
   quests: [
     {
-      x: 0.0,
-      y: 1.45,
+      x: 0,
+      y: 0,
       shape: "gear",
-      size: 1.5,
+      size: 1.3,
       id: "474FB2406FDE78C7",
       tasks: [
         {
@@ -42,12 +42,12 @@
       ],
     },
     {
-      x: 1.6,
-      y: 1.45,
-      dependencies: [
-        "474FB2406FDE78C7",
-      ],
-      size: 1.0,
+      x: 1.8,
+      y: 0,
+      dependencies: ["474FB2406FDE78C7"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"474FB2406FDE78C7":[0,0,1.8,0]},
       id: "773C631575C36B48",
       tasks: [
         {
@@ -68,12 +68,12 @@
       ],
     },
     {
-      x: 3.2,
-      y: 1.45,
-      dependencies: [
-        "773C631575C36B48",
-      ],
-      size: 1.0,
+      x: 3.6,
+      y: 0,
+      dependencies: ["773C631575C36B48"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"773C631575C36B48":[1.8,0,3.6,0]},
       id: "23AA664A8D9B98AE",
       tasks: [
         {
@@ -100,12 +100,13 @@
       ],
     },
     {
-      x: 0.0,
-      y: 4.3,
-      dependencies: [
-        "474FB2406FDE78C7",
-      ],
-      size: 1.0,
+      x: 12.5,
+      y: 0,
+      dependencies: ["474FB2406FDE78C7"],
+      hide_dependency_lines: true,
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"474FB2406FDE78C7":[0,0,12.5,0]},
       id: "0C3AAEC37FE182C2",
       tasks: [
         {
@@ -126,12 +127,12 @@
       ],
     },
     {
-      x: 1.6,
-      y: 4.3,
-      dependencies: [
-        "0C3AAEC37FE182C2",
-      ],
-      size: 1.0,
+      x: 11.6,
+      y: 1.8,
+      dependencies: ["0C3AAEC37FE182C2"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"0C3AAEC37FE182C2":[12.5,0,11.6,1.8]},
       id: "07D7D774AA3A3F67",
       tasks: [
         {
@@ -152,12 +153,12 @@
       ],
     },
     {
-      x: 3.2,
-      y: 4.3,
-      dependencies: [
-        "07D7D774AA3A3F67",
-      ],
-      size: 1.5,
+      x: 12.5,
+      y: 3.6,
+      dependencies: ["07D7D774AA3A3F67"],
+      shape: "gear",
+      size: 1.3,
+      dep_control_pts: {"07D7D774AA3A3F67":[11.6,1.8,12.5,3.6]},
       id: "49AAE5255D7B23C7",
       tasks: [
         {
@@ -184,13 +185,13 @@
       ],
     },
     {
-      x: 1.6,
-      y: 5.8,
-      dependencies: [
-        "0C3AAEC37FE182C2",
-      ],
-      size: 1.0,
+      x: 13.4,
+      y: 1.8,
       optional: true,
+      dependencies: ["0C3AAEC37FE182C2"],
+      shape: "diamond",
+      size: 1,
+      dep_control_pts: {"0C3AAEC37FE182C2":[12.5,0,13.4,1.8]},
       id: "0FC4E2ED44CF001C",
       tasks: [
         {
@@ -212,12 +213,12 @@
       ],
     },
     {
-      x: 4.8,
-      y: 4.3,
-      dependencies: [
-        "49AAE5255D7B23C7",
-      ],
-      size: 1.0,
+      x: 11.6,
+      y: 5.4,
+      dependencies: ["49AAE5255D7B23C7"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"49AAE5255D7B23C7":[12.5,3.6,11.6,5.4]},
       id: "2A19A0D22C67C534",
       tasks: [
         {
@@ -238,13 +239,13 @@
       ],
     },
     {
-      x: 4.8,
-      y: 5.8,
-      dependencies: [
-        "49AAE5255D7B23C7",
-      ],
-      size: 1.0,
+      x: 13.4,
+      y: 5.4,
       optional: true,
+      dependencies: ["49AAE5255D7B23C7"],
+      shape: "diamond",
+      size: 1,
+      dep_control_pts: {"49AAE5255D7B23C7":[12.5,3.6,13.4,5.4]},
       id: "644373722FB27198",
       tasks: [
         {
@@ -265,12 +266,13 @@
       ],
     },
     {
-      x: 0.0,
-      y: 9.9,
-      dependencies: [
-        "474FB2406FDE78C7",
-      ],
-      size: 1.0,
+      x: 0,
+      y: 8.6,
+      dependencies: ["474FB2406FDE78C7"],
+      hide_dependency_lines: true,
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"474FB2406FDE78C7":[0,0,0,8.6]},
       id: "0CCF566503355370",
       tasks: [
         {
@@ -291,12 +293,12 @@
       ],
     },
     {
-      x: 1.6,
-      y: 9.9,
-      dependencies: [
-        "0CCF566503355370",
-      ],
-      size: 1.0,
+      x: 1.8,
+      y: 10.4,
+      dependencies: ["0CCF566503355370"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"0CCF566503355370":[0,8.6,1.8,10.4]},
       id: "6165C0911728C01E",
       tasks: [
         {
@@ -321,12 +323,12 @@
       ],
     },
     {
-      x: 3.2,
-      y: 9.9,
-      dependencies: [
-        "6165C0911728C01E",
-      ],
-      size: 1.0,
+      x: 3.6,
+      y: 10.4,
+      dependencies: ["6165C0911728C01E"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"6165C0911728C01E":[1.8,10.4,3.6,10.4]},
       id: "565DBCE068587453",
       tasks: [
         {
@@ -347,13 +349,13 @@
       ],
     },
     {
-      x: 4.8,
-      y: 9.9,
-      dependencies: [
-        "565DBCE068587453",
-        "49AAE5255D7B23C7",
-      ],
-      size: 1.0,
+      x: 5.4,
+      y: 10.4,
+      dependencies: ["565DBCE068587453","49AAE5255D7B23C7"],
+      hide_dependency_lines: true,
+      shape: "hexagon",
+      size: 1,
+      dep_control_pts: {"565DBCE068587453":[3.6,10.4,5.4,10.4],"49AAE5255D7B23C7":[12.5,3.6,5.4,10.4]},
       id: "70C05CE545CC1D69",
       tasks: [
         {
@@ -380,12 +382,13 @@
       ],
     },
     {
-      x: 0.0,
-      y: 11.4,
-      dependencies: [
-        "474FB2406FDE78C7",
-      ],
-      size: 1.0,
+      x: 0,
+      y: 10.4,
+      dependencies: ["474FB2406FDE78C7"],
+      hide_dependency_lines: true,
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"474FB2406FDE78C7":[0,0,0,10.4]},
       id: "3B0A84F701F3F733",
       tasks: [
         {
@@ -418,13 +421,14 @@
       ],
     },
     {
-      x: 0.0,
-      y: 8.4,
-      dependencies: [
-        "474FB2406FDE78C7",
-      ],
-      size: 1.0,
+      x: 0,
+      y: 12.2,
       optional: true,
+      dependencies: ["474FB2406FDE78C7"],
+      hide_dependency_lines: true,
+      shape: "diamond",
+      size: 1,
+      dep_control_pts: {"474FB2406FDE78C7":[0,0,0,12.2]},
       id: "302821A7C06F1126",
       tasks: [
         {
@@ -454,12 +458,13 @@
       ],
     },
     {
-      x: 0.0,
-      y: 15.5,
-      dependencies: [
-        "23AA664A8D9B98AE",
-      ],
-      size: 1.0,
+      x: 13.4,
+      y: 8.6,
+      dependencies: ["23AA664A8D9B98AE"],
+      hide_dependency_lines: true,
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"23AA664A8D9B98AE":[3.6,0,13.4,8.6]},
       id: "45D2813A922F4D28",
       tasks: [
         {
@@ -480,12 +485,13 @@
       ],
     },
     {
-      x: 0.0,
-      y: 17.0,
-      dependencies: [
-        "49AAE5255D7B23C7",
-      ],
-      size: 1.5,
+      x: 13.4,
+      y: 10.4,
+      dependencies: ["49AAE5255D7B23C7"],
+      hide_dependency_lines: true,
+      shape: "gear",
+      size: 1.3,
+      dep_control_pts: {"49AAE5255D7B23C7":[12.5,3.6,13.4,10.4]},
       id: "6750758B4455A305",
       tasks: [
         {
@@ -512,13 +518,14 @@
       ],
     },
     {
-      x: 0.0,
-      y: 14.0,
-      dependencies: [
-        "49AAE5255D7B23C7",
-      ],
-      size: 1.0,
+      x: 13.4,
+      y: 12.2,
       optional: true,
+      dependencies: ["49AAE5255D7B23C7"],
+      hide_dependency_lines: true,
+      shape: "diamond",
+      size: 1,
+      dep_control_pts: {"49AAE5255D7B23C7":[12.5,3.6,13.4,12.2]},
       id: "2673AE7DFE6A35BA",
       tasks: [
         {
@@ -542,50 +549,65 @@
   quest_links: [
   ],
   images: [
-    {
-      x: 5.4,
-      y: -1.5188,
-      width: 12.0,
-      height: 1.4375,
-      rotation: 0.0,
-      image: "gspack:textures/quests/evilcraft_header.png",
-      id: "580E04A03B5B5195",
-    },
-    {
-      x: 0.3176,
-      y: 12.8,
-      width: 1.8353,
-      height: 0.6,
-      rotation: 0.0,
-      image: "gspack:textures/quests/evilcraft_accumulator.png",
-      id: "57A0E76B7B0716FE",
-    },
-    {
-      x: 0.2471,
-      y: 2.85,
-      width: 1.6941,
-      height: 0.6,
-      rotation: 0.0,
-      image: "gspack:textures/quests/evilcraft_extractor.png",
-      id: "78241A386C6AB050",
-    },
-    {
-      x: 1.4824,
-      y: 7.2,
-      width: 4.1647,
-      height: 0.6,
-      rotation: 0.0,
-      image: "gspack:textures/quests/evilcraft_glasses.png",
-      id: "7F020DC76B293FB7",
-    },
-    {
-      x: 0.9706,
-      y: 0.0,
-      width: 3.1412,
-      height: 0.6,
-      rotation: 0.0,
-      image: "gspack:textures/quests/evilcraft_dark_gem.png",
-      id: "1503185DAEAA3E6C",
-    },
-  ],
+  {
+    "x": 6.7,
+    "y": -1.7188,
+    "width": 12,
+    "height": 1.4375,
+    "rotation": 0,
+    "image": "gspack:textures/quests/evilcraft_header.png",
+    "color": 16777215,
+    "alpha": 255,
+    "order": 0,
+    "corner": false
+  },
+  {
+    "x": -2.9824,
+    "y": 8.6,
+    "width": 4.1647,
+    "height": 0.6,
+    "rotation": 0,
+    "image": "gspack:textures/quests/evilcraft_glasses.png",
+    "color": 16777215,
+    "alpha": 255,
+    "order": 0,
+    "corner": false
+  },
+  {
+    "x": 11.5824,
+    "y": 8.6,
+    "width": 1.8353,
+    "height": 0.6,
+    "rotation": 0,
+    "image": "gspack:textures/quests/evilcraft_accumulator.png",
+    "color": 16777215,
+    "alpha": 255,
+    "order": 0,
+    "corner": false
+  },
+  {
+    "x": -2.4706,
+    "y": 0,
+    "width": 3.1412,
+    "height": 0.6,
+    "rotation": 0,
+    "image": "gspack:textures/quests/evilcraft_dark_gem.png",
+    "color": 16777215,
+    "alpha": 255,
+    "order": 0,
+    "corner": false
+  },
+  {
+    "x": 9.8529,
+    "y": 0,
+    "width": 1.6941,
+    "height": 0.6,
+    "rotation": 0,
+    "image": "gspack:textures/quests/evilcraft_extractor.png",
+    "color": 16777215,
+    "alpha": 255,
+    "order": 0,
+    "corner": false
+  }
+],
 }

@@ -1,0 +1,46 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = pause_screen
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1793500000000
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:214a5347-f247-4970-8c64-dc77c6e7dbd3-1793500000000] = [groups:][instances:]
+}
+
+element {
+  source = [source:local]/config/fancymenu/assets/gspack/logo.png
+  repeat_texture = false
+  nine_slice_texture = false
+  nine_slice_texture_border_x = 5
+  nine_slice_texture_border_y = 5
+  image_tint = #FFFFFF
+  restart_animated_on_menu_load = false
+  element_type = image
+  instance_identifier = 36a8e3c1-5713-490c-aecd-78a2d4e17628-1793500000000
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 0
+  auto_sizing_base_screen_height = 0
+  sticky_anchor = false
+  anchor_point = top-centered
+  x = -66
+  y = 2
+  width = 132
+  height = 34
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 4ff71a3f-9d6b-44e4-b86b-b1215fdb32d5-1793500000000
+  [loading_requirement_container_meta:4ff71a3f-9d6b-44e4-b86b-b1215fdb32d5-1793500000000] = [groups:][instances:]
+}

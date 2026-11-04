@@ -6,6 +6,7 @@
 // tools/build-quests.ps1 and tools/convert-world.ps1. Changes need a full game restart.
 // [tag, preferred item, other items]
 global.GSPACK_UNIFY = [
+  ['c:silicon', 'ae2:silicon', ['enderio:silicon', 'oritech:silicon', 'stellaris:silicon']],
   ['c:dusts/bronze', 'alltheores:bronze_dust', ['mekanism:dust_bronze']],
   ['c:dusts/charcoal', 'mekanism:dust_charcoal', ['railcraft:charcoal_dust']],
   ['c:dusts/coal', 'mekanism:dust_coal', ['enderio:powdered_coal', 'oritech:coal_dust', 'railcraft:coal_dust']],

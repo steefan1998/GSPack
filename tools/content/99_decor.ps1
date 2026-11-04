@@ -6,7 +6,7 @@ Decorate 'progression' '#e0e0ff'
 Decorate 'trophy' '#c77dff'
 Decorate 'justdirethings' '#7fd36b' @{ goo1 = 'Goo'; ferricore_ore = 'Ferricore'; blazegold_ore = 'Blazegold'; celestigem = 'Celestigem'; eclipse_ore = 'Eclipse Alloy'; coal1 = 'Fuel, Fluids & Time'; generator = 'Machines'; upgrade_blank = 'Abilities'; voidshift = 'Wands & Gadgets' }
 Decorate 'basics' '#6cc04a' @{ wood = 'First Day'; iron = 'Iron Age'; diamonds = 'Diamonds & Enchanting'; nether = 'The Nether'; end = 'The End'; ancient_city = 'Exploration' }
-Decorate 'mekanism' '#3fa7e0' @{ osmium = 'Getting Started'; heat_gen = 'Power'; enrich = 'Ore Processing'; upgrades = 'Upgrades & Tiers'; transporter = 'Logistics'; disassembler = 'Gear'; dyntank = 'Nuclear & Multiblocks' }
+Decorate 'mekanism' '#3fa7e0' @{ osmium = 'Getting Started'; heat_gen = 'Power'; enrich = 'Ore Processing'; circuit = 'Control Circuits'; alloy = 'Alloys'; upgrades = 'Tier Installers & Factories'; transporter = 'Logistics'; disassembler = 'Gear'; dyntank = 'Nuclear & Multiblocks' }
 Decorate 'ae2' '#9b6be0' @{ certus = 'Quartz & Meteorites'; presses = 'Inscriber'; cable = 'The Network'; drive = 'Storage'; terminal = 'Terminals & Devices'; pattern = 'Autocrafting'; wireless = 'Wireless'; p2p = 'P2P & Quantum'; adv_ae = 'Advanced AE'; ex_start = 'AE2 Add-ons' }
 Decorate 'oritech' '#e8902a' @{ start = 'First Steps'; pulverizer = 'Processing'; addons = 'Machine Addons'; fuel_gen = 'Power'; pump = 'Fluids & Oil'; gantry = 'Automation'; laser = 'Lasers & Mining'; forge = 'Advanced Materials'; tools = 'Gear'; reactor = 'Endgame' }
 Decorate 'mystical' '#55c85a' @{ inferium = 'Getting Started'; altar = 'Infusion Altar'; watering = 'Farming Tools'; tools = 'Gear'; awakening = 'Awakening' }
@@ -32,5 +32,14 @@ Decorate 'stellaris' '#6f7ff0' @{ titanium = 'Ground Control'; power = 'Power'; 
 Decorate 'railcraft' '#8c5a3c' @{ coke_oven = 'Steel'; crowbar = 'Tracks'; loaders = 'Trains' }
 Decorate 'roots' '#5fa85a' @{ tablet = 'Herbalism'; spell = 'Spells'; altar = 'Rituals'; living_tools = 'Gear' }
 Decorate 'evilcraft' '#a8263a' @{ dark_gem = 'The First Age'; extractor = 'Blood'; glasses = 'Spirits & Monsters'; accumulator = 'Power' }
-Decorate 'utilities' '#4fb3c8' @{ tiab = 'Gadgets'; harvester = 'Pylons'; vector = 'Dark Utilities'; pm_mortar = 'Potions Master' }
+# Utilities categories
+Decorate 'utilities' '#67b7cc' @{ start='Choose Your Utility'; tiab='Time in a Bottle'; energy_meter='Energy Meter'; harvester='Pylons'; vector='Dark Utilities'; pm_mortar='Potions Master'; compass='Compasses'; waystone='Waystones'; magnet='Simple Magnets' }
 Decorate 'wildlife' '#c9a227' @{ lexicon = 'Living Things'; vv = 'Variants & Ventures' }
+Decorate 'productivebees' '#edb64b' @{ start='Getting Started'; hive='The Apiary'; centrifuge='Comb Processing'; breeding='Breeding & Genetics'; upgrade='Hive Upgrades'; bee_iron='Resource Specialists'; automation='Automation' }
+Decorate 'productivetrees' '#76bd65' @{ start='Pollination'; hybrid='Tree Breeding'; sawmill='Wood Workshop'; tree_walnut='The Arboretum'; fruit='Orchard Produce'; collection='Your Collection' }
+Decorate 'productivefarming' '#b0ce59' @{ start='Getting Started'; pollen='Crop Mutation'; crop_rice='Crop Collection'; controller='Farm Automation'; collection='A Diverse Harvest' }
+Decorate 'extendedcrafting' '#8aabdf' @{ start='Getting Started'; basic='Crafting Tables'; crystaltine='Endgame Materials'; auto_basic='Automation'; combination='Other Crafting Systems'; compressor='Singularities'; creative='Infinity' }
+
+Decorate 'farming' '#8cce55' @{ start='A Small Holding'; wheat='Field Crops'; carrots='Vegetables'; cows='Livestock'; orchard='Orchard & Pollinators'; automation='Farm Infrastructure' }
+Decorate 'hunting' '#da7657' @{ start='The Hunting Board'; zombie='Night Patrol'; slime='Special Hunts'; blaze='Nether Contracts'; enderman='The End'; wither='Boss Contracts' }
+Decorate 'neovitae' '#cf4663' @{ start='Blood & Knowledge'; altar='Ara Vitae'; orb_weak='Blood Orbs'; runes='Runes'; sigil='Sigils'; ritual='Rituals'; athanor='Alchemy & Automation' }

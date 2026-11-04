@@ -4,7 +4,7 @@ Chapter 'mekanism' 'Mekanism' 'mekanism:metallurgic_infuser' 'tech' 'Ore process
 Q 'osmium' 'The Blue Metal' 'tag:c:ingots/osmium*16@alltheores:osmium_ingot|16 Osmium Ingots (any mod)' '' 'xp:75;table:common' -size 1.5 -shape 'gear' -sub 'Osmium is the heart of Mekanism' -desc @'
 Welcome to &bMekanism&r, one of the biggest tech mods in the pack!
 
-Everything starts with &eosmium&r. It generates as ore underground. This pack has both Mekanism and AllTheOres osmium: they are interchangeable in recipes, but the quest needs Mekanism's ingot, so make sure it ends up as &eMekanism Osmium Ingots&r (for example, by smelting Mekanism dust later).
+Everything starts with &eosmium&r. Use an osmium ingot from any mod in the c:ingots/osmium tag. GSPack unifies matching materials to AllTheOres where possible.
 
 &6Tip:&r Press &eU&r on osmium in JEI to see the huge list of things it is used in.
 '@
@@ -116,19 +116,19 @@ Q 'upgrades' 'Machine Upgrades' 'mekanism:upgrade_speed*2;mekanism:upgrade_energ
 A machine takes up to 8 of each. Install them in the upgrade tab of the machine.
 '@
 Q 'muffler' 'Peace and Quiet' 'mekanism:upgrade_muffling' 'upgrades' 'xp:25' -opt -desc 'Machines too loud? Muffling Upgrades silence them.'
-Q 'adv_circuit' 'Advanced Circuits & Reinforced Alloy' 'mekanism:advanced_control_circuit*4;mekanism:alloy_reinforced*4' 'circuit,alloy' 'xp:150;table:tech' -desc 'Reinforced alloy is infused alloy infused with &bdiamond&r. Advanced circuits unlock the advanced tier.'
+Q 'adv_circuit' 'Advanced Control Circuit' 'mekanism:advanced_control_circuit*4' 'circuit,alloy' 'xp:150;table:tech' -desc 'Reinforced alloy is infused alloy infused with &bdiamond&r. Advanced circuits unlock the advanced tier.'
 Q 'installer' 'Tier Installers' 'mekanism:basic_tier_installer' 'upgrades,adv_circuit' 'xp:75' -desc 'Right-click a basic machine with a Tier Installer to turn it into a &eFactory&r that works on several items at once.'
 Q 'factory' 'Factories' 'mekanism:basic_smelting_factory;mekanism:basic_enriching_factory' 'installer' 'xp:150;table:uncommon' -desc 'A basic factory has 3 slots, advanced 5, elite 7, ultimate 9. Upgrade step by step with the next tier installer.'
-Q 'elite' 'Elite Tier' 'mekanism:elite_control_circuit*4;mekanism:elite_tier_installer' 'factory,refined_obsidian' 'xp:200;table:rare' -desc 'Elite circuits use reinforced alloy. Elite factories have 7 slots.'
-Q 'ultimate' 'Ultimate Tier' 'mekanism:ultimate_control_circuit*4;mekanism:alloy_atomic*4;mekanism:ultimate_tier_installer' 'elite' 'xp:300;table:epic' -desc 'Atomic alloy is reinforced alloy infused with refined obsidian. The ultimate tier is the best in base Mekanism.'
-Q 'extras' 'Mekanism Extras' 'mekanism_extras:absolute_control_circuit*2;mekanism_extras:absolute_tier_installer' 'ultimate' 'xp:400;table:epic' -desc @'
+Q 'elite' 'Elite Control Circuit' 'mekanism:elite_control_circuit*4' 'factory,refined_obsidian' 'xp:200;table:rare' -desc 'Elite circuits use reinforced alloy. Elite factories have 7 slots.'
+Q 'ultimate' 'Ultimate Control Circuit' 'mekanism:ultimate_control_circuit*4' 'elite' 'xp:300;table:epic' -desc 'Atomic alloy is reinforced alloy infused with refined obsidian. The ultimate tier is the best in base Mekanism.'
+Q 'extras' 'Absolute Control Circuit' 'mekanism_extras:absolute_control_circuit*2' 'ultimate' 'xp:400;table:epic' -desc @'
 &bMekanism Extras&r goes beyond ultimate with &eAbsolute&r, &eSupreme&r, &eCosmic&r and &eInfinite&r tiers, new alloys, and the &eNaquadah&r reactor.
 
 Check JEI for each new alloy.
 '@
-Q 'supreme' 'Supreme Tier' 'mekanism_extras:supreme_control_circuit*2;mekanism_extras:supreme_tier_installer' 'extras' 'xp:500;table:epic' -desc 'Keep climbing.'
-Q 'cosmic' 'Cosmic Tier' 'mekanism_extras:cosmic_control_circuit*2;mekanism_extras:cosmic_tier_installer' 'supreme,sps' 'xp:600;table:epic' -desc 'Cosmic parts need antimatter-based alloys.'
-Q 'infinite' 'To Infinity' 'mekanism_extras:infinite_control_circuit;mekanism_extras:infinite_tier_installer' 'cosmic,fusion' 'lvl:50;table:epic' -size 2 -shape 'gear' -desc 'Reach the Infinite tier. You have truly mastered Mekanism!'
+Q 'supreme' 'Supreme Control Circuit' 'mekanism_extras:supreme_control_circuit*2' 'extras' 'xp:500;table:epic' -desc 'Keep climbing.'
+Q 'cosmic' 'Cosmic Control Circuit' 'mekanism_extras:cosmic_control_circuit*2' 'supreme,sps' 'xp:600;table:epic' -desc 'Cosmic parts need antimatter-based alloys.'
+Q 'infinite' 'Infinite Control Circuit' 'mekanism_extras:infinite_control_circuit' 'cosmic,fusion' 'lvl:50;table:epic' -size 2 -shape 'gear' -desc 'Reach the Infinite tier. You have truly mastered Mekanism!'
 Q 'naquadah' 'Naquadah' 'mekanism_extras:ingot_naquadah*4' 'extras' 'xp:300;table:rare' -opt -desc 'A new ore from Mekanism Extras. It powers the Naquadah reactor.'
 Q 'naquadah_reactor' 'Naquadah Reactor' 'mekanism_extras:naquadah_reactor_controller;mekanism_extras:naquadah_reactor_casing*16' 'naquadah,fusion' 'xp:600;table:epic' -opt -desc 'An even stronger fusion-style reactor from Mekanism Extras.'
 
@@ -212,3 +212,18 @@ Once running, it makes so much power you will not know what to do with it.
 '@
 Q 'laser' 'Lasers' 'mekanism:laser;mekanism:laser_amplifier' 'ultimate' 'xp:150' -desc 'Lasers carry power through the air and are needed to ignite the fusion reactor.'
 Q 'antiprotonic' 'Antiprotonic Nucleosynthesizer' 'mekanism:antiprotonic_nucleosynthesizer' 'sps' 'xp:400;table:epic' -opt -desc 'Uses antimatter to transmute items into rare materials.'
+
+# Separate material and installer branches; retained circuit tasks keep their original IDs.
+Q 'reinforced_alloy' 'Reinforced Alloy' 'mekanism:alloy_reinforced*4' 'alloy' 'xp:75' -desc 'Infuse Infused Alloy with diamond. This is the alloy branch; circuits and tier installers have their own quests.'
+Q 'atomic_alloy' 'Atomic Alloy' 'mekanism:alloy_atomic*4' 'reinforced_alloy,refined_obsidian' 'xp:100' -desc 'Infuse Reinforced Alloy with refined obsidian. Use JEI for the processing recipe.'
+Q 'advanced_installer' 'Advanced Tier Installer' 'mekanism:advanced_tier_installer' 'installer,adv_circuit' 'xp:100;table:tech' -desc 'Use the Advanced Tier Installer on a compatible machine at the previous tier. Installers are tracked separately from control circuits and alloys. Check JEI for the pack recipe.'
+Q 'elite_installer' 'Elite Tier Installer' 'mekanism:elite_tier_installer' 'advanced_installer,elite' 'xp:100;table:tech' -desc 'Use the Elite Tier Installer on a compatible machine at the previous tier. Installers are tracked separately from control circuits and alloys. Check JEI for the pack recipe.'
+Q 'ultimate_installer' 'Ultimate Tier Installer' 'mekanism:ultimate_tier_installer' 'elite_installer,ultimate' 'xp:100;table:tech' -desc 'Use the Ultimate Tier Installer on a compatible machine at the previous tier. Installers are tracked separately from control circuits and alloys. Check JEI for the pack recipe.'
+Q 'absolute_installer' 'Absolute Tier Installer' 'mekanism_extras:absolute_tier_installer' 'ultimate_installer,extras' 'xp:100;table:tech' -desc 'Use the Absolute Tier Installer on a compatible machine at the previous tier. Installers are tracked separately from control circuits and alloys. Check JEI for the pack recipe.'
+Q 'supreme_installer' 'Supreme Tier Installer' 'mekanism_extras:supreme_tier_installer' 'absolute_installer,supreme' 'xp:100;table:tech' -desc 'Use the Supreme Tier Installer on a compatible machine at the previous tier. Installers are tracked separately from control circuits and alloys. Check JEI for the pack recipe.'
+Q 'cosmic_installer' 'Cosmic Tier Installer' 'mekanism_extras:cosmic_tier_installer' 'supreme_installer,cosmic' 'xp:100;table:tech' -desc 'Use the Cosmic Tier Installer on a compatible machine at the previous tier. Installers are tracked separately from control circuits and alloys. Check JEI for the pack recipe.'
+Q 'infinite_installer' 'Infinite Tier Installer' 'mekanism_extras:infinite_tier_installer' 'cosmic_installer,infinite' 'xp:100;table:tech' -desc 'Use the Infinite Tier Installer on a compatible machine at the previous tier. Installers are tracked separately from control circuits and alloys. Check JEI for the pack recipe.'
+Q 'radiance_alloy' 'Radiance Alloy' 'mekanism_extras:alloy_radiance*4' 'atomic_alloy' 'xp:50' -desc 'Continue the separate alloy branch in the Metallurgic Infuser. JEI lists the required infusion chemical and its amount.'
+Q 'thermonuclear_alloy' 'Thermonuclear Alloy' 'mekanism_extras:alloy_thermonuclear*4' 'radiance_alloy' 'xp:50' -desc 'Continue the separate alloy branch in the Metallurgic Infuser. JEI lists the required infusion chemical and its amount.'
+Q 'shining_alloy' 'Shining Alloy' 'mekanism_extras:alloy_shining*4' 'thermonuclear_alloy' 'xp:50' -desc 'Continue the separate alloy branch in the Metallurgic Infuser. JEI lists the required infusion chemical and its amount.'
+Q 'spectrum_alloy' 'Spectrum Alloy' 'mekanism_extras:alloy_spectrum*4' 'shining_alloy' 'xp:50' -desc 'Continue the separate alloy branch in the Metallurgic Infuser. JEI lists the required infusion chemical and its amount.'

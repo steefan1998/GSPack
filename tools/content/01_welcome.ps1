@@ -62,3 +62,14 @@ Q 'start' 'Where Do I Start?' 'check' 'team,maps,qol' 'table:uncommon' -size 1.5
     "4. &aThe Twilight Forest&r and &aThe Aether II&r for adventure.|" +
     "5. &aOritech&r, &aAllthemodium&r and &aStellaris&r for the late game, all the way to the Moon!||" +
     "Have fun, and good luck!")
+
+Q 'mastery' 'Chapter Mastery' 'check' 'book' 'xp:25' -opt -icon 'gspack:infinity_trophy' -desc @'
+Complete every required quest in a chapter to unlock its mastery. Optional quests do not block it. Mastery follows your FTB Quests team.
+
+&e/mastery&r shows your completed chapters in colour. Unfinished chapters stay hidden.
+&e/mastery player <player>&r checks another online player.
+&e/mastery chapter ae2&r lists online AE2 masters and completed teams, including offline teams. Replace ae2 with another chapter key.
+&e/mastery list&r lists all chapter keys.
+
+Everyone can use these commands without OP. Mastery is checked on login and every ten seconds; it never completes quests for you.
+'@

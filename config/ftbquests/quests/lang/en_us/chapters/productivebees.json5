@@ -1,0 +1,134 @@
+{
+  "chapter.7D44DAA272572D63.chapter_subtitle": [
+    "Build an apiary, breed resource bees and automate their harvest."
+  ],
+  "chapter.7D44DAA272572D63.title": "Productive Bees",
+  "quest.004289B5013908A7.quest_desc": [
+    "Keep the wax from processing. It is useful for hive upgrades and other recipes."
+  ],
+  "quest.004289B5013908A7.title": "Useful Beeswax",
+  "quest.091198C6AA9923D5.quest_desc": [
+    "Productive Lib supplies the shared upgrade items. Use JEI to inspect productivity, speed, range and simulation upgrades."
+  ],
+  "quest.091198C6AA9923D5.title": "Hive Upgrades",
+  "quest.0AD5278DF6829EA9.quest_desc": [
+    "Every resource bee has a flowering requirement. It may need a material block rather than a flower. Check its JEI flowering page and place that block within reach."
+  ],
+  "quest.0AD5278DF6829EA9.title": "The Right Flower",
+  "quest.0CDADB10A17A2599.quest_desc": [
+    "Right-click a bee to capture it. Right-click the ground to release it. Keep spare cages when exploring; a cage alone does not prove a particular bee species is inside."
+  ],
+  "quest.0CDADB10A17A2599.title": "Bring a Bee Home",
+  "quest.0DADC6DB09BC1C7E.quest_desc": [
+    "A sturdier alternative for moving your bees. Check JEI for its recipe."
+  ],
+  "quest.0DADC6DB09BC1C7E.title": "Sturdy Cages",
+  "quest.0DBC46CA930FF9D2.quest_desc": [
+    "Store and organise the genetic material used in your breeding programme."
+  ],
+  "quest.0DBC46CA930FF9D2.title": "Organise Your Genes",
+  "quest.1003BAD54C72BD8D.quest_desc": [
+    "Use JEI to obtain a blazing bee, give it the required flowering material and verify that its combs are being produced. Tick this after your setup works. This is a guided milestone, not automatic species detection."
+  ],
+  "quest.1003BAD54C72BD8D.title": "Specialist: Blazing",
+  "quest.102DAD8C37566AB7.quest_desc": [
+    "Process resource combs in a Centrifuge. JEI shows the resources, honey and wax produced by each comb."
+  ],
+  "quest.102DAD8C37566AB7.title": "Process the Combs",
+  "quest.126EEF16076D7532.quest_desc": [
+    "Honey Treats are used throughout bee keeping. Their uses include attracting bees to compatible nests; JEI documents the exact interaction."
+  ],
+  "quest.126EEF16076D7532.title": "Honey Treats",
+  "quest.190C0B762AE30930.quest_desc": [
+    "House hive bees in an Advanced Hive. Its GUI shows residents and outputs. Unlike a vanilla hive, it does not require a campfire for harvesting."
+  ],
+  "quest.190C0B762AE30930.title": "The Advanced Hive",
+  "quest.19394FC28283E78C.quest_desc": [
+    "Simulation keeps production inside the hive. Follow the guide for feeding-slab placement and the bee-specific flowering material."
+  ],
+  "quest.19394FC28283E78C.title": "A Simulated Apiary",
+  "quest.1A3DF64F1BB5088F.quest_desc": [
+    "Genes describe traits such as productivity and activity. Follow the genetics guide before extracting traits from valuable bees."
+  ],
+  "quest.1A3DF64F1BB5088F.title": "Bee Genetics",
+  "quest.1CA9636DDE293C6B.quest_desc": [
+    "Use JEI to obtain a coal bee, give it the required flowering material and verify that its combs are being produced. Tick this after your setup works. This is a guided milestone, not automatic species detection."
+  ],
+  "quest.1CA9636DDE293C6B.title": "Specialist: Coal",
+  "quest.2143514CEF003B52.quest_desc": [
+    "Use an Incubator for the offspring supported by its recipes. Check its inventory and the guide for input requirements."
+  ],
+  "quest.2143514CEF003B52.title": "The Next Generation",
+  "quest.2687B6E4EE833363.quest_desc": [
+    "Use JEI to obtain a gold bee, give it the required flowering material and verify that its combs are being produced. Tick this after your setup works. This is a guided milestone, not automatic species detection."
+  ],
+  "quest.2687B6E4EE833363.title": "Specialist: Gold",
+  "quest.268F670D7148357F.quest_desc": [
+    "Automate comb extraction, centrifuging and storage. Protect your bees, keep their flowering materials available and provide enough power. Tick this once your apiary produces resources without manual transfers."
+  ],
+  "quest.268F670D7148357F.title": "A Working Resource Apiary",
+  "quest.2CBA7F13FA1F23B4.quest_desc": [
+    "Expand processing with a Heated Centrifuge. Check JEI for recipes that use it and its power needs."
+  ],
+  "quest.2CBA7F13FA1F23B4.title": "Heated Centrifuge",
+  "quest.34EF677119B1386E.quest_desc": [
+    "Stone nests attract a different family of bees. Read the nest spawning page in JEI before placing it."
+  ],
+  "quest.34EF677119B1386E.title": "Mining Bees",
+  "quest.352CDC650BB62CB7.quest_desc": [
+    "Attach the matching expansion box above your advanced hive. The guide describes increased capacity and upgrade slots."
+  ],
+  "quest.352CDC650BB62CB7.title": "Room for Five",
+  "quest.386BAC242FE7CEC2.quest_desc": [
+    "Use JEI to obtain a iron bee, give it the required flowering material and verify that its combs are being produced. Tick this after your setup works. This is a guided milestone, not automatic species detection."
+  ],
+  "quest.386BAC242FE7CEC2.title": "Specialist: Iron",
+  "quest.39B166A51456FDF0.quest_desc": [
+    "The Feeding Slab supplies compatible flowering materials. Check the guide for placement, especially before using a simulated hive."
+  ],
+  "quest.39B166A51456FDF0.title": "Feeding Slab",
+  "quest.3B2804D71C594375.quest_desc": [
+    "Use JEI to obtain a emerald bee, give it the required flowering material and verify that its combs are being produced. Tick this after your setup works. This is a guided milestone, not automatic species detection."
+  ],
+  "quest.3B2804D71C594375.title": "Specialist: Emerald",
+  "quest.429DC14F788015CB.quest_desc": [
+    "Install a Productivity Upgrade in a compatible hive or machine. Read its tooltip: effects depend on the machine."
+  ],
+  "quest.429DC14F788015CB.title": "More per Trip",
+  "quest.6137B0C653DF84EF.quest_desc": [
+    "Productive Bees builds on vanilla bees. Read this guide and use JEI for bee breeding, conversion and flowering requirements. Solitary bees use nests; hive bees use advanced hives."
+  ],
+  "quest.6137B0C653DF84EF.title": "A Productive Apiary",
+  "quest.629AFE98E94E5B39.quest_desc": [
+    "Use JEI to obtain a diamond bee, give it the required flowering material and verify that its combs are being produced. Tick this after your setup works. This is a guided milestone, not automatic species detection."
+  ],
+  "quest.629AFE98E94E5B39.title": "Specialist: Diamond",
+  "quest.6535516774E056FA.quest_desc": [
+    "Use JEI to obtain a obsidian bee, give it the required flowering material and verify that its combs are being produced. Tick this after your setup works. This is a guided milestone, not automatic species detection."
+  ],
+  "quest.6535516774E056FA.title": "Specialist: Obsidian",
+  "quest.6B049CD3BAF0D21A.quest_desc": [
+    "Supply FE and automate comb input and resource output. Check the machine GUI for configuration."
+  ],
+  "quest.6B049CD3BAF0D21A.title": "Powered Processing",
+  "quest.6B3E99B6B48B1617.quest_desc": [
+    "Use JEI to obtain a redstone bee, give it the required flowering material and verify that its combs are being produced. Tick this after your setup works. This is a guided milestone, not automatic species detection."
+  ],
+  "quest.6B3E99B6B48B1617.title": "Specialist: Redstone",
+  "quest.726188BD5BB116B1.quest_desc": [
+    "Prepare a wooden nest. JEI shows which bee it attracts, the required location and which treat to use."
+  ],
+  "quest.726188BD5BB116B1.title": "Woodland Residents",
+  "quest.73F9F53996BE1213.quest_desc": [
+    "Use the Nest Locator and JEI to find solitary bees. Different bees prefer different nest materials and environments."
+  ],
+  "quest.73F9F53996BE1213.title": "Find the Nests",
+  "quest.79ABCDE4E29D4B6E.quest_desc": [
+    "Begin with a vanilla bee nest. Use a campfire safely below a vanilla nest before collecting honey or combs. Honey helps you craft your first cages."
+  ],
+  "quest.79ABCDE4E29D4B6E.title": "Honey and Combs",
+  "quest.7D7247B26BA398B7.quest_desc": [
+    "Automate compatible bee breeding. JEI lists the parent species and breeding food; not every pair produces a new bee."
+  ],
+  "quest.7D7247B26BA398B7.title": "Breed New Species"
+}

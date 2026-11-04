@@ -48,7 +48,7 @@ The pack's end goal is the **Trophy of Infinity**. KubeJS adds five cores, each 
 | Core | Made from |
 |---|---|
 | Technological Core | Antimatter, Super AI Chips, Quantum Processors, Infinite Control Circuit |
-| Arcane Core | Void Metal, Godforged Pearls, Red Matter, Primordial Pearl |
+| Arcane Core | Void Metal, Godforged Pearls, Red Matter, Primordial Pearl, Occultism tier-4 Storage Stabilizer |
 | Verdant Core | Insanium, Nether Star Seeds, Neptunium, Unobtainium Seeds |
 | Dimensional Core | Unobtainium-Vibranium Alloy, Twilight boss trophies, Gravitite, Piglich Heart |
 | Cosmic Core | Novite, Stellaris boss trophies, Nether Star |
@@ -153,7 +153,15 @@ A custom title screen: a pixel-art dusk background with floating islands, the GS
 For each new version, run:
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File tools\track-mods.ps1 -Version 0.7
+powershell -ExecutionPolicy Bypass -File tools\track-mods.ps1 -Version 0.8
 ```
 
 This saves a snapshot of all mods in `modlists/<version>.json` and lists what was added, removed and updated since the previous version.
+
+## Release 0.7 additions
+
+The 0.7 quest book has 1,720 quests across 36 chapters, including Farming, Mob Hunting Board and Neo Vitae. Mekanism separates circuits, alloys and installers; Utilities groups quests by mod. Eleven reward tables have 69 additional entries.
+
+All players can use /mastery to view completed chapters and /mastery player <player> to inspect another online player. Welcome explains the commands. See [mastery](docs/MASTERY.md), [EMC policy](docs/EMC.md) and the [in-game test checklist](docs/DEV-TEST-CHECKLIST.md). Restart after installing the silicon and EMC changes.
+
+Download the CurseForge import archive from [GSPack 0.7](https://github.com/steefan1998/GSPack/releases/tag/v0.7). It contains the manifest and pack overrides; mod downloads are resolved by CurseForge.

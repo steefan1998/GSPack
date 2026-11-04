@@ -1,0 +1,118 @@
+{
+  "chapter.3046505504AD5731.chapter_subtitle": [
+    "Blood orbs, runes, rituals and alchemy."
+  ],
+  "chapter.3046505504AD5731.title": "Neo Vitae",
+  "quest.03647F81F1F1932C.quest_desc": [
+    "Complete the main altar, ritual and alchemy branches. Optional utility sigils do not block chapter mastery."
+  ],
+  "quest.03647F81F1F1932C.title": "A Living Network",
+  "quest.03DDEE8A37364B8F.quest_desc": [
+    "Use the guide for incense placement and its self-sacrifice benefits."
+  ],
+  "quest.03DDEE8A37364B8F.title": "Incense Altar",
+  "quest.09699CB9AFEF1F82.quest_desc": [
+    "Use the Diviner to help assemble supported ritual structures."
+  ],
+  "quest.09699CB9AFEF1F82.title": "Ritual Diviner",
+  "quest.0EFA0BA728F9F560.quest_desc": [
+    "Reach the higher altar tier shown in JEI and the guide."
+  ],
+  "quest.0EFA0BA728F9F560.title": "Archmage Blood Orb",
+  "quest.0FA0B2F2064F04C1.quest_desc": [
+    "Increase the altar buffer according to the guide."
+  ],
+  "quest.0FA0B2F2064F04C1.title": "Capacity Runes",
+  "quest.186358CC49FE990E.quest_desc": [
+    "Create an activation crystal. This item quest does not prove a ritual is running."
+  ],
+  "quest.186358CC49FE990E.title": "Activate a Ritual",
+  "quest.1952B7BB6561FA9C.quest_desc": [
+    "Runes form part of the altar upgrade structure. Follow the guide for their placement."
+  ],
+  "quest.1952B7BB6561FA9C.title": "A Foundation of Runes",
+  "quest.1C2419341F55D125.quest_desc": [
+    "Prepare the stronger activation crystal for supported rituals."
+  ],
+  "quest.1C2419341F55D125.title": "Awakened Activation",
+  "quest.201FB963AB03C483.quest_desc": [
+    "Provide storage for your blood magic infrastructure."
+  ],
+  "quest.201FB963AB03C483.title": "Blood Storage",
+  "quest.33157102672ECCB1.quest_desc": [
+    "A utility sigil for mining; keep your network supplied."
+  ],
+  "quest.33157102672ECCB1.title": "Fast Miner Sigil",
+  "quest.41E1CAB55807BE19.quest_desc": [
+    "Continue altar progression and maintain a reliable blood supply."
+  ],
+  "quest.41E1CAB55807BE19.title": "Magician Blood Orb",
+  "quest.44E84B523A8CAEB3.quest_desc": [
+    "Upgrade your altar setup and make the next orb. JEI shows its altar requirements."
+  ],
+  "quest.44E84B523A8CAEB3.title": "Apprentice Blood Orb",
+  "quest.461BED938C892E2F.quest_desc": [
+    "Provide magical lighting. Check its cost before using it extensively."
+  ],
+  "quest.461BED938C892E2F.title": "Blood Light Sigil",
+  "quest.4BC1B00B17FE73F0.quest_desc": [
+    "Prepare the required altar tier and ingredients before starting this infusion."
+  ],
+  "quest.4BC1B00B17FE73F0.title": "Master Blood Orb",
+  "quest.4C3221E7EBBB7BF7.quest_desc": [
+    "Use the Athanor for the alchemy recipes listed in JEI."
+  ],
+  "quest.4C3221E7EBBB7BF7.title": "The Athanor",
+  "quest.4EEFF3EE98A69A33.quest_desc": [
+    "Create the first Blood Orb and bind it as described in the guide. Orbs link progress to the soul network."
+  ],
+  "quest.4EEFF3EE98A69A33.title": "Weak Blood Orb",
+  "quest.5134D8B15DDC215C.quest_desc": [
+    "Automate supported crafting while keeping ingredient supply and storage organised."
+  ],
+  "quest.5134D8B15DDC215C.title": "Sanguine Crafting",
+  "quest.58E82E9BABBB701F.quest_desc": [
+    "Rituals need the right structure, activation and a supplied soul network. Read the guide before activation."
+  ],
+  "quest.58E82E9BABBB701F.title": "Ritual Foundations",
+  "quest.61D64A355BBAD922.quest_desc": [
+    "Inspect blood magic resources with a Divination Sigil."
+  ],
+  "quest.61D64A355BBAD922.title": "Divination Sigil",
+  "quest.661DEF45A814AE8D.quest_desc": [
+    "Keep the installed Neo Vitae guide nearby; it explains this version of the mod."
+  ],
+  "quest.661DEF45A814AE8D.title": "The Neo Vitae Guide",
+  "quest.67B0C52094674E6E.quest_desc": [
+    "Build the Ara Vitae and consult the guide for its blood supply and upgrade structure. Keep food and healing available."
+  ],
+  "quest.67B0C52094674E6E.title": "Ara Vitae",
+  "quest.693AA9F553688530.quest_desc": [
+    "Prepare a flask and consult the guide for brewing and use."
+  ],
+  "quest.693AA9F553688530.title": "Alchemy Flask",
+  "quest.6EA7E31123FE9448.quest_desc": [
+    "Improve supported altar processing. Balance speed with your blood supply."
+  ],
+  "quest.6EA7E31123FE9448.title": "Speed Runes",
+  "quest.6F0D23E3F95B9467.quest_desc": [
+    "Neo Vitae provides blood magic, a soul network, runes, rituals and alchemy. Use its in-game book and JEI for the exact recipes and multiblock layouts. This chapter is independent."
+  ],
+  "quest.6F0D23E3F95B9467.title": "A New Kind of Vitae",
+  "quest.752DB8F5FDA332EB.quest_desc": [
+    "A mobility option that consumes blood magic resources."
+  ],
+  "quest.752DB8F5FDA332EB.title": "Air Sigil",
+  "quest.79667E60086EAF65.quest_desc": [
+    "Improve self-sacrifice efficiency. Keep enough health and food; do not automate unsafe damage."
+  ],
+  "quest.79667E60086EAF65.title": "Self-Sacrifice Runes",
+  "quest.7CA31D598DF9708F.quest_desc": [
+    "Organise compatible sigils as described in the guide."
+  ],
+  "quest.7CA31D598DF9708F.title": "Holding Sigil",
+  "quest.7F235B3969BE947F.quest_desc": [
+    "Check the guide for its soul-network cost and activation."
+  ],
+  "quest.7F235B3969BE947F.title": "Water Sigil"
+}

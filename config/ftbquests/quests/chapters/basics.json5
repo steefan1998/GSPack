@@ -8,17 +8,17 @@
   },
   filename: "basics",
   default_quest_shape: "",
-  default_hide_dependency_lines: true,
+  default_hide_dependency_lines: false,
   quests: [
     {
       icon: {
         id: "minecraft:oak_log",
         count: 1,
       },
-      x: 0.0,
-      y: 1.45,
+      x: 0,
+      y: 0.9,
       shape: "gear",
-      size: 1.5,
+      size: 1.3,
       id: "798BBF8CA6794607",
       tasks: [
         {
@@ -49,12 +49,12 @@
       ],
     },
     {
-      x: 1.6,
-      y: 1.45,
-      dependencies: [
-        "798BBF8CA6794607",
-      ],
-      size: 1.0,
+      x: 1.8,
+      y: 0.9,
+      dependencies: ["798BBF8CA6794607"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"798BBF8CA6794607":[0,0.9,1.8,0.9]},
       id: "67040F55FA5DC25C",
       tasks: [
         {
@@ -75,12 +75,12 @@
       ],
     },
     {
-      x: 3.2,
-      y: 1.45,
-      dependencies: [
-        "67040F55FA5DC25C",
-      ],
-      size: 1.0,
+      x: 3.6,
+      y: 0,
+      dependencies: ["67040F55FA5DC25C"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"67040F55FA5DC25C":[1.8,0.9,3.6,0]},
       id: "12497CCA826EA587",
       tasks: [
         {
@@ -123,12 +123,12 @@
       ],
     },
     {
-      x: 4.8,
-      y: 1.45,
-      dependencies: [
-        "12497CCA826EA587",
-      ],
-      size: 1.0,
+      x: 5.4,
+      y: 0,
+      dependencies: ["12497CCA826EA587"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"12497CCA826EA587":[3.6,0,5.4,0]},
       id: "4C4EC7B67B11507A",
       tasks: [
         {
@@ -149,12 +149,12 @@
       ],
     },
     {
-      x: 6.4,
-      y: 1.45,
-      dependencies: [
-        "4C4EC7B67B11507A",
-      ],
-      size: 1.0,
+      x: 7.2,
+      y: 0,
+      dependencies: ["4C4EC7B67B11507A"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"4C4EC7B67B11507A":[5.4,0,7.2,0]},
       id: "1ECCE1E4948233AF",
       tasks: [
         {
@@ -176,12 +176,12 @@
       ],
     },
     {
-      x: 3.2,
-      y: 2.95,
-      dependencies: [
-        "67040F55FA5DC25C",
-      ],
-      size: 1.0,
+      x: 3.6,
+      y: 1.8,
+      dependencies: ["67040F55FA5DC25C"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"67040F55FA5DC25C":[1.8,0.9,3.6,1.8]},
       id: "477FC211D71AD53C",
       tasks: [
         {
@@ -202,12 +202,12 @@
       ],
     },
     {
-      x: 6.4,
-      y: 2.95,
-      dependencies: [
-        "4C4EC7B67B11507A",
-      ],
-      size: 1.0,
+      x: 7.2,
+      y: 1.8,
+      dependencies: ["4C4EC7B67B11507A"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"4C4EC7B67B11507A":[5.4,0,7.2,1.8]},
       id: "7DEFC22484C31C0B",
       tasks: [
         {
@@ -233,12 +233,12 @@
       ],
     },
     {
-      x: 8.0,
-      y: 2.95,
-      dependencies: [
-        "7DEFC22484C31C0B",
-      ],
-      size: 1.0,
+      x: 9,
+      y: 0.9,
+      dependencies: ["7DEFC22484C31C0B"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"7DEFC22484C31C0B":[7.2,1.8,9,0.9]},
       id: "3970F27352844017",
       tasks: [
         {
@@ -288,12 +288,12 @@
         id: "minecraft:wheat",
         count: 1,
       },
-      x: 9.6,
-      y: 2.95,
-      dependencies: [
-        "3970F27352844017",
-      ],
-      size: 1.0,
+      x: 10.8,
+      y: 0.9,
+      dependencies: ["3970F27352844017"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"3970F27352844017":[9,0.9,10.8,0.9]},
       id: "4034820F97D1187D",
       tasks: [
         {
@@ -312,12 +312,12 @@
       ],
     },
     {
-      x: 4.8,
-      y: 2.95,
-      dependencies: [
-        "477FC211D71AD53C",
-      ],
-      size: 1.0,
+      x: 5.4,
+      y: 1.8,
+      dependencies: ["477FC211D71AD53C"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"477FC211D71AD53C":[3.6,1.8,5.4,1.8]},
       id: "40B5CC37297FEFE7",
       tasks: [
         {
@@ -354,24 +354,25 @@
       ],
     },
     {
-      x: 0.0,
-      y: 8.55,
-      dependencies: [
-        "4C4EC7B67B11507A",
-      ],
-      size: 1.5,
+      x: 21.5,
+      y: 0,
+      dependencies: ["4C4EC7B67B11507A"],
+      hide_dependency_lines: true,
+      shape: "gear",
+      size: 1.3,
+      dep_control_pts: {"4C4EC7B67B11507A":[5.4,0,21.5,0]},
       id: "13D9B637C3D524F9",
       tasks: [
-        {
-          id: "451AA980B59A8258",
-          type: "item",
-          item: {
-            id: "minecraft:iron_ingot",
-            count: 1,
-          },
-          count: 16,
-        },
-      ],
+  {
+    "id": "451AA980B59A8258",
+    "type": "item",
+    "item": {
+      "id": "minecraft:iron_ingot",
+      "count": 1
+    },
+    "count": 1
+  }
+],
       rewards: [
         {
           id: "5B03AA7965863A67",
@@ -387,12 +388,12 @@
       ],
     },
     {
-      x: 1.6,
-      y: 8.55,
-      dependencies: [
-        "13D9B637C3D524F9",
-      ],
-      size: 1.0,
+      x: 18.8,
+      y: 1.8,
+      dependencies: ["13D9B637C3D524F9"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"13D9B637C3D524F9":[21.5,0,18.8,1.8]},
       id: "5800B83D1C324A8C",
       tasks: [
         {
@@ -429,12 +430,12 @@
       ],
     },
     {
-      x: 1.6,
-      y: 10.05,
-      dependencies: [
-        "13D9B637C3D524F9",
-      ],
-      size: 1.0,
+      x: 20.6,
+      y: 1.8,
+      dependencies: ["13D9B637C3D524F9"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"13D9B637C3D524F9":[21.5,0,20.6,1.8]},
       id: "00C5B073D7228BF0",
       tasks: [
         {
@@ -485,12 +486,12 @@
       ],
     },
     {
-      x: 1.6,
-      y: 7.05,
-      dependencies: [
-        "13D9B637C3D524F9",
-      ],
-      size: 1.0,
+      x: 22.4,
+      y: 1.8,
+      dependencies: ["13D9B637C3D524F9"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"13D9B637C3D524F9":[21.5,0,22.4,1.8]},
       id: "78311BA5173B2B31",
       tasks: [
         {
@@ -511,12 +512,12 @@
       ],
     },
     {
-      x: 1.6,
-      y: 11.55,
-      dependencies: [
-        "13D9B637C3D524F9",
-      ],
-      size: 1.0,
+      x: 24.2,
+      y: 1.8,
+      dependencies: ["13D9B637C3D524F9"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"13D9B637C3D524F9":[21.5,0,24.2,1.8]},
       id: "29E4F38DE93324E5",
       tasks: [
         {
@@ -545,25 +546,25 @@
       ],
     },
     {
-      x: 1.6,
-      y: 5.55,
-      dependencies: [
-        "13D9B637C3D524F9",
-      ],
-      size: 1.0,
+      x: 21.5,
+      y: 3.6,
       optional: true,
+      dependencies: ["13D9B637C3D524F9"],
+      shape: "diamond",
+      size: 1,
+      dep_control_pts: {"13D9B637C3D524F9":[21.5,0,21.5,3.6]},
       id: "76B23B29AD1A4DE3",
       tasks: [
-        {
-          id: "6A140E47AE26C662",
-          type: "item",
-          item: {
-            id: "minecraft:copper_ingot",
-            count: 1,
-          },
-          count: 16,
-        },
-      ],
+  {
+    "id": "6A140E47AE26C662",
+    "type": "item",
+    "item": {
+      "id": "minecraft:copper_ingot",
+      "count": 1
+    },
+    "count": 1
+  }
+],
       rewards: [
         {
           id: "5BBD0E7E895F134B",
@@ -577,12 +578,12 @@
         id: "minecraft:rotten_flesh",
         count: 1,
       },
-      x: 3.2,
-      y: 8.55,
-      dependencies: [
-        "5800B83D1C324A8C",
-      ],
-      size: 1.0,
+      x: 18.8,
+      y: 5.4,
+      dependencies: ["5800B83D1C324A8C"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"5800B83D1C324A8C":[18.8,1.8,18.8,5.4]},
       id: "58F5D899F875CFA6",
       tasks: [
         {
@@ -611,30 +612,30 @@
         id: "minecraft:bone",
         count: 1,
       },
-      x: 3.2,
-      y: 10.05,
-      dependencies: [
-        "5800B83D1C324A8C",
-      ],
-      size: 1.0,
+      x: 20.6,
+      y: 5.4,
+      dependencies: ["5800B83D1C324A8C"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"5800B83D1C324A8C":[18.8,1.8,20.6,5.4]},
       id: "419DB53725DF2086",
       tasks: [
-        {
-          id: "25F72763115F8D99",
-          type: "kill",
-          entity: "minecraft:skeleton",
-          value: 15,
-        },
-        {
-          id: "3E3161CD342A7B3D",
-          type: "item",
-          item: {
-            id: "minecraft:bone",
-            count: 1,
-          },
-          count: 16,
-        },
-      ],
+  {
+    "id": "25F72763115F8D99",
+    "type": "kill",
+    "entity": "minecraft:skeleton",
+    "value": 15
+  },
+  {
+    "id": "3E3161CD342A7B3D",
+    "type": "item",
+    "item": {
+      "id": "minecraft:bone",
+      "count": 1
+    },
+    "count": 1
+  }
+],
       rewards: [
         {
           id: "0E227A9815706DF5",
@@ -648,12 +649,12 @@
         id: "minecraft:gunpowder",
         count: 1,
       },
-      x: 3.2,
-      y: 11.55,
-      dependencies: [
-        "00C5B073D7228BF0",
-      ],
-      size: 1.0,
+      x: 22.4,
+      y: 5.4,
+      dependencies: ["00C5B073D7228BF0"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"00C5B073D7228BF0":[20.6,1.8,22.4,5.4]},
       id: "39C5317DBE092F57",
       tasks: [
         {
@@ -691,12 +692,12 @@
         id: "minecraft:emerald",
         count: 1,
       },
-      x: 3.2,
-      y: 7.05,
-      dependencies: [
-        "5800B83D1C324A8C",
-      ],
-      size: 1.0,
+      x: 24.2,
+      y: 5.4,
+      dependencies: ["5800B83D1C324A8C"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"5800B83D1C324A8C":[18.8,1.8,24.2,5.4]},
       id: "08A5707EE4F137B2",
       tasks: [
         {
@@ -727,12 +728,12 @@
         id: "minecraft:emerald",
         count: 1,
       },
-      x: 4.8,
-      y: 7.05,
-      dependencies: [
-        "08A5707EE4F137B2",
-      ],
-      size: 1.0,
+      x: 21.5,
+      y: 7.2,
+      dependencies: ["08A5707EE4F137B2"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"08A5707EE4F137B2":[24.2,5.4,21.5,7.2]},
       id: "03311868BC2F0713",
       tasks: [
         {
@@ -751,13 +752,13 @@
       ],
     },
     {
-      x: 0.0,
-      y: 14.4,
-      shape: "hexagon",
-      dependencies: [
-        "5800B83D1C324A8C",
-      ],
-      size: 1.5,
+      x: 0,
+      y: 10.4,
+      dependencies: ["5800B83D1C324A8C"],
+      hide_dependency_lines: true,
+      shape: "gear",
+      size: 1.3,
+      dep_control_pts: {"5800B83D1C324A8C":[18.8,1.8,0,10.4]},
       id: "4E7A2D7D3D4E5E8F",
       tasks: [
         {
@@ -785,12 +786,12 @@
       ],
     },
     {
-      x: 1.6,
-      y: 14.4,
-      dependencies: [
-        "4E7A2D7D3D4E5E8F",
-      ],
-      size: 1.0,
+      x: 1.8,
+      y: 10.4,
+      dependencies: ["4E7A2D7D3D4E5E8F"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"4E7A2D7D3D4E5E8F":[0,10.4,1.8,10.4]},
       id: "537EB39A51D60D0E",
       tasks: [
         {
@@ -819,13 +820,13 @@
       ],
     },
     {
-      x: 3.2,
-      y: 14.4,
-      dependencies: [
-        "537EB39A51D60D0E",
-        "29E4F38DE93324E5",
-      ],
-      size: 1.0,
+      x: 3.6,
+      y: 11.3,
+      dependencies: ["537EB39A51D60D0E","29E4F38DE93324E5"],
+      hide_dependency_lines: true,
+      shape: "hexagon",
+      size: 1,
+      dep_control_pts: {"537EB39A51D60D0E":[1.8,10.4,3.6,11.3],"29E4F38DE93324E5":[24.2,1.8,3.6,11.3]},
       id: "56F88E59D27D3217",
       tasks: [
         {
@@ -847,12 +848,12 @@
       ],
     },
     {
-      x: 1.6,
-      y: 15.9,
-      dependencies: [
-        "4E7A2D7D3D4E5E8F",
-      ],
-      size: 1.0,
+      x: 1.8,
+      y: 12.2,
+      dependencies: ["4E7A2D7D3D4E5E8F"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"4E7A2D7D3D4E5E8F":[0,10.4,1.8,12.2]},
       id: "76C68CDBBF53C3E2",
       tasks: [
         {
@@ -891,13 +892,14 @@
       ],
     },
     {
-      x: 0.0,
-      y: 15.9,
-      dependencies: [
-        "13D9B637C3D524F9",
-      ],
-      size: 1.0,
+      x: 0,
+      y: 12.2,
       optional: true,
+      dependencies: ["13D9B637C3D524F9"],
+      hide_dependency_lines: true,
+      shape: "diamond",
+      size: 1,
+      dep_control_pts: {"13D9B637C3D524F9":[21.5,0,0,12.2]},
       id: "7621BA229BBA5E6C",
       tasks: [
         {
@@ -922,13 +924,13 @@
         id: "minecraft:flint_and_steel",
         count: 1,
       },
-      x: 0.0,
-      y: 20.0,
+      x: 11.6,
+      y: 13.1,
+      dependencies: ["56F88E59D27D3217"],
+      hide_dependency_lines: true,
       shape: "gear",
-      dependencies: [
-        "56F88E59D27D3217",
-      ],
-      size: 1.5,
+      size: 1.3,
+      dep_control_pts: {"56F88E59D27D3217":[3.6,11.3,11.6,13.1]},
       id: "1844A3F8D98F5859",
       tasks: [
         {
@@ -952,12 +954,12 @@
       ],
     },
     {
-      x: 1.6,
-      y: 20.0,
-      dependencies: [
-        "1844A3F8D98F5859",
-      ],
-      size: 1.0,
+      x: 13.4,
+      y: 10.4,
+      dependencies: ["1844A3F8D98F5859"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"1844A3F8D98F5859":[11.6,13.1,13.4,10.4]},
       id: "6C11BF4FECBD5F79",
       tasks: [
         {
@@ -979,24 +981,24 @@
       ],
     },
     {
-      x: 1.6,
-      y: 21.5,
-      dependencies: [
-        "1844A3F8D98F5859",
-      ],
-      size: 1.0,
+      x: 13.4,
+      y: 12.2,
+      dependencies: ["1844A3F8D98F5859"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"1844A3F8D98F5859":[11.6,13.1,13.4,12.2]},
       id: "5508C69A421B6A4A",
       tasks: [
-        {
-          id: "766202F510137AAF",
-          type: "item",
-          item: {
-            id: "minecraft:gold_ingot",
-            count: 1,
-          },
-          count: 16,
-        },
-      ],
+  {
+    "id": "766202F510137AAF",
+    "type": "item",
+    "item": {
+      "id": "minecraft:gold_ingot",
+      "count": 1
+    },
+    "count": 1
+  }
+],
       rewards: [
         {
           id: "56F21412FCD24805",
@@ -1010,12 +1012,12 @@
         id: "minecraft:nether_bricks",
         count: 1,
       },
-      x: 1.6,
-      y: 18.5,
-      dependencies: [
-        "1844A3F8D98F5859",
-      ],
-      size: 1.0,
+      x: 13.4,
+      y: 14,
+      dependencies: ["1844A3F8D98F5859"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"1844A3F8D98F5859":[11.6,13.1,13.4,14]},
       id: "276DC53B9244028E",
       tasks: [
         {
@@ -1039,12 +1041,12 @@
       ],
     },
     {
-      x: 3.2,
-      y: 18.5,
-      dependencies: [
-        "276DC53B9244028E",
-      ],
-      size: 1.0,
+      x: 15.2,
+      y: 11.3,
+      dependencies: ["276DC53B9244028E"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"276DC53B9244028E":[13.4,14,15.2,11.3]},
       id: "0B92F8869389DF65",
       tasks: [
         {
@@ -1066,12 +1068,12 @@
       ],
     },
     {
-      x: 3.2,
-      y: 20.0,
-      dependencies: [
-        "276DC53B9244028E",
-      ],
-      size: 1.0,
+      x: 15.2,
+      y: 13.1,
+      dependencies: ["276DC53B9244028E"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"276DC53B9244028E":[13.4,14,15.2,13.1]},
       id: "02F838BE73520B42",
       tasks: [
         {
@@ -1099,12 +1101,12 @@
       ],
     },
     {
-      x: 4.8,
-      y: 18.5,
-      dependencies: [
-        "0B92F8869389DF65",
-      ],
-      size: 1.0,
+      x: 17,
+      y: 11.3,
+      dependencies: ["0B92F8869389DF65"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"0B92F8869389DF65":[15.2,11.3,17,11.3]},
       id: "3E06872A556B9FF9",
       tasks: [
         {
@@ -1134,13 +1136,13 @@
       ],
     },
     {
-      x: 6.4,
-      y: 18.5,
-      dependencies: [
-        "3E06872A556B9FF9",
-      ],
-      size: 1.0,
+      x: 18.8,
+      y: 11.3,
       optional: true,
+      dependencies: ["3E06872A556B9FF9"],
+      shape: "diamond",
+      size: 1,
+      dep_control_pts: {"3E06872A556B9FF9":[17,11.3,18.8,11.3]},
       id: "54D7863439518724",
       tasks: [
         {
@@ -1166,12 +1168,12 @@
         id: "minecraft:gilded_blackstone",
         count: 1,
       },
-      x: 3.2,
-      y: 21.5,
-      dependencies: [
-        "5508C69A421B6A4A",
-      ],
-      size: 1.0,
+      x: 15.2,
+      y: 14.9,
+      dependencies: ["5508C69A421B6A4A"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"5508C69A421B6A4A":[13.4,12.2,15.2,14.9]},
       id: "3FB6B561A952EF9A",
       tasks: [
         {
@@ -1195,12 +1197,12 @@
       ],
     },
     {
-      x: 1.6,
-      y: 23.0,
-      dependencies: [
-        "1844A3F8D98F5859",
-      ],
-      size: 1.0,
+      x: 13.4,
+      y: 15.8,
+      dependencies: ["1844A3F8D98F5859"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"1844A3F8D98F5859":[11.6,13.1,13.4,15.8]},
       id: "4B9EA97201096B46",
       tasks: [
         {
@@ -1228,13 +1230,12 @@
       ],
     },
     {
-      x: 4.8,
-      y: 23.0,
-      dependencies: [
-        "4B9EA97201096B46",
-        "3FB6B561A952EF9A",
-      ],
-      size: 1.0,
+      x: 17,
+      y: 13.1,
+      dependencies: ["4B9EA97201096B46","3FB6B561A952EF9A"],
+      shape: "hexagon",
+      size: 1,
+      dep_control_pts: {"4B9EA97201096B46":[13.4,15.8,17,13.1],"3FB6B561A952EF9A":[15.2,14.9,17,13.1]},
       id: "228347B50D1DC622",
       tasks: [
         {
@@ -1269,12 +1270,12 @@
       ],
     },
     {
-      x: 6.4,
-      y: 23.0,
-      dependencies: [
-        "228347B50D1DC622",
-      ],
-      size: 1.0,
+      x: 18.8,
+      y: 13.1,
+      dependencies: ["228347B50D1DC622"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"228347B50D1DC622":[17,13.1,18.8,13.1]},
       id: "7A42D8A8172E48EE",
       tasks: [
         {
@@ -1309,12 +1310,12 @@
       ],
     },
     {
-      x: 4.8,
-      y: 20.0,
-      dependencies: [
-        "0B92F8869389DF65",
-      ],
-      size: 1.0,
+      x: 17,
+      y: 14.9,
+      dependencies: ["0B92F8869389DF65"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"0B92F8869389DF65":[15.2,11.3,17,14.9]},
       id: "58DDEFB26BE4BF64",
       tasks: [
         {
@@ -1340,12 +1341,12 @@
         id: "minecraft:end_portal_frame",
         count: 1,
       },
-      x: 6.4,
-      y: 20.0,
-      dependencies: [
-        "58DDEFB26BE4BF64",
-      ],
-      size: 1.0,
+      x: 18.8,
+      y: 14.9,
+      dependencies: ["58DDEFB26BE4BF64"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"58DDEFB26BE4BF64":[17,14.9,18.8,14.9]},
       id: "053AC027954B3A77",
       tasks: [
         {
@@ -1373,13 +1374,13 @@
         id: "minecraft:end_stone",
         count: 1,
       },
-      x: 0.0,
-      y: 26.1,
+      x: 0,
+      y: 19,
+      dependencies: ["053AC027954B3A77"],
+      hide_dependency_lines: true,
       shape: "gear",
-      dependencies: [
-        "053AC027954B3A77",
-      ],
-      size: 1.5,
+      size: 1.3,
+      dep_control_pts: {"053AC027954B3A77":[18.8,14.9,0,19]},
       id: "3EA54B1396E07FB1",
       tasks: [
         {
@@ -1407,13 +1408,12 @@
         id: "minecraft:dragon_head",
         count: 1,
       },
-      x: 1.6,
-      y: 26.1,
-      shape: "hexagon",
-      dependencies: [
-        "3EA54B1396E07FB1",
-      ],
-      size: 2.0,
+      x: 0,
+      y: 20.8,
+      dependencies: ["3EA54B1396E07FB1"],
+      shape: "gear",
+      size: 1.3,
+      dep_control_pts: {"3EA54B1396E07FB1":[0,19,0,20.8]},
       id: "5C3EEB1D90C2418F",
       tasks: [
         {
@@ -1442,12 +1442,12 @@
         id: "minecraft:purpur_block",
         count: 1,
       },
-      x: 3.2,
-      y: 26.1,
-      dependencies: [
-        "5C3EEB1D90C2418F",
-      ],
-      size: 1.0,
+      x: 0.9,
+      y: 22.6,
+      dependencies: ["5C3EEB1D90C2418F"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"5C3EEB1D90C2418F":[0,20.8,0.9,22.6]},
       id: "431F7DAB107E0094",
       tasks: [
         {
@@ -1471,12 +1471,12 @@
       ],
     },
     {
-      x: 4.8,
-      y: 26.1,
-      dependencies: [
-        "431F7DAB107E0094",
-      ],
-      size: 1.0,
+      x: 0,
+      y: 24.4,
+      dependencies: ["431F7DAB107E0094"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"431F7DAB107E0094":[0.9,22.6,0,24.4]},
       id: "6CAD900740E89982",
       tasks: [
         {
@@ -1503,12 +1503,12 @@
       ],
     },
     {
-      x: 4.8,
-      y: 27.6,
-      dependencies: [
-        "431F7DAB107E0094",
-      ],
-      size: 1.0,
+      x: 1.8,
+      y: 24.4,
+      dependencies: ["431F7DAB107E0094"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"431F7DAB107E0094":[0.9,22.6,1.8,24.4]},
       id: "1E802954F54DB30C",
       tasks: [
         {
@@ -1533,13 +1533,13 @@
         id: "minecraft:nether_star",
         count: 1,
       },
-      x: 0.0,
-      y: 27.6,
-      dependencies: [
-        "02F838BE73520B42",
-        "7A42D8A8172E48EE",
-      ],
-      size: 1.5,
+      x: 1.8,
+      y: 19,
+      dependencies: ["02F838BE73520B42","7A42D8A8172E48EE"],
+      hide_dependency_lines: true,
+      shape: "gear",
+      size: 1.3,
+      dep_control_pts: {"02F838BE73520B42":[15.2,13.1,1.8,19],"7A42D8A8172E48EE":[18.8,13.1,1.8,19]},
       id: "53BE0D7FD7901D47",
       tasks: [
         {
@@ -1564,12 +1564,12 @@
       ],
     },
     {
-      x: 1.6,
-      y: 27.6,
-      dependencies: [
-        "53BE0D7FD7901D47",
-      ],
-      size: 1.0,
+      x: 1.8,
+      y: 20.8,
+      dependencies: ["53BE0D7FD7901D47"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"53BE0D7FD7901D47":[1.8,19,1.8,20.8]},
       id: "6753BBD5CB523EC1",
       tasks: [
         {
@@ -1600,12 +1600,13 @@
         id: "minecraft:sculk",
         count: 1,
       },
-      x: 0.0,
-      y: 31.7,
-      dependencies: [
-        "537EB39A51D60D0E",
-      ],
-      size: 1.0,
+      x: 9.8,
+      y: 19,
+      dependencies: ["537EB39A51D60D0E"],
+      hide_dependency_lines: true,
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"537EB39A51D60D0E":[1.8,10.4,9.8,19]},
       id: "5B8F6F47EDD063B7",
       tasks: [
         {
@@ -1633,12 +1634,13 @@
         id: "minecraft:trial_key",
         count: 1,
       },
-      x: 0.0,
-      y: 33.2,
-      dependencies: [
-        "00C5B073D7228BF0",
-      ],
-      size: 1.0,
+      x: 9.8,
+      y: 20.8,
+      dependencies: ["00C5B073D7228BF0"],
+      hide_dependency_lines: true,
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"00C5B073D7228BF0":[20.6,1.8,9.8,20.8]},
       id: "2C62B4B7D60B9A98",
       tasks: [
         {
@@ -1662,12 +1664,13 @@
       ],
     },
     {
-      x: 0.0,
-      y: 30.2,
-      dependencies: [
-        "08A5707EE4F137B2",
-      ],
-      size: 1.0,
+      x: 9.8,
+      y: 22.6,
+      dependencies: ["08A5707EE4F137B2"],
+      hide_dependency_lines: true,
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"08A5707EE4F137B2":[24.2,5.4,9.8,22.6]},
       id: "505D148A11E82581",
       tasks: [
         {
@@ -1697,12 +1700,13 @@
       ],
     },
     {
-      x: 0.0,
-      y: 34.7,
-      dependencies: [
-        "40B5CC37297FEFE7",
-      ],
-      size: 1.0,
+      x: 9.8,
+      y: 24.4,
+      dependencies: ["40B5CC37297FEFE7"],
+      hide_dependency_lines: true,
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"40B5CC37297FEFE7":[5.4,1.8,9.8,24.4]},
       id: "762001E5715650EC",
       tasks: [
         {
@@ -1723,13 +1727,13 @@
       ],
     },
     {
-      x: 1.6,
-      y: 34.7,
-      dependencies: [
-        "762001E5715650EC",
-      ],
-      size: 1.0,
+      x: 11.6,
+      y: 21.7,
       optional: true,
+      dependencies: ["762001E5715650EC"],
+      shape: "diamond",
+      size: 1,
+      dep_control_pts: {"762001E5715650EC":[9.8,24.4,11.6,21.7]},
       id: "3AA2B42527349AA7",
       tasks: [
         {
@@ -1761,68 +1765,89 @@
   quest_links: [
   ],
   images: [
-    {
-      x: 5.4,
-      y: -1.5188,
-      width: 12.0,
-      height: 1.4375,
-      rotation: 0.0,
-      image: "gspack:textures/quests/basics_header.png",
-      id: "55E560B19B6F0F57",
-    },
-    {
-      x: 0.8118,
-      y: 29.0,
-      width: 2.8235,
-      height: 0.6,
-      rotation: 0.0,
-      image: "gspack:textures/quests/basics_ancient_city.png",
-      id: "70ABB79CE1D9B110",
-    },
-    {
-      x: 0.7765,
-      y: 17.3,
-      width: 2.7529,
-      height: 0.6,
-      rotation: 0.0,
-      image: "gspack:textures/quests/basics_nether.png",
-      id: "13686FA914D5FE3B",
-    },
-    {
-      x: 0.5471,
-      y: 4.35,
-      width: 2.2941,
-      height: 0.6,
-      rotation: 0.0,
-      image: "gspack:textures/quests/basics_iron.png",
-      id: "77CB25F4C872AC2C",
-    },
-    {
-      x: 0.5647,
-      y: 0.0,
-      width: 2.3294,
-      height: 0.6,
-      rotation: 0.0,
-      image: "gspack:textures/quests/basics_wood.png",
-      id: "5F18BF8E8F47532A",
-    },
-    {
-      x: 0.4765,
-      y: 24.4,
-      width: 2.1529,
-      height: 0.6,
-      rotation: 0.0,
-      image: "gspack:textures/quests/basics_end.png",
-      id: "6C76AC4236DDAF66",
-    },
-    {
-      x: 2.0294,
-      y: 12.95,
-      width: 5.2588,
-      height: 0.6,
-      rotation: 0.0,
-      image: "gspack:textures/quests/basics_diamonds.png",
-      id: "59237B93E24D403E",
-    },
-  ],
+  {
+    "x": 12.1,
+    "y": -1.7188,
+    "width": 12,
+    "height": 1.4375,
+    "rotation": 0,
+    "image": "gspack:textures/quests/basics_header.png",
+    "color": 16777215,
+    "alpha": 255,
+    "order": 0,
+    "corner": false
+  },
+  {
+    "x": -2.0647,
+    "y": 0.9,
+    "width": 2.3294,
+    "height": 0.6,
+    "rotation": 0,
+    "image": "gspack:textures/quests/basics_wood.png",
+    "color": 16777215,
+    "alpha": 255,
+    "order": 0,
+    "corner": false
+  },
+  {
+    "x": -3.5294,
+    "y": 10.4,
+    "width": 5.2588,
+    "height": 0.6,
+    "rotation": 0,
+    "image": "gspack:textures/quests/basics_diamonds.png",
+    "color": 16777215,
+    "alpha": 255,
+    "order": 0,
+    "corner": false
+  },
+  {
+    "x": 7.4882,
+    "y": 19,
+    "width": 2.8235,
+    "height": 0.6,
+    "rotation": 0,
+    "image": "gspack:textures/quests/basics_ancient_city.png",
+    "color": 16777215,
+    "alpha": 255,
+    "order": 0,
+    "corner": false
+  },
+  {
+    "x": 16.7529,
+    "y": 0,
+    "width": 2.2941,
+    "height": 0.6,
+    "rotation": 0,
+    "image": "gspack:textures/quests/basics_iron.png",
+    "color": 16777215,
+    "alpha": 255,
+    "order": 0,
+    "corner": false
+  },
+  {
+    "x": 9.3235,
+    "y": 13.1,
+    "width": 2.7529,
+    "height": 0.6,
+    "rotation": 0,
+    "image": "gspack:textures/quests/basics_nether.png",
+    "color": 16777215,
+    "alpha": 255,
+    "order": 0,
+    "corner": false
+  },
+  {
+    "x": -1.9765,
+    "y": 19,
+    "width": 2.1529,
+    "height": 0.6,
+    "rotation": 0,
+    "image": "gspack:textures/quests/basics_end.png",
+    "color": 16777215,
+    "alpha": 255,
+    "order": 0,
+    "corner": false
+  }
+],
 }

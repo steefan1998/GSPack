@@ -8,13 +8,13 @@
   },
   filename: "wildlife",
   default_quest_shape: "",
-  default_hide_dependency_lines: true,
+  default_hide_dependency_lines: false,
   quests: [
     {
-      x: 0.0,
-      y: 4.2,
+      x: 0,
+      y: 2.7,
       shape: "gear",
-      size: 1.5,
+      size: 1.3,
       id: "6F6C62A4D354D980",
       tasks: [
         {
@@ -45,12 +45,12 @@
         id: "livingthings:elephant_spawn_egg",
         count: 1,
       },
-      x: 1.6,
-      y: 4.2,
-      dependencies: [
-        "6F6C62A4D354D980",
-      ],
-      size: 1.0,
+      x: 1.8,
+      y: 0,
+      dependencies: ["6F6C62A4D354D980"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"6F6C62A4D354D980":[0,2.7,1.8,0]},
       id: "25EB0F72EAC8964C",
       tasks: [
         {
@@ -68,12 +68,12 @@
       ],
     },
     {
-      x: 3.2,
-      y: 4.2,
-      dependencies: [
-        "25EB0F72EAC8964C",
-      ],
-      size: 1.0,
+      x: 5.4,
+      y: 0,
+      dependencies: ["25EB0F72EAC8964C"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"25EB0F72EAC8964C":[1.8,0,5.4,0]},
       id: "4136CCBEA3C9E6EE",
       tasks: [
         {
@@ -94,13 +94,13 @@
       ],
     },
     {
-      x: 3.2,
-      y: 5.7,
-      dependencies: [
-        "25EB0F72EAC8964C",
-      ],
-      size: 1.0,
+      x: 5.4,
+      y: 1.8,
       optional: true,
+      dependencies: ["25EB0F72EAC8964C"],
+      shape: "diamond",
+      size: 1,
+      dep_control_pts: {"25EB0F72EAC8964C":[1.8,0,5.4,1.8]},
       id: "2D0EDDF7E9C390CA",
       tasks: [
         {
@@ -133,12 +133,12 @@
         id: "livingthings:monkey_spawn_egg",
         count: 1,
       },
-      x: 1.6,
-      y: 5.7,
-      dependencies: [
-        "6F6C62A4D354D980",
-      ],
-      size: 1.0,
+      x: 1.8,
+      y: 1.8,
+      dependencies: ["6F6C62A4D354D980"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"6F6C62A4D354D980":[0,2.7,1.8,1.8]},
       id: "5A46FB9FC579710C",
       tasks: [
         {
@@ -160,12 +160,12 @@
       ],
     },
     {
-      x: 1.6,
-      y: 2.7,
-      dependencies: [
-        "6F6C62A4D354D980",
-      ],
-      size: 1.0,
+      x: 1.8,
+      y: 3.6,
+      dependencies: ["6F6C62A4D354D980"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"6F6C62A4D354D980":[0,2.7,1.8,3.6]},
       id: "33705DC19CF2FAFC",
       tasks: [
         {
@@ -195,12 +195,12 @@
       ],
     },
     {
-      x: 3.2,
-      y: 2.7,
-      dependencies: [
-        "33705DC19CF2FAFC",
-      ],
-      size: 1.0,
+      x: 5.4,
+      y: 3.6,
+      dependencies: ["33705DC19CF2FAFC"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"33705DC19CF2FAFC":[1.8,3.6,5.4,3.6]},
       id: "7C3F71C6428B75EA",
       tasks: [
         {
@@ -228,12 +228,12 @@
       ],
     },
     {
-      x: 3.2,
-      y: 1.2,
-      dependencies: [
-        "33705DC19CF2FAFC",
-      ],
-      size: 1.0,
+      x: 5.4,
+      y: 5.4,
+      dependencies: ["33705DC19CF2FAFC"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"33705DC19CF2FAFC":[1.8,3.6,5.4,5.4]},
       id: "6CE077A054400D68",
       tasks: [
         {
@@ -258,12 +258,12 @@
         id: "livingthings:penguin_spawn_egg",
         count: 1,
       },
-      x: 1.6,
-      y: 7.2,
-      dependencies: [
-        "6F6C62A4D354D980",
-      ],
-      size: 1.0,
+      x: 1.8,
+      y: 5.4,
+      dependencies: ["6F6C62A4D354D980"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"6F6C62A4D354D980":[0,2.7,1.8,5.4]},
       id: "25955A16B0898EB3",
       tasks: [
         {
@@ -285,13 +285,13 @@
         id: "livingthings:shroomie_spawn_egg",
         count: 1,
       },
-      x: 1.6,
-      y: 1.2,
-      dependencies: [
-        "6F6C62A4D354D980",
-      ],
-      size: 1.0,
+      x: 3.6,
+      y: 1.8,
       optional: true,
+      dependencies: ["6F6C62A4D354D980"],
+      shape: "diamond",
+      size: 1,
+      dep_control_pts: {"6F6C62A4D354D980":[0,2.7,3.6,1.8]},
       id: "2AF5366288300E86",
       tasks: [
         {
@@ -313,13 +313,13 @@
         id: "livingthings:baby_ender_dragon_spawn_egg",
         count: 1,
       },
-      x: 1.6,
-      y: 8.7,
-      dependencies: [
-        "6F6C62A4D354D980",
-      ],
-      size: 1.0,
+      x: 3.6,
+      y: 3.6,
       optional: true,
+      dependencies: ["6F6C62A4D354D980"],
+      shape: "diamond",
+      size: 1,
+      dep_control_pts: {"6F6C62A4D354D980":[0,2.7,3.6,3.6]},
       id: "5B418D72991F4D39",
       tasks: [
         {
@@ -341,9 +341,10 @@
         id: "variantsandventures:thicket_spawn_egg",
         count: 1,
       },
-      x: 0.0,
-      y: 12.8,
-      size: 1.0,
+      x: 16.1,
+      y: 0,
+      shape: "hexagon",
+      size: 1.15,
       id: "73B4BBA8EBDDE787",
       tasks: [
         {
@@ -364,12 +365,12 @@
         id: "variantsandventures:gelid_spawn_egg",
         count: 1,
       },
-      x: 1.6,
-      y: 12.8,
-      dependencies: [
-        "73B4BBA8EBDDE787",
-      ],
-      size: 1.0,
+      x: 13.4,
+      y: 1.8,
+      dependencies: ["73B4BBA8EBDDE787"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"73B4BBA8EBDDE787":[16.1,0,13.4,1.8]},
       id: "1C6550849CF8FBC6",
       tasks: [
         {
@@ -398,12 +399,12 @@
         id: "variantsandventures:murk_spawn_egg",
         count: 1,
       },
-      x: 1.6,
-      y: 14.3,
-      dependencies: [
-        "73B4BBA8EBDDE787",
-      ],
-      size: 1.0,
+      x: 15.2,
+      y: 1.8,
+      dependencies: ["73B4BBA8EBDDE787"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"73B4BBA8EBDDE787":[16.1,0,15.2,1.8]},
       id: "14B7900208D51C19",
       tasks: [
         {
@@ -432,12 +433,12 @@
         id: "variantsandventures:thicket_spawn_egg",
         count: 1,
       },
-      x: 1.6,
-      y: 11.3,
-      dependencies: [
-        "73B4BBA8EBDDE787",
-      ],
-      size: 1.0,
+      x: 17,
+      y: 1.8,
+      dependencies: ["73B4BBA8EBDDE787"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"73B4BBA8EBDDE787":[16.1,0,17,1.8]},
       id: "71176428CCAF2770",
       tasks: [
         {
@@ -466,12 +467,12 @@
         id: "variantsandventures:verdant_spawn_egg",
         count: 1,
       },
-      x: 1.6,
-      y: 15.8,
-      dependencies: [
-        "73B4BBA8EBDDE787",
-      ],
-      size: 1.0,
+      x: 18.8,
+      y: 1.8,
+      dependencies: ["73B4BBA8EBDDE787"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"73B4BBA8EBDDE787":[16.1,0,18.8,1.8]},
       id: "302F9F180BAFEFF7",
       tasks: [
         {
@@ -496,16 +497,12 @@
       ],
     },
     {
-      x: 3.2,
-      y: 12.8,
-      shape: "hexagon",
-      dependencies: [
-        "1C6550849CF8FBC6",
-        "14B7900208D51C19",
-        "71176428CCAF2770",
-        "302F9F180BAFEFF7",
-      ],
-      size: 1.5,
+      x: 16.1,
+      y: 3.6,
+      dependencies: ["1C6550849CF8FBC6","14B7900208D51C19","71176428CCAF2770","302F9F180BAFEFF7"],
+      shape: "gear",
+      size: 1.3,
+      dep_control_pts: {"1C6550849CF8FBC6":[13.4,1.8,16.1,3.6],"14B7900208D51C19":[15.2,1.8,16.1,3.6],"71176428CCAF2770":[17,1.8,16.1,3.6],"302F9F180BAFEFF7":[18.8,1.8,16.1,3.6]},
       id: "7A3AF91E21DBCE56",
       tasks: [
         {
@@ -531,32 +528,41 @@
   quest_links: [
   ],
   images: [
-    {
-      x: 5.4,
-      y: -1.5188,
-      width: 12.0,
-      height: 1.4375,
-      rotation: 0.0,
-      image: "gspack:textures/quests/wildlife_header.png",
-      id: "6099123855381950",
-    },
-    {
-      x: 0.9882,
-      y: 0.0,
-      width: 3.1765,
-      height: 0.6,
-      rotation: 0.0,
-      image: "gspack:textures/quests/wildlife_lexicon.png",
-      id: "170401121124E1EE",
-    },
-    {
-      x: 1.6412,
-      y: 10.1,
-      width: 4.4824,
-      height: 0.6,
-      rotation: 0.0,
-      image: "gspack:textures/quests/wildlife_vv.png",
-      id: "4BE9AD43225BB6DC",
-    },
-  ],
+  {
+    "x": 9.4,
+    "y": -1.7188,
+    "width": 12,
+    "height": 1.4375,
+    "rotation": 0,
+    "image": "gspack:textures/quests/wildlife_header.png",
+    "color": 16777215,
+    "alpha": 255,
+    "order": 0,
+    "corner": false
+  },
+  {
+    "x": 10.2588,
+    "y": 0,
+    "width": 4.4824,
+    "height": 0.6,
+    "rotation": 0,
+    "image": "gspack:textures/quests/wildlife_vv.png",
+    "color": 16777215,
+    "alpha": 255,
+    "order": 0,
+    "corner": false
+  },
+  {
+    "x": -2.4882,
+    "y": 2.7,
+    "width": 3.1765,
+    "height": 0.6,
+    "rotation": 0,
+    "image": "gspack:textures/quests/wildlife_lexicon.png",
+    "color": 16777215,
+    "alpha": 255,
+    "order": 0,
+    "corner": false
+  }
+],
 }

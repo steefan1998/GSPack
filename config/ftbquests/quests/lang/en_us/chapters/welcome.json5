@@ -1,6 +1,6 @@
 {
   "chapter.222972F518CA85E0.chapter_subtitle": [
-    "Start here! How the quest book, rewards and the pack work.",
+    "Start here! How the quest book, rewards and the pack work."
   ],
   "chapter.222972F518CA85E0.title": "Welcome to GSPack",
   "quest.04E0F5F6380DDE7A.quest_desc": [
@@ -8,7 +8,7 @@
     "- &bSophisticated Backpacks&r: extra storage on your back, with upgrades.",
     "- &bFTB Ultimine&r: hold the Ultimine key (see Options > Controls) while mining to break whole veins at once.",
     "- &bJade&r: shows what block or entity you are looking at.",
-    "- &bFTB Backups&r: saves your world regularly, just in case.",
+    "- &bFTB Backups&r: saves your world regularly, just in case."
   ],
   "quest.04E0F5F6380DDE7A.title": "Quality of Life",
   "quest.072B146391038909.quest_desc": [
@@ -16,7 +16,7 @@
     "",
     "&bCorail Tombstone&r puts your items in a &egrave&r at the place where you died. Go back to it and open it to get everything back.",
     "",
-    "Write down your death location, or set a waypoint there with &eB&r.",
+    "Write down your death location, or set a waypoint there with &eB&r."
   ],
   "quest.072B146391038909.title": "Rest in Peace",
   "quest.1B8E801C6E4876A5.quest_desc": [
@@ -28,7 +28,7 @@
     "4. &aThe Twilight Forest&r and &aThe Aether II&r for adventure.",
     "5. &aOritech&r, &aAllthemodium&r and &aStellaris&r for the late game, all the way to the Moon!",
     "",
-    "Have fun, and good luck!",
+    "Have fun, and good luck!"
   ],
   "quest.1B8E801C6E4876A5.title": "Where Do I Start?",
   "quest.1DAFECA703CC6B5B.quest_desc": [
@@ -45,14 +45,14 @@
     "- &fCheckmark tasks&r are completed by clicking them.",
     "- &fDimension, biome and kill tasks&r complete when you go somewhere or defeat something.",
     "",
-    "Quests unlock when the quests they are connected to are done.",
+    "Quests unlock when the quests they are connected to are done."
   ],
   "quest.1DAFECA703CC6B5B.quest_subtitle": "Click the checkmark to begin",
   "quest.1DAFECA703CC6B5B.title": "Welcome to GSPack!",
   "quest.3067AA6FE359B90A.quest_desc": [
     "Open this book any time with the &equest button&r in the top-left of your inventory, or with the quest book keybind (set it under Options > Controls).",
     "",
-    "Lost the book item? No problem, the inventory button always works.",
+    "Lost the book item? No problem, the inventory button always works."
   ],
   "quest.3067AA6FE359B90A.title": "Your Quest Book",
   "quest.41DFCE691EF6620F.quest_desc": [
@@ -62,7 +62,7 @@
     "- Press &eU&r to see what it is &fused in&r.",
     "- Press &eA&r to bookmark it.",
     "",
-    "Every item in a quest can also be clicked in the quest book to open JEI.",
+    "Every item in a quest can also be clicked in the quest book to open JEI."
   ],
   "quest.41DFCE691EF6620F.title": "Looking Up Recipes",
   "quest.54FDEAAC29880347.quest_desc": [
@@ -70,7 +70,7 @@
     "- Press &eB&r to set a waypoint and &eN&r to see all your waypoints, so you never lose your base.",
     "- &eM&r opens the &bFTB Chunks&r map, where you claim chunks.",
     "- &bWaystones&r let you teleport between places you have visited.",
-    "- &bNature's Compass&r and &bExplorer's Compass&r help you find biomes and structures.",
+    "- &bNature's Compass&r and &bExplorer's Compass&r help you find biomes and structures."
   ],
   "quest.54FDEAAC29880347.title": "Finding Your Way",
   "quest.5CB1C2E178B00BBD.quest_desc": [
@@ -78,7 +78,7 @@
     "",
     "Everyone in a team shares quest completion, so split up and tackle different chapters!",
     "",
-    "Protect your base by claiming chunks on the &eFTB Chunks&r map (default &eM&r).",
+    "Protect your base by claiming chunks on the &eFTB Chunks&r map (default &eM&r)."
   ],
   "quest.5CB1C2E178B00BBD.title": "Playing Together",
   "quest.6CBEDCA08659B106.quest_desc": [
@@ -89,7 +89,18 @@
     "&7Reward tables in this pack:",
     "&fCommon, Uncommon, Rare, Epic&r for general loot, plus themed tables like the &bEngineer's Crate&r, &dArcane Cache&r, &3Angler's Catch&r, &eSky Treasure&r, &2Twilight Spoils&r, &5Space Salvage&r and the &6Allthemodium Hoard&r.",
     "",
-    "Some quests let you &echoose&r a reward from a table instead of a random roll.",
+    "Some quests let you &echoose&r a reward from a table instead of a random roll."
   ],
   "quest.6CBEDCA08659B106.title": "Rewards \\& Loot Tables",
+  "quest.2B57D49A595DF07C.quest_desc": [
+    "Complete every required quest in a chapter to unlock its mastery. Optional quests do not block it. Mastery follows your FTB Quests team.",
+    "",
+    "&e/mastery&r shows your completed chapters in colour. Unfinished chapters stay hidden.",
+    "&e/mastery player <player>&r checks another online player.",
+    "&e/mastery chapter ae2&r lists online AE2 masters and completed teams, including offline teams. Replace ae2 with another chapter key.",
+    "&e/mastery list&r lists all chapter keys.",
+    "",
+    "Everyone can use these commands without OP. Mastery is checked on login and every ten seconds; it never completes quests for you."
+  ],
+  "quest.2B57D49A595DF07C.title": "Chapter Mastery"
 }

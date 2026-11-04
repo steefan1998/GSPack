@@ -9,74 +9,134 @@
       id: "341C5E357D42BBA4",
       item: {
         id: "minecraft:netherite_ingot",
-        count: 1,
+        count: 1
       },
-      weight: 12.0,
+      weight: 12
     },
     {
       id: "2F1F01F79B4DAF48",
       item: {
         id: "minecraft:diamond_block",
-        count: 1,
+        count: 1
       },
       count: 2,
-      weight: 15.0,
+      weight: 15
     },
     {
       id: "4FC4BA227D80E6F0",
       item: {
         id: "minecraft:enchanted_golden_apple",
-        count: 1,
+        count: 1
       },
-      weight: 6.0,
+      weight: 6
     },
     {
       id: "49282C0C6E27888F",
       item: {
         id: "minecraft:totem_of_undying",
-        count: 1,
+        count: 1
       },
-      weight: 10.0,
+      weight: 10
     },
     {
       id: "280F9FD20CB4E896",
       item: {
         id: "mysticalagriculture:imperium_essence",
-        count: 1,
+        count: 1
       },
       count: 16,
-      weight: 12.0,
+      weight: 12
     },
     {
       id: "461EBD7673AACE61",
       item: {
         id: "apotheosis:sigil_of_socketing",
-        count: 1,
+        count: 1
       },
       count: 2,
-      weight: 10.0,
+      weight: 10
     },
     {
       id: "0A71B1950EF429F7",
       item: {
         id: "minecraft:nether_star",
-        count: 1,
+        count: 1
       },
-      weight: 5.0,
+      weight: 5
     },
     {
       id: "60424BD1498F15FA",
       item: {
         id: "minecraft:elytra",
-        count: 1,
+        count: 1
       },
-      weight: 3.0,
+      weight: 3
     },
     {
       id: "62F4B27D5861CBE7",
       xp_levels: 20,
       type: "xp_levels",
-      weight: 8.0,
+      weight: 8
     },
-  ],
+    {
+      id: "36895A4149021C6D",
+      type: "item",
+      item: {
+        count: 1,
+        id: "minecraft:experience_bottle"
+      },
+      count: 32,
+      weight: 12
+    },
+    {
+      id: "1F4FF9F51D17C3B6",
+      type: "item",
+      item: {
+        count: 1,
+        id: "minecraft:gold_block"
+      },
+      count: 4,
+      weight: 10
+    },
+    {
+      id: "336EA25627BE28DC",
+      type: "item",
+      item: {
+        count: 1,
+        id: "minecraft:emerald_block"
+      },
+      count: 2,
+      weight: 8
+    },
+    {
+      id: "01BDDAF8C071964F",
+      type: "item",
+      item: {
+        count: 1,
+        id: "minecraft:shulker_shell"
+      },
+      count: 4,
+      weight: 5
+    },
+    {
+      id: "3BA935F63AE562D9",
+      type: "item",
+      item: {
+        count: 1,
+        id: "minecraft:firework_rocket"
+      },
+      count: 64,
+      weight: 10
+    },
+    {
+      id: "68B70639FE944596",
+      type: "item",
+      item: {
+        count: 1,
+        id: "minecraft:golden_carrot"
+      },
+      count: 32,
+      weight: 12
+    }
+  ]
 }

@@ -39,6 +39,7 @@ enderio:powdered_lapis_lazuli mekanism:dust_lapis_lazuli
 enderio:powdered_obsidian mekanism:dust_obsidian
 enderio:powdered_quartz mekanism:dust_quartz
 enderio:powdered_tin alltheores:tin_dust
+enderio:silicon ae2:silicon
 justdirethings:charcoal mekanism:block_charcoal
 ltxi:copper_plate alltheores:copper_plate
 ltxi:deepslate_silver_ore alltheores:deepslate_silver_ore
@@ -160,6 +161,7 @@ oritech:raw_platinum alltheores:raw_platinum
 oritech:raw_platinum_block alltheores:raw_platinum_block
 oritech:raw_uranium alltheores:raw_uranium
 oritech:raw_uranium_block alltheores:raw_uranium_block
+oritech:silicon ae2:silicon
 oritech:silicon_block extendedae:silicon_block
 oritech:steel alltheores:steel_block
 oritech:steel_dust alltheores:steel_dust
@@ -238,6 +240,7 @@ railcraft:zinc_nugget alltheores:zinc_nugget
 railcraft:zinc_ore alltheores:zinc_ore
 railcraft:zinc_plate alltheores:zinc_plate
 railcraft:zinc_raw alltheores:raw_zinc
+stellaris:silicon ae2:silicon
 tconstruct:knightmetal_block twilightforest:knightmetal_block
 tconstruct:knightmetal_ingot twilightforest:knightmetal_ingot
 tconstruct:steel_block alltheores:steel_block

@@ -9,78 +9,138 @@
       id: "748646E27A61B164",
       item: {
         id: "minecraft:diamond",
-        count: 1,
+        count: 1
       },
       count: 4,
-      weight: 20.0,
+      weight: 20
     },
     {
       id: "7040273096A49D99",
       item: {
         id: "minecraft:emerald",
-        count: 1,
+        count: 1
       },
       count: 8,
-      weight: 15.0,
+      weight: 15
     },
     {
       id: "7E3383B5B2B44BA4",
       item: {
         id: "minecraft:golden_apple",
-        count: 1,
+        count: 1
       },
       count: 2,
-      weight: 12.0,
+      weight: 12
     },
     {
       id: "3806A729980D247C",
       item: {
         id: "minecraft:name_tag",
-        count: 1,
+        count: 1
       },
-      weight: 6.0,
+      weight: 6
     },
     {
       id: "7B1B79E06EFB40FC",
       item: {
         id: "mysticalagriculture:prudentium_essence",
-        count: 1,
+        count: 1
       },
       count: 16,
-      weight: 12.0,
+      weight: 12
     },
     {
       id: "736322DBAC2D50AB",
       item: {
         id: "apotheosis:gem_dust",
-        count: 1,
+        count: 1
       },
       count: 16,
-      weight: 10.0,
+      weight: 10
     },
     {
       id: "35ECAC6E18CDBD25",
       item: {
         id: "minecraft:blaze_rod",
-        count: 1,
+        count: 1
       },
       count: 8,
-      weight: 10.0,
+      weight: 10
     },
     {
       id: "51A9A68FACDE9407",
       item: {
         id: "minecraft:experience_bottle",
-        count: 1,
+        count: 1
       },
       count: 16,
-      weight: 10.0,
+      weight: 10
     },
     {
       id: "08938DC43C6CC3A1",
       xp_levels: 10,
       type: "xp_levels",
-      weight: 5.0,
+      weight: 5
     },
-  ],
+    {
+      id: "7B5A820C7160EB5E",
+      type: "item",
+      item: {
+        count: 1,
+        id: "minecraft:prismarine_shard"
+      },
+      count: 16,
+      weight: 8
+    },
+    {
+      id: "1D73CDEA8AC3C4A0",
+      type: "item",
+      item: {
+        count: 1,
+        id: "minecraft:prismarine_crystals"
+      },
+      count: 8,
+      weight: 8
+    },
+    {
+      id: "583290B66ABE04AA",
+      type: "item",
+      item: {
+        count: 1,
+        id: "minecraft:shulker_shell"
+      },
+      count: 2,
+      weight: 4
+    },
+    {
+      id: "5954B9F134DA2496",
+      type: "item",
+      item: {
+        count: 1,
+        id: "minecraft:firework_rocket"
+      },
+      count: 32,
+      weight: 10
+    },
+    {
+      id: "2DA3BB48486BFB0A",
+      type: "item",
+      item: {
+        count: 1,
+        id: "minecraft:ender_pearl"
+      },
+      count: 8,
+      weight: 10
+    },
+    {
+      id: "715B35BAFDF2AEF7",
+      type: "item",
+      item: {
+        count: 1,
+        id: "minecraft:obsidian"
+      },
+      count: 16,
+      weight: 10
+    }
+  ]
 }

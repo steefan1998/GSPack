@@ -1,0 +1,106 @@
+{
+  "chapter.6BB770776C60EF1F.chapter_subtitle": [
+    "Crops, livestock, food and a dependable farm."
+  ],
+  "chapter.6BB770776C60EF1F.title": "Farming",
+  "quest.03A8091E64530055.quest_desc": [
+    "Bring cows into an enclosure. Use wheat to breed them and a bucket to collect milk. This quest detects the milk, not the enclosure."
+  ],
+  "quest.03A8091E64530055.title": "Cattle Supplies",
+  "quest.05AB4DC63B089868.quest_desc": [
+    "Build a reliable food supply with crops, animals and useful infrastructure. This chapter is independent of the Productive and Mystical Agriculture chapters."
+  ],
+  "quest.05AB4DC63B089868.title": "From Dirt to Dinner",
+  "quest.078DA9074AD0AF1B.quest_desc": [
+    "Compost surplus plants and seeds into bone meal."
+  ],
+  "quest.078DA9074AD0AF1B.title": "Waste into Growth",
+  "quest.09C4FCDF851B58A8.quest_desc": [
+    "Find carrots and grow them on farmland. Reserve some for replanting and animal breeding."
+  ],
+  "quest.09C4FCDF851B58A8.title": "Carrot Patch",
+  "quest.0BFF0F3E45E8BBA0.quest_desc": [
+    "Plant seeds on hydrated farmland with enough light and harvest mature wheat."
+  ],
+  "quest.0BFF0F3E45E8BBA0.title": "A Field of Wheat",
+  "quest.102B5EB263BF4583.quest_desc": [
+    "Observers and pistons can automate suitable crops such as sugar cane. Check your design before leaving it running."
+  ],
+  "quest.102B5EB263BF4583.title": "Moving Harvests",
+  "quest.105723D7EC8B6814.quest_desc": [
+    "Plant sugar cane beside water for paper and sugar."
+  ],
+  "quest.105723D7EC8B6814.title": "Sugar Cane Bank",
+  "quest.1487366C632FEEA0.quest_desc": [
+    "Collect apples and plant trees near your base. Productive Trees provides a dedicated breeding chapter."
+  ],
+  "quest.1487366C632FEEA0.title": "An Apple a Day",
+  "quest.1F34539272502872.quest_desc": [
+    "Grow beetroot and save seeds for the next planting."
+  ],
+  "quest.1F34539272502872.title": "Beetroot Beds",
+  "quest.21EB714512DE177F.quest_desc": [
+    "GSPack allows three wheat anywhere in the crafting grid to make bread."
+  ],
+  "quest.21EB714512DE177F.title": "Fresh Bread",
+  "quest.32A6F68488D5BAC7.quest_desc": [
+    "Cook your potatoes before eating them."
+  ],
+  "quest.32A6F68488D5BAC7.title": "A Warm Meal",
+  "quest.32F5E08DB3ECE200.quest_desc": [
+    "Breed and shear sheep for renewable wool."
+  ],
+  "quest.32F5E08DB3ECE200.title": "Wool Supply",
+  "quest.38343B825D00E4C9.quest_desc": [
+    "Grow kelp in water. Dried kelp can be used as food or fuel."
+  ],
+  "quest.38343B825D00E4C9.title": "Underwater Crops",
+  "quest.413521B471E573A3.quest_desc": [
+    "Bone meal speeds up many crops. Keep enough light and water available."
+  ],
+  "quest.413521B471E573A3.title": "A Helping Hand",
+  "quest.49AAAB4850080998.quest_desc": [
+    "Keep chickens and collect eggs. Seeds can be used for breeding."
+  ],
+  "quest.49AAAB4850080998.title": "A Basket of Eggs",
+  "quest.4A6AD7BF221D7FB4.quest_desc": [
+    "Hoppers and storage collect produce. Pylons and Productive Farming have further automation options in their own chapters."
+  ],
+  "quest.4A6AD7BF221D7FB4.title": "Farm Infrastructure",
+  "quest.5B3C8A17C6E23CE5.quest_desc": [
+    "Collect leather for books and equipment."
+  ],
+  "quest.5B3C8A17C6E23CE5.title": "Leather Supply",
+  "quest.5FCD80B861334DC0.quest_desc": [
+    "Melons are useful food, compost and brewing ingredients."
+  ],
+  "quest.5FCD80B861334DC0.title": "Melon Harvest",
+  "quest.6AB836D3C59F4580.quest_desc": [
+    "Build a vanilla beehive and provide flowers. Bees can help nearby crops; Productive Bees remains optional."
+  ],
+  "quest.6AB836D3C59F4580.title": "Pollinator Supplies",
+  "quest.7258C58DCEB37868.quest_desc": [
+    "Collect honey carefully, using a campfire when appropriate."
+  ],
+  "quest.7258C58DCEB37868.title": "A Little Honey",
+  "quest.7386078E8FCDF727.quest_desc": [
+    "Compress surplus wheat into hay bales for storage and animal care."
+  ],
+  "quest.7386078E8FCDF727.title": "Store the Harvest",
+  "quest.759C712DE51ABD6B.quest_desc": [
+    "Give the stem an empty adjacent block for its fruit."
+  ],
+  "quest.759C712DE51ABD6B.title": "Pumpkin Patch",
+  "quest.7761F2ABB0C17C02.quest_desc": [
+    "Keep a varied food reserve for exploration. Finishing this chapter contributes to Farming mastery."
+  ],
+  "quest.7761F2ABB0C17C02.title": "A Stocked Pantry",
+  "quest.7D8A697A4BFADE60.quest_desc": [
+    "Cocoa grows on jungle logs. Replant a few beans before crafting with them."
+  ],
+  "quest.7D8A697A4BFADE60.title": "Cocoa Grove",
+  "quest.7DADC9F00136E8B1.quest_desc": [
+    "Grow potatoes as a dependable crop. Poisonous potatoes are not required."
+  ],
+  "quest.7DADC9F00136E8B1.title": "Potato Patch"
+}

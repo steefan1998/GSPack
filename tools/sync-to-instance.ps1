@@ -14,6 +14,7 @@ $sync = @(
     @{ From = 'config\mysticalcustomization\crops'; Mirror = $true },
     @{ From = 'kubejs\assets\gspack'; Mirror = $true },
     @{ From = 'kubejs\assets\hostilenetworks'; Mirror = $true },
+    @{ From = 'kubejs\assets\minecraft'; Mirror = $false },
     @{ From = 'kubejs\data'; Mirror = $false },
     @{ From = 'kubejs\startup_scripts'; Mirror = $false },
     @{ From = 'kubejs\server_scripts'; Mirror = $false },
@@ -28,4 +29,16 @@ foreach ($s in $sync) {
     $changed = @($out | Where-Object { $_ -match '\S' })
     '{0,-28} {1} file(s) {2}' -f $s.From, $changed.Count, $(if ($WhatIf) { 'would change' } else { 'updated' })
 }
-"Done. In-game: /ftbquests reload, then F3+T."
+# Merge pack EMC exclusion; retain local custom entries.
+$emcTarget = Join-Path $Instance 'config\Equivox\custom_emc.json'
+$packEmc = Get-Content (Join-Path $Root 'config\Equivox\custom_emc.json') -Raw | ConvertFrom-Json
+$currentEmc = if (Test-Path $emcTarget) { Get-Content -LiteralPath $emcTarget -Raw | ConvertFrom-Json } else { $packEmc }
+$entries = @($currentEmc.entries | Where-Object { $_.tag -ne 'gspack:emc_excluded' })
+$entries += @($packEmc.entries | Where-Object { $_.tag -eq 'gspack:emc_excluded' })
+$mergedEmc = [ordered]@{ comment = $packEmc.comment; entries = $entries }
+if (-not $WhatIf) {
+    New-Item -ItemType Directory -Force (Split-Path $emcTarget -Parent) | Out-Null
+    [IO.File]::WriteAllText($emcTarget, ($mergedEmc | ConvertTo-Json -Depth 30), (New-Object Text.UTF8Encoding($false)))
+}
+'Equivox EMC policy merged; local entries retained.'
+"Done. Restart after startup or EMC changes; otherwise /reload, /ftbquests reload and F3+T."

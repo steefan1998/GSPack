@@ -1,7 +1,7 @@
 ﻿Chapter 'aether' 'The Aether II' 'aether_ii:ambrosium_shard' 'explore' 'Floating islands, strange creatures and lost civilisations.'
 
 # ===== Arrival =====
-Q 'portal' 'Into the Sky' 'aether_ii:aether_portal_frame;dim:aether_ii:aether_holy_isles' '' 'xp:150;table:sky' -size 1.5 -shape 'gear' -icon 'minecraft:glowstone' -sub 'The Highlands await' -desc @'
+Q 'portal' 'Into the Sky' 'dim:aether_ii:aether_holy_isles' '' 'xp:150;table:sky' -size 1.5 -shape 'gear' -icon 'minecraft:glowstone' -sub 'The Highlands await' -desc @'
 &bThe Aether II&r is a dimension of floating islands high above the clouds.
 
 Check JEI for the &eAether portal frame&r and how to activate it, then step through!

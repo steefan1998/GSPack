@@ -1,46 +1,46 @@
 {
   "chapter.36A46344FB72D9F5.chapter_subtitle": [
-    "The road through the pack: from your first crafting table to the Trophy of Infinity.",
+    "The road through the pack: from your first crafting table to the Trophy of Infinity."
   ],
   "chapter.36A46344FB72D9F5.title": "GSPack Progression",
   "quest.040ECB00C94BF973.quest_desc": [
-    "A diamond pickaxe opens up the rest of the pack. Choose a road, or try all three!",
+    "A diamond pickaxe opens up the rest of the pack. Choose a road, or try all three!"
   ],
   "quest.040ECB00C94BF973.title": "Diamonds!",
   "quest.07CEC09293A330D4.quest_desc": [
-    "Defeat the Ender Dragon. See &eGetting Started&r.",
+    "Defeat the Ender Dragon. See &eGetting Started&r."
   ],
   "quest.07CEC09293A330D4.title": "The End",
   "quest.09B4200D6A64399A.quest_desc": [
-    "Tier 6 crops and their Crux blocks, including the Allthemodium seeds. See &eMystical Agriculture&r.",
+    "Tier 6 crops and their Crux blocks, including the Allthemodium seeds. See &eMystical Agriculture&r."
   ],
   "quest.09B4200D6A64399A.title": "Insanium",
   "quest.0FE132183A9E2A3E.quest_desc": [
-    "Store everything in an ME network, then automate crafting. See &eApplied Energistics 2&r.",
+    "Store everything in an ME network, then automate crafting. See &eApplied Energistics 2&r."
   ],
   "quest.0FE132183A9E2A3E.title": "Digital Storage",
   "quest.1301F1BA2A9F98D4.quest_desc": [
-    "All 19 singularities and a Creative Singularity, in the Ultimate Crafting Table. See &eEndgame: Infinity&r.",
+    "All 19 singularities and a Creative Singularity, in the Ultimate Crafting Table. See &eEndgame: Infinity&r."
   ],
   "quest.1301F1BA2A9F98D4.title": "The Ultimate Singularity",
   "quest.143A85C42BF5A10D.quest_desc": [
-    "The rarest metal, from the End Highlands. See &eAllthemodium&r.",
+    "The rarest metal, from the End Highlands. See &eAllthemodium&r."
   ],
   "quest.143A85C42BF5A10D.title": "Unobtainium",
   "quest.16E8BC56D17D7680.quest_desc": [
-    "All roads meet here. The Elite Crafting Table needs materials from every road. See &eEndgame: Infinity&r.",
+    "All roads meet here. The Elite Crafting Table needs materials from every road. See &eEndgame: Infinity&r."
   ],
   "quest.16E8BC56D17D7680.title": "Extended Crafting",
   "quest.1D8895A769D06F38.quest_desc": [
-    "Mine Allthemodium in the Mining Dimension. See &eAllthemodium&r.",
+    "Mine Allthemodium in the Mining Dimension. See &eAllthemodium&r."
   ],
   "quest.1D8895A769D06F38.title": "Allthemodium",
   "quest.3691393C3E98B5A3.quest_desc": [
-    "Better enchanting, gems and affix loot. See &eApotheosis&r.",
+    "Better enchanting, gems and affix loot. See &eApotheosis&r."
   ],
   "quest.3691393C3E98B5A3.title": "Gems \\& Affixes",
   "quest.39E731A91263BD52.quest_desc": [
-    "Grow resources with Mystical Agriculture. See &eMystical Agriculture&r and the &eSeed Codex&r.",
+    "Grow resources with Mystical Agriculture. See &eMystical Agriculture&r and the &eSeed Codex&r."
   ],
   "quest.39E731A91263BD52.title": "Magical Farming",
   "quest.3CB23CE64EFDD940.quest_desc": [
@@ -48,71 +48,73 @@
     "",
     "There are three roads, &9Technology&r, &aMagic&r and &6Exploration&r, and they all lead to the &dTrophy of Infinity&r. You do not have to finish one road before starting another: most players go back and forth.",
     "",
-    "The milestones complete on their own when you have the item. Open the chapter named in each quest for the details.",
+    "The milestones complete on their own when you have the item. Open the chapter named in each quest for the details."
   ],
   "quest.3CB23CE64EFDD940.title": "The Road Ahead",
   "quest.45340A1E8EC870FB.quest_desc": [
-    "The Supercritical Phase Shifter makes Antimatter, used in many endgame recipes. See &eMekanism&r.",
+    "The Supercritical Phase Shifter makes Antimatter, used in many endgame recipes. See &eMekanism&r."
   ],
   "quest.45340A1E8EC870FB.title": "Antimatter",
   "quest.4A19ACFF6659EA44.quest_desc": [
-    "Oritech's machines and addons. See &eOritech&r.",
+    "Oritech's machines and addons. See &eOritech&r."
   ],
   "quest.4A19ACFF6659EA44.title": "Animated Machines",
   "quest.4E77C0883E27C158.quest_desc": [
-    "Dark Matter needs Vibranium, Red Matter needs Unobtainium. See &eEquivox&r.",
+    "Dark Matter needs Vibranium, Red Matter needs Unobtainium. See &eEquivox&r."
   ],
   "quest.4E77C0883E27C158.title": "Red Matter",
   "quest.54102498A4AE1D14.quest_desc": [
-    "Research aspects, vis and infusion. See &eThaumaturge&r.",
+    "Research aspects, vis and infusion. See &eThaumaturge&r."
   ],
   "quest.54102498A4AE1D14.title": "The Arcane",
   "quest.5DE21E16F099588A.quest_desc": [
-    "Light a Nether portal and step through. See &eGetting Started&r.",
+    "Light a Nether portal and step through. See &eGetting Started&r."
   ],
   "quest.5DE21E16F099588A.title": "Into the Nether",
   "quest.5EA6B455B82F34F0.quest_desc": [
     "The end goal of GSPack. See &eEndgame: Infinity&r, and the &eTrophy Checklist&r for every ingredient.",
+    "",
+    "Optional mod routes join here: finish their milestone quests to complete the roadmap. The central crafting route can be followed before those side routes are finished."
   ],
   "quest.5EA6B455B82F34F0.title": "Trophy of Infinity",
   "quest.695EE127BCA815D8.quest_desc": [
-    "Your first Mekanism machine: steel, circuits and ore processing. See &eMekanism&r.",
+    "Your first Mekanism machine: steel, circuits and ore processing. See &eMekanism&r."
   ],
   "quest.695EE127BCA815D8.title": "Machines",
   "quest.6DDAFB92818AF6D1.quest_desc": [
-    "Defeat the bosses of the Twilight Forest, starting with the Naga. See &eTwilight Forest&r.",
+    "Defeat the bosses of the Twilight Forest, starting with the Naga. See &eTwilight Forest&r."
   ],
   "quest.6DDAFB92818AF6D1.title": "Twilight Forest",
   "quest.707A8DA8ADAA3EF6.quest_desc": [
-    "Five cores, one for each pillar of the pack, make a Creative Singularity. See &eEndgame: Infinity&r.",
+    "Five cores, one for each pillar of the pack, make a Creative Singularity. See &eEndgame: Infinity&r."
   ],
   "quest.707A8DA8ADAA3EF6.title": "Creative Singularity",
   "quest.7517A918ECED3B6D.quest_desc": [
-    "Build a Smeltery for alloys and better tools. See &eTinkers' Construct&r.",
+    "Build a Smeltery for alloys and better tools. See &eTinkers' Construct&r."
   ],
   "quest.7517A918ECED3B6D.title": "Molten Metal",
   "quest.75CEC8D79B57D3F1.quest_desc": [
-    "With Allthemodium you can make the Philosopher's Stone and start with EMC. See &eEquivox&r.",
+    "With Allthemodium you can make the Philosopher's Stone and start with EMC. See &eEquivox&r."
   ],
   "quest.75CEC8D79B57D3F1.title": "Equivalent Exchange",
   "quest.79BD1EE8C76BAEDB.quest_desc": [
-    "Travel to the floating islands above the clouds. See &eThe Aether II&r.",
+    "Travel to the floating islands above the clouds. See &eThe Aether II&r."
   ],
   "quest.79BD1EE8C76BAEDB.title": "The Aether",
   "quest.7BE6A17A6D9F43E3.quest_desc": [
-    "Tier 5 essence: diamonds, emeralds and netherite from the field. See &eMystical Agriculture&r.",
+    "Tier 5 essence: diamonds, emeralds and netherite from the field. See &eMystical Agriculture&r."
   ],
   "quest.7BE6A17A6D9F43E3.title": "Supremium",
   "quest.7C03C7CB4AE0C5A7.quest_desc": [
-    "Elite circuits are needed for the Elite Crafting Table. See &eMekanism&r.",
+    "Elite circuits are needed for the Elite Crafting Table. See &eMekanism&r."
   ],
   "quest.7C03C7CB4AE0C5A7.title": "Elite Technology",
   "quest.7C219F6953D0DA05.quest_desc": [
-    "Get an iron pickaxe. See &eGetting Started&r.",
+    "Get an iron pickaxe. See &eGetting Started&r."
   ],
   "quest.7C219F6953D0DA05.title": "Iron Age",
   "quest.7F3741482E6279A8.quest_desc": [
-    "Build a rocket and fly to the Moon for Desh. See &eStellaris&r.",
+    "Build a rocket and fly to the Moon for Desh. See &eStellaris&r."
   ],
-  "quest.7F3741482E6279A8.title": "To the Moon",
+  "quest.7F3741482E6279A8.title": "To the Moon"
 }

@@ -1,297 +1,298 @@
 {
   "chapter.329774BD106DA4BD.chapter_subtitle": [
-    "Build a space program: fuel, space suits, rockets and the Moon.",
+    "Build a space program: fuel, space suits, rockets and the Moon."
   ],
   "chapter.329774BD106DA4BD.title": "Stellaris",
   "quest.00F4BF3A1192C1F4.quest_desc": [
-    "More oxygen for your suit. Higher tiers last much longer.",
+    "More oxygen for your suit. Higher tiers last much longer."
   ],
   "quest.00F4BF3A1192C1F4.title": "Oxygen Module",
   "quest.0181AEDC15558730.quest_desc": [
-    "Rocket parts, suits and modules are built here. Check JEI for the recipes.",
+    "Rocket parts, suits and modules are built here. Check JEI for the recipes."
   ],
   "quest.0181AEDC15558730.title": "Engineering Station",
   "quest.01B841FBB8258813.quest_desc": [
-    "Claim the Moon for your team!",
+    "Claim the Moon for your team!"
   ],
   "quest.01B841FBB8258813.title": "Plant a Flag",
   "quest.07F24D407443E2E4.quest_desc": [
-    "Pumps oil from an underground deposit.",
+    "Pumps oil from an underground deposit."
   ],
   "quest.07F24D407443E2E4.title": "Pumpjack",
   "quest.0D02620463F1C457.quest_desc": [
-    "Stores energy for when you need it.",
+    "Stores energy for when you need it."
   ],
   "quest.0D02620463F1C457.title": "Power Bank",
   "quest.0DAEAAC27143426C.quest_desc": [
-    "Automatically unloads rockets.",
+    "Automatically unloads rockets."
   ],
   "quest.0DAEAAC27143426C.title": "Cargo Unloader",
   "quest.0E305B1C7F6DFAE5.quest_desc": [
-    "Find a large novite formation.",
+    "Find a large novite formation."
   ],
   "quest.0E305B1C7F6DFAE5.title": "Novite Deposit",
   "quest.11CD65DB0BF03FA0.quest_desc": [
-    "Lets your rocket fly without you.",
+    "Lets your rocket fly without you."
   ],
   "quest.11CD65DB0BF03FA0.title": "Autopilot",
   "quest.1349CC872709D047.quest_desc": [
-    "Somebody was here before you.",
+    "Somebody was here before you."
   ],
   "quest.1349CC872709D047.title": "First Landing Site",
   "quest.13F5E3AE02259E27.quest_desc": [
-    "Plating blocks make your launch site look the part.",
+    "Plating blocks make your launch site look the part."
   ],
   "quest.13F5E3AE02259E27.title": "Space Age Building",
   "quest.16B426C3A54E7A85.quest_desc": [
-    "Splits water into hydrogen and oxygen.",
+    "Splits water into hydrogen and oxygen."
   ],
   "quest.16B426C3A54E7A85.title": "Electrolyzer",
   "quest.17829AB701ACED54.quest_desc": [
-    "Build a 3x3 launch pad.",
+    "Build a 3x3 launch pad."
   ],
   "quest.17829AB701ACED54.title": "Launch Pad",
   "quest.180FE6C3A7BC6189.quest_desc": [
-    "Build your own space station in orbit.",
+    "Build your own space station in orbit."
   ],
   "quest.180FE6C3A7BC6189.title": "Space Station",
   "quest.19CD505C1CF67B23.quest_desc": [
-    "Strange glowing crystals.",
+    "Strange glowing crystals."
   ],
   "quest.19CD505C1CF67B23.title": "Astrum Crystals",
   "quest.1BDF29069D360970.quest_desc": [
     "&bStellaris&r takes you into space and to the Moon.",
     "",
-    "Start by finding &eTitanium ore&r underground (also in deepslate). Titanium is the core material of your space program.",
+    "Start by finding &eTitanium ore&r underground (also in deepslate). Titanium is the core material of your space program."
   ],
   "quest.1BDF29069D360970.quest_subtitle": "The space program begins",
   "quest.1BDF29069D360970.title": "Titanium",
   "quest.1D12D87020CCCF49.quest_desc": [
     "Build your rocket and place it on the launch pad. Fill it with &erocket fuel&r.",
     "",
-    "Get in, put on your space suit, and launch!",
+    "Get in, put on your space suit, and launch!"
   ],
   "quest.1D12D87020CCCF49.title": "Rocket",
   "quest.1E5D4B01229D6803.quest_desc": [
-    "Visit the other lunar biomes.",
+    "Visit the other lunar biomes."
   ],
   "quest.1E5D4B01229D6803.title": "Lunar Explorer",
   "quest.1FAEBDDF4CC7750D.quest_desc": [
-    "Oil is hidden underground. The Oil Finder tells you where.",
+    "Oil is hidden underground. The Oil Finder tells you where."
   ],
   "quest.1FAEBDDF4CC7750D.title": "Find Oil",
   "quest.210059A2E58C2D1D.quest_desc": [
-    "A handheld computer for your space program.",
+    "A handheld computer for your space program."
   ],
   "quest.210059A2E58C2D1D.title": "Tablet",
   "quest.21DA6E7D119F2ACA.quest_desc": [
-    "Launch and reach &eEarth Orbit&r. Look at the view!",
+    "Launch and reach &eEarth Orbit&r. Look at the view!"
   ],
   "quest.21DA6E7D119F2ACA.title": "To Orbit!",
   "quest.23C244273831DE41.quest_desc": [
-    "A cleaner way to power your machines.",
+    "A cleaner way to power your machines."
   ],
   "quest.23C244273831DE41.title": "Hydrogen Motor",
   "quest.23FFF81DE7891C73.quest_desc": [
-    "Defeat the boss hiding in the heart of the Moon and claim its trophy.",
+    "Defeat the boss hiding in the heart of the Moon and claim its trophy."
   ],
   "quest.23FFF81DE7891C73.title": "Heart of Luna",
   "quest.25E74C0D1B65791E.quest_desc": [
-    "A satellite fell to Earth. Search the wreck!",
+    "A satellite fell to Earth. Search the wreck!"
   ],
   "quest.25E74C0D1B65791E.title": "Crashed Satellite",
   "quest.2606AFA8ABD5A542.quest_desc": [
-    "Research and process strange materials.",
+    "Research and process strange materials."
   ],
   "quest.2606AFA8ABD5A542.title": "Laboratory",
   "quest.26290EB27A3E93F5.quest_desc": [
-    "Fly around in low gravity with your space suit.",
+    "Fly around in low gravity with your space suit."
   ],
   "quest.26290EB27A3E93F5.title": "Jet Module",
   "quest.2A2C57D0C1DF60C2.quest_desc": [
-    "The parts every rocket needs. &6GSPack:&r the Rocket Engine needs an Oritech &eProcessing Unit&r.",
+    "The parts every rocket needs. &6GSPack:&r the Rocket Engine needs an Oritech &eProcessing Unit&r."
   ],
   "quest.2A2C57D0C1DF60C2.title": "Rocket Parts",
   "quest.2B6865F28F279B94.quest_desc": [
-    "The final challenge of Stellaris. You are a true astronaut!",
+    "The final challenge of Stellaris. You are a true astronaut!"
   ],
   "quest.2B6865F28F279B94.title": "Star Crawler Queen",
   "quest.2BBAD23B589EC925.quest_desc": [
-    "Spreads oxygen further through a large base.",
+    "Spreads oxygen further through a large base."
   ],
   "quest.2BBAD23B589EC925.title": "Oxygen Propagator",
   "quest.2D33EFC79CB1CB71.quest_desc": [
-    "Take some souvenirs home.",
+    "Take some souvenirs home."
   ],
   "quest.2D33EFC79CB1CB71.title": "Moon Rocks",
   "quest.2DD3E437DC776B9B.quest_desc": [
-    "Power for your machines. Connect everything with cables.",
+    "Power for your machines. Connect everything with cables."
   ],
   "quest.2DD3E437DC776B9B.title": "Coal Generator",
   "quest.2F9011F973FDF160.quest_desc": [
-    "The Moon's inhabitants are not always friendly.",
+    "The Moon's inhabitants are not always friendly."
   ],
   "quest.2F9011F973FDF160.title": "Aliens",
   "quest.3236149471DDCD4D.quest_desc": [
-    "Change the gravity around you.",
+    "Change the gravity around you."
   ],
   "quest.3236149471DDCD4D.title": "Gravity Manipulator",
   "quest.3251FA43CECC1596.quest_desc": [
-    "The Moon has its own versions of familiar ores.",
+    "The Moon has its own versions of familiar ores."
   ],
   "quest.3251FA43CECC1596.title": "Lunar Ores",
   "quest.35BD67960377F8F8.quest_desc": [
-    "Find an abandoned operation base. It may still hold useful supplies.",
+    "Find an abandoned operation base. It may still hold useful supplies."
   ],
   "quest.35BD67960377F8F8.title": "Earth Operation Base",
   "quest.3BA0116BABDF1B21.quest_desc": [
-    "Free power during the day.",
+    "Free power during the day."
   ],
   "quest.3BA0116BABDF1B21.title": "Solar Panel",
   "quest.3E27835E2D0E4509.quest_desc": [
-    "Yes, there are trees on this Moon.",
+    "Yes, there are trees on this Moon."
   ],
   "quest.3E27835E2D0E4509.title": "Lunar Forest",
   "quest.3E4A01927D362A47.quest_desc": [
-    "Protects your rocket.",
+    "Protects your rocket."
   ],
   "quest.3E4A01927D362A47.title": "Shield Module",
   "quest.4191D2B7160DA683.quest_desc": [
-    "Burns diesel for much more power.",
+    "Burns diesel for much more power."
   ],
   "quest.4191D2B7160DA683.title": "Diesel Generator",
   "quest.42CD8A79F3115255.quest_desc": [
-    "Tier 2 oxygen.",
+    "Tier 2 oxygen."
   ],
   "quest.42CD8A79F3115255.title": "Better Oxygen",
   "quest.491C8E9F488F32DC.quest_desc": [
-    "Something attacked this village.",
+    "Something attacked this village."
   ],
   "quest.491C8E9F488F32DC.title": "Ruined Moon Village",
   "quest.4A0FBF7C10277436.quest_desc": [
-    "A ship crashed here. Search the wreck.",
+    "A ship crashed here. Search the wreck."
   ],
   "quest.4A0FBF7C10277436.title": "Wrecked Spaceship",
   "quest.4BB1BD5CE3B19DCD.quest_desc": [
-    "A dungeon deep in the Moon. Something big is waiting there.",
+    "A dungeon deep in the Moon. Something big is waiting there."
   ],
   "quest.4BB1BD5CE3B19DCD.title": "Moon Dungeon",
   "quest.4EA4DE9ED5CB8B3C.quest_desc": [
-    "Used in electronics.",
+    "Used in electronics."
   ],
   "quest.4EA4DE9ED5CB8B3C.title": "Silicon",
   "quest.525A038423C3EE03.quest_desc": [
-    "Extra storage in your rocket.",
+    "Extra storage in your rocket."
   ],
   "quest.525A038423C3EE03.title": "Cargo Module",
   "quest.560BB0DC5C790D4D.quest_desc": [
-    "An abandoned outpost on the Moon.",
+    "An abandoned outpost on the Moon."
   ],
   "quest.560BB0DC5C790D4D.title": "Lunar Outpost",
   "quest.5745268E4C4534CE.quest_desc": [
-    "People... on the Moon?",
+    "People... on the Moon?"
   ],
   "quest.5745268E4C4534CE.title": "Moon Village",
   "quest.57DFD35E721C0E91.quest_desc": [
-    "A large base, long abandoned.",
+    "A large base, long abandoned."
   ],
   "quest.57DFD35E721C0E91.title": "Moon Space Base",
   "quest.5803AD73047EDB73.quest_desc": [
-    "Drive across the Moon in style.",
+    "Drive across the Moon in style."
   ],
   "quest.5803AD73047EDB73.title": "Rover",
   "quest.58BC606038F1BE46.quest_desc": [
-    "Give your rocket a new look.",
+    "Give your rocket a new look."
   ],
   "quest.58BC606038F1BE46.title": "Rocket Skins",
   "quest.58C854681A0038DE.quest_desc": [
     "There is no air in space! A full space suit keeps you alive outside.",
     "",
-    "Fill it with &eoxygen&r before you go, and keep an eye on the oxygen bar.",
+    "Fill it with &eoxygen&r before you go, and keep an eye on the oxygen bar."
   ],
   "quest.58C854681A0038DE.title": "Space Suit",
   "quest.591A6D20BB4793EF.quest_desc": [
-    "Refines oil into &erocket fuel&r. You will need a lot for each launch.",
+    "Refines oil into &erocket fuel&r. You will need a lot for each launch."
   ],
   "quest.591A6D20BB4793EF.title": "Fuel Refinery",
   "quest.5A1797C5D659294C.quest_desc": [
-    "Crawling creatures from the depths.",
+    "Crawling creatures from the depths."
   ],
   "quest.5A1797C5D659294C.title": "Star Crawlers",
   "quest.5AE05E82C35B346C.quest_desc": [
     "Land on the &7Moon&r!",
     "",
-    "The gravity is low, there is no air, and things live here. Watch your oxygen at all times.",
+    "The gravity is low, there is no air, and things live here. Watch your oxygen at all times."
   ],
   "quest.5AE05E82C35B346C.title": "One Small Step",
   "quest.5CE8C38DCBE28283.quest_desc": [
-    "See in the dark of space.",
+    "See in the dark of space."
   ],
   "quest.5CE8C38DCBE28283.title": "Night Vision",
   "quest.5E9E0CBA212F37E5.quest_desc": [
-    "Make your rover faster and give it a bigger tank.",
+    "Make your rover faster and give it a bigger tank."
   ],
   "quest.5E9E0CBA212F37E5.title": "Rover Upgrades",
   "quest.616549397B333FCA.quest_desc": [
-    "Lunar food. Careful what you eat up here.",
+    "Lunar food. Careful what you eat up here."
   ],
   "quest.616549397B333FCA.title": "Moon Berries",
   "quest.63CD415CA2922E06.quest_desc": [
-    "Makes your suit tougher.",
+    "Makes your suit tougher."
   ],
   "quest.63CD415CA2922E06.title": "Damage Protection",
   "quest.645034E2A05EE4BA.quest_desc": [
-    "Fills a sealed room with air, so you can take your helmet off inside your base.",
+    "Fills a sealed room with air, so you can take your helmet off inside your base."
   ],
   "quest.645034E2A05EE4BA.title": "Oxygen Distributor",
   "quest.650AF81D1B5BE887.quest_desc": [
-    "Strange purple-tinted wood.",
+    "Strange purple-tinted wood."
   ],
   "quest.650AF81D1B5BE887.title": "Lunar Wood",
   "quest.68D65FD80F193B1B.quest_desc": [
-    "A rare and powerful metal.",
+    "A rare and powerful metal."
   ],
   "quest.68D65FD80F193B1B.title": "Novite",
   "quest.6950852F37D9C4FE.quest_desc": [
-    "Cures and protects you from parasite infection.",
+    "Cures and protects you from parasite infection."
   ],
   "quest.6950852F37D9C4FE.title": "Vaccine",
   "quest.69DC8181409DA62D.quest_desc": [
-    "Move and store fuel, oil, water and gases.",
+    "Move and store fuel, oil, water and gases."
   ],
   "quest.69DC8181409DA62D.title": "Fluid Handling",
   "quest.6AA6AFD6E4232701.quest_desc": [
-    "Poor villagers, taken over by the parasite.",
+    "Poor villagers, taken over by the parasite."
   ],
   "quest.6AA6AFD6E4232701.title": "Infected Villagers",
   "quest.6B9EDEA363A8EB0B.quest_desc": [
-    "A lunar metal used for better rockets, suits and machines.",
+    "A lunar metal used for better rockets, suits and machines."
   ],
   "quest.6B9EDEA363A8EB0B.title": "Desh",
   "quest.6CE7B645F9F1AFAE.quest_desc": [
-    "Pumps water into your machines.",
+    "Pumps water into your machines."
   ],
   "quest.6CE7B645F9F1AFAE.title": "Water Pump",
   "quest.71D178EB7AE7C058.quest_desc": [
-    "Build a lunar base out of desh.",
+    "Build a lunar base out of desh."
   ],
   "quest.71D178EB7AE7C058.title": "Desh Building",
   "quest.76855D39EF5F4C94.quest_desc": [
-    "Tough tools made from titanium.",
+    "Tough tools made from titanium."
   ],
   "quest.76855D39EF5F4C94.title": "Titanium Tools",
   "quest.7AEE9C2F4946B9B8.quest_desc": [
-    "Something lives in the lunar forests, and it can infect people...",
+    "Something lives in the lunar forests, and it can infect people..."
   ],
   "quest.7AEE9C2F4946B9B8.title": "Parasites",
   "quest.7D79939AB3CF76AA.quest_desc": [
-    "Find a meteor crater. Meteorites hold rare materials.",
+    "Find a meteor crater. Meteorites hold rare materials."
   ],
   "quest.7D79939AB3CF76AA.title": "Meteor",
   "quest.7F5660F27EF25E94.quest_desc": [
-    "Shadows that hunt in the dark.",
+    "Shadows that hunt in the dark."
   ],
   "quest.7F5660F27EF25E94.title": "Luna Shadow",
-  "task.2FD6D9F31410D7C9.title": "16 Titanium Ingots (any mod)",
+  "task.2FD6D9F31410D7C9.title": "1 Titanium Ingots (any mod)",
   "task.64CED4200C98B952.title": "8 Raw Titanium (any mod)",
+  "task.5C5707D6EEE9CAAB.title": "1 Silicon (any mod)"
 }

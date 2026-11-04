@@ -1,0 +1,915 @@
+{
+  id: "16CD30383C8744B2",
+  group: "591262DAFEE441AF",
+  order_index: 30,
+  filename: "productivetrees",
+  icon: {
+    count: 1,
+    id: "productivetrees:silver_lime_sapling",
+  },
+  default_quest_shape: "",
+  default_hide_dependency_lines: false,
+  quests: [
+    {
+      shape: "gear",
+      size: 1.3,
+      id: "63CED029316E78E9",
+      x: 0,
+      y: 0.9,
+      icon: {
+        count: 1,
+        id: "minecraft:oak_sapling",
+      },
+      tasks: [
+        {
+          id: "4685FEDA84594D79",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "7E13F56CF75C8854",
+          type: "xp",
+          xp: 50,
+        },
+        {
+          id: "24B36FFE2714798A",
+          type: "random",
+          table_id: 4224964620844649,
+        },
+      ],
+    },
+    {
+      dependencies: ["63CED029316E78E9"],
+      shape: "diamond",
+      size: 1,
+      dep_control_pts: {"63CED029316E78E9":[0,0.9,1.8,0]},
+      id: "46447CDE9D580164",
+      x: 1.8,
+      y: 0,
+      optional: true,
+      tasks: [
+        {
+          id: "0851ECD688332432",
+          type: "item",
+          item: {
+            count: 1,
+            id: "minecraft:spyglass",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4E8AA76F1C6D5699",
+          type: "xp",
+          xp: 25,
+        },
+      ],
+    },
+    {
+      dependencies: ["63CED029316E78E9"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"63CED029316E78E9":[0,0.9,1.8,1.8]},
+      id: "546A99F7B8958D6B",
+      x: 1.8,
+      y: 1.8,
+      tasks: [
+        {
+          id: "00612D4375BFCA8B",
+          type: "item",
+          item: {
+            count: 1,
+            id: "productivetrees:pollen",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "36F6A5BA2587960F",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      dependencies: ["546A99F7B8958D6B"],
+      shape: "diamond",
+      size: 1,
+      dep_control_pts: {"546A99F7B8958D6B":[1.8,1.8,3.6,0.9]},
+      id: "701769C1392F466F",
+      x: 3.6,
+      y: 0.9,
+      optional: true,
+      tasks: [
+        {
+          id: "5C45A47D24527C9A",
+          type: "item",
+          item: {
+            count: 1,
+            id: "productivelib:upgrade_pollen_sieve",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "38FC24F36995D612",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      dependencies: ["63CED029316E78E9"],
+      hide_dependency_lines: true,
+      shape: "gear",
+      size: 1.3,
+      dep_control_pts: {"63CED029316E78E9":[0,0.9,11.6,0]},
+      id: "0E0580B9DAE2C185",
+      x: 11.6,
+      y: 0,
+      tasks: [
+        {
+          id: "55CBAB4E1A5BABD0",
+          type: "item",
+          item: {
+            count: 1,
+            id: "productivetrees:silver_lime_sapling",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "460C74AAE4D07AB9",
+          type: "xp",
+          xp: 100,
+        },
+        {
+          id: "1EE70E0EBBDF20C2",
+          type: "random",
+          table_id: 253752461985528,
+        },
+      ],
+    },
+    {
+      dependencies: ["0E0580B9DAE2C185"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"0E0580B9DAE2C185":[11.6,0,11.6,1.8]},
+      id: "52319F5CEC629AF8",
+      x: 11.6,
+      y: 1.8,
+      tasks: [
+        {
+          id: "04C33B3BAC137843",
+          type: "item",
+          item: {
+            count: 1,
+            id: "productivetrees:alder_sapling",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0126C5522D1629D8",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      dependencies: ["0E0580B9DAE2C185"],
+      hide_dependency_lines: true,
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"0E0580B9DAE2C185":[11.6,0,19.6,0.9]},
+      id: "2EAE7CC7C593E27E",
+      x: 19.6,
+      y: 0.9,
+      tasks: [
+        {
+          id: "037CE68FC51D5072",
+          type: "item",
+          item: {
+            count: 1,
+            id: "productivetrees:sawmill",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3AA70D2035F4D551",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      dependencies: ["2EAE7CC7C593E27E"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"2EAE7CC7C593E27E":[19.6,0.9,21.4,0]},
+      id: "058B016AD1C0C582",
+      x: 21.4,
+      y: 0,
+      tasks: [
+        {
+          id: "459DC01887879010",
+          type: "item",
+          item: {
+            count: 1,
+            id: "productivetrees:stripper",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7B96C4F44D08F5E9",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      dependencies: ["2EAE7CC7C593E27E"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"2EAE7CC7C593E27E":[19.6,0.9,21.4,1.8]},
+      id: "19A0CBCF414ECAC7",
+      x: 21.4,
+      y: 1.8,
+      tasks: [
+        {
+          id: "1B215F1526ED687C",
+          type: "item",
+          item: {
+            count: 1,
+            id: "productivetrees:wood_worker",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3146137949F4FD71",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      dependencies: ["0E0580B9DAE2C185"],
+      hide_dependency_lines: true,
+      shape: "diamond",
+      size: 1,
+      dep_control_pts: {"0E0580B9DAE2C185":[11.6,0,0,5]},
+      id: "7EB010B6C6701D42",
+      x: 0,
+      y: 5,
+      optional: true,
+      tasks: [
+        {
+          id: "5C2D662E5DED2E75",
+          type: "item",
+          item: {
+            count: 1,
+            id: "productivetrees:walnut_sapling",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1E8A93F529F25D80",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      dependencies: ["0E0580B9DAE2C185"],
+      hide_dependency_lines: true,
+      shape: "diamond",
+      size: 1,
+      dep_control_pts: {"0E0580B9DAE2C185":[11.6,0,0,6.8]},
+      id: "079AA205C4FE9CB8",
+      x: 0,
+      y: 6.8,
+      optional: true,
+      tasks: [
+        {
+          id: "6AB6D24B28637558",
+          type: "item",
+          item: {
+            count: 1,
+            id: "productivetrees:sweet_chestnut_sapling",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "46054E4DDEBEF61E",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      dependencies: ["0E0580B9DAE2C185"],
+      hide_dependency_lines: true,
+      shape: "diamond",
+      size: 1,
+      dep_control_pts: {"0E0580B9DAE2C185":[11.6,0,0,8.6]},
+      id: "4D70A61516BB3660",
+      x: 0,
+      y: 8.6,
+      optional: true,
+      tasks: [
+        {
+          id: "5FDC7ED67EF36238",
+          type: "item",
+          item: {
+            count: 1,
+            id: "productivetrees:banana_sapling",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7F836B8A4677A66A",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      dependencies: ["0E0580B9DAE2C185"],
+      hide_dependency_lines: true,
+      shape: "diamond",
+      size: 1,
+      dep_control_pts: {"0E0580B9DAE2C185":[11.6,0,0,10.4]},
+      id: "466245AA4C19D3ED",
+      x: 0,
+      y: 10.4,
+      optional: true,
+      tasks: [
+        {
+          id: "36009843BD6449B8",
+          type: "item",
+          item: {
+            count: 1,
+            id: "productivetrees:lemon_sapling",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "544D9CA92DA47BFE",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      dependencies: ["0E0580B9DAE2C185"],
+      hide_dependency_lines: true,
+      shape: "diamond",
+      size: 1,
+      dep_control_pts: {"0E0580B9DAE2C185":[11.6,0,1.8,5]},
+      id: "5C7A4FB66239B73F",
+      x: 1.8,
+      y: 5,
+      optional: true,
+      tasks: [
+        {
+          id: "4FAC4894A27F58F2",
+          type: "item",
+          item: {
+            count: 1,
+            id: "productivetrees:orange_sapling",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3562CB3EB3DAD0D3",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      dependencies: ["0E0580B9DAE2C185"],
+      hide_dependency_lines: true,
+      shape: "diamond",
+      size: 1,
+      dep_control_pts: {"0E0580B9DAE2C185":[11.6,0,1.8,6.8]},
+      id: "70F1921E19C96CCA",
+      x: 1.8,
+      y: 6.8,
+      optional: true,
+      tasks: [
+        {
+          id: "1CC3B7EFB030CC4A",
+          type: "item",
+          item: {
+            count: 1,
+            id: "productivetrees:sugar_maple_sapling",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "61DD67BD0D57970F",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      dependencies: ["0E0580B9DAE2C185"],
+      hide_dependency_lines: true,
+      shape: "diamond",
+      size: 1,
+      dep_control_pts: {"0E0580B9DAE2C185":[11.6,0,1.8,8.6]},
+      id: "42D34465B35190CE",
+      x: 1.8,
+      y: 8.6,
+      optional: true,
+      tasks: [
+        {
+          id: "743166E133390B67",
+          type: "item",
+          item: {
+            count: 1,
+            id: "productivetrees:rubber_tree_sapling",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "63ABE9AAFB638272",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      dependencies: ["0E0580B9DAE2C185"],
+      hide_dependency_lines: true,
+      shape: "diamond",
+      size: 1,
+      dep_control_pts: {"0E0580B9DAE2C185":[11.6,0,1.8,10.4]},
+      id: "07ECD0BB724A28CE",
+      x: 1.8,
+      y: 10.4,
+      optional: true,
+      tasks: [
+        {
+          id: "72D548925CD43A6F",
+          type: "item",
+          item: {
+            count: 1,
+            id: "productivetrees:red_maple_sapling",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "497FA2A2E980F242",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      dependencies: ["0E0580B9DAE2C185"],
+      hide_dependency_lines: true,
+      shape: "diamond",
+      size: 1,
+      dep_control_pts: {"0E0580B9DAE2C185":[11.6,0,3.6,5]},
+      id: "2AE34AFC48319EFD",
+      x: 3.6,
+      y: 5,
+      optional: true,
+      tasks: [
+        {
+          id: "3A30CFE6447C8F2F",
+          type: "item",
+          item: {
+            count: 1,
+            id: "productivetrees:mahogany_sapling",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "20FC85CDC6C1E19D",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      dependencies: ["0E0580B9DAE2C185"],
+      hide_dependency_lines: true,
+      shape: "diamond",
+      size: 1,
+      dep_control_pts: {"0E0580B9DAE2C185":[11.6,0,3.6,6.8]},
+      id: "291D6594D763E3C2",
+      x: 3.6,
+      y: 6.8,
+      optional: true,
+      tasks: [
+        {
+          id: "16A24A2C49D34FF5",
+          type: "item",
+          item: {
+            count: 1,
+            id: "productivetrees:teak_sapling",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7EED837C8981242F",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      dependencies: ["0E0580B9DAE2C185"],
+      hide_dependency_lines: true,
+      shape: "diamond",
+      size: 1,
+      dep_control_pts: {"0E0580B9DAE2C185":[11.6,0,3.6,8.6]},
+      id: "55A4A5ED0D955822",
+      x: 3.6,
+      y: 8.6,
+      optional: true,
+      tasks: [
+        {
+          id: "2B9E3046010D1AC3",
+          type: "item",
+          item: {
+            count: 1,
+            id: "productivetrees:balsa_sapling",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "01442C55F497DAE0",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      dependencies: ["0E0580B9DAE2C185"],
+      hide_dependency_lines: true,
+      shape: "diamond",
+      size: 1,
+      dep_control_pts: {"0E0580B9DAE2C185":[11.6,0,3.6,10.4]},
+      id: "4D8023F197E10AFD",
+      x: 3.6,
+      y: 10.4,
+      optional: true,
+      tasks: [
+        {
+          id: "2AD5A91EDD4A59EA",
+          type: "item",
+          item: {
+            count: 1,
+            id: "productivetrees:black_ember_sapling",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1F9D00BE60E725E0",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      dependencies: ["0E0580B9DAE2C185"],
+      hide_dependency_lines: true,
+      shape: "diamond",
+      size: 1,
+      dep_control_pts: {"0E0580B9DAE2C185":[11.6,0,5.4,6.8]},
+      id: "422DE12247F2DAA7",
+      x: 5.4,
+      y: 6.8,
+      optional: true,
+      tasks: [
+        {
+          id: "3F76A49D1AFEAF40",
+          type: "item",
+          item: {
+            count: 1,
+            id: "productivetrees:soul_tree_sapling",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "24AD24627C339648",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      dependencies: ["0E0580B9DAE2C185"],
+      hide_dependency_lines: true,
+      shape: "diamond",
+      size: 1,
+      dep_control_pts: {"0E0580B9DAE2C185":[11.6,0,5.4,8.6]},
+      id: "5EB198E6AFC64B40",
+      x: 5.4,
+      y: 8.6,
+      optional: true,
+      tasks: [
+        {
+          id: "47601164418ACC48",
+          type: "item",
+          item: {
+            count: 1,
+            id: "productivetrees:time_traveller_sapling",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2F70B40FFDEEADEE",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      dependencies: ["0E0580B9DAE2C185"],
+      hide_dependency_lines: true,
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"0E0580B9DAE2C185":[11.6,0,13.4,5]},
+      id: "06CDAE2351E415C0",
+      x: 13.4,
+      y: 5,
+      tasks: [
+        {
+          id: "49A5C8ECEAB78500",
+          type: "item",
+          item: {
+            count: 1,
+            id: "productivetrees:banana",
+          },
+        },
+        {
+          id: "06F7322C5097AA8E",
+          type: "item",
+          item: {
+            count: 1,
+            id: "productivetrees:lemon",
+          },
+        },
+        {
+          id: "510A427303265634",
+          type: "item",
+          item: {
+            count: 1,
+            id: "productivetrees:orange",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4007410D9F68DE51",
+          type: "xp",
+          xp: 100,
+        },
+        {
+          id: "0111595C4413A13D",
+          type: "random",
+          table_id: 253752461985528,
+        },
+      ],
+    },
+    {
+      dependencies: ["7EB010B6C6701D42"],
+      hide_dependency_lines: true,
+      shape: "diamond",
+      size: 1,
+      dep_control_pts: {"7EB010B6C6701D42":[0,5,15.2,5]},
+      id: "538BDB7028F9B7B6",
+      x: 15.2,
+      y: 5,
+      optional: true,
+      tasks: [
+        {
+          id: "50791F377D2E7A1D",
+          type: "item",
+          item: {
+            count: 1,
+            id: "productivetrees:walnut",
+          },
+        },
+        {
+          id: "6121CD1F25ADF3C7",
+          type: "item",
+          item: {
+            count: 1,
+            id: "productivetrees:roasted_walnut",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2E46D5222E6932DB",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      dependencies: ["42D34465B35190CE"],
+      hide_dependency_lines: true,
+      shape: "diamond",
+      size: 1,
+      dep_control_pts: {"42D34465B35190CE":[1.8,8.6,17,5]},
+      id: "6528523EE347F3F0",
+      x: 17,
+      y: 5,
+      optional: true,
+      tasks: [
+        {
+          id: "214A24F3EA389EDF",
+          type: "item",
+          item: {
+            count: 1,
+            id: "productivetrees:rubber",
+          },
+        },
+        {
+          id: "411BD65F0B4AAAD6",
+          type: "item",
+          item: {
+            count: 1,
+            id: "productivetrees:cured_rubber",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2B4918473B9A3D89",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      dependencies: ["70F1921E19C96CCA"],
+      hide_dependency_lines: true,
+      shape: "diamond",
+      size: 1,
+      dep_control_pts: {"70F1921E19C96CCA":[1.8,6.8,18.8,5]},
+      id: "6F84F75957AAD14D",
+      x: 18.8,
+      y: 5,
+      optional: true,
+      tasks: [
+        {
+          id: "7B5E757765DAEE99",
+          type: "item",
+          item: {
+            count: 1,
+            id: "productivetrees:maple_syrup",
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3C77DB47DCB05299",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      dependencies: ["0E0580B9DAE2C185","2EAE7CC7C593E27E","06CDAE2351E415C0"],
+      hide_dependency_lines: true,
+      shape: "gear",
+      size: 1.3,
+      dep_control_pts: {"0E0580B9DAE2C185":[11.6,0,0,13.6],"2EAE7CC7C593E27E":[19.6,0.9,0,13.6],"06CDAE2351E415C0":[13.4,5,0,13.6]},
+      id: "4155A1873717EEFF",
+      x: 0,
+      y: 13.6,
+      tasks: [
+        {
+          id: "45B576F707FCDC67",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "54D68AF7577E5275",
+          type: "xp",
+          xp: 200,
+        },
+        {
+          id: "768403C215D66510",
+          type: "random",
+          table_id: 2210856162803377,
+        },
+      ],
+    },
+  ],
+  quest_links: [ ],
+  images: [
+  {
+    "x": 10.7,
+    "y": -1.7188,
+    "width": 12,
+    "height": 1.4375,
+    "rotation": 0,
+    "image": "gspack:textures/quests/productivetrees_header.png",
+    "color": 16777215,
+    "alpha": 255,
+    "order": 0,
+    "corner": false
+  },
+  {
+    "x": 9.0412,
+    "y": 0,
+    "width": 3.3176,
+    "height": 0.6,
+    "rotation": 0,
+    "image": "gspack:textures/quests/productivetrees_hybrid.png",
+    "color": 16777215,
+    "alpha": 255,
+    "order": 0,
+    "corner": false
+  },
+  {
+    "x": 10.5765,
+    "y": 5,
+    "width": 3.8471,
+    "height": 0.6,
+    "rotation": 0,
+    "image": "gspack:textures/quests/productivetrees_fruit.png",
+    "color": 16777215,
+    "alpha": 255,
+    "order": 0,
+    "corner": false
+  },
+  {
+    "x": -2.6471,
+    "y": 5,
+    "width": 3.4941,
+    "height": 0.6,
+    "rotation": 0,
+    "image": "gspack:textures/quests/productivetrees_tree_walnut.png",
+    "color": 16777215,
+    "alpha": 255,
+    "order": 0,
+    "corner": false
+  },
+  {
+    "x": -2.6824,
+    "y": 13.6,
+    "width": 3.5647,
+    "height": 0.6,
+    "rotation": 0,
+    "image": "gspack:textures/quests/productivetrees_collection.png",
+    "color": 16777215,
+    "alpha": 255,
+    "order": 0,
+    "corner": false
+  },
+  {
+    "x": 16.8118,
+    "y": 0.9,
+    "width": 3.7765,
+    "height": 0.6,
+    "rotation": 0,
+    "image": "gspack:textures/quests/productivetrees_sawmill.png",
+    "color": 16777215,
+    "alpha": 255,
+    "order": 0,
+    "corner": false
+  },
+  {
+    "x": -2.2412,
+    "y": 0.9,
+    "width": 2.6824,
+    "height": 0.6,
+    "rotation": 0,
+    "image": "gspack:textures/quests/productivetrees_start.png",
+    "color": 16777215,
+    "alpha": 255,
+    "order": 0,
+    "corner": false
+  }
+],
+}

@@ -2,7 +2,7 @@
 //
 // Five cores, one per pillar of the pack, each made from the hardest items of that pillar:
 //   Technological Core  - Mekanism, Oritech, Advanced AE
-//   Arcane Core         - Thaumaturge, Apotheosis, Equivox, Mystical Agriculture
+//   Arcane Core         - Thaumaturge, Apotheosis, Equivox, Occultism
 //   Verdant Core        - Mystical Agradditions, Aquaculture, Unobtainium seeds
 //   Dimensional Core    - Allthemodium, Twilight Forest, Aether II
 //   Cosmic Core         - Stellaris
@@ -26,12 +26,13 @@ ServerEvents.recipes(event => {
   event.shaped('gspack:arcane_core', [
     'ABA',
     'CDC',
-    'ABA'
+    'EBA'
   ], {
     A: 'thaumaturge:metal_void',
     B: 'apotheosis:godforged_pearl',
     C: 'equivox:red_matter_block',
-    D: 'thaumaturge:primordial_pearl'
+    D: 'thaumaturge:primordial_pearl',
+    E: 'occultism:storage_stabilizer_tier4'
   }).id('gspack:endgame/arcane_core')
 
   event.shaped('gspack:verdant_core', [

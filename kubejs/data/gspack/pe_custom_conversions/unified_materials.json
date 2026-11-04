@@ -1,0 +1,1242 @@
+{
+  "comment": "Recipe-compatible material conversions for GSPack unification. Exclusion zero values take precedence.",
+  "groups": {
+    "unified_materials": {
+      "comment": "Common plates, dusts, rods, gears, nuggets and blocks inherit their base material value.",
+      "conversions": [
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:dusts/bronze"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/bronze",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:dusts/charcoal"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/charcoal",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:dusts/coal"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/coal",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:dusts/copper"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/copper",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:dusts/diamond"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:gems/diamond",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:dusts/electrum"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/electrum",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:dusts/emerald"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:gems/emerald",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:dusts/ender_pearl"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/ender_pearl",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:dusts/fluorite"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:gems/fluorite",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:dusts/gold"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/gold",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:dusts/iron"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/iron",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:dusts/lapis"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:gems/lapis",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:dusts/lead"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/lead",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:dusts/netherite"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/netherite",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:dusts/nickel"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/nickel",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:dusts/obsidian"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/obsidian",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:dusts/osmium"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/osmium",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:dusts/platinum"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/platinum",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:dusts/quartz"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:gems/quartz",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:dusts/salt"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/salt",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:dusts/silver"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/silver",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:dusts/steel"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/steel",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:dusts/sulfur"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/sulfur",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:dusts/tin"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/tin",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:dusts/uranium"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/uranium",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:gears/brass"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/brass",
+              "amount": 4
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:gears/bronze"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/bronze",
+              "amount": 4
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:gears/copper"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/copper",
+              "amount": 4
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:gears/gold"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/gold",
+              "amount": 4
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:gears/invar"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/invar",
+              "amount": 4
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:gears/iron"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/iron",
+              "amount": 4
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:gears/lead"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/lead",
+              "amount": 4
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:gears/nickel"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/nickel",
+              "amount": 4
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:gears/silver"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/silver",
+              "amount": 4
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:gears/steel"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/steel",
+              "amount": 4
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:gears/tin"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/tin",
+              "amount": 4
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:gears/zinc"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/zinc",
+              "amount": 4
+            }
+          ]
+        },
+        {
+          "count": 9,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:nuggets/brass"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/brass",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "count": 9,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:nuggets/bronze"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/bronze",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "count": 9,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:nuggets/invar"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/invar",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "count": 9,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:nuggets/lead"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/lead",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "count": 9,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:nuggets/nickel"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/nickel",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "count": 9,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:nuggets/osmium"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/osmium",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "count": 9,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:nuggets/platinum"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/platinum",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "count": 9,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:nuggets/silver"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/silver",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "count": 9,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:nuggets/steel"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/steel",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "count": 9,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:nuggets/tin"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/tin",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "count": 9,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:nuggets/titanium"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/titanium",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "count": 9,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:nuggets/uranium"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/uranium",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "count": 9,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:nuggets/zinc"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/zinc",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:plates/brass"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/brass",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:plates/bronze"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/bronze",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:plates/copper"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/copper",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:plates/gold"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/gold",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:plates/invar"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/invar",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:plates/iron"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/iron",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:plates/lead"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/lead",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:plates/nickel"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/nickel",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:plates/silver"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/silver",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:plates/steel"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/steel",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:plates/tin"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/tin",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:plates/zinc"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/zinc",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:storage_blocks/brass"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/brass",
+              "amount": 9
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:storage_blocks/bronze"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/bronze",
+              "amount": 9
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:storage_blocks/charcoal"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/charcoal",
+              "amount": 9
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:storage_blocks/electrum"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/electrum",
+              "amount": 9
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:storage_blocks/fluorite"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:gems/fluorite",
+              "amount": 9
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:storage_blocks/invar"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/invar",
+              "amount": 9
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:storage_blocks/knightmetal"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/knightmetal",
+              "amount": 9
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:storage_blocks/lead"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/lead",
+              "amount": 9
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:storage_blocks/nickel"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/nickel",
+              "amount": 9
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:storage_blocks/osmium"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/osmium",
+              "amount": 9
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:storage_blocks/platinum"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/platinum",
+              "amount": 9
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:storage_blocks/raw_lead"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/raw_lead",
+              "amount": 9
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:storage_blocks/raw_nickel"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/raw_nickel",
+              "amount": 9
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:storage_blocks/raw_osmium"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/raw_osmium",
+              "amount": 9
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:storage_blocks/raw_platinum"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/raw_platinum",
+              "amount": 9
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:storage_blocks/raw_silver"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/raw_silver",
+              "amount": 9
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:storage_blocks/raw_tin"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/raw_tin",
+              "amount": 9
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:storage_blocks/raw_titanium"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/raw_titanium",
+              "amount": 9
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:storage_blocks/raw_uranium"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/raw_uranium",
+              "amount": 9
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:storage_blocks/silicon"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/silicon",
+              "amount": 9
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:storage_blocks/silver"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/silver",
+              "amount": 9
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:storage_blocks/steel"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/steel",
+              "amount": 9
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:storage_blocks/tin"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/tin",
+              "amount": 9
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:storage_blocks/titanium"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/titanium",
+              "amount": 9
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:storage_blocks/uranium"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/uranium",
+              "amount": 9
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "output": {
+            "type": "equivox:item",
+            "tag": "c:storage_blocks/zinc"
+          },
+          "ingredients": [
+            {
+              "type": "equivox:item",
+              "tag": "c:ingots/zinc",
+              "amount": 9
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

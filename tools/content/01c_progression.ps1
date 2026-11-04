@@ -12,9 +12,9 @@ There are three roads, &9Technology&r, &aMagic&r and &6Exploration&r, and they a
 The milestones complete on their own when you have the item. Open the chapter named in each quest for the details.
 '@
 Q 'iron' 'Iron Age' 'minecraft:iron_pickaxe' 'start' 'xp:25' -pos '1.6,0' -desc 'Get an iron pickaxe. See &eGetting Started&r.'
-Q 'smeltery' 'Molten Metal' 'tconstruct:smeltery_controller' 'iron' 'xp:50' -pos '3.2,-1' -desc 'Build a Smeltery for alloys and better tools. See &eTinkers'' Construct&r.'
+Q 'smeltery' 'Molten Metal' 'tconstruct:smeltery_controller' 'iron' 'xp:50' -opt -pos '3.2,-1' -desc 'Build a Smeltery for alloys and better tools. See &eTinkers'' Construct&r.'
 Q 'nether' 'Into the Nether' 'dim:minecraft:the_nether' 'iron' 'xp:50' -icon 'minecraft:netherrack' -pos '3.2,1' -desc 'Light a Nether portal and step through. See &eGetting Started&r.'
-Q 'diamond' 'Diamonds!' 'minecraft:diamond_pickaxe' 'smeltery,nether' 'xp:50;table:common' -size 1.25 -pos '4.8,0' -desc 'A diamond pickaxe opens up the rest of the pack. Choose a road, or try all three!'
+Q 'diamond' 'Diamonds!' 'minecraft:diamond_pickaxe' 'nether' 'xp:50;table:common' -size 1.25 -pos '4.8,0' -desc 'A diamond pickaxe opens up the rest of the pack. Choose a road, or try all three!'
 
 # ===== Technology =====
 Q 'infuser' 'Machines' 'mekanism:metallurgic_infuser' 'diamond' 'xp:50' -pos '6.4,-3' -desc 'Your first Mekanism machine: steel, circuits and ore processing. See &eMekanism&r.'
@@ -47,3 +47,19 @@ Q 'elite_table' 'Extended Crafting' 'extendedcrafting:elite_table' 'antimatter,i
 Q 'singularity' 'Creative Singularity' 'gspack:creative_singularity' 'elite_table' 'xp:300;table:epic' -size 1.5 -pos '14.6,0' -desc 'Five cores, one for each pillar of the pack, make a Creative Singularity. See &eEndgame: Infinity&r.'
 Q 'ultimate' 'The Ultimate Singularity' 'extendedcrafting:ultimate_singularity' 'singularity' 'xp:400;table:epic' -size 1.5 -pos '16.3,0' -desc 'All 19 singularities and a Creative Singularity, in the Ultimate Crafting Table. See &eEndgame: Infinity&r.'
 Q 'trophy' 'Trophy of Infinity' 'gspack:infinity_trophy' 'ultimate' 'lvl:10' -size 2.5 -shape 'gear' -pos '18.4,0' -desc 'The end goal of GSPack. See &eEndgame: Infinity&r, and the &eTrophy Checklist&r for every ingredient.'
+
+# Mod routes are side branches while progressing, and converge at the trophy.
+# Optional means they do not block the central route to Extended Crafting;
+# their listed milestones are still required to finish the roadmap's trophy.
+$optionalRoutes = @('smeltery','infuser','ae2','oritech','elite_circuit','antimatter','altar','thaum','apotheosis','supremium','insanium','aether','twilight','atm','moon','unob','equivox','red_matter')
+foreach ($key in $optionalRoutes) { $script:Cur.ByKey[$key].Opt = $true }
+$routeDeps = @{
+    infuser='iron'; ae2='iron'; oritech='iron'; elite_circuit='infuser'
+    altar='iron'; thaum='iron'; apotheosis='iron'; supremium='altar'
+    aether='iron'; twilight='iron'; atm='diamond'; moon='iron'; unob='atm'
+    elite_table='diamond'
+    trophy='ultimate,smeltery,ae2,oritech,antimatter,thaum,apotheosis,insanium,aether,twilight,unob,moon,red_matter'
+}
+foreach ($key in $routeDeps.Keys) { $script:Cur.ByKey[$key].Deps = @($routeDeps[$key] -split ',') }
+$script:Cur.ByKey['trophy'].Desc += '||Optional mod routes join here: finish their milestone quests to complete the roadmap. The central crafting route can be followed before those side routes are finished.'
+$script:Cur.ByKey['trophy'].ExplicitHideLines = $true

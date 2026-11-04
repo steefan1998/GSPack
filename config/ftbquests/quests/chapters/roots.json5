@@ -8,13 +8,13 @@
   },
   filename: "roots",
   default_quest_shape: "",
-  default_hide_dependency_lines: true,
+  default_hide_dependency_lines: false,
   quests: [
     {
-      x: 0.0,
-      y: 1.45,
+      x: 0,
+      y: 0.9,
       shape: "gear",
-      size: 1.5,
+      size: 1.3,
       id: "48B5626F56522A07",
       tasks: [
         {
@@ -41,12 +41,12 @@
       ],
     },
     {
-      x: 1.6,
-      y: 1.45,
-      dependencies: [
-        "48B5626F56522A07",
-      ],
-      size: 1.0,
+      x: 1.8,
+      y: 0,
+      dependencies: ["48B5626F56522A07"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"48B5626F56522A07":[0,0.9,1.8,0]},
       id: "060E2612E2122034",
       tasks: [
         {
@@ -76,12 +76,12 @@
       ],
     },
     {
-      x: 1.6,
-      y: 2.95,
-      dependencies: [
-        "48B5626F56522A07",
-      ],
-      size: 1.0,
+      x: 1.8,
+      y: 1.8,
+      dependencies: ["48B5626F56522A07"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"48B5626F56522A07":[0,0.9,1.8,1.8]},
       id: "20AFD499F96DC28D",
       tasks: [
         {
@@ -112,13 +112,13 @@
       ],
     },
     {
-      x: 3.2,
-      y: 2.95,
-      dependencies: [
-        "20AFD499F96DC28D",
-      ],
-      size: 1.0,
+      x: 3.6,
+      y: 0,
       optional: true,
+      dependencies: ["20AFD499F96DC28D"],
+      shape: "diamond",
+      size: 1,
+      dep_control_pts: {"20AFD499F96DC28D":[1.8,1.8,3.6,0]},
       id: "4F7E0F59656282CB",
       tasks: [
         {
@@ -149,13 +149,12 @@
       ],
     },
     {
-      x: 3.2,
-      y: 1.45,
-      dependencies: [
-        "060E2612E2122034",
-        "20AFD499F96DC28D",
-      ],
-      size: 1.0,
+      x: 3.6,
+      y: 1.8,
+      dependencies: ["060E2612E2122034","20AFD499F96DC28D"],
+      shape: "hexagon",
+      size: 1,
+      dep_control_pts: {"060E2612E2122034":[1.8,0,3.6,1.8],"20AFD499F96DC28D":[1.8,1.8,3.6,1.8]},
       id: "5D66F377F4D2A7E9",
       tasks: [
         {
@@ -184,12 +183,12 @@
       ],
     },
     {
-      x: 4.8,
-      y: 1.45,
-      dependencies: [
-        "5D66F377F4D2A7E9",
-      ],
-      size: 1.0,
+      x: 5.4,
+      y: 0,
+      dependencies: ["5D66F377F4D2A7E9"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"5D66F377F4D2A7E9":[3.6,1.8,5.4,0]},
       id: "570C9373E09DB641",
       tasks: [
         {
@@ -211,13 +210,13 @@
       ],
     },
     {
-      x: 4.8,
-      y: 2.95,
-      dependencies: [
-        "5D66F377F4D2A7E9",
-      ],
-      size: 1.0,
+      x: 5.4,
+      y: 1.8,
       optional: true,
+      dependencies: ["5D66F377F4D2A7E9"],
+      shape: "diamond",
+      size: 1,
+      dep_control_pts: {"5D66F377F4D2A7E9":[3.6,1.8,5.4,1.8]},
       id: "6D5A4299B6BB53DE",
       tasks: [
         {
@@ -239,12 +238,13 @@
       ],
     },
     {
-      x: 0.0,
-      y: 5.8,
-      dependencies: [
-        "5D66F377F4D2A7E9",
-      ],
-      size: 1.0,
+      x: 13.4,
+      y: 0,
+      dependencies: ["5D66F377F4D2A7E9"],
+      hide_dependency_lines: true,
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"5D66F377F4D2A7E9":[3.6,1.8,13.4,0]},
       id: "61695EC9B8EEBDDD",
       tasks: [
         {
@@ -271,12 +271,12 @@
       ],
     },
     {
-      x: 1.6,
-      y: 5.8,
-      dependencies: [
-        "61695EC9B8EEBDDD",
-      ],
-      size: 1.5,
+      x: 13.4,
+      y: 1.8,
+      dependencies: ["61695EC9B8EEBDDD"],
+      shape: "gear",
+      size: 1.3,
+      dep_control_pts: {"61695EC9B8EEBDDD":[13.4,0,13.4,1.8]},
       id: "444C6EDFF52F9151",
       tasks: [
         {
@@ -311,13 +311,13 @@
       ],
     },
     {
-      x: 3.2,
-      y: 5.8,
-      dependencies: [
-        "444C6EDFF52F9151",
-      ],
-      size: 1.0,
+      x: 13.4,
+      y: 3.6,
       optional: true,
+      dependencies: ["444C6EDFF52F9151"],
+      shape: "diamond",
+      size: 1,
+      dep_control_pts: {"444C6EDFF52F9151":[13.4,1.8,13.4,3.6]},
       id: "3CEC3DABA7041067",
       tasks: [
         {
@@ -338,12 +338,13 @@
       ],
     },
     {
-      x: 0.0,
-      y: 8.4,
-      dependencies: [
-        "5D66F377F4D2A7E9",
-      ],
-      size: 1.0,
+      x: 21.4,
+      y: 0,
+      dependencies: ["5D66F377F4D2A7E9"],
+      hide_dependency_lines: true,
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"5D66F377F4D2A7E9":[3.6,1.8,21.4,0]},
       id: "6ED22DE8413C81A3",
       tasks: [
         {
@@ -378,12 +379,12 @@
       ],
     },
     {
-      x: 1.6,
-      y: 8.4,
-      dependencies: [
-        "6ED22DE8413C81A3",
-      ],
-      size: 1.0,
+      x: 23.2,
+      y: 0,
+      dependencies: ["6ED22DE8413C81A3"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"6ED22DE8413C81A3":[21.4,0,23.2,0]},
       id: "589402B978D9F963",
       tasks: [
         {
@@ -414,13 +415,13 @@
       ],
     },
     {
-      x: 3.2,
-      y: 8.4,
-      dependencies: [
-        "589402B978D9F963",
-      ],
-      size: 1.0,
+      x: 25,
+      y: 0,
       optional: true,
+      dependencies: ["589402B978D9F963"],
+      shape: "diamond",
+      size: 1,
+      dep_control_pts: {"589402B978D9F963":[23.2,0,25,0]},
       id: "7E182220D4EA2F94",
       tasks: [
         {
@@ -449,12 +450,13 @@
       ],
     },
     {
-      x: 0.0,
-      y: 11.0,
-      dependencies: [
-        "6ED22DE8413C81A3",
-      ],
-      size: 1.0,
+      x: 0,
+      y: 7.7,
+      dependencies: ["6ED22DE8413C81A3"],
+      hide_dependency_lines: true,
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"6ED22DE8413C81A3":[21.4,0,0,7.7]},
       id: "13D8524B00A3D0F1",
       tasks: [
         {
@@ -483,12 +485,12 @@
       ],
     },
     {
-      x: 1.6,
-      y: 11.0,
-      dependencies: [
-        "13D8524B00A3D0F1",
-      ],
-      size: 1.0,
+      x: 1.8,
+      y: 6.8,
+      dependencies: ["13D8524B00A3D0F1"],
+      shape: "circle",
+      size: 1,
+      dep_control_pts: {"13D8524B00A3D0F1":[0,7.7,1.8,6.8]},
       id: "22D6ADDBDC4C7075",
       tasks: [
         {
@@ -539,12 +541,12 @@
       ],
     },
     {
-      x: 1.6,
-      y: 12.5,
-      dependencies: [
-        "13D8524B00A3D0F1",
-      ],
-      size: 1.5,
+      x: 1.8,
+      y: 8.6,
+      dependencies: ["13D8524B00A3D0F1"],
+      shape: "gear",
+      size: 1.3,
+      dep_control_pts: {"13D8524B00A3D0F1":[0,7.7,1.8,8.6]},
       id: "4BF975DA337660A2",
       tasks: [
         {
@@ -598,50 +600,65 @@
   quest_links: [
   ],
   images: [
-    {
-      x: 5.4,
-      y: -1.5188,
-      width: 12.0,
-      height: 1.4375,
-      rotation: 0.0,
-      image: "gspack:textures/quests/roots_header.png",
-      id: "0B98AF93511B72B5",
-    },
-    {
-      x: 0.3706,
-      y: 7.2,
-      width: 1.9412,
-      height: 0.6,
-      rotation: 0.0,
-      image: "gspack:textures/quests/roots_altar.png",
-      id: "6BCB4239DB925EE4",
-    },
-    {
-      x: 0.6882,
-      y: 0.0,
-      width: 2.5765,
-      height: 0.6,
-      rotation: 0.0,
-      image: "gspack:textures/quests/roots_tablet.png",
-      id: "17B12C6516C762FF",
-    },
-    {
-      x: 0.2647,
-      y: 4.35,
-      width: 1.7294,
-      height: 0.6,
-      rotation: 0.0,
-      image: "gspack:textures/quests/roots_spell.png",
-      id: "3E86AB76791E2BAA",
-    },
-    {
-      x: 0.1588,
-      y: 9.8,
-      width: 1.5176,
-      height: 0.6,
-      rotation: 0.0,
-      image: "gspack:textures/quests/roots_living_tools.png",
-      id: "1541F72159DDDB73",
-    },
-  ],
+  {
+    "x": 12.5,
+    "y": -1.7188,
+    "width": 12,
+    "height": 1.4375,
+    "rotation": 0,
+    "image": "gspack:textures/quests/roots_header.png",
+    "color": 16777215,
+    "alpha": 255,
+    "order": 0,
+    "corner": false
+  },
+  {
+    "x": 19.5294,
+    "y": 0,
+    "width": 1.9412,
+    "height": 0.6,
+    "rotation": 0,
+    "image": "gspack:textures/quests/roots_altar.png",
+    "color": 16777215,
+    "alpha": 255,
+    "order": 0,
+    "corner": false
+  },
+  {
+    "x": -2.1882,
+    "y": 0.9,
+    "width": 2.5765,
+    "height": 0.6,
+    "rotation": 0,
+    "image": "gspack:textures/quests/roots_tablet.png",
+    "color": 16777215,
+    "alpha": 255,
+    "order": 0,
+    "corner": false
+  },
+  {
+    "x": -1.6588,
+    "y": 7.7,
+    "width": 1.5176,
+    "height": 0.6,
+    "rotation": 0,
+    "image": "gspack:textures/quests/roots_living_tools.png",
+    "color": 16777215,
+    "alpha": 255,
+    "order": 0,
+    "corner": false
+  },
+  {
+    "x": 11.6353,
+    "y": 0,
+    "width": 1.7294,
+    "height": 0.6,
+    "rotation": 0,
+    "image": "gspack:textures/quests/roots_spell.png",
+    "color": 16777215,
+    "alpha": 255,
+    "order": 0,
+    "corner": false
+  }
+],
 }

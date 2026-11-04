@@ -1,44 +1,44 @@
 {
   "chapter.7E23924E0E06C8EC.chapter_subtitle": [
-    "Furniture, roofs, windows, paths and tools to build a beautiful base.",
+    "Furniture, roofs, windows, paths and tools to build a beautiful base."
   ],
   "chapter.7E23924E0E06C8EC.title": "Building",
   "quest.050FE5C52EB9C6EA.quest_desc": [
-    "&bMacaw's Stairs&r: proper staircases, railings, platforms and balconies.",
+    "&bMacaw's Stairs&r: proper staircases, railings, platforms and balconies."
   ],
   "quest.050FE5C52EB9C6EA.title": "Stairs \\& Balconies",
   "quest.138B8C634E681E30.quest_desc": [
-    "Wardrobes and drawers store your things.",
+    "Wardrobes and drawers store your things."
   ],
   "quest.138B8C634E681E30.title": "Bedroom",
   "quest.13F33C12A0BE613C.quest_desc": [
     "&bBuilding Gadgets&r place shapes of blocks with one click: walls, floors, columns and more. They run on power (FE).",
     "",
-    "Shift + right-click to choose the shape and size.",
+    "Shift + right-click to choose the shape and size."
   ],
   "quest.13F33C12A0BE613C.title": "Building Gadget",
   "quest.1FCF4DE8A203DAB2.quest_desc": [
-    "&bMacaw's Lights&r: lanterns, chandeliers, lamps and street lights.",
+    "&bMacaw's Lights&r: lanterns, chandeliers, lamps and street lights."
   ],
   "quest.1FCF4DE8A203DAB2.title": "Lighting",
   "quest.20A049CDBF046E7F.quest_desc": [
     "&bRechiseled&r turns plain blocks into decorative variants: tiles, bricks, pillars, patterns and more.",
     "",
-    "Hold the &eChisel&r and right-click to open it, put blocks in, and choose a variant. Many variants &econnect&r to their neighbours.",
+    "Hold the &eChisel&r and right-click to open it, put blocks in, and choose a variant. Many variants &econnect&r to their neighbours."
   ],
   "quest.20A049CDBF046E7F.title": "Rechiseled",
   "quest.210CDA2203AF717F.quest_desc": [
     "&bMacaw's Furniture&r has hundreds of pieces in every wood type: chairs, tables, desks, wardrobes, kitchens and more.",
     "",
-    "Many pieces are functional: drawers and cabinets are storage, and you can sit on chairs.",
+    "Many pieces are functional: drawers and cabinets are storage, and you can sit on chairs."
   ],
   "quest.210CDA2203AF717F.title": "Furniture",
   "quest.2116E883CDE05CF1.quest_desc": [
-    "Light up your paths and gardens.",
+    "Light up your paths and gardens."
   ],
   "quest.2116E883CDE05CF1.title": "Street Lamps",
   "quest.262658C0C62D0DE0.quest_desc": [
-    "Copy a build and paste it somewhere else. Save builds as templates in the Template Manager.",
+    "Copy a build and paste it somewhere else. Save builds as templates in the Template Manager."
   ],
   "quest.262658C0C62D0DE0.title": "Copy \\& Paste",
   "quest.270AA2E509417668.quest_desc": [
@@ -46,129 +46,129 @@
     "",
     "The &eConstruction Stick&r (wand) places a whole row or wall of the block you are looking at, using blocks from your inventory. Hold it and right-click the side of a block.",
     "",
-    "&6Tip:&r Better sticks place more blocks at once and have more modes.",
+    "&6Tip:&r Better sticks place more blocks at once and have more modes."
   ],
   "quest.270AA2E509417668.quest_subtitle": "Make your base beautiful",
   "quest.270AA2E509417668.title": "Time to Build",
   "quest.29DC83467A6DBE74.quest_desc": [
     "&bFramedBlocks&r are shapes (cubes, slabs, stairs, panels, doors and hundreds more) that take the look of &eany&r block.",
     "",
-    "Right-click a framed block with any block to give it that texture.",
+    "Right-click a framed block with any block to give it that texture."
   ],
   "quest.29DC83467A6DBE74.title": "Framed Blocks",
   "quest.2AE318A75DE8F93A.quest_desc": [
-    "Turn the Builder into a powerful quarry.",
+    "Turn the Builder into a powerful quarry."
   ],
   "quest.2AE318A75DE8F93A.title": "Quarry Card",
   "quest.2FF4B64B78C1F526.quest_desc": [
-    "Swap a whole area of blocks for another block.",
+    "Swap a whole area of blocks for another block."
   ],
   "quest.2FF4B64B78C1F526.title": "Exchanging Gadget",
   "quest.313678C93C3E8201.quest_desc": [
     "&bRFTools Builder&r builds (or quarries) with &eshape cards&r. It can build huge shapes, copy whole areas, and even move them.",
     "",
-    "Use the &eComposer&r to combine shapes.",
+    "Use the &eComposer&r to combine shapes."
   ],
   "quest.313678C93C3E8201.title": "RFTools Builder",
   "quest.329DB96676A4E45C.quest_desc": [
-    "&bMacaw's Bridges&r: rope bridges, stone bridges and more.",
+    "&bMacaw's Bridges&r: rope bridges, stone bridges and more."
   ],
   "quest.329DB96676A4E45C.title": "Bridges",
   "quest.3429737B24B948FA.quest_desc": [
-    "Try a few variants.",
+    "Try a few variants."
   ],
   "quest.3429737B24B948FA.title": "Chisel Collection",
   "quest.368F6BF38C06E515.quest_desc": [
-    "The hammer removes the camo, the wrench rotates, and the screwdriver adjusts special shapes.",
+    "The hammer removes the camo, the wrench rotates, and the screwdriver adjusts special shapes."
   ],
   "quest.368F6BF38C06E515.title": "Framed Tools",
   "quest.38E73FB59EAE4C4C.quest_desc": [
-    "You know all the building tools in GSPack. Show off your base to your friends!",
+    "You know all the building tools in GSPack. Show off your base to your friends!"
   ],
   "quest.38E73FB59EAE4C4C.title": "Master Builder",
   "quest.3D7B6C4B750A6D0A.quest_desc": [
-    "Many trapdoor styles to match.",
+    "Many trapdoor styles to match."
   ],
   "quest.3D7B6C4B750A6D0A.title": "Trapdoors",
   "quest.4299B772F0CD2230.quest_desc": [
-    "Build a kitchen with cabinets and counters.",
+    "Build a kitchen with cabinets and counters."
   ],
   "quest.4299B772F0CD2230.title": "Kitchen",
   "quest.44172A55E688E226.quest_desc": [
-    "The best stick.",
+    "The best stick."
   ],
   "quest.44172A55E688E226.title": "Netherite Stick",
   "quest.4A439AB2B78DB62E.quest_desc": [
-    "Open and close them for the perfect look.",
+    "Open and close them for the perfect look."
   ],
   "quest.4A439AB2B78DB62E.title": "Shutters \\& Curtains",
   "quest.4FBD4707B4E310A0.quest_desc": [
     "&bMacaw's Roofs&r: proper roof blocks in many shapes and materials. Steep roofs, attic roofs, lower roofs and the top ridge piece.",
     "",
-    "Combine shapes to get a nice slope.",
+    "Combine shapes to get a nice slope."
   ],
   "quest.4FBD4707B4E310A0.title": "Roofs",
   "quest.509A6CAF1F9BDD4A.quest_desc": [
-    "Removes a big area of blocks at once. It can undo, too!",
+    "Removes a big area of blocks at once. It can undo, too!"
   ],
   "quest.509A6CAF1F9BDD4A.title": "Destruction Gadget",
   "quest.5313D4FFAE371510.quest_desc": [
-    "A chest that looks like any block. Hide your storage!",
+    "A chest that looks like any block. Hide your storage!"
   ],
   "quest.5313D4FFAE371510.title": "Framed Chest",
   "quest.5AA8D243918546FA.quest_desc": [
-    "&bMacaw's Paths&r: paving patterns for roads and gardens.",
+    "&bMacaw's Paths&r: paving patterns for roads and gardens."
   ],
   "quest.5AA8D243918546FA.title": "Paths",
   "quest.5AD446E5EF047437.quest_desc": [
-    "&bMacaw's Fences&r: picket fences, stone walls, metal fences and hedges.",
+    "&bMacaw's Fences&r: picket fences, stone walls, metal fences and hedges."
   ],
   "quest.5AD446E5EF047437.title": "Fences \\& Hedges",
   "quest.5E9FB5F59C19F603.quest_desc": [
-    "Rain gutters for the edge of your roof.",
+    "Rain gutters for the edge of your roof."
   ],
   "quest.5E9FB5F59C19F603.title": "Gutters",
   "quest.654DF46DC64CBF8D.quest_desc": [
     "Templates add modes to your stick:",
     "- &eAngel&r: place blocks in mid-air.",
     "- &eDestruction&r: break a whole surface.",
-    "- &eReplacement&r: swap blocks for another type.",
+    "- &eReplacement&r: swap blocks for another type."
   ],
   "quest.654DF46DC64CBF8D.title": "Stick Templates",
   "quest.6B42C45E357C8DB7.quest_desc": [
-    "A desk and a bookshelf for your study.",
+    "A desk and a bookshelf for your study."
   ],
   "quest.6B42C45E357C8DB7.title": "Study",
   "quest.6BAE519DD7E0080D.quest_desc": [
-    "Wind chimes and glass bells from &bChimes&r: place them and listen to them ring in the wind. There are bamboo, iron, copper and amethyst versions.",
+    "Wind chimes and glass bells from &bChimes&r: place them and listen to them ring in the wind. There are bamboo, iron, copper and amethyst versions."
   ],
   "quest.6BAE519DD7E0080D.title": "Wind Chimes",
   "quest.6BE4F386E0024706.quest_desc": [
-    "&bMacaw's Holidays&r has decorations for Christmas, Halloween and more.",
+    "&bMacaw's Holidays&r has decorations for Christmas, Halloween and more."
   ],
   "quest.6BE4F386E0024706.title": "Holiday Spirit",
   "quest.6C0BDC1F48F3A2D3.quest_desc": [
-    "Even more blocks, and can take templates.",
+    "Even more blocks, and can take templates."
   ],
   "quest.6C0BDC1F48F3A2D3.title": "Diamond Stick",
   "quest.6EB0DD3E87942DEF.quest_desc": [
-    "&bMacaw's Doors&r: dozens of door styles, from cottage to modern to Japanese.",
+    "&bMacaw's Doors&r: dozens of door styles, from cottage to modern to Japanese."
   ],
   "quest.6EB0DD3E87942DEF.title": "Doors",
   "quest.749A1AC899B0777E.quest_desc": [
-    "Craft every framed block shape from one place.",
+    "Craft every framed block shape from one place."
   ],
   "quest.749A1AC899B0777E.title": "Framing Saw",
   "quest.75967C897793BFF8.quest_desc": [
-    "Places more blocks at once.",
+    "Places more blocks at once."
   ],
   "quest.75967C897793BFF8.title": "Iron Stick",
   "quest.7844229D8A5D42EB.quest_desc": [
-    "&bMacaw's Windows&r: framed windows that connect, plus shutters, blinds and curtains.",
+    "&bMacaw's Windows&r: framed windows that connect, plus shutters, blinds and curtains."
   ],
   "quest.7844229D8A5D42EB.title": "Windows",
   "quest.7D425CC1CC30B1F7.quest_desc": [
-    "Mark an area to copy and move with the Builder.",
+    "Mark an area to copy and move with the Builder."
   ],
-  "quest.7D425CC1CC30B1F7.title": "Space Chamber",
+  "quest.7D425CC1CC30B1F7.title": "Space Chamber"
 }

@@ -1,0 +1,134 @@
+{
+  "chapter.5CF0D10F93C8F4A7.chapter_subtitle": [
+    "Discover crops, experiment with pollination and automate your harvest."
+  ],
+  "chapter.5CF0D10F93C8F4A7.title": "Productive Farming",
+  "quest.003176F63D79B382.quest_desc": [
+    "Collect one Basil. Use JEI for its seed, harvest, fruiting or mutation requirements. Some plants need special support or space: read their tooltips before planting."
+  ],
+  "quest.003176F63D79B382.title": "Basil",
+  "quest.0F5FE5090F4F44ED.quest_desc": [
+    "Collect one Rye. Use JEI for its seed, harvest, fruiting or mutation requirements. Some plants need special support or space: read their tooltips before planting."
+  ],
+  "quest.0F5FE5090F4F44ED.title": "Rye",
+  "quest.1410EE04A97A9B42.quest_desc": [
+    "Obtain Barley Seeds using the recipe or source shown in JEI. Plant them and wait for a mature harvest."
+  ],
+  "quest.1410EE04A97A9B42.title": "First New Seeds",
+  "quest.1DE8A688A6E828FD.quest_desc": [
+    "Collect one Black Pepper. Use JEI for its seed, harvest, fruiting or mutation requirements. Some plants need special support or space: read their tooltips before planting."
+  ],
+  "quest.1DE8A688A6E828FD.title": "Black Pepper",
+  "quest.1E994A447B361713.quest_desc": [
+    "Collect one Broccoli. Use JEI for its seed, harvest, fruiting or mutation requirements. Some plants need special support or space: read their tooltips before planting."
+  ],
+  "quest.1E994A447B361713.title": "Broccoli",
+  "quest.2084D4125B34E67F.quest_desc": [
+    "Collect one Cauliflower. Use JEI for its seed, harvest, fruiting or mutation requirements. Some plants need special support or space: read their tooltips before planting."
+  ],
+  "quest.2084D4125B34E67F.title": "Cauliflower",
+  "quest.29B813512C5F98A4.quest_desc": [
+    "Productive Farming adds crops, mutations and flowers. Use JEI Crop Mutation and Crop Fruiting pages for this pack. Start a small, well-lit farm and save spare seeds."
+  ],
+  "quest.29B813512C5F98A4.title": "A More Productive Farm",
+  "quest.2A9FFDF1FCE6EAC9.quest_desc": [
+    "Build a flower patch alongside the farm. Check JEI for flower sources and any available breeding recipes."
+  ],
+  "quest.2A9FFDF1FCE6EAC9.title": "A Flower Garden",
+  "quest.2AE18B8BA6189CAE.quest_desc": [
+    "Craft the Farm Controller. Follow the structure information and configuration in its interface before adding crops; a controller item alone is not a complete farm."
+  ],
+  "quest.2AE18B8BA6189CAE.title": "Build the Farm",
+  "quest.34FEA0D518482AF2.quest_desc": [
+    "Seed bags and produce crates compact your supplies. JEI shows their packing and unpacking recipes."
+  ],
+  "quest.34FEA0D518482AF2.title": "Store the Harvest",
+  "quest.35C4193DF4E99D53.quest_desc": [
+    "Collect one Blueberry. Use JEI for its seed, harvest, fruiting or mutation requirements. Some plants need special support or space: read their tooltips before planting."
+  ],
+  "quest.35C4193DF4E99D53.title": "Blueberry",
+  "quest.3A358D6025C9BFB0.quest_desc": [
+    "Add a Farm Hatch as required by the farm structure. Use its interface for the supported input and output operations."
+  ],
+  "quest.3A358D6025C9BFB0.title": "Farm Access",
+  "quest.3ADB533C9861B451.quest_desc": [
+    "Collect one Oats. Use JEI for its seed, harvest, fruiting or mutation requirements. Some plants need special support or space: read their tooltips before planting."
+  ],
+  "quest.3ADB533C9861B451.title": "Oats",
+  "quest.3CC614F160D5F406.quest_desc": [
+    "Collect one Cabbage. Use JEI for its seed, harvest, fruiting or mutation requirements. Some plants need special support or space: read their tooltips before planting."
+  ],
+  "quest.3CC614F160D5F406.title": "Cabbage",
+  "quest.3FEC49659BAA53EA.quest_desc": [
+    "Collect your first Barley. Keep seeds available so your farm can be replanted."
+  ],
+  "quest.3FEC49659BAA53EA.title": "Harvest the Barley",
+  "quest.44453CA59AFE036D.quest_desc": [
+    "Collect one Onion. Use JEI for its seed, harvest, fruiting or mutation requirements. Some plants need special support or space: read their tooltips before planting."
+  ],
+  "quest.44453CA59AFE036D.title": "Onion",
+  "quest.487384B5BD524E75.quest_desc": [
+    "Collect one Leek. Use JEI for its seed, harvest, fruiting or mutation requirements. Some plants need special support or space: read their tooltips before planting."
+  ],
+  "quest.487384B5BD524E75.title": "Leek",
+  "quest.48F9B6370EBFAF61.quest_desc": [
+    "Complete a valid farm structure and verify that it harvests a supported crop. Provide the inputs requested by its interface and keep output storage available."
+  ],
+  "quest.48F9B6370EBFAF61.title": "The Working Farm",
+  "quest.493F2FC503D86702.quest_desc": [
+    "Collect one Raspberry. Use JEI for its seed, harvest, fruiting or mutation requirements. Some plants need special support or space: read their tooltips before planting."
+  ],
+  "quest.493F2FC503D86702.title": "Raspberry",
+  "quest.4E484CBD891237E6.quest_desc": [
+    "Collect one Spinach. Use JEI for its seed, harvest, fruiting or mutation requirements. Some plants need special support or space: read their tooltips before planting."
+  ],
+  "quest.4E484CBD891237E6.title": "Spinach",
+  "quest.522E411DB7FC883A.quest_desc": [
+    "Collect one Garlic. Use JEI for its seed, harvest, fruiting or mutation requirements. Some plants need special support or space: read their tooltips before planting."
+  ],
+  "quest.522E411DB7FC883A.title": "Garlic",
+  "quest.55F7D18DDB800408.quest_desc": [
+    "Collect one Rice. Use JEI for its seed, harvest, fruiting or mutation requirements. Some plants need special support or space: read their tooltips before planting."
+  ],
+  "quest.55F7D18DDB800408.title": "Rice",
+  "quest.5740923BB1FEA9BB.quest_desc": [
+    "Grow several crop families, keep spare planting material and test one repeatable mutation. Tick this after your farm and storage are working reliably."
+  ],
+  "quest.5740923BB1FEA9BB.title": "A Diverse Harvest",
+  "quest.58304B60D04F16F0.quest_desc": [
+    "Collect one Black Beans. Use JEI for its seed, harvest, fruiting or mutation requirements. Some plants need special support or space: read their tooltips before planting."
+  ],
+  "quest.58304B60D04F16F0.title": "Black Beans",
+  "quest.61E37FAB07DE9A99.quest_desc": [
+    "Choose a mutation from JEI, prepare its required plants and pollen, and harvest the resulting crop. Tick this once you have reproduced a mutation; this task does not inspect crop genetics."
+  ],
+  "quest.61E37FAB07DE9A99.title": "A Successful Mutation",
+  "quest.63C00D6DADFD0A77.quest_desc": [
+    "Collect one Strawberry. Use JEI for its seed, harvest, fruiting or mutation requirements. Some plants need special support or space: read their tooltips before planting."
+  ],
+  "quest.63C00D6DADFD0A77.title": "Strawberry",
+  "quest.64614E973CCD4F72.quest_desc": [
+    "Collect one Cotton. Use JEI for its seed, harvest, fruiting or mutation requirements. Some plants need special support or space: read their tooltips before planting."
+  ],
+  "quest.64614E973CCD4F72.title": "Cotton",
+  "quest.706CAB2EF4D50627.quest_desc": [
+    "Collect one Sugar Beet. Use JEI for its seed, harvest, fruiting or mutation requirements. Some plants need special support or space: read their tooltips before planting."
+  ],
+  "quest.706CAB2EF4D50627.title": "Sugar Beet",
+  "quest.75941B3D124F5B54.quest_desc": [
+    "Collect one Eggplant. Use JEI for its seed, harvest, fruiting or mutation requirements. Some plants need special support or space: read their tooltips before planting."
+  ],
+  "quest.75941B3D124F5B54.title": "Eggplant",
+  "quest.7926816B7FB7A417.quest_desc": [
+    "Use the Crop Mutation pages in JEI to learn the relevant pollen and target crop. Crop pollen and tree pollen belong to different mods."
+  ],
+  "quest.7926816B7FB7A417.title": "Crop Pollination",
+  "quest.7D359E8147AFFD66.quest_desc": [
+    "Collect one Cucumber. Use JEI for its seed, harvest, fruiting or mutation requirements. Some plants need special support or space: read their tooltips before planting."
+  ],
+  "quest.7D359E8147AFFD66.title": "Cucumber",
+  "quest.7E7146CB6BC90A43.quest_desc": [
+    "Collect one Black Tea. Use JEI for its seed, harvest, fruiting or mutation requirements. Some plants need special support or space: read their tooltips before planting."
+  ],
+  "quest.7E7146CB6BC90A43.title": "Black Tea"
+}

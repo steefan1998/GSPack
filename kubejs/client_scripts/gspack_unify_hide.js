@@ -100,6 +100,8 @@ const GSPACK_UNIFY_HIDE = [
   'railcraft:zinc_block',
 ]
 
+GSPACK_UNIFY_HIDE.push('enderio:silicon', 'oritech:silicon', 'stellaris:silicon')
+
 RecipeViewerEvents.removeEntries('item', event => {
   GSPACK_UNIFY_HIDE.forEach(item => event.remove(item))
 })
