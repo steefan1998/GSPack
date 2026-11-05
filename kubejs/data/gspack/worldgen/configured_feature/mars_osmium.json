@@ -10,7 +10,7 @@
           "block": "gspack:mars_stone"
         },
         "state": {
-          "Name": "alltheores:osmium_ore"
+          "Name": "gspack:mars_osmium_ore"
         }
       }
     ]

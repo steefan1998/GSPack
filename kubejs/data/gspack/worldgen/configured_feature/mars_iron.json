@@ -10,7 +10,7 @@
           "block": "gspack:mars_stone"
         },
         "state": {
-          "Name": "minecraft:iron_ore"
+          "Name": "gspack:mars_iron_ore"
         }
       }
     ]

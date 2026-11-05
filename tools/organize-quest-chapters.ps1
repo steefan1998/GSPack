@@ -16,7 +16,9 @@ $langPath=Join-Path $dir 'lang/en_us/file.json5'
 $lang=Get-Content -LiteralPath $langPath -Raw | ConvertFrom-Json
 foreach($group in $definition.groups) {
     $id=GroupId $group.key; $groups+=@{id=$id}
-    $lang | Add-Member -NotePropertyName "chapter_group.$id.title" -NotePropertyValue $group.title -Force
+    # Match build-quests Set-Lang: FTB text parsing needs literal ampersands escaped.
+    $title = $group.title -replace '(?<!\\)&(?=\s|$)', '\&'
+    $lang | Add-Member -NotePropertyName "chapter_group.$id.title" -NotePropertyValue $title -Force
     foreach($key in $group.chapters){$entries.Add(@{Key=$key;Group=$id})}
 }
 $actual=@(Get-ChildItem (Join-Path $dir 'chapters') -Filter '*.json5')

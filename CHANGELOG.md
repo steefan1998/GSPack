@@ -2,7 +2,13 @@
 
 Pack changes are listed here. Exact added and updated mods are in [MOD-CHANGELOG.md](MOD-CHANGELOG.md).
 
-## Unreleased
+## 0.8 (Dev Build)
+
+- **Conversion hotfix:** use KubeJS Level.dimension as a property, fixing the runtime error that disabled chunk conversion. The newest pre-fix game log loaded all startup/server scripts with zero loading errors and zero failed recipes; final post-fix in-game validation remains pending.
+
+- **Mars sky:** dimension-specific Sky Aesthetics profile with Phobos and Deimos, a dusty sky and no vanilla Moon. These are visual moons using the mod's day/night rotation, not separate destinations or a physical orbital simulation.
+- **Mars mining:** 16px red-stone variants for iron, copper, gold, osmium, uranium and Unobtainium, native Fortune/Silk Touch loot, ore processing tags and furnace/blast recipes. Loaded Mars chunks replace the previous six ore blocks with their Mars variants; other dimensions are unaffected.
+- **Mars Unobtainium:** rare Mars Unobtainium veins using the native Allthemodium ore class between Y=-48 and Y=16, two-block vein attempts in one out of eight chunks. Native mining restrictions, 30-50 XP, animated mineral pixels, Fortune and Silk Touch are retained. New ore generation applies to new chunks; the sky, mining and conversions still need an in-game check.
 
 - **Exploration:** added independent Bumblezone and Colossal Reactors chapters, plus a Mars exploration branch. Mars is a GSPack datapack extension for Stellaris; rocket travel and terrain still require an in-game test.
 - **Cores:** Verdant now combines 25 farming/tree ingredients; Cosmic uses lunar trophies, space modules and late technology. Dimensional retains Bumblezone, Aether II and Twilight Forest contributions.

@@ -78,17 +78,28 @@ function gspackIsDuplicate(state) {
 
 function gspackConvertChunk(level, cx, cz) {
   if (!level.hasChunk(cx, cz)) return
+  // Repair previously generated Mars ores without changing Earth/other dimensions.
+  let mars = String(level.dimension) === 'stellaris:mars'
+  let marsOres = {
+    'minecraft:iron_ore': 'gspack:mars_iron_ore',
+    'minecraft:copper_ore': 'gspack:mars_copper_ore',
+    'minecraft:gold_ore': 'gspack:mars_gold_ore',
+    'alltheores:osmium_ore': 'gspack:mars_osmium_ore',
+    'alltheores:uranium_ore': 'gspack:mars_uranium_ore',
+    'allthemodium:unobtainium_ore': 'gspack:mars_unobtainium_ore'
+  }
+  let targetFor = id => mars && marsOres[id] ? marsOres[id] : GSPACK_BLOCK_TO[id]
   const chunk = level.getChunk(cx, cz)
   const sections = chunk.getSections()
   for (let i = 0; i < sections.length; i++) {
     let section = sections[i]
-    if (section.hasOnlyAir() || !section.maybeHas(state => gspackIsDuplicate(state))) continue
+    if (section.hasOnlyAir() || !section.maybeHas(state => targetFor(gspackBlockId(state)) !== undefined)) continue
     let baseY = chunk.getSectionYFromSectionIndex(i) * 16
     for (let y = 0; y < 16; y++) {
       for (let z = 0; z < 16; z++) {
         for (let x = 0; x < 16; x++) {
           let id = gspackBlockId(section.getBlockState(x, y, z))
-          let preferred = GSPACK_BLOCK_TO[id]
+          let preferred = targetFor(id)
           // Flag 2: update clients only, no neighbour updates (an ore swap changes nothing around it).
           if (preferred) level.getBlock(cx * 16 + x, baseY + y, cz * 16 + z).setBlockState(gspackTarget(preferred), 2)
         }

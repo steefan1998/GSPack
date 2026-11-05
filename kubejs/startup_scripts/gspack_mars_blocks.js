@@ -10,4 +10,12 @@ StartupEvents.registry('block', event => {
       .tagBlock(name === 'mars_stone' ? 'minecraft:mineable/pickaxe' : 'minecraft:mineable/shovel')
       .texture('stellaris:block/'+name)
   })
+  // Distinct surface variants: loot/tags retain the original ore's material rules.
+  ;['iron','copper','gold','osmium','uranium'].forEach(name => {
+    event.create('gspack:mars_'+name+'_ore')
+      .displayName('Mars '+name.charAt(0).toUpperCase()+name.slice(1)+' Ore')
+      .hardness(3).resistance(3).requiresTool(true)
+      .soundType('stone').tagBlock('minecraft:mineable/pickaxe')
+      .texture('gspack:block/mars_'+name+'_ore')
+  })
 })

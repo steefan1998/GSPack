@@ -1,5 +1,7 @@
 {
   "planet.stellaris.mars": "Mars",
   "dimension.stellaris.mars": "Mars",
-  "biome.gspack.mars": "Martian Highlands"
+  "biome.gspack.mars": "Martian Highlands",
+  "block.gspack.mars_unobtainium_ore": "Mars Unobtainium Ore",
+  "item.gspack.mars_unobtainium_ore": "Mars Unobtainium Ore"
 }
