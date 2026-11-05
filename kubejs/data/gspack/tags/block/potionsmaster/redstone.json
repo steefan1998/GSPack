@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "minecraft:deepslate_redstone_ore",
+      "required": false
+    },
+    {
+      "id": "minecraft:redstone_ore",
+      "required": false
+    }
+  ]
+}

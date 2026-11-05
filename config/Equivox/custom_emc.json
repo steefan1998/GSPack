@@ -4,6 +4,22 @@
     {
       "tag": "gspack:emc_excluded",
       "emc": 0
+    },
+    {
+      "id": "gspack:mars_stone",
+      "emc": 1
+    },
+    {
+      "id": "gspack:mars_regolith",
+      "emc": 1
+    },
+    {
+      "id": "gspack:mars_sand",
+      "emc": 1
+    },
+    {
+      "id": "gspack:mars_lumestone",
+      "emc": 32
     }
   ]
 }

@@ -1,0 +1,8 @@
+{
+  "entryname": "iron",
+  "oretag": "gspack:potionsmaster/iron",
+  "color": -1785686,
+  "drawing": false,
+  "order": 36,
+  "recipeItem": "minecraft:raw_iron"
+}

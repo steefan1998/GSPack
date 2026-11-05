@@ -9,140 +9,134 @@
       id: "75DF6741DB0B2835",
       item: {
         id: "twilightforest:ironwood_ingot",
-        count: 1
+        count: 1,
       },
       count: 4,
-      weight: 20
+      weight: 20.0,
     },
     {
       id: "3277E2BD50B3551C",
       item: {
         id: "twilightforest:steeleaf_ingot",
-        count: 1
+        count: 1,
       },
       count: 4,
-      weight: 20
+      weight: 20.0,
     },
     {
       id: "6769AEC79EF4B26D",
       item: {
         id: "twilightforest:torchberries",
-        count: 1
+        count: 1,
       },
       count: 8,
-      weight: 15
+      weight: 15.0,
     },
     {
       id: "4CCBA5845D391E31",
       item: {
         id: "twilightforest:raven_feather",
-        count: 1
+        count: 1,
       },
       count: 4,
-      weight: 12
+      weight: 12.0,
     },
     {
       id: "189797CEC40C664E",
       item: {
         id: "twilightforest:liveroot",
-        count: 1
+        count: 1,
       },
       count: 8,
-      weight: 12
+      weight: 12.0,
     },
     {
       id: "52770F4091B2416E",
       item: {
         id: "twilightforest:armor_shard",
-        count: 1
+        count: 1,
       },
       count: 8,
-      weight: 8
+      weight: 8.0,
     },
     {
       id: "07614918560F379D",
       item: {
         id: "twilightforest:knightmetal_ingot",
-        count: 1
+        count: 1,
       },
       count: 2,
-      weight: 6
+      weight: 6.0,
     },
     {
       id: "21C00703023A633D",
       item: {
         id: "twilightforest:charm_of_life_1",
-        count: 1
+        count: 1,
       },
-      weight: 3
+      weight: 3.0,
     },
     {
       id: "627275E815C960BA",
       item: {
         id: "twilightforest:fiery_ingot",
-        count: 1
+        count: 1,
       },
-      weight: 2
+      weight: 2.0,
     },
     {
       id: "20058A30CB7B6489",
-      type: "item",
       item: {
+        id: "minecraft:moss_block",
         count: 1,
-        id: "minecraft:moss_block"
       },
       count: 16,
-      weight: 10
+      weight: 10.0,
     },
     {
       id: "18DFBABB57EEBC32",
-      type: "item",
       item: {
+        id: "minecraft:glow_berries",
         count: 1,
-        id: "minecraft:glow_berries"
       },
       count: 16,
-      weight: 10
+      weight: 10.0,
     },
     {
       id: "5B85ED0C1A17A288",
-      type: "item",
       item: {
+        id: "minecraft:brown_mushroom",
         count: 1,
-        id: "minecraft:brown_mushroom"
       },
       count: 16,
-      weight: 10
+      weight: 10.0,
     },
     {
       id: "34E838091376776D",
-      type: "item",
       item: {
+        id: "minecraft:red_mushroom",
         count: 1,
-        id: "minecraft:red_mushroom"
       },
       count: 16,
-      weight: 10
+      weight: 10.0,
     },
     {
       id: "3E31BBC60C2436CA",
-      type: "item",
       item: {
+        id: "minecraft:book",
         count: 1,
-        id: "minecraft:book"
       },
       count: 8,
-      weight: 8
+      weight: 8.0,
     },
     {
       id: "561AB896245FCA89",
-      type: "item",
       item: {
+        id: "minecraft:golden_carrot",
         count: 1,
-        id: "minecraft:golden_carrot"
       },
       count: 8,
-      weight: 8
-    }
-  ]
+      weight: 8.0,
+    },
+  ],
 }

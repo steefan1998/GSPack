@@ -1,0 +1,8 @@
+{
+  "entryname": "saltpeter",
+  "oretag": "gspack:potionsmaster/saltpeter",
+  "color": -10384495,
+  "drawing": false,
+  "order": 53,
+  "recipeItem": "railcraft:saltpeter_dust"
+}

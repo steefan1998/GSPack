@@ -11,7 +11,7 @@
   default_hide_dependency_lines: false,
   quests: [
     {
-      x: 0,
+      x: 0.0,
       y: 2.7,
       shape: "gear",
       size: 1.3,
@@ -37,10 +37,19 @@
     {
       x: 1.8,
       y: 2.7,
-      dependencies: ["3CB23CE64EFDD940"],
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"3CB23CE64EFDD940":[0,2.7,1.8,2.7]},
+      dependencies: [
+        "3CB23CE64EFDD940",
+      ],
+      dep_control_pts: {
+        "3CB23CE64EFDD940": [
+          0.0,
+          2.7,
+          1.8,
+          2.7,
+        ],
+      },
+      size: 1.0,
       id: "7C219F6953D0DA05",
       tasks: [
         {
@@ -62,12 +71,21 @@
     },
     {
       x: 3.6,
-      y: 0,
-      optional: true,
-      dependencies: ["7C219F6953D0DA05"],
+      y: 0.0,
       shape: "diamond",
-      size: 1,
-      dep_control_pts: {"7C219F6953D0DA05":[1.8,2.7,3.6,0]},
+      dependencies: [
+        "7C219F6953D0DA05",
+      ],
+      dep_control_pts: {
+        "7C219F6953D0DA05": [
+          1.8,
+          2.7,
+          3.6,
+          0.0,
+        ],
+      },
+      size: 1.0,
+      optional: true,
       id: "7517A918ECED3B6D",
       tasks: [
         {
@@ -88,39 +106,21 @@
       ],
     },
     {
-      icon: {
-        id: "minecraft:netherrack",
-        count: 1,
-      },
       x: 3.6,
       y: 1.8,
-      dependencies: ["7C219F6953D0DA05"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"7C219F6953D0DA05":[1.8,2.7,3.6,1.8]},
-      id: "5DE21E16F099588A",
-      tasks: [
-        {
-          id: "46DE39950133ADB8",
-          type: "dimension",
-          dimension: "minecraft:the_nether",
-        },
-      ],
-      rewards: [
-        {
-          id: "536839D70266D023",
-          type: "xp",
-          xp: 50,
-        },
-      ],
-    },
-    {
-      x: 9,
-      y: 0.9,
-      dependencies: ["5DE21E16F099588A"],
       shape: "gear",
+      dependencies: [
+        "7C219F6953D0DA05",
+      ],
+      dep_control_pts: {
+        "7C219F6953D0DA05": [
+          1.8,
+          2.7,
+          3.6,
+          1.8,
+        ],
+      },
       size: 1.3,
-      dep_control_pts: {"5DE21E16F099588A":[3.6,1.8,9,0.9]},
       id: "040ECB00C94BF973",
       tasks: [
         {
@@ -147,13 +147,58 @@
       ],
     },
     {
+      icon: {
+        id: "minecraft:netherrack",
+        count: 1,
+      },
+      x: 9.0,
+      y: 0.9,
+      shape: "circle",
+      dependencies: [
+        "040ECB00C94BF973",
+      ],
+      dep_control_pts: {
+        "040ECB00C94BF973": [
+          3.6,
+          1.8,
+          9.0,
+          0.9,
+        ],
+      },
+      size: 1.0,
+      id: "5DE21E16F099588A",
+      tasks: [
+        {
+          id: "46DE39950133ADB8",
+          type: "dimension",
+          dimension: "minecraft:the_nether",
+        },
+      ],
+      rewards: [
+        {
+          id: "536839D70266D023",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
       x: 3.6,
       y: 3.6,
-      optional: true,
-      dependencies: ["7C219F6953D0DA05"],
       shape: "diamond",
-      size: 1,
-      dep_control_pts: {"7C219F6953D0DA05":[1.8,2.7,3.6,3.6]},
+      dependencies: [
+        "7C219F6953D0DA05",
+      ],
+      dep_control_pts: {
+        "7C219F6953D0DA05": [
+          1.8,
+          2.7,
+          3.6,
+          3.6,
+        ],
+      },
+      size: 1.0,
+      optional: true,
       id: "695EE127BCA815D8",
       tasks: [
         {
@@ -176,11 +221,20 @@
     {
       x: 3.6,
       y: 5.4,
-      optional: true,
-      dependencies: ["7C219F6953D0DA05"],
       shape: "diamond",
-      size: 1,
-      dep_control_pts: {"7C219F6953D0DA05":[1.8,2.7,3.6,5.4]},
+      dependencies: [
+        "7C219F6953D0DA05",
+      ],
+      dep_control_pts: {
+        "7C219F6953D0DA05": [
+          1.8,
+          2.7,
+          3.6,
+          5.4,
+        ],
+      },
+      size: 1.0,
+      optional: true,
       id: "0FE132183A9E2A3E",
       tasks: [
         {
@@ -202,12 +256,21 @@
     },
     {
       x: 5.4,
-      y: 0,
-      optional: true,
-      dependencies: ["7C219F6953D0DA05"],
+      y: 0.0,
       shape: "diamond",
-      size: 1,
-      dep_control_pts: {"7C219F6953D0DA05":[1.8,2.7,5.4,0]},
+      dependencies: [
+        "7C219F6953D0DA05",
+      ],
+      dep_control_pts: {
+        "7C219F6953D0DA05": [
+          1.8,
+          2.7,
+          5.4,
+          0.0,
+        ],
+      },
+      size: 1.0,
+      optional: true,
       id: "4A19ACFF6659EA44",
       tasks: [
         {
@@ -228,13 +291,22 @@
       ],
     },
     {
-      x: 9,
+      x: 9.0,
       y: 2.7,
-      optional: true,
-      dependencies: ["695EE127BCA815D8"],
       shape: "diamond",
-      size: 1,
-      dep_control_pts: {"695EE127BCA815D8":[3.6,3.6,9,2.7]},
+      dependencies: [
+        "695EE127BCA815D8",
+      ],
+      dep_control_pts: {
+        "695EE127BCA815D8": [
+          3.6,
+          3.6,
+          9.0,
+          2.7,
+        ],
+      },
+      size: 1.0,
+      optional: true,
       id: "7C03C7CB4AE0C5A7",
       tasks: [
         {
@@ -262,12 +334,21 @@
     },
     {
       x: 10.8,
-      y: 0,
-      optional: true,
-      dependencies: ["7C03C7CB4AE0C5A7"],
+      y: 0.0,
       shape: "gear",
+      dependencies: [
+        "7C03C7CB4AE0C5A7",
+      ],
+      dep_control_pts: {
+        "7C03C7CB4AE0C5A7": [
+          9.0,
+          2.7,
+          10.8,
+          0.0,
+        ],
+      },
       size: 1.3,
-      dep_control_pts: {"7C03C7CB4AE0C5A7":[9,2.7,10.8,0]},
+      optional: true,
       id: "45340A1E8EC870FB",
       tasks: [
         {
@@ -296,11 +377,20 @@
     {
       x: 5.4,
       y: 1.8,
-      optional: true,
-      dependencies: ["7C219F6953D0DA05"],
       shape: "diamond",
-      size: 1,
-      dep_control_pts: {"7C219F6953D0DA05":[1.8,2.7,5.4,1.8]},
+      dependencies: [
+        "7C219F6953D0DA05",
+      ],
+      dep_control_pts: {
+        "7C219F6953D0DA05": [
+          1.8,
+          2.7,
+          5.4,
+          1.8,
+        ],
+      },
+      size: 1.0,
+      optional: true,
       id: "39E731A91263BD52",
       tasks: [
         {
@@ -323,11 +413,20 @@
     {
       x: 5.4,
       y: 3.6,
-      optional: true,
-      dependencies: ["7C219F6953D0DA05"],
       shape: "diamond",
-      size: 1,
-      dep_control_pts: {"7C219F6953D0DA05":[1.8,2.7,5.4,3.6]},
+      dependencies: [
+        "7C219F6953D0DA05",
+      ],
+      dep_control_pts: {
+        "7C219F6953D0DA05": [
+          1.8,
+          2.7,
+          5.4,
+          3.6,
+        ],
+      },
+      size: 1.0,
+      optional: true,
       id: "54102498A4AE1D14",
       tasks: [
         {
@@ -350,11 +449,20 @@
     {
       x: 5.4,
       y: 5.4,
-      optional: true,
-      dependencies: ["7C219F6953D0DA05"],
       shape: "diamond",
-      size: 1,
-      dep_control_pts: {"7C219F6953D0DA05":[1.8,2.7,5.4,5.4]},
+      dependencies: [
+        "7C219F6953D0DA05",
+      ],
+      dep_control_pts: {
+        "7C219F6953D0DA05": [
+          1.8,
+          2.7,
+          5.4,
+          5.4,
+        ],
+      },
+      size: 1.0,
+      optional: true,
       id: "3691393C3E98B5A3",
       tasks: [
         {
@@ -375,13 +483,22 @@
       ],
     },
     {
-      x: 9,
+      x: 9.0,
       y: 4.5,
-      optional: true,
-      dependencies: ["39E731A91263BD52"],
       shape: "diamond",
-      size: 1,
-      dep_control_pts: {"39E731A91263BD52":[5.4,1.8,9,4.5]},
+      dependencies: [
+        "39E731A91263BD52",
+      ],
+      dep_control_pts: {
+        "39E731A91263BD52": [
+          5.4,
+          1.8,
+          9.0,
+          4.5,
+        ],
+      },
+      size: 1.0,
+      optional: true,
       id: "7BE6A17A6D9F43E3",
       tasks: [
         {
@@ -410,11 +527,20 @@
     {
       x: 10.8,
       y: 1.8,
-      optional: true,
-      dependencies: ["7BE6A17A6D9F43E3"],
       shape: "gear",
+      dependencies: [
+        "7BE6A17A6D9F43E3",
+      ],
+      dep_control_pts: {
+        "7BE6A17A6D9F43E3": [
+          9.0,
+          4.5,
+          10.8,
+          1.8,
+        ],
+      },
       size: 1.3,
-      dep_control_pts: {"7BE6A17A6D9F43E3":[9,4.5,10.8,1.8]},
+      optional: true,
       id: "09B4200D6A64399A",
       tasks: [
         {
@@ -447,10 +573,19 @@
       },
       x: 10.8,
       y: 3.6,
-      dependencies: ["040ECB00C94BF973"],
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"040ECB00C94BF973":[9,0.9,10.8,3.6]},
+      dependencies: [
+        "040ECB00C94BF973",
+      ],
+      dep_control_pts: {
+        "040ECB00C94BF973": [
+          3.6,
+          1.8,
+          10.8,
+          3.6,
+        ],
+      },
+      size: 1.0,
       id: "07CEC09293A330D4",
       tasks: [
         {
@@ -470,11 +605,20 @@
     {
       x: 7.2,
       y: 0.9,
-      optional: true,
-      dependencies: ["7C219F6953D0DA05"],
       shape: "diamond",
-      size: 1,
-      dep_control_pts: {"7C219F6953D0DA05":[1.8,2.7,7.2,0.9]},
+      dependencies: [
+        "7C219F6953D0DA05",
+      ],
+      dep_control_pts: {
+        "7C219F6953D0DA05": [
+          1.8,
+          2.7,
+          7.2,
+          0.9,
+        ],
+      },
+      size: 1.0,
+      optional: true,
       id: "79BD1EE8C76BAEDB",
       tasks: [
         {
@@ -497,11 +641,20 @@
     {
       x: 7.2,
       y: 2.7,
-      optional: true,
-      dependencies: ["7C219F6953D0DA05"],
       shape: "diamond",
-      size: 1,
-      dep_control_pts: {"7C219F6953D0DA05":[1.8,2.7,7.2,2.7]},
+      dependencies: [
+        "7C219F6953D0DA05",
+      ],
+      dep_control_pts: {
+        "7C219F6953D0DA05": [
+          1.8,
+          2.7,
+          7.2,
+          2.7,
+        ],
+      },
+      size: 1.0,
+      optional: true,
       id: "6DDAFB92818AF6D1",
       tasks: [
         {
@@ -524,11 +677,20 @@
     {
       x: 10.8,
       y: 5.4,
-      optional: true,
-      dependencies: ["040ECB00C94BF973"],
       shape: "diamond",
-      size: 1,
-      dep_control_pts: {"040ECB00C94BF973":[9,0.9,10.8,5.4]},
+      dependencies: [
+        "040ECB00C94BF973",
+      ],
+      dep_control_pts: {
+        "040ECB00C94BF973": [
+          3.6,
+          1.8,
+          10.8,
+          5.4,
+        ],
+      },
+      size: 1.0,
+      optional: true,
       id: "1D8895A769D06F38",
       tasks: [
         {
@@ -557,11 +719,20 @@
     {
       x: 7.2,
       y: 4.5,
-      optional: true,
-      dependencies: ["7C219F6953D0DA05"],
       shape: "diamond",
-      size: 1,
-      dep_control_pts: {"7C219F6953D0DA05":[1.8,2.7,7.2,4.5]},
+      dependencies: [
+        "7C219F6953D0DA05",
+      ],
+      dep_control_pts: {
+        "7C219F6953D0DA05": [
+          1.8,
+          2.7,
+          7.2,
+          4.5,
+        ],
+      },
+      size: 1.0,
+      optional: true,
       id: "7F3741482E6279A8",
       tasks: [
         {
@@ -590,11 +761,20 @@
     {
       x: 14.4,
       y: 0.9,
-      optional: true,
-      dependencies: ["1D8895A769D06F38"],
       shape: "gear",
+      dependencies: [
+        "1D8895A769D06F38",
+      ],
+      dep_control_pts: {
+        "1D8895A769D06F38": [
+          10.8,
+          5.4,
+          14.4,
+          0.9,
+        ],
+      },
       size: 1.3,
-      dep_control_pts: {"1D8895A769D06F38":[10.8,5.4,14.4,0.9]},
+      optional: true,
       id: "143A85C42BF5A10D",
       tasks: [
         {
@@ -623,11 +803,20 @@
     {
       x: 14.4,
       y: 2.7,
-      optional: true,
-      dependencies: ["1D8895A769D06F38"],
       shape: "diamond",
-      size: 1,
-      dep_control_pts: {"1D8895A769D06F38":[10.8,5.4,14.4,2.7]},
+      dependencies: [
+        "1D8895A769D06F38",
+      ],
+      dep_control_pts: {
+        "1D8895A769D06F38": [
+          10.8,
+          5.4,
+          14.4,
+          2.7,
+        ],
+      },
+      size: 1.0,
+      optional: true,
       id: "75CEC8D79B57D3F1",
       tasks: [
         {
@@ -650,11 +839,27 @@
     {
       x: 16.2,
       y: 1.8,
-      optional: true,
-      dependencies: ["75CEC8D79B57D3F1","143A85C42BF5A10D"],
       shape: "diamond",
-      size: 1,
-      dep_control_pts: {"75CEC8D79B57D3F1":[14.4,2.7,16.2,1.8],"143A85C42BF5A10D":[14.4,0.9,16.2,1.8]},
+      dependencies: [
+        "75CEC8D79B57D3F1",
+        "143A85C42BF5A10D",
+      ],
+      dep_control_pts: {
+        "75CEC8D79B57D3F1": [
+          14.4,
+          2.7,
+          16.2,
+          1.8,
+        ],
+        "143A85C42BF5A10D": [
+          14.4,
+          0.9,
+          16.2,
+          1.8,
+        ],
+      },
+      size: 1.0,
+      optional: true,
       id: "4E77C0883E27C158",
       tasks: [
         {
@@ -683,10 +888,19 @@
     {
       x: 12.6,
       y: 2.7,
-      dependencies: ["040ECB00C94BF973"],
       shape: "gear",
+      dependencies: [
+        "040ECB00C94BF973",
+      ],
+      dep_control_pts: {
+        "040ECB00C94BF973": [
+          3.6,
+          1.8,
+          12.6,
+          2.7,
+        ],
+      },
       size: 1.3,
-      dep_control_pts: {"040ECB00C94BF973":[9,0.9,12.6,2.7]},
       id: "16E8BC56D17D7680",
       tasks: [
         {
@@ -715,10 +929,19 @@
     {
       x: 14.4,
       y: 4.5,
-      dependencies: ["16E8BC56D17D7680"],
       shape: "gear",
+      dependencies: [
+        "16E8BC56D17D7680",
+      ],
+      dep_control_pts: {
+        "16E8BC56D17D7680": [
+          12.6,
+          2.7,
+          14.4,
+          4.5,
+        ],
+      },
       size: 1.3,
-      dep_control_pts: {"16E8BC56D17D7680":[12.6,2.7,14.4,4.5]},
       id: "707A8DA8ADAA3EF6",
       tasks: [
         {
@@ -747,10 +970,19 @@
     {
       x: 16.2,
       y: 3.6,
-      dependencies: ["707A8DA8ADAA3EF6"],
       shape: "gear",
+      dependencies: [
+        "707A8DA8ADAA3EF6",
+      ],
+      dep_control_pts: {
+        "707A8DA8ADAA3EF6": [
+          14.4,
+          4.5,
+          16.2,
+          3.6,
+        ],
+      },
       size: 1.3,
-      dep_control_pts: {"707A8DA8ADAA3EF6":[14.4,4.5,16.2,3.6]},
       id: "1301F1BA2A9F98D4",
       tasks: [
         {
@@ -777,13 +1009,106 @@
       ],
     },
     {
-      x: 18,
+      x: 18.0,
       y: 2.7,
-      dependencies: ["1301F1BA2A9F98D4","7517A918ECED3B6D","0FE132183A9E2A3E","4A19ACFF6659EA44","45340A1E8EC870FB","54102498A4AE1D14","3691393C3E98B5A3","09B4200D6A64399A","79BD1EE8C76BAEDB","6DDAFB92818AF6D1","143A85C42BF5A10D","7F3741482E6279A8","4E77C0883E27C158"],
-      hide_dependency_lines: true,
       shape: "gear",
+      hide_dependency_lines: true,
+      dependencies: [
+        "1301F1BA2A9F98D4",
+        "7517A918ECED3B6D",
+        "0FE132183A9E2A3E",
+        "4A19ACFF6659EA44",
+        "45340A1E8EC870FB",
+        "54102498A4AE1D14",
+        "3691393C3E98B5A3",
+        "09B4200D6A64399A",
+        "79BD1EE8C76BAEDB",
+        "6DDAFB92818AF6D1",
+        "143A85C42BF5A10D",
+        "7F3741482E6279A8",
+        "4E77C0883E27C158",
+      ],
+      dep_control_pts: {
+        "4E77C0883E27C158": [
+          16.2,
+          1.8,
+          18.0,
+          2.7,
+        ],
+        "3691393C3E98B5A3": [
+          5.4,
+          5.4,
+          18.0,
+          2.7,
+        ],
+        "6DDAFB92818AF6D1": [
+          7.2,
+          2.7,
+          18.0,
+          2.7,
+        ],
+        "0FE132183A9E2A3E": [
+          3.6,
+          5.4,
+          18.0,
+          2.7,
+        ],
+        "7517A918ECED3B6D": [
+          3.6,
+          0.0,
+          18.0,
+          2.7,
+        ],
+        "143A85C42BF5A10D": [
+          14.4,
+          0.9,
+          18.0,
+          2.7,
+        ],
+        "7F3741482E6279A8": [
+          7.2,
+          4.5,
+          18.0,
+          2.7,
+        ],
+        "09B4200D6A64399A": [
+          10.8,
+          1.8,
+          18.0,
+          2.7,
+        ],
+        "79BD1EE8C76BAEDB": [
+          7.2,
+          0.9,
+          18.0,
+          2.7,
+        ],
+        "45340A1E8EC870FB": [
+          10.8,
+          0.0,
+          18.0,
+          2.7,
+        ],
+        "4A19ACFF6659EA44": [
+          5.4,
+          0.0,
+          18.0,
+          2.7,
+        ],
+        "1301F1BA2A9F98D4": [
+          16.2,
+          3.6,
+          18.0,
+          2.7,
+        ],
+        "54102498A4AE1D14": [
+          5.4,
+          3.6,
+          18.0,
+          2.7,
+        ],
+      },
       size: 1.3,
-      dep_control_pts: {"1301F1BA2A9F98D4":[16.2,3.6,18,2.7],"7517A918ECED3B6D":[3.6,0,18,2.7],"0FE132183A9E2A3E":[3.6,5.4,18,2.7],"4A19ACFF6659EA44":[5.4,0,18,2.7],"45340A1E8EC870FB":[10.8,0,18,2.7],"54102498A4AE1D14":[5.4,3.6,18,2.7],"3691393C3E98B5A3":[5.4,5.4,18,2.7],"09B4200D6A64399A":[10.8,1.8,18,2.7],"79BD1EE8C76BAEDB":[7.2,0.9,18,2.7],"6DDAFB92818AF6D1":[7.2,2.7,18,2.7],"143A85C42BF5A10D":[14.4,0.9,18,2.7],"7F3741482E6279A8":[7.2,4.5,18,2.7],"4E77C0883E27C158":[16.2,1.8,18,2.7]},
       id: "5EA6B455B82F34F0",
       tasks: [
         {
@@ -807,17 +1132,14 @@
   quest_links: [
   ],
   images: [
-  {
-    "x": 9,
-    "y": -1.7188,
-    "width": 12,
-    "height": 1.4375,
-    "rotation": 0,
-    "image": "gspack:textures/quests/progression_header.png",
-    "color": 16777215,
-    "alpha": 255,
-    "order": 0,
-    "corner": false
-  }
-],
+    {
+      x: 9.0,
+      y: -1.7188,
+      width: 12.0,
+      height: 1.4375,
+      rotation: 0.0,
+      image: "gspack:textures/quests/progression_header.png",
+      id: "75BA1D563C4EFD7E",
+    },
+  ],
 }

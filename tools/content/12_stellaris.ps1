@@ -61,9 +61,9 @@ Q 'unloader' 'Cargo Unloader' 'stellaris:cargo_unloader' 'cargo' 'xp:75' -opt -d
 Q 'skins' 'Rocket Skins' 'stellaris:skin_galaxy' 'rocket' 'xp:50' -opt -desc 'Give your rocket a new look.'
 
 # ===== Space =====
-Q 'orbit' 'To Orbit!' 'dim:stellaris:earth_orbit' 'rocket,suit' 'xp:300;table:space' -size 1.5 -icon 'stellaris:earth_globe' -desc 'Launch and reach &eEarth Orbit&r. Look at the view!'
-Q 'space_station' 'Space Station' 'stellaris:space_station_blueprint' 'orbit' 'xp:200' -desc 'Build your own space station in orbit.'
-Q 'moon' 'One Small Step' 'dim:stellaris:moon' 'orbit' 'xp:500;table:epic' -size 2 -shape 'gear' -icon 'stellaris:moon_globe' -desc @'
+Q 'orbit' 'To Orbit!' 'dim:stellaris:earth_orbit' 'rocket,suit' 'xp:300;table:space' -opt -size 1.5 -icon 'stellaris:earth_globe' -desc 'Launch and reach &eEarth Orbit&r. Look at the view!'
+Q 'space_station' 'Space Station' 'stellaris:space_station_blueprint' 'rocket,suit' 'xp:200' -desc 'Build your own space station in orbit.'
+Q 'moon' 'One Small Step' 'dim:stellaris:moon' 'rocket,suit' 'xp:500;table:epic' -size 2 -shape 'gear' -icon 'stellaris:moon_globe' -desc @'
 Land on the &7Moon&r!
 
 The gravity is low, there is no air, and things live here. Watch your oxygen at all times.
@@ -101,3 +101,17 @@ Q 'star_crawlers' 'Star Crawlers' 'kill:stellaris:star_crawler*5' 'dungeon' 'xp:
 # ===== Bosses =====
 Q 'heart' 'Heart of Luna' 'kill:stellaris:heart_of_luna;stellaris:heart_of_luna_trophy' 'dungeon,vaccine' 'xp:600;table:epic' -size 1.5 -shape 'hexagon' -desc 'Defeat the boss hiding in the heart of the Moon and claim its trophy.'
 Q 'star_crawler' 'Star Crawler Queen' 'kill:stellaris:star_crawler_boss;stellaris:star_crawler_boss_trophy' 'heart,star_crawlers' 'lvl:30;table:epic' -size 2 -shape 'gear' -desc 'The final challenge of Stellaris. You are a true astronaut!'
+
+# Mars is an additional exploration destination; the first Moon rocket stays accessible.
+Q 'mars' 'The Red Planet' 'dim:stellaris:mars' 'moon' 'xp:300;table:space' -size 1.5 -icon 'gspack:mars_stone' -desc 'Select Mars using Stellaris planet selection and travel with your rocket. GSPack adds this dry world with 3.71 gravity and no breathable oxygen. A Mars sol lasts 24,660 game ticks (20 minutes 33 seconds at 20 TPS), scaled from NASA Mars24. Bring a working space suit, oxygen, fuel, food and a plan for the return flight.'
+Q 'mars_surface' 'Martian Geology' 'gspack:mars_stone;gspack:mars_regolith;gspack:mars_sand' 'mars' 'xp:150' -desc 'Collect the red surface materials. Mars has no surface oceans or natural food supply; prepare on Earth before travelling.'
+Q 'mars_mining' 'Martian Resources' 'minecraft:raw_iron;alltheores:raw_osmium' 'mars_surface' 'xp:200;table:rare' -desc 'The Martian crust contains iron, copper, gold, osmium and uranium. Rare Unobtainium veins may be found between Y=-48 and Y=16; native Allthemodium mining rules apply. Raw materials follow the existing GSPack unification rules. Mine with suitable tools and keep your oxygen supply in view.'
+Q 'mars_base' 'A Martian Outpost' 'check' 'mars_surface' 'xp:150' -opt -desc 'Build a shelter and a supported oxygen setup, store return fuel and mark the landing area in JourneyMap. Tick after testing the outpost and oxygen coverage.'
+Q 'mars_return' 'There and Back Again' 'check' 'mars_mining' 'xp:300;table:epic' -desc 'Return safely to Earth with Martian samples. Mars is an exploration extension; it is not a new prerequisite for building your first Moon rocket.'
+
+Q 'mars_ice' 'Frozen Wastes' 'biome:gspack:mars_frozen_wastes' 'mars_surface' 'xp:150' -opt -icon 'minecraft:packed_ice' -desc 'Find the cold climate regions of Mars. Packed Ice covers Blue Ice deposits; oxygen is still required.'
+Q 'mars_research' 'Research Wastes' 'biome:gspack:mars_dome_fields' 'mars_surface' 'xp:200' -opt -icon 'minecraft:cyan_stained_glass' -desc 'An uncommon Martian biome where abandoned research domes may generate. Search new terrain; domes are not found in the ordinary or frozen wastes.'
+Q 'mars_dome' 'The Abandoned Oxygen Dome' 'struct:gspack:mars_research_dome' 'mars_research' 'xp:300;table:space' -opt -icon 'minecraft:spawner' -desc 'Explore the dome and defeat its spawners. Its damaged airlock no longer provides breathable air: bring your own oxygen. Three loot chests include one guaranteed Martian Research Relic.'
+Q 'mars_relic' 'Martian Research' 'gspack:martian_research_relic;gspack:martian_navigation_core' 'mars_dome' 'xp:500;table:epic' -opt -shape 'hexagon' -desc 'Combine the dungeon relic with lunar Novite, Nitro Crystals, Quantum Processors and an Extended Crafting frame in the Advanced Table (5x5). The Martian Navigation Core is an ingredient of the Cosmic Core. These items have no EMC.'
+Q 'mars_village' 'The Oxygen Colonies' 'struct:gspack:oxygen_village' 'mars_surface' 'xp:250;table:space' -opt -icon 'minecraft:emerald' -desc 'Find a five-dome settlement in Martian Colony Flats. Spaceman villagers sell local building materials and expedition supplies. Protected life-support installations replenish native oxygen and energy; keep the airlock closed. Villagers are independently immune to oxygen loss.'
+Q 'mars_camp' 'Martian Raiders' 'struct:gspack:pillager_camp' 'mars_surface' 'xp:250;table:space' -opt -icon 'minecraft:crossbow' -desc 'Alien pillagers occupy camps in the ordinary wastes and Colony Flats. Their captains use the native ominous-bottle and raid progression. Only pillagers join raids on Mars; they retain native raid bookkeeping and use the Mars alien skin. Other dimensions are unaffected.'

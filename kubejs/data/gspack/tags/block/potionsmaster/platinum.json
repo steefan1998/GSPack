@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "alltheores:deepslate_platinum_ore",
+      "required": false
+    },
+    {
+      "id": "alltheores:end_platinum_ore",
+      "required": false
+    },
+    {
+      "id": "alltheores:nether_platinum_ore",
+      "required": false
+    },
+    {
+      "id": "alltheores:other_platinum_ore",
+      "required": false
+    },
+    {
+      "id": "alltheores:platinum_ore",
+      "required": false
+    },
+    {
+      "id": "oritech:deepslate_platinum_ore",
+      "required": false
+    },
+    {
+      "id": "oritech:endstone_platinum_ore",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "entryname": "inferium",
+  "oretag": "gspack:potionsmaster/inferium",
+  "color": -7303304,
+  "drawing": false,
+  "order": 34,
+  "recipeItem": "mysticalagriculture:inferium_essence"
+}

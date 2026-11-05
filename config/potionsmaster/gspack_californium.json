@@ -1,0 +1,8 @@
+{
+  "entryname": "californium",
+  "oretag": "gspack:potionsmaster/californium",
+  "color": -8622473,
+  "drawing": false,
+  "order": 7,
+  "recipeItem": "colossal_reactors:californium_end_ore"
+}

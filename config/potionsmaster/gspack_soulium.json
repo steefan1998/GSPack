@@ -1,0 +1,8 @@
+{
+  "entryname": "soulium",
+  "oretag": "gspack:potionsmaster/soulium",
+  "color": -6857085,
+  "drawing": false,
+  "order": 56,
+  "recipeItem": "mysticalagriculture:soulium_dust"
+}

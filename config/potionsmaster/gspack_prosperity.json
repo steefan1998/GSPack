@@ -1,0 +1,8 @@
+{
+  "entryname": "prosperity",
+  "oretag": "gspack:potionsmaster/prosperity",
+  "color": -6976045,
+  "drawing": false,
+  "order": 47,
+  "recipeItem": "mysticalagriculture:prosperity_shard"
+}

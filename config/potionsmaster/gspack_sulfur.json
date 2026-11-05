@@ -1,0 +1,8 @@
+{
+  "entryname": "sulfur",
+  "oretag": "gspack:potionsmaster/sulfur",
+  "color": -4281021,
+  "drawing": false,
+  "order": 57,
+  "recipeItem": "alltheores:sulfur_dust"
+}

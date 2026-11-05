@@ -1,7 +1,7 @@
 {
   id: "7ABD67C9006B4869",
   group: "102546F445E619D7",
-  order_index: 1,
+  order_index: 42,
   icon: {
     id: "gspack:infinity_trophy",
     count: 1,
@@ -11,10 +11,10 @@
   default_hide_dependency_lines: false,
   quests: [
     {
+      x: 0.0,
+      y: -2.7,
       shape: "hexagon",
       size: 1.15,
-      x: 0,
-      y: -2.7,
       id: "211472984F381C23",
       tasks: [
         {
@@ -41,10 +41,10 @@
       ],
     },
     {
-      shape: "hexagon",
-      size: 1.15,
       x: 1.74,
       y: -2.07,
+      shape: "hexagon",
+      size: 1.15,
       id: "6423617BE3AF7FD4",
       tasks: [
         {
@@ -72,10 +72,10 @@
       ],
     },
     {
-      shape: "hexagon",
-      size: 1.15,
       x: 2.66,
       y: -0.47,
+      shape: "hexagon",
+      size: 1.15,
       id: "4B7EA33948A8A04B",
       tasks: [
         {
@@ -103,10 +103,10 @@
       ],
     },
     {
-      shape: "hexagon",
-      size: 1.15,
       x: 2.34,
       y: 1.35,
+      shape: "hexagon",
+      size: 1.15,
       id: "6930655444B64E63",
       tasks: [
         {
@@ -134,10 +134,10 @@
       ],
     },
     {
-      shape: "hexagon",
-      size: 1.15,
       x: 0.92,
       y: 2.54,
+      shape: "hexagon",
+      size: 1.15,
       id: "3AFDF71D0FE05B78",
       tasks: [
         {
@@ -165,10 +165,10 @@
       ],
     },
     {
-      shape: "hexagon",
-      size: 1.15,
       x: -0.92,
       y: 2.54,
+      shape: "hexagon",
+      size: 1.15,
       id: "4B49E2969F978968",
       tasks: [
         {
@@ -196,10 +196,10 @@
       ],
     },
     {
-      shape: "hexagon",
-      size: 1.15,
       x: -2.34,
       y: 1.35,
+      shape: "hexagon",
+      size: 1.15,
       id: "1FBAFB713A8BA439",
       tasks: [
         {
@@ -227,10 +227,10 @@
       ],
     },
     {
-      shape: "hexagon",
-      size: 1.15,
       x: -2.66,
       y: -0.47,
+      shape: "hexagon",
+      size: 1.15,
       id: "0CBAA91E88C68B59",
       tasks: [
         {
@@ -258,10 +258,10 @@
       ],
     },
     {
-      shape: "hexagon",
-      size: 1.15,
       x: -1.74,
       y: -2.07,
+      shape: "hexagon",
+      size: 1.15,
       id: "0B1A7DF20DC0C166",
       tasks: [
         {
@@ -289,10 +289,10 @@
       ],
     },
     {
+      x: 0.0,
+      y: -4.9,
       shape: "hexagon",
       size: 1.15,
-      x: 0,
-      y: -4.9,
       id: "0A34B39F4E7ADC1A",
       tasks: [
         {
@@ -319,10 +319,10 @@
       ],
     },
     {
-      shape: "hexagon",
-      size: 1.15,
       x: 3.46,
       y: -3.46,
+      shape: "hexagon",
+      size: 1.15,
       id: "1B78CE66104C95B3",
       tasks: [
         {
@@ -349,10 +349,10 @@
       ],
     },
     {
+      x: 4.9,
+      y: 0.0,
       shape: "hexagon",
       size: 1.15,
-      x: 4.9,
-      y: 0,
       id: "3B10ABD2B235F671",
       tasks: [
         {
@@ -379,10 +379,10 @@
       ],
     },
     {
-      shape: "hexagon",
-      size: 1.15,
       x: 3.46,
       y: 3.46,
+      shape: "hexagon",
+      size: 1.15,
       id: "4533E9D28726F2EE",
       tasks: [
         {
@@ -409,10 +409,10 @@
       ],
     },
     {
+      x: 0.0,
+      y: 4.9,
       shape: "hexagon",
       size: 1.15,
-      x: 0,
-      y: 4.9,
       id: "5B5E21D24565AC3B",
       tasks: [
         {
@@ -439,10 +439,10 @@
       ],
     },
     {
-      shape: "hexagon",
-      size: 1.15,
       x: -3.46,
       y: 3.46,
+      shape: "hexagon",
+      size: 1.15,
       id: "3DFBC3EBFAECE201",
       tasks: [
         {
@@ -469,10 +469,10 @@
       ],
     },
     {
+      x: -4.9,
+      y: 0.0,
       shape: "hexagon",
       size: 1.15,
-      x: -4.9,
-      y: 0,
       id: "19E8F922075C4FFD",
       tasks: [
         {
@@ -499,10 +499,10 @@
       ],
     },
     {
-      shape: "hexagon",
-      size: 1.15,
       x: -3.46,
       y: -3.46,
+      shape: "hexagon",
+      size: 1.15,
       id: "4D74C962BF04C733",
       tasks: [
         {
@@ -529,10 +529,10 @@
       ],
     },
     {
+      x: 0.0,
+      y: -7.4,
       shape: "hexagon",
       size: 1.15,
-      x: 0,
-      y: -7.4,
       id: "4C9B6BF424C0EA6D",
       tasks: [
         {
@@ -559,10 +559,10 @@
       ],
     },
     {
-      shape: "hexagon",
-      size: 1.15,
       x: 2.29,
       y: -7.04,
+      shape: "hexagon",
+      size: 1.15,
       id: "6B972CAFF0A107E1",
       tasks: [
         {
@@ -589,10 +589,10 @@
       ],
     },
     {
-      shape: "hexagon",
-      size: 1.15,
       x: 4.35,
       y: -5.99,
+      shape: "hexagon",
+      size: 1.15,
       id: "0354904EC98AF301",
       tasks: [
         {
@@ -619,10 +619,10 @@
       ],
     },
     {
-      shape: "hexagon",
-      size: 1.15,
       x: 5.99,
       y: -4.35,
+      shape: "hexagon",
+      size: 1.15,
       id: "71566518C93304B8",
       tasks: [
         {
@@ -649,10 +649,10 @@
       ],
     },
     {
-      shape: "hexagon",
-      size: 1.15,
       x: 7.04,
       y: -2.29,
+      shape: "hexagon",
+      size: 1.15,
       id: "3BF5C197358B3FFE",
       tasks: [
         {
@@ -679,10 +679,10 @@
       ],
     },
     {
+      x: 7.4,
+      y: 0.0,
       shape: "hexagon",
       size: 1.15,
-      x: 7.4,
-      y: 0,
       id: "057F38E9AB8AF57E",
       tasks: [
         {
@@ -709,10 +709,10 @@
       ],
     },
     {
-      shape: "hexagon",
-      size: 1.15,
       x: 7.04,
       y: 2.29,
+      shape: "hexagon",
+      size: 1.15,
       id: "186854CCD3EF9A2E",
       tasks: [
         {
@@ -739,10 +739,10 @@
       ],
     },
     {
-      shape: "hexagon",
-      size: 1.15,
       x: 5.99,
       y: 4.35,
+      shape: "hexagon",
+      size: 1.15,
       id: "15ED014391DE667D",
       tasks: [
         {
@@ -769,10 +769,10 @@
       ],
     },
     {
-      shape: "hexagon",
-      size: 1.15,
       x: 4.35,
       y: 5.99,
+      shape: "hexagon",
+      size: 1.15,
       id: "0EB628FE52FA73AC",
       tasks: [
         {
@@ -799,10 +799,10 @@
       ],
     },
     {
-      shape: "hexagon",
-      size: 1.15,
       x: 2.29,
       y: 7.04,
+      shape: "hexagon",
+      size: 1.15,
       id: "12E8C02D4518B83F",
       tasks: [
         {
@@ -829,10 +829,10 @@
       ],
     },
     {
+      x: 0.0,
+      y: 7.4,
       shape: "hexagon",
       size: 1.15,
-      x: 0,
-      y: 7.4,
       id: "0D797056F1541E10",
       tasks: [
         {
@@ -859,10 +859,10 @@
       ],
     },
     {
-      shape: "hexagon",
-      size: 1.15,
       x: -2.29,
       y: 7.04,
+      shape: "hexagon",
+      size: 1.15,
       id: "0F3E03DA5124F8DB",
       tasks: [
         {
@@ -889,10 +889,10 @@
       ],
     },
     {
-      shape: "hexagon",
-      size: 1.15,
       x: -4.35,
       y: 5.99,
+      shape: "hexagon",
+      size: 1.15,
       id: "7F07B4095A66780D",
       tasks: [
         {
@@ -919,10 +919,10 @@
       ],
     },
     {
-      shape: "hexagon",
-      size: 1.15,
       x: -5.99,
       y: 4.35,
+      shape: "hexagon",
+      size: 1.15,
       id: "3286D72115FB535D",
       tasks: [
         {
@@ -949,10 +949,10 @@
       ],
     },
     {
-      shape: "hexagon",
-      size: 1.15,
       x: -7.04,
       y: 2.29,
+      shape: "hexagon",
+      size: 1.15,
       id: "760788DD8819717E",
       tasks: [
         {
@@ -979,10 +979,10 @@
       ],
     },
     {
+      x: -7.4,
+      y: 0.0,
       shape: "hexagon",
       size: 1.15,
-      x: -7.4,
-      y: 0,
       id: "3F6E1924F6C35CA2",
       tasks: [
         {
@@ -1009,10 +1009,10 @@
       ],
     },
     {
-      shape: "hexagon",
-      size: 1.15,
       x: -7.04,
       y: -2.29,
+      shape: "hexagon",
+      size: 1.15,
       id: "3B87E61C675503FE",
       tasks: [
         {
@@ -1039,10 +1039,10 @@
       ],
     },
     {
-      shape: "hexagon",
-      size: 1.15,
       x: -5.99,
       y: -4.35,
+      shape: "hexagon",
+      size: 1.15,
       id: "7E87EB44B2FB41E2",
       tasks: [
         {
@@ -1069,10 +1069,10 @@
       ],
     },
     {
-      shape: "hexagon",
-      size: 1.15,
       x: -4.35,
       y: -5.99,
+      shape: "hexagon",
+      size: 1.15,
       id: "1A5C915FF4C14842",
       tasks: [
         {
@@ -1099,10 +1099,10 @@
       ],
     },
     {
-      shape: "hexagon",
-      size: 1.15,
       x: -2.29,
       y: -7.04,
+      shape: "hexagon",
+      size: 1.15,
       id: "262AE0CCD5302B49",
       tasks: [
         {
@@ -1129,10 +1129,10 @@
       ],
     },
     {
-      shape: "hexagon",
-      size: 1.15,
       x: 3.83,
       y: -9.24,
+      shape: "hexagon",
+      size: 1.15,
       id: "71C4ADA8801DF42A",
       tasks: [
         {
@@ -1159,10 +1159,10 @@
       ],
     },
     {
-      shape: "hexagon",
-      size: 1.15,
       x: 9.24,
       y: -3.83,
+      shape: "hexagon",
+      size: 1.15,
       id: "341C1F6A79F1EB29",
       tasks: [
         {
@@ -1189,10 +1189,10 @@
       ],
     },
     {
-      shape: "hexagon",
-      size: 1.15,
       x: 9.24,
       y: 3.83,
+      shape: "hexagon",
+      size: 1.15,
       id: "009E15054F5C2347",
       tasks: [
         {
@@ -1219,10 +1219,10 @@
       ],
     },
     {
-      shape: "hexagon",
-      size: 1.15,
       x: 3.83,
       y: 9.24,
+      shape: "hexagon",
+      size: 1.15,
       id: "1F5FCBAA0B81860F",
       tasks: [
         {
@@ -1249,10 +1249,10 @@
       ],
     },
     {
-      shape: "hexagon",
-      size: 1.15,
       x: -3.83,
       y: 9.24,
+      shape: "hexagon",
+      size: 1.15,
       id: "1773D48E8DA64C24",
       tasks: [
         {
@@ -1279,10 +1279,10 @@
       ],
     },
     {
-      shape: "hexagon",
-      size: 1.15,
       x: -9.24,
       y: 3.83,
+      shape: "hexagon",
+      size: 1.15,
       id: "27D924167CCD0A9F",
       tasks: [
         {
@@ -1309,10 +1309,10 @@
       ],
     },
     {
-      shape: "hexagon",
-      size: 1.15,
       x: -9.24,
       y: -3.83,
+      shape: "hexagon",
+      size: 1.15,
       id: "5B0A4A47E2A328DE",
       tasks: [
         {
@@ -1339,10 +1339,10 @@
       ],
     },
     {
-      shape: "hexagon",
-      size: 1.15,
       x: -3.83,
       y: -9.24,
+      shape: "hexagon",
+      size: 1.15,
       id: "0A556F51688DC21B",
       tasks: [
         {
@@ -1369,11 +1369,57 @@
       ],
     },
     {
+      x: 0.0,
+      y: 0.0,
       shape: "gear",
+      dependencies: [
+        "211472984F381C23",
+        "6423617BE3AF7FD4",
+        "4B7EA33948A8A04B",
+        "6930655444B64E63",
+        "3AFDF71D0FE05B78",
+        "4B49E2969F978968",
+        "1FBAFB713A8BA439",
+        "0CBAA91E88C68B59",
+        "0B1A7DF20DC0C166",
+        "0A34B39F4E7ADC1A",
+        "1B78CE66104C95B3",
+        "3B10ABD2B235F671",
+        "4533E9D28726F2EE",
+        "5B5E21D24565AC3B",
+        "3DFBC3EBFAECE201",
+        "19E8F922075C4FFD",
+        "4D74C962BF04C733",
+        "4C9B6BF424C0EA6D",
+        "6B972CAFF0A107E1",
+        "0354904EC98AF301",
+        "71566518C93304B8",
+        "3BF5C197358B3FFE",
+        "057F38E9AB8AF57E",
+        "186854CCD3EF9A2E",
+        "15ED014391DE667D",
+        "0EB628FE52FA73AC",
+        "12E8C02D4518B83F",
+        "0D797056F1541E10",
+        "0F3E03DA5124F8DB",
+        "7F07B4095A66780D",
+        "3286D72115FB535D",
+        "760788DD8819717E",
+        "3F6E1924F6C35CA2",
+        "3B87E61C675503FE",
+        "7E87EB44B2FB41E2",
+        "1A5C915FF4C14842",
+        "262AE0CCD5302B49",
+        "71C4ADA8801DF42A",
+        "341C1F6A79F1EB29",
+        "009E15054F5C2347",
+        "1F5FCBAA0B81860F",
+        "1773D48E8DA64C24",
+        "27D924167CCD0A9F",
+        "5B0A4A47E2A328DE",
+        "0A556F51688DC21B",
+      ],
       size: 1.3,
-      x: 0,
-      y: 0,
-      dependencies: ["211472984F381C23","6423617BE3AF7FD4","4B7EA33948A8A04B","6930655444B64E63","3AFDF71D0FE05B78","4B49E2969F978968","1FBAFB713A8BA439","0CBAA91E88C68B59","0B1A7DF20DC0C166","0A34B39F4E7ADC1A","1B78CE66104C95B3","3B10ABD2B235F671","4533E9D28726F2EE","5B5E21D24565AC3B","3DFBC3EBFAECE201","19E8F922075C4FFD","4D74C962BF04C733","4C9B6BF424C0EA6D","6B972CAFF0A107E1","0354904EC98AF301","71566518C93304B8","3BF5C197358B3FFE","057F38E9AB8AF57E","186854CCD3EF9A2E","15ED014391DE667D","0EB628FE52FA73AC","12E8C02D4518B83F","0D797056F1541E10","0F3E03DA5124F8DB","7F07B4095A66780D","3286D72115FB535D","760788DD8819717E","3F6E1924F6C35CA2","3B87E61C675503FE","7E87EB44B2FB41E2","1A5C915FF4C14842","262AE0CCD5302B49","71C4ADA8801DF42A","341C1F6A79F1EB29","009E15054F5C2347","1F5FCBAA0B81860F","1773D48E8DA64C24","27D924167CCD0A9F","5B0A4A47E2A328DE","0A556F51688DC21B"],
       id: "41DE5024E62E94A2",
       tasks: [
         {
@@ -1397,17 +1443,14 @@
   quest_links: [
   ],
   images: [
-  {
-    "x": 5.4,
-    "y": -10.95875,
-    "width": 12,
-    "height": 1.4375,
-    "rotation": 0,
-    "image": "gspack:textures/quests/trophy_header.png",
-    "color": 16777215,
-    "alpha": 255,
-    "order": 0,
-    "corner": false
-  }
-],
+    {
+      x: 5.4,
+      y: -10.95875,
+      width: 12.0,
+      height: 1.4375,
+      rotation: 0.0,
+      image: "gspack:textures/quests/trophy_header.png",
+      id: "270DD1301E65E740",
+    },
+  ],
 }

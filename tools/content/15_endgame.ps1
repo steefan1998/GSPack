@@ -10,7 +10,7 @@ This is the end goal of &6GSPack&r.
 
 To reach it you need five &ecores&r, one for each pillar of the pack. Each core is made from the hardest items of its pillar, and its recipe draws on the capstones of those mods. This chapter can be started independently.
 
-Combine the five cores into a &dCreative Singularity&r. Every &ecreative item&r needs one.
+Combine the five cores in a &dPowah Energizing Orb&r to create a &dCreative Singularity&r. Every &ecreative item&r needs one.
 
 Craft eight creative items and you can make the &6Trophy of Infinity&r.
 
@@ -19,8 +19,8 @@ Creative items are made in an &eElite Crafting Table&r and the trophy in an &eUl
 &eThe five cores&r
 - &bTechnological Core&r: Mekanism, Oritech, Applied Energistics 2
 - &5Arcane Core&r: Thaumaturge, Apotheosis, Equivox, Occultism
-- &aVerdant Core&r: Mystical Agriculture, Aquaculture, the Seed Codex
-- &6Dimensional Core&r: Allthemodium, The Twilight Forest, The Aether II
+- &aVerdant Core&r: Mystical Agriculture, Productive Trees, Productive Farming, Aquaculture
+- &6Dimensional Core&r: The Bumblezone, The Twilight Forest, The Aether II
 - &9Cosmic Core&r: Stellaris
 
 All recipes can be found in JEI. Good luck!
@@ -28,48 +28,24 @@ All recipes can be found in JEI. Good luck!
 
 # ===== The five cores =====
 Q 'core_tech' 'Technological Core' 'gspack:tech_core' 'intro,mekanism/infinite,mekanism/sps,oritech/computing,ae2/adv_ae' 'xp:1000;table:epic' -size 1.5 -shape 'hexagon' -desc @'
-Antimatter, AI and quantum computing in one core.
-
-&7Recipe:&r 4 Antimatter Pellets, 2 Super AI Chips, 2 Quantum Processors and an Infinite Control Circuit in the middle.
-
-Suggested progression: the Infinite tier and the SPS (Mekanism), Advanced Computing (Oritech) and Advanced AE.
+Build the FE multiblock described in Cores: Technological Core. A central Crafting Core and 24 Pedestals combine Mekanism, Oritech, Advanced AE, AE2 and Powah components. The recipe consumes 250,000,000 FE at up to 25,000 FE/t. Check JEI and the dedicated Cores route.
 '@
 Q 'core_arcane' 'Arcane Core' 'gspack:arcane_core' 'intro,thaumaturge/pearl,apotheosis/pearl,equivox/red_matter,mystical/awakened' 'xp:1000;table:epic' -size 1.5 -shape 'hexagon' -desc @'
-The combined power of every kind of magic in the pack.
-
-&7Recipe:&r 3 Void Metal ingots, 2 Godforged Pearls, 2 Red Matter blocks, a tier-4 Occultism Storage Stabilizer and a Primordial Pearl in the middle. The stabilizer requires Occultism spirit and ritual progression. GSPack also changes the Controller Base, Infused Lenses and Dimensional Matrix rituals: check JEI.
-
-Suggested progression: the Primordial Pearl (Thaumaturge), Godforged (Apotheosis), Red Matter (Equivox) and a tier-4 Storage Stabilizer (Occultism).
+Craft in an Elite Crafting Table (7x7). Required magic mods: Thaumaturge, Occultism, Equivox, Apotheosis, EvilCraft and Roots Classic. The recipe includes a Primordial Pearl, tier-4 Storage Stabilizer, Godforged Pearl, Red Matter, Klein Star Omega, Dark Power Gem Block and Crystal Staff. See Cores: Arcane Core for the full route and JEI for quantities.
 '@
-Q 'core_verdant' 'Verdant Core' 'gspack:verdant_core' 'intro,mystical/insanium,seeds/s_nether_star,seeds/s_unobtainium,aquaculture/neptunium' 'xp:1000;table:epic' -size 1.5 -shape 'hexagon' -desc @'
-The essence of everything that grows, and everything that swims.
-
-&7Recipe:&r 4 Insanium Gemstone blocks, 2 Nether Star Seeds, 2 Neptunium blocks and Unobtainium Seeds (Seed Codex) in the middle.
-
-Suggested progression: Insanium, the Nether Star and Unobtainium seeds (Seed Codex) and Neptunium (Aquaculture).
+Q 'core_verdant' 'Verdant Core' 'gspack:verdant_core' 'intro,mystical/insanium,aquaculture/neptunium' 'xp:1000;table:epic' -size 1.5 -shape 'hexagon' -desc @'
+Craft in an Elite Crafting Table (7x7) with 25 farming and tree ingredients, including Productive Trees, Productive Farming, Mystical Agriculture and Aquaculture. Productive Bees remains optional. Follow Cores: Verdant Core and JEI.
 '@
 Q 'core_dimensional' 'Dimensional Core' 'gspack:dimensional_core' 'intro,allthemodium/unob_ingot,allthemodium/piglich,twilight/snow_queen,twilight/ur_ghast,aether/gravitite' 'xp:1000;table:epic' -size 1.5 -shape 'hexagon' -desc @'
-Trophies and metals from the far-away worlds.
-
-&7Recipe:&r 4 Unobtainium-Vibranium blocks, a Snow Queen trophy, an Ur-Ghast trophy, 2 Gravitite blocks and a Piglich Heart block in the middle.
-
-Suggested progression: Unobtainium and the Piglich (Allthemodium), the Ur-Ghast and the Snow Queen (Twilight Forest) and Gravitite (Aether II).
+Craft in an Elite Crafting Table (7x7) using The Bumblezone, The Aether II and Twilight Forest. Obtain Essence of the Bees, Royal Jelly, Glistering Honey Crystal, Gravitite, Zanite, Valkyrie Wings and Hydra, Ur-Ghast and Snow Queen trophies. Follow Cores: Dimensional Core and JEI.
 '@
 Q 'core_cosmic' 'Cosmic Core' 'gspack:cosmic_core' 'intro,stellaris/heart,stellaris/star_crawler,stellaris/novite' 'xp:1000;table:epic' -size 1.5 -shape 'hexagon' -desc @'
-Forged from the bosses of the Moon.
-
-&7Recipe:&r 4 Novite blocks, 2 Heart of Luna trophies, 2 Star Crawler trophies and a Nether Star in the middle.
-
-Suggested progression: the Heart of Luna, the Star Crawler Queen and Novite (Stellaris).
+Craft in an Elite Crafting Table (7x7) using Stellaris lunar resources, both boss trophies, Autopilot and Shield Modules, Space Station Blueprint, Nitro Energy Cell, Martian Navigation Core and Astrum Vitreus. Follow Cores: Cosmic Core and JEI.
 '@
 
 # ===== The singularity =====
 Q 'singularity' 'Creative Singularity' 'gspack:creative_singularity' 'core_tech,core_arcane,core_verdant,core_dimensional,core_cosmic' 'lvl:50;table:epic' -size 2 -shape 'gear' -desc @'
-All five cores, collapsed into a single point.
-
-&7Recipe:&r the five cores and 4 Nether Stars.
-
-Every creative item needs one Creative Singularity, so you will need several. Automate your pillars!
+Use a Powah Energizing Orb with all five cores. The recipe consumes only these five ingredients and 1,000,000,000 FE. Powered Energizing Rods around the Orb supply energy; they are not recipe ingredients and are not consumed. See JEI.
 '@
 
 # ===== Extended Crafting tables =====

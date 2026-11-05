@@ -1,0 +1,65 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "alltheores:deepslate_silver_ore",
+      "required": false
+    },
+    {
+      "id": "alltheores:end_silver_ore",
+      "required": false
+    },
+    {
+      "id": "alltheores:nether_silver_ore",
+      "required": false
+    },
+    {
+      "id": "alltheores:other_silver_ore",
+      "required": false
+    },
+    {
+      "id": "alltheores:silver_ore",
+      "required": false
+    },
+    {
+      "id": "ltxi:deepslate_silver_ore",
+      "required": false
+    },
+    {
+      "id": "ltxi:silver_ore",
+      "required": false
+    },
+    {
+      "id": "mekanism:deepslate_silver_ore",
+      "required": false
+    },
+    {
+      "id": "mekanism:silver_ore",
+      "required": false
+    },
+    {
+      "id": "mekmm:deepslate_silver_ore",
+      "required": false
+    },
+    {
+      "id": "mekmm:silver_ore",
+      "required": false
+    },
+    {
+      "id": "occultism:silver_ore",
+      "required": false
+    },
+    {
+      "id": "occultism:silver_ore_deepslate",
+      "required": false
+    },
+    {
+      "id": "railcraft:deepslate_silver_ore",
+      "required": false
+    },
+    {
+      "id": "railcraft:silver_ore",
+      "required": false
+    }
+  ]
+}

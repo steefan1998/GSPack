@@ -1,0 +1,49 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "alltheores:deepslate_lead_ore",
+      "required": false
+    },
+    {
+      "id": "alltheores:end_lead_ore",
+      "required": false
+    },
+    {
+      "id": "alltheores:lead_ore",
+      "required": false
+    },
+    {
+      "id": "alltheores:nether_lead_ore",
+      "required": false
+    },
+    {
+      "id": "alltheores:other_lead_ore",
+      "required": false
+    },
+    {
+      "id": "colossal_reactors:deep_lead_ore",
+      "required": false
+    },
+    {
+      "id": "colossal_reactors:lead_ore",
+      "required": false
+    },
+    {
+      "id": "mekanism:deepslate_lead_ore",
+      "required": false
+    },
+    {
+      "id": "mekanism:lead_ore",
+      "required": false
+    },
+    {
+      "id": "railcraft:deepslate_lead_ore",
+      "required": false
+    },
+    {
+      "id": "railcraft:lead_ore",
+      "required": false
+    }
+  ]
+}

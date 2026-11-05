@@ -1,0 +1,8 @@
+{
+  "entryname": "boron",
+  "oretag": "gspack:potionsmaster/boron",
+  "color": -10137463,
+  "drawing": false,
+  "order": 6,
+  "recipeItem": "colossal_reactors:boron_crystal"
+}

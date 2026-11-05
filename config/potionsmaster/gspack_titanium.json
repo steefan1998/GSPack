@@ -1,0 +1,8 @@
+{
+  "entryname": "titanium",
+  "oretag": "gspack:potionsmaster/titanium",
+  "color": -9191544,
+  "drawing": false,
+  "order": 59,
+  "recipeItem": "ltxi:raw_titanium"
+}

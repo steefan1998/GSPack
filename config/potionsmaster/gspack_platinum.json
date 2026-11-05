@@ -1,0 +1,8 @@
+{
+  "entryname": "platinum",
+  "oretag": "gspack:potionsmaster/platinum",
+  "color": -8151111,
+  "drawing": false,
+  "order": 46,
+  "recipeItem": "alltheores:raw_platinum"
+}

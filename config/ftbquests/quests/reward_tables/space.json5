@@ -9,131 +9,125 @@
       id: "6F1564B1CFBAADA6",
       item: {
         id: "stellaris:titanium_ingot",
-        count: 1
+        count: 1,
       },
       count: 8,
-      weight: 20
+      weight: 20.0,
     },
     {
       id: "64B18F762FF14603",
       item: {
         id: "stellaris:raw_desh",
-        count: 1
+        count: 1,
       },
       count: 4,
-      weight: 15
+      weight: 15.0,
     },
     {
       id: "674FA1EACADF3033",
       item: {
         id: "stellaris:desh_ingot",
-        count: 1
+        count: 1,
       },
       count: 2,
-      weight: 12
+      weight: 12.0,
     },
     {
       id: "1B1C9EBEA6B260C7",
       item: {
         id: "stellaris:fuel_bucket",
-        count: 1
+        count: 1,
       },
-      weight: 10
+      weight: 10.0,
     },
     {
       id: "3F6E068B6EB6AE51",
       item: {
         id: "stellaris:moon_berries",
-        count: 1
+        count: 1,
       },
       count: 8,
-      weight: 12
+      weight: 12.0,
     },
     {
       id: "69711D7EE5062FDF",
       item: {
         id: "stellaris:silicon",
-        count: 1
+        count: 1,
       },
       count: 8,
-      weight: 12
+      weight: 12.0,
     },
     {
       id: "5741BD3C55DEF240",
       item: {
         id: "stellaris:meteorite",
-        count: 1
+        count: 1,
       },
       count: 2,
-      weight: 8
+      weight: 8.0,
     },
     {
       id: "41DEB4E6DCF110DE",
       item: {
         id: "stellaris:novite_ingot",
-        count: 1
+        count: 1,
       },
-      weight: 3
+      weight: 3.0,
     },
     {
       id: "417925DE4F485FF5",
-      type: "item",
       item: {
+        id: "minecraft:iron_block",
         count: 1,
-        id: "minecraft:iron_block"
       },
       count: 2,
-      weight: 12
+      weight: 12.0,
     },
     {
       id: "554B81EABED98FB6",
-      type: "item",
       item: {
+        id: "minecraft:copper_block",
         count: 1,
-        id: "minecraft:copper_block"
       },
       count: 4,
-      weight: 12
+      weight: 12.0,
     },
     {
       id: "1B14D3BA6A5B1106",
-      type: "item",
       item: {
+        id: "minecraft:glass",
         count: 1,
-        id: "minecraft:glass"
       },
       count: 32,
-      weight: 12
+      weight: 12.0,
     },
     {
       id: "21054803E3A3DF8D",
-      type: "item",
       item: {
+        id: "minecraft:redstone",
         count: 1,
-        id: "minecraft:redstone"
       },
       count: 32,
-      weight: 10
+      weight: 10.0,
     },
     {
       id: "11C2F2A7BD0BD39A",
-      type: "item",
       item: {
+        id: "minecraft:gold_ingot",
         count: 1,
-        id: "minecraft:gold_ingot"
       },
       count: 8,
-      weight: 8
+      weight: 8.0,
     },
     {
       id: "1EEA0D00A7934C2B",
-      type: "item",
       item: {
+        id: "minecraft:dried_kelp_block",
         count: 1,
-        id: "minecraft:dried_kelp_block"
       },
       count: 4,
-      weight: 8
-    }
-  ]
+      weight: 8.0,
+    },
+  ],
 }

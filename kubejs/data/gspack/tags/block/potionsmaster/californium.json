@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "colossal_reactors:californium_end_ore",
+      "required": false
+    }
+  ]
+}

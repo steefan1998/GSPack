@@ -35,5 +35,6 @@
   "c:ores/fluorite": "alltheores:fluorite_ore",
   "c:ores/osmium": "alltheores:osmium_ore",
   "c:dusts/saltpeter": "railcraft:saltpeter_dust",
-  "c:ores/saltpeter": "railcraft:saltpeter_ore"
+  "c:ores/saltpeter": "railcraft:saltpeter_ore",
+  "c:ingots/graphite": "colossal_reactors:graphite_ingot"
 }

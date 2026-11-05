@@ -1,0 +1,8 @@
+{
+  "entryname": "dark_gem",
+  "oretag": "gspack:potionsmaster/dark_gem",
+  "color": -7630116,
+  "drawing": false,
+  "order": 20,
+  "recipeItem": "evilcraft:dark_gem"
+}

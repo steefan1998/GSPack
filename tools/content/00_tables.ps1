@@ -1,7 +1,8 @@
 ﻿# Chapter groups and reward tables. Table entries: 'spec@weight' (see Reward-Snbt in build-quests.ps1).
 
 QGroup 'tech' 'Technology'
-QGroup 'magic' 'Magic & Farming'
+QGroup 'magic' 'Magic'
+QGroup 'farming' 'Farming'
 QGroup 'explore' 'Exploration & Dimensions'
 
 Table 'common' 'Common Loot' @(

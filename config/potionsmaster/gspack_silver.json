@@ -1,0 +1,8 @@
+{
+  "entryname": "silver",
+  "oretag": "gspack:potionsmaster/silver",
+  "color": -4690554,
+  "drawing": false,
+  "order": 55,
+  "recipeItem": "alltheores:raw_silver"
+}

@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "alltheores:deepslate_sulfur_ore",
+      "required": false
+    },
+    {
+      "id": "alltheores:end_sulfur_ore",
+      "required": false
+    },
+    {
+      "id": "alltheores:nether_sulfur_ore",
+      "required": false
+    },
+    {
+      "id": "alltheores:other_sulfur_ore",
+      "required": false
+    },
+    {
+      "id": "alltheores:sulfur_ore",
+      "required": false
+    },
+    {
+      "id": "railcraft:deepslate_sulfur_ore",
+      "required": false
+    },
+    {
+      "id": "railcraft:sulfur_ore",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "entryname": "diamond",
+  "oretag": "gspack:potionsmaster/diamond",
+  "color": -12723741,
+  "drawing": false,
+  "order": 22,
+  "recipeItem": "minecraft:diamond"
+}

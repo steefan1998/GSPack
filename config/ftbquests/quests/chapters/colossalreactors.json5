@@ -1,0 +1,823 @@
+{
+  id: "3B9438713D2196C9",
+  group: "105EE503AFE85CA5",
+  order_index: 4,
+  icon: {
+    id: "colossal_reactors:reactor_controller",
+    count: 1,
+  },
+  filename: "colossalreactors",
+  default_quest_shape: "",
+  default_hide_dependency_lines: false,
+  quests: [
+    {
+      icon: {
+        id: "colossal_reactors:reactor_controller",
+        count: 1,
+      },
+      x: 0.0,
+      y: 1.8,
+      shape: "gear",
+      size: 1.3,
+      id: "00ED0B558FDC013D",
+      tasks: [
+        {
+          id: "300F9ED782F87BE6",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "72AD8A6DE89D6933",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      x: 1.8,
+      y: 0.0,
+      shape: "circle",
+      dependencies: [
+        "00ED0B558FDC013D",
+      ],
+      dep_control_pts: {
+        "00ED0B558FDC013D": [
+          0.0,
+          1.8,
+          1.8,
+          0.0,
+        ],
+      },
+      size: 1.0,
+      id: "22FF9305A37A4D5B",
+      tasks: [
+        {
+          id: "6D2E52236C148107",
+          type: "gamestage",
+          icon: {
+            id: "alltheores:steel_ingot",
+            count: 1,
+          },
+          stage: "gspack_tag_c_ingots_steel_1",
+        },
+      ],
+      rewards: [
+        {
+          id: "0C60EB3E0C326498",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      x: 1.8,
+      y: 1.8,
+      shape: "circle",
+      dependencies: [
+        "00ED0B558FDC013D",
+      ],
+      dep_control_pts: {
+        "00ED0B558FDC013D": [
+          0.0,
+          1.8,
+          1.8,
+          1.8,
+        ],
+      },
+      size: 1.0,
+      id: "777920EB0D8650AD",
+      tasks: [
+        {
+          id: "4DEA86019D6468FD",
+          type: "item",
+          item: {
+            id: "colossal_reactors:graphite_ingot",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "48D66C42E72F7C57",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      x: 1.8,
+      y: 3.6,
+      shape: "circle",
+      dependencies: [
+        "00ED0B558FDC013D",
+      ],
+      dep_control_pts: {
+        "00ED0B558FDC013D": [
+          0.0,
+          1.8,
+          1.8,
+          3.6,
+        ],
+      },
+      size: 1.0,
+      id: "122F7642F627F204",
+      tasks: [
+        {
+          id: "196D493ED819747B",
+          type: "item",
+          item: {
+            id: "colossal_reactors:uranium_ingot",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7F48B38A5114377A",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      x: 3.6,
+      y: 1.8,
+      shape: "hexagon",
+      dependencies: [
+        "22FF9305A37A4D5B",
+        "777920EB0D8650AD",
+      ],
+      dep_control_pts: {
+        "777920EB0D8650AD": [
+          1.8,
+          1.8,
+          3.6,
+          1.8,
+        ],
+        "22FF9305A37A4D5B": [
+          1.8,
+          0.0,
+          3.6,
+          1.8,
+        ],
+      },
+      size: 1.0,
+      id: "5F288B6432CDBEFA",
+      tasks: [
+        {
+          id: "2BAB56B9F2560933",
+          type: "item",
+          item: {
+            id: "colossal_reactors:reactor_casing",
+            count: 1,
+          },
+          count: 24,
+        },
+      ],
+      rewards: [
+        {
+          id: "4BF66297823CC659",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 11.6,
+      y: 0.0,
+      shape: "gear",
+      hide_dependency_lines: true,
+      dependencies: [
+        "5F288B6432CDBEFA",
+      ],
+      dep_control_pts: {
+        "5F288B6432CDBEFA": [
+          3.6,
+          1.8,
+          11.6,
+          0.0,
+        ],
+      },
+      size: 1.3,
+      id: "161C5F9C7B2E2309",
+      tasks: [
+        {
+          id: "03D94A419E2901EE",
+          type: "item",
+          item: {
+            id: "colossal_reactors:reactor_controller",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "10F939B31EDB1FC9",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 13.4,
+      y: 0.0,
+      shape: "hexagon",
+      hide_dependency_lines: true,
+      dependencies: [
+        "777920EB0D8650AD",
+        "5F288B6432CDBEFA",
+      ],
+      dep_control_pts: {
+        "777920EB0D8650AD": [
+          1.8,
+          1.8,
+          13.4,
+          0.0,
+        ],
+        "5F288B6432CDBEFA": [
+          3.6,
+          1.8,
+          13.4,
+          0.0,
+        ],
+      },
+      size: 1.0,
+      id: "0E542CEC2182B1E6",
+      tasks: [
+        {
+          id: "76B2252C380907C9",
+          type: "item",
+          item: {
+            id: "colossal_reactors:reactor_rod",
+            count: 1,
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "56565A71800A602E",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      x: 13.4,
+      y: 3.6,
+      shape: "circle",
+      dependencies: [
+        "0E542CEC2182B1E6",
+      ],
+      dep_control_pts: {
+        "0E542CEC2182B1E6": [
+          13.4,
+          0.0,
+          13.4,
+          3.6,
+        ],
+      },
+      size: 1.0,
+      id: "01D53C062BE6BE3D",
+      tasks: [
+        {
+          id: "14C1154C3C9CD88B",
+          type: "item",
+          item: {
+            id: "colossal_reactors:rod_controller",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "79C9DBD29E60BA58",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      x: 15.2,
+      y: 0.0,
+      shape: "circle",
+      hide_dependency_lines: true,
+      dependencies: [
+        "5F288B6432CDBEFA",
+      ],
+      dep_control_pts: {
+        "5F288B6432CDBEFA": [
+          3.6,
+          1.8,
+          15.2,
+          0.0,
+        ],
+      },
+      size: 1.0,
+      id: "62D9E95A032AFE75",
+      tasks: [
+        {
+          id: "7BA9A33EF623A0D5",
+          type: "item",
+          item: {
+            id: "colossal_reactors:resource_port",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1CFFF25F5B2E8894",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      x: 17.0,
+      y: 0.0,
+      shape: "circle",
+      hide_dependency_lines: true,
+      dependencies: [
+        "5F288B6432CDBEFA",
+      ],
+      dep_control_pts: {
+        "5F288B6432CDBEFA": [
+          3.6,
+          1.8,
+          17.0,
+          0.0,
+        ],
+      },
+      size: 1.0,
+      id: "591136DF8FA642EB",
+      tasks: [
+        {
+          id: "7058620132A7CCAF",
+          type: "item",
+          item: {
+            id: "colossal_reactors:power_port",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3F0C460B6FD7D867",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      x: 14.3,
+      y: 1.8,
+      shape: "diamond",
+      hide_dependency_lines: true,
+      dependencies: [
+        "5F288B6432CDBEFA",
+      ],
+      dep_control_pts: {
+        "5F288B6432CDBEFA": [
+          3.6,
+          1.8,
+          14.3,
+          1.8,
+        ],
+      },
+      size: 1.0,
+      optional: true,
+      id: "4ED8F66996B86496",
+      tasks: [
+        {
+          id: "2A38A8B4155DA820",
+          type: "item",
+          item: {
+            id: "colossal_reactors:reactor_glass",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7E2C8B04A97B0F69",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      x: 15.2,
+      y: 3.6,
+      shape: "diamond",
+      dependencies: [
+        "161C5F9C7B2E2309",
+      ],
+      dep_control_pts: {
+        "161C5F9C7B2E2309": [
+          11.6,
+          0.0,
+          15.2,
+          3.6,
+        ],
+      },
+      size: 1.0,
+      optional: true,
+      id: "5C31BABCC4C6A2B9",
+      tasks: [
+        {
+          id: "068CEAFEEEB962A9",
+          type: "item",
+          item: {
+            id: "colossal_reactors:reactor_builder",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7AEF39B486D3DE13",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      x: 14.3,
+      y: 5.4,
+      shape: "gear",
+      dependencies: [
+        "161C5F9C7B2E2309",
+        "0E542CEC2182B1E6",
+        "01D53C062BE6BE3D",
+        "62D9E95A032AFE75",
+        "591136DF8FA642EB",
+      ],
+      dep_control_pts: {
+        "01D53C062BE6BE3D": [
+          13.4,
+          3.6,
+          14.3,
+          5.4,
+        ],
+        "591136DF8FA642EB": [
+          17.0,
+          0.0,
+          14.3,
+          5.4,
+        ],
+        "62D9E95A032AFE75": [
+          15.2,
+          0.0,
+          14.3,
+          5.4,
+        ],
+        "161C5F9C7B2E2309": [
+          11.6,
+          0.0,
+          14.3,
+          5.4,
+        ],
+        "0E542CEC2182B1E6": [
+          13.4,
+          0.0,
+          14.3,
+          5.4,
+        ],
+      },
+      size: 1.3,
+      id: "1A7C9D8310C0AB01",
+      tasks: [
+        {
+          id: "0722F25AEC69AE81",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "3BBC412A14D66597",
+          type: "xp",
+          xp: 150,
+        },
+        {
+          id: "1F02DFC7EA09BF16",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 253752461985528,
+        },
+      ],
+    },
+    {
+      x: 14.3,
+      y: 7.2,
+      shape: "circle",
+      dependencies: [
+        "1A7C9D8310C0AB01",
+      ],
+      dep_control_pts: {
+        "1A7C9D8310C0AB01": [
+          14.3,
+          5.4,
+          14.3,
+          7.2,
+        ],
+      },
+      size: 1.0,
+      id: "75D20A2A2C2CDF49",
+      tasks: [
+        {
+          id: "114007F1985C93B1",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "737B3A5A818DD8A3",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      x: 0.0,
+      y: 10.4,
+      shape: "gear",
+      hide_dependency_lines: true,
+      dependencies: [
+        "122F7642F627F204",
+        "75D20A2A2C2CDF49",
+      ],
+      dep_control_pts: {
+        "122F7642F627F204": [
+          1.8,
+          3.6,
+          0.0,
+          10.4,
+        ],
+        "75D20A2A2C2CDF49": [
+          14.3,
+          7.2,
+          0.0,
+          10.4,
+        ],
+      },
+      size: 1.3,
+      id: "61B0082A8280C757",
+      tasks: [
+        {
+          id: "562917FD5C69BA50",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "26BAA086706750FB",
+          type: "xp",
+          xp: 200,
+        },
+        {
+          id: "655C93E4A375B146",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 2210856162803377,
+        },
+      ],
+    },
+    {
+      x: 1.8,
+      y: 10.4,
+      shape: "circle",
+      dependencies: [
+        "61B0082A8280C757",
+      ],
+      dep_control_pts: {
+        "61B0082A8280C757": [
+          0.0,
+          10.4,
+          1.8,
+          10.4,
+        ],
+      },
+      size: 1.0,
+      id: "118E284B247A1AC5",
+      tasks: [
+        {
+          id: "62C107993A37D6D0",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "33A1381743F904F2",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 9.8,
+      y: 10.4,
+      shape: "diamond",
+      hide_dependency_lines: true,
+      dependencies: [
+        "61B0082A8280C757",
+      ],
+      dep_control_pts: {
+        "61B0082A8280C757": [
+          0.0,
+          10.4,
+          9.8,
+          10.4,
+        ],
+      },
+      size: 1.0,
+      optional: true,
+      id: "4B8BA624D17A8F31",
+      tasks: [
+        {
+          id: "2C416CCE1540AAE8",
+          type: "item",
+          item: {
+            id: "colossal_reactors:turbine_casing",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "222342AC5F337F46",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 11.6,
+      y: 11.3,
+      shape: "diamond",
+      dependencies: [
+        "4B8BA624D17A8F31",
+      ],
+      dep_control_pts: {
+        "4B8BA624D17A8F31": [
+          9.8,
+          10.4,
+          11.6,
+          11.3,
+        ],
+      },
+      size: 1.0,
+      optional: true,
+      id: "4C600AC0139D87C3",
+      tasks: [
+        {
+          id: "16573F6B58F92006",
+          type: "item",
+          item: {
+            id: "colossal_reactors:turbine_controller",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "474C6930887CDAE8",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 13.4,
+      y: 11.3,
+      shape: "diamond",
+      dependencies: [
+        "4C600AC0139D87C3",
+      ],
+      dep_control_pts: {
+        "4C600AC0139D87C3": [
+          11.6,
+          11.3,
+          13.4,
+          11.3,
+        ],
+      },
+      size: 1.0,
+      optional: true,
+      id: "58F18CA702224A16",
+      tasks: [
+        {
+          id: "0D4F4ADCE341D6A7",
+          type: "item",
+          item: {
+            id: "colossal_reactors:turbine_blade",
+            count: 1,
+          },
+        },
+        {
+          id: "056FC436FD59E624",
+          type: "item",
+          item: {
+            id: "colossal_reactors:turbine_rod",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6D2283FA45EEFD9F",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      x: 9.8,
+      y: 12.2,
+      shape: "gear",
+      hide_dependency_lines: true,
+      dependencies: [
+        "118E284B247A1AC5",
+      ],
+      dep_control_pts: {
+        "118E284B247A1AC5": [
+          1.8,
+          10.4,
+          9.8,
+          12.2,
+        ],
+      },
+      size: 1.3,
+      id: "0D5D0976A2DD52D1",
+      tasks: [
+        {
+          id: "59912B8289CDCB08",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "58083BB9022A085E",
+          type: "xp",
+          xp: 300,
+        },
+        {
+          id: "1EE86846002D9A19",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 379532711335085,
+        },
+      ],
+    },
+  ],
+  quest_links: [
+  ],
+  images: [
+    {
+      x: 8.5,
+      y: -1.7188,
+      width: 12.0,
+      height: 1.4375,
+      rotation: 0.0,
+      image: "gspack:textures/quests/colossalreactors_header.png",
+      id: "1B8901588629C521",
+    },
+    {
+      x: -2.9471,
+      y: 10.4,
+      width: 4.0941,
+      height: 0.6,
+      rotation: 0.0,
+      image: "gspack:textures/quests/colossalreactors_first_power.png",
+      id: "4B479D689E036356",
+    },
+    {
+      x: 8.7235,
+      y: 0.0,
+      width: 3.9529,
+      height: 0.6,
+      rotation: 0.0,
+      image: "gspack:textures/quests/colossalreactors_controller.png",
+      id: "4E6DE852180119B7",
+    },
+    {
+      x: -2.8765,
+      y: 1.8,
+      width: 3.9529,
+      height: 0.6,
+      rotation: 0.0,
+      image: "gspack:textures/quests/colossalreactors_start.png",
+      id: "175A5FD6CA99E15F",
+    },
+    {
+      x: 6.8706,
+      y: 10.4,
+      width: 4.0588,
+      height: 0.6,
+      rotation: 0.0,
+      image: "gspack:textures/quests/colossalreactors_turbine_casing.png",
+      id: "70A8DCB28E2350DB",
+    },
+  ],
+}

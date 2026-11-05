@@ -1,0 +1,8 @@
+{
+  "entryname": "glint",
+  "oretag": "gspack:potionsmaster/glint",
+  "color": -12554353,
+  "drawing": false,
+  "order": 29,
+  "recipeItem": "aether_ii:glint_gemstone"
+}

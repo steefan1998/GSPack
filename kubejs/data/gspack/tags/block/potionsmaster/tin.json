@@ -1,0 +1,41 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "alltheores:deepslate_tin_ore",
+      "required": false
+    },
+    {
+      "id": "alltheores:end_tin_ore",
+      "required": false
+    },
+    {
+      "id": "alltheores:nether_tin_ore",
+      "required": false
+    },
+    {
+      "id": "alltheores:other_tin_ore",
+      "required": false
+    },
+    {
+      "id": "alltheores:tin_ore",
+      "required": false
+    },
+    {
+      "id": "mekanism:deepslate_tin_ore",
+      "required": false
+    },
+    {
+      "id": "mekanism:tin_ore",
+      "required": false
+    },
+    {
+      "id": "railcraft:deepslate_tin_ore",
+      "required": false
+    },
+    {
+      "id": "railcraft:tin_ore",
+      "required": false
+    }
+  ]
+}

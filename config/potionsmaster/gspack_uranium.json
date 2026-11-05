@@ -1,0 +1,8 @@
+{
+  "entryname": "uranium",
+  "oretag": "gspack:potionsmaster/uranium",
+  "color": -12037824,
+  "drawing": false,
+  "order": 62,
+  "recipeItem": "alltheores:raw_uranium"
+}

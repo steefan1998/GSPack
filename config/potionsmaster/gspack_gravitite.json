@@ -1,0 +1,8 @@
+{
+  "entryname": "gravitite",
+  "oretag": "gspack:potionsmaster/gravitite",
+  "color": -4481670,
+  "drawing": false,
+  "order": 31,
+  "recipeItem": "aether_ii:inert_gravitite"
+}

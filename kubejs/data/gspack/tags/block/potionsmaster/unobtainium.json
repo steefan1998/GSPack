@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "allthemodium:unobtainium_ore",
+      "required": false
+    },
+    {
+      "id": "gspack:mars_unobtainium_ore",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "entryname": "lead",
+  "oretag": "gspack:potionsmaster/lead",
+  "color": -8157781,
+  "drawing": false,
+  "order": 38,
+  "recipeItem": "alltheores:raw_lead"
+}

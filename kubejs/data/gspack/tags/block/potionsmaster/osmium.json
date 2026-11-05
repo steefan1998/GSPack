@@ -1,0 +1,37 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "alltheores:deepslate_osmium_ore",
+      "required": false
+    },
+    {
+      "id": "alltheores:end_osmium_ore",
+      "required": false
+    },
+    {
+      "id": "alltheores:nether_osmium_ore",
+      "required": false
+    },
+    {
+      "id": "alltheores:osmium_ore",
+      "required": false
+    },
+    {
+      "id": "alltheores:other_osmium_ore",
+      "required": false
+    },
+    {
+      "id": "gspack:mars_osmium_ore",
+      "required": false
+    },
+    {
+      "id": "mekanism:deepslate_osmium_ore",
+      "required": false
+    },
+    {
+      "id": "mekanism:osmium_ore",
+      "required": false
+    }
+  ]
+}

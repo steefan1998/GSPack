@@ -1,0 +1,8 @@
+{
+  "entryname": "ferricore",
+  "oretag": "gspack:potionsmaster/ferricore",
+  "color": -4613741,
+  "drawing": false,
+  "order": 26,
+  "recipeItem": "justdirethings:raw_ferricore"
+}

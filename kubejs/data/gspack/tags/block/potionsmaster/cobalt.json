@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tconstruct:cobalt_ore",
+      "required": false
+    }
+  ]
+}

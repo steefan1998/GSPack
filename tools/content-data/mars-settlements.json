@@ -1,0 +1,78 @@
+{
+  "village": {
+    "blocks": 18728,
+    "entities": 3,
+    "palette": [
+      "minecraft:stone_bricks",
+      "minecraft:light_blue_stained_glass",
+      "minecraft:polished_andesite",
+      "minecraft:air",
+      "minecraft:iron_door",
+      "minecraft:iron_door",
+      "minecraft:stone_pressure_plate",
+      "gspack:martian_village_life_support",
+      "stellaris:oxygen_distributor",
+      "minecraft:sea_lantern",
+      "minecraft:cartography_table",
+      "minecraft:cyan_bed",
+      "minecraft:cyan_bed"
+    ]
+  },
+  "camp": {
+    "blocks": 932,
+    "entities": 5,
+    "palette": [
+      "minecraft:polished_andesite",
+      "minecraft:deepslate_bricks",
+      "minecraft:iron_bars",
+      "minecraft:dark_oak_planks",
+      "minecraft:dark_oak_log",
+      "minecraft:air",
+      "minecraft:chest"
+    ]
+  },
+  "trades": [
+    {
+      "emeralds": 1,
+      "item": "gspack:mars_stone",
+      "count": 32
+    },
+    {
+      "emeralds": 1,
+      "item": "gspack:mars_regolith",
+      "count": 32
+    },
+    {
+      "emeralds": 1,
+      "item": "gspack:mars_sand",
+      "count": 32
+    },
+    {
+      "emeralds": 3,
+      "item": "minecraft:packed_ice",
+      "count": 8
+    },
+    {
+      "emeralds": 2,
+      "item": "minecraft:bread",
+      "count": 8
+    },
+    {
+      "emeralds": 2,
+      "item": "minecraft:copper_ingot",
+      "count": 8
+    },
+    {
+      "emeralds": 24,
+      "item": "stellaris:space_suit_oxygen_module_tier_1",
+      "count": 1
+    }
+  ],
+  "oxygen": {
+    "permanent": true,
+    "refillTicks": 40,
+    "tankCapacity": 10000,
+    "protectedMarker": "gspack:martian_village_life_support"
+  },
+  "raids": "only native pillagers on Mars; Overworld unchanged"
+}

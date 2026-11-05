@@ -1,0 +1,8 @@
+{
+  "entryname": "aluminum",
+  "oretag": "gspack:potionsmaster/aluminum",
+  "color": -6665518,
+  "drawing": false,
+  "order": 1,
+  "recipeItem": "alltheores:raw_aluminum"
+}

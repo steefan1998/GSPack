@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "alltheores:deepslate_peridot_ore",
+      "required": false
+    },
+    {
+      "id": "alltheores:end_peridot_ore",
+      "required": false
+    },
+    {
+      "id": "alltheores:nether_peridot_ore",
+      "required": false
+    },
+    {
+      "id": "alltheores:other_peridot_ore",
+      "required": false
+    },
+    {
+      "id": "alltheores:peridot_ore",
+      "required": false
+    }
+  ]
+}

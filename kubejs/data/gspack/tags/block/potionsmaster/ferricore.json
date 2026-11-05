@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "justdirethings:raw_ferricore_ore",
+      "required": false
+    }
+  ]
+}

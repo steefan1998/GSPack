@@ -1,0 +1,8 @@
+{
+  "entryname": "naquadah",
+  "oretag": "gspack:potionsmaster/naquadah",
+  "color": -9612470,
+  "drawing": false,
+  "order": 39,
+  "recipeItem": "mekanism_extras:raw_naquadah"
+}

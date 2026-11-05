@@ -1,0 +1,8 @@
+{
+  "entryname": "hellforged",
+  "oretag": "gspack:potionsmaster/hellforged",
+  "color": -4308651,
+  "drawing": false,
+  "order": 32,
+  "recipeItem": "neovitae:dungeon_ore"
+}

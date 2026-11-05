@@ -17,6 +17,8 @@ function gspackEmcExcluded(item, checkComponents) {
   let id = String(GSPACK_EMC_REGISTRY.ITEM.getKey(item))
   let namespace = id.split(':')[0]
   let path = id.split(':')[1]
+  // Only the three ordinary Mars building materials bypass the pack namespace exclusion.
+  if (['gspack:mars_stone','gspack:mars_regolith','gspack:mars_sand','gspack:mars_lumestone'].indexOf(id) >= 0) return false
   if (GSPACK_EMC_POLICY.excludedNamespaces.indexOf(namespace) >= 0) return true
   if (GSPACK_EMC_POLICY.endgameItems.indexOf(id) >= 0) return true
   if (/^mystical(agriculture|agradditions)$/.test(namespace) && /(^|_)seeds?(_|$)/.test(path)) return true

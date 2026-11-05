@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "allthemodium:other_vibranium_ore",
+      "required": false
+    },
+    {
+      "id": "allthemodium:vibranium_ore",
+      "required": false
+    }
+  ]
+}

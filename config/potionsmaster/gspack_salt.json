@@ -1,0 +1,8 @@
+{
+  "entryname": "salt",
+  "oretag": "gspack:potionsmaster/salt",
+  "color": -6060070,
+  "drawing": false,
+  "order": 52,
+  "recipeItem": "alltheores:salt_dust"
+}

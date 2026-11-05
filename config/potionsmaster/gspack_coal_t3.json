@@ -1,0 +1,8 @@
+{
+  "entryname": "coal_t3",
+  "oretag": "gspack:potionsmaster/coal_t3",
+  "color": -10853054,
+  "drawing": false,
+  "order": 15,
+  "recipeItem": "justdirethings:coal_t3"
+}

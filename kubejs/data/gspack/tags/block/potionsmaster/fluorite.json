@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "alltheores:deepslate_fluorite_ore",
+      "required": false
+    },
+    {
+      "id": "alltheores:end_fluorite_ore",
+      "required": false
+    },
+    {
+      "id": "alltheores:fluorite_ore",
+      "required": false
+    },
+    {
+      "id": "alltheores:nether_fluorite_ore",
+      "required": false
+    },
+    {
+      "id": "alltheores:other_fluorite_ore",
+      "required": false
+    },
+    {
+      "id": "mekanism:deepslate_fluorite_ore",
+      "required": false
+    },
+    {
+      "id": "mekanism:fluorite_ore",
+      "required": false
+    }
+  ]
+}

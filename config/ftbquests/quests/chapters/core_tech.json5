@@ -1,0 +1,563 @@
+{
+  id: "3D8DF382D9757738",
+  group: "6A1BECB60B0F80F6",
+  order_index: 36,
+  icon: {
+    id: "gspack:tech_core",
+    count: 1,
+  },
+  filename: "core_tech",
+  default_quest_shape: "",
+  default_hide_dependency_lines: false,
+  quests: [
+    {
+      icon: {
+        id: "gspack:tech_core",
+        count: 1,
+      },
+      x: 0.0,
+      y: 2.7,
+      shape: "gear",
+      size: 1.3,
+      id: "658513EC7CA603CC",
+      tasks: [
+        {
+          id: "356078035A4F4A22",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "507F28C930EC5D2A",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      x: 1.8,
+      y: 2.7,
+      shape: "circle",
+      dependencies: [
+        "658513EC7CA603CC",
+      ],
+      dep_control_pts: {
+        "658513EC7CA603CC": [
+          0.0,
+          2.7,
+          1.8,
+          2.7,
+        ],
+      },
+      size: 1.0,
+      id: "58F1821D4D677B88",
+      tasks: [
+        {
+          id: "4EE20B66A52F07D3",
+          type: "item",
+          item: {
+            id: "extendedcrafting:crafting_core",
+            count: 1,
+          },
+        },
+        {
+          id: "26980DF3A9C5F526",
+          type: "item",
+          item: {
+            id: "extendedcrafting:pedestal",
+            count: 1,
+          },
+          count: 24,
+        },
+      ],
+      rewards: [
+        {
+          id: "081CF0E91C736D2E",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 3.6,
+      y: 0.0,
+      shape: "circle",
+      dependencies: [
+        "58F1821D4D677B88",
+      ],
+      dep_control_pts: {
+        "58F1821D4D677B88": [
+          1.8,
+          2.7,
+          3.6,
+          0.0,
+        ],
+      },
+      size: 1.0,
+      id: "7284EE72B725E604",
+      tasks: [
+        {
+          id: "2B7C8F5991368E00",
+          type: "item",
+          item: {
+            id: "mekanism:pellet_antimatter",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "62D9420858AC77C5",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      x: 3.6,
+      y: 1.8,
+      shape: "circle",
+      dependencies: [
+        "58F1821D4D677B88",
+      ],
+      dep_control_pts: {
+        "58F1821D4D677B88": [
+          1.8,
+          2.7,
+          3.6,
+          1.8,
+        ],
+      },
+      size: 1.0,
+      id: "6BEF5A5BE0C4E71C",
+      tasks: [
+        {
+          id: "01080CD217638C4F",
+          type: "item",
+          item: {
+            id: "oritech:super_ai_chip",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "23FF31387139FC05",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      x: 3.6,
+      y: 3.6,
+      shape: "circle",
+      dependencies: [
+        "58F1821D4D677B88",
+      ],
+      dep_control_pts: {
+        "58F1821D4D677B88": [
+          1.8,
+          2.7,
+          3.6,
+          3.6,
+        ],
+      },
+      size: 1.0,
+      id: "343C9D7FEF7A6C72",
+      tasks: [
+        {
+          id: "68E94E3F7F9FDD72",
+          type: "item",
+          item: {
+            id: "advanced_ae:quantum_processor",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "20D4BB706A323BF8",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      x: 3.6,
+      y: 5.4,
+      shape: "circle",
+      dependencies: [
+        "58F1821D4D677B88",
+      ],
+      dep_control_pts: {
+        "58F1821D4D677B88": [
+          1.8,
+          2.7,
+          3.6,
+          5.4,
+        ],
+      },
+      size: 1.0,
+      id: "50FEB32102DA1B63",
+      tasks: [
+        {
+          id: "7C8409080135F483",
+          type: "item",
+          item: {
+            id: "mekanism_extras:infinite_control_circuit",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "41F4086D65A503AA",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      x: 5.4,
+      y: 0.0,
+      shape: "circle",
+      dependencies: [
+        "58F1821D4D677B88",
+      ],
+      dep_control_pts: {
+        "58F1821D4D677B88": [
+          1.8,
+          2.7,
+          5.4,
+          0.0,
+        ],
+      },
+      size: 1.0,
+      id: "7A6686240E3AD85E",
+      tasks: [
+        {
+          id: "0445971D264B6B1D",
+          type: "item",
+          item: {
+            id: "advanced_ae:quantum_core",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2DDF03A5B7917127",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      x: 5.4,
+      y: 1.8,
+      shape: "circle",
+      dependencies: [
+        "58F1821D4D677B88",
+      ],
+      dep_control_pts: {
+        "58F1821D4D677B88": [
+          1.8,
+          2.7,
+          5.4,
+          1.8,
+        ],
+      },
+      size: 1.0,
+      id: "60DBC76598BAD3F8",
+      tasks: [
+        {
+          id: "7F651968AEE3202C",
+          type: "item",
+          item: {
+            id: "ae2:singularity",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4D9B1431AA248001",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      x: 5.4,
+      y: 3.6,
+      shape: "circle",
+      dependencies: [
+        "58F1821D4D677B88",
+      ],
+      dep_control_pts: {
+        "58F1821D4D677B88": [
+          1.8,
+          2.7,
+          5.4,
+          3.6,
+        ],
+      },
+      size: 1.0,
+      id: "1D5106AD6B12F6F8",
+      tasks: [
+        {
+          id: "711D3B5B79356F2E",
+          type: "item",
+          item: {
+            id: "powah:energy_cell_nitro",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "20598690598C4D64",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      x: 5.4,
+      y: 5.4,
+      shape: "circle",
+      dependencies: [
+        "58F1821D4D677B88",
+      ],
+      dep_control_pts: {
+        "58F1821D4D677B88": [
+          1.8,
+          2.7,
+          5.4,
+          5.4,
+        ],
+      },
+      size: 1.0,
+      id: "343924DE9764E40B",
+      tasks: [
+        {
+          id: "7FCFA890C748E94C",
+          type: "item",
+          item: {
+            id: "oritech:atomic_forge",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "182D4EF2FB81D805",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      x: 7.2,
+      y: 1.8,
+      shape: "circle",
+      dependencies: [
+        "58F1821D4D677B88",
+      ],
+      dep_control_pts: {
+        "58F1821D4D677B88": [
+          1.8,
+          2.7,
+          7.2,
+          1.8,
+        ],
+      },
+      size: 1.0,
+      id: "1B9230FC3666A77C",
+      tasks: [
+        {
+          id: "237CDC480D59C4C5",
+          type: "item",
+          item: {
+            id: "mekanism:ultimate_induction_cell",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "545106C8A42028EE",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      x: 7.2,
+      y: 3.6,
+      shape: "circle",
+      dependencies: [
+        "58F1821D4D677B88",
+      ],
+      dep_control_pts: {
+        "58F1821D4D677B88": [
+          1.8,
+          2.7,
+          7.2,
+          3.6,
+        ],
+      },
+      size: 1.0,
+      id: "673E8E7E473906CB",
+      tasks: [
+        {
+          id: "47278FBF8F6BB50D",
+          type: "item",
+          item: {
+            id: "allthecompressed:osmium_block_2x",
+            count: 1,
+          },
+        },
+        {
+          id: "52B74468F1B83D25",
+          type: "item",
+          item: {
+            id: "extendedcrafting:elite_component",
+            count: 1,
+          },
+        },
+        {
+          id: "4DCE13BBF67F0C06",
+          type: "item",
+          item: {
+            id: "extendedcrafting:black_iron_block",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "132BF7C6A841910F",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 9.0,
+      y: 2.7,
+      shape: "gear",
+      dependencies: [
+        "58F1821D4D677B88",
+        "7284EE72B725E604",
+        "6BEF5A5BE0C4E71C",
+        "343C9D7FEF7A6C72",
+        "50FEB32102DA1B63",
+        "7A6686240E3AD85E",
+        "60DBC76598BAD3F8",
+        "1D5106AD6B12F6F8",
+        "343924DE9764E40B",
+        "1B9230FC3666A77C",
+        "673E8E7E473906CB",
+      ],
+      dep_control_pts: {
+        "1B9230FC3666A77C": [
+          7.2,
+          1.8,
+          9.0,
+          2.7,
+        ],
+        "60DBC76598BAD3F8": [
+          5.4,
+          1.8,
+          9.0,
+          2.7,
+        ],
+        "343C9D7FEF7A6C72": [
+          3.6,
+          3.6,
+          9.0,
+          2.7,
+        ],
+        "343924DE9764E40B": [
+          5.4,
+          5.4,
+          9.0,
+          2.7,
+        ],
+        "1D5106AD6B12F6F8": [
+          5.4,
+          3.6,
+          9.0,
+          2.7,
+        ],
+        "673E8E7E473906CB": [
+          7.2,
+          3.6,
+          9.0,
+          2.7,
+        ],
+        "58F1821D4D677B88": [
+          1.8,
+          2.7,
+          9.0,
+          2.7,
+        ],
+        "7284EE72B725E604": [
+          3.6,
+          0.0,
+          9.0,
+          2.7,
+        ],
+        "6BEF5A5BE0C4E71C": [
+          3.6,
+          1.8,
+          9.0,
+          2.7,
+        ],
+        "50FEB32102DA1B63": [
+          3.6,
+          5.4,
+          9.0,
+          2.7,
+        ],
+        "7A6686240E3AD85E": [
+          5.4,
+          0.0,
+          9.0,
+          2.7,
+        ],
+      },
+      size: 1.3,
+      id: "6905CE6AC7FDF25A",
+      tasks: [
+        {
+          id: "77D42761BF02A5A8",
+          type: "item",
+          item: {
+            id: "gspack:tech_core",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "07057CF87ACA6B65",
+          type: "xp",
+          xp: 1000,
+        },
+        {
+          id: "4291EF3FF7A6FB52",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 379532711335085,
+        },
+      ],
+    },
+  ],
+  quest_links: [
+  ],
+  images: [
+  ],
+}

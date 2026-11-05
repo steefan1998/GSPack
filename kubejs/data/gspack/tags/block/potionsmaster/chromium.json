@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "colossal_reactors:chromium_ore",
+      "required": false
+    },
+    {
+      "id": "colossal_reactors:deep_chromium_ore",
+      "required": false
+    }
+  ]
+}

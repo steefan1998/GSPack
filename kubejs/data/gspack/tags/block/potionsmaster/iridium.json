@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "alltheores:deepslate_iridium_ore",
+      "required": false
+    },
+    {
+      "id": "alltheores:end_iridium_ore",
+      "required": false
+    },
+    {
+      "id": "alltheores:iridium_ore",
+      "required": false
+    },
+    {
+      "id": "alltheores:nether_iridium_ore",
+      "required": false
+    },
+    {
+      "id": "alltheores:other_iridium_ore",
+      "required": false
+    }
+  ]
+}

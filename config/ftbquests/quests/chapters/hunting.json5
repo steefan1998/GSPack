@@ -1,935 +1,935 @@
 {
   id: "5EEE52B31E51ED3C",
   group: "11F64C4259C477EF",
-  order_index: 34,
-  filename: "hunting",
+  order_index: 33,
   icon: {
+    id: "minecraft:iron_sword",
     count: 1,
-    id: "minecraft:iron_sword"
   },
+  filename: "hunting",
   default_quest_shape: "",
   default_hide_dependency_lines: false,
   quests: [
     {
-      id: "67BB0C5AC40B9EE0",
-      x: 0,
-      y: 0,
+      icon: {
+        id: "minecraft:book",
+        count: 1,
+      },
+      x: 0.0,
+      y: 0.0,
       shape: "hexagon",
       size: 1.15,
-      icon: {
-        count: 1,
-        id: "minecraft:book"
-      },
+      id: "67BB0C5AC40B9EE0",
       tasks: [
         {
           id: "70C28F469BB20AA5",
-          type: "checkmark"
-        }
+          type: "checkmark",
+        },
       ],
       rewards: [
         {
           id: "7C8D5236DC771566",
           type: "xp",
-          xp: 50
-        }
-      ]
+          xp: 50,
+        },
+      ],
     },
     {
-      id: "6358BEF7EA1B006B",
       x: 9.8,
-      y: 0,
+      y: 0.0,
       shape: "circle",
-      size: 1,
-      dependencies: [
-        "67BB0C5AC40B9EE0"
-      ],
       hide_dependency_lines: true,
+      dependencies: [
+        "67BB0C5AC40B9EE0",
+      ],
       dep_control_pts: {
         "67BB0C5AC40B9EE0": [
-          0,
-          0,
+          0.0,
+          0.0,
           9.8,
-          0
-        ]
+          0.0,
+        ],
       },
+      size: 1.0,
+      id: "6358BEF7EA1B006B",
       tasks: [
         {
           id: "5869CE353BE8E82D",
           type: "kill",
           entity: "minecraft:zombie",
-          value: 12
-        }
+          value: 12,
+        },
       ],
       rewards: [
         {
           id: "4D9B6FD986D2DA1C",
           type: "xp",
-          xp: 75
+          xp: 75,
         },
         {
           id: "60E4C368FA04B923",
           type: "random",
-          table_id: 4224964620844649
-        }
-      ]
+          exclude_from_claim_all: true,
+          table_id: 4224964620844649,
+        },
+      ],
     },
     {
-      id: "55FEF4CE7B4485D6",
-      x: 8,
+      x: 8.0,
       y: 1.8,
       shape: "circle",
-      size: 1,
       dependencies: [
-        "6358BEF7EA1B006B"
+        "6358BEF7EA1B006B",
       ],
       dep_control_pts: {
         "6358BEF7EA1B006B": [
           9.8,
-          0,
-          8,
-          1.8
-        ]
+          0.0,
+          8.0,
+          1.8,
+        ],
       },
+      size: 1.0,
+      id: "55FEF4CE7B4485D6",
       tasks: [
         {
           id: "6C37ED2296C80BC2",
           type: "kill",
           entity: "minecraft:skeleton",
-          value: 12
-        }
+          value: 12,
+        },
       ],
       rewards: [
         {
           id: "4958603A99955B03",
           type: "xp",
-          xp: 75
+          xp: 75,
         },
         {
           id: "1DE29017A8AAF43D",
           type: "random",
-          table_id: 4224964620844649
-        }
-      ]
+          exclude_from_claim_all: true,
+          table_id: 4224964620844649,
+        },
+      ],
     },
     {
-      id: "032AD43BB302CDE8",
       x: 9.8,
       y: 1.8,
       shape: "circle",
-      size: 1,
       dependencies: [
-        "6358BEF7EA1B006B"
+        "6358BEF7EA1B006B",
       ],
       dep_control_pts: {
         "6358BEF7EA1B006B": [
           9.8,
-          0,
+          0.0,
           9.8,
-          1.8
-        ]
+          1.8,
+        ],
       },
+      size: 1.0,
+      id: "032AD43BB302CDE8",
       tasks: [
         {
           id: "7119B698827D1CFB",
           type: "kill",
           entity: "minecraft:spider",
-          value: 12
-        }
+          value: 12,
+        },
       ],
       rewards: [
         {
           id: "3057D25D09BA73FD",
           type: "xp",
-          xp: 75
+          xp: 75,
         },
         {
           id: "34C33EB02C03D6CF",
           type: "random",
-          table_id: 4224964620844649
-        }
-      ]
+          exclude_from_claim_all: true,
+          table_id: 4224964620844649,
+        },
+      ],
     },
     {
-      id: "19654C7BACF6F95C",
       x: 9.8,
       y: 3.6,
       shape: "circle",
-      size: 1,
       dependencies: [
-        "55FEF4CE7B4485D6"
+        "55FEF4CE7B4485D6",
       ],
       dep_control_pts: {
         "55FEF4CE7B4485D6": [
-          8,
+          8.0,
           1.8,
           9.8,
-          3.6
-        ]
+          3.6,
+        ],
       },
+      size: 1.0,
+      id: "19654C7BACF6F95C",
       tasks: [
         {
           id: "66B6124FFBCAAE9C",
           type: "kill",
           entity: "minecraft:creeper",
-          value: 8
-        }
+          value: 8,
+        },
       ],
       rewards: [
         {
           id: "790FF9E370742C01",
           type: "xp",
-          xp: 75
+          xp: 75,
         },
         {
           id: "10BF631B036F15CF",
           type: "random",
-          table_id: 4224964620844649
-        }
-      ]
+          exclude_from_claim_all: true,
+          table_id: 4224964620844649,
+        },
+      ],
     },
     {
-      id: "0DCCB90E3A0C35FD",
       x: 11.6,
       y: 1.8,
       shape: "circle",
-      size: 1,
       dependencies: [
-        "6358BEF7EA1B006B"
+        "6358BEF7EA1B006B",
       ],
       dep_control_pts: {
         "6358BEF7EA1B006B": [
           9.8,
-          0,
+          0.0,
           11.6,
-          1.8
-        ]
+          1.8,
+        ],
       },
+      size: 1.0,
+      id: "0DCCB90E3A0C35FD",
       tasks: [
         {
           id: "0DA8743F7F8BD73E",
           type: "kill",
           entity: "minecraft:drowned",
-          value: 8
-        }
+          value: 8,
+        },
       ],
       rewards: [
         {
           id: "781D9A5408C34845",
           type: "xp",
-          xp: 75
+          xp: 75,
         },
         {
           id: "723E202F3BC3A244",
           type: "random",
-          table_id: 4224964620844649
-        }
-      ]
+          exclude_from_claim_all: true,
+          table_id: 4224964620844649,
+        },
+      ],
     },
     {
-      id: "6D2E56B239FF55F9",
       x: 19.6,
-      y: 0,
+      y: 0.0,
       shape: "circle",
-      size: 1,
-      dependencies: [
-        "67BB0C5AC40B9EE0"
-      ],
       hide_dependency_lines: true,
+      dependencies: [
+        "67BB0C5AC40B9EE0",
+      ],
       dep_control_pts: {
         "67BB0C5AC40B9EE0": [
-          0,
-          0,
+          0.0,
+          0.0,
           19.6,
-          0
-        ]
+          0.0,
+        ],
       },
+      size: 1.0,
+      id: "6D2E56B239FF55F9",
       tasks: [
         {
           id: "451B7A64BEBD38ED",
           type: "kill",
           entity: "minecraft:slime",
-          value: 8
-        }
+          value: 8,
+        },
       ],
       rewards: [
         {
           id: "60A4CBDF72C709FE",
           type: "xp",
-          xp: 75
+          xp: 75,
         },
         {
           id: "120D4992538C50EB",
           type: "random",
-          table_id: 4224964620844649
-        }
-      ]
+          exclude_from_claim_all: true,
+          table_id: 4224964620844649,
+        },
+      ],
     },
     {
-      id: "24284E4DFDCF5DF1",
       x: 19.6,
       y: 1.8,
       shape: "circle",
-      size: 1,
-      dependencies: [
-        "032AD43BB302CDE8"
-      ],
       hide_dependency_lines: true,
+      dependencies: [
+        "032AD43BB302CDE8",
+      ],
       dep_control_pts: {
         "032AD43BB302CDE8": [
           9.8,
           1.8,
           19.6,
-          1.8
-        ]
+          1.8,
+        ],
       },
+      size: 1.0,
+      id: "24284E4DFDCF5DF1",
       tasks: [
         {
           id: "7F66335A3302DB65",
           type: "kill",
           entity: "minecraft:cave_spider",
-          value: 8
-        }
+          value: 8,
+        },
       ],
       rewards: [
         {
           id: "42EFAB2D806720E0",
           type: "xp",
-          xp: 75
+          xp: 75,
         },
         {
           id: "288FCD0545BE43DE",
           type: "random",
-          table_id: 4224964620844649
-        }
-      ]
+          exclude_from_claim_all: true,
+          table_id: 4224964620844649,
+        },
+      ],
     },
     {
-      id: "68DB598579F1977A",
       x: 21.4,
       y: 0.9,
       shape: "circle",
-      size: 1,
       dependencies: [
-        "6D2E56B239FF55F9"
+        "6D2E56B239FF55F9",
       ],
       dep_control_pts: {
         "6D2E56B239FF55F9": [
           19.6,
-          0,
+          0.0,
           21.4,
-          0.9
-        ]
+          0.9,
+        ],
       },
+      size: 1.0,
+      id: "68DB598579F1977A",
       tasks: [
         {
           id: "76897A930A191557",
           type: "kill",
           entity: "minecraft:witch",
-          value: 4
-        }
+          value: 4,
+        },
       ],
       rewards: [
         {
           id: "10CA80C069DEEACA",
           type: "xp",
-          xp: 75
+          xp: 75,
         },
         {
           id: "3C580B86ECAB0212",
           type: "random",
-          table_id: 4224964620844649
-        }
-      ]
+          exclude_from_claim_all: true,
+          table_id: 4224964620844649,
+        },
+      ],
     },
     {
-      id: "3E20CCE3DDF96002",
       x: 19.6,
       y: 3.6,
       shape: "circle",
-      size: 1,
-      dependencies: [
-        "67BB0C5AC40B9EE0"
-      ],
       hide_dependency_lines: true,
+      dependencies: [
+        "67BB0C5AC40B9EE0",
+      ],
       dep_control_pts: {
         "67BB0C5AC40B9EE0": [
-          0,
-          0,
+          0.0,
+          0.0,
           19.6,
-          3.6
-        ]
+          3.6,
+        ],
       },
+      size: 1.0,
+      id: "3E20CCE3DDF96002",
       tasks: [
         {
           id: "6BEEBFCD31D144C9",
           type: "kill",
           entity: "minecraft:pillager",
-          value: 8
-        }
+          value: 8,
+        },
       ],
       rewards: [
         {
           id: "6F7A36292E4E8E17",
           type: "xp",
-          xp: 75
+          xp: 75,
         },
         {
           id: "558201F382252232",
           type: "random",
-          table_id: 4224964620844649
-        }
-      ]
+          exclude_from_claim_all: true,
+          table_id: 4224964620844649,
+        },
+      ],
     },
     {
-      id: "3BF0EC1E7D7C9EF6",
       x: 21.4,
       y: 2.7,
       shape: "circle",
-      size: 1,
       dependencies: [
-        "3E20CCE3DDF96002"
+        "3E20CCE3DDF96002",
       ],
       dep_control_pts: {
         "3E20CCE3DDF96002": [
           19.6,
           3.6,
           21.4,
-          2.7
-        ]
+          2.7,
+        ],
       },
+      size: 1.0,
+      id: "3BF0EC1E7D7C9EF6",
       tasks: [
         {
           id: "5E3EC230A7878914",
           type: "kill",
           entity: "minecraft:vindicator",
-          value: 4
-        }
+          value: 4,
+        },
       ],
       rewards: [
         {
           id: "31511E96E887278B",
           type: "xp",
-          xp: 75
+          xp: 75,
         },
         {
           id: "417A29B226BB6B59",
           type: "random",
-          table_id: 4224964620844649
-        }
-      ]
+          exclude_from_claim_all: true,
+          table_id: 4224964620844649,
+        },
+      ],
     },
     {
-      id: "107E028ADF474EC6",
-      x: 0,
+      x: 0.0,
       y: 7.7,
       shape: "circle",
-      size: 1,
-      dependencies: [
-        "67BB0C5AC40B9EE0"
-      ],
       hide_dependency_lines: true,
+      dependencies: [
+        "67BB0C5AC40B9EE0",
+      ],
       dep_control_pts: {
         "67BB0C5AC40B9EE0": [
-          0,
-          0,
-          0,
-          7.7
-        ]
+          0.0,
+          0.0,
+          0.0,
+          7.7,
+        ],
       },
+      size: 1.0,
+      id: "107E028ADF474EC6",
       tasks: [
         {
           id: "39F8D2126A8D1DD7",
           type: "kill",
           entity: "minecraft:blaze",
-          value: 8
-        }
+          value: 8,
+        },
       ],
       rewards: [
         {
           id: "0FB8AF22E498BAB6",
           type: "xp",
-          xp: 75
+          xp: 75,
         },
         {
           id: "00A3EC171F09E1D3",
           type: "random",
-          table_id: 4224964620844649
-        }
-      ]
+          exclude_from_claim_all: true,
+          table_id: 4224964620844649,
+        },
+      ],
     },
     {
-      id: "32B4B34F4B123591",
       x: 1.8,
       y: 6.8,
       shape: "circle",
-      size: 1,
       dependencies: [
-        "107E028ADF474EC6"
+        "107E028ADF474EC6",
       ],
       dep_control_pts: {
         "107E028ADF474EC6": [
-          0,
+          0.0,
           7.7,
           1.8,
-          6.8
-        ]
+          6.8,
+        ],
       },
+      size: 1.0,
+      id: "32B4B34F4B123591",
       tasks: [
         {
           id: "32C4B152148C8BC5",
           type: "kill",
           entity: "minecraft:wither_skeleton",
-          value: 8
-        }
+          value: 8,
+        },
       ],
       rewards: [
         {
           id: "73503148F6298074",
           type: "xp",
-          xp: 75
+          xp: 75,
         },
         {
           id: "69518E238150998C",
           type: "random",
-          table_id: 4224964620844649
-        }
-      ]
+          exclude_from_claim_all: true,
+          table_id: 4224964620844649,
+        },
+      ],
     },
     {
-      id: "1740081099636076",
       x: 1.8,
       y: 8.6,
       shape: "circle",
-      size: 1,
       dependencies: [
-        "107E028ADF474EC6"
+        "107E028ADF474EC6",
       ],
       dep_control_pts: {
         "107E028ADF474EC6": [
-          0,
+          0.0,
           7.7,
           1.8,
-          8.6
-        ]
+          8.6,
+        ],
       },
+      size: 1.0,
+      id: "1740081099636076",
       tasks: [
         {
           id: "35D117974694A655",
           type: "kill",
           entity: "minecraft:ghast",
-          value: 4
-        }
+          value: 4,
+        },
       ],
       rewards: [
         {
           id: "5D3AA031C1BEBEB5",
           type: "xp",
-          xp: 75
+          xp: 75,
         },
         {
           id: "1095C62A40E32D4A",
           type: "random",
-          table_id: 4224964620844649
-        }
-      ]
+          exclude_from_claim_all: true,
+          table_id: 4224964620844649,
+        },
+      ],
     },
     {
-      id: "2F5F7E574BCCD0D6",
       x: 1.8,
       y: 10.4,
       shape: "circle",
-      size: 1,
       dependencies: [
-        "107E028ADF474EC6"
+        "107E028ADF474EC6",
       ],
       dep_control_pts: {
         "107E028ADF474EC6": [
-          0,
+          0.0,
           7.7,
           1.8,
-          10.4
-        ]
+          10.4,
+        ],
       },
+      size: 1.0,
+      id: "2F5F7E574BCCD0D6",
       tasks: [
         {
           id: "3E6D774FF9D5F05D",
           type: "kill",
           entity: "minecraft:magma_cube",
-          value: 8
-        }
+          value: 8,
+        },
       ],
       rewards: [
         {
           id: "789F54F9B79592B9",
           type: "xp",
-          xp: 75
+          xp: 75,
         },
         {
           id: "4FA394DAE5872547",
           type: "random",
-          table_id: 4224964620844649
-        }
-      ]
+          exclude_from_claim_all: true,
+          table_id: 4224964620844649,
+        },
+      ],
     },
     {
-      id: "567898FF670620B2",
-      x: 0,
+      x: 0.0,
       y: 9.5,
       shape: "circle",
-      size: 1,
-      dependencies: [
-        "67BB0C5AC40B9EE0"
-      ],
       hide_dependency_lines: true,
+      dependencies: [
+        "67BB0C5AC40B9EE0",
+      ],
       dep_control_pts: {
         "67BB0C5AC40B9EE0": [
-          0,
-          0,
-          0,
-          9.5
-        ]
+          0.0,
+          0.0,
+          0.0,
+          9.5,
+        ],
       },
+      size: 1.0,
+      id: "567898FF670620B2",
       tasks: [
         {
           id: "2A2EDF901F3238BF",
           type: "kill",
           entity: "minecraft:hoglin",
-          value: 6
-        }
+          value: 6,
+        },
       ],
       rewards: [
         {
           id: "341DEAB1170F6704",
           type: "xp",
-          xp: 75
+          xp: 75,
         },
         {
           id: "2DA4F34CA1D9E84C",
           type: "random",
-          table_id: 4224964620844649
-        }
-      ]
+          exclude_from_claim_all: true,
+          table_id: 4224964620844649,
+        },
+      ],
     },
     {
-      id: "4A33A3EED1A01888",
       x: 9.8,
       y: 6.8,
       shape: "circle",
-      size: 1,
-      dependencies: [
-        "67BB0C5AC40B9EE0"
-      ],
       hide_dependency_lines: true,
+      dependencies: [
+        "67BB0C5AC40B9EE0",
+      ],
       dep_control_pts: {
         "67BB0C5AC40B9EE0": [
-          0,
-          0,
+          0.0,
+          0.0,
           9.8,
-          6.8
-        ]
+          6.8,
+        ],
       },
+      size: 1.0,
+      id: "4A33A3EED1A01888",
       tasks: [
         {
           id: "7EA1DC4A377B80EE",
           type: "kill",
           entity: "minecraft:enderman",
-          value: 12
-        }
+          value: 12,
+        },
       ],
       rewards: [
         {
           id: "4D1C0947447F66F4",
           type: "xp",
-          xp: 75
+          xp: 75,
         },
         {
           id: "734B46BE702BB4C6",
           type: "random",
-          table_id: 4224964620844649
-        }
-      ]
+          exclude_from_claim_all: true,
+          table_id: 4224964620844649,
+        },
+      ],
     },
     {
-      id: "38DCB61196D1A1B1",
       x: 11.6,
       y: 8.6,
       shape: "circle",
-      size: 1,
       dependencies: [
-        "4A33A3EED1A01888"
+        "4A33A3EED1A01888",
       ],
       dep_control_pts: {
         "4A33A3EED1A01888": [
           9.8,
           6.8,
           11.6,
-          8.6
-        ]
+          8.6,
+        ],
       },
+      size: 1.0,
+      id: "38DCB61196D1A1B1",
       tasks: [
         {
           id: "62CBA97A7122E772",
           type: "kill",
           entity: "minecraft:shulker",
-          value: 8
-        }
+          value: 8,
+        },
       ],
       rewards: [
         {
           id: "28FEEE97D0B1F56D",
           type: "xp",
-          xp: 75
+          xp: 75,
         },
         {
           id: "26B1C220D683CAA6",
           type: "random",
-          table_id: 4224964620844649
-        }
-      ]
+          exclude_from_claim_all: true,
+          table_id: 4224964620844649,
+        },
+      ],
     },
     {
-      id: "7FA3527EAB5E339D",
       x: 11.6,
       y: 6.8,
       shape: "circle",
-      size: 1,
-      dependencies: [
-        "55FEF4CE7B4485D6"
-      ],
       hide_dependency_lines: true,
+      dependencies: [
+        "55FEF4CE7B4485D6",
+      ],
       dep_control_pts: {
         "55FEF4CE7B4485D6": [
-          8,
+          8.0,
           1.8,
           11.6,
-          6.8
-        ]
+          6.8,
+        ],
       },
+      size: 1.0,
+      id: "7FA3527EAB5E339D",
       tasks: [
         {
           id: "38BAAEABD67C5F4D",
           type: "kill",
           entity: "minecraft:phantom",
-          value: 4
-        }
+          value: 4,
+        },
       ],
       rewards: [
         {
           id: "22C4B365756E2D44",
           type: "xp",
-          xp: 75
+          xp: 75,
         },
         {
           id: "4B16849505C9DF02",
           type: "random",
-          table_id: 4224964620844649
-        }
-      ]
+          exclude_from_claim_all: true,
+          table_id: 4224964620844649,
+        },
+      ],
     },
     {
-      id: "39C3271C33E2DC4B",
       x: 13.4,
       y: 6.8,
       shape: "circle",
-      size: 1,
-      dependencies: [
-        "0DCCB90E3A0C35FD"
-      ],
       hide_dependency_lines: true,
+      dependencies: [
+        "0DCCB90E3A0C35FD",
+      ],
       dep_control_pts: {
         "0DCCB90E3A0C35FD": [
           11.6,
           1.8,
           13.4,
-          6.8
-        ]
+          6.8,
+        ],
       },
+      size: 1.0,
+      id: "39C3271C33E2DC4B",
       tasks: [
         {
           id: "6031A9B96DFF3E86",
           type: "kill",
           entity: "minecraft:guardian",
-          value: 8
-        }
+          value: 8,
+        },
       ],
       rewards: [
         {
           id: "26795B2CCFD7238D",
           type: "xp",
-          xp: 75
+          xp: 75,
         },
         {
           id: "2961BD243FB2CF8B",
           type: "random",
-          table_id: 4224964620844649
-        }
-      ]
+          exclude_from_claim_all: true,
+          table_id: 4224964620844649,
+        },
+      ],
     },
     {
-      id: "1952EF65A2F2D94F",
       x: 21.4,
       y: 6.8,
       shape: "circle",
-      size: 1,
-      dependencies: [
-        "32B4B34F4B123591"
-      ],
       hide_dependency_lines: true,
+      dependencies: [
+        "32B4B34F4B123591",
+      ],
       dep_control_pts: {
         "32B4B34F4B123591": [
           1.8,
           6.8,
           21.4,
-          6.8
-        ]
+          6.8,
+        ],
       },
+      size: 1.0,
+      id: "1952EF65A2F2D94F",
       tasks: [
         {
           id: "02E484DC291B9572",
           type: "kill",
           entity: "minecraft:wither",
-          value: 1
-        }
+          value: 1,
+        },
       ],
       rewards: [
         {
           id: "2EF81E1FF5501C85",
           type: "xp",
-          xp: 300
+          xp: 300,
         },
         {
           id: "6CCE4AF413E17CD3",
           type: "random",
-          table_id: 2210856162803377
-        }
-      ]
+          exclude_from_claim_all: true,
+          table_id: 2210856162803377,
+        },
+      ],
     },
     {
-      id: "43C71843C9515CFC",
       x: 21.4,
       y: 8.6,
       shape: "circle",
-      size: 1,
-      dependencies: [
-        "4A33A3EED1A01888"
-      ],
       hide_dependency_lines: true,
+      dependencies: [
+        "4A33A3EED1A01888",
+      ],
       dep_control_pts: {
         "4A33A3EED1A01888": [
           9.8,
           6.8,
           21.4,
-          8.6
-        ]
+          8.6,
+        ],
       },
+      size: 1.0,
+      id: "43C71843C9515CFC",
       tasks: [
         {
           id: "5D8B50E470F55764",
           type: "kill",
           entity: "minecraft:ender_dragon",
-          value: 1
-        }
+          value: 1,
+        },
       ],
       rewards: [
         {
           id: "04731024AC6B065B",
           type: "xp",
-          xp: 300
+          xp: 300,
         },
         {
           id: "38612E4E40298243",
           type: "random",
-          table_id: 2210856162803377
-        }
-      ]
-    }
+          exclude_from_claim_all: true,
+          table_id: 2210856162803377,
+        },
+      ],
+    },
   ],
-  quest_links: [],
+  quest_links: [
+  ],
   images: [
     {
       x: 10.7,
       y: -1.7188,
-      width: 12,
+      width: 12.0,
       height: 1.4375,
-      rotation: 0,
+      rotation: 0.0,
       image: "gspack:textures/quests/hunting_header.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false
+      id: "74F8EEBF62E84F28",
     },
     {
       x: 17.0765,
-      y: 0,
+      y: 0.0,
       width: 3.2471,
       height: 0.6,
-      rotation: 0,
+      rotation: 0.0,
       image: "gspack:textures/quests/hunting_slime.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false
+      id: "0837F244DB71683A",
     },
     {
       x: 7.8235,
       y: 6.8,
       width: 2.1529,
       height: 0.6,
-      rotation: 0,
+      rotation: 0.0,
       image: "gspack:textures/quests/hunting_enderman.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false
+      id: "451C3FEF3F89FEE9",
     },
     {
       x: -3.0176,
-      y: 0,
+      y: 0.0,
       width: 4.2353,
       height: 0.6,
-      rotation: 0,
+      rotation: 0.0,
       image: "gspack:textures/quests/hunting_start.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false
+      id: "7C904B58D6714657",
     },
     {
       x: 18.7529,
       y: 6.8,
       width: 3.4941,
       height: 0.6,
-      rotation: 0,
+      rotation: 0.0,
       image: "gspack:textures/quests/hunting_wither.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false
+      id: "36FF0BA3FE8EAF83",
     },
     {
       x: -2.8588,
       y: 7.7,
       width: 3.9176,
       height: 0.6,
-      rotation: 0,
+      rotation: 0.0,
       image: "gspack:textures/quests/hunting_blaze.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false
+      id: "115565FCFB8F56B2",
     },
     {
       x: 5.6353,
-      y: 0,
+      y: 0.0,
       width: 2.9294,
       height: 0.6,
-      rotation: 0,
+      rotation: 0.0,
       image: "gspack:textures/quests/hunting_zombie.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false
-    }
+      id: "44CE0E3484B42297",
+    },
   ],
-  autofocus_id: ""
 }

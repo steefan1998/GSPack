@@ -1,0 +1,8 @@
+{
+  "entryname": "peridot",
+  "oretag": "gspack:potionsmaster/peridot",
+  "color": -12432243,
+  "drawing": false,
+  "order": 45,
+  "recipeItem": "alltheores:peridot"
+}

@@ -1,0 +1,8 @@
+{
+  "entryname": "tin",
+  "oretag": "gspack:potionsmaster/tin",
+  "color": -11823945,
+  "drawing": false,
+  "order": 58,
+  "recipeItem": "alltheores:raw_tin"
+}

@@ -4,5 +4,7 @@
   "tier": "mysticalagriculture:5",
   "ingredient": { "item": "allthemodium:allthemodium_ingot" },
   "color": "#f5b83d",
-  "crux": "gspack:allthemodium_crux"
+  "crux": "gspack:allthemodium_crux",
+  "base_secondary_chance": 0.0,
+  "respects_effective_farmland": false
 }

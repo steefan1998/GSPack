@@ -1,0 +1,554 @@
+{
+  id: "5B057EB81709A226",
+  group: "6A1BECB60B0F80F6",
+  order_index: 39,
+  icon: {
+    id: "gspack:dimensional_core",
+    count: 1,
+  },
+  filename: "core_dimensional",
+  default_quest_shape: "",
+  default_hide_dependency_lines: false,
+  quests: [
+    {
+      icon: {
+        id: "gspack:dimensional_core",
+        count: 1,
+      },
+      x: 0.0,
+      y: 2.7,
+      shape: "gear",
+      size: 1.3,
+      id: "5105B9A8D3B3AA4E",
+      tasks: [
+        {
+          id: "7ED5853575BA551A",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "48867225E9785EBC",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      x: 1.8,
+      y: 2.7,
+      shape: "circle",
+      dependencies: [
+        "5105B9A8D3B3AA4E",
+      ],
+      dep_control_pts: {
+        "5105B9A8D3B3AA4E": [
+          0.0,
+          2.7,
+          1.8,
+          2.7,
+        ],
+      },
+      size: 1.0,
+      id: "477F5E1EA5BDFC44",
+      tasks: [
+        {
+          id: "5A70616F9F751534",
+          type: "item",
+          item: {
+            id: "extendedcrafting:elite_table",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4302B8AEA7F65581",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 3.6,
+      y: 0.0,
+      shape: "circle",
+      dependencies: [
+        "477F5E1EA5BDFC44",
+      ],
+      dep_control_pts: {
+        "477F5E1EA5BDFC44": [
+          1.8,
+          2.7,
+          3.6,
+          0.0,
+        ],
+      },
+      size: 1.0,
+      id: "5D4545FD8B446C21",
+      tasks: [
+        {
+          id: "35902E5C4D039DCB",
+          type: "item",
+          item: {
+            id: "twilightforest:hydra_trophy",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2AED80F17BB28D11",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      x: 3.6,
+      y: 1.8,
+      shape: "circle",
+      dependencies: [
+        "477F5E1EA5BDFC44",
+      ],
+      dep_control_pts: {
+        "477F5E1EA5BDFC44": [
+          1.8,
+          2.7,
+          3.6,
+          1.8,
+        ],
+      },
+      size: 1.0,
+      id: "2DB58533EF1987A1",
+      tasks: [
+        {
+          id: "7DF2E4689FD49DD1",
+          type: "item",
+          item: {
+            id: "aether_ii:gravitite_block",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7DA715D58A417696",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      x: 3.6,
+      y: 3.6,
+      shape: "circle",
+      dependencies: [
+        "477F5E1EA5BDFC44",
+      ],
+      dep_control_pts: {
+        "477F5E1EA5BDFC44": [
+          1.8,
+          2.7,
+          3.6,
+          3.6,
+        ],
+      },
+      size: 1.0,
+      id: "7E0B4A104EE4C8F0",
+      tasks: [
+        {
+          id: "148A3B623D6BF8CC",
+          type: "item",
+          item: {
+            id: "the_bumblezone:royal_jelly_block",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "49BB21999C37EDA6",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      x: 3.6,
+      y: 5.4,
+      shape: "circle",
+      dependencies: [
+        "477F5E1EA5BDFC44",
+      ],
+      dep_control_pts: {
+        "477F5E1EA5BDFC44": [
+          1.8,
+          2.7,
+          3.6,
+          5.4,
+        ],
+      },
+      size: 1.0,
+      id: "098FEE883DA9F10C",
+      tasks: [
+        {
+          id: "4A6D4EE8E6D2612F",
+          type: "item",
+          item: {
+            id: "twilightforest:ur_ghast_trophy",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7E16A9216592775C",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      x: 5.4,
+      y: 0.0,
+      shape: "circle",
+      dependencies: [
+        "477F5E1EA5BDFC44",
+      ],
+      dep_control_pts: {
+        "477F5E1EA5BDFC44": [
+          1.8,
+          2.7,
+          5.4,
+          0.0,
+        ],
+      },
+      size: 1.0,
+      id: "312C18FB0B8B68B7",
+      tasks: [
+        {
+          id: "0F942603A87E7088",
+          type: "item",
+          item: {
+            id: "the_bumblezone:essence_of_the_bees",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4A12658C1A4A70FF",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      x: 5.4,
+      y: 1.8,
+      shape: "circle",
+      dependencies: [
+        "477F5E1EA5BDFC44",
+      ],
+      dep_control_pts: {
+        "477F5E1EA5BDFC44": [
+          1.8,
+          2.7,
+          5.4,
+          1.8,
+        ],
+      },
+      size: 1.0,
+      id: "67F5EEC1D1E6E863",
+      tasks: [
+        {
+          id: "4566F44C1A8C9B3F",
+          type: "item",
+          item: {
+            id: "aether_ii:valkyrie_wings",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7EF6E5B0D8E0943E",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      x: 5.4,
+      y: 3.6,
+      shape: "circle",
+      dependencies: [
+        "477F5E1EA5BDFC44",
+      ],
+      dep_control_pts: {
+        "477F5E1EA5BDFC44": [
+          1.8,
+          2.7,
+          5.4,
+          3.6,
+        ],
+      },
+      size: 1.0,
+      id: "76292B5D3E54DACC",
+      tasks: [
+        {
+          id: "0B53E2354DA07AA6",
+          type: "item",
+          item: {
+            id: "twilightforest:snow_queen_trophy",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4837B8D57096C511",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      x: 5.4,
+      y: 5.4,
+      shape: "circle",
+      dependencies: [
+        "477F5E1EA5BDFC44",
+      ],
+      dep_control_pts: {
+        "477F5E1EA5BDFC44": [
+          1.8,
+          2.7,
+          5.4,
+          5.4,
+        ],
+      },
+      size: 1.0,
+      id: "364204D498D269ED",
+      tasks: [
+        {
+          id: "6D9F63559FDBA766",
+          type: "item",
+          item: {
+            id: "aether_ii:zanite_block",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "45D2D5F9D4540CFA",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      x: 7.2,
+      y: 1.8,
+      shape: "circle",
+      dependencies: [
+        "477F5E1EA5BDFC44",
+      ],
+      dep_control_pts: {
+        "477F5E1EA5BDFC44": [
+          1.8,
+          2.7,
+          7.2,
+          1.8,
+        ],
+      },
+      size: 1.0,
+      id: "72C56FBCEB8BCA12",
+      tasks: [
+        {
+          id: "41FB87F418CB1793",
+          type: "item",
+          item: {
+            id: "the_bumblezone:glistering_honey_crystal",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "313C23B14B1476AA",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      x: 7.2,
+      y: 3.6,
+      shape: "circle",
+      dependencies: [
+        "477F5E1EA5BDFC44",
+      ],
+      dep_control_pts: {
+        "477F5E1EA5BDFC44": [
+          1.8,
+          2.7,
+          7.2,
+          3.6,
+        ],
+      },
+      size: 1.0,
+      id: "1C174432DF17BAD2",
+      tasks: [
+        {
+          id: "4C85CB85DC465DC7",
+          type: "item",
+          item: {
+            id: "aether_ii:gravitite_block",
+            count: 1,
+          },
+        },
+        {
+          id: "5EA6B63096E8F882",
+          type: "item",
+          item: {
+            id: "extendedcrafting:elite_component",
+            count: 1,
+          },
+        },
+        {
+          id: "1A6E3AB7721A6D70",
+          type: "item",
+          item: {
+            id: "extendedcrafting:black_iron_ingot",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1DA29523AB82E541",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 9.0,
+      y: 2.7,
+      shape: "gear",
+      dependencies: [
+        "477F5E1EA5BDFC44",
+        "5D4545FD8B446C21",
+        "2DB58533EF1987A1",
+        "7E0B4A104EE4C8F0",
+        "098FEE883DA9F10C",
+        "312C18FB0B8B68B7",
+        "67F5EEC1D1E6E863",
+        "76292B5D3E54DACC",
+        "364204D498D269ED",
+        "72C56FBCEB8BCA12",
+        "1C174432DF17BAD2",
+      ],
+      dep_control_pts: {
+        "2DB58533EF1987A1": [
+          3.6,
+          1.8,
+          9.0,
+          2.7,
+        ],
+        "72C56FBCEB8BCA12": [
+          7.2,
+          1.8,
+          9.0,
+          2.7,
+        ],
+        "1C174432DF17BAD2": [
+          7.2,
+          3.6,
+          9.0,
+          2.7,
+        ],
+        "098FEE883DA9F10C": [
+          3.6,
+          5.4,
+          9.0,
+          2.7,
+        ],
+        "477F5E1EA5BDFC44": [
+          1.8,
+          2.7,
+          9.0,
+          2.7,
+        ],
+        "76292B5D3E54DACC": [
+          5.4,
+          3.6,
+          9.0,
+          2.7,
+        ],
+        "312C18FB0B8B68B7": [
+          5.4,
+          0.0,
+          9.0,
+          2.7,
+        ],
+        "67F5EEC1D1E6E863": [
+          5.4,
+          1.8,
+          9.0,
+          2.7,
+        ],
+        "5D4545FD8B446C21": [
+          3.6,
+          0.0,
+          9.0,
+          2.7,
+        ],
+        "364204D498D269ED": [
+          5.4,
+          5.4,
+          9.0,
+          2.7,
+        ],
+        "7E0B4A104EE4C8F0": [
+          3.6,
+          3.6,
+          9.0,
+          2.7,
+        ],
+      },
+      size: 1.3,
+      id: "2069F0E3396486E5",
+      tasks: [
+        {
+          id: "31B769357A5C5099",
+          type: "item",
+          item: {
+            id: "gspack:dimensional_core",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "02EC5FDC1500B510",
+          type: "xp",
+          xp: 1000,
+        },
+        {
+          id: "725F6C45A62B6086",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 379532711335085,
+        },
+      ],
+    },
+  ],
+  quest_links: [
+  ],
+  images: [
+  ],
+}

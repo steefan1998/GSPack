@@ -49,7 +49,7 @@
 		# Default: 128
 		# Range: 1 ~ 4096
 		maxActiveMazes = 128
-		#In-game days after which a conquered maze with nobody inside is dropped. -1 keeps them.
+		#In-game days after which a conquered maze that has not been regenerated, with nobody inside, is dropped. -1 keeps them.
 		# Default: 3
 		# Range: -1 ~ 3650
 		retireConqueredAfterDays = 3
@@ -73,6 +73,10 @@
 		# Default: 8.0
 		# Range: 0.0 ~ 100.0
 		voidContactDamage = 8.0
+		#Ticks a conquered maze must stand empty before it is rebuilt in place with a new layout and a fresh boss, so the same portal can be run again. -1 disables regeneration.
+		# Default: 6000
+		# Range: -1 ~ 1728000
+		regenerateConqueredAfterTicks = 6000
 
 	[labyrinth.entry]
 		#Vis drained from the aura over the course of the portal ritual.
@@ -235,3 +239,7 @@
 		# Default: 16
 		# Range: 4 ~ 64
 		crabVentActivationRange = 16
+
+[seasonal]
+	#Whether idle cultists occasionally relieve themselves of a harmless illusory mind spider on April 1st.
+	aprilFools = true

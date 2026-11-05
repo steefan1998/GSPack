@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "rftoolsbase:dimensionalshard_end",
+      "required": false
+    },
+    {
+      "id": "rftoolsbase:dimensionalshard_nether",
+      "required": false
+    },
+    {
+      "id": "rftoolsbase:dimensionalshard_overworld",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "alltheores:deepslate_zinc_ore",
+      "required": false
+    },
+    {
+      "id": "alltheores:end_zinc_ore",
+      "required": false
+    },
+    {
+      "id": "alltheores:nether_zinc_ore",
+      "required": false
+    },
+    {
+      "id": "alltheores:other_zinc_ore",
+      "required": false
+    },
+    {
+      "id": "alltheores:zinc_ore",
+      "required": false
+    },
+    {
+      "id": "railcraft:deepslate_zinc_ore",
+      "required": false
+    },
+    {
+      "id": "railcraft:zinc_ore",
+      "required": false
+    }
+  ]
+}

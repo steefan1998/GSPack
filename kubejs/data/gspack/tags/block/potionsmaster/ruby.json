@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "alltheores:deepslate_ruby_ore",
+      "required": false
+    },
+    {
+      "id": "alltheores:end_ruby_ore",
+      "required": false
+    },
+    {
+      "id": "alltheores:nether_ruby_ore",
+      "required": false
+    },
+    {
+      "id": "alltheores:other_ruby_ore",
+      "required": false
+    },
+    {
+      "id": "alltheores:ruby_ore",
+      "required": false
+    }
+  ]
+}

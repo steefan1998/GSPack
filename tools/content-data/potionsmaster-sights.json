@@ -1,0 +1,892 @@
+[
+  {
+    "entryname": "allthemodium",
+    "oretag": "gspack:potionsmaster/allthemodium",
+    "color": -2658480,
+    "drawing": false,
+    "order": 0,
+    "recipeItem": "allthemodium:raw_allthemodium",
+    "blocks": [
+      "allthemodium:allthemodium_ore",
+      "allthemodium:deepslate_allthemodium_ore"
+    ]
+  },
+  {
+    "entryname": "aluminum",
+    "oretag": "gspack:potionsmaster/aluminum",
+    "color": -6665518,
+    "drawing": false,
+    "order": 1,
+    "recipeItem": "alltheores:raw_aluminum",
+    "blocks": [
+      "alltheores:aluminum_ore",
+      "alltheores:deepslate_aluminum_ore",
+      "alltheores:end_aluminum_ore",
+      "alltheores:nether_aluminum_ore",
+      "alltheores:other_aluminum_ore"
+    ]
+  },
+  {
+    "entryname": "amber",
+    "oretag": "gspack:potionsmaster/amber",
+    "color": -11427745,
+    "drawing": false,
+    "order": 2,
+    "recipeItem": "thaumaturge:amber",
+    "blocks": [
+      "thaumaturge:deepslate_ore_amber",
+      "thaumaturge:ore_amber"
+    ]
+  },
+  {
+    "entryname": "ambrosium",
+    "oretag": "gspack:potionsmaster/ambrosium",
+    "color": -4759842,
+    "drawing": false,
+    "order": 3,
+    "recipeItem": "aether_ii:ambrosium_shard",
+    "blocks": [
+      "aether_ii:ambrosium_ore",
+      "aether_ii:undershale_ambrosium_ore"
+    ]
+  },
+  {
+    "entryname": "arkenium",
+    "oretag": "gspack:potionsmaster/arkenium",
+    "color": -8157043,
+    "drawing": false,
+    "order": 4,
+    "recipeItem": "aether_ii:inert_arkenium",
+    "blocks": [
+      "aether_ii:arkenium_ore",
+      "aether_ii:undershale_arkenium_ore"
+    ]
+  },
+  {
+    "entryname": "blazegold",
+    "oretag": "gspack:potionsmaster/blazegold",
+    "color": -3977386,
+    "drawing": false,
+    "order": 5,
+    "recipeItem": "justdirethings:raw_blazegold",
+    "blocks": [
+      "justdirethings:raw_blazegold_ore"
+    ]
+  },
+  {
+    "entryname": "boron",
+    "oretag": "gspack:potionsmaster/boron",
+    "color": -10137463,
+    "drawing": false,
+    "order": 6,
+    "recipeItem": "colossal_reactors:boron_crystal",
+    "blocks": [
+      "colossal_reactors:boron_ore",
+      "colossal_reactors:deep_boron_ore"
+    ]
+  },
+  {
+    "entryname": "californium",
+    "oretag": "gspack:potionsmaster/californium",
+    "color": -8622473,
+    "drawing": false,
+    "order": 7,
+    "recipeItem": "colossal_reactors:californium_end_ore",
+    "blocks": [
+      "colossal_reactors:californium_end_ore"
+    ]
+  },
+  {
+    "entryname": "celestigem",
+    "oretag": "gspack:potionsmaster/celestigem",
+    "color": -12276597,
+    "drawing": false,
+    "order": 8,
+    "recipeItem": "justdirethings:celestigem",
+    "blocks": [
+      "justdirethings:raw_celestigem_ore"
+    ]
+  },
+  {
+    "entryname": "certus_quartz",
+    "oretag": "gspack:potionsmaster/certus_quartz",
+    "color": -6969478,
+    "drawing": false,
+    "order": 9,
+    "recipeItem": "ae2:certus_quartz_crystal",
+    "blocks": [
+      "ae2:chipped_budding_quartz",
+      "ae2:damaged_budding_quartz",
+      "ae2:flawed_budding_quartz",
+      "ae2:flawless_budding_quartz",
+      "ae2:large_quartz_bud",
+      "ae2:medium_quartz_bud",
+      "ae2:quartz_cluster",
+      "ae2:small_quartz_bud"
+    ]
+  },
+  {
+    "entryname": "chromium",
+    "oretag": "gspack:potionsmaster/chromium",
+    "color": -8546189,
+    "drawing": false,
+    "order": 10,
+    "recipeItem": "colossal_reactors:chromium_crystal",
+    "blocks": [
+      "colossal_reactors:chromium_ore",
+      "colossal_reactors:deep_chromium_ore"
+    ]
+  },
+  {
+    "entryname": "cinnabar",
+    "oretag": "gspack:potionsmaster/cinnabar",
+    "color": -5319016,
+    "drawing": false,
+    "order": 11,
+    "recipeItem": "alltheores:cinnabar",
+    "blocks": [
+      "alltheores:cinnabar_ore",
+      "alltheores:deepslate_cinnabar_ore",
+      "alltheores:end_cinnabar_ore",
+      "alltheores:nether_cinnabar_ore",
+      "alltheores:other_cinnabar_ore",
+      "thaumaturge:deepslate_ore_cinnabar",
+      "thaumaturge:ore_cinnabar"
+    ]
+  },
+  {
+    "entryname": "coal",
+    "oretag": "gspack:potionsmaster/coal",
+    "color": -14671840,
+    "drawing": false,
+    "order": 12,
+    "recipeItem": "minecraft:coal",
+    "blocks": [
+      "minecraft:coal_ore",
+      "minecraft:deepslate_coal_ore"
+    ]
+  },
+  {
+    "entryname": "coal_t1",
+    "oretag": "gspack:potionsmaster/coal_t1",
+    "color": -10911339,
+    "drawing": false,
+    "order": 13,
+    "recipeItem": "justdirethings:coal_t1",
+    "blocks": [
+      "justdirethings:raw_coal_t1_ore"
+    ]
+  },
+  {
+    "entryname": "coal_t2",
+    "oretag": "gspack:potionsmaster/coal_t2",
+    "color": -7650730,
+    "drawing": false,
+    "order": 14,
+    "recipeItem": "justdirethings:coal_t2",
+    "blocks": [
+      "justdirethings:raw_coal_t2_ore"
+    ]
+  },
+  {
+    "entryname": "coal_t3",
+    "oretag": "gspack:potionsmaster/coal_t3",
+    "color": -10853054,
+    "drawing": false,
+    "order": 15,
+    "recipeItem": "justdirethings:coal_t3",
+    "blocks": [
+      "justdirethings:raw_coal_t3_ore"
+    ]
+  },
+  {
+    "entryname": "coal_t4",
+    "oretag": "gspack:potionsmaster/coal_t4",
+    "color": -11608886,
+    "drawing": false,
+    "order": 16,
+    "recipeItem": "justdirethings:coal_t4",
+    "blocks": [
+      "justdirethings:raw_coal_t4_ore"
+    ]
+  },
+  {
+    "entryname": "cobalt",
+    "oretag": "gspack:potionsmaster/cobalt",
+    "color": -12427929,
+    "drawing": false,
+    "order": 17,
+    "recipeItem": "tconstruct:raw_cobalt",
+    "blocks": [
+      "tconstruct:cobalt_ore"
+    ]
+  },
+  {
+    "entryname": "copper",
+    "oretag": "gspack:potionsmaster/copper",
+    "color": -4755910,
+    "drawing": false,
+    "order": 18,
+    "recipeItem": "minecraft:raw_copper",
+    "blocks": [
+      "gspack:mars_copper_ore",
+      "minecraft:copper_ore",
+      "minecraft:deepslate_copper_ore"
+    ]
+  },
+  {
+    "entryname": "corrobonite",
+    "oretag": "gspack:potionsmaster/corrobonite",
+    "color": -5422475,
+    "drawing": false,
+    "order": 19,
+    "recipeItem": "aether_ii:corrobonite_crystal",
+    "blocks": [
+      "aether_ii:corrobonite_ore"
+    ]
+  },
+  {
+    "entryname": "dark_gem",
+    "oretag": "gspack:potionsmaster/dark_gem",
+    "color": -7630116,
+    "drawing": false,
+    "order": 20,
+    "recipeItem": "evilcraft:dark_gem",
+    "blocks": [
+      "evilcraft:dark_ore",
+      "evilcraft:dark_ore_deepslate"
+    ]
+  },
+  {
+    "entryname": "desh",
+    "oretag": "gspack:potionsmaster/desh",
+    "color": -7694248,
+    "drawing": false,
+    "order": 21,
+    "recipeItem": "stellaris:raw_desh",
+    "blocks": [
+      "stellaris:moon_desh_ore"
+    ]
+  },
+  {
+    "entryname": "diamond",
+    "oretag": "gspack:potionsmaster/diamond",
+    "color": -12723741,
+    "drawing": false,
+    "order": 22,
+    "recipeItem": "minecraft:diamond",
+    "blocks": [
+      "minecraft:deepslate_diamond_ore",
+      "minecraft:diamond_ore"
+    ]
+  },
+  {
+    "entryname": "dimensional_shard",
+    "oretag": "gspack:potionsmaster/dimensional_shard",
+    "color": -7376474,
+    "drawing": false,
+    "order": 23,
+    "recipeItem": "rftoolsbase:dimensionalshard",
+    "blocks": [
+      "rftoolsbase:dimensionalshard_end",
+      "rftoolsbase:dimensionalshard_nether",
+      "rftoolsbase:dimensionalshard_overworld"
+    ]
+  },
+  {
+    "entryname": "eclipsealloy",
+    "oretag": "gspack:potionsmaster/eclipsealloy",
+    "color": -6733105,
+    "drawing": false,
+    "order": 24,
+    "recipeItem": "justdirethings:raw_eclipsealloy",
+    "blocks": [
+      "justdirethings:raw_eclipsealloy_ore"
+    ]
+  },
+  {
+    "entryname": "emerald",
+    "oretag": "gspack:potionsmaster/emerald",
+    "color": -16711936,
+    "drawing": false,
+    "order": 25,
+    "recipeItem": "minecraft:emerald",
+    "blocks": [
+      "minecraft:deepslate_emerald_ore",
+      "minecraft:emerald_ore"
+    ]
+  },
+  {
+    "entryname": "ferricore",
+    "oretag": "gspack:potionsmaster/ferricore",
+    "color": -4613741,
+    "drawing": false,
+    "order": 26,
+    "recipeItem": "justdirethings:raw_ferricore",
+    "blocks": [
+      "justdirethings:raw_ferricore_ore"
+    ]
+  },
+  {
+    "entryname": "firestone",
+    "oretag": "gspack:potionsmaster/firestone",
+    "color": -7712561,
+    "drawing": false,
+    "order": 27,
+    "recipeItem": "railcraft:raw_firestone",
+    "blocks": [
+      "railcraft:firestone_ore"
+    ]
+  },
+  {
+    "entryname": "fluorite",
+    "oretag": "gspack:potionsmaster/fluorite",
+    "color": -10990994,
+    "drawing": false,
+    "order": 28,
+    "recipeItem": "alltheores:fluorite",
+    "blocks": [
+      "alltheores:deepslate_fluorite_ore",
+      "alltheores:end_fluorite_ore",
+      "alltheores:fluorite_ore",
+      "alltheores:nether_fluorite_ore",
+      "alltheores:other_fluorite_ore",
+      "mekanism:deepslate_fluorite_ore",
+      "mekanism:fluorite_ore"
+    ]
+  },
+  {
+    "entryname": "glint",
+    "oretag": "gspack:potionsmaster/glint",
+    "color": -12554353,
+    "drawing": false,
+    "order": 29,
+    "recipeItem": "aether_ii:glint_gemstone",
+    "blocks": [
+      "aether_ii:glint_ore",
+      "aether_ii:undershale_glint_ore"
+    ]
+  },
+  {
+    "entryname": "gold",
+    "oretag": "gspack:potionsmaster/gold",
+    "color": -2838729,
+    "drawing": false,
+    "order": 30,
+    "recipeItem": "minecraft:raw_gold",
+    "blocks": [
+      "gspack:mars_gold_ore",
+      "minecraft:deepslate_gold_ore",
+      "minecraft:gold_ore",
+      "minecraft:nether_gold_ore"
+    ]
+  },
+  {
+    "entryname": "gravitite",
+    "oretag": "gspack:potionsmaster/gravitite",
+    "color": -4481670,
+    "drawing": false,
+    "order": 31,
+    "recipeItem": "aether_ii:inert_gravitite",
+    "blocks": [
+      "aether_ii:gravitite_ore",
+      "aether_ii:undershale_gravitite_ore"
+    ]
+  },
+  {
+    "entryname": "hellforged",
+    "oretag": "gspack:potionsmaster/hellforged",
+    "color": -4308651,
+    "drawing": false,
+    "order": 32,
+    "recipeItem": "neovitae:dungeon_ore",
+    "blocks": [
+      "neovitae:dungeon_ore"
+    ]
+  },
+  {
+    "entryname": "iesnium",
+    "oretag": "gspack:potionsmaster/iesnium",
+    "color": -3581805,
+    "drawing": false,
+    "order": 33,
+    "recipeItem": "occultism:raw_iesnium",
+    "blocks": [
+      "occultism:iesnium_ore"
+    ]
+  },
+  {
+    "entryname": "inferium",
+    "oretag": "gspack:potionsmaster/inferium",
+    "color": -7303304,
+    "drawing": false,
+    "order": 34,
+    "recipeItem": "mysticalagriculture:inferium_essence",
+    "blocks": [
+      "mysticalagradditions:end_inferium_ore",
+      "mysticalagradditions:nether_inferium_ore",
+      "mysticalagriculture:deepslate_inferium_ore",
+      "mysticalagriculture:inferium_ore"
+    ]
+  },
+  {
+    "entryname": "iridium",
+    "oretag": "gspack:potionsmaster/iridium",
+    "color": -11252139,
+    "drawing": false,
+    "order": 35,
+    "recipeItem": "alltheores:raw_iridium",
+    "blocks": [
+      "alltheores:deepslate_iridium_ore",
+      "alltheores:end_iridium_ore",
+      "alltheores:iridium_ore",
+      "alltheores:nether_iridium_ore",
+      "alltheores:other_iridium_ore"
+    ]
+  },
+  {
+    "entryname": "iron",
+    "oretag": "gspack:potionsmaster/iron",
+    "color": -1785686,
+    "drawing": false,
+    "order": 36,
+    "recipeItem": "minecraft:raw_iron",
+    "blocks": [
+      "gspack:mars_iron_ore",
+      "minecraft:deepslate_iron_ore",
+      "minecraft:iron_ore",
+      "stellaris:moon_stone_iron_ore"
+    ]
+  },
+  {
+    "entryname": "lapis",
+    "oretag": "gspack:potionsmaster/lapis",
+    "color": -16776961,
+    "drawing": false,
+    "order": 37,
+    "recipeItem": "minecraft:lapis_lazuli",
+    "blocks": [
+      "minecraft:deepslate_lapis_ore",
+      "minecraft:lapis_ore"
+    ]
+  },
+  {
+    "entryname": "lead",
+    "oretag": "gspack:potionsmaster/lead",
+    "color": -8157781,
+    "drawing": false,
+    "order": 38,
+    "recipeItem": "alltheores:raw_lead",
+    "blocks": [
+      "alltheores:deepslate_lead_ore",
+      "alltheores:end_lead_ore",
+      "alltheores:lead_ore",
+      "alltheores:nether_lead_ore",
+      "alltheores:other_lead_ore",
+      "colossal_reactors:deep_lead_ore",
+      "colossal_reactors:lead_ore",
+      "mekanism:deepslate_lead_ore",
+      "mekanism:lead_ore",
+      "railcraft:deepslate_lead_ore",
+      "railcraft:lead_ore"
+    ]
+  },
+  {
+    "entryname": "naquadah",
+    "oretag": "gspack:potionsmaster/naquadah",
+    "color": -9612470,
+    "drawing": false,
+    "order": 39,
+    "recipeItem": "mekanism_extras:raw_naquadah",
+    "blocks": [
+      "mekanism_extras:end_naquadah_ore",
+      "mekanism_extras:naquadah_ore"
+    ]
+  },
+  {
+    "entryname": "netherite",
+    "oretag": "gspack:potionsmaster/netherite",
+    "color": -23296,
+    "drawing": false,
+    "order": 40,
+    "recipeItem": "minecraft:netherite_scrap",
+    "blocks": [
+      "minecraft:ancient_debris"
+    ]
+  },
+  {
+    "entryname": "nickel",
+    "oretag": "gspack:potionsmaster/nickel",
+    "color": -7904138,
+    "drawing": false,
+    "order": 41,
+    "recipeItem": "alltheores:raw_nickel",
+    "blocks": [
+      "alltheores:deepslate_nickel_ore",
+      "alltheores:end_nickel_ore",
+      "alltheores:nether_nickel_ore",
+      "alltheores:nickel_ore",
+      "alltheores:other_nickel_ore",
+      "oritech:deepslate_nickel_ore",
+      "oritech:nickel_ore",
+      "railcraft:deepslate_nickel_ore",
+      "railcraft:nickel_ore"
+    ]
+  },
+  {
+    "entryname": "niobium",
+    "oretag": "gspack:potionsmaster/niobium",
+    "color": -6566026,
+    "drawing": false,
+    "order": 42,
+    "recipeItem": "ltxi:raw_niobium",
+    "blocks": [
+      "ltxi:niobium_ore"
+    ]
+  },
+  {
+    "entryname": "novite",
+    "oretag": "gspack:potionsmaster/novite",
+    "color": -9592234,
+    "drawing": false,
+    "order": 43,
+    "recipeItem": "stellaris:raw_novite",
+    "blocks": [
+      "stellaris:novite_ore"
+    ]
+  },
+  {
+    "entryname": "osmium",
+    "oretag": "gspack:potionsmaster/osmium",
+    "color": -8606909,
+    "drawing": false,
+    "order": 44,
+    "recipeItem": "alltheores:raw_osmium",
+    "blocks": [
+      "alltheores:deepslate_osmium_ore",
+      "alltheores:end_osmium_ore",
+      "alltheores:nether_osmium_ore",
+      "alltheores:osmium_ore",
+      "alltheores:other_osmium_ore",
+      "gspack:mars_osmium_ore",
+      "mekanism:deepslate_osmium_ore",
+      "mekanism:osmium_ore"
+    ]
+  },
+  {
+    "entryname": "peridot",
+    "oretag": "gspack:potionsmaster/peridot",
+    "color": -12432243,
+    "drawing": false,
+    "order": 45,
+    "recipeItem": "alltheores:peridot",
+    "blocks": [
+      "alltheores:deepslate_peridot_ore",
+      "alltheores:end_peridot_ore",
+      "alltheores:nether_peridot_ore",
+      "alltheores:other_peridot_ore",
+      "alltheores:peridot_ore"
+    ]
+  },
+  {
+    "entryname": "platinum",
+    "oretag": "gspack:potionsmaster/platinum",
+    "color": -8151111,
+    "drawing": false,
+    "order": 46,
+    "recipeItem": "alltheores:raw_platinum",
+    "blocks": [
+      "alltheores:deepslate_platinum_ore",
+      "alltheores:end_platinum_ore",
+      "alltheores:nether_platinum_ore",
+      "alltheores:other_platinum_ore",
+      "alltheores:platinum_ore",
+      "oritech:deepslate_platinum_ore",
+      "oritech:endstone_platinum_ore"
+    ]
+  },
+  {
+    "entryname": "prosperity",
+    "oretag": "gspack:potionsmaster/prosperity",
+    "color": -6976045,
+    "drawing": false,
+    "order": 47,
+    "recipeItem": "mysticalagriculture:prosperity_shard",
+    "blocks": [
+      "mysticalagradditions:end_prosperity_ore",
+      "mysticalagradditions:nether_prosperity_ore",
+      "mysticalagriculture:deepslate_prosperity_ore",
+      "mysticalagriculture:prosperity_ore"
+    ]
+  },
+  {
+    "entryname": "quartz",
+    "oretag": "gspack:potionsmaster/quartz",
+    "color": -1,
+    "drawing": false,
+    "order": 48,
+    "recipeItem": "minecraft:quartz",
+    "blocks": [
+      "aether_ii:holystone_quartz_ore",
+      "minecraft:nether_quartz_ore",
+      "thaumaturge:deepslate_ore_quartz",
+      "thaumaturge:ore_quartz"
+    ]
+  },
+  {
+    "entryname": "redstone",
+    "oretag": "gspack:potionsmaster/redstone",
+    "color": -65536,
+    "drawing": false,
+    "order": 49,
+    "recipeItem": "minecraft:redstone",
+    "blocks": [
+      "minecraft:deepslate_redstone_ore",
+      "minecraft:redstone_ore"
+    ]
+  },
+  {
+    "entryname": "replica",
+    "oretag": "gspack:potionsmaster/replica",
+    "color": -9995912,
+    "drawing": false,
+    "order": 50,
+    "recipeItem": "replication:raw_replica",
+    "blocks": [
+      "replication:deepslate_replica_ore"
+    ]
+  },
+  {
+    "entryname": "ruby",
+    "oretag": "gspack:potionsmaster/ruby",
+    "color": -10923071,
+    "drawing": false,
+    "order": 51,
+    "recipeItem": "alltheores:ruby",
+    "blocks": [
+      "alltheores:deepslate_ruby_ore",
+      "alltheores:end_ruby_ore",
+      "alltheores:nether_ruby_ore",
+      "alltheores:other_ruby_ore",
+      "alltheores:ruby_ore"
+    ]
+  },
+  {
+    "entryname": "salt",
+    "oretag": "gspack:potionsmaster/salt",
+    "color": -6060070,
+    "drawing": false,
+    "order": 52,
+    "recipeItem": "alltheores:salt_dust",
+    "blocks": [
+      "alltheores:deepslate_salt_ore",
+      "alltheores:end_salt_ore",
+      "alltheores:nether_salt_ore",
+      "alltheores:other_salt_ore",
+      "alltheores:salt_ore"
+    ]
+  },
+  {
+    "entryname": "saltpeter",
+    "oretag": "gspack:potionsmaster/saltpeter",
+    "color": -10384495,
+    "drawing": false,
+    "order": 53,
+    "recipeItem": "railcraft:saltpeter_dust",
+    "blocks": [
+      "railcraft:saltpeter_ore"
+    ]
+  },
+  {
+    "entryname": "sapphire",
+    "oretag": "gspack:potionsmaster/sapphire",
+    "color": -3364998,
+    "drawing": false,
+    "order": 54,
+    "recipeItem": "alltheores:sapphire",
+    "blocks": [
+      "alltheores:deepslate_sapphire_ore",
+      "alltheores:end_sapphire_ore",
+      "alltheores:nether_sapphire_ore",
+      "alltheores:other_sapphire_ore",
+      "alltheores:sapphire_ore"
+    ]
+  },
+  {
+    "entryname": "silver",
+    "oretag": "gspack:potionsmaster/silver",
+    "color": -4690554,
+    "drawing": false,
+    "order": 55,
+    "recipeItem": "alltheores:raw_silver",
+    "blocks": [
+      "alltheores:deepslate_silver_ore",
+      "alltheores:end_silver_ore",
+      "alltheores:nether_silver_ore",
+      "alltheores:other_silver_ore",
+      "alltheores:silver_ore",
+      "ltxi:deepslate_silver_ore",
+      "ltxi:silver_ore",
+      "mekanism:deepslate_silver_ore",
+      "mekanism:silver_ore",
+      "mekmm:deepslate_silver_ore",
+      "mekmm:silver_ore",
+      "occultism:silver_ore",
+      "occultism:silver_ore_deepslate",
+      "railcraft:deepslate_silver_ore",
+      "railcraft:silver_ore"
+    ]
+  },
+  {
+    "entryname": "soulium",
+    "oretag": "gspack:potionsmaster/soulium",
+    "color": -6857085,
+    "drawing": false,
+    "order": 56,
+    "recipeItem": "mysticalagriculture:soulium_dust",
+    "blocks": [
+      "mysticalagriculture:soulium_ore"
+    ]
+  },
+  {
+    "entryname": "sulfur",
+    "oretag": "gspack:potionsmaster/sulfur",
+    "color": -4281021,
+    "drawing": false,
+    "order": 57,
+    "recipeItem": "alltheores:sulfur_dust",
+    "blocks": [
+      "alltheores:deepslate_sulfur_ore",
+      "alltheores:end_sulfur_ore",
+      "alltheores:nether_sulfur_ore",
+      "alltheores:other_sulfur_ore",
+      "alltheores:sulfur_ore",
+      "railcraft:deepslate_sulfur_ore",
+      "railcraft:sulfur_ore"
+    ]
+  },
+  {
+    "entryname": "tin",
+    "oretag": "gspack:potionsmaster/tin",
+    "color": -11823945,
+    "drawing": false,
+    "order": 58,
+    "recipeItem": "alltheores:raw_tin",
+    "blocks": [
+      "alltheores:deepslate_tin_ore",
+      "alltheores:end_tin_ore",
+      "alltheores:nether_tin_ore",
+      "alltheores:other_tin_ore",
+      "alltheores:tin_ore",
+      "mekanism:deepslate_tin_ore",
+      "mekanism:tin_ore",
+      "railcraft:deepslate_tin_ore",
+      "railcraft:tin_ore"
+    ]
+  },
+  {
+    "entryname": "titanium",
+    "oretag": "gspack:potionsmaster/titanium",
+    "color": -9191544,
+    "drawing": false,
+    "order": 59,
+    "recipeItem": "ltxi:raw_titanium",
+    "blocks": [
+      "ltxi:deepslate_titanium_ore",
+      "ltxi:titanium_ore",
+      "stellaris:deepslate_titanium_ore",
+      "stellaris:moon_titanium_ore",
+      "stellaris:titanium_ore"
+    ]
+  },
+  {
+    "entryname": "unobtainium",
+    "oretag": "gspack:potionsmaster/unobtainium",
+    "color": -9402806,
+    "drawing": false,
+    "order": 60,
+    "recipeItem": "allthemodium:raw_unobtainium",
+    "blocks": [
+      "allthemodium:unobtainium_ore",
+      "gspack:mars_unobtainium_ore"
+    ]
+  },
+  {
+    "entryname": "uraninite",
+    "oretag": "gspack:potionsmaster/uraninite",
+    "color": -12525640,
+    "drawing": false,
+    "order": 61,
+    "recipeItem": "powah:uraninite",
+    "blocks": [
+      "powah:deepslate_uraninite_ore",
+      "powah:deepslate_uraninite_ore_dense",
+      "powah:deepslate_uraninite_ore_poor",
+      "powah:uraninite_ore",
+      "powah:uraninite_ore_dense",
+      "powah:uraninite_ore_poor"
+    ]
+  },
+  {
+    "entryname": "uranium",
+    "oretag": "gspack:potionsmaster/uranium",
+    "color": -12037824,
+    "drawing": false,
+    "order": 62,
+    "recipeItem": "alltheores:raw_uranium",
+    "blocks": [
+      "alltheores:deepslate_uranium_ore",
+      "alltheores:end_uranium_ore",
+      "alltheores:nether_uranium_ore",
+      "alltheores:other_uranium_ore",
+      "alltheores:uranium_ore",
+      "colossal_reactors:deep_uranium_ore",
+      "colossal_reactors:uranium_ore",
+      "gspack:mars_uranium_ore",
+      "mekanism:deepslate_uranium_ore",
+      "mekanism:uranium_ore",
+      "oritech:deepslate_uranium_ore"
+    ]
+  },
+  {
+    "entryname": "vibranium",
+    "oretag": "gspack:potionsmaster/vibranium",
+    "color": -8496754,
+    "drawing": false,
+    "order": 63,
+    "recipeItem": "allthemodium:raw_vibranium",
+    "blocks": [
+      "allthemodium:other_vibranium_ore",
+      "allthemodium:vibranium_ore"
+    ]
+  },
+  {
+    "entryname": "zanite",
+    "oretag": "gspack:potionsmaster/zanite",
+    "color": -7845249,
+    "drawing": false,
+    "order": 64,
+    "recipeItem": "aether_ii:zanite_gemstone",
+    "blocks": [
+      "aether_ii:undershale_zanite_ore",
+      "aether_ii:zanite_ore"
+    ]
+  },
+  {
+    "entryname": "zinc",
+    "oretag": "gspack:potionsmaster/zinc",
+    "color": -6828473,
+    "drawing": false,
+    "order": 65,
+    "recipeItem": "alltheores:raw_zinc",
+    "blocks": [
+      "alltheores:deepslate_zinc_ore",
+      "alltheores:end_zinc_ore",
+      "alltheores:nether_zinc_ore",
+      "alltheores:other_zinc_ore",
+      "alltheores:zinc_ore",
+      "railcraft:deepslate_zinc_ore",
+      "railcraft:zinc_ore"
+    ]
+  }
+]

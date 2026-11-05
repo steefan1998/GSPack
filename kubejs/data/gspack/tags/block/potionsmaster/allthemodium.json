@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "allthemodium:allthemodium_ore",
+      "required": false
+    },
+    {
+      "id": "allthemodium:deepslate_allthemodium_ore",
+      "required": false
+    }
+  ]
+}

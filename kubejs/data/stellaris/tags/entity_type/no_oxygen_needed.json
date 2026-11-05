@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:enderman",
+    "minecraft:creeper",
+    "mekanismadditions:baby_creeper",
+    "minecraft:zombie",
+    "minecraft:villager",
+    "minecraft:pillager",
+    "minecraft:vindicator",
+    "minecraft:evoker",
+    "minecraft:illusioner",
+    "minecraft:ravager",
+    "minecraft:witch",
+    "minecraft:vex"
+  ]
+}

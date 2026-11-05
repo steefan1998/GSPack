@@ -1,1043 +1,1023 @@
 {
   id: "6BB770776C60EF1F",
-  group: "591262DAFEE441AF",
-  order_index: 33,
-  filename: "farming",
+  group: "4C68F1E2D6296E39",
+  order_index: 19,
   icon: {
+    id: "minecraft:wheat",
     count: 1,
-    id: "minecraft:wheat"
   },
+  filename: "farming",
   default_quest_shape: "",
   default_hide_dependency_lines: false,
   quests: [
     {
-      id: "05AB4DC63B089868",
-      x: 0,
-      y: 0,
+      icon: {
+        id: "minecraft:book",
+        count: 1,
+      },
+      x: 0.0,
+      y: 0.0,
       shape: "hexagon",
       size: 1.15,
-      icon: {
-        count: 1,
-        id: "minecraft:book"
-      },
+      id: "05AB4DC63B089868",
       tasks: [
         {
           id: "5EAA0099CFA01E8E",
-          type: "checkmark"
-        }
+          type: "checkmark",
+        },
       ],
       rewards: [
         {
           id: "423DB131E53C097E",
           type: "xp",
-          xp: 50
-        }
-      ]
+          xp: 50,
+        },
+      ],
     },
     {
-      id: "0BFF0F3E45E8BBA0",
       x: 9.8,
-      y: 0,
+      y: 0.0,
       shape: "circle",
-      size: 1,
-      dependencies: [
-        "05AB4DC63B089868"
-      ],
       hide_dependency_lines: true,
+      dependencies: [
+        "05AB4DC63B089868",
+      ],
       dep_control_pts: {
         "05AB4DC63B089868": [
-          0,
-          0,
+          0.0,
+          0.0,
           9.8,
-          0
-        ]
+          0.0,
+        ],
       },
+      size: 1.0,
+      id: "0BFF0F3E45E8BBA0",
       tasks: [
         {
           id: "0F2D9369A94C1628",
           type: "item",
           item: {
+            id: "minecraft:wheat",
             count: 1,
-            id: "minecraft:wheat"
-          }
-        }
+          },
+        },
       ],
       rewards: [
         {
           id: "5C7ACFA4AB88EFDD",
           type: "xp",
-          xp: 50
-        }
-      ]
+          xp: 50,
+        },
+      ],
     },
     {
-      id: "21EB714512DE177F",
-      x: 8,
+      x: 8.0,
       y: 1.8,
       shape: "circle",
-      size: 1,
       dependencies: [
-        "0BFF0F3E45E8BBA0"
+        "0BFF0F3E45E8BBA0",
       ],
       dep_control_pts: {
         "0BFF0F3E45E8BBA0": [
           9.8,
-          0,
-          8,
-          1.8
-        ]
+          0.0,
+          8.0,
+          1.8,
+        ],
       },
+      size: 1.0,
+      id: "21EB714512DE177F",
       tasks: [
         {
           id: "68CCE7F9A249FA1D",
           type: "item",
           item: {
+            id: "minecraft:bread",
             count: 1,
-            id: "minecraft:bread"
           },
-          count: 3
-        }
+          count: 3,
+        },
       ],
       rewards: [
         {
           id: "11D8A74E082754BA",
           type: "xp",
-          xp: 50
-        }
-      ]
+          xp: 50,
+        },
+      ],
     },
     {
-      id: "7386078E8FCDF727",
       x: 9.8,
       y: 1.8,
       shape: "circle",
-      size: 1,
       dependencies: [
-        "0BFF0F3E45E8BBA0"
+        "0BFF0F3E45E8BBA0",
       ],
       dep_control_pts: {
         "0BFF0F3E45E8BBA0": [
           9.8,
-          0,
+          0.0,
           9.8,
-          1.8
-        ]
+          1.8,
+        ],
       },
+      size: 1.0,
+      id: "7386078E8FCDF727",
       tasks: [
         {
           id: "3755DEE1CADB4CD8",
           type: "item",
           item: {
+            id: "minecraft:hay_block",
             count: 1,
-            id: "minecraft:hay_block"
-          }
-        }
+          },
+        },
       ],
       rewards: [
         {
           id: "23A3066DA5429645",
           type: "xp",
-          xp: 50
-        }
-      ]
+          xp: 50,
+        },
+      ],
     },
     {
-      id: "1F34539272502872",
       x: 11.6,
       y: 1.8,
       shape: "diamond",
-      size: 1,
       dependencies: [
-        "0BFF0F3E45E8BBA0"
+        "0BFF0F3E45E8BBA0",
       ],
-      optional: true,
       dep_control_pts: {
         "0BFF0F3E45E8BBA0": [
           9.8,
-          0,
+          0.0,
           11.6,
-          1.8
-        ]
+          1.8,
+        ],
       },
+      size: 1.0,
+      optional: true,
+      id: "1F34539272502872",
       tasks: [
         {
           id: "3487394FC96C4254",
           type: "item",
           item: {
+            id: "minecraft:beetroot",
             count: 1,
-            id: "minecraft:beetroot"
-          }
-        }
+          },
+        },
       ],
       rewards: [
         {
           id: "197F511CFC01AED9",
           type: "xp",
-          xp: 50
-        }
-      ]
+          xp: 50,
+        },
+      ],
     },
     {
-      id: "09C4FCDF851B58A8",
       x: 19.6,
       y: 0.9,
       shape: "circle",
-      size: 1,
-      dependencies: [
-        "05AB4DC63B089868"
-      ],
       hide_dependency_lines: true,
+      dependencies: [
+        "05AB4DC63B089868",
+      ],
       dep_control_pts: {
         "05AB4DC63B089868": [
-          0,
-          0,
+          0.0,
+          0.0,
           19.6,
-          0.9
-        ]
+          0.9,
+        ],
       },
+      size: 1.0,
+      id: "09C4FCDF851B58A8",
       tasks: [
         {
           id: "2D691296AFFA5511",
           type: "item",
           item: {
+            id: "minecraft:carrot",
             count: 1,
-            id: "minecraft:carrot"
-          }
-        }
+          },
+        },
       ],
       rewards: [
         {
           id: "47E1713C1033DFD8",
           type: "xp",
-          xp: 50
-        }
-      ]
+          xp: 50,
+        },
+      ],
     },
     {
-      id: "7DADC9F00136E8B1",
       x: 21.4,
-      y: 0,
+      y: 0.0,
       shape: "circle",
-      size: 1,
       dependencies: [
-        "09C4FCDF851B58A8"
+        "09C4FCDF851B58A8",
       ],
       dep_control_pts: {
         "09C4FCDF851B58A8": [
           19.6,
           0.9,
           21.4,
-          0
-        ]
+          0.0,
+        ],
       },
+      size: 1.0,
+      id: "7DADC9F00136E8B1",
       tasks: [
         {
           id: "6BB7D96CD602E91C",
           type: "item",
           item: {
+            id: "minecraft:potato",
             count: 1,
-            id: "minecraft:potato"
-          }
-        }
+          },
+        },
       ],
       rewards: [
         {
           id: "7D84DAD63445DA96",
           type: "xp",
-          xp: 50
-        }
-      ]
+          xp: 50,
+        },
+      ],
     },
     {
-      id: "32A6F68488D5BAC7",
-      x: 25,
+      x: 25.0,
       y: 1.8,
       shape: "circle",
-      size: 1,
       dependencies: [
-        "7DADC9F00136E8B1"
+        "7DADC9F00136E8B1",
       ],
       dep_control_pts: {
         "7DADC9F00136E8B1": [
           21.4,
-          0,
-          25,
-          1.8
-        ]
+          0.0,
+          25.0,
+          1.8,
+        ],
       },
+      size: 1.0,
+      id: "32A6F68488D5BAC7",
       tasks: [
         {
           id: "187A733BB621AE09",
           type: "item",
           item: {
+            id: "minecraft:baked_potato",
             count: 1,
-            id: "minecraft:baked_potato"
           },
-          count: 8
-        }
+          count: 8,
+        },
       ],
       rewards: [
         {
           id: "0E351D780DA62DB3",
           type: "xp",
-          xp: 50
-        }
-      ]
+          xp: 50,
+        },
+      ],
     },
     {
-      id: "759C712DE51ABD6B",
       x: 21.4,
       y: 1.8,
       shape: "circle",
-      size: 1,
       dependencies: [
-        "09C4FCDF851B58A8"
+        "09C4FCDF851B58A8",
       ],
       dep_control_pts: {
         "09C4FCDF851B58A8": [
           19.6,
           0.9,
           21.4,
-          1.8
-        ]
+          1.8,
+        ],
       },
+      size: 1.0,
+      id: "759C712DE51ABD6B",
       tasks: [
         {
           id: "68501E782E948401",
           type: "item",
           item: {
+            id: "minecraft:pumpkin",
             count: 1,
-            id: "minecraft:pumpkin"
-          }
-        }
+          },
+        },
       ],
       rewards: [
         {
           id: "0E185F7CE1418B80",
           type: "xp",
-          xp: 50
-        }
-      ]
+          xp: 50,
+        },
+      ],
     },
     {
-      id: "5FCD80B861334DC0",
-      x: 25,
+      x: 25.0,
       y: 3.6,
       shape: "circle",
-      size: 1,
       dependencies: [
-        "759C712DE51ABD6B"
+        "759C712DE51ABD6B",
       ],
       dep_control_pts: {
         "759C712DE51ABD6B": [
           21.4,
           1.8,
-          25,
-          3.6
-        ]
+          25.0,
+          3.6,
+        ],
       },
+      size: 1.0,
+      id: "5FCD80B861334DC0",
       tasks: [
         {
           id: "0AB895BEEACB85E6",
           type: "item",
           item: {
+            id: "minecraft:melon_slice",
             count: 1,
-            id: "minecraft:melon_slice"
           },
-          count: 8
-        }
+          count: 8,
+        },
       ],
       rewards: [
         {
           id: "5DADAD241186524B",
           type: "xp",
-          xp: 50
-        }
-      ]
+          xp: 50,
+        },
+      ],
     },
     {
-      id: "105723D7EC8B6814",
       x: 19.6,
       y: 2.7,
       shape: "circle",
-      size: 1,
-      dependencies: [
-        "05AB4DC63B089868"
-      ],
       hide_dependency_lines: true,
+      dependencies: [
+        "05AB4DC63B089868",
+      ],
       dep_control_pts: {
         "05AB4DC63B089868": [
-          0,
-          0,
+          0.0,
+          0.0,
           19.6,
-          2.7
-        ]
+          2.7,
+        ],
       },
+      size: 1.0,
+      id: "105723D7EC8B6814",
       tasks: [
         {
           id: "4AC08CEA9BD48A44",
           type: "item",
           item: {
+            id: "minecraft:sugar_cane",
             count: 1,
-            id: "minecraft:sugar_cane"
           },
-          count: 8
-        }
+          count: 8,
+        },
       ],
       rewards: [
         {
           id: "2C67FC3085587EA3",
           type: "xp",
-          xp: 50
-        }
-      ]
+          xp: 50,
+        },
+      ],
     },
     {
-      id: "38343B825D00E4C9",
       x: 21.4,
       y: 3.6,
       shape: "diamond",
-      size: 1,
       dependencies: [
-        "105723D7EC8B6814"
+        "105723D7EC8B6814",
       ],
-      optional: true,
       dep_control_pts: {
         "105723D7EC8B6814": [
           19.6,
           2.7,
           21.4,
-          3.6
-        ]
+          3.6,
+        ],
       },
+      size: 1.0,
+      optional: true,
+      id: "38343B825D00E4C9",
       tasks: [
         {
           id: "6CF9CACCE98106ED",
           type: "item",
           item: {
+            id: "minecraft:kelp",
             count: 1,
-            id: "minecraft:kelp"
           },
-          count: 8
-        }
+          count: 8,
+        },
       ],
       rewards: [
         {
           id: "09EDB15C4569BA77",
           type: "xp",
-          xp: 50
-        }
-      ]
+          xp: 50,
+        },
+      ],
     },
     {
-      id: "7D8A697A4BFADE60",
       x: 21.4,
       y: 5.4,
       shape: "diamond",
-      size: 1,
       dependencies: [
-        "105723D7EC8B6814"
+        "105723D7EC8B6814",
       ],
-      optional: true,
       dep_control_pts: {
         "105723D7EC8B6814": [
           19.6,
           2.7,
           21.4,
-          5.4
-        ]
+          5.4,
+        ],
       },
+      size: 1.0,
+      optional: true,
+      id: "7D8A697A4BFADE60",
       tasks: [
         {
           id: "27D41B336301CAB4",
           type: "item",
           item: {
+            id: "minecraft:cocoa_beans",
             count: 1,
-            id: "minecraft:cocoa_beans"
           },
-          count: 8
-        }
+          count: 8,
+        },
       ],
       rewards: [
         {
           id: "702390C19E7A1E6F",
           type: "xp",
-          xp: 50
-        }
-      ]
+          xp: 50,
+        },
+      ],
     },
     {
-      id: "078DA9074AD0AF1B",
       x: 19.6,
       y: 4.5,
       shape: "circle",
-      size: 1,
-      dependencies: [
-        "0BFF0F3E45E8BBA0"
-      ],
       hide_dependency_lines: true,
+      dependencies: [
+        "0BFF0F3E45E8BBA0",
+      ],
       dep_control_pts: {
         "0BFF0F3E45E8BBA0": [
           9.8,
-          0,
+          0.0,
           19.6,
-          4.5
-        ]
+          4.5,
+        ],
       },
+      size: 1.0,
+      id: "078DA9074AD0AF1B",
       tasks: [
         {
           id: "66B20201807255A4",
           type: "item",
           item: {
+            id: "minecraft:composter",
             count: 1,
-            id: "minecraft:composter"
-          }
-        }
+          },
+        },
       ],
       rewards: [
         {
           id: "0271821BCA811544",
           type: "xp",
-          xp: 50
-        }
-      ]
+          xp: 50,
+        },
+      ],
     },
     {
-      id: "413521B471E573A3",
       x: 23.2,
       y: 2.7,
       shape: "circle",
-      size: 1,
       dependencies: [
-        "078DA9074AD0AF1B"
+        "078DA9074AD0AF1B",
       ],
       dep_control_pts: {
         "078DA9074AD0AF1B": [
           19.6,
           4.5,
           23.2,
-          2.7
-        ]
+          2.7,
+        ],
       },
+      size: 1.0,
+      id: "413521B471E573A3",
       tasks: [
         {
           id: "1537C282C7D3A229",
           type: "item",
           item: {
+            id: "minecraft:bone_meal",
             count: 1,
-            id: "minecraft:bone_meal"
           },
-          count: 8
-        }
+          count: 8,
+        },
       ],
       rewards: [
         {
           id: "2EFD87F9F478F4E9",
           type: "xp",
-          xp: 50
-        }
-      ]
+          xp: 50,
+        },
+      ],
     },
     {
-      id: "03A8091E64530055",
-      x: 0,
+      x: 0.0,
       y: 10.4,
       shape: "circle",
-      size: 1,
-      dependencies: [
-        "05AB4DC63B089868"
-      ],
       hide_dependency_lines: true,
+      dependencies: [
+        "05AB4DC63B089868",
+      ],
       dep_control_pts: {
         "05AB4DC63B089868": [
-          0,
-          0,
-          0,
-          10.4
-        ]
+          0.0,
+          0.0,
+          0.0,
+          10.4,
+        ],
       },
+      size: 1.0,
+      id: "03A8091E64530055",
       tasks: [
         {
           id: "31F20108458D2CF1",
           type: "item",
           item: {
+            id: "minecraft:milk_bucket",
             count: 1,
-            id: "minecraft:milk_bucket"
-          }
-        }
+          },
+        },
       ],
       rewards: [
         {
           id: "44980F7E65421A86",
           type: "xp",
-          xp: 50
-        }
-      ]
+          xp: 50,
+        },
+      ],
     },
     {
-      id: "5B3C8A17C6E23CE5",
       x: 1.8,
       y: 8.6,
       shape: "circle",
-      size: 1,
       dependencies: [
-        "03A8091E64530055"
+        "03A8091E64530055",
       ],
       dep_control_pts: {
         "03A8091E64530055": [
-          0,
+          0.0,
           10.4,
           1.8,
-          8.6
-        ]
+          8.6,
+        ],
       },
+      size: 1.0,
+      id: "5B3C8A17C6E23CE5",
       tasks: [
         {
           id: "1D90F1933CF0061C",
           type: "item",
           item: {
+            id: "minecraft:leather",
             count: 1,
-            id: "minecraft:leather"
           },
-          count: 4
-        }
+          count: 4,
+        },
       ],
       rewards: [
         {
           id: "6872E8698C4FD478",
           type: "xp",
-          xp: 50
-        }
-      ]
+          xp: 50,
+        },
+      ],
     },
     {
-      id: "49AAAB4850080998",
       x: 1.8,
       y: 10.4,
       shape: "circle",
-      size: 1,
       dependencies: [
-        "03A8091E64530055"
+        "03A8091E64530055",
       ],
       dep_control_pts: {
         "03A8091E64530055": [
-          0,
+          0.0,
           10.4,
           1.8,
-          10.4
-        ]
+          10.4,
+        ],
       },
+      size: 1.0,
+      id: "49AAAB4850080998",
       tasks: [
         {
           id: "7EEF9A9F9A735E21",
           type: "item",
           item: {
+            id: "minecraft:egg",
             count: 1,
-            id: "minecraft:egg"
           },
-          count: 8
-        }
+          count: 8,
+        },
       ],
       rewards: [
         {
           id: "72C84678FC91891F",
           type: "xp",
-          xp: 50
-        }
-      ]
+          xp: 50,
+        },
+      ],
     },
     {
-      id: "32F5E08DB3ECE200",
       x: 1.8,
       y: 12.2,
       shape: "circle",
-      size: 1,
       dependencies: [
-        "03A8091E64530055"
+        "03A8091E64530055",
       ],
       dep_control_pts: {
         "03A8091E64530055": [
-          0,
+          0.0,
           10.4,
           1.8,
-          12.2
-        ]
+          12.2,
+        ],
       },
+      size: 1.0,
+      id: "32F5E08DB3ECE200",
       tasks: [
         {
           id: "0308651CFD577BF0",
           type: "item",
           item: {
+            id: "minecraft:white_wool",
             count: 1,
-            id: "minecraft:white_wool"
           },
-          count: 8
-        }
+          count: 8,
+        },
       ],
       rewards: [
         {
           id: "4013CAF035F974B2",
           type: "xp",
-          xp: 50
-        }
-      ]
+          xp: 50,
+        },
+      ],
     },
     {
-      id: "1487366C632FEEA0",
       x: 9.8,
       y: 8.6,
       shape: "circle",
-      size: 1,
-      dependencies: [
-        "05AB4DC63B089868"
-      ],
       hide_dependency_lines: true,
+      dependencies: [
+        "05AB4DC63B089868",
+      ],
       dep_control_pts: {
         "05AB4DC63B089868": [
-          0,
-          0,
+          0.0,
+          0.0,
           9.8,
-          8.6
-        ]
+          8.6,
+        ],
       },
+      size: 1.0,
+      id: "1487366C632FEEA0",
       tasks: [
         {
           id: "4D5D95C8FF3C7BC9",
           type: "item",
           item: {
+            id: "minecraft:apple",
             count: 1,
-            id: "minecraft:apple"
           },
-          count: 4
-        }
+          count: 4,
+        },
       ],
       rewards: [
         {
           id: "73337B937365DFAA",
           type: "xp",
-          xp: 50
-        }
-      ]
+          xp: 50,
+        },
+      ],
     },
     {
-      id: "6AB836D3C59F4580",
       x: 9.8,
       y: 10.4,
       shape: "circle",
-      size: 1,
       dependencies: [
-        "1487366C632FEEA0"
+        "1487366C632FEEA0",
       ],
       dep_control_pts: {
         "1487366C632FEEA0": [
           9.8,
           8.6,
           9.8,
-          10.4
-        ]
+          10.4,
+        ],
       },
+      size: 1.0,
+      id: "6AB836D3C59F4580",
       tasks: [
         {
           id: "3941497CF594BD2E",
           type: "item",
           item: {
+            id: "minecraft:beehive",
             count: 1,
-            id: "minecraft:beehive"
-          }
-        }
+          },
+        },
       ],
       rewards: [
         {
           id: "4B640622ED3A1EDD",
           type: "xp",
-          xp: 50
-        }
-      ]
+          xp: 50,
+        },
+      ],
     },
     {
-      id: "7258C58DCEB37868",
       x: 9.8,
       y: 12.2,
       shape: "circle",
-      size: 1,
       dependencies: [
-        "6AB836D3C59F4580"
+        "6AB836D3C59F4580",
       ],
       dep_control_pts: {
         "6AB836D3C59F4580": [
           9.8,
           10.4,
           9.8,
-          12.2
-        ]
+          12.2,
+        ],
       },
+      size: 1.0,
+      id: "7258C58DCEB37868",
       tasks: [
         {
           id: "7B43792F2DF91A21",
           type: "item",
           item: {
+            id: "minecraft:honey_bottle",
             count: 1,
-            id: "minecraft:honey_bottle"
-          }
-        }
+          },
+        },
       ],
       rewards: [
         {
           id: "6011B3D703D5B052",
           type: "xp",
-          xp: 50
-        }
-      ]
+          xp: 50,
+        },
+      ],
     },
     {
-      id: "4A6AD7BF221D7FB4",
       x: 17.8,
       y: 9.5,
       shape: "circle",
-      size: 1,
-      dependencies: [
-        "078DA9074AD0AF1B"
-      ],
       hide_dependency_lines: true,
+      dependencies: [
+        "078DA9074AD0AF1B",
+      ],
       dep_control_pts: {
         "078DA9074AD0AF1B": [
           19.6,
           4.5,
           17.8,
-          9.5
-        ]
+          9.5,
+        ],
       },
+      size: 1.0,
+      id: "4A6AD7BF221D7FB4",
       tasks: [
         {
           id: "46C4F2BBA9EE237E",
           type: "item",
           item: {
+            id: "minecraft:hopper",
             count: 1,
-            id: "minecraft:hopper"
-          }
+          },
         },
         {
           id: "27C3064DC20C6FEB",
           type: "item",
           item: {
+            id: "minecraft:chest",
             count: 1,
-            id: "minecraft:chest"
-          }
-        }
+          },
+        },
       ],
       rewards: [
         {
           id: "30223556AE6F839E",
           type: "xp",
-          xp: 50
-        }
-      ]
+          xp: 50,
+        },
+      ],
     },
     {
-      id: "102B5EB263BF4583",
       x: 19.6,
       y: 8.6,
       shape: "diamond",
-      size: 1,
       dependencies: [
-        "4A6AD7BF221D7FB4"
+        "4A6AD7BF221D7FB4",
       ],
-      optional: true,
       dep_control_pts: {
         "4A6AD7BF221D7FB4": [
           17.8,
           9.5,
           19.6,
-          8.6
-        ]
+          8.6,
+        ],
       },
+      size: 1.0,
+      optional: true,
+      id: "102B5EB263BF4583",
       tasks: [
         {
           id: "284780FED58567F2",
           type: "item",
           item: {
+            id: "minecraft:piston",
             count: 1,
-            id: "minecraft:piston"
-          }
+          },
         },
         {
           id: "07E2527FCDD245F4",
           type: "item",
           item: {
+            id: "minecraft:observer",
             count: 1,
-            id: "minecraft:observer"
-          }
-        }
+          },
+        },
       ],
       rewards: [
         {
           id: "10C63C90FF5B70C4",
           type: "xp",
-          xp: 50
-        }
-      ]
+          xp: 50,
+        },
+      ],
     },
     {
-      id: "7761F2ABB0C17C02",
       x: 19.6,
       y: 10.4,
       shape: "hexagon",
-      size: 1,
+      hide_dependency_lines: true,
       dependencies: [
         "21EB714512DE177F",
         "32A6F68488D5BAC7",
-        "4A6AD7BF221D7FB4"
+        "4A6AD7BF221D7FB4",
       ],
-      hide_dependency_lines: true,
       dep_control_pts: {
-        "21EB714512DE177F": [
-          8,
-          1.8,
-          19.6,
-          10.4
-        ],
         "32A6F68488D5BAC7": [
-          25,
+          25.0,
           1.8,
           19.6,
-          10.4
+          10.4,
+        ],
+        "21EB714512DE177F": [
+          8.0,
+          1.8,
+          19.6,
+          10.4,
         ],
         "4A6AD7BF221D7FB4": [
           17.8,
           9.5,
           19.6,
-          10.4
-        ]
+          10.4,
+        ],
       },
+      size: 1.0,
+      id: "7761F2ABB0C17C02",
       tasks: [
         {
           id: "30B23F887C497B15",
           type: "item",
           item: {
+            id: "minecraft:bread",
             count: 1,
-            id: "minecraft:bread"
           },
-          count: 8
+          count: 8,
         },
         {
           id: "023446285BD05F71",
           type: "item",
           item: {
+            id: "minecraft:baked_potato",
             count: 1,
-            id: "minecraft:baked_potato"
           },
-          count: 8
+          count: 8,
         },
         {
           id: "213CD43BFB65B00C",
           type: "item",
           item: {
+            id: "minecraft:carrot",
             count: 1,
-            id: "minecraft:carrot"
           },
-          count: 8
-        }
+          count: 8,
+        },
       ],
       rewards: [
         {
           id: "6C93EB271743E804",
           type: "xp",
-          xp: 150
+          xp: 150,
         },
         {
           id: "1439F833810026EA",
           type: "random",
-          table_id: 253752461985528
-        }
-      ]
-    }
+          exclude_from_claim_all: true,
+          table_id: 253752461985528,
+        },
+      ],
+    },
   ],
-  quest_links: [],
+  quest_links: [
+  ],
   images: [
     {
       x: 12.5,
       y: -1.7188,
-      width: 12,
+      width: 12.0,
       height: 1.4375,
-      rotation: 0,
+      rotation: 0.0,
       image: "gspack:textures/quests/farming_header.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false
+      id: "6DD2AA88592FA10E",
     },
     {
       x: -2.1,
       y: 10.4,
       width: 2.4,
       height: 0.6,
-      rotation: 0,
+      rotation: 0.0,
       image: "gspack:textures/quests/farming_cows.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false
+      id: "101F2FC140380D4D",
     },
     {
       x: -2.7353,
-      y: 0,
+      y: 0.0,
       width: 3.6706,
       height: 0.6,
-      rotation: 0,
+      rotation: 0.0,
       image: "gspack:textures/quests/farming_start.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false
+      id: "39BC63A9F440B848",
     },
     {
       x: 6.5176,
       y: 8.6,
       width: 4.7647,
       height: 0.6,
-      rotation: 0,
+      rotation: 0.0,
       image: "gspack:textures/quests/farming_orchard.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false
+      id: "7831BE28D276DCDC",
     },
     {
       x: 17.3235,
       y: 0.9,
       width: 2.7529,
       height: 0.6,
-      rotation: 0,
+      rotation: 0.0,
       image: "gspack:textures/quests/farming_carrots.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false
+      id: "33A6A3F64BE4191E",
     },
     {
       x: 5.7235,
-      y: 0,
+      y: 0.0,
       width: 2.7529,
       height: 0.6,
-      rotation: 0,
+      rotation: 0.0,
       image: "gspack:textures/quests/farming_wheat.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false
+      id: "2FA193430CB6B6A1",
     },
     {
       x: 14.6588,
       y: 9.5,
       width: 4.4824,
       height: 0.6,
-      rotation: 0,
+      rotation: 0.0,
       image: "gspack:textures/quests/farming_automation.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false
-    }
+      id: "4B6DE8A42C1FEC94",
+    },
   ],
-  autofocus_id: ""
 }

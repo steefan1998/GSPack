@@ -1,0 +1,512 @@
+{
+  id: "242ED91CA3BFE1E3",
+  group: "6A1BECB60B0F80F6",
+  order_index: 37,
+  icon: {
+    id: "gspack:arcane_core",
+    count: 1,
+  },
+  filename: "core_arcane",
+  default_quest_shape: "",
+  default_hide_dependency_lines: false,
+  quests: [
+    {
+      icon: {
+        id: "gspack:arcane_core",
+        count: 1,
+      },
+      x: 0.0,
+      y: 2.7,
+      shape: "gear",
+      size: 1.3,
+      id: "0F24A8078C1AC6A9",
+      tasks: [
+        {
+          id: "021998F49D7AC46C",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "0278AABAC6210B38",
+          type: "xp",
+          xp: 50,
+        },
+      ],
+    },
+    {
+      x: 1.8,
+      y: 2.7,
+      shape: "circle",
+      dependencies: [
+        "0F24A8078C1AC6A9",
+      ],
+      dep_control_pts: {
+        "0F24A8078C1AC6A9": [
+          0.0,
+          2.7,
+          1.8,
+          2.7,
+        ],
+      },
+      size: 1.0,
+      id: "51684FF652DF6122",
+      tasks: [
+        {
+          id: "00CDC55D9FC408C2",
+          type: "item",
+          item: {
+            id: "extendedcrafting:elite_table",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7105EBFAF806B35C",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 3.6,
+      y: 0.0,
+      shape: "circle",
+      dependencies: [
+        "51684FF652DF6122",
+      ],
+      dep_control_pts: {
+        "51684FF652DF6122": [
+          1.8,
+          2.7,
+          3.6,
+          0.0,
+        ],
+      },
+      size: 1.0,
+      id: "60146656EC41D89C",
+      tasks: [
+        {
+          id: "218FAA5CBA962ED9",
+          type: "item",
+          item: {
+            id: "thaumaturge:metal_void",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "33496D8EEF82C76C",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      x: 3.6,
+      y: 1.8,
+      shape: "circle",
+      dependencies: [
+        "51684FF652DF6122",
+      ],
+      dep_control_pts: {
+        "51684FF652DF6122": [
+          1.8,
+          2.7,
+          3.6,
+          1.8,
+        ],
+      },
+      size: 1.0,
+      id: "2A2A88A3EA22EA50",
+      tasks: [
+        {
+          id: "5A65731E940AB342",
+          type: "item",
+          item: {
+            id: "apotheosis:godforged_pearl",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6FDE34A52669B7B2",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      x: 3.6,
+      y: 3.6,
+      shape: "circle",
+      dependencies: [
+        "51684FF652DF6122",
+      ],
+      dep_control_pts: {
+        "51684FF652DF6122": [
+          1.8,
+          2.7,
+          3.6,
+          3.6,
+        ],
+      },
+      size: 1.0,
+      id: "4DCB2657D305807B",
+      tasks: [
+        {
+          id: "20C5BB6E052DBB7C",
+          type: "item",
+          item: {
+            id: "equivox:red_matter_block",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "732B4235A30C6988",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      x: 3.6,
+      y: 5.4,
+      shape: "circle",
+      dependencies: [
+        "51684FF652DF6122",
+      ],
+      dep_control_pts: {
+        "51684FF652DF6122": [
+          1.8,
+          2.7,
+          3.6,
+          5.4,
+        ],
+      },
+      size: 1.0,
+      id: "06EE9174064CF9FA",
+      tasks: [
+        {
+          id: "1B6A2C4508B374E7",
+          type: "item",
+          item: {
+            id: "occultism:storage_stabilizer_tier4",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3EADCCE7E37BC583",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      x: 5.4,
+      y: 0.0,
+      shape: "circle",
+      dependencies: [
+        "51684FF652DF6122",
+      ],
+      dep_control_pts: {
+        "51684FF652DF6122": [
+          1.8,
+          2.7,
+          5.4,
+          0.0,
+        ],
+      },
+      size: 1.0,
+      id: "27FECDC2BCAD44AE",
+      tasks: [
+        {
+          id: "71BA5D98F5B2951F",
+          type: "item",
+          item: {
+            id: "thaumaturge:primordial_pearl",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "397E9311A5300A97",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      x: 5.4,
+      y: 1.8,
+      shape: "circle",
+      dependencies: [
+        "51684FF652DF6122",
+      ],
+      dep_control_pts: {
+        "51684FF652DF6122": [
+          1.8,
+          2.7,
+          5.4,
+          1.8,
+        ],
+      },
+      size: 1.0,
+      id: "7EAA1CC4A16E6AA5",
+      tasks: [
+        {
+          id: "336D34305E94067D",
+          type: "item",
+          item: {
+            id: "rootsclassic:crystal_staff",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3CF93590A55917FD",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      x: 5.4,
+      y: 3.6,
+      shape: "circle",
+      dependencies: [
+        "51684FF652DF6122",
+      ],
+      dep_control_pts: {
+        "51684FF652DF6122": [
+          1.8,
+          2.7,
+          5.4,
+          3.6,
+        ],
+      },
+      size: 1.0,
+      id: "531CDF208E39C8ED",
+      tasks: [
+        {
+          id: "309FC683CD8F0551",
+          type: "item",
+          item: {
+            id: "evilcraft:dark_power_gem_block",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6D4C76E81BB5A547",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      x: 5.4,
+      y: 5.4,
+      shape: "circle",
+      dependencies: [
+        "51684FF652DF6122",
+      ],
+      dep_control_pts: {
+        "51684FF652DF6122": [
+          1.8,
+          2.7,
+          5.4,
+          5.4,
+        ],
+      },
+      size: 1.0,
+      id: "0ED2EF4E3FE72FE2",
+      tasks: [
+        {
+          id: "511BB729D8A43C85",
+          type: "item",
+          item: {
+            id: "equivox:klein_star_omega",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4F711D6BF5ADE22F",
+          type: "xp",
+          xp: 75,
+        },
+      ],
+    },
+    {
+      x: 7.2,
+      y: 2.7,
+      shape: "circle",
+      dependencies: [
+        "51684FF652DF6122",
+      ],
+      dep_control_pts: {
+        "51684FF652DF6122": [
+          1.8,
+          2.7,
+          7.2,
+          2.7,
+        ],
+      },
+      size: 1.0,
+      id: "4880D8EA26A1589B",
+      tasks: [
+        {
+          id: "6BF059CEA0F42078",
+          type: "item",
+          item: {
+            id: "equivox:red_matter_block",
+            count: 1,
+          },
+        },
+        {
+          id: "18FFFE748D6524DB",
+          type: "item",
+          item: {
+            id: "extendedcrafting:elite_component",
+            count: 1,
+          },
+        },
+        {
+          id: "710AB398F717FCC7",
+          type: "item",
+          item: {
+            id: "extendedcrafting:black_iron_ingot",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "269BD4281FA22B79",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      x: 9.0,
+      y: 2.7,
+      shape: "gear",
+      dependencies: [
+        "51684FF652DF6122",
+        "60146656EC41D89C",
+        "2A2A88A3EA22EA50",
+        "4DCB2657D305807B",
+        "06EE9174064CF9FA",
+        "27FECDC2BCAD44AE",
+        "7EAA1CC4A16E6AA5",
+        "531CDF208E39C8ED",
+        "0ED2EF4E3FE72FE2",
+        "4880D8EA26A1589B",
+      ],
+      dep_control_pts: {
+        "0ED2EF4E3FE72FE2": [
+          5.4,
+          5.4,
+          9.0,
+          2.7,
+        ],
+        "531CDF208E39C8ED": [
+          5.4,
+          3.6,
+          9.0,
+          2.7,
+        ],
+        "06EE9174064CF9FA": [
+          3.6,
+          5.4,
+          9.0,
+          2.7,
+        ],
+        "4DCB2657D305807B": [
+          3.6,
+          3.6,
+          9.0,
+          2.7,
+        ],
+        "7EAA1CC4A16E6AA5": [
+          5.4,
+          1.8,
+          9.0,
+          2.7,
+        ],
+        "51684FF652DF6122": [
+          1.8,
+          2.7,
+          9.0,
+          2.7,
+        ],
+        "2A2A88A3EA22EA50": [
+          3.6,
+          1.8,
+          9.0,
+          2.7,
+        ],
+        "27FECDC2BCAD44AE": [
+          5.4,
+          0.0,
+          9.0,
+          2.7,
+        ],
+        "4880D8EA26A1589B": [
+          7.2,
+          2.7,
+          9.0,
+          2.7,
+        ],
+        "60146656EC41D89C": [
+          3.6,
+          0.0,
+          9.0,
+          2.7,
+        ],
+      },
+      size: 1.3,
+      id: "14C682CB92C83D72",
+      tasks: [
+        {
+          id: "67DE6D981C2BB2BD",
+          type: "item",
+          item: {
+            id: "gspack:arcane_core",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6DFE70A3212D8AFB",
+          type: "xp",
+          xp: 1000,
+        },
+        {
+          id: "1BED80D56334B0F1",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 379532711335085,
+        },
+      ],
+    },
+  ],
+  quest_links: [
+  ],
+  images: [
+  ],
+}

@@ -1,0 +1,8 @@
+{
+  "entryname": "chromium",
+  "oretag": "gspack:potionsmaster/chromium",
+  "color": -8546189,
+  "drawing": false,
+  "order": 10,
+  "recipeItem": "colossal_reactors:chromium_crystal"
+}

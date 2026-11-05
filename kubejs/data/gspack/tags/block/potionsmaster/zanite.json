@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "aether_ii:undershale_zanite_ore",
+      "required": false
+    },
+    {
+      "id": "aether_ii:zanite_ore",
+      "required": false
+    }
+  ]
+}

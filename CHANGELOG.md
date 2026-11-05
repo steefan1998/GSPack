@@ -2,6 +2,49 @@
 
 Pack changes are listed here. Exact added and updated mods are in [MOD-CHANGELOG.md](MOD-CHANGELOG.md).
 
+## 0.8 (2026-11-06)
+
+### Cores and Cosmos
+
+- Added 66 native Potions Master sights, including 56 new material types. Original potion IDs are retained; optional block-tag entries cover cross-mod, deepslate, lunar and Mars variants.
+- Added Frozen Wastes, uncommon Research Wastes and Colony Flats to Mars. Research domes have four spawners, three loot chests and a guaranteed relic; the relic crafts a Martian Navigation Core used by the Cosmic Core. The abandoned dungeon requires players to bring oxygen.
+- Added oxygen-village domes, native villagers with Mars trades and spaceman skins, protected automatic oxygen/energy refill, and a separate no-oxygen-needed fail-safe. Native player-built installations retain normal consumption.
+- Added alien pillager camps and Mars-only conversion of raid members to pillagers using native raid wave bookkeeping. Overworld raids are unchanged. Added Mars Endermen, creepers, baby creepers and space-suit zombies; tank drops are configurable and default to 1%.
+- Added ruins with expedition loot and a 5% frequency per eligible placement candidate, not a 5% promise per chunk or search. The research relic is not in ruin/village loot or trades.
+- Set the native Mars clock/timeline to 24,660 ticks, scaled from NASA's mean solar sol of 24:39:35.244. Added square moon sprites, subtle distant Mars and Martian Lumestone for caves.
+- Assigned EMC 1 to Mars Stone/Regolith/Sand and EMC 32 to Lumestone. Endgame items and ores remain excluded; village trades do not buy cheap EMC building blocks for emeralds.
+- Disabled taint fibre spread, biome frontier spread and Flux-triggered taint outbreaks using native Thaumaturge settings; Warp and existing taint are retained.
+- Restored the previous Core and Trophy artwork; Creative Singularity retains its new 16px animation. Kept all item/block/recipe IDs while grouping Mars, Cores and Trophy scripts and feature asset sources; native KubeJS ZIP resource packs carry the assets.
+- Release candidate snapshot: 294 mod/library jars; three added and fourteen updated relative to 0.7. Release snapshot for 0.8.
+
+- **Conversion hotfix:** use KubeJS Level.dimension as a property, fixing the runtime error that disabled chunk conversion. The newest pre-fix game log loaded all startup/server scripts with zero loading errors and zero failed recipes; final post-fix in-game validation remains pending.
+
+- **Mars sky:** dimension-specific Sky Aesthetics profile with Phobos and Deimos, a dusty sky and no vanilla Moon. These are visual moons using the mod's day/night rotation, not separate destinations or a physical orbital simulation.
+- **Mars mining:** 16px red-stone variants for iron, copper, gold, osmium, uranium and Unobtainium, native Fortune/Silk Touch loot, ore processing tags and furnace/blast recipes. Loaded Mars chunks replace the previous six ore blocks with their Mars variants; other dimensions are unaffected.
+- **Mars Unobtainium:** rare Mars Unobtainium veins using the native Allthemodium ore class between Y=-48 and Y=16, two-block vein attempts in one out of eight chunks. Native mining restrictions, 30-50 XP, animated mineral pixels, Fortune and Silk Touch are retained. New ore generation applies to new chunks; the sky, mining and conversions still need an in-game check.
+
+- **Exploration:** added independent Bumblezone and Colossal Reactors chapters, plus a Mars exploration branch. Mars is a GSPack datapack extension for Stellaris; rocket travel and terrain still require an in-game test.
+- **Cores:** Verdant now combines 25 farming/tree ingredients; Cosmic uses lunar trophies, space modules and late technology. Dimensional retains Bumblezone, Aether II and Twilight Forest contributions.
+- **Accessible starts:** affordable reactor components and first-Moon equipment; advanced space modules use the Advanced Crafting Table. To Orbit is optional and no longer gates the Moon or station quests.
+- **Productive Bees:** replace the nonexistent guide-book task with an introductory checkmark and JEI guidance.
+
+- **Progression:** Diamond Pickaxe now follows Iron Age and precedes the Nether milestone, with matching dependency lines and preserved task/reward IDs.
+- **Quest organization:** separate Magic and Farming categories; Cores and Endgame are last. The expanded book contains 43 chapters and 1,840 quests; existing quest IDs are retained.
+- **16px artwork:** restored the previous five core sprites and trophy atlas; retained the new animated Creative Singularity. The Singularity now consumes only the five cores and 1 billion FE.
+- **Keyboard:** retain Backpack B and JourneyMap J/Ctrl+J/N; unassign the conflicting auxiliary B/J/N bindings, JourneyMap waypoint creation on B, the backpack action on C, all FTB Chunks keys and all Iris keys once per client startup. Vanilla controls are retained.
+- **FTB Chunks:** process pending claim-map texture updates while the claim GUI is open, even with the FTB minimap disabled for JourneyMap. This addresses claims changing in the world without updating their GUI appearance; saved claims are untouched.
+- **Mystical crops:** Allthemodium, Vibranium and Unobtainium no longer produce extra seeds. Their shared secondary chance and effective-farmland bonus are disabled; this also removes bonus-essence rolls for these three crops. The planted seed is still returned when breaking the crop; crux requirements are retained.
+- **Core hotfix:** fixed Rhino's `pedestalItems` constant-redeclaration error and equivalent callback declarations. The complete recipe script now passes execution with the installed Rhino engine. Core sprites now use crisp 16x16 textures.
+- **Core progression:** five dedicated chapters in a new Cores category. Mod-specific recipes and distinct new core textures; Arcane combines six magic mods, and Dimensional combines Bumblezone, Aether II and Twilight Forest.
+- **Powered endgame:** Technological Core uses a 24-pedestal Extended Crafting FE multiblock (250 million FE). Creative Singularity uses Powah Energizing (1 billion FE), only the five cores. Energizing Rods supply power externally and are not consumed. Its texture has 32 animated 16x16 frames.
+- **Trophy:** Trophy of Infinity is now a placeable 3D block/item with a custom gold, obsidian and purple-gem texture atlas. Its item and recipe IDs are retained.
+- **JEI:** hide 33 duplicate ore blocks whose generation is disabled, while retaining preferred and unique ores.
+- **Dev sync:** automatically back up and reset Sodium/Iris settings on every sync to the Dev Build; installed shader files remain. Reverse sync and preview do not reset settings.
+- **FancyMenu:** the game window title is GSPack.
+- **Seasonal main menu:** four automatic seasonal backgrounds, with bright spring/summer daytime scenes and the original logo. Holiday decorations cover Christmas (December), Halloween (October 17-31), Easter, New Year and Valentine's Day; November 2 celebrates GSPack's birthday. Holiday backgrounds build on their matching season, including winter with fireworks for New Year.
+- **Branding:** the approved square image with the full golden GSPack name is shared by the Minecraft window, server, Dev Tool, Server Installer and CurseForge upload asset. Icons are independent of holidays and seasons; the CurseForge upload asset is prepared locally.
+- **Waystones:** travel within the same dimension costs no XP. Existing interdimensional XP costs, item durability and cooldown rules are retained.
+
 ## 0.7 (2026-11-04)
 
 ### Mods

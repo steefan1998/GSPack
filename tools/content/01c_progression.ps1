@@ -13,8 +13,8 @@ The milestones complete on their own when you have the item. Open the chapter na
 '@
 Q 'iron' 'Iron Age' 'minecraft:iron_pickaxe' 'start' 'xp:25' -pos '1.6,0' -desc 'Get an iron pickaxe. See &eGetting Started&r.'
 Q 'smeltery' 'Molten Metal' 'tconstruct:smeltery_controller' 'iron' 'xp:50' -opt -pos '3.2,-1' -desc 'Build a Smeltery for alloys and better tools. See &eTinkers'' Construct&r.'
-Q 'nether' 'Into the Nether' 'dim:minecraft:the_nether' 'iron' 'xp:50' -icon 'minecraft:netherrack' -pos '3.2,1' -desc 'Light a Nether portal and step through. See &eGetting Started&r.'
-Q 'diamond' 'Diamonds!' 'minecraft:diamond_pickaxe' 'nether' 'xp:50;table:common' -size 1.25 -pos '4.8,0' -desc 'A diamond pickaxe opens up the rest of the pack. Choose a road, or try all three!'
+Q 'diamond' 'Diamonds!' 'minecraft:diamond_pickaxe' 'iron' 'xp:50;table:common' -size 1.25 -pos '3.2,0' -desc 'A diamond pickaxe opens up the rest of the pack. Choose a road, or try all three!'
+Q 'nether' 'Into the Nether' 'dim:minecraft:the_nether' 'diamond' 'xp:50' -icon 'minecraft:netherrack' -pos '4.8,0' -desc 'Light a Nether portal and step through. See &eGetting Started&r.'
 
 # ===== Technology =====
 Q 'infuser' 'Machines' 'mekanism:metallurgic_infuser' 'diamond' 'xp:50' -pos '6.4,-3' -desc 'Your first Mekanism machine: steel, circuits and ore processing. See &eMekanism&r.'

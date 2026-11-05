@@ -1,0 +1,323 @@
+{
+  "comment": "Explicit old paths retired after a backed-up Dev Build sync. Registry IDs remain unchanged.",
+  "migrations": [
+    {
+      "old": "kubejs/server_scripts/gspack_endgame_recipes.js",
+      "source": "kubejs/server_scripts/gspack/cores/recipes.js",
+      "replacement": "kubejs/server_scripts/gspack/cores/recipes.js",
+      "hash": "F90D7094D3A5AFF7EA958525E87F0988DD11FCD4709F48BF43A1512262331C10"
+    },
+    {
+      "old": "kubejs/startup_scripts/gspack_endgame_items.js",
+      "source": "kubejs/startup_scripts/gspack/cores/items.js",
+      "replacement": "kubejs/startup_scripts/gspack/cores/items.js",
+      "hash": "BFD97D8120DE2626EB2BFCA740E4866371D948CD3A753F3A4E7325E6A6160AB4"
+    },
+    {
+      "old": "kubejs/startup_scripts/gspack_mars_blocks.js",
+      "source": "kubejs/startup_scripts/gspack/mars/blocks.js",
+      "replacement": "kubejs/startup_scripts/gspack/mars/blocks.js",
+      "hash": "EC8B1A7AC228A074830BEE61DCE090DFCE515C47B81A24F4332FBA0F6A73BEE3"
+    },
+    {
+      "old": "kubejs/startup_scripts/gspack_mars_lumestone.js",
+      "source": "kubejs/startup_scripts/gspack/mars/lumestone.js",
+      "replacement": "kubejs/startup_scripts/gspack/mars/lumestone.js",
+      "hash": "CA3F2DB7FCE32AFA3CD4DFFA522672BC09D4CD1FD7D480E1F0C4212C70831861"
+    },
+    {
+      "old": "kubejs/startup_scripts/gspack_mars_relics.js",
+      "source": "kubejs/startup_scripts/gspack/mars/relics.js",
+      "replacement": "kubejs/startup_scripts/gspack/mars/relics.js",
+      "hash": "788E02187C8C63682FDE9D6FEFAE587034C510B47A8F28D55065F039C2A5FC5C"
+    },
+    {
+      "old": "kubejs/startup_scripts/gspack_mars_replacements.js",
+      "source": "kubejs/startup_scripts/gspack/mars/replacements.js",
+      "replacement": "kubejs/startup_scripts/gspack/mars/replacements.js",
+      "hash": "B7965C78A66BFC12BB19AD415C0C0CF199D19DB3F4D81ADBFD21653BFAF57D6A"
+    },
+    {
+      "old": "kubejs/startup_scripts/gspack_mars_unobtainium.js",
+      "source": "kubejs/startup_scripts/gspack/mars/unobtainium.js",
+      "replacement": "kubejs/startup_scripts/gspack/mars/unobtainium.js",
+      "hash": "CB4A4F24893314D4FB34AC1911C972052C9FF38A36FDF7F700764B38D6292167"
+    },
+    {
+      "old": "kubejs/server_scripts/gspack_mars_lumestone_recipe.js",
+      "source": "kubejs/server_scripts/gspack/mars/lumestone_recipe.js",
+      "replacement": "kubejs/server_scripts/gspack/mars/lumestone_recipe.js",
+      "hash": "DECD36FD35570F8545233F3DEA286DCEEE377167E81C4A43676B71BD58CAE666"
+    },
+    {
+      "old": "kubejs/server_scripts/gspack_mars_mobs.js",
+      "source": "kubejs/server_scripts/gspack/mars/mobs.js",
+      "replacement": "kubejs/server_scripts/gspack/mars/mobs.js",
+      "hash": "FF4ECCBC8736391266E3655BFB2BF5E354B62186562DD29ED6F47AB834F6A998"
+    },
+    {
+      "old": "kubejs/server_scripts/gspack_mars_ore_recipes.js",
+      "source": "kubejs/server_scripts/gspack/mars/ore_recipes.js",
+      "replacement": "kubejs/server_scripts/gspack/mars/ore_recipes.js",
+      "hash": "8F9B0626973D9ABEA06437FBD45A323D8775FE0C90E9D4F4ED77F4A29B8465B8"
+    },
+    {
+      "old": "kubejs/server_scripts/gspack_mars_raids.js",
+      "source": "kubejs/server_scripts/gspack/mars/raids.js",
+      "replacement": "kubejs/server_scripts/gspack/mars/raids.js",
+      "hash": "9DA15E94B6148957AB74A675803195990A44BBF26DC85224768C385EF9A00E2F"
+    },
+    {
+      "old": "kubejs/server_scripts/gspack_mars_relic_recipes.js",
+      "source": "kubejs/server_scripts/gspack/mars/relic_recipes.js",
+      "replacement": "kubejs/server_scripts/gspack/mars/relic_recipes.js",
+      "hash": "C8343233098AE8B9C5FB071145BEC1EA93A003783383CA8FDFB41DD86FA2AA11"
+    },
+    {
+      "old": "kubejs/server_scripts/gspack_mars_village_oxygen.js",
+      "source": "kubejs/server_scripts/gspack/mars/village_oxygen.js",
+      "replacement": "kubejs/server_scripts/gspack/mars/village_oxygen.js",
+      "hash": "B76F7BFAEF7CA168426A19464E1799A1D9799614A03A96B94444039079F1675B"
+    },
+    {
+      "old": "kubejs/startup_scripts/gspack_village_life_support.js",
+      "source": "kubejs/startup_scripts/gspack/mars/village_life_support.js",
+      "replacement": "kubejs/startup_scripts/gspack/mars/village_life_support.js",
+      "hash": "9E17939C3C60910BC8CE1A8324D184624D961BC6A91EA5705931E383359385D5"
+    },
+    {
+      "old": "kubejs/assets/gspack/blockstates/mars_unobtainium_ore.json",
+      "source": "kubejs/feature_assets/mars/assets/gspack/blockstates/mars_unobtainium_ore.json",
+      "replacement": "kubejs/assets/gspack_mars.zip",
+      "hash": "5CC5D7983ECB8A6633328FE3CE0A9741111DA7653E445B18197A9E574A2EA5D5"
+    },
+    {
+      "old": "kubejs/assets/gspack/items/mars_unobtainium_ore.json",
+      "source": "kubejs/feature_assets/mars/assets/gspack/items/mars_unobtainium_ore.json",
+      "replacement": "kubejs/assets/gspack_mars.zip",
+      "hash": "71D360AAC1B483105D85B35482E191CC87FE3A622A516609844F8F82138E263F"
+    },
+    {
+      "old": "kubejs/assets/gspack/lang/en_us.json",
+      "source": "kubejs/feature_assets/mars/assets/gspack/lang/en_us.json",
+      "replacement": "kubejs/assets/gspack_mars.zip",
+      "hash": "3B13083D775508FC38F51DC227EB08A100F97C26C71AD5834BE81A1F1A882E57"
+    },
+    {
+      "old": "kubejs/assets/gspack/models/block/infinity_trophy_shape.json",
+      "source": "kubejs/feature_assets/trophy/assets/gspack/models/block/infinity_trophy_shape.json",
+      "replacement": "kubejs/assets/gspack_trophy.zip",
+      "hash": "393360E2D952C973B34A72349664F8DE958FBBA8CECDA63B8CFCF754D2F02535"
+    },
+    {
+      "old": "kubejs/assets/gspack/models/block/mars_unobtainium_ore.json",
+      "source": "kubejs/feature_assets/mars/assets/gspack/models/block/mars_unobtainium_ore.json",
+      "replacement": "kubejs/assets/gspack_mars.zip",
+      "hash": "578E17BA736544E1B043E4FCB63941354ECC498F4949CCCCADE778A38C068D44"
+    },
+    {
+      "old": "kubejs/assets/gspack/models/item/mars_unobtainium_ore.json",
+      "source": "kubejs/feature_assets/mars/assets/gspack/models/item/mars_unobtainium_ore.json",
+      "replacement": "kubejs/assets/gspack_mars.zip",
+      "hash": "A67921611B6D71EFF7492EC0A5CFD4CA69C50586797A238507EB94A518190391"
+    },
+    {
+      "old": "kubejs/assets/gspack/sky_aesthetics/mars.json",
+      "source": "kubejs/feature_assets/mars/assets/gspack/sky_aesthetics/mars.json",
+      "replacement": "kubejs/assets/gspack_mars.zip",
+      "hash": "279B5F2361E8DF245D1A907A6D906A5CF0B50844E73D414161AD67EA5E548038"
+    },
+    {
+      "old": "kubejs/assets/gspack/textures/block/infinity_trophy_atlas.png",
+      "source": "kubejs/feature_assets/trophy/assets/gspack/textures/block/infinity_trophy_atlas.png",
+      "replacement": "kubejs/assets/gspack_trophy.zip",
+      "hash": "A3FD88D7787264B12A8D5A7F517D450BD982A10F53E9E55D31D35B046DA746BB"
+    },
+    {
+      "old": "kubejs/assets/gspack/textures/block/mars_copper_ore.png",
+      "source": "kubejs/feature_assets/mars/assets/gspack/textures/block/mars_copper_ore.png",
+      "replacement": "kubejs/assets/gspack_mars.zip",
+      "hash": "FEE294364438A8C596A08FD00AE8CF53F9F35C11DEE057FEEA65786646D3BA7B"
+    },
+    {
+      "old": "kubejs/assets/gspack/textures/block/mars_gold_ore.png",
+      "source": "kubejs/feature_assets/mars/assets/gspack/textures/block/mars_gold_ore.png",
+      "replacement": "kubejs/assets/gspack_mars.zip",
+      "hash": "0D7044A15D0A1A396C89AF7B636816D12DA8779E6AEB19FDD68A355A5745118B"
+    },
+    {
+      "old": "kubejs/assets/gspack/textures/block/mars_iron_ore.png",
+      "source": "kubejs/feature_assets/mars/assets/gspack/textures/block/mars_iron_ore.png",
+      "replacement": "kubejs/assets/gspack_mars.zip",
+      "hash": "C97921DD72CF1D39D4DC125A90EF6950A299707576447E3AD94EE474293F5446"
+    },
+    {
+      "old": "kubejs/assets/gspack/textures/block/mars_lumestone.png",
+      "source": "kubejs/feature_assets/mars/assets/gspack/textures/block/mars_lumestone.png",
+      "replacement": "kubejs/assets/gspack_mars.zip",
+      "hash": "EA0FED74680B2020140D94DCA1C8B601CE6005A1A3E324785CD22A43C292BC87"
+    },
+    {
+      "old": "kubejs/assets/gspack/textures/block/mars_osmium_ore.png",
+      "source": "kubejs/feature_assets/mars/assets/gspack/textures/block/mars_osmium_ore.png",
+      "replacement": "kubejs/assets/gspack_mars.zip",
+      "hash": "5CA40C507B6C3EE44DC7B4E5754CF09D3AD4280E8E8BEA6C149B9D60FB022BDB"
+    },
+    {
+      "old": "kubejs/assets/gspack/textures/block/mars_unobtainium_ore.png",
+      "source": "kubejs/feature_assets/mars/assets/gspack/textures/block/mars_unobtainium_ore.png",
+      "replacement": "kubejs/assets/gspack_mars.zip",
+      "hash": "CCA96BD2558F1336B1B075DC487B6F5D88953892D0BE83F60EE6A3521ADFA9B0"
+    },
+    {
+      "old": "kubejs/assets/gspack/textures/block/mars_unobtainium_ore.png.mcmeta",
+      "source": "kubejs/feature_assets/mars/assets/gspack/textures/block/mars_unobtainium_ore.png.mcmeta",
+      "replacement": "kubejs/assets/gspack_mars.zip",
+      "hash": "BE829D9061D935A7F0E66CCFE405A3303EE61130913FA9AEE52296C3400C987D"
+    },
+    {
+      "old": "kubejs/assets/gspack/textures/block/mars_uranium_ore.png",
+      "source": "kubejs/feature_assets/mars/assets/gspack/textures/block/mars_uranium_ore.png",
+      "replacement": "kubejs/assets/gspack_mars.zip",
+      "hash": "3BFFB70F40E2620978C51EE4CA6343B659C378ECC75C62B6170FDEBD2DCE53F0"
+    },
+    {
+      "old": "kubejs/assets/gspack/textures/environment/celestial/deimos.png",
+      "source": "kubejs/feature_assets/mars/assets/gspack/textures/environment/celestial/deimos.png",
+      "replacement": "kubejs/assets/gspack_mars.zip",
+      "hash": "7D1D7798DED0D3C77A67FBC975227E48BBCDF52890C24B383B787B0A611C7924"
+    },
+    {
+      "old": "kubejs/assets/gspack/textures/environment/celestial/phobos.png",
+      "source": "kubejs/feature_assets/mars/assets/gspack/textures/environment/celestial/phobos.png",
+      "replacement": "kubejs/assets/gspack_mars.zip",
+      "hash": "5567BDE1521802D293713DAB088E837CEA27F22850D9583D54DB47856D60AAD9"
+    },
+    {
+      "old": "kubejs/assets/gspack/textures/item/arcane_core.png",
+      "source": "kubejs/feature_assets/cores/assets/gspack/textures/item/arcane_core.png",
+      "replacement": "kubejs/assets/gspack_cores.zip",
+      "hash": "54F9F31774E3941F88C659333429D0D02259B44FEAEC4F47D7F18202D06D0813"
+    },
+    {
+      "old": "kubejs/assets/gspack/textures/item/cosmic_core.png",
+      "source": "kubejs/feature_assets/cores/assets/gspack/textures/item/cosmic_core.png",
+      "replacement": "kubejs/assets/gspack_cores.zip",
+      "hash": "5826498C333183E2A7C79EAEF035BFA758CBCF9A0396E64AE852BCC8E38491F5"
+    },
+    {
+      "old": "kubejs/assets/gspack/textures/item/creative_singularity.png",
+      "source": "kubejs/feature_assets/cores/assets/gspack/textures/item/creative_singularity.png",
+      "replacement": "kubejs/assets/gspack_cores.zip",
+      "hash": "BEADCB64463FBBA8A393CD6B24B0F0568C6689C18705865365E61B6C6A3E4031"
+    },
+    {
+      "old": "kubejs/assets/gspack/textures/item/creative_singularity.png.mcmeta",
+      "source": "kubejs/feature_assets/cores/assets/gspack/textures/item/creative_singularity.png.mcmeta",
+      "replacement": "kubejs/assets/gspack_cores.zip",
+      "hash": "AF695D1A072E18252680DB3EF1894B3D05AE1A29CDD50A9FD63BA8CBC6FE3EB8"
+    },
+    {
+      "old": "kubejs/assets/gspack/textures/item/dimensional_core.png",
+      "source": "kubejs/feature_assets/cores/assets/gspack/textures/item/dimensional_core.png",
+      "replacement": "kubejs/assets/gspack_cores.zip",
+      "hash": "D0F7F15F94D19EA0F8F7A38E9C1868D579AC15476A101655CD500FD189AE2878"
+    },
+    {
+      "old": "kubejs/assets/gspack/textures/item/infinity_trophy.png",
+      "source": "kubejs/feature_assets/trophy/assets/gspack/textures/item/infinity_trophy.png",
+      "replacement": "kubejs/assets/gspack_trophy.zip",
+      "hash": "C3B7375F8D72D49FEC8E04B1C8772CC8A3ADC2F8DD84E89617C19AC732D3EA6F"
+    },
+    {
+      "old": "kubejs/assets/gspack/textures/item/tech_core.png",
+      "source": "kubejs/feature_assets/cores/assets/gspack/textures/item/tech_core.png",
+      "replacement": "kubejs/assets/gspack_cores.zip",
+      "hash": "5CE3D1A19CD45B8A7492F949D6F7F4B0F93B9A4492DE3DDB2811221DB7E12BAF"
+    },
+    {
+      "old": "kubejs/assets/gspack/textures/item/verdant_core.png",
+      "source": "kubejs/feature_assets/cores/assets/gspack/textures/item/verdant_core.png",
+      "replacement": "kubejs/assets/gspack_cores.zip",
+      "hash": "B89BCBC081A3F398DA30BB08203EFA78119924739FACEA809CAB4479F42A7F2A"
+    },
+    {
+      "old": "kubejs/assets/minecraft/optifine/random/entity/creeper/creeper.properties",
+      "source": "kubejs/feature_assets/mars/assets/minecraft/optifine/random/entity/creeper/creeper.properties",
+      "replacement": "kubejs/assets/gspack_mars.zip",
+      "hash": "9E8621C80AA112A45AE5652A39935DD674FAC3903451723A1A01D76E71161DE6"
+    },
+    {
+      "old": "kubejs/assets/minecraft/optifine/random/entity/creeper/creeper2.png",
+      "source": "kubejs/feature_assets/mars/assets/minecraft/optifine/random/entity/creeper/creeper2.png",
+      "replacement": "kubejs/assets/gspack_mars.zip",
+      "hash": "C6AF1F726CE30D91E0FFCF77C5D9210095AD44CA38A2FC33AE812ACF42F45BA9"
+    },
+    {
+      "old": "kubejs/assets/minecraft/optifine/random/entity/enderman/enderman.properties",
+      "source": "kubejs/feature_assets/mars/assets/minecraft/optifine/random/entity/enderman/enderman.properties",
+      "replacement": "kubejs/assets/gspack_mars.zip",
+      "hash": "9E8621C80AA112A45AE5652A39935DD674FAC3903451723A1A01D76E71161DE6"
+    },
+    {
+      "old": "kubejs/assets/minecraft/optifine/random/entity/enderman/enderman2.png",
+      "source": "kubejs/feature_assets/mars/assets/minecraft/optifine/random/entity/enderman/enderman2.png",
+      "replacement": "kubejs/assets/gspack_mars.zip",
+      "hash": "D56F4AD6ADDFE00FBB019A07445300344C6494131FD3DDE58A439AFCE41798D2"
+    },
+    {
+      "old": "kubejs/assets/minecraft/optifine/random/entity/illager/pillager.properties",
+      "source": "kubejs/feature_assets/mars/assets/minecraft/optifine/random/entity/illager/pillager.properties",
+      "replacement": "kubejs/assets/gspack_mars.zip",
+      "hash": "9E8621C80AA112A45AE5652A39935DD674FAC3903451723A1A01D76E71161DE6"
+    },
+    {
+      "old": "kubejs/assets/minecraft/optifine/random/entity/illager/pillager2.png",
+      "source": "kubejs/feature_assets/mars/assets/minecraft/optifine/random/entity/illager/pillager2.png",
+      "replacement": "kubejs/assets/gspack_mars.zip",
+      "hash": "C1CA774D7DA1F98BC15FAD0226C23FE7527E8E08144296245B447B2225C832A6"
+    },
+    {
+      "old": "kubejs/assets/minecraft/optifine/random/entity/villager/profession/cartographer.properties",
+      "source": "kubejs/feature_assets/mars/assets/minecraft/optifine/random/entity/villager/profession/cartographer.properties",
+      "replacement": "kubejs/assets/gspack_mars.zip",
+      "hash": "60DE3008A7D2FCBB593B32F05F1081091CC2AEAA349CA92752B5A89141E66D63"
+    },
+    {
+      "old": "kubejs/assets/minecraft/optifine/random/entity/villager/profession/cartographer2.png",
+      "source": "kubejs/feature_assets/mars/assets/minecraft/optifine/random/entity/villager/profession/cartographer2.png",
+      "replacement": "kubejs/assets/gspack_mars.zip",
+      "hash": "776345677ECBA8338CAAD5FBBC94A0CF1AEE73CC3209B4C092C247FD3F5D108B"
+    },
+    {
+      "old": "kubejs/assets/minecraft/optifine/random/entity/villager/type/plains.properties",
+      "source": "kubejs/feature_assets/mars/assets/minecraft/optifine/random/entity/villager/type/plains.properties",
+      "replacement": "kubejs/assets/gspack_mars.zip",
+      "hash": "60DE3008A7D2FCBB593B32F05F1081091CC2AEAA349CA92752B5A89141E66D63"
+    },
+    {
+      "old": "kubejs/assets/minecraft/optifine/random/entity/villager/type/plains2.png",
+      "source": "kubejs/feature_assets/mars/assets/minecraft/optifine/random/entity/villager/type/plains2.png",
+      "replacement": "kubejs/assets/gspack_mars.zip",
+      "hash": "776345677ECBA8338CAAD5FBBC94A0CF1AEE73CC3209B4C092C247FD3F5D108B"
+    },
+    {
+      "old": "kubejs/assets/minecraft/optifine/random/entity/villager/villager.properties",
+      "source": "kubejs/feature_assets/mars/assets/minecraft/optifine/random/entity/villager/villager.properties",
+      "replacement": "kubejs/assets/gspack_mars.zip",
+      "hash": "9E8621C80AA112A45AE5652A39935DD674FAC3903451723A1A01D76E71161DE6"
+    },
+    {
+      "old": "kubejs/assets/minecraft/optifine/random/entity/villager/villager2.png",
+      "source": "kubejs/feature_assets/mars/assets/minecraft/optifine/random/entity/villager/villager2.png",
+      "replacement": "kubejs/assets/gspack_mars.zip",
+      "hash": "5AB3E940576F31138F8ADCBE081F3D6474C5A043F8C7709ACD3A7C6C4DBEC180"
+    },
+    {
+      "old": "kubejs/assets/stellaris/sky_aesthetics/earth.json",
+      "source": "kubejs/feature_assets/mars/assets/stellaris/sky_aesthetics/earth.json",
+      "replacement": "kubejs/assets/gspack_mars.zip",
+      "hash": "F0F66554A18AB2F8F16806E64D8818BBD71A39B0F4DBADBEA244FA9B55E0208A"
+    }
+  ]
+}

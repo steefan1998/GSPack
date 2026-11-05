@@ -441,3 +441,18 @@
 	# Default: 24
 	# Range: 1 ~ 128
 	maxFellHorizontalDistance = 24
+
+#World Generation Settings
+#These settings only affect chunks generated after they are changed, already generated terrain is not modified.
+[worldgen]
+	#Generate silver ore in stone in the overworld.
+	enableSilverOre = true
+	#Generate silver ore in deepslate in the overworld.
+	enableDeepslateSilverOre = true
+	#Generate iesnium ore in the nether.
+	#Iesnium is required for progression, only disable this if it can be obtained otherwise.
+	enableIesniumOre = true
+	#Generate underground otherworld groves in the overworld.
+	enableUndergroundGrove = true
+	#Generate otherworld trees on the surface of the overworld.
+	enableOtherworldTrees = true

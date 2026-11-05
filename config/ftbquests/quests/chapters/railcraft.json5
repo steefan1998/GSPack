@@ -1,7 +1,7 @@
 {
   id: "5270340F88597176",
   group: "105EE503AFE85CA5",
-  order_index: 4,
+  order_index: 10,
   icon: {
     id: "railcraft:steam_locomotive",
     count: 1,
@@ -11,8 +11,8 @@
   default_hide_dependency_lines: false,
   quests: [
     {
-      x: 0,
-      y: 0,
+      x: 0.0,
+      y: 0.0,
       shape: "gear",
       size: 1.3,
       id: "3398F2418ED5431B",
@@ -43,23 +43,31 @@
     },
     {
       x: 1.8,
-      y: 0,
-      dependencies: ["3398F2418ED5431B"],
+      y: 0.0,
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"3398F2418ED5431B":[0,0,1.8,0]},
+      dependencies: [
+        "3398F2418ED5431B",
+      ],
+      dep_control_pts: {
+        "3398F2418ED5431B": [
+          0.0,
+          0.0,
+          1.8,
+          0.0,
+        ],
+      },
+      size: 1.0,
       id: "73A16ED6878F4237",
       tasks: [
-  {
-    "id": "05672C59E07403D4",
-    "type": "item",
-    "item": {
-      "id": "railcraft:coal_coke",
-      "count": 1
-    },
-    "count": 1
-  }
-],
+        {
+          id: "05672C59E07403D4",
+          type: "item",
+          item: {
+            id: "railcraft:coal_coke",
+            count: 1,
+          },
+        },
+      ],
       rewards: [
         {
           id: "3BCA04B1F44D645E",
@@ -70,11 +78,20 @@
     },
     {
       x: 3.6,
-      y: 0,
-      dependencies: ["73A16ED6878F4237"],
+      y: 0.0,
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"73A16ED6878F4237":[1.8,0,3.6,0]},
+      dependencies: [
+        "73A16ED6878F4237",
+      ],
+      dep_control_pts: {
+        "73A16ED6878F4237": [
+          1.8,
+          0.0,
+          3.6,
+          0.0,
+        ],
+      },
+      size: 1.0,
       id: "59250CD7A88EEF8F",
       tasks: [
         {
@@ -103,23 +120,32 @@
     },
     {
       x: 5.4,
-      y: 0,
-      dependencies: ["59250CD7A88EEF8F"],
+      y: 0.0,
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"59250CD7A88EEF8F":[3.6,0,5.4,0]},
+      dependencies: [
+        "59250CD7A88EEF8F",
+      ],
+      dep_control_pts: {
+        "59250CD7A88EEF8F": [
+          3.6,
+          0.0,
+          5.4,
+          0.0,
+        ],
+      },
+      size: 1.0,
       id: "443202C1EB8EE037",
       tasks: [
-  {
-    "id": "3EFA1B2E58F8D537",
-    "type": "gamestage",
-    "icon": {
-      "id": "alltheores:steel_ingot",
-      "count": 1
-    },
-    "stage": "gspack_tag_c_ingots_steel_1"
-  }
-],
+        {
+          id: "3EFA1B2E58F8D537",
+          type: "gamestage",
+          icon: {
+            id: "alltheores:steel_ingot",
+            count: 1,
+          },
+          stage: "gspack_tag_c_ingots_steel_1",
+        },
+      ],
       rewards: [
         {
           id: "591321FF93C3630B",
@@ -130,12 +156,21 @@
     },
     {
       x: 7.2,
-      y: 0,
-      optional: true,
-      dependencies: ["443202C1EB8EE037"],
+      y: 0.0,
       shape: "diamond",
-      size: 1,
-      dep_control_pts: {"443202C1EB8EE037":[5.4,0,7.2,0]},
+      dependencies: [
+        "443202C1EB8EE037",
+      ],
+      dep_control_pts: {
+        "443202C1EB8EE037": [
+          5.4,
+          0.0,
+          7.2,
+          0.0,
+        ],
+      },
+      size: 1.0,
+      optional: true,
       id: "260A9A81F3C6107C",
       tasks: [
         {
@@ -165,7 +200,7 @@
     },
     {
       x: 15.2,
-      y: 0,
+      y: 0.0,
       shape: "hexagon",
       size: 1.15,
       id: "11E412D2300B84ED",
@@ -188,13 +223,22 @@
       ],
     },
     {
-      x: 17,
-      y: 0,
-      dependencies: ["443202C1EB8EE037"],
-      hide_dependency_lines: true,
+      x: 17.0,
+      y: 0.0,
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"443202C1EB8EE037":[5.4,0,17,0]},
+      hide_dependency_lines: true,
+      dependencies: [
+        "443202C1EB8EE037",
+      ],
+      dep_control_pts: {
+        "443202C1EB8EE037": [
+          5.4,
+          0.0,
+          17.0,
+          0.0,
+        ],
+      },
+      size: 1.0,
       id: "3109EA4814244AF9",
       tasks: [
         {
@@ -217,10 +261,19 @@
     {
       x: 16.1,
       y: 1.8,
-      dependencies: ["3109EA4814244AF9"],
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"3109EA4814244AF9":[17,0,16.1,1.8]},
+      dependencies: [
+        "3109EA4814244AF9",
+      ],
+      dep_control_pts: {
+        "3109EA4814244AF9": [
+          17.0,
+          0.0,
+          16.1,
+          1.8,
+        ],
+      },
+      size: 1.0,
       id: "43604FA9C0EC57C9",
       tasks: [
         {
@@ -253,22 +306,30 @@
     {
       x: 16.1,
       y: 3.6,
-      dependencies: ["43604FA9C0EC57C9"],
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"43604FA9C0EC57C9":[16.1,1.8,16.1,3.6]},
+      dependencies: [
+        "43604FA9C0EC57C9",
+      ],
+      dep_control_pts: {
+        "43604FA9C0EC57C9": [
+          16.1,
+          1.8,
+          16.1,
+          3.6,
+        ],
+      },
+      size: 1.0,
       id: "045F4959AFE3FBE1",
       tasks: [
-  {
-    "id": "1F5F586D0FF99197",
-    "type": "item",
-    "item": {
-      "id": "railcraft:reinforced_track",
-      "count": 1
-    },
-    "count": 1
-  }
-],
+        {
+          id: "1F5F586D0FF99197",
+          type: "item",
+          item: {
+            id: "railcraft:reinforced_track",
+            count: 1,
+          },
+        },
+      ],
       rewards: [
         {
           id: "16FE7D455E71D0B7",
@@ -280,10 +341,19 @@
     {
       x: 15.2,
       y: 5.4,
-      dependencies: ["045F4959AFE3FBE1"],
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"045F4959AFE3FBE1":[16.1,3.6,15.2,5.4]},
+      dependencies: [
+        "045F4959AFE3FBE1",
+      ],
+      dep_control_pts: {
+        "045F4959AFE3FBE1": [
+          16.1,
+          3.6,
+          15.2,
+          5.4,
+        ],
+      },
+      size: 1.0,
       id: "27BEF952A72213D1",
       tasks: [
         {
@@ -320,12 +390,21 @@
       ],
     },
     {
-      x: 17,
+      x: 17.0,
       y: 5.4,
-      dependencies: ["045F4959AFE3FBE1"],
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"045F4959AFE3FBE1":[16.1,3.6,17,5.4]},
+      dependencies: [
+        "045F4959AFE3FBE1",
+      ],
+      dep_control_pts: {
+        "045F4959AFE3FBE1": [
+          16.1,
+          3.6,
+          17.0,
+          5.4,
+        ],
+      },
+      size: 1.0,
       id: "3B39A9D281F98E25",
       tasks: [
         {
@@ -362,13 +441,22 @@
       ],
     },
     {
-      x: 0,
+      x: 0.0,
       y: 8.6,
-      dependencies: ["045F4959AFE3FBE1"],
-      hide_dependency_lines: true,
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"045F4959AFE3FBE1":[16.1,3.6,0,8.6]},
+      hide_dependency_lines: true,
+      dependencies: [
+        "045F4959AFE3FBE1",
+      ],
+      dep_control_pts: {
+        "045F4959AFE3FBE1": [
+          16.1,
+          3.6,
+          0.0,
+          8.6,
+        ],
+      },
+      size: 1.0,
       id: "64BECEE944AFB246",
       tasks: [
         {
@@ -397,13 +485,22 @@
       ],
     },
     {
-      x: 0,
+      x: 0.0,
       y: 10.4,
-      dependencies: ["443202C1EB8EE037"],
-      hide_dependency_lines: true,
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"443202C1EB8EE037":[5.4,0,0,10.4]},
+      hide_dependency_lines: true,
+      dependencies: [
+        "443202C1EB8EE037",
+      ],
+      dep_control_pts: {
+        "443202C1EB8EE037": [
+          5.4,
+          0.0,
+          0.0,
+          10.4,
+        ],
+      },
+      size: 1.0,
       id: "7D358635E20DA9DF",
       tasks: [
         {
@@ -441,11 +538,20 @@
     {
       x: 1.8,
       y: 9.5,
-      optional: true,
-      dependencies: ["7D358635E20DA9DF"],
       shape: "diamond",
-      size: 1,
-      dep_control_pts: {"7D358635E20DA9DF":[0,10.4,1.8,9.5]},
+      dependencies: [
+        "7D358635E20DA9DF",
+      ],
+      dep_control_pts: {
+        "7D358635E20DA9DF": [
+          0.0,
+          10.4,
+          1.8,
+          9.5,
+        ],
+      },
+      size: 1.0,
+      optional: true,
       id: "706488FC432710E2",
       tasks: [
         {
@@ -468,10 +574,26 @@
     {
       x: 1.8,
       y: 11.3,
-      dependencies: ["7D358635E20DA9DF","64BECEE944AFB246"],
       shape: "gear",
+      dependencies: [
+        "7D358635E20DA9DF",
+        "64BECEE944AFB246",
+      ],
+      dep_control_pts: {
+        "64BECEE944AFB246": [
+          0.0,
+          8.6,
+          1.8,
+          11.3,
+        ],
+        "7D358635E20DA9DF": [
+          0.0,
+          10.4,
+          1.8,
+          11.3,
+        ],
+      },
       size: 1.3,
-      dep_control_pts: {"7D358635E20DA9DF":[0,10.4,1.8,11.3],"64BECEE944AFB246":[0,8.6,1.8,11.3]},
       id: "0D83328FFB568D9A",
       tasks: [
         {
@@ -500,31 +622,46 @@
     {
       x: 3.6,
       y: 8.6,
-      optional: true,
-      dependencies: ["0D83328FFB568D9A","706488FC432710E2"],
       shape: "diamond",
-      size: 1,
-      dep_control_pts: {"0D83328FFB568D9A":[1.8,11.3,3.6,8.6],"706488FC432710E2":[1.8,9.5,3.6,8.6]},
+      dependencies: [
+        "0D83328FFB568D9A",
+        "706488FC432710E2",
+      ],
+      dep_control_pts: {
+        "706488FC432710E2": [
+          1.8,
+          9.5,
+          3.6,
+          8.6,
+        ],
+        "0D83328FFB568D9A": [
+          1.8,
+          11.3,
+          3.6,
+          8.6,
+        ],
+      },
+      size: 1.0,
+      optional: true,
       id: "2441909C9FF9D045",
       tasks: [
-  {
-    "id": "0636FF459D33F9B7",
-    "type": "item",
-    "item": {
-      "id": "railcraft:electric_locomotive",
-      "count": 1
-    }
-  },
-  {
-    "id": "32A166214D37EF6E",
-    "type": "item",
-    "item": {
-      "id": "railcraft:electric_track",
-      "count": 1
-    },
-    "count": 1
-  }
-],
+        {
+          id: "0636FF459D33F9B7",
+          type: "item",
+          item: {
+            id: "railcraft:electric_locomotive",
+            count: 1,
+          },
+        },
+        {
+          id: "32A166214D37EF6E",
+          type: "item",
+          item: {
+            id: "railcraft:electric_track",
+            count: 1,
+          },
+        },
+      ],
       rewards: [
         {
           id: "168AFC63F190F8BF",
@@ -536,11 +673,20 @@
     {
       x: 3.6,
       y: 10.4,
-      optional: true,
-      dependencies: ["0D83328FFB568D9A"],
       shape: "diamond",
-      size: 1,
-      dep_control_pts: {"0D83328FFB568D9A":[1.8,11.3,3.6,10.4]},
+      dependencies: [
+        "0D83328FFB568D9A",
+      ],
+      dep_control_pts: {
+        "0D83328FFB568D9A": [
+          1.8,
+          11.3,
+          3.6,
+          10.4,
+        ],
+      },
+      size: 1.0,
+      optional: true,
       id: "489A99CAFDB2FC9B",
       tasks: [
         {
@@ -572,11 +718,20 @@
     {
       x: 3.6,
       y: 12.2,
-      optional: true,
-      dependencies: ["0D83328FFB568D9A"],
       shape: "diamond",
-      size: 1,
-      dep_control_pts: {"0D83328FFB568D9A":[1.8,11.3,3.6,12.2]},
+      dependencies: [
+        "0D83328FFB568D9A",
+      ],
+      dep_control_pts: {
+        "0D83328FFB568D9A": [
+          1.8,
+          11.3,
+          3.6,
+          12.2,
+        ],
+      },
+      size: 1.0,
+      optional: true,
       id: "0441725B024EBDCF",
       tasks: [
         {
@@ -603,13 +758,22 @@
       ],
     },
     {
-      x: 0,
+      x: 0.0,
       y: 12.2,
-      dependencies: ["443202C1EB8EE037"],
-      hide_dependency_lines: true,
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"443202C1EB8EE037":[5.4,0,0,12.2]},
+      hide_dependency_lines: true,
+      dependencies: [
+        "443202C1EB8EE037",
+      ],
+      dep_control_pts: {
+        "443202C1EB8EE037": [
+          5.4,
+          0.0,
+          0.0,
+          12.2,
+        ],
+      },
+      size: 1.0,
       id: "78AF58A8966496C3",
       tasks: [
         {
@@ -633,53 +797,41 @@
   quest_links: [
   ],
   images: [
-  {
-    "x": 8.5,
-    "y": -1.7188,
-    "width": 12,
-    "height": 1.4375,
-    "rotation": 0,
-    "image": "gspack:textures/quests/railcraft_header.png",
-    "color": 16777215,
-    "alpha": 255,
-    "order": 0,
-    "corner": false
-  },
-  {
-    "x": -1.8,
-    "y": 8.6,
-    "width": 1.8,
-    "height": 0.6,
-    "rotation": 0,
-    "image": "gspack:textures/quests/railcraft_loaders.png",
-    "color": 16777215,
-    "alpha": 255,
-    "order": 0,
-    "corner": false
-  },
-  {
-    "x": 13.3647,
-    "y": 0,
-    "width": 1.8706,
-    "height": 0.6,
-    "rotation": 0,
-    "image": "gspack:textures/quests/railcraft_crowbar.png",
-    "color": 16777215,
-    "alpha": 255,
-    "order": 0,
-    "corner": false
-  },
-  {
-    "x": -1.6765,
-    "y": 0,
-    "width": 1.5529,
-    "height": 0.6,
-    "rotation": 0,
-    "image": "gspack:textures/quests/railcraft_coke_oven.png",
-    "color": 16777215,
-    "alpha": 255,
-    "order": 0,
-    "corner": false
-  }
-],
+    {
+      x: 8.5,
+      y: -1.7188,
+      width: 12.0,
+      height: 1.4375,
+      rotation: 0.0,
+      image: "gspack:textures/quests/railcraft_header.png",
+      id: "542F7A79B8008422",
+    },
+    {
+      x: -1.8,
+      y: 8.6,
+      width: 1.8,
+      height: 0.6,
+      rotation: 0.0,
+      image: "gspack:textures/quests/railcraft_loaders.png",
+      id: "544DB3E0A0857EDD",
+    },
+    {
+      x: 13.3647,
+      y: 0.0,
+      width: 1.8706,
+      height: 0.6,
+      rotation: 0.0,
+      image: "gspack:textures/quests/railcraft_crowbar.png",
+      id: "1F2097F03FF72969",
+    },
+    {
+      x: -1.6765,
+      y: 0.0,
+      width: 1.5529,
+      height: 0.6,
+      rotation: 0.0,
+      image: "gspack:textures/quests/railcraft_coke_oven.png",
+      id: "1D2E78B2DFE8A966",
+    },
+  ],
 }

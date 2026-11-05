@@ -1,0 +1,8 @@
+{
+  "entryname": "replica",
+  "oretag": "gspack:potionsmaster/replica",
+  "color": -9995912,
+  "drawing": false,
+  "order": 50,
+  "recipeItem": "replication:raw_replica"
+}

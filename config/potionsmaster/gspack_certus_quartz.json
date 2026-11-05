@@ -1,0 +1,8 @@
+{
+  "entryname": "certus_quartz",
+  "oretag": "gspack:potionsmaster/certus_quartz",
+  "color": -6969478,
+  "drawing": false,
+  "order": 9,
+  "recipeItem": "ae2:certus_quartz_crystal"
+}

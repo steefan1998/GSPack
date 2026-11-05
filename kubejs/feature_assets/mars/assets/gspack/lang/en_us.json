@@ -1,0 +1,10 @@
+{
+  "planet.stellaris.mars": "Mars",
+  "dimension.stellaris.mars": "Mars",
+  "biome.gspack.mars": "Martian Wastes",
+  "block.gspack.mars_unobtainium_ore": "Mars Unobtainium Ore",
+  "item.gspack.mars_unobtainium_ore": "Mars Unobtainium Ore",
+  "biome.gspack.mars_frozen_wastes": "Martian Frozen Wastes",
+  "biome.gspack.mars_dome_fields": "Martian Research Wastes",
+  "biome.gspack.mars_colony_flats": "Martian Colony Flats"
+}

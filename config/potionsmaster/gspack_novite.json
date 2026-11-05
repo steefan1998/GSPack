@@ -1,0 +1,8 @@
+{
+  "entryname": "novite",
+  "oretag": "gspack:potionsmaster/novite",
+  "color": -9592234,
+  "drawing": false,
+  "order": 43,
+  "recipeItem": "stellaris:raw_novite"
+}

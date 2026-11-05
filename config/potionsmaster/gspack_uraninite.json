@@ -1,0 +1,8 @@
+{
+  "entryname": "uraninite",
+  "oretag": "gspack:potionsmaster/uraninite",
+  "color": -12525640,
+  "drawing": false,
+  "order": 61,
+  "recipeItem": "powah:uraninite"
+}

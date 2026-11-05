@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "ltxi:deepslate_titanium_ore",
+      "required": false
+    },
+    {
+      "id": "ltxi:titanium_ore",
+      "required": false
+    },
+    {
+      "id": "stellaris:deepslate_titanium_ore",
+      "required": false
+    },
+    {
+      "id": "stellaris:moon_titanium_ore",
+      "required": false
+    },
+    {
+      "id": "stellaris:titanium_ore",
+      "required": false
+    }
+  ]
+}

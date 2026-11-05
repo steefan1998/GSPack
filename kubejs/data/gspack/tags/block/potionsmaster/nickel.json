@@ -1,0 +1,41 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "alltheores:deepslate_nickel_ore",
+      "required": false
+    },
+    {
+      "id": "alltheores:end_nickel_ore",
+      "required": false
+    },
+    {
+      "id": "alltheores:nether_nickel_ore",
+      "required": false
+    },
+    {
+      "id": "alltheores:nickel_ore",
+      "required": false
+    },
+    {
+      "id": "alltheores:other_nickel_ore",
+      "required": false
+    },
+    {
+      "id": "oritech:deepslate_nickel_ore",
+      "required": false
+    },
+    {
+      "id": "oritech:nickel_ore",
+      "required": false
+    },
+    {
+      "id": "railcraft:deepslate_nickel_ore",
+      "required": false
+    },
+    {
+      "id": "railcraft:nickel_ore",
+      "required": false
+    }
+  ]
+}

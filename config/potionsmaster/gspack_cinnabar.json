@@ -1,0 +1,8 @@
+{
+  "entryname": "cinnabar",
+  "oretag": "gspack:potionsmaster/cinnabar",
+  "color": -5319016,
+  "drawing": false,
+  "order": 11,
+  "recipeItem": "alltheores:cinnabar"
+}

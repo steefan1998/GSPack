@@ -1,0 +1,8 @@
+{
+  "entryname": "redstone",
+  "oretag": "gspack:potionsmaster/redstone",
+  "color": -65536,
+  "drawing": false,
+  "order": 49,
+  "recipeItem": "minecraft:redstone"
+}

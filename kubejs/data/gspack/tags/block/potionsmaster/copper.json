@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "gspack:mars_copper_ore",
+      "required": false
+    },
+    {
+      "id": "minecraft:copper_ore",
+      "required": false
+    },
+    {
+      "id": "minecraft:deepslate_copper_ore",
+      "required": false
+    }
+  ]
+}

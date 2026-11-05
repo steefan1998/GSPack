@@ -1,0 +1,8 @@
+{
+  "entryname": "nickel",
+  "oretag": "gspack:potionsmaster/nickel",
+  "color": -7904138,
+  "drawing": false,
+  "order": 41,
+  "recipeItem": "alltheores:raw_nickel"
+}

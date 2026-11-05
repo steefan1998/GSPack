@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "alltheores:deepslate_sapphire_ore",
+      "required": false
+    },
+    {
+      "id": "alltheores:end_sapphire_ore",
+      "required": false
+    },
+    {
+      "id": "alltheores:nether_sapphire_ore",
+      "required": false
+    },
+    {
+      "id": "alltheores:other_sapphire_ore",
+      "required": false
+    },
+    {
+      "id": "alltheores:sapphire_ore",
+      "required": false
+    }
+  ]
+}

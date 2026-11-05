@@ -1,0 +1,91 @@
+{
+  "ungrouped": [
+    "welcome",
+    "basics",
+    "progression"
+  ],
+  "groups": [
+    {
+      "key": "tech",
+      "title": "Technology",
+      "chapters": [
+        "mekanism",
+        "colossalreactors",
+        "ae2",
+        "extendedcrafting",
+        "oritech",
+        "tinkers",
+        "ltx",
+        "railcraft",
+        "justdirethings",
+        "utilities"
+      ]
+    },
+    {
+      "key": "magic",
+      "title": "Magic",
+      "chapters": [
+        "thaumaturge",
+        "equivox",
+        "apotheosis",
+        "roots",
+        "evilcraft",
+        "neovitae"
+      ]
+    },
+    {
+      "key": "farming",
+      "title": "Farming",
+      "chapters": [
+        "farming",
+        "mystical",
+        "seeds",
+        "productivebees",
+        "productivetrees",
+        "productivefarming",
+        "aquaculture"
+      ]
+    },
+    {
+      "key": "explore",
+      "title": "Exploration & Dimensions",
+      "chapters": [
+        "allthemodium",
+        "aether",
+        "bumblezone",
+        "twilight",
+        "stellaris",
+        "dungeons",
+        "wildlife",
+        "hunting"
+      ]
+    },
+    {
+      "key": "base",
+      "title": "Storage & Building",
+      "chapters": [
+        "storage",
+        "building"
+      ]
+    },
+    {
+      "key": "cores",
+      "title": "Cores",
+      "chapters": [
+        "core_tech",
+        "core_arcane",
+        "core_verdant",
+        "core_dimensional",
+        "core_cosmic"
+      ]
+    },
+    {
+      "key": "endgame",
+      "title": "Endgame",
+      "chapters": [
+        "endgame",
+        "trophy"
+      ]
+    }
+  ]
+}

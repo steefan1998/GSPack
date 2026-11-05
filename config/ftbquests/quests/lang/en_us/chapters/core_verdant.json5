@@ -1,0 +1,62 @@
+{
+  "quest.306610460778977D.title": "Assembly Materials",
+  "quest.78B8F359CBF4E92B.quest_desc": [
+    "Use the Elite Crafting Table (7x7). The outer frame requires 4 Elite Components, 16 Black Iron Ingots and 4 double-compressed Emerald Blocks. Fill all 25 inner slots with the farming components and diverse harvest shown in JEI."
+  ],
+  "quest.7AF5618749CFE7F1.quest_desc": [
+    "Required mod: mysticalagradditions. Produce this component through that mod. Crafting consumes the quantities listed in JEI."
+  ],
+  "quest.78B8F359CBF4E92B.title": "Elite Crafting Table",
+  "quest.0E18C5278292EA73.quest_desc": [
+    "Required mod: productivefarming. Produce this component through that mod. Crafting consumes the quantities listed in JEI."
+  ],
+  "quest.30288FF644FC88DF.quest_desc": [
+    "Complete this route independently. Quests do not consume ingredients. JEI shows exact quantities. Combine all five cores in a Powah Energizing Orb with 1 billion FE."
+  ],
+  "quest.7AF5618749CFE7F1.title": "Insanium Gemstone Block",
+  "quest.272C25A35AADC6C8.title": "Time Traveller Sapling",
+  "quest.306610460778977D.quest_desc": [
+    "Prepare these materials in the full quantities shown by JEI. Frame ingredients are required as well as the central mod components."
+  ],
+  "quest.4172DB7F8CE82B28.title": "Cured Rubber",
+  "quest.071A0D4B4B51E96D.title": "Verdant Core",
+  "quest.7A69376BCE6B8D26.quest_desc": [
+    "Required mod: mysticalagriculture. Produce this component through that mod. Crafting consumes the quantities listed in JEI."
+  ],
+  "quest.0E18C5278292EA73.title": "Farm Controller",
+  "quest.7A69376BCE6B8D26.title": "Unobtainium Seeds",
+  "quest.4172DB7F8CE82B28.quest_desc": [
+    "Required mod: productivetrees. Produce this component through that mod. Crafting consumes the quantities listed in JEI."
+  ],
+  "quest.071A0D4B4B51E96D.quest_desc": [
+    "Craft this core and continue in Endgame: Infinity. Every Creative Singularity needs all five cores."
+  ],
+  "quest.272C25A35AADC6C8.quest_desc": [
+    "Required mod: productivetrees. Produce this component through that mod. Crafting consumes the quantities listed in JEI."
+  ],
+  "quest.30288FF644FC88DF.title": "Verdant Core: Start",
+  "chapter.55EFD4C346458C1B.chapter_subtitle": [
+    "Master the ingredients and craft this endgame core."
+  ],
+  "chapter.55EFD4C346458C1B.title": "Verdant Core",
+  "quest.0DFECF9CD76B36E1.quest_desc": [
+    "Required mod: productivefarming. Produce this component through that mod. Crafting consumes the quantities listed in JEI."
+  ],
+  "quest.0DFECF9CD76B36E1.title": "Barley Seeds Bag",
+  "quest.2F4F00B31BBF795B.quest_desc": [
+    "The Verdant Core combines vanilla farming, Productive Trees, Productive Farming, Mystical Agriculture and Aquaculture. Produce every crop in this task. The 7x7 recipe uses all 25 inner slots. Productive Bees remains optional."
+  ],
+  "quest.2F4F00B31BBF795B.title": "A Complete Harvest",
+  "quest.3BE924D0362B7991.quest_desc": [
+    "Required mod: productivefarming. Produce this component through that mod. Crafting consumes the quantities listed in JEI."
+  ],
+  "quest.3BE924D0362B7991.title": "Onion Crate",
+  "quest.403D6FBDBABB2E88.quest_desc": [
+    "Required mod: aquaculture. Produce this component through that mod. Crafting consumes the quantities listed in JEI."
+  ],
+  "quest.403D6FBDBABB2E88.title": "Neptunium Block",
+  "quest.5875CEFC1DC5CF9F.quest_desc": [
+    "Required mod: productivetrees. Produce this component through that mod. Crafting consumes the quantities listed in JEI."
+  ],
+  "quest.5875CEFC1DC5CF9F.title": "Maple Syrup"
+}

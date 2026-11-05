@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "ltxi:niobium_ore",
+      "required": false
+    }
+  ]
+}

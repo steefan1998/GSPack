@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "gspack:mars_iron_ore",
+      "required": false
+    },
+    {
+      "id": "minecraft:deepslate_iron_ore",
+      "required": false
+    },
+    {
+      "id": "minecraft:iron_ore",
+      "required": false
+    },
+    {
+      "id": "stellaris:moon_stone_iron_ore",
+      "required": false
+    }
+  ]
+}

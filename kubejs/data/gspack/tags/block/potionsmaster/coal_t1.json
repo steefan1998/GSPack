@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "justdirethings:raw_coal_t1_ore",
+      "required": false
+    }
+  ]
+}

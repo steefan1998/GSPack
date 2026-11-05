@@ -1,0 +1,8 @@
+{
+  "entryname": "zinc",
+  "oretag": "gspack:potionsmaster/zinc",
+  "color": -6828473,
+  "drawing": false,
+  "order": 65,
+  "recipeItem": "alltheores:raw_zinc"
+}

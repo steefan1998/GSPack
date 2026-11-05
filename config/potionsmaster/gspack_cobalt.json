@@ -1,0 +1,8 @@
+{
+  "entryname": "cobalt",
+  "oretag": "gspack:potionsmaster/cobalt",
+  "color": -12427929,
+  "drawing": false,
+  "order": 17,
+  "recipeItem": "tconstruct:raw_cobalt"
+}

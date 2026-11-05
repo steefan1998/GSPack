@@ -9,131 +9,125 @@
       id: "21164688CEA70421",
       item: {
         id: "aether_ii:ambrosium_shard",
-        count: 1
+        count: 1,
       },
       count: 16,
-      weight: 20
+      weight: 20.0,
     },
     {
       id: "6D35C8B403D6E601",
       item: {
         id: "aether_ii:skyroot_log",
-        count: 1
+        count: 1,
       },
       count: 16,
-      weight: 15
+      weight: 15.0,
     },
     {
       id: "2043F78673808419",
       item: {
         id: "aether_ii:zanite_gemstone",
-        count: 1
+        count: 1,
       },
       count: 4,
-      weight: 15
+      weight: 15.0,
     },
     {
       id: "6C28F688B31F9B3C",
       item: {
         id: "aether_ii:blueberry",
-        count: 1
+        count: 1,
       },
       count: 8,
-      weight: 12
+      weight: 12.0,
     },
     {
       id: "30973266DAD78128",
       item: {
         id: "aether_ii:cold_aercloud",
-        count: 1
+        count: 1,
       },
       count: 8,
-      weight: 10
+      weight: 10.0,
     },
     {
       id: "0AF799ECDAA61AB2",
       item: {
         id: "aether_ii:glint_coin",
-        count: 1
+        count: 1,
       },
       count: 8,
-      weight: 10
+      weight: 10.0,
     },
     {
       id: "703C2FC37C25E768",
       item: {
         id: "aether_ii:healing_stone",
-        count: 1
+        count: 1,
       },
-      weight: 6
+      weight: 6.0,
     },
     {
       id: "4543EA3166FACF66",
       item: {
         id: "aether_ii:gravitite_plate",
-        count: 1
+        count: 1,
       },
-      weight: 3
+      weight: 3.0,
     },
     {
       id: "3A1D2ACF011A0BC9",
-      type: "item",
       item: {
+        id: "minecraft:feather",
         count: 1,
-        id: "minecraft:feather"
       },
       count: 16,
-      weight: 10
+      weight: 10.0,
     },
     {
       id: "54A98BB657CB1074",
-      type: "item",
       item: {
+        id: "minecraft:white_wool",
         count: 1,
-        id: "minecraft:white_wool"
       },
       count: 16,
-      weight: 10
+      weight: 10.0,
     },
     {
       id: "26CF94CC1611912F",
-      type: "item",
       item: {
+        id: "minecraft:golden_carrot",
         count: 1,
-        id: "minecraft:golden_carrot"
       },
       count: 8,
-      weight: 8
+      weight: 8.0,
     },
     {
       id: "4826C6375DC32355",
-      type: "item",
       item: {
+        id: "minecraft:glowstone_dust",
         count: 1,
-        id: "minecraft:glowstone_dust"
       },
       count: 16,
-      weight: 10
+      weight: 10.0,
     },
     {
       id: "11B177699A71F2F5",
-      type: "item",
       item: {
+        id: "minecraft:arrow",
         count: 1,
-        id: "minecraft:arrow"
       },
       count: 32,
-      weight: 10
+      weight: 10.0,
     },
     {
       id: "576BF10A012D6B1A",
-      type: "item",
       item: {
+        id: "minecraft:experience_bottle",
         count: 1,
-        id: "minecraft:experience_bottle"
       },
       count: 8,
-      weight: 8
-    }
-  ]
+      weight: 8.0,
+    },
+  ],
 }

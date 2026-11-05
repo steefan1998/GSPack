@@ -1,22 +1,25 @@
 {
   id: "674CEC491DA62D7F",
   group: "105EE503AFE85CA5",
-  order_index: 2,
-  filename: "extendedcrafting",
+  order_index: 6,
   icon: {
-    count: 1,
     id: "extendedcrafting:ultimate_table",
+    count: 1,
   },
+  filename: "extendedcrafting",
   default_quest_shape: "",
   default_hide_dependency_lines: false,
   quests: [
     {
-      id: "332E93979B2F1408",
-      icon: { id: "extendedcrafting:ultimate_table", count: 1 },
+      icon: {
+        id: "extendedcrafting:ultimate_table",
+        count: 1,
+      },
       x: 0.0,
       y: 0.9,
       shape: "gear",
       size: 1.3,
+      id: "332E93979B2F1408",
       tasks: [
         {
           id: "2C385A1507E618F6",
@@ -32,16 +35,15 @@
         {
           id: "64464249CB6DB99E",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 4224964620844649,
         },
       ],
     },
     {
-      id: "18AB3867111779A8",
       x: 1.8,
       y: 0.9,
       shape: "circle",
-      size: 1.0,
       dependencies: [
         "332E93979B2F1408",
       ],
@@ -53,13 +55,15 @@
           0.9,
         ],
       },
+      size: 1.0,
+      id: "18AB3867111779A8",
       tasks: [
         {
           id: "3D771CD07694BFF8",
           type: "item",
           item: {
-            count: 1,
             id: "extendedcrafting:black_iron_ingot",
+            count: 1,
           },
         },
       ],
@@ -72,15 +76,12 @@
       ],
     },
     {
-      id: "0B1E8B5FE8D9DD13",
       x: 3.6,
       y: 0.0,
       shape: "diamond",
-      size: 1.0,
       dependencies: [
         "18AB3867111779A8",
       ],
-      optional: true,
       dep_control_pts: {
         "18AB3867111779A8": [
           1.8,
@@ -89,13 +90,16 @@
           0.0,
         ],
       },
+      size: 1.0,
+      optional: true,
+      id: "0B1E8B5FE8D9DD13",
       tasks: [
         {
           id: "693CD06F10251968",
           type: "item",
           item: {
-            count: 1,
             id: "extendedcrafting:black_iron_slate",
+            count: 1,
           },
         },
       ],
@@ -108,11 +112,9 @@
       ],
     },
     {
-      id: "4A3E1BC7C9F1BFC3",
       x: 3.6,
       y: 1.8,
       shape: "circle",
-      size: 1.0,
       dependencies: [
         "18AB3867111779A8",
       ],
@@ -124,13 +126,15 @@
           1.8,
         ],
       },
+      size: 1.0,
+      id: "4A3E1BC7C9F1BFC3",
       tasks: [
         {
           id: "26737ED2A1DD2746",
           type: "item",
           item: {
-            count: 1,
             id: "extendedcrafting:luminessence",
+            count: 1,
           },
         },
       ],
@@ -143,11 +147,9 @@
       ],
     },
     {
-      id: "14675A47F1034803",
       x: 5.4,
       y: 0.9,
       shape: "circle",
-      size: 1.0,
       dependencies: [
         "4A3E1BC7C9F1BFC3",
       ],
@@ -159,21 +161,23 @@
           0.9,
         ],
       },
+      size: 1.0,
+      id: "14675A47F1034803",
       tasks: [
         {
           id: "7CA5D09116EFFE25",
           type: "item",
           item: {
-            count: 1,
             id: "extendedcrafting:basic_component",
+            count: 1,
           },
         },
         {
           id: "51C6D0ECB041A770",
           type: "item",
           item: {
-            count: 1,
             id: "extendedcrafting:basic_catalyst",
+            count: 1,
           },
         },
       ],
@@ -186,15 +190,13 @@
       ],
     },
     {
-      id: "3EF87F711B496FFA",
       x: 13.4,
       y: 0.0,
       shape: "gear",
-      size: 1.3,
+      hide_dependency_lines: true,
       dependencies: [
         "14675A47F1034803",
       ],
-      hide_dependency_lines: true,
       dep_control_pts: {
         "14675A47F1034803": [
           5.4,
@@ -203,13 +205,15 @@
           0.0,
         ],
       },
+      size: 1.3,
+      id: "3EF87F711B496FFA",
       tasks: [
         {
           id: "16AE14CD8105D043",
           type: "item",
           item: {
-            count: 1,
             id: "extendedcrafting:basic_table",
+            count: 1,
           },
         },
       ],
@@ -222,16 +226,15 @@
         {
           id: "2AEE167D64A682A3",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 253752461985528,
         },
       ],
     },
     {
-      id: "2562B72D1A5D81B2",
       x: 13.4,
       y: 1.8,
       shape: "circle",
-      size: 1.0,
       dependencies: [
         "3EF87F711B496FFA",
       ],
@@ -243,21 +246,23 @@
           1.8,
         ],
       },
+      size: 1.0,
+      id: "2562B72D1A5D81B2",
       tasks: [
         {
           id: "7196A8C1FC4E2C00",
           type: "item",
           item: {
-            count: 1,
             id: "extendedcrafting:advanced_component",
+            count: 1,
           },
         },
         {
           id: "0A2D95235BEE16E2",
           type: "item",
           item: {
-            count: 1,
             id: "extendedcrafting:advanced_catalyst",
+            count: 1,
           },
         },
       ],
@@ -270,11 +275,9 @@
       ],
     },
     {
-      id: "0064AF6558A64DC5",
       x: 13.4,
       y: 3.6,
       shape: "gear",
-      size: 1.3,
       dependencies: [
         "2562B72D1A5D81B2",
       ],
@@ -286,13 +289,15 @@
           3.6,
         ],
       },
+      size: 1.3,
+      id: "0064AF6558A64DC5",
       tasks: [
         {
           id: "103C348F37DFA49D",
           type: "item",
           item: {
-            count: 1,
             id: "extendedcrafting:advanced_table",
+            count: 1,
           },
         },
       ],
@@ -305,16 +310,15 @@
         {
           id: "2AA6EAB8BE2D1B64",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 253752461985528,
         },
       ],
     },
     {
-      id: "6D5315B2C427EECF",
       x: 13.4,
       y: 5.4,
       shape: "circle",
-      size: 1.0,
       dependencies: [
         "0064AF6558A64DC5",
       ],
@@ -326,21 +330,23 @@
           5.4,
         ],
       },
+      size: 1.0,
+      id: "6D5315B2C427EECF",
       tasks: [
         {
           id: "386F125CD24C44F4",
           type: "item",
           item: {
-            count: 1,
             id: "extendedcrafting:elite_component",
+            count: 1,
           },
         },
         {
           id: "5D73ED66AE92ED8A",
           type: "item",
           item: {
-            count: 1,
             id: "extendedcrafting:elite_catalyst",
+            count: 1,
           },
         },
       ],
@@ -353,11 +359,9 @@
       ],
     },
     {
-      id: "48F7BBDC8926B0D8",
       x: 13.4,
       y: 7.2,
       shape: "gear",
-      size: 1.3,
       dependencies: [
         "6D5315B2C427EECF",
       ],
@@ -369,13 +373,15 @@
           7.2,
         ],
       },
+      size: 1.3,
+      id: "48F7BBDC8926B0D8",
       tasks: [
         {
           id: "3C376DF12371BE0F",
           type: "item",
           item: {
-            count: 1,
             id: "extendedcrafting:elite_table",
+            count: 1,
           },
         },
       ],
@@ -388,16 +394,15 @@
         {
           id: "6C3A35EA6E7A2A9E",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "62DFF79BF78BAC00",
       x: 13.4,
       y: 9.0,
       shape: "circle",
-      size: 1.0,
       dependencies: [
         "48F7BBDC8926B0D8",
       ],
@@ -409,21 +414,23 @@
           9.0,
         ],
       },
+      size: 1.0,
+      id: "62DFF79BF78BAC00",
       tasks: [
         {
           id: "33772E537E6B1471",
           type: "item",
           item: {
-            count: 1,
             id: "extendedcrafting:ultimate_component",
+            count: 1,
           },
         },
         {
           id: "0EC16B0CA9BB2770",
           type: "item",
           item: {
-            count: 1,
             id: "extendedcrafting:ultimate_catalyst",
+            count: 1,
           },
         },
       ],
@@ -436,11 +443,9 @@
       ],
     },
     {
-      id: "72FF85D6A13BE86B",
       x: 13.4,
       y: 10.8,
       shape: "gear",
-      size: 1.3,
       dependencies: [
         "62DFF79BF78BAC00",
       ],
@@ -452,13 +457,15 @@
           10.8,
         ],
       },
+      size: 1.3,
+      id: "72FF85D6A13BE86B",
       tasks: [
         {
           id: "16C719B5062F182D",
           type: "item",
           item: {
-            count: 1,
             id: "extendedcrafting:ultimate_table",
+            count: 1,
           },
         },
       ],
@@ -471,20 +478,19 @@
         {
           id: "5CB4A412F2554C9C",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 379532711335085,
         },
       ],
     },
     {
-      id: "758B8EC251BE6248",
       x: 21.4,
       y: 0.0,
       shape: "circle",
-      size: 1.0,
+      hide_dependency_lines: true,
       dependencies: [
         "48F7BBDC8926B0D8",
       ],
-      hide_dependency_lines: true,
       dep_control_pts: {
         "48F7BBDC8926B0D8": [
           13.4,
@@ -493,13 +499,15 @@
           0.0,
         ],
       },
+      size: 1.0,
+      id: "758B8EC251BE6248",
       tasks: [
         {
           id: "41F76054EC4058C8",
           type: "item",
           item: {
-            count: 1,
             id: "extendedcrafting:crystaltine_ingot",
+            count: 1,
           },
         },
       ],
@@ -512,11 +520,9 @@
       ],
     },
     {
-      id: "729C2A01C97A9B59",
       x: 23.2,
       y: 0.0,
       shape: "circle",
-      size: 1.0,
       dependencies: [
         "758B8EC251BE6248",
       ],
@@ -528,21 +534,23 @@
           0.0,
         ],
       },
+      size: 1.0,
+      id: "729C2A01C97A9B59",
       tasks: [
         {
           id: "705939A3EE902997",
           type: "item",
           item: {
-            count: 1,
             id: "extendedcrafting:crystaltine_block",
+            count: 1,
           },
         },
         {
           id: "16F336F1133A8264",
           type: "item",
           item: {
-            count: 1,
             id: "extendedcrafting:nether_star_block",
+            count: 1,
           },
         },
       ],
@@ -555,16 +563,13 @@
       ],
     },
     {
-      id: "47F9FA74B1CCFD3E",
       x: 0.0,
       y: 14.0,
       shape: "diamond",
-      size: 1.0,
+      hide_dependency_lines: true,
       dependencies: [
         "3EF87F711B496FFA",
       ],
-      optional: true,
-      hide_dependency_lines: true,
       dep_control_pts: {
         "3EF87F711B496FFA": [
           13.4,
@@ -573,13 +578,16 @@
           14.0,
         ],
       },
+      size: 1.0,
+      optional: true,
+      id: "47F9FA74B1CCFD3E",
       tasks: [
         {
           id: "6706B2DE855A84C3",
           type: "item",
           item: {
-            count: 1,
             id: "extendedcrafting:basic_auto_table",
+            count: 1,
           },
         },
       ],
@@ -592,16 +600,13 @@
       ],
     },
     {
-      id: "4270A72134950D16",
       x: 0.0,
       y: 15.8,
       shape: "diamond",
-      size: 1.0,
+      hide_dependency_lines: true,
       dependencies: [
         "0064AF6558A64DC5",
       ],
-      optional: true,
-      hide_dependency_lines: true,
       dep_control_pts: {
         "0064AF6558A64DC5": [
           13.4,
@@ -610,13 +615,16 @@
           15.8,
         ],
       },
+      size: 1.0,
+      optional: true,
+      id: "4270A72134950D16",
       tasks: [
         {
           id: "02C255181C2ACB8F",
           type: "item",
           item: {
-            count: 1,
             id: "extendedcrafting:advanced_auto_table",
+            count: 1,
           },
         },
       ],
@@ -629,16 +637,13 @@
       ],
     },
     {
-      id: "0A3DDD9B7515597B",
       x: 0.0,
       y: 17.6,
       shape: "diamond",
-      size: 1.0,
+      hide_dependency_lines: true,
       dependencies: [
         "48F7BBDC8926B0D8",
       ],
-      optional: true,
-      hide_dependency_lines: true,
       dep_control_pts: {
         "48F7BBDC8926B0D8": [
           13.4,
@@ -647,13 +652,16 @@
           17.6,
         ],
       },
+      size: 1.0,
+      optional: true,
+      id: "0A3DDD9B7515597B",
       tasks: [
         {
           id: "4B4B0CC6B26EDFFE",
           type: "item",
           item: {
-            count: 1,
             id: "extendedcrafting:elite_auto_table",
+            count: 1,
           },
         },
       ],
@@ -666,16 +674,13 @@
       ],
     },
     {
-      id: "493CB064CAF4F63D",
       x: 0.0,
       y: 19.4,
       shape: "diamond",
-      size: 1.0,
+      hide_dependency_lines: true,
       dependencies: [
         "72FF85D6A13BE86B",
       ],
-      optional: true,
-      hide_dependency_lines: true,
       dep_control_pts: {
         "72FF85D6A13BE86B": [
           13.4,
@@ -684,13 +689,16 @@
           19.4,
         ],
       },
+      size: 1.0,
+      optional: true,
+      id: "493CB064CAF4F63D",
       tasks: [
         {
           id: "6D473B4879BFC56F",
           type: "item",
           item: {
-            count: 1,
             id: "extendedcrafting:ultimate_auto_table",
+            count: 1,
           },
         },
       ],
@@ -703,16 +711,13 @@
       ],
     },
     {
-      id: "1F0C79535E13AC87",
       x: 8.0,
       y: 14.0,
       shape: "diamond",
-      size: 1.0,
+      hide_dependency_lines: true,
       dependencies: [
         "0064AF6558A64DC5",
       ],
-      optional: true,
-      hide_dependency_lines: true,
       dep_control_pts: {
         "0064AF6558A64DC5": [
           13.4,
@@ -721,21 +726,24 @@
           14.0,
         ],
       },
+      size: 1.0,
+      optional: true,
+      id: "1F0C79535E13AC87",
       tasks: [
         {
           id: "2320C9A1EB11807F",
           type: "item",
           item: {
-            count: 1,
             id: "extendedcrafting:crafting_core",
+            count: 1,
           },
         },
         {
           id: "50E6BCD34DAF4329",
           type: "item",
           item: {
-            count: 1,
             id: "extendedcrafting:pedestal",
+            count: 1,
           },
         },
       ],
@@ -748,16 +756,13 @@
       ],
     },
     {
-      id: "4A3980AA38A85642",
       x: 9.8,
       y: 14.0,
       shape: "diamond",
-      size: 1.0,
+      hide_dependency_lines: true,
       dependencies: [
         "0064AF6558A64DC5",
       ],
-      optional: true,
-      hide_dependency_lines: true,
       dep_control_pts: {
         "0064AF6558A64DC5": [
           13.4,
@@ -766,21 +771,24 @@
           14.0,
         ],
       },
+      size: 1.0,
+      optional: true,
+      id: "4A3980AA38A85642",
       tasks: [
         {
           id: "6C1138A33C65B92A",
           type: "item",
           item: {
-            count: 1,
             id: "extendedcrafting:ender_crafter",
+            count: 1,
           },
         },
         {
           id: "3F7D39D8948D6CB6",
           type: "item",
           item: {
-            count: 1,
             id: "extendedcrafting:ender_alternator",
+            count: 1,
           },
         },
       ],
@@ -793,16 +801,13 @@
       ],
     },
     {
-      id: "27ECDAB31B71D5EE",
       x: 11.6,
       y: 14.0,
       shape: "diamond",
-      size: 1.0,
+      hide_dependency_lines: true,
       dependencies: [
         "48F7BBDC8926B0D8",
       ],
-      optional: true,
-      hide_dependency_lines: true,
       dep_control_pts: {
         "48F7BBDC8926B0D8": [
           13.4,
@@ -811,21 +816,24 @@
           14.0,
         ],
       },
+      size: 1.0,
+      optional: true,
+      id: "27ECDAB31B71D5EE",
       tasks: [
         {
           id: "264EBC7DE6B6C3F1",
           type: "item",
           item: {
-            count: 1,
             id: "extendedcrafting:flux_crafter",
+            count: 1,
           },
         },
         {
           id: "273C1E11D0B1425F",
           type: "item",
           item: {
-            count: 1,
             id: "extendedcrafting:flux_alternator",
+            count: 1,
           },
         },
       ],
@@ -838,15 +846,13 @@
       ],
     },
     {
-      id: "47194A8027FE5716",
       x: 0.0,
       y: 25.3,
       shape: "gear",
-      size: 1.3,
+      hide_dependency_lines: true,
       dependencies: [
         "48F7BBDC8926B0D8",
       ],
-      hide_dependency_lines: true,
       dep_control_pts: {
         "48F7BBDC8926B0D8": [
           13.4,
@@ -855,13 +861,15 @@
           25.3,
         ],
       },
+      size: 1.3,
+      id: "47194A8027FE5716",
       tasks: [
         {
           id: "247F7E108F947F0F",
           type: "item",
           item: {
-            count: 1,
             id: "extendedcrafting:compressor",
+            count: 1,
           },
         },
       ],
@@ -874,20 +882,18 @@
         {
           id: "513D03DA835C9770",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 2210856162803377,
         },
       ],
     },
     {
-      id: "41AC0A8AC4EDA195",
       x: 1.8,
       y: 22.6,
       shape: "diamond",
-      size: 1.0,
       dependencies: [
         "47194A8027FE5716",
       ],
-      optional: true,
       dep_control_pts: {
         "47194A8027FE5716": [
           0.0,
@@ -896,13 +902,16 @@
           22.6,
         ],
       },
+      size: 1.0,
+      optional: true,
+      id: "41AC0A8AC4EDA195",
       tasks: [
         {
           id: "7EB4225F026A466A",
           type: "item",
           item: {
-            count: 1,
             id: "extendedcrafting:singularity",
+            count: 1,
             components: {
               "extendedcrafting:singularity_id": "extendedcrafting:aluminum",
             },
@@ -919,15 +928,12 @@
       ],
     },
     {
-      id: "4CF493386F6A5863",
       x: 1.8,
       y: 24.4,
       shape: "diamond",
-      size: 1.0,
       dependencies: [
         "47194A8027FE5716",
       ],
-      optional: true,
       dep_control_pts: {
         "47194A8027FE5716": [
           0.0,
@@ -936,13 +942,16 @@
           24.4,
         ],
       },
+      size: 1.0,
+      optional: true,
+      id: "4CF493386F6A5863",
       tasks: [
         {
           id: "05AFC449BD10DAE1",
           type: "item",
           item: {
-            count: 1,
             id: "extendedcrafting:singularity",
+            count: 1,
             components: {
               "extendedcrafting:singularity_id": "extendedcrafting:bronze",
             },
@@ -959,15 +968,12 @@
       ],
     },
     {
-      id: "726EB243B6B6B399",
       x: 1.8,
       y: 26.2,
       shape: "diamond",
-      size: 1.0,
       dependencies: [
         "47194A8027FE5716",
       ],
-      optional: true,
       dep_control_pts: {
         "47194A8027FE5716": [
           0.0,
@@ -976,13 +982,16 @@
           26.2,
         ],
       },
+      size: 1.0,
+      optional: true,
+      id: "726EB243B6B6B399",
       tasks: [
         {
           id: "49714EC6781BB8B6",
           type: "item",
           item: {
-            count: 1,
             id: "extendedcrafting:singularity",
+            count: 1,
             components: {
               "extendedcrafting:singularity_id": "extendedcrafting:coal",
             },
@@ -999,15 +1008,12 @@
       ],
     },
     {
-      id: "7A8D4206928F5F65",
       x: 1.8,
       y: 28.0,
       shape: "diamond",
-      size: 1.0,
       dependencies: [
         "47194A8027FE5716",
       ],
-      optional: true,
       dep_control_pts: {
         "47194A8027FE5716": [
           0.0,
@@ -1016,13 +1022,16 @@
           28.0,
         ],
       },
+      size: 1.0,
+      optional: true,
+      id: "7A8D4206928F5F65",
       tasks: [
         {
           id: "2AAAE327EF18BA12",
           type: "item",
           item: {
-            count: 1,
             id: "extendedcrafting:singularity",
+            count: 1,
             components: {
               "extendedcrafting:singularity_id": "extendedcrafting:copper",
             },
@@ -1039,15 +1048,12 @@
       ],
     },
     {
-      id: "6A5A1AC7373958C5",
       x: 3.6,
       y: 22.6,
       shape: "diamond",
-      size: 1.0,
       dependencies: [
         "47194A8027FE5716",
       ],
-      optional: true,
       dep_control_pts: {
         "47194A8027FE5716": [
           0.0,
@@ -1056,13 +1062,16 @@
           22.6,
         ],
       },
+      size: 1.0,
+      optional: true,
+      id: "6A5A1AC7373958C5",
       tasks: [
         {
           id: "0350BE0FC78D72C9",
           type: "item",
           item: {
-            count: 1,
             id: "extendedcrafting:singularity",
+            count: 1,
             components: {
               "extendedcrafting:singularity_id": "extendedcrafting:diamond",
             },
@@ -1079,15 +1088,12 @@
       ],
     },
     {
-      id: "10B512BE6B6B8C60",
       x: 3.6,
       y: 24.4,
       shape: "diamond",
-      size: 1.0,
       dependencies: [
         "47194A8027FE5716",
       ],
-      optional: true,
       dep_control_pts: {
         "47194A8027FE5716": [
           0.0,
@@ -1096,13 +1102,16 @@
           24.4,
         ],
       },
+      size: 1.0,
+      optional: true,
+      id: "10B512BE6B6B8C60",
       tasks: [
         {
           id: "0D889A50668F3154",
           type: "item",
           item: {
-            count: 1,
             id: "extendedcrafting:singularity",
+            count: 1,
             components: {
               "extendedcrafting:singularity_id": "extendedcrafting:electrum",
             },
@@ -1119,15 +1128,12 @@
       ],
     },
     {
-      id: "30800A279127E9EE",
       x: 3.6,
       y: 26.2,
       shape: "diamond",
-      size: 1.0,
       dependencies: [
         "47194A8027FE5716",
       ],
-      optional: true,
       dep_control_pts: {
         "47194A8027FE5716": [
           0.0,
@@ -1136,13 +1142,16 @@
           26.2,
         ],
       },
+      size: 1.0,
+      optional: true,
+      id: "30800A279127E9EE",
       tasks: [
         {
           id: "4ABB1A87CBB046FB",
           type: "item",
           item: {
-            count: 1,
             id: "extendedcrafting:singularity",
+            count: 1,
             components: {
               "extendedcrafting:singularity_id": "extendedcrafting:emerald",
             },
@@ -1159,15 +1168,12 @@
       ],
     },
     {
-      id: "0EE412272ACB0570",
       x: 3.6,
       y: 28.0,
       shape: "diamond",
-      size: 1.0,
       dependencies: [
         "47194A8027FE5716",
       ],
-      optional: true,
       dep_control_pts: {
         "47194A8027FE5716": [
           0.0,
@@ -1176,13 +1182,16 @@
           28.0,
         ],
       },
+      size: 1.0,
+      optional: true,
+      id: "0EE412272ACB0570",
       tasks: [
         {
           id: "6DDCB2E4794DFFAD",
           type: "item",
           item: {
-            count: 1,
             id: "extendedcrafting:singularity",
+            count: 1,
             components: {
               "extendedcrafting:singularity_id": "extendedcrafting:glowstone",
             },
@@ -1199,15 +1208,12 @@
       ],
     },
     {
-      id: "7D5440C40808B748",
       x: 5.4,
       y: 22.6,
       shape: "diamond",
-      size: 1.0,
       dependencies: [
         "47194A8027FE5716",
       ],
-      optional: true,
       dep_control_pts: {
         "47194A8027FE5716": [
           0.0,
@@ -1216,13 +1222,16 @@
           22.6,
         ],
       },
+      size: 1.0,
+      optional: true,
+      id: "7D5440C40808B748",
       tasks: [
         {
           id: "26942999D9957B20",
           type: "item",
           item: {
-            count: 1,
             id: "extendedcrafting:singularity",
+            count: 1,
             components: {
               "extendedcrafting:singularity_id": "extendedcrafting:gold",
             },
@@ -1239,15 +1248,12 @@
       ],
     },
     {
-      id: "00C8F86867B203D3",
       x: 5.4,
       y: 24.4,
       shape: "diamond",
-      size: 1.0,
       dependencies: [
         "47194A8027FE5716",
       ],
-      optional: true,
       dep_control_pts: {
         "47194A8027FE5716": [
           0.0,
@@ -1256,13 +1262,16 @@
           24.4,
         ],
       },
+      size: 1.0,
+      optional: true,
+      id: "00C8F86867B203D3",
       tasks: [
         {
           id: "080CCE2FD5348FB0",
           type: "item",
           item: {
-            count: 1,
             id: "extendedcrafting:singularity",
+            count: 1,
             components: {
               "extendedcrafting:singularity_id": "extendedcrafting:invar",
             },
@@ -1279,15 +1288,12 @@
       ],
     },
     {
-      id: "2575F7916BF7DA5D",
       x: 5.4,
       y: 26.2,
       shape: "diamond",
-      size: 1.0,
       dependencies: [
         "47194A8027FE5716",
       ],
-      optional: true,
       dep_control_pts: {
         "47194A8027FE5716": [
           0.0,
@@ -1296,13 +1302,16 @@
           26.2,
         ],
       },
+      size: 1.0,
+      optional: true,
+      id: "2575F7916BF7DA5D",
       tasks: [
         {
           id: "7BB000BF27B217F6",
           type: "item",
           item: {
-            count: 1,
             id: "extendedcrafting:singularity",
+            count: 1,
             components: {
               "extendedcrafting:singularity_id": "extendedcrafting:iron",
             },
@@ -1319,15 +1328,12 @@
       ],
     },
     {
-      id: "7F9F5D945D3DAFB4",
       x: 5.4,
       y: 28.0,
       shape: "diamond",
-      size: 1.0,
       dependencies: [
         "47194A8027FE5716",
       ],
-      optional: true,
       dep_control_pts: {
         "47194A8027FE5716": [
           0.0,
@@ -1336,13 +1342,16 @@
           28.0,
         ],
       },
+      size: 1.0,
+      optional: true,
+      id: "7F9F5D945D3DAFB4",
       tasks: [
         {
           id: "39DE660C0A49BBDC",
           type: "item",
           item: {
-            count: 1,
             id: "extendedcrafting:singularity",
+            count: 1,
             components: {
               "extendedcrafting:singularity_id": "extendedcrafting:lapis_lazuli",
             },
@@ -1359,15 +1368,12 @@
       ],
     },
     {
-      id: "0ED902332572C70E",
       x: 7.2,
       y: 22.6,
       shape: "diamond",
-      size: 1.0,
       dependencies: [
         "47194A8027FE5716",
       ],
-      optional: true,
       dep_control_pts: {
         "47194A8027FE5716": [
           0.0,
@@ -1376,13 +1382,16 @@
           22.6,
         ],
       },
+      size: 1.0,
+      optional: true,
+      id: "0ED902332572C70E",
       tasks: [
         {
           id: "33DE9AEFBCB079F7",
           type: "item",
           item: {
-            count: 1,
             id: "extendedcrafting:singularity",
+            count: 1,
             components: {
               "extendedcrafting:singularity_id": "extendedcrafting:lead",
             },
@@ -1399,15 +1408,12 @@
       ],
     },
     {
-      id: "27EA1C65CA1BC423",
       x: 7.2,
       y: 24.4,
       shape: "diamond",
-      size: 1.0,
       dependencies: [
         "47194A8027FE5716",
       ],
-      optional: true,
       dep_control_pts: {
         "47194A8027FE5716": [
           0.0,
@@ -1416,13 +1422,16 @@
           24.4,
         ],
       },
+      size: 1.0,
+      optional: true,
+      id: "27EA1C65CA1BC423",
       tasks: [
         {
           id: "31398C6F8BA0C70D",
           type: "item",
           item: {
-            count: 1,
             id: "extendedcrafting:singularity",
+            count: 1,
             components: {
               "extendedcrafting:singularity_id": "extendedcrafting:nickel",
             },
@@ -1439,15 +1448,12 @@
       ],
     },
     {
-      id: "47F8EDE282AB01DD",
       x: 7.2,
       y: 26.2,
       shape: "diamond",
-      size: 1.0,
       dependencies: [
         "47194A8027FE5716",
       ],
-      optional: true,
       dep_control_pts: {
         "47194A8027FE5716": [
           0.0,
@@ -1456,13 +1462,16 @@
           26.2,
         ],
       },
+      size: 1.0,
+      optional: true,
+      id: "47F8EDE282AB01DD",
       tasks: [
         {
           id: "31F71EF8D375DC13",
           type: "item",
           item: {
-            count: 1,
             id: "extendedcrafting:singularity",
+            count: 1,
             components: {
               "extendedcrafting:singularity_id": "extendedcrafting:platinum",
             },
@@ -1479,15 +1488,12 @@
       ],
     },
     {
-      id: "242B6418D4C24B18",
       x: 7.2,
       y: 28.0,
       shape: "diamond",
-      size: 1.0,
       dependencies: [
         "47194A8027FE5716",
       ],
-      optional: true,
       dep_control_pts: {
         "47194A8027FE5716": [
           0.0,
@@ -1496,13 +1502,16 @@
           28.0,
         ],
       },
+      size: 1.0,
+      optional: true,
+      id: "242B6418D4C24B18",
       tasks: [
         {
           id: "18770FC0CF9BCA52",
           type: "item",
           item: {
-            count: 1,
             id: "extendedcrafting:singularity",
+            count: 1,
             components: {
               "extendedcrafting:singularity_id": "extendedcrafting:redstone",
             },
@@ -1519,15 +1528,12 @@
       ],
     },
     {
-      id: "33B7DFDBBB570022",
       x: 9.0,
       y: 23.5,
       shape: "diamond",
-      size: 1.0,
       dependencies: [
         "47194A8027FE5716",
       ],
-      optional: true,
       dep_control_pts: {
         "47194A8027FE5716": [
           0.0,
@@ -1536,13 +1542,16 @@
           23.5,
         ],
       },
+      size: 1.0,
+      optional: true,
+      id: "33B7DFDBBB570022",
       tasks: [
         {
           id: "6F49246D689FBF30",
           type: "item",
           item: {
-            count: 1,
             id: "extendedcrafting:singularity",
+            count: 1,
             components: {
               "extendedcrafting:singularity_id": "extendedcrafting:silver",
             },
@@ -1559,15 +1568,12 @@
       ],
     },
     {
-      id: "7E5ABDED275871F7",
       x: 9.0,
       y: 25.3,
       shape: "diamond",
-      size: 1.0,
       dependencies: [
         "47194A8027FE5716",
       ],
-      optional: true,
       dep_control_pts: {
         "47194A8027FE5716": [
           0.0,
@@ -1576,13 +1582,16 @@
           25.3,
         ],
       },
+      size: 1.0,
+      optional: true,
+      id: "7E5ABDED275871F7",
       tasks: [
         {
           id: "38A4D4889FFD4FD4",
           type: "item",
           item: {
-            count: 1,
             id: "extendedcrafting:singularity",
+            count: 1,
             components: {
               "extendedcrafting:singularity_id": "extendedcrafting:steel",
             },
@@ -1599,15 +1608,12 @@
       ],
     },
     {
-      id: "5C4918B9135F7E17",
       x: 9.0,
       y: 27.1,
       shape: "diamond",
-      size: 1.0,
       dependencies: [
         "47194A8027FE5716",
       ],
-      optional: true,
       dep_control_pts: {
         "47194A8027FE5716": [
           0.0,
@@ -1616,13 +1622,16 @@
           27.1,
         ],
       },
+      size: 1.0,
+      optional: true,
+      id: "5C4918B9135F7E17",
       tasks: [
         {
           id: "4A46F61835A4FCE8",
           type: "item",
           item: {
-            count: 1,
             id: "extendedcrafting:singularity",
+            count: 1,
             components: {
               "extendedcrafting:singularity_id": "extendedcrafting:tin",
             },
@@ -1639,15 +1648,13 @@
       ],
     },
     {
-      id: "594ED768645188A4",
       x: 17.0,
       y: 22.6,
       shape: "circle",
-      size: 1.0,
+      hide_dependency_lines: true,
       dependencies: [
         "72FF85D6A13BE86B",
       ],
-      hide_dependency_lines: true,
       dep_control_pts: {
         "72FF85D6A13BE86B": [
           13.4,
@@ -1656,13 +1663,15 @@
           22.6,
         ],
       },
+      size: 1.0,
+      id: "594ED768645188A4",
       tasks: [
         {
           id: "729214BC57BB6002",
           type: "item",
           item: {
-            count: 1,
             id: "gspack:creative_singularity",
+            count: 1,
           },
         },
       ],
@@ -1675,22 +1684,21 @@
         {
           id: "60BC9ACBCBE496FA",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 379532711335085,
         },
       ],
     },
     {
-      id: "08F3AB7C1F6C0108",
       x: 18.8,
       y: 22.6,
       shape: "gear",
-      size: 1.3,
+      hide_dependency_lines: true,
       dependencies: [
         "72FF85D6A13BE86B",
         "47194A8027FE5716",
         "594ED768645188A4",
       ],
-      hide_dependency_lines: true,
       dep_control_pts: {
         "72FF85D6A13BE86B": [
           13.4,
@@ -1711,13 +1719,15 @@
           22.6,
         ],
       },
+      size: 1.3,
+      id: "08F3AB7C1F6C0108",
       tasks: [
         {
           id: "5AFF9B9F1D6A5C8B",
           type: "item",
           item: {
-            count: 1,
             id: "extendedcrafting:ultimate_singularity",
+            count: 1,
           },
         },
       ],
@@ -1730,16 +1740,15 @@
         {
           id: "72A5F45D95609D35",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 379532711335085,
         },
       ],
     },
     {
-      id: "796CC7D0ED52EBEB",
       x: 20.6,
       y: 22.6,
       shape: "gear",
-      size: 1.3,
       dependencies: [
         "08F3AB7C1F6C0108",
       ],
@@ -1751,13 +1760,15 @@
           22.6,
         ],
       },
+      size: 1.3,
+      id: "796CC7D0ED52EBEB",
       tasks: [
         {
           id: "729B273310000715",
           type: "item",
           item: {
-            count: 1,
             id: "gspack:infinity_trophy",
+            count: 1,
           },
         },
       ],
@@ -1770,12 +1781,14 @@
         {
           id: "713822340BAFD47C",
           type: "random",
+          exclude_from_claim_all: true,
           table_id: 379532711335085,
         },
       ],
     },
   ],
-  quest_links: [ ],
+  quest_links: [
+  ],
   images: [
     {
       x: 11.6,
@@ -1784,10 +1797,7 @@
       height: 1.4375,
       rotation: 0.0,
       image: "gspack:textures/quests/extendedcrafting_header.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false,
+      id: "4DD4D168E27CE28A",
     },
     {
       x: 10.7353,
@@ -1796,10 +1806,7 @@
       height: 0.6,
       rotation: 0.0,
       image: "gspack:textures/quests/extendedcrafting_basic.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false,
+      id: "7287634E2466F7B4",
     },
     {
       x: 4.5412,
@@ -1808,10 +1815,7 @@
       height: 0.6,
       rotation: 0.0,
       image: "gspack:textures/quests/extendedcrafting_combination.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false,
+      id: "63FB4DDB43684535",
     },
     {
       x: -2.4176,
@@ -1820,10 +1824,7 @@
       height: 0.6,
       rotation: 0.0,
       image: "gspack:textures/quests/extendedcrafting_compressor.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false,
+      id: "76A20A30444BB92D",
     },
     {
       x: -2.3294,
@@ -1832,10 +1833,7 @@
       height: 0.6,
       rotation: 0.0,
       image: "gspack:textures/quests/extendedcrafting_auto_basic.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false,
+      id: "1DABB424CAA41586",
     },
     {
       x: 15.0765,
@@ -1844,10 +1842,7 @@
       height: 0.6,
       rotation: 0.0,
       image: "gspack:textures/quests/extendedcrafting_creative.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false,
+      id: "482B27FDE6AFA253",
     },
     {
       x: 18.3471,
@@ -1856,10 +1851,7 @@
       height: 0.6,
       rotation: 0.0,
       image: "gspack:textures/quests/extendedcrafting_crystaltine.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false,
+      id: "4CCD1D43A79A0D70",
     },
     {
       x: -2.7,
@@ -1868,11 +1860,7 @@
       height: 0.6,
       rotation: 0.0,
       image: "gspack:textures/quests/extendedcrafting_start.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false,
+      id: "76ECAC3A4F9349BF",
     },
   ],
-  autofocus_id: "",
 }

@@ -9,150 +9,142 @@
       id: "7C57F65FB132EAF4",
       item: {
         id: "minecraft:iron_ingot",
-        count: 1
+        count: 1,
       },
       count: 8,
-      weight: 20
+      weight: 20.0,
     },
     {
       id: "032CE5DA4184B57D",
       item: {
         id: "minecraft:copper_ingot",
-        count: 1
+        count: 1,
       },
       count: 16,
-      weight: 15
+      weight: 15.0,
     },
     {
       id: "43C1F258AAA2ECE5",
       item: {
         id: "minecraft:coal",
-        count: 1
+        count: 1,
       },
       count: 16,
-      weight: 15
+      weight: 15.0,
     },
     {
       id: "769C85CE131016FD",
       item: {
         id: "minecraft:bread",
-        count: 1
+        count: 1,
       },
       count: 8,
-      weight: 15
+      weight: 15.0,
     },
     {
       id: "69FB2C1B9BA0045A",
       item: {
         id: "minecraft:torch",
-        count: 1
+        count: 1,
       },
       count: 32,
-      weight: 10
+      weight: 10.0,
     },
     {
       id: "4984D84E6D0D34CD",
       item: {
         id: "minecraft:arrow",
-        count: 1
+        count: 1,
       },
       count: 16,
-      weight: 8
+      weight: 8.0,
     },
     {
       id: "79D56B122EC409ED",
       item: {
         id: "minecraft:experience_bottle",
-        count: 1
+        count: 1,
       },
       count: 4,
-      weight: 10
+      weight: 10.0,
     },
     {
       id: "664D631A01D52665",
       xp: 100,
       type: "xp",
-      weight: 7
+      weight: 7.0,
     },
     {
       id: "4091FD98AE0C9BFB",
-      type: "item",
       item: {
+        id: "minecraft:cobblestone",
         count: 1,
-        id: "minecraft:cobblestone"
       },
       count: 64,
-      weight: 12
+      weight: 12.0,
     },
     {
       id: "42D4546B581E06C6",
-      type: "item",
       item: {
+        id: "minecraft:oak_log",
         count: 1,
-        id: "minecraft:oak_log"
       },
       count: 16,
-      weight: 10
+      weight: 10.0,
     },
     {
       id: "4744D613EA9118B7",
-      type: "item",
       item: {
+        id: "minecraft:glass",
         count: 1,
-        id: "minecraft:glass"
       },
       count: 16,
-      weight: 10
+      weight: 10.0,
     },
     {
       id: "29BE2F4EE128DFE8",
-      type: "item",
       item: {
+        id: "minecraft:cooked_beef",
         count: 1,
-        id: "minecraft:cooked_beef"
       },
       count: 8,
-      weight: 10
+      weight: 10.0,
     },
     {
       id: "1949A2E2E65313AD",
-      type: "item",
       item: {
+        id: "minecraft:carrot",
         count: 1,
-        id: "minecraft:carrot"
       },
       count: 8,
-      weight: 8
+      weight: 8.0,
     },
     {
       id: "03ADD1266935442B",
-      type: "item",
       item: {
+        id: "minecraft:baked_potato",
         count: 1,
-        id: "minecraft:baked_potato"
       },
       count: 8,
-      weight: 8
+      weight: 8.0,
     },
     {
       id: "04B0E4D244CDEC87",
-      type: "item",
       item: {
+        id: "minecraft:paper",
         count: 1,
-        id: "minecraft:paper"
       },
       count: 16,
-      weight: 8
+      weight: 8.0,
     },
     {
       id: "1AAB5C8A06E6272C",
-      type: "item",
       item: {
+        id: "minecraft:string",
         count: 1,
-        id: "minecraft:string"
       },
       count: 8,
-      weight: 8
-    }
-  ]
+      weight: 8.0,
+    },
+  ],
 }

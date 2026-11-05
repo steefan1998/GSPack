@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "minecraft:deepslate_emerald_ore",
+      "required": false
+    },
+    {
+      "id": "minecraft:emerald_ore",
+      "required": false
+    }
+  ]
+}

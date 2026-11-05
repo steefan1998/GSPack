@@ -1,0 +1,8 @@
+{
+  "entryname": "desh",
+  "oretag": "gspack:potionsmaster/desh",
+  "color": -7694248,
+  "drawing": false,
+  "order": 21,
+  "recipeItem": "stellaris:raw_desh"
+}

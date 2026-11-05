@@ -1,5 +1,7 @@
-﻿# Chapter banners: accent colour and section labels (quest key -> label shown above that quest).
+# Chapter banners: accent colour and section labels (quest key -> label shown above that quest).
 # Textures are rendered by build-quests.ps1 into kubejs/assets/gspack/textures/quests.
+Decorate 'bumblezone' '#efbd39' @{ start='Into the Hive'; queen='The Royal Court'; essence='Bumblezone Mastery'; core_materials='Dimensional Core' }
+Decorate 'colossalreactors' '#6eb5a8' @{ start='Small Beginnings'; controller='Build the Reactor'; first_power='Power Generation'; turbine_casing='Optional Turbines' }
 
 Decorate 'welcome' '#f5c542'
 Decorate 'progression' '#e0e0ff'
@@ -28,7 +30,7 @@ Decorate 'endgame' '#ff4fd8' @{ intro = 'The Final Goal'; core_tech = 'The Five 
 Decorate 'dungeons' '#b8864a' @{ intro = 'Start Exploring'; y_dungeon = 'YUNG''s Dungeons & Temples'; a_fort = 'When Dungeons Arise'; v_ctov = 'Villages & Towns'; t_mage = 'Terralith & Explorify'; s_slime_sky = 'Sky & End'; master = 'Master Explorer' }
 Decorate 'tinkers' '#5a8fd6' @{ book = 'Getting Started'; grout = 'The Smeltery'; tools_set = 'Tools & Armor'; slime = 'Slime & Alloys' }
 Decorate 'ltx' '#7ad64a' @{ tablet = 'Getting Started'; grinder = 'Ore Processing'; mixer = 'Chemistry'; press = 'Circuits & Fabrication'; upgrades = 'Gear & Defense' }
-Decorate 'stellaris' '#6f7ff0' @{ titanium = 'Ground Control'; power = 'Power'; oil_finder = 'Fuel'; suit = 'Life Support'; parts = 'Rockets'; orbit = 'Space'; forest = 'Lunar Forest'; heart = 'Bosses' }
+Decorate 'stellaris' '#6f7ff0' @{ titanium = 'Ground Control'; power = 'Power'; oil_finder = 'Fuel'; suit = 'Life Support'; parts = 'Rockets'; orbit = 'Space'; forest = 'Lunar Forest'; heart = 'Bosses'; mars = 'The Red Planet' }
 Decorate 'railcraft' '#8c5a3c' @{ coke_oven = 'Steel'; crowbar = 'Tracks'; loaders = 'Trains' }
 Decorate 'roots' '#5fa85a' @{ tablet = 'Herbalism'; spell = 'Spells'; altar = 'Rituals'; living_tools = 'Gear' }
 Decorate 'evilcraft' '#a8263a' @{ dark_gem = 'The First Age'; extractor = 'Blood'; glasses = 'Spirits & Monsters'; accumulator = 'Power' }

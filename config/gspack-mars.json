@@ -1,0 +1,5 @@
+{
+  "oxygenTankDropsEnabled": true,
+  "oxygenTankDropChance": 0.01,
+  "oxygenTankDropItem": "stellaris:space_suit_oxygen_module_tier_1"
+}

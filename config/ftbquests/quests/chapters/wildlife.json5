@@ -1,7 +1,7 @@
 {
   id: "781F6B10D9E2FECB",
   group: "11F64C4259C477EF",
-  order_index: 6,
+  order_index: 32,
   icon: {
     id: "livingthings:lexicon",
     count: 1,
@@ -11,7 +11,7 @@
   default_hide_dependency_lines: false,
   quests: [
     {
-      x: 0,
+      x: 0.0,
       y: 2.7,
       shape: "gear",
       size: 1.3,
@@ -46,11 +46,20 @@
         count: 1,
       },
       x: 1.8,
-      y: 0,
-      dependencies: ["6F6C62A4D354D980"],
+      y: 0.0,
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"6F6C62A4D354D980":[0,2.7,1.8,0]},
+      dependencies: [
+        "6F6C62A4D354D980",
+      ],
+      dep_control_pts: {
+        "6F6C62A4D354D980": [
+          0.0,
+          2.7,
+          1.8,
+          0.0,
+        ],
+      },
+      size: 1.0,
       id: "25EB0F72EAC8964C",
       tasks: [
         {
@@ -69,11 +78,20 @@
     },
     {
       x: 5.4,
-      y: 0,
-      dependencies: ["25EB0F72EAC8964C"],
+      y: 0.0,
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"25EB0F72EAC8964C":[1.8,0,5.4,0]},
+      dependencies: [
+        "25EB0F72EAC8964C",
+      ],
+      dep_control_pts: {
+        "25EB0F72EAC8964C": [
+          1.8,
+          0.0,
+          5.4,
+          0.0,
+        ],
+      },
+      size: 1.0,
       id: "4136CCBEA3C9E6EE",
       tasks: [
         {
@@ -96,11 +114,20 @@
     {
       x: 5.4,
       y: 1.8,
-      optional: true,
-      dependencies: ["25EB0F72EAC8964C"],
       shape: "diamond",
-      size: 1,
-      dep_control_pts: {"25EB0F72EAC8964C":[1.8,0,5.4,1.8]},
+      dependencies: [
+        "25EB0F72EAC8964C",
+      ],
+      dep_control_pts: {
+        "25EB0F72EAC8964C": [
+          1.8,
+          0.0,
+          5.4,
+          1.8,
+        ],
+      },
+      size: 1.0,
+      optional: true,
       id: "2D0EDDF7E9C390CA",
       tasks: [
         {
@@ -135,10 +162,19 @@
       },
       x: 1.8,
       y: 1.8,
-      dependencies: ["6F6C62A4D354D980"],
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"6F6C62A4D354D980":[0,2.7,1.8,1.8]},
+      dependencies: [
+        "6F6C62A4D354D980",
+      ],
+      dep_control_pts: {
+        "6F6C62A4D354D980": [
+          0.0,
+          2.7,
+          1.8,
+          1.8,
+        ],
+      },
+      size: 1.0,
       id: "5A46FB9FC579710C",
       tasks: [
         {
@@ -162,10 +198,19 @@
     {
       x: 1.8,
       y: 3.6,
-      dependencies: ["6F6C62A4D354D980"],
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"6F6C62A4D354D980":[0,2.7,1.8,3.6]},
+      dependencies: [
+        "6F6C62A4D354D980",
+      ],
+      dep_control_pts: {
+        "6F6C62A4D354D980": [
+          0.0,
+          2.7,
+          1.8,
+          3.6,
+        ],
+      },
+      size: 1.0,
       id: "33705DC19CF2FAFC",
       tasks: [
         {
@@ -197,10 +242,19 @@
     {
       x: 5.4,
       y: 3.6,
-      dependencies: ["33705DC19CF2FAFC"],
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"33705DC19CF2FAFC":[1.8,3.6,5.4,3.6]},
+      dependencies: [
+        "33705DC19CF2FAFC",
+      ],
+      dep_control_pts: {
+        "33705DC19CF2FAFC": [
+          1.8,
+          3.6,
+          5.4,
+          3.6,
+        ],
+      },
+      size: 1.0,
       id: "7C3F71C6428B75EA",
       tasks: [
         {
@@ -230,10 +284,19 @@
     {
       x: 5.4,
       y: 5.4,
-      dependencies: ["33705DC19CF2FAFC"],
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"33705DC19CF2FAFC":[1.8,3.6,5.4,5.4]},
+      dependencies: [
+        "33705DC19CF2FAFC",
+      ],
+      dep_control_pts: {
+        "33705DC19CF2FAFC": [
+          1.8,
+          3.6,
+          5.4,
+          5.4,
+        ],
+      },
+      size: 1.0,
       id: "6CE077A054400D68",
       tasks: [
         {
@@ -260,10 +323,19 @@
       },
       x: 1.8,
       y: 5.4,
-      dependencies: ["6F6C62A4D354D980"],
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"6F6C62A4D354D980":[0,2.7,1.8,5.4]},
+      dependencies: [
+        "6F6C62A4D354D980",
+      ],
+      dep_control_pts: {
+        "6F6C62A4D354D980": [
+          0.0,
+          2.7,
+          1.8,
+          5.4,
+        ],
+      },
+      size: 1.0,
       id: "25955A16B0898EB3",
       tasks: [
         {
@@ -287,11 +359,20 @@
       },
       x: 3.6,
       y: 1.8,
-      optional: true,
-      dependencies: ["6F6C62A4D354D980"],
       shape: "diamond",
-      size: 1,
-      dep_control_pts: {"6F6C62A4D354D980":[0,2.7,3.6,1.8]},
+      dependencies: [
+        "6F6C62A4D354D980",
+      ],
+      dep_control_pts: {
+        "6F6C62A4D354D980": [
+          0.0,
+          2.7,
+          3.6,
+          1.8,
+        ],
+      },
+      size: 1.0,
+      optional: true,
       id: "2AF5366288300E86",
       tasks: [
         {
@@ -315,11 +396,20 @@
       },
       x: 3.6,
       y: 3.6,
-      optional: true,
-      dependencies: ["6F6C62A4D354D980"],
       shape: "diamond",
-      size: 1,
-      dep_control_pts: {"6F6C62A4D354D980":[0,2.7,3.6,3.6]},
+      dependencies: [
+        "6F6C62A4D354D980",
+      ],
+      dep_control_pts: {
+        "6F6C62A4D354D980": [
+          0.0,
+          2.7,
+          3.6,
+          3.6,
+        ],
+      },
+      size: 1.0,
+      optional: true,
       id: "5B418D72991F4D39",
       tasks: [
         {
@@ -342,7 +432,7 @@
         count: 1,
       },
       x: 16.1,
-      y: 0,
+      y: 0.0,
       shape: "hexagon",
       size: 1.15,
       id: "73B4BBA8EBDDE787",
@@ -367,10 +457,19 @@
       },
       x: 13.4,
       y: 1.8,
-      dependencies: ["73B4BBA8EBDDE787"],
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"73B4BBA8EBDDE787":[16.1,0,13.4,1.8]},
+      dependencies: [
+        "73B4BBA8EBDDE787",
+      ],
+      dep_control_pts: {
+        "73B4BBA8EBDDE787": [
+          16.1,
+          0.0,
+          13.4,
+          1.8,
+        ],
+      },
+      size: 1.0,
       id: "1C6550849CF8FBC6",
       tasks: [
         {
@@ -401,10 +500,19 @@
       },
       x: 15.2,
       y: 1.8,
-      dependencies: ["73B4BBA8EBDDE787"],
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"73B4BBA8EBDDE787":[16.1,0,15.2,1.8]},
+      dependencies: [
+        "73B4BBA8EBDDE787",
+      ],
+      dep_control_pts: {
+        "73B4BBA8EBDDE787": [
+          16.1,
+          0.0,
+          15.2,
+          1.8,
+        ],
+      },
+      size: 1.0,
       id: "14B7900208D51C19",
       tasks: [
         {
@@ -433,12 +541,21 @@
         id: "variantsandventures:thicket_spawn_egg",
         count: 1,
       },
-      x: 17,
+      x: 17.0,
       y: 1.8,
-      dependencies: ["73B4BBA8EBDDE787"],
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"73B4BBA8EBDDE787":[16.1,0,17,1.8]},
+      dependencies: [
+        "73B4BBA8EBDDE787",
+      ],
+      dep_control_pts: {
+        "73B4BBA8EBDDE787": [
+          16.1,
+          0.0,
+          17.0,
+          1.8,
+        ],
+      },
+      size: 1.0,
       id: "71176428CCAF2770",
       tasks: [
         {
@@ -469,10 +586,19 @@
       },
       x: 18.8,
       y: 1.8,
-      dependencies: ["73B4BBA8EBDDE787"],
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"73B4BBA8EBDDE787":[16.1,0,18.8,1.8]},
+      dependencies: [
+        "73B4BBA8EBDDE787",
+      ],
+      dep_control_pts: {
+        "73B4BBA8EBDDE787": [
+          16.1,
+          0.0,
+          18.8,
+          1.8,
+        ],
+      },
+      size: 1.0,
       id: "302F9F180BAFEFF7",
       tasks: [
         {
@@ -499,10 +625,40 @@
     {
       x: 16.1,
       y: 3.6,
-      dependencies: ["1C6550849CF8FBC6","14B7900208D51C19","71176428CCAF2770","302F9F180BAFEFF7"],
       shape: "gear",
+      dependencies: [
+        "1C6550849CF8FBC6",
+        "14B7900208D51C19",
+        "71176428CCAF2770",
+        "302F9F180BAFEFF7",
+      ],
+      dep_control_pts: {
+        "71176428CCAF2770": [
+          17.0,
+          1.8,
+          16.1,
+          3.6,
+        ],
+        "302F9F180BAFEFF7": [
+          18.8,
+          1.8,
+          16.1,
+          3.6,
+        ],
+        "14B7900208D51C19": [
+          15.2,
+          1.8,
+          16.1,
+          3.6,
+        ],
+        "1C6550849CF8FBC6": [
+          13.4,
+          1.8,
+          16.1,
+          3.6,
+        ],
+      },
       size: 1.3,
-      dep_control_pts: {"1C6550849CF8FBC6":[13.4,1.8,16.1,3.6],"14B7900208D51C19":[15.2,1.8,16.1,3.6],"71176428CCAF2770":[17,1.8,16.1,3.6],"302F9F180BAFEFF7":[18.8,1.8,16.1,3.6]},
       id: "7A3AF91E21DBCE56",
       tasks: [
         {
@@ -528,41 +684,32 @@
   quest_links: [
   ],
   images: [
-  {
-    "x": 9.4,
-    "y": -1.7188,
-    "width": 12,
-    "height": 1.4375,
-    "rotation": 0,
-    "image": "gspack:textures/quests/wildlife_header.png",
-    "color": 16777215,
-    "alpha": 255,
-    "order": 0,
-    "corner": false
-  },
-  {
-    "x": 10.2588,
-    "y": 0,
-    "width": 4.4824,
-    "height": 0.6,
-    "rotation": 0,
-    "image": "gspack:textures/quests/wildlife_vv.png",
-    "color": 16777215,
-    "alpha": 255,
-    "order": 0,
-    "corner": false
-  },
-  {
-    "x": -2.4882,
-    "y": 2.7,
-    "width": 3.1765,
-    "height": 0.6,
-    "rotation": 0,
-    "image": "gspack:textures/quests/wildlife_lexicon.png",
-    "color": 16777215,
-    "alpha": 255,
-    "order": 0,
-    "corner": false
-  }
-],
+    {
+      x: 9.4,
+      y: -1.7188,
+      width: 12.0,
+      height: 1.4375,
+      rotation: 0.0,
+      image: "gspack:textures/quests/wildlife_header.png",
+      id: "34DFD46799516856",
+    },
+    {
+      x: 10.2588,
+      y: 0.0,
+      width: 4.4824,
+      height: 0.6,
+      rotation: 0.0,
+      image: "gspack:textures/quests/wildlife_vv.png",
+      id: "2111AAD135D14C66",
+    },
+    {
+      x: -2.4882,
+      y: 2.7,
+      width: 3.1765,
+      height: 0.6,
+      rotation: 0.0,
+      image: "gspack:textures/quests/wildlife_lexicon.png",
+      id: "11B8502C7B601BBA",
+    },
+  ],
 }

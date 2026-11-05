@@ -6,7 +6,7 @@ Chapter 'trophy' 'Trophy Checklist' 'gspack:infinity_trophy' 'endgame' 'Everythi
 #   ring 2: the eight creative items
 #   ring 3: the capstone item of 20 mods
 #   ring 4: the eight Twilight Forest boss trophies
-# Keep the counts in sync with the trophy recipe in kubejs/server_scripts/gspack_endgame_recipes.js.
+# Keep the counts in sync with the trophy recipe in kubejs/server_scripts/gspack/cores/recipes.js.
 
 function Ring-Pos([int]$i, [int]$n, [double]$r, [double]$turn = 0) {
     $a = 2 * [Math]::PI * ($i / $n + $turn) - [Math]::PI / 2   # start at the top, go clockwise

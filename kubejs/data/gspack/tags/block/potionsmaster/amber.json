@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "thaumaturge:deepslate_ore_amber",
+      "required": false
+    },
+    {
+      "id": "thaumaturge:ore_amber",
+      "required": false
+    }
+  ]
+}

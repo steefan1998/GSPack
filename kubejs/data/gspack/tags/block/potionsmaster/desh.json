@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "stellaris:moon_desh_ore",
+      "required": false
+    }
+  ]
+}

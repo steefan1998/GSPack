@@ -1,0 +1,8 @@
+{
+  "entryname": "eclipsealloy",
+  "oretag": "gspack:potionsmaster/eclipsealloy",
+  "color": -6733105,
+  "drawing": false,
+  "order": 24,
+  "recipeItem": "justdirethings:raw_eclipsealloy"
+}

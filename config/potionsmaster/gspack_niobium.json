@@ -1,0 +1,8 @@
+{
+  "entryname": "niobium",
+  "oretag": "gspack:potionsmaster/niobium",
+  "color": -6566026,
+  "drawing": false,
+  "order": 42,
+  "recipeItem": "ltxi:raw_niobium"
+}

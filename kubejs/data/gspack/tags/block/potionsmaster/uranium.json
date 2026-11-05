@@ -1,0 +1,49 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "alltheores:deepslate_uranium_ore",
+      "required": false
+    },
+    {
+      "id": "alltheores:end_uranium_ore",
+      "required": false
+    },
+    {
+      "id": "alltheores:nether_uranium_ore",
+      "required": false
+    },
+    {
+      "id": "alltheores:other_uranium_ore",
+      "required": false
+    },
+    {
+      "id": "alltheores:uranium_ore",
+      "required": false
+    },
+    {
+      "id": "colossal_reactors:deep_uranium_ore",
+      "required": false
+    },
+    {
+      "id": "colossal_reactors:uranium_ore",
+      "required": false
+    },
+    {
+      "id": "gspack:mars_uranium_ore",
+      "required": false
+    },
+    {
+      "id": "mekanism:deepslate_uranium_ore",
+      "required": false
+    },
+    {
+      "id": "mekanism:uranium_ore",
+      "required": false
+    },
+    {
+      "id": "oritech:deepslate_uranium_ore",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "entryname": "copper",
+  "oretag": "gspack:potionsmaster/copper",
+  "color": -4755910,
+  "drawing": false,
+  "order": 18,
+  "recipeItem": "minecraft:raw_copper"
+}

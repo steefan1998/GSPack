@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "aether_ii:holystone_quartz_ore",
+      "required": false
+    },
+    {
+      "id": "minecraft:nether_quartz_ore",
+      "required": false
+    },
+    {
+      "id": "thaumaturge:deepslate_ore_quartz",
+      "required": false
+    },
+    {
+      "id": "thaumaturge:ore_quartz",
+      "required": false
+    }
+  ]
+}

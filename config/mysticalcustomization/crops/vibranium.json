@@ -4,5 +4,7 @@
   "tier": "mysticalagradditions:6",
   "ingredient": { "item": "allthemodium:vibranium_ingot" },
   "color": "#3ee8b4",
-  "crux": "gspack:vibranium_crux"
+  "crux": "gspack:vibranium_crux",
+  "base_secondary_chance": 0.0,
+  "respects_effective_farmland": false
 }

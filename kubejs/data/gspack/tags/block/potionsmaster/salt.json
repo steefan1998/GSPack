@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "alltheores:deepslate_salt_ore",
+      "required": false
+    },
+    {
+      "id": "alltheores:end_salt_ore",
+      "required": false
+    },
+    {
+      "id": "alltheores:nether_salt_ore",
+      "required": false
+    },
+    {
+      "id": "alltheores:other_salt_ore",
+      "required": false
+    },
+    {
+      "id": "alltheores:salt_ore",
+      "required": false
+    }
+  ]
+}

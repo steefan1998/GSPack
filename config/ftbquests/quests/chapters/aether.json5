@@ -1,7 +1,7 @@
 {
   id: "488B1729DE986146",
   group: "11F64C4259C477EF",
-  order_index: 0,
+  order_index: 27,
   icon: {
     id: "aether_ii:ambrosium_shard",
     count: 1,
@@ -15,18 +15,18 @@
         id: "minecraft:glowstone",
         count: 1,
       },
-      x: 0,
+      x: 0.0,
       y: 1.8,
       shape: "gear",
       size: 1.3,
       id: "4EC198FA7D868FAB",
       tasks: [
-  {
-    "id": "22C15E49D1459ECB",
-    "type": "dimension",
-    "dimension": "aether_ii:aether_holy_isles"
-  }
-],
+        {
+          id: "22C15E49D1459ECB",
+          type: "dimension",
+          dimension: "aether_ii:aether_holy_isles",
+        },
+      ],
       rewards: [
         {
           id: "589C79465EDA2894",
@@ -47,11 +47,20 @@
         count: 1,
       },
       x: 1.8,
-      y: 0,
-      dependencies: ["4EC198FA7D868FAB"],
+      y: 0.0,
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"4EC198FA7D868FAB":[0,1.8,1.8,0]},
+      dependencies: [
+        "4EC198FA7D868FAB",
+      ],
+      dep_control_pts: {
+        "4EC198FA7D868FAB": [
+          0.0,
+          1.8,
+          1.8,
+          0.0,
+        ],
+      },
+      size: 1.0,
       id: "4ED1ADB013E6B44F",
       tasks: [
         {
@@ -70,10 +79,19 @@
     {
       x: 1.8,
       y: 1.8,
-      dependencies: ["4EC198FA7D868FAB"],
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"4EC198FA7D868FAB":[0,1.8,1.8,1.8]},
+      dependencies: [
+        "4EC198FA7D868FAB",
+      ],
+      dep_control_pts: {
+        "4EC198FA7D868FAB": [
+          0.0,
+          1.8,
+          1.8,
+          1.8,
+        ],
+      },
+      size: 1.0,
       id: "61C03A450A93D3BE",
       tasks: [
         {
@@ -96,11 +114,20 @@
     },
     {
       x: 3.6,
-      y: 0,
-      dependencies: ["61C03A450A93D3BE"],
+      y: 0.0,
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"61C03A450A93D3BE":[1.8,1.8,3.6,0]},
+      dependencies: [
+        "61C03A450A93D3BE",
+      ],
+      dep_control_pts: {
+        "61C03A450A93D3BE": [
+          1.8,
+          1.8,
+          3.6,
+          0.0,
+        ],
+      },
+      size: 1.0,
       id: "7EC092D45D50BF38",
       tasks: [
         {
@@ -131,11 +158,20 @@
     {
       x: 3.6,
       y: 1.8,
-      optional: true,
-      dependencies: ["61C03A450A93D3BE"],
       shape: "diamond",
-      size: 1,
-      dep_control_pts: {"61C03A450A93D3BE":[1.8,1.8,3.6,1.8]},
+      dependencies: [
+        "61C03A450A93D3BE",
+      ],
+      dep_control_pts: {
+        "61C03A450A93D3BE": [
+          1.8,
+          1.8,
+          3.6,
+          1.8,
+        ],
+      },
+      size: 1.0,
+      optional: true,
       id: "76521916A27FFBB2",
       tasks: [
         {
@@ -158,10 +194,19 @@
     {
       x: 5.4,
       y: 1.8,
-      dependencies: ["7EC092D45D50BF38"],
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"7EC092D45D50BF38":[3.6,0,5.4,1.8]},
+      dependencies: [
+        "7EC092D45D50BF38",
+      ],
+      dep_control_pts: {
+        "7EC092D45D50BF38": [
+          3.6,
+          0.0,
+          5.4,
+          1.8,
+        ],
+      },
+      size: 1.0,
       id: "4F9DC173E5D3A968",
       tasks: [
         {
@@ -185,10 +230,19 @@
     {
       x: 7.2,
       y: 0.9,
-      dependencies: ["4F9DC173E5D3A968"],
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"4F9DC173E5D3A968":[5.4,1.8,7.2,0.9]},
+      dependencies: [
+        "4F9DC173E5D3A968",
+      ],
+      dep_control_pts: {
+        "4F9DC173E5D3A968": [
+          5.4,
+          1.8,
+          7.2,
+          0.9,
+        ],
+      },
+      size: 1.0,
       id: "1DAD469FDE3B0B4D",
       tasks: [
         {
@@ -227,23 +281,31 @@
     {
       x: 1.8,
       y: 3.6,
-      optional: true,
-      dependencies: ["4EC198FA7D868FAB"],
       shape: "diamond",
-      size: 1,
-      dep_control_pts: {"4EC198FA7D868FAB":[0,1.8,1.8,3.6]},
+      dependencies: [
+        "4EC198FA7D868FAB",
+      ],
+      dep_control_pts: {
+        "4EC198FA7D868FAB": [
+          0.0,
+          1.8,
+          1.8,
+          3.6,
+        ],
+      },
+      size: 1.0,
+      optional: true,
       id: "48C52E92081D07B2",
       tasks: [
-  {
-    "id": "241454AD9119E968",
-    "type": "item",
-    "item": {
-      "id": "aether_ii:quicksoil",
-      "count": 1
-    },
-    "count": 1
-  }
-],
+        {
+          id: "241454AD9119E968",
+          type: "item",
+          item: {
+            id: "aether_ii:quicksoil",
+            count: 1,
+          },
+        },
+      ],
       rewards: [
         {
           id: "6CDC0D6D845C994B",
@@ -255,31 +317,38 @@
     {
       x: 7.2,
       y: 2.7,
-      dependencies: ["4F9DC173E5D3A968"],
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"4F9DC173E5D3A968":[5.4,1.8,7.2,2.7]},
+      dependencies: [
+        "4F9DC173E5D3A968",
+      ],
+      dep_control_pts: {
+        "4F9DC173E5D3A968": [
+          5.4,
+          1.8,
+          7.2,
+          2.7,
+        ],
+      },
+      size: 1.0,
       id: "476AF39EA0F8E76A",
       tasks: [
-  {
-    "id": "650C36FFCBAF8129",
-    "type": "item",
-    "item": {
-      "id": "aether_ii:ambrosium_shard",
-      "count": 1
-    },
-    "count": 1
-  },
-  {
-    "id": "300C546672520476",
-    "type": "item",
-    "item": {
-      "id": "aether_ii:ambrosium_torch",
-      "count": 1
-    },
-    "count": 1
-  }
-],
+        {
+          id: "650C36FFCBAF8129",
+          type: "item",
+          item: {
+            id: "aether_ii:ambrosium_shard",
+            count: 1,
+          },
+        },
+        {
+          id: "300C546672520476",
+          type: "item",
+          item: {
+            id: "aether_ii:ambrosium_torch",
+            count: 1,
+          },
+        },
+      ],
       rewards: [
         {
           id: "0AE47808AE5FC0FE",
@@ -291,11 +360,20 @@
     {
       x: 3.6,
       y: 3.6,
-      optional: true,
-      dependencies: ["61C03A450A93D3BE"],
       shape: "diamond",
-      size: 1,
-      dep_control_pts: {"61C03A450A93D3BE":[1.8,1.8,3.6,3.6]},
+      dependencies: [
+        "61C03A450A93D3BE",
+      ],
+      dep_control_pts: {
+        "61C03A450A93D3BE": [
+          1.8,
+          1.8,
+          3.6,
+          3.6,
+        ],
+      },
+      size: 1.0,
+      optional: true,
       id: "55CA348FC55CF671",
       tasks: [
         {
@@ -316,25 +394,33 @@
       ],
     },
     {
-      x: 17,
-      y: 0,
-      dependencies: ["1DAD469FDE3B0B4D"],
-      hide_dependency_lines: true,
+      x: 17.0,
+      y: 0.0,
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"1DAD469FDE3B0B4D":[7.2,0.9,17,0]},
+      hide_dependency_lines: true,
+      dependencies: [
+        "1DAD469FDE3B0B4D",
+      ],
+      dep_control_pts: {
+        "1DAD469FDE3B0B4D": [
+          7.2,
+          0.9,
+          17.0,
+          0.0,
+        ],
+      },
+      size: 1.0,
       id: "2C620CD9B6F9C10D",
       tasks: [
-  {
-    "id": "0A599D24FBE4F1E9",
-    "type": "item",
-    "item": {
-      "id": "aether_ii:zanite_gemstone",
-      "count": 1
-    },
-    "count": 1
-  }
-],
+        {
+          id: "0A599D24FBE4F1E9",
+          type: "item",
+          item: {
+            id: "aether_ii:zanite_gemstone",
+            count: 1,
+          },
+        },
+      ],
       rewards: [
         {
           id: "708EA1204D44DF53",
@@ -352,10 +438,19 @@
     {
       x: 16.1,
       y: 1.8,
-      dependencies: ["2C620CD9B6F9C10D"],
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"2C620CD9B6F9C10D":[17,0,16.1,1.8]},
+      dependencies: [
+        "2C620CD9B6F9C10D",
+      ],
+      dep_control_pts: {
+        "2C620CD9B6F9C10D": [
+          17.0,
+          0.0,
+          16.1,
+          1.8,
+        ],
+      },
+      size: 1.0,
       id: "121A8CD4C11E9B78",
       tasks: [
         {
@@ -394,10 +489,19 @@
     {
       x: 17.9,
       y: 1.8,
-      dependencies: ["2C620CD9B6F9C10D"],
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"2C620CD9B6F9C10D":[17,0,17.9,1.8]},
+      dependencies: [
+        "2C620CD9B6F9C10D",
+      ],
+      dep_control_pts: {
+        "2C620CD9B6F9C10D": [
+          17.0,
+          0.0,
+          17.9,
+          1.8,
+        ],
+      },
+      size: 1.0,
       id: "29EA42C1E2A80184",
       tasks: [
         {
@@ -458,11 +562,20 @@
     {
       x: 15.2,
       y: 3.6,
-      optional: true,
-      dependencies: ["29EA42C1E2A80184"],
       shape: "diamond",
-      size: 1,
-      dep_control_pts: {"29EA42C1E2A80184":[17.9,1.8,15.2,3.6]},
+      dependencies: [
+        "29EA42C1E2A80184",
+      ],
+      dep_control_pts: {
+        "29EA42C1E2A80184": [
+          17.9,
+          1.8,
+          15.2,
+          3.6,
+        ],
+      },
+      size: 1.0,
+      optional: true,
       id: "6B468943E9F3BDD1",
       tasks: [
         {
@@ -491,24 +604,32 @@
       ],
     },
     {
-      x: 17,
+      x: 17.0,
       y: 3.6,
-      dependencies: ["121A8CD4C11E9B78"],
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"121A8CD4C11E9B78":[16.1,1.8,17,3.6]},
+      dependencies: [
+        "121A8CD4C11E9B78",
+      ],
+      dep_control_pts: {
+        "121A8CD4C11E9B78": [
+          16.1,
+          1.8,
+          17.0,
+          3.6,
+        ],
+      },
+      size: 1.0,
       id: "483E6C98A196C51E",
       tasks: [
-  {
-    "id": "303EF3201014DCB9",
-    "type": "item",
-    "item": {
-      "id": "aether_ii:undershale",
-      "count": 1
-    },
-    "count": 1
-  }
-],
+        {
+          id: "303EF3201014DCB9",
+          type: "item",
+          item: {
+            id: "aether_ii:undershale",
+            count: 1,
+          },
+        },
+      ],
       rewards: [
         {
           id: "59FE50672E5207E5",
@@ -520,10 +641,19 @@
     {
       x: 15.2,
       y: 5.4,
-      dependencies: ["483E6C98A196C51E"],
       shape: "gear",
+      dependencies: [
+        "483E6C98A196C51E",
+      ],
+      dep_control_pts: {
+        "483E6C98A196C51E": [
+          17.0,
+          3.6,
+          15.2,
+          5.4,
+        ],
+      },
       size: 1.3,
-      dep_control_pts: {"483E6C98A196C51E":[17,3.6,15.2,5.4]},
       id: "3AE3D5FFCA2ED68A",
       tasks: [
         {
@@ -561,10 +691,19 @@
     {
       x: 16.1,
       y: 7.2,
-      dependencies: ["3AE3D5FFCA2ED68A"],
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"3AE3D5FFCA2ED68A":[15.2,5.4,16.1,7.2]},
+      dependencies: [
+        "3AE3D5FFCA2ED68A",
+      ],
+      dep_control_pts: {
+        "3AE3D5FFCA2ED68A": [
+          15.2,
+          5.4,
+          16.1,
+          7.2,
+        ],
+      },
+      size: 1.0,
       id: "02348B10725E7845",
       tasks: [
         {
@@ -593,33 +732,41 @@
       ],
     },
     {
-      x: 17,
+      x: 17.0,
       y: 5.4,
-      dependencies: ["483E6C98A196C51E"],
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"483E6C98A196C51E":[17,3.6,17,5.4]},
+      dependencies: [
+        "483E6C98A196C51E",
+      ],
+      dep_control_pts: {
+        "483E6C98A196C51E": [
+          17.0,
+          3.6,
+          17.0,
+          5.4,
+        ],
+      },
+      size: 1.0,
       id: "7DD07D1FD8D50E79",
       tasks: [
-  {
-    "id": "09A6E7A5F756C604",
-    "type": "item",
-    "item": {
-      "id": "aether_ii:glint_gemstone",
-      "count": 1
-    },
-    "count": 4
-  },
-  {
-    "id": "54B46F4DFE86019D",
-    "type": "item",
-    "item": {
-      "id": "aether_ii:glint_coin",
-      "count": 1
-    },
-    "count": 1
-  }
-],
+        {
+          id: "09A6E7A5F756C604",
+          type: "item",
+          item: {
+            id: "aether_ii:glint_gemstone",
+            count: 1,
+          },
+          count: 4,
+        },
+        {
+          id: "54B46F4DFE86019D",
+          type: "item",
+          item: {
+            id: "aether_ii:glint_coin",
+            count: 1,
+          },
+        },
+      ],
       rewards: [
         {
           id: "60A21825FEA56170",
@@ -637,10 +784,19 @@
     {
       x: 17.9,
       y: 7.2,
-      dependencies: ["3AE3D5FFCA2ED68A"],
       shape: "gear",
+      dependencies: [
+        "3AE3D5FFCA2ED68A",
+      ],
+      dep_control_pts: {
+        "3AE3D5FFCA2ED68A": [
+          15.2,
+          5.4,
+          17.9,
+          7.2,
+        ],
+      },
       size: 1.3,
-      dep_control_pts: {"3AE3D5FFCA2ED68A":[15.2,5.4,17.9,7.2]},
       id: "0B454266701E7E01",
       tasks: [
         {
@@ -669,11 +825,20 @@
     },
     {
       x: 16.1,
-      y: 9,
-      dependencies: ["0B454266701E7E01"],
+      y: 9.0,
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"0B454266701E7E01":[17.9,7.2,16.1,9]},
+      dependencies: [
+        "0B454266701E7E01",
+      ],
+      dep_control_pts: {
+        "0B454266701E7E01": [
+          17.9,
+          7.2,
+          16.1,
+          9.0,
+        ],
+      },
+      size: 1.0,
       id: "29FB87FF6858065D",
       tasks: [
         {
@@ -717,11 +882,20 @@
     },
     {
       x: 17.9,
-      y: 9,
-      dependencies: ["0B454266701E7E01"],
+      y: 9.0,
       shape: "gear",
+      dependencies: [
+        "0B454266701E7E01",
+      ],
+      dep_control_pts: {
+        "0B454266701E7E01": [
+          17.9,
+          7.2,
+          17.9,
+          9.0,
+        ],
+      },
       size: 1.3,
-      dep_control_pts: {"0B454266701E7E01":[17.9,7.2,17.9,9]},
       id: "6F4B2B8707DB09A1",
       tasks: [
         {
@@ -782,11 +956,20 @@
     {
       x: 18.8,
       y: 5.4,
-      optional: true,
-      dependencies: ["483E6C98A196C51E"],
       shape: "diamond",
-      size: 1,
-      dep_control_pts: {"483E6C98A196C51E":[17,3.6,18.8,5.4]},
+      dependencies: [
+        "483E6C98A196C51E",
+      ],
+      dep_control_pts: {
+        "483E6C98A196C51E": [
+          17.0,
+          3.6,
+          18.8,
+          5.4,
+        ],
+      },
+      size: 1.0,
+      optional: true,
       id: "1E19680C1C941F62",
       tasks: [
         {
@@ -810,11 +993,20 @@
     {
       x: 18.8,
       y: 3.6,
-      optional: true,
-      dependencies: ["121A8CD4C11E9B78"],
       shape: "diamond",
-      size: 1,
-      dep_control_pts: {"121A8CD4C11E9B78":[16.1,1.8,18.8,3.6]},
+      dependencies: [
+        "121A8CD4C11E9B78",
+      ],
+      dep_control_pts: {
+        "121A8CD4C11E9B78": [
+          16.1,
+          1.8,
+          18.8,
+          3.6,
+        ],
+      },
+      size: 1.0,
+      optional: true,
       id: "495781D75F076527",
       tasks: [
         {
@@ -843,34 +1035,42 @@
       ],
     },
     {
-      x: 0,
+      x: 0.0,
       y: 13.1,
-      dependencies: ["4EC198FA7D868FAB"],
-      hide_dependency_lines: true,
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"4EC198FA7D868FAB":[0,1.8,0,13.1]},
+      hide_dependency_lines: true,
+      dependencies: [
+        "4EC198FA7D868FAB",
+      ],
+      dep_control_pts: {
+        "4EC198FA7D868FAB": [
+          0.0,
+          1.8,
+          0.0,
+          13.1,
+        ],
+      },
+      size: 1.0,
       id: "39ED542D50B4FECF",
       tasks: [
-  {
-    "id": "04BD5C9ADEF37599",
-    "type": "item",
-    "item": {
-      "id": "aether_ii:cold_aercloud",
-      "count": 1
-    },
-    "count": 1
-  },
-  {
-    "id": "40B6B599F584461C",
-    "type": "item",
-    "item": {
-      "id": "aether_ii:blue_aercloud",
-      "count": 1
-    },
-    "count": 8
-  }
-],
+        {
+          id: "04BD5C9ADEF37599",
+          type: "item",
+          item: {
+            id: "aether_ii:cold_aercloud",
+            count: 1,
+          },
+        },
+        {
+          id: "40B6B599F584461C",
+          type: "item",
+          item: {
+            id: "aether_ii:blue_aercloud",
+            count: 1,
+          },
+          count: 8,
+        },
+      ],
       rewards: [
         {
           id: "7BDB7C96EA5ED2B6",
@@ -882,10 +1082,19 @@
     {
       x: 1.8,
       y: 13.1,
-      dependencies: ["39ED542D50B4FECF"],
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"39ED542D50B4FECF":[0,13.1,1.8,13.1]},
+      dependencies: [
+        "39ED542D50B4FECF",
+      ],
+      dep_control_pts: {
+        "39ED542D50B4FECF": [
+          0.0,
+          13.1,
+          1.8,
+          13.1,
+        ],
+      },
+      size: 1.0,
       id: "3982750FC2FB407F",
       tasks: [
         {
@@ -909,10 +1118,19 @@
     {
       x: 3.6,
       y: 13.1,
-      dependencies: ["3982750FC2FB407F"],
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"3982750FC2FB407F":[1.8,13.1,3.6,13.1]},
+      dependencies: [
+        "3982750FC2FB407F",
+      ],
+      dep_control_pts: {
+        "3982750FC2FB407F": [
+          1.8,
+          13.1,
+          3.6,
+          13.1,
+        ],
+      },
+      size: 1.0,
       id: "57B53BBE7F85BB19",
       tasks: [
         {
@@ -941,11 +1159,20 @@
     {
       x: 5.4,
       y: 12.2,
-      optional: true,
-      dependencies: ["57B53BBE7F85BB19"],
       shape: "diamond",
-      size: 1,
-      dep_control_pts: {"57B53BBE7F85BB19":[3.6,13.1,5.4,12.2]},
+      dependencies: [
+        "57B53BBE7F85BB19",
+      ],
+      dep_control_pts: {
+        "57B53BBE7F85BB19": [
+          3.6,
+          13.1,
+          5.4,
+          12.2,
+        ],
+      },
+      size: 1.0,
+      optional: true,
       id: "79CC4D115F337D40",
       tasks: [
         {
@@ -975,11 +1202,20 @@
     },
     {
       x: 5.4,
-      y: 14,
-      dependencies: ["57B53BBE7F85BB19"],
+      y: 14.0,
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"57B53BBE7F85BB19":[3.6,13.1,5.4,14]},
+      dependencies: [
+        "57B53BBE7F85BB19",
+      ],
+      dep_control_pts: {
+        "57B53BBE7F85BB19": [
+          3.6,
+          13.1,
+          5.4,
+          14.0,
+        ],
+      },
+      size: 1.0,
       id: "358EB5280D943513",
       tasks: [
         {
@@ -1002,41 +1238,49 @@
     {
       x: 13.4,
       y: 12.2,
-      dependencies: ["61C03A450A93D3BE"],
-      hide_dependency_lines: true,
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"61C03A450A93D3BE":[1.8,1.8,13.4,12.2]},
+      hide_dependency_lines: true,
+      dependencies: [
+        "61C03A450A93D3BE",
+      ],
+      dep_control_pts: {
+        "61C03A450A93D3BE": [
+          1.8,
+          1.8,
+          13.4,
+          12.2,
+        ],
+      },
+      size: 1.0,
       id: "483C3D3EB99CF700",
       tasks: [
-  {
-    "id": "204B6C188DEAB407",
-    "type": "item",
-    "item": {
-      "id": "aether_ii:blueberry",
-      "count": 1
-    },
-    "count": 1
-  },
-  {
-    "id": "10617DE983139E14",
-    "type": "item",
-    "item": {
-      "id": "aether_ii:orange",
-      "count": 1
-    },
-    "count": 8
-  },
-  {
-    "id": "07F9FD52868588D9",
-    "type": "item",
-    "item": {
-      "id": "aether_ii:wyndberry",
-      "count": 1
-    },
-    "count": 8
-  }
-],
+        {
+          id: "204B6C188DEAB407",
+          type: "item",
+          item: {
+            id: "aether_ii:blueberry",
+            count: 1,
+          },
+        },
+        {
+          id: "10617DE983139E14",
+          type: "item",
+          item: {
+            id: "aether_ii:orange",
+            count: 1,
+          },
+          count: 8,
+        },
+        {
+          id: "07F9FD52868588D9",
+          type: "item",
+          item: {
+            id: "aether_ii:wyndberry",
+            count: 1,
+          },
+          count: 8,
+        },
+      ],
       rewards: [
         {
           id: "060F95F832CD7AFD",
@@ -1048,11 +1292,27 @@
     {
       x: 18.8,
       y: 12.2,
-      dependencies: ["483C3D3EB99CF700","34CD3206C9EFC260"],
-      hide_dependency_lines: true,
       shape: "hexagon",
-      size: 1,
-      dep_control_pts: {"483C3D3EB99CF700":[13.4,12.2,18.8,12.2],"34CD3206C9EFC260":[0,20.8,18.8,12.2]},
+      hide_dependency_lines: true,
+      dependencies: [
+        "483C3D3EB99CF700",
+        "34CD3206C9EFC260",
+      ],
+      dep_control_pts: {
+        "34CD3206C9EFC260": [
+          0.0,
+          20.8,
+          18.8,
+          12.2,
+        ],
+        "483C3D3EB99CF700": [
+          13.4,
+          12.2,
+          18.8,
+          12.2,
+        ],
+      },
+      size: 1.0,
       id: "05733B0C63561902",
       tasks: [
         {
@@ -1079,12 +1339,21 @@
         count: 1,
       },
       x: 18.8,
-      y: 14,
-      optional: true,
-      dependencies: ["483C3D3EB99CF700"],
+      y: 14.0,
       shape: "diamond",
-      size: 1,
-      dep_control_pts: {"483C3D3EB99CF700":[13.4,12.2,18.8,14]},
+      dependencies: [
+        "483C3D3EB99CF700",
+      ],
+      dep_control_pts: {
+        "483C3D3EB99CF700": [
+          13.4,
+          12.2,
+          18.8,
+          14.0,
+        ],
+      },
+      size: 1.0,
+      optional: true,
       id: "52CFD5B267417188",
       tasks: [
         {
@@ -1105,10 +1374,19 @@
     {
       x: 18.8,
       y: 15.8,
-      dependencies: ["483C3D3EB99CF700"],
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"483C3D3EB99CF700":[13.4,12.2,18.8,15.8]},
+      dependencies: [
+        "483C3D3EB99CF700",
+      ],
+      dep_control_pts: {
+        "483C3D3EB99CF700": [
+          13.4,
+          12.2,
+          18.8,
+          15.8,
+        ],
+      },
+      size: 1.0,
       id: "5D17FFD3D0CEDA89",
       tasks: [
         {
@@ -1145,13 +1423,22 @@
     },
     {
       x: 13.4,
-      y: 14,
-      optional: true,
-      dependencies: ["4EC198FA7D868FAB"],
-      hide_dependency_lines: true,
+      y: 14.0,
       shape: "diamond",
-      size: 1,
-      dep_control_pts: {"4EC198FA7D868FAB":[0,1.8,13.4,14]},
+      hide_dependency_lines: true,
+      dependencies: [
+        "4EC198FA7D868FAB",
+      ],
+      dep_control_pts: {
+        "4EC198FA7D868FAB": [
+          0.0,
+          1.8,
+          13.4,
+          14.0,
+        ],
+      },
+      size: 1.0,
+      optional: true,
       id: "332A2F17D482964D",
       tasks: [
         {
@@ -1178,11 +1465,20 @@
       },
       x: 13.4,
       y: 15.8,
-      dependencies: ["1DAD469FDE3B0B4D"],
-      hide_dependency_lines: true,
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"1DAD469FDE3B0B4D":[7.2,0.9,13.4,15.8]},
+      hide_dependency_lines: true,
+      dependencies: [
+        "1DAD469FDE3B0B4D",
+      ],
+      dep_control_pts: {
+        "1DAD469FDE3B0B4D": [
+          7.2,
+          0.9,
+          13.4,
+          15.8,
+        ],
+      },
+      size: 1.0,
       id: "018F3D74DAC7F4FB",
       tasks: [
         {
@@ -1221,10 +1517,19 @@
     {
       x: 18.8,
       y: 17.6,
-      dependencies: ["018F3D74DAC7F4FB"],
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"018F3D74DAC7F4FB":[13.4,15.8,18.8,17.6]},
+      dependencies: [
+        "018F3D74DAC7F4FB",
+      ],
+      dep_control_pts: {
+        "018F3D74DAC7F4FB": [
+          13.4,
+          15.8,
+          18.8,
+          17.6,
+        ],
+      },
+      size: 1.0,
       id: "238D64D357BA3E43",
       tasks: [
         {
@@ -1261,11 +1566,20 @@
       },
       x: 13.4,
       y: 17.6,
-      dependencies: ["4EC198FA7D868FAB"],
-      hide_dependency_lines: true,
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"4EC198FA7D868FAB":[0,1.8,13.4,17.6]},
+      hide_dependency_lines: true,
+      dependencies: [
+        "4EC198FA7D868FAB",
+      ],
+      dep_control_pts: {
+        "4EC198FA7D868FAB": [
+          0.0,
+          1.8,
+          13.4,
+          17.6,
+        ],
+      },
+      size: 1.0,
       id: "575BF53264A8C083",
       tasks: [
         {
@@ -1295,10 +1609,19 @@
     {
       x: 20.6,
       y: 14.9,
-      dependencies: ["575BF53264A8C083"],
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"575BF53264A8C083":[13.4,17.6,20.6,14.9]},
+      dependencies: [
+        "575BF53264A8C083",
+      ],
+      dep_control_pts: {
+        "575BF53264A8C083": [
+          13.4,
+          17.6,
+          20.6,
+          14.9,
+        ],
+      },
+      size: 1.0,
       id: "444BB976FD23C4F6",
       tasks: [
         {
@@ -1330,11 +1653,20 @@
     {
       x: 22.4,
       y: 14.9,
-      optional: true,
-      dependencies: ["444BB976FD23C4F6"],
       shape: "diamond",
-      size: 1,
-      dep_control_pts: {"444BB976FD23C4F6":[20.6,14.9,22.4,14.9]},
+      dependencies: [
+        "444BB976FD23C4F6",
+      ],
+      dep_control_pts: {
+        "444BB976FD23C4F6": [
+          20.6,
+          14.9,
+          22.4,
+          14.9,
+        ],
+      },
+      size: 1.0,
+      optional: true,
       id: "387041C7539E83D2",
       tasks: [
         {
@@ -1369,11 +1701,20 @@
       },
       x: 15.2,
       y: 12.2,
-      dependencies: ["39ED542D50B4FECF"],
-      hide_dependency_lines: true,
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"39ED542D50B4FECF":[0,13.1,15.2,12.2]},
+      hide_dependency_lines: true,
+      dependencies: [
+        "39ED542D50B4FECF",
+      ],
+      dep_control_pts: {
+        "39ED542D50B4FECF": [
+          0.0,
+          13.1,
+          15.2,
+          12.2,
+        ],
+      },
+      size: 1.0,
       id: "1F14EC8F13FDB852",
       tasks: [
         {
@@ -1397,12 +1738,21 @@
         count: 1,
       },
       x: 15.2,
-      y: 14,
-      dependencies: ["29EA42C1E2A80184"],
-      hide_dependency_lines: true,
+      y: 14.0,
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"29EA42C1E2A80184":[17.9,1.8,15.2,14]},
+      hide_dependency_lines: true,
+      dependencies: [
+        "29EA42C1E2A80184",
+      ],
+      dep_control_pts: {
+        "29EA42C1E2A80184": [
+          17.9,
+          1.8,
+          15.2,
+          14.0,
+        ],
+      },
+      size: 1.0,
       id: "08A1EDA95CF09696",
       tasks: [
         {
@@ -1427,11 +1777,20 @@
       },
       x: 15.2,
       y: 15.8,
-      dependencies: ["29EA42C1E2A80184"],
-      hide_dependency_lines: true,
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"29EA42C1E2A80184":[17.9,1.8,15.2,15.8]},
+      hide_dependency_lines: true,
+      dependencies: [
+        "29EA42C1E2A80184",
+      ],
+      dep_control_pts: {
+        "29EA42C1E2A80184": [
+          17.9,
+          1.8,
+          15.2,
+          15.8,
+        ],
+      },
+      size: 1.0,
       id: "451357EE19737D9C",
       tasks: [
         {
@@ -1456,12 +1815,21 @@
       },
       x: 15.2,
       y: 17.6,
-      optional: true,
-      dependencies: ["39ED542D50B4FECF"],
-      hide_dependency_lines: true,
       shape: "diamond",
-      size: 1,
-      dep_control_pts: {"39ED542D50B4FECF":[0,13.1,15.2,17.6]},
+      hide_dependency_lines: true,
+      dependencies: [
+        "39ED542D50B4FECF",
+      ],
+      dep_control_pts: {
+        "39ED542D50B4FECF": [
+          0.0,
+          13.1,
+          15.2,
+          17.6,
+        ],
+      },
+      size: 1.0,
+      optional: true,
       id: "53F5D7FE0C9CD7DA",
       tasks: [
         {
@@ -1482,13 +1850,22 @@
         id: "aether_ii:eye_of_the_mimic",
         count: 1,
       },
-      x: 17,
+      x: 17.0,
       y: 14.9,
-      dependencies: ["70443A4AA35914F9"],
-      hide_dependency_lines: true,
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"70443A4AA35914F9":[13.4,20.8,17,14.9]},
+      hide_dependency_lines: true,
+      dependencies: [
+        "70443A4AA35914F9",
+      ],
+      dep_control_pts: {
+        "70443A4AA35914F9": [
+          13.4,
+          20.8,
+          17.0,
+          14.9,
+        ],
+      },
+      size: 1.0,
       id: "3BA2D1D8DEB70474",
       tasks: [
         {
@@ -1513,13 +1890,22 @@
       ],
     },
     {
-      x: 0,
+      x: 0.0,
       y: 20.8,
-      dependencies: ["476AF39EA0F8E76A"],
-      hide_dependency_lines: true,
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"476AF39EA0F8E76A":[7.2,2.7,0,20.8]},
+      hide_dependency_lines: true,
+      dependencies: [
+        "476AF39EA0F8E76A",
+      ],
+      dep_control_pts: {
+        "476AF39EA0F8E76A": [
+          7.2,
+          2.7,
+          0.0,
+          20.8,
+        ],
+      },
+      size: 1.0,
       id: "34CD3206C9EFC260",
       tasks: [
         {
@@ -1542,11 +1928,20 @@
     {
       x: 1.8,
       y: 20.8,
-      dependencies: ["3AE3D5FFCA2ED68A"],
-      hide_dependency_lines: true,
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"3AE3D5FFCA2ED68A":[15.2,5.4,1.8,20.8]},
+      hide_dependency_lines: true,
+      dependencies: [
+        "3AE3D5FFCA2ED68A",
+      ],
+      dep_control_pts: {
+        "3AE3D5FFCA2ED68A": [
+          15.2,
+          5.4,
+          1.8,
+          20.8,
+        ],
+      },
+      size: 1.0,
       id: "11CF77DBC1780DFB",
       tasks: [
         {
@@ -1577,11 +1972,20 @@
     {
       x: 1.8,
       y: 22.6,
-      optional: true,
-      dependencies: ["11CF77DBC1780DFB"],
       shape: "diamond",
-      size: 1,
-      dep_control_pts: {"11CF77DBC1780DFB":[1.8,20.8,1.8,22.6]},
+      dependencies: [
+        "11CF77DBC1780DFB",
+      ],
+      dep_control_pts: {
+        "11CF77DBC1780DFB": [
+          1.8,
+          20.8,
+          1.8,
+          22.6,
+        ],
+      },
+      size: 1.0,
+      optional: true,
       id: "24CFF793D067A4CE",
       tasks: [
         {
@@ -1634,12 +2038,21 @@
     {
       x: 3.6,
       y: 20.8,
-      optional: true,
-      dependencies: ["483C3D3EB99CF700"],
-      hide_dependency_lines: true,
       shape: "diamond",
-      size: 1,
-      dep_control_pts: {"483C3D3EB99CF700":[13.4,12.2,3.6,20.8]},
+      hide_dependency_lines: true,
+      dependencies: [
+        "483C3D3EB99CF700",
+      ],
+      dep_control_pts: {
+        "483C3D3EB99CF700": [
+          13.4,
+          12.2,
+          3.6,
+          20.8,
+        ],
+      },
+      size: 1.0,
+      optional: true,
       id: "30B1BDC14B01DC82",
       tasks: [
         {
@@ -1662,12 +2075,21 @@
     {
       x: 5.4,
       y: 20.8,
-      optional: true,
-      dependencies: ["3982750FC2FB407F"],
-      hide_dependency_lines: true,
       shape: "diamond",
-      size: 1,
-      dep_control_pts: {"3982750FC2FB407F":[1.8,13.1,5.4,20.8]},
+      hide_dependency_lines: true,
+      dependencies: [
+        "3982750FC2FB407F",
+      ],
+      dep_control_pts: {
+        "3982750FC2FB407F": [
+          1.8,
+          13.1,
+          5.4,
+          20.8,
+        ],
+      },
+      size: 1.0,
+      optional: true,
       id: "3284496F03F84DBF",
       tasks: [
         {
@@ -1690,11 +2112,20 @@
     {
       x: 3.6,
       y: 22.6,
-      optional: true,
-      dependencies: ["34CD3206C9EFC260"],
       shape: "diamond",
-      size: 1,
-      dep_control_pts: {"34CD3206C9EFC260":[0,20.8,3.6,22.6]},
+      dependencies: [
+        "34CD3206C9EFC260",
+      ],
+      dep_control_pts: {
+        "34CD3206C9EFC260": [
+          0.0,
+          20.8,
+          3.6,
+          22.6,
+        ],
+      },
+      size: 1.0,
+      optional: true,
       id: "4E00D3B66F49C793",
       tasks: [
         {
@@ -1721,11 +2152,20 @@
       },
       x: 13.4,
       y: 20.8,
-      dependencies: ["4EC198FA7D868FAB"],
-      hide_dependency_lines: true,
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"4EC198FA7D868FAB":[0,1.8,13.4,20.8]},
+      hide_dependency_lines: true,
+      dependencies: [
+        "4EC198FA7D868FAB",
+      ],
+      dep_control_pts: {
+        "4EC198FA7D868FAB": [
+          0.0,
+          1.8,
+          13.4,
+          20.8,
+        ],
+      },
+      size: 1.0,
       id: "70443A4AA35914F9",
       tasks: [
         {
@@ -1753,12 +2193,21 @@
         id: "aether_ii:outpost_campfire",
         count: 1,
       },
-      x: 17,
+      x: 17.0,
       y: 20.8,
-      dependencies: ["70443A4AA35914F9"],
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"70443A4AA35914F9":[13.4,20.8,17,20.8]},
+      dependencies: [
+        "70443A4AA35914F9",
+      ],
+      dep_control_pts: {
+        "70443A4AA35914F9": [
+          13.4,
+          20.8,
+          17.0,
+          20.8,
+        ],
+      },
+      size: 1.0,
       id: "58F47BF719D673D8",
       tasks: [
         {
@@ -1780,12 +2229,21 @@
         id: "aether_ii:skyroot_beam",
         count: 1,
       },
-      x: 17,
+      x: 17.0,
       y: 22.6,
-      dependencies: ["70443A4AA35914F9"],
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"70443A4AA35914F9":[13.4,20.8,17,22.6]},
+      dependencies: [
+        "70443A4AA35914F9",
+      ],
+      dep_control_pts: {
+        "70443A4AA35914F9": [
+          13.4,
+          20.8,
+          17.0,
+          22.6,
+        ],
+      },
+      size: 1.0,
       id: "774F137067711AF1",
       tasks: [
         {
@@ -1815,11 +2273,20 @@
       },
       x: 13.4,
       y: 22.6,
-      dependencies: ["4EC198FA7D868FAB"],
-      hide_dependency_lines: true,
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"4EC198FA7D868FAB":[0,1.8,13.4,22.6]},
+      hide_dependency_lines: true,
+      dependencies: [
+        "4EC198FA7D868FAB",
+      ],
+      dep_control_pts: {
+        "4EC198FA7D868FAB": [
+          0.0,
+          1.8,
+          13.4,
+          22.6,
+        ],
+      },
+      size: 1.0,
       id: "640B5A8755113C03",
       tasks: [
         {
@@ -1841,12 +2308,21 @@
         id: "aether_ii:veradexian_vase",
         count: 1,
       },
-      x: 17,
+      x: 17.0,
       y: 24.4,
-      dependencies: ["640B5A8755113C03"],
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"640B5A8755113C03":[13.4,22.6,17,24.4]},
+      dependencies: [
+        "640B5A8755113C03",
+      ],
+      dep_control_pts: {
+        "640B5A8755113C03": [
+          13.4,
+          22.6,
+          17.0,
+          24.4,
+        ],
+      },
+      size: 1.0,
       id: "242C8BB68DEA1A7E",
       tasks: [
         {
@@ -1876,10 +2352,19 @@
       },
       x: 18.8,
       y: 21.7,
-      dependencies: ["242C8BB68DEA1A7E"],
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"242C8BB68DEA1A7E":[17,24.4,18.8,21.7]},
+      dependencies: [
+        "242C8BB68DEA1A7E",
+      ],
+      dep_control_pts: {
+        "242C8BB68DEA1A7E": [
+          17.0,
+          24.4,
+          18.8,
+          21.7,
+        ],
+      },
+      size: 1.0,
       id: "63C141662E9EA4DB",
       tasks: [
         {
@@ -1909,11 +2394,20 @@
       },
       x: 18.8,
       y: 23.5,
-      optional: true,
-      dependencies: ["242C8BB68DEA1A7E"],
       shape: "diamond",
-      size: 1,
-      dep_control_pts: {"242C8BB68DEA1A7E":[17,24.4,18.8,23.5]},
+      dependencies: [
+        "242C8BB68DEA1A7E",
+      ],
+      dep_control_pts: {
+        "242C8BB68DEA1A7E": [
+          17.0,
+          24.4,
+          18.8,
+          23.5,
+        ],
+      },
+      size: 1.0,
+      optional: true,
       id: "5CEBA88A13014610",
       tasks: [
         {
@@ -1937,10 +2431,19 @@
       },
       x: 18.8,
       y: 25.3,
-      dependencies: ["242C8BB68DEA1A7E"],
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"242C8BB68DEA1A7E":[17,24.4,18.8,25.3]},
+      dependencies: [
+        "242C8BB68DEA1A7E",
+      ],
+      dep_control_pts: {
+        "242C8BB68DEA1A7E": [
+          17.0,
+          24.4,
+          18.8,
+          25.3,
+        ],
+      },
+      size: 1.0,
       id: "44C7209DC3B8592D",
       tasks: [
         {
@@ -1970,11 +2473,20 @@
       },
       x: 13.4,
       y: 24.4,
-      dependencies: ["3AE3D5FFCA2ED68A"],
-      hide_dependency_lines: true,
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"3AE3D5FFCA2ED68A":[15.2,5.4,13.4,24.4]},
+      hide_dependency_lines: true,
+      dependencies: [
+        "3AE3D5FFCA2ED68A",
+      ],
+      dep_control_pts: {
+        "3AE3D5FFCA2ED68A": [
+          15.2,
+          5.4,
+          13.4,
+          24.4,
+        ],
+      },
+      size: 1.0,
       id: "64D0ECE0EEB52029",
       tasks: [
         {
@@ -2002,12 +2514,21 @@
         id: "aether_ii:sentry_servo",
         count: 1,
       },
-      x: 17,
+      x: 17.0,
       y: 26.2,
-      dependencies: ["64D0ECE0EEB52029"],
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"64D0ECE0EEB52029":[13.4,24.4,17,26.2]},
+      dependencies: [
+        "64D0ECE0EEB52029",
+      ],
+      dep_control_pts: {
+        "64D0ECE0EEB52029": [
+          13.4,
+          24.4,
+          17.0,
+          26.2,
+        ],
+      },
+      size: 1.0,
       id: "68A0A2EECBC5D7CB",
       tasks: [
         {
@@ -2038,11 +2559,20 @@
       },
       x: 13.4,
       y: 26.2,
-      dependencies: ["483E6C98A196C51E"],
-      hide_dependency_lines: true,
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"483E6C98A196C51E":[17,3.6,13.4,26.2]},
+      hide_dependency_lines: true,
+      dependencies: [
+        "483E6C98A196C51E",
+      ],
+      dep_control_pts: {
+        "483E6C98A196C51E": [
+          17.0,
+          3.6,
+          13.4,
+          26.2,
+        ],
+      },
+      size: 1.0,
       id: "1BC1153E9B8EA840",
       tasks: [
         {
@@ -2072,11 +2602,20 @@
       },
       x: 15.2,
       y: 21.7,
-      dependencies: ["286359BC0464235B"],
-      hide_dependency_lines: true,
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"286359BC0464235B":[7.2,30.3,15.2,21.7]},
+      hide_dependency_lines: true,
+      dependencies: [
+        "286359BC0464235B",
+      ],
+      dep_control_pts: {
+        "286359BC0464235B": [
+          7.2,
+          30.3,
+          15.2,
+          21.7,
+        ],
+      },
+      size: 1.0,
       id: "5394621F4BE0D5C3",
       tasks: [
         {
@@ -2106,11 +2645,20 @@
       },
       x: 15.2,
       y: 23.5,
-      dependencies: ["286359BC0464235B"],
-      hide_dependency_lines: true,
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"286359BC0464235B":[7.2,30.3,15.2,23.5]},
+      hide_dependency_lines: true,
+      dependencies: [
+        "286359BC0464235B",
+      ],
+      dep_control_pts: {
+        "286359BC0464235B": [
+          7.2,
+          30.3,
+          15.2,
+          23.5,
+        ],
+      },
+      size: 1.0,
       id: "66424B090A665FA0",
       tasks: [
         {
@@ -2140,12 +2688,21 @@
       },
       x: 15.2,
       y: 25.3,
-      optional: true,
-      dependencies: ["7F125FFE020B1A1C"],
-      hide_dependency_lines: true,
       shape: "diamond",
-      size: 1,
-      dep_control_pts: {"7F125FFE020B1A1C":[7.2,32.1,15.2,25.3]},
+      hide_dependency_lines: true,
+      dependencies: [
+        "7F125FFE020B1A1C",
+      ],
+      dep_control_pts: {
+        "7F125FFE020B1A1C": [
+          7.2,
+          32.1,
+          15.2,
+          25.3,
+        ],
+      },
+      size: 1.0,
+      optional: true,
       id: "1094E38EDC01792F",
       tasks: [
         {
@@ -2167,13 +2724,22 @@
         id: "aether_ii:aether_grass_block",
         count: 1,
       },
-      x: 0,
+      x: 0.0,
       y: 30.3,
-      dependencies: ["4EC198FA7D868FAB"],
-      hide_dependency_lines: true,
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"4EC198FA7D868FAB":[0,1.8,0,30.3]},
+      hide_dependency_lines: true,
+      dependencies: [
+        "4EC198FA7D868FAB",
+      ],
+      dep_control_pts: {
+        "4EC198FA7D868FAB": [
+          0.0,
+          1.8,
+          0.0,
+          30.3,
+        ],
+      },
+      size: 1.0,
       id: "069C65437132AB90",
       tasks: [
         {
@@ -2197,10 +2763,19 @@
       },
       x: 1.8,
       y: 31.2,
-      dependencies: ["069C65437132AB90"],
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"069C65437132AB90":[0,30.3,1.8,31.2]},
+      dependencies: [
+        "069C65437132AB90",
+      ],
+      dep_control_pts: {
+        "069C65437132AB90": [
+          0.0,
+          30.3,
+          1.8,
+          31.2,
+        ],
+      },
+      size: 1.0,
       id: "4EE2A44DDC19278B",
       tasks: [
         {
@@ -2224,10 +2799,19 @@
       },
       x: 3.6,
       y: 30.3,
-      dependencies: ["4EE2A44DDC19278B"],
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"4EE2A44DDC19278B":[1.8,31.2,3.6,30.3]},
+      dependencies: [
+        "4EE2A44DDC19278B",
+      ],
+      dep_control_pts: {
+        "4EE2A44DDC19278B": [
+          1.8,
+          31.2,
+          3.6,
+          30.3,
+        ],
+      },
+      size: 1.0,
       id: "723D39C153CD83FD",
       tasks: [
         {
@@ -2251,10 +2835,19 @@
       },
       x: 3.6,
       y: 32.1,
-      dependencies: ["4EE2A44DDC19278B"],
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"4EE2A44DDC19278B":[1.8,31.2,3.6,32.1]},
+      dependencies: [
+        "4EE2A44DDC19278B",
+      ],
+      dep_control_pts: {
+        "4EE2A44DDC19278B": [
+          1.8,
+          31.2,
+          3.6,
+          32.1,
+        ],
+      },
+      size: 1.0,
       id: "30378A5D9BE09CF6",
       tasks: [
         {
@@ -2278,10 +2871,19 @@
       },
       x: 5.4,
       y: 31.2,
-      dependencies: ["723D39C153CD83FD"],
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"723D39C153CD83FD":[3.6,30.3,5.4,31.2]},
+      dependencies: [
+        "723D39C153CD83FD",
+      ],
+      dep_control_pts: {
+        "723D39C153CD83FD": [
+          3.6,
+          30.3,
+          5.4,
+          31.2,
+        ],
+      },
+      size: 1.0,
       id: "281B527F0BECC49E",
       tasks: [
         {
@@ -2305,10 +2907,19 @@
       },
       x: 7.2,
       y: 32.1,
-      dependencies: ["281B527F0BECC49E"],
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"281B527F0BECC49E":[5.4,31.2,7.2,32.1]},
+      dependencies: [
+        "281B527F0BECC49E",
+      ],
+      dep_control_pts: {
+        "281B527F0BECC49E": [
+          5.4,
+          31.2,
+          7.2,
+          32.1,
+        ],
+      },
+      size: 1.0,
       id: "7F125FFE020B1A1C",
       tasks: [
         {
@@ -2330,12 +2941,21 @@
         id: "aether_ii:arctic_snow_block",
         count: 1,
       },
-      x: 9,
+      x: 9.0,
       y: 29.4,
-      dependencies: ["7F125FFE020B1A1C"],
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"7F125FFE020B1A1C":[7.2,32.1,9,29.4]},
+      dependencies: [
+        "7F125FFE020B1A1C",
+      ],
+      dep_control_pts: {
+        "7F125FFE020B1A1C": [
+          7.2,
+          32.1,
+          9.0,
+          29.4,
+        ],
+      },
+      size: 1.0,
       id: "14CB7ECD3FA04787",
       tasks: [
         {
@@ -2359,10 +2979,19 @@
       },
       x: 7.2,
       y: 30.3,
-      dependencies: ["281B527F0BECC49E"],
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"281B527F0BECC49E":[5.4,31.2,7.2,30.3]},
+      dependencies: [
+        "281B527F0BECC49E",
+      ],
+      dep_control_pts: {
+        "281B527F0BECC49E": [
+          5.4,
+          31.2,
+          7.2,
+          30.3,
+        ],
+      },
+      size: 1.0,
       id: "286359BC0464235B",
       tasks: [
         {
@@ -2390,12 +3019,21 @@
         id: "aether_ii:shimmering_silt",
         count: 1,
       },
-      x: 9,
+      x: 9.0,
       y: 31.2,
-      dependencies: ["286359BC0464235B"],
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"286359BC0464235B":[7.2,30.3,9,31.2]},
+      dependencies: [
+        "286359BC0464235B",
+      ],
+      dep_control_pts: {
+        "286359BC0464235B": [
+          7.2,
+          30.3,
+          9.0,
+          31.2,
+        ],
+      },
+      size: 1.0,
       id: "60AA9FAAAB3B1C45",
       tasks: [
         {
@@ -2417,12 +3055,21 @@
         id: "aether_ii:arkenium_shortsword",
         count: 1,
       },
-      x: 9,
-      y: 33,
-      dependencies: ["286359BC0464235B"],
+      x: 9.0,
+      y: 33.0,
       shape: "circle",
-      size: 1,
-      dep_control_pts: {"286359BC0464235B":[7.2,30.3,9,33]},
+      dependencies: [
+        "286359BC0464235B",
+      ],
+      dep_control_pts: {
+        "286359BC0464235B": [
+          7.2,
+          30.3,
+          9.0,
+          33.0,
+        ],
+      },
+      size: 1.0,
       id: "6A1738107FF5A3E1",
       tasks: [
         {
@@ -2446,10 +3093,40 @@
       },
       x: 10.8,
       y: 31.2,
-      dependencies: ["30378A5D9BE09CF6","14CB7ECD3FA04787","60AA9FAAAB3B1C45","6A1738107FF5A3E1"],
       shape: "gear",
+      dependencies: [
+        "30378A5D9BE09CF6",
+        "14CB7ECD3FA04787",
+        "60AA9FAAAB3B1C45",
+        "6A1738107FF5A3E1",
+      ],
+      dep_control_pts: {
+        "60AA9FAAAB3B1C45": [
+          9.0,
+          31.2,
+          10.8,
+          31.2,
+        ],
+        "30378A5D9BE09CF6": [
+          3.6,
+          32.1,
+          10.8,
+          31.2,
+        ],
+        "6A1738107FF5A3E1": [
+          9.0,
+          33.0,
+          10.8,
+          31.2,
+        ],
+        "14CB7ECD3FA04787": [
+          9.0,
+          29.4,
+          10.8,
+          31.2,
+        ],
+      },
       size: 1.3,
-      dep_control_pts: {"30378A5D9BE09CF6":[3.6,32.1,10.8,31.2],"14CB7ECD3FA04787":[9,29.4,10.8,31.2],"60AA9FAAAB3B1C45":[9,31.2,10.8,31.2],"6A1738107FF5A3E1":[9,33,10.8,31.2]},
       id: "5F2AF1FBD7DFE621",
       tasks: [
         {
@@ -2474,11 +3151,27 @@
     {
       x: 12.6,
       y: 31.2,
-      dependencies: ["6F4B2B8707DB09A1","5F2AF1FBD7DFE621"],
-      hide_dependency_lines: true,
       shape: "gear",
+      hide_dependency_lines: true,
+      dependencies: [
+        "6F4B2B8707DB09A1",
+        "5F2AF1FBD7DFE621",
+      ],
+      dep_control_pts: {
+        "6F4B2B8707DB09A1": [
+          17.9,
+          9.0,
+          12.6,
+          31.2,
+        ],
+        "5F2AF1FBD7DFE621": [
+          10.8,
+          31.2,
+          12.6,
+          31.2,
+        ],
+      },
       size: 1.3,
-      dep_control_pts: {"6F4B2B8707DB09A1":[17.9,9,12.6,31.2],"5F2AF1FBD7DFE621":[10.8,31.2,12.6,31.2]},
       id: "6320E282F5652FE4",
       tasks: [
         {
@@ -2505,14 +3198,23 @@
       ],
     },
     {
-      x: 0,
+      x: 0.0,
       y: 32.1,
-      optional: true,
-      dependencies: ["0B454266701E7E01"],
-      hide_dependency_lines: true,
       shape: "diamond",
-      size: 1,
-      dep_control_pts: {"0B454266701E7E01":[17.9,7.2,0,32.1]},
+      hide_dependency_lines: true,
+      dependencies: [
+        "0B454266701E7E01",
+      ],
+      dep_control_pts: {
+        "0B454266701E7E01": [
+          17.9,
+          7.2,
+          0.0,
+          32.1,
+        ],
+      },
+      size: 1.0,
+      optional: true,
       id: "0FDB06E3621AD2C6",
       tasks: [
         {
@@ -2542,101 +3244,77 @@
   quest_links: [
   ],
   images: [
-  {
-    "x": 11.2,
-    "y": -1.7188,
-    "width": 12,
-    "height": 1.4375,
-    "rotation": 0,
-    "image": "gspack:textures/quests/aether_header.png",
-    "color": 16777215,
-    "alpha": 255,
-    "order": 0,
-    "corner": false
-  },
-  {
-    "x": 11.1941,
-    "y": 20.8,
-    "width": 2.6118,
-    "height": 0.6,
-    "rotation": 0,
-    "image": "gspack:textures/quests/aether_outpost.png",
-    "color": 16777215,
-    "alpha": 255,
-    "order": 0,
-    "corner": false
-  },
-  {
-    "x": -1.7647,
-    "y": 20.8,
-    "width": 1.7294,
-    "height": 0.6,
-    "rotation": 0,
-    "image": "gspack:textures/quests/aether_altar.png",
-    "color": 16777215,
-    "alpha": 255,
-    "order": 0,
-    "corner": false
-  },
-  {
-    "x": -1.9059,
-    "y": 30.3,
-    "width": 2.0118,
-    "height": 0.6,
-    "rotation": 0,
-    "image": "gspack:textures/quests/aether_biome_highfields.png",
-    "color": 16777215,
-    "alpha": 255,
-    "order": 0,
-    "corner": false
-  },
-  {
-    "x": 11.2647,
-    "y": 12.2,
-    "width": 2.4706,
-    "height": 0.6,
-    "rotation": 0,
-    "image": "gspack:textures/quests/aether_food.png",
-    "color": 16777215,
-    "alpha": 255,
-    "order": 0,
-    "corner": false
-  },
-  {
-    "x": -1.8,
-    "y": 13.1,
-    "width": 1.8,
-    "height": 0.6,
-    "rotation": 0,
-    "image": "gspack:textures/quests/aether_clouds.png",
-    "color": 16777215,
-    "alpha": 255,
-    "order": 0,
-    "corner": false
-  },
-  {
-    "x": -1.8353,
-    "y": 1.8,
-    "width": 1.8706,
-    "height": 0.6,
-    "rotation": 0,
-    "image": "gspack:textures/quests/aether_portal.png",
-    "color": 16777215,
-    "alpha": 255,
-    "order": 0,
-    "corner": false
-  },
-  {
-    "x": 13.3647,
-    "y": 0,
-    "width": 1.8706,
-    "height": 0.6,
-    "rotation": 0,
-    "image": "gspack:textures/quests/aether_zanite.png",
-    "color": 16777215,
-    "alpha": 255,
-    "order": 0,
-    "corner": false
-  }
-],
+    {
+      x: 11.2,
+      y: -1.7188,
+      width: 12.0,
+      height: 1.4375,
+      rotation: 0.0,
+      image: "gspack:textures/quests/aether_header.png",
+      id: "73B5DDFD2A66B0D8",
+    },
+    {
+      x: 11.1941,
+      y: 20.8,
+      width: 2.6118,
+      height: 0.6,
+      rotation: 0.0,
+      image: "gspack:textures/quests/aether_outpost.png",
+      id: "6CCDDD7475978082",
+    },
+    {
+      x: -1.7647,
+      y: 20.8,
+      width: 1.7294,
+      height: 0.6,
+      rotation: 0.0,
+      image: "gspack:textures/quests/aether_altar.png",
+      id: "652DAC687CF4B009",
+    },
+    {
+      x: -1.9059,
+      y: 30.3,
+      width: 2.0118,
+      height: 0.6,
+      rotation: 0.0,
+      image: "gspack:textures/quests/aether_biome_highfields.png",
+      id: "5B20850A7C11E69F",
+    },
+    {
+      x: 11.2647,
+      y: 12.2,
+      width: 2.4706,
+      height: 0.6,
+      rotation: 0.0,
+      image: "gspack:textures/quests/aether_food.png",
+      id: "4E2CEC4C6FA6110C",
+    },
+    {
+      x: -1.8,
+      y: 13.1,
+      width: 1.8,
+      height: 0.6,
+      rotation: 0.0,
+      image: "gspack:textures/quests/aether_clouds.png",
+      id: "029959B926C323C9",
+    },
+    {
+      x: -1.8353,
+      y: 1.8,
+      width: 1.8706,
+      height: 0.6,
+      rotation: 0.0,
+      image: "gspack:textures/quests/aether_portal.png",
+      id: "02016D76D78FFAC8",
+    },
+    {
+      x: 13.3647,
+      y: 0.0,
+      width: 1.8706,
+      height: 0.6,
+      rotation: 0.0,
+      image: "gspack:textures/quests/aether_zanite.png",
+      id: "39735D37E9F8E388",
+    },
+  ],
 }

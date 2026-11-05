@@ -1,0 +1,23 @@
+{
+  "size": [
+    33,
+    18,
+    33
+  ],
+  "blocks": 7684,
+  "palette": [
+    "minecraft:polished_andesite",
+    "minecraft:cyan_stained_glass",
+    "minecraft:stone_bricks",
+    "minecraft:air",
+    "minecraft:sea_lantern",
+    "minecraft:chiseled_copper",
+    "minecraft:chest",
+    "minecraft:spawner"
+  ],
+  "spawners": 4,
+  "chests": 3,
+  "relicsPerDome": 1,
+  "biome": "gspack:mars_dome_fields",
+  "oxygen": "abandoned airlock; visitors need their own oxygen"
+}
