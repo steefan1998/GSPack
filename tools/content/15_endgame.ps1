@@ -33,7 +33,7 @@ Build the FE multiblock described in Cores: Technological Core. A central Crafti
 Q 'core_arcane' 'Arcane Core' 'gspack:arcane_core' 'intro,thaumaturge/pearl,apotheosis/pearl,equivox/red_matter,mystical/awakened' 'xp:1000;table:epic' -size 1.5 -shape 'hexagon' -desc @'
 Craft in an Elite Crafting Table (7x7). Required magic mods: Thaumaturge, Occultism, Equivox, Apotheosis, EvilCraft and Roots Classic. The recipe includes a Primordial Pearl, tier-4 Storage Stabilizer, Godforged Pearl, Red Matter, Klein Star Omega, Dark Power Gem Block and Crystal Staff. See Cores: Arcane Core for the full route and JEI for quantities.
 '@
-Q 'core_verdant' 'Verdant Core' 'gspack:verdant_core' 'intro,mystical/insanium,seeds/s_nether_star,seeds/s_unobtainium,aquaculture/neptunium' 'xp:1000;table:epic' -size 1.5 -shape 'hexagon' -desc @'
+Q 'core_verdant' 'Verdant Core' 'gspack:verdant_core' 'intro,mystical/insanium,aquaculture/neptunium' 'xp:1000;table:epic' -size 1.5 -shape 'hexagon' -desc @'
 Craft in an Elite Crafting Table (7x7) with 25 farming and tree ingredients, including Productive Trees, Productive Farming, Mystical Agriculture and Aquaculture. Productive Bees remains optional. Follow Cores: Verdant Core and JEI.
 '@
 Q 'core_dimensional' 'Dimensional Core' 'gspack:dimensional_core' 'intro,allthemodium/unob_ingot,allthemodium/piglich,twilight/snow_queen,twilight/ur_ghast,aether/gravitite' 'xp:1000;table:epic' -size 1.5 -shape 'hexagon' -desc @'
