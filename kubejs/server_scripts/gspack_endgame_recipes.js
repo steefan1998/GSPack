@@ -4,83 +4,136 @@
 //   Technological Core  - Mekanism, Oritech, Advanced AE
 //   Arcane Core         - Thaumaturge, Apotheosis, Equivox, Occultism
 //   Verdant Core        - Mystical Agradditions, Aquaculture, Unobtainium seeds
-//   Dimensional Core    - Allthemodium, Twilight Forest, Aether II
+//   Dimensional Core    - The Bumblezone, Twilight Forest, Aether II
 //   Cosmic Core         - Stellaris
 // The five cores make a Creative Singularity; every creative item needs one.
 // Creative items are crafted in an Extended Crafting Elite Table (7x7), the Trophy of Infinity in an
 // Ultimate Table (9x9). The tables themselves are made more expensive in gspack_crossmod_recipes.js.
 
 ServerEvents.recipes(event => {
-  // ----- Cores -----
-  event.shaped('gspack:tech_core', [
-    'ABA',
-    'CDC',
-    'ABA'
-  ], {
-    A: 'mekanism:pellet_antimatter',
-    B: 'oritech:super_ai_chip',
-    C: 'advanced_ae:quantum_processor',
-    D: 'mekanism_extras:infinite_control_circuit'
-  }).id('gspack:endgame/tech_core')
+  // ----- Cores: mod-specific endgame milestones, Elite Crafting Table (7x7) -----
+  const coreRecipes = [
+    [
+      "tech_core",
+      "allthecompressed:osmium_block_2x",
+      [
+        "mekanism:pellet_antimatter",
+        "oritech:super_ai_chip",
+        "advanced_ae:quantum_processor",
+        "mekanism_extras:infinite_control_circuit",
+        "advanced_ae:quantum_core",
+        "ae2:singularity",
+        "powah:energy_cell_nitro",
+        "oritech:atomic_forge",
+        "mekanism:ultimate_induction_cell"
+      ]
+    ],
+    [
+      "arcane_core",
+      "equivox:red_matter_block",
+      [
+        "thaumaturge:metal_void",
+        "apotheosis:godforged_pearl",
+        "equivox:red_matter_block",
+        "occultism:storage_stabilizer_tier4",
+        "thaumaturge:primordial_pearl",
+        "rootsclassic:crystal_staff",
+        "evilcraft:dark_power_gem_block",
+        "equivox:klein_star_omega",
+        "thaumaturge:metal_void"
+      ]
+    ],
+    [
+      "verdant_core",
+      "allthecompressed:emerald_block_2x",
+      [
+        "mysticalagradditions:insanium_gemstone_block",
+        "productivetrees:time_traveller_sapling",
+        "productivefarming:farm_controller",
+        "productivetrees:cured_rubber",
+        "mysticalagriculture:unobtainium_seeds",
+        "productivefarming:barley_seeds_bag",
+        "productivetrees:maple_syrup",
+        "aquaculture:neptunium_block",
+        "productivefarming:onion_crate"
+      ]
+    ],
+    [
+      "dimensional_core",
+      "aether_ii:gravitite_block",
+      [
+        "twilightforest:hydra_trophy",
+        "aether_ii:gravitite_block",
+        "the_bumblezone:royal_jelly_block",
+        "twilightforest:ur_ghast_trophy",
+        "the_bumblezone:essence_of_the_bees",
+        "aether_ii:valkyrie_wings",
+        "twilightforest:snow_queen_trophy",
+        "aether_ii:zanite_block",
+        "the_bumblezone:glistering_honey_crystal"
+      ]
+    ],
+    [
+      "cosmic_core",
+      "stellaris:novite_block",
+      [
+        "stellaris:heart_of_luna_trophy",
+        "stellaris:autopilot_module",
+        "stellaris:star_crawler_boss_trophy",
+        "stellaris:shield_module",
+        "stellaris:novite_block",
+        "stellaris:space_station_blueprint",
+        "powah:energy_cell_nitro",
+        "advanced_ae:quantum_processor",
+        "stellaris:astrum_vitreus_block"
+      ]
+    ]
+  ]
+  coreRecipes.forEach(([name, frame, ingredients]) => {
+    if (name === 'tech_core') {
+      // 24 pedestals on the outer ring of a 7x7 area, core at the same-height center.
+      // One ingredient per pedestal; the central item is the Quantum Core.
+      let pedestalItems = ingredients.filter(item => item !== 'advanced_ae:quantum_core')
+      for (let i = 0; i < 8; i++) pedestalItems.push('extendedcrafting:elite_component')
+      for (let i = 0; i < 4; i++) pedestalItems.push(frame)
+      for (let i = 0; i < 4; i++) pedestalItems.push('extendedcrafting:black_iron_block')
+      event.custom({
+        type: 'extendedcrafting:combination',
+        input: 'advanced_ae:quantum_core',
+        ingredients: pedestalItems,
+        power_cost: 250000000,
+        power_rate: 25000,
+        result: { id: 'gspack:tech_core', count: 1 }
+      }).id('gspack:endgame/tech_core')
+      return
+    }
+    let key = { A: 'extendedcrafting:elite_component', B: 'extendedcrafting:black_iron_ingot', C: frame }
+    ingredients.forEach((item, i) => { key[String.fromCharCode(68 + i)] = item })
+    let corePattern = ['ABBCBBA', 'B     B', 'B DEF B', 'C GHI C', 'B JKL B', 'B     B', 'ABBCBBA']
+    if (name === 'verdant_core') {
+      let harvest = ['minecraft:wheat', 'minecraft:carrot', 'minecraft:potato', 'minecraft:beetroot',
+        'minecraft:pumpkin', 'minecraft:melon_slice', 'minecraft:sugar_cane', 'minecraft:apple',
+        'productivefarming:rice', 'productivefarming:cotton', 'productivefarming:strawberry',
+        'productivefarming:black_beans', 'productivefarming:sugar_beet', 'productivefarming:garlic',
+        'productivefarming:cabbage', 'productivefarming:blueberry']
+      harvest.forEach((item, i) => { key['123456789abcdefg'.charAt(i)] = item })
+      corePattern = ['ABBCBBA', 'B12345B', 'B6DEF7B', 'C8GHI9C', 'BaJKLbB', 'BcdefgB', 'ABBCBBA']
+    }
+    event.custom({
+      type: 'extendedcrafting:shaped_table',
+      pattern: corePattern,
+      key: key,
+      result: { id: 'gspack:' + name, count: 1 }
+    }).id('gspack:endgame/' + name)
+  })
 
-  event.shaped('gspack:arcane_core', [
-    'ABA',
-    'CDC',
-    'EBA'
-  ], {
-    A: 'thaumaturge:metal_void',
-    B: 'apotheosis:godforged_pearl',
-    C: 'equivox:red_matter_block',
-    D: 'thaumaturge:primordial_pearl',
-    E: 'occultism:storage_stabilizer_tier4'
-  }).id('gspack:endgame/arcane_core')
-
-  event.shaped('gspack:verdant_core', [
-    'ABA',
-    'CDC',
-    'ABA'
-  ], {
-    A: 'mysticalagradditions:insanium_gemstone_block',
-    B: 'mysticalagriculture:nether_star_seeds',
-    C: 'aquaculture:neptunium_block',
-    D: 'mysticalagriculture:unobtainium_seeds'
-  }).id('gspack:endgame/verdant_core')
-
-  event.shaped('gspack:dimensional_core', [
-    'ABA',
-    'CDC',
-    'AEA'
-  ], {
-    A: 'allthemodium:unobtainium_vibranium_block',
-    B: 'twilightforest:snow_queen_trophy',
-    C: 'aether_ii:gravitite_block',
-    D: 'allthemodium:piglich_heart_block',
-    E: 'twilightforest:ur_ghast_trophy'
-  }).id('gspack:endgame/dimensional_core')
-
-  event.shaped('gspack:cosmic_core', [
-    'ACA',
-    'BDB',
-    'ACA'
-  ], {
-    A: 'stellaris:novite_block',
-    B: 'stellaris:star_crawler_boss_trophy',
-    C: 'stellaris:heart_of_luna_trophy',
-    D: 'minecraft:nether_star'
-  }).id('gspack:endgame/cosmic_core')
-
-  // ----- The singularity -----
-  event.shaped('gspack:creative_singularity', [
-    'ABA',
-    'CDE',
-    'AFA'
-  ], {
-    A: 'minecraft:nether_star',
-    B: 'gspack:tech_core',
-    C: 'gspack:arcane_core',
-    D: 'gspack:dimensional_core',
-    E: 'gspack:verdant_core',
-    F: 'gspack:cosmic_core'
+  // ----- Creative Singularity: Powah Energizing, rods supply power externally -----
+  event.custom({
+    type: 'powah:energizing',
+    energy: 1000000000,
+    ingredients: ['gspack:tech_core', 'gspack:arcane_core', 'gspack:verdant_core',
+      'gspack:dimensional_core', 'gspack:cosmic_core'],
+    result: { id: 'gspack:creative_singularity', count: 1 }
   }).id('gspack:endgame/creative_singularity')
 
   // ----- Creative items: Elite Crafting Table (7x7), a singularity in the middle, the best version of the item around it -----
@@ -300,10 +353,10 @@ ServerEvents.recipes(event => {
   ]
 
   newTableRecipes.forEach(([tier, output, p, key, extra, name]) => {
-    const pattern = tier === 'advanced'
+    let pattern = tier === 'advanced'
       ? ['12321', `2${p[0]}2`, `3${p[1]}3`, `2${p[2]}2`, '12321']
       : ['1223221', '2     2', `2 ${p[0]} 2`, `3 ${p[1]} 3`, `2 ${p[2]} 2`, '2     2', '1223221']
-    const fullKey = {
+    let fullKey = {
       '1': `extendedcrafting:${tier}_component`,
       '2': 'extendedcrafting:black_iron_ingot',
       '3': extra

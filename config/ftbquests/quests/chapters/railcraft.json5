@@ -1,685 +1,836 @@
 {
-  id: "5270340F88597176",
-  group: "105EE503AFE85CA5",
-  order_index: 4,
-  icon: {
-    id: "railcraft:steam_locomotive",
-    count: 1,
+  "id": "5270340F88597176",
+  "group": "105EE503AFE85CA5",
+  "order_index": 10,
+  "icon": {
+    "id": "railcraft:steam_locomotive",
+    "count": 1
   },
-  filename: "railcraft",
-  default_quest_shape: "",
-  default_hide_dependency_lines: false,
-  quests: [
+  "filename": "railcraft",
+  "default_quest_shape": "",
+  "default_hide_dependency_lines": false,
+  "quests": [
     {
-      x: 0,
-      y: 0,
-      shape: "gear",
-      size: 1.3,
-      id: "3398F2418ED5431B",
-      tasks: [
+      "x": 0,
+      "y": 0,
+      "shape": "gear",
+      "size": 1.3,
+      "id": "3398F2418ED5431B",
+      "tasks": [
         {
-          id: "7B05D4B9F655C826",
-          type: "item",
-          item: {
-            id: "railcraft:coke_oven_bricks",
-            count: 1,
+          "id": "7B05D4B9F655C826",
+          "type": "item",
+          "item": {
+            "id": "railcraft:coke_oven_bricks",
+            "count": 1
           },
-          count: 26,
-        },
+          "count": 26
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "6155269BAEB58EEB",
-          type: "xp",
-          xp: 75,
+          "id": "6155269BAEB58EEB",
+          "type": "xp",
+          "xp": 75
         },
         {
-          id: "542B00A4FC0CE111",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 4224964620844649,
-        },
-      ],
-    },
-    {
-      x: 1.8,
-      y: 0,
-      dependencies: ["3398F2418ED5431B"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"3398F2418ED5431B":[0,0,1.8,0]},
-      id: "73A16ED6878F4237",
-      tasks: [
-  {
-    "id": "05672C59E07403D4",
-    "type": "item",
-    "item": {
-      "id": "railcraft:coal_coke",
-      "count": 1
-    },
-    "count": 1
-  }
-],
-      rewards: [
-        {
-          id: "3BCA04B1F44D645E",
-          type: "xp",
-          xp: 50,
-        },
-      ],
+          "id": "542B00A4FC0CE111",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 4224964620844649
+        }
+      ]
     },
     {
-      x: 3.6,
-      y: 0,
-      dependencies: ["73A16ED6878F4237"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"73A16ED6878F4237":[1.8,0,3.6,0]},
-      id: "59250CD7A88EEF8F",
-      tasks: [
-        {
-          id: "3DA83671240D8033",
-          type: "item",
-          item: {
-            id: "railcraft:blast_furnace_bricks",
-            count: 1,
-          },
-          count: 34,
-        },
+      "x": 1.8,
+      "y": 0,
+      "shape": "circle",
+      "dependencies": [
+        "3398F2418ED5431B"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "3398F2418ED5431B": [
+          0,
+          0,
+          1.8,
+          0
+        ]
+      },
+      "size": 1,
+      "id": "73A16ED6878F4237",
+      "tasks": [
         {
-          id: "4DD2C030180D3E2C",
-          type: "xp",
-          xp: 100,
-        },
-        {
-          id: "09C3CBF1E71D2960",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 2612120196957929,
-        },
+          "id": "05672C59E07403D4",
+          "type": "item",
+          "item": {
+            "id": "railcraft:coal_coke",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "3BCA04B1F44D645E",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
     },
     {
-      x: 5.4,
-      y: 0,
-      dependencies: ["59250CD7A88EEF8F"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"59250CD7A88EEF8F":[3.6,0,5.4,0]},
-      id: "443202C1EB8EE037",
-      tasks: [
-  {
-    "id": "3EFA1B2E58F8D537",
-    "type": "gamestage",
-    "icon": {
-      "id": "alltheores:steel_ingot",
-      "count": 1
-    },
-    "stage": "gspack_tag_c_ingots_steel_1"
-  }
-],
-      rewards: [
-        {
-          id: "591321FF93C3630B",
-          type: "xp",
-          xp: 100,
-        },
+      "x": 3.6,
+      "y": 0,
+      "shape": "circle",
+      "dependencies": [
+        "73A16ED6878F4237"
       ],
-    },
-    {
-      x: 7.2,
-      y: 0,
-      optional: true,
-      dependencies: ["443202C1EB8EE037"],
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"443202C1EB8EE037":[5.4,0,7.2,0]},
-      id: "260A9A81F3C6107C",
-      tasks: [
+      "dep_control_pts": {
+        "73A16ED6878F4237": [
+          1.8,
+          0,
+          3.6,
+          0
+        ]
+      },
+      "size": 1,
+      "id": "59250CD7A88EEF8F",
+      "tasks": [
         {
-          id: "1CEC95AE806B29EA",
-          type: "item",
-          item: {
-            id: "railcraft:steel_pickaxe",
-            count: 1,
+          "id": "3DA83671240D8033",
+          "type": "item",
+          "item": {
+            "id": "railcraft:blast_furnace_bricks",
+            "count": 1
           },
+          "count": 34
+        }
+      ],
+      "rewards": [
+        {
+          "id": "4DD2C030180D3E2C",
+          "type": "xp",
+          "xp": 100
         },
         {
-          id: "693CD20F617971E0",
-          type: "item",
-          item: {
-            id: "railcraft:steel_sword",
-            count: 1,
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "1098E008C216D6E1",
-          type: "xp",
-          xp: 50,
-        },
-      ],
+          "id": "09C3CBF1E71D2960",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2612120196957929
+        }
+      ]
     },
     {
-      x: 15.2,
-      y: 0,
-      shape: "hexagon",
-      size: 1.15,
-      id: "11E412D2300B84ED",
-      tasks: [
+      "x": 5.4,
+      "y": 0,
+      "shape": "circle",
+      "dependencies": [
+        "59250CD7A88EEF8F"
+      ],
+      "dep_control_pts": {
+        "59250CD7A88EEF8F": [
+          3.6,
+          0,
+          5.4,
+          0
+        ]
+      },
+      "size": 1,
+      "id": "443202C1EB8EE037",
+      "tasks": [
         {
-          id: "5F387BE90944BB05",
-          type: "item",
-          item: {
-            id: "railcraft:iron_crowbar",
-            count: 1,
+          "id": "3EFA1B2E58F8D537",
+          "type": "gamestage",
+          "icon": {
+            "id": "alltheores:steel_ingot",
+            "count": 1
           },
-        },
+          "stage": "gspack_tag_c_ingots_steel_1"
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "31923A18E3CA40A2",
-          type: "xp",
-          xp: 50,
-        },
-      ],
+          "id": "591321FF93C3630B",
+          "type": "xp",
+          "xp": 100
+        }
+      ]
     },
     {
-      x: 17,
-      y: 0,
-      dependencies: ["443202C1EB8EE037"],
-      hide_dependency_lines: true,
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"443202C1EB8EE037":[5.4,0,17,0]},
-      id: "3109EA4814244AF9",
-      tasks: [
-        {
-          id: "78D52F9208D76DD2",
-          type: "item",
-          item: {
-            id: "railcraft:manual_rolling_machine",
-            count: 1,
-          },
-        },
+      "x": 7.2,
+      "y": 0,
+      "shape": "diamond",
+      "dependencies": [
+        "443202C1EB8EE037"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "443202C1EB8EE037": [
+          5.4,
+          0,
+          7.2,
+          0
+        ]
+      },
+      "size": 1,
+      "optional": true,
+      "id": "260A9A81F3C6107C",
+      "tasks": [
         {
-          id: "026600900D217F7A",
-          type: "xp",
-          xp: 75,
+          "id": "1CEC95AE806B29EA",
+          "type": "item",
+          "item": {
+            "id": "railcraft:steel_pickaxe",
+            "count": 1
+          }
         },
+        {
+          "id": "693CD20F617971E0",
+          "type": "item",
+          "item": {
+            "id": "railcraft:steel_sword",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "1098E008C216D6E1",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
     },
     {
-      x: 16.1,
-      y: 1.8,
-      dependencies: ["3109EA4814244AF9"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"3109EA4814244AF9":[17,0,16.1,1.8]},
-      id: "43604FA9C0EC57C9",
-      tasks: [
+      "x": 15.2,
+      "y": 0,
+      "shape": "hexagon",
+      "size": 1.15,
+      "id": "11E412D2300B84ED",
+      "tasks": [
         {
-          id: "470F39FA44795D46",
-          type: "item",
-          item: {
-            id: "railcraft:standard_rail",
-            count: 1,
-          },
-          count: 8,
-        },
-        {
-          id: "6BB86B93C9293BC2",
-          type: "item",
-          item: {
-            id: "railcraft:wooden_tie",
-            count: 1,
-          },
-          count: 4,
-        },
+          "id": "5F387BE90944BB05",
+          "type": "item",
+          "item": {
+            "id": "railcraft:iron_crowbar",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "0F9564A9B24D28F6",
-          type: "xp",
-          xp: 50,
-        },
-      ],
+          "id": "31923A18E3CA40A2",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
     },
     {
-      x: 16.1,
-      y: 3.6,
-      dependencies: ["43604FA9C0EC57C9"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"43604FA9C0EC57C9":[16.1,1.8,16.1,3.6]},
-      id: "045F4959AFE3FBE1",
-      tasks: [
-  {
-    "id": "1F5F586D0FF99197",
-    "type": "item",
-    "item": {
-      "id": "railcraft:reinforced_track",
-      "count": 1
-    },
-    "count": 1
-  }
-],
-      rewards: [
-        {
-          id: "16FE7D455E71D0B7",
-          type: "xp",
-          xp: 75,
-        },
+      "x": 17,
+      "y": 0,
+      "shape": "circle",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "443202C1EB8EE037"
       ],
-    },
-    {
-      x: 15.2,
-      y: 5.4,
-      dependencies: ["045F4959AFE3FBE1"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"045F4959AFE3FBE1":[16.1,3.6,15.2,5.4]},
-      id: "27BEF952A72213D1",
-      tasks: [
+      "dep_control_pts": {
+        "443202C1EB8EE037": [
+          5.4,
+          0,
+          17,
+          0
+        ]
+      },
+      "size": 1,
+      "id": "3109EA4814244AF9",
+      "tasks": [
         {
-          id: "409358CDF5DFA4BE",
-          type: "item",
-          item: {
-            id: "railcraft:high_speed_track",
-            count: 1,
-          },
-          count: 32,
-        },
-        {
-          id: "44EB2CB9DEE572EA",
-          type: "item",
-          item: {
-            id: "railcraft:high_speed_transition_track",
-            count: 1,
-          },
-          count: 2,
-        },
+          "id": "78D52F9208D76DD2",
+          "type": "item",
+          "item": {
+            "id": "railcraft:manual_rolling_machine",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "0B1694B9F9D9E34C",
-          type: "xp",
-          xp: 150,
-        },
-        {
-          id: "793E15EF582AAAD5",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 2612120196957929,
-        },
-      ],
+          "id": "026600900D217F7A",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
     },
     {
-      x: 17,
-      y: 5.4,
-      dependencies: ["045F4959AFE3FBE1"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"045F4959AFE3FBE1":[16.1,3.6,17,5.4]},
-      id: "3B39A9D281F98E25",
-      tasks: [
-        {
-          id: "573E2E47007DA2EC",
-          type: "item",
-          item: {
-            id: "railcraft:booster_track_kit",
-            count: 1,
-          },
-        },
-        {
-          id: "3C392BA0F0C39F36",
-          type: "item",
-          item: {
-            id: "railcraft:detector_track_kit",
-            count: 1,
-          },
-        },
-        {
-          id: "751EEB5956BB8C04",
-          type: "item",
-          item: {
-            id: "railcraft:locking_track_kit",
-            count: 1,
-          },
-        },
+      "x": 16.1,
+      "y": 1.8,
+      "shape": "circle",
+      "dependencies": [
+        "3109EA4814244AF9"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "3109EA4814244AF9": [
+          17,
+          0,
+          16.1,
+          1.8
+        ]
+      },
+      "size": 1,
+      "id": "43604FA9C0EC57C9",
+      "tasks": [
         {
-          id: "469BFEDDF4ED7C91",
-          type: "xp",
-          xp: 75,
+          "id": "470F39FA44795D46",
+          "type": "item",
+          "item": {
+            "id": "railcraft:standard_rail",
+            "count": 1
+          },
+          "count": 8
         },
+        {
+          "id": "6BB86B93C9293BC2",
+          "type": "item",
+          "item": {
+            "id": "railcraft:wooden_tie",
+            "count": 1
+          },
+          "count": 4
+        }
       ],
+      "rewards": [
+        {
+          "id": "0F9564A9B24D28F6",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
     },
     {
-      x: 0,
-      y: 8.6,
-      dependencies: ["045F4959AFE3FBE1"],
-      hide_dependency_lines: true,
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"045F4959AFE3FBE1":[16.1,3.6,0,8.6]},
-      id: "64BECEE944AFB246",
-      tasks: [
-        {
-          id: "7DBAA9496C0FF4C7",
-          type: "item",
-          item: {
-            id: "railcraft:item_loader",
-            count: 1,
-          },
-        },
-        {
-          id: "17FBE3FC360CF46A",
-          type: "item",
-          item: {
-            id: "railcraft:item_unloader",
-            count: 1,
-          },
-        },
+      "x": 16.1,
+      "y": 3.6,
+      "shape": "circle",
+      "dependencies": [
+        "43604FA9C0EC57C9"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "43604FA9C0EC57C9": [
+          16.1,
+          1.8,
+          16.1,
+          3.6
+        ]
+      },
+      "size": 1,
+      "id": "045F4959AFE3FBE1",
+      "tasks": [
         {
-          id: "4C7444737FE19ADE",
-          type: "xp",
-          xp: 100,
-        },
+          "id": "1F5F586D0FF99197",
+          "type": "item",
+          "item": {
+            "id": "railcraft:reinforced_track",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "16FE7D455E71D0B7",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
     },
     {
-      x: 0,
-      y: 10.4,
-      dependencies: ["443202C1EB8EE037"],
-      hide_dependency_lines: true,
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"443202C1EB8EE037":[5.4,0,0,10.4]},
-      id: "7D358635E20DA9DF",
-      tasks: [
-        {
-          id: "18A23442510F5FA0",
-          type: "item",
-          item: {
-            id: "railcraft:solid_fueled_firebox",
-            count: 1,
-          },
-        },
-        {
-          id: "3E746EE31B11708B",
-          type: "item",
-          item: {
-            id: "railcraft:low_pressure_steam_boiler_tank",
-            count: 1,
-          },
-          count: 2,
-        },
+      "x": 15.2,
+      "y": 5.4,
+      "shape": "circle",
+      "dependencies": [
+        "045F4959AFE3FBE1"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "045F4959AFE3FBE1": [
+          16.1,
+          3.6,
+          15.2,
+          5.4
+        ]
+      },
+      "size": 1,
+      "id": "27BEF952A72213D1",
+      "tasks": [
         {
-          id: "592FF91C1CB4A6FA",
-          type: "xp",
-          xp: 150,
+          "id": "409358CDF5DFA4BE",
+          "type": "item",
+          "item": {
+            "id": "railcraft:high_speed_track",
+            "count": 1
+          },
+          "count": 32
         },
         {
-          id: "1909750C2FAD4EF5",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 2612120196957929,
-        },
+          "id": "44EB2CB9DEE572EA",
+          "type": "item",
+          "item": {
+            "id": "railcraft:high_speed_transition_track",
+            "count": 1
+          },
+          "count": 2
+        }
       ],
+      "rewards": [
+        {
+          "id": "0B1694B9F9D9E34C",
+          "type": "xp",
+          "xp": 150
+        },
+        {
+          "id": "793E15EF582AAAD5",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2612120196957929
+        }
+      ]
     },
     {
-      x: 1.8,
-      y: 9.5,
-      optional: true,
-      dependencies: ["7D358635E20DA9DF"],
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"7D358635E20DA9DF":[0,10.4,1.8,9.5]},
-      id: "706488FC432710E2",
-      tasks: [
-        {
-          id: "029AEBAEFD98151C",
-          type: "item",
-          item: {
-            id: "railcraft:steam_turbine",
-            count: 1,
-          },
-        },
+      "x": 17,
+      "y": 5.4,
+      "shape": "circle",
+      "dependencies": [
+        "045F4959AFE3FBE1"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "045F4959AFE3FBE1": [
+          16.1,
+          3.6,
+          17,
+          5.4
+        ]
+      },
+      "size": 1,
+      "id": "3B39A9D281F98E25",
+      "tasks": [
         {
-          id: "3B57E84B362E7922",
-          type: "xp",
-          xp: 150,
+          "id": "573E2E47007DA2EC",
+          "type": "item",
+          "item": {
+            "id": "railcraft:booster_track_kit",
+            "count": 1
+          }
         },
+        {
+          "id": "3C392BA0F0C39F36",
+          "type": "item",
+          "item": {
+            "id": "railcraft:detector_track_kit",
+            "count": 1
+          }
+        },
+        {
+          "id": "751EEB5956BB8C04",
+          "type": "item",
+          "item": {
+            "id": "railcraft:locking_track_kit",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "469BFEDDF4ED7C91",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
     },
     {
-      x: 1.8,
-      y: 11.3,
-      dependencies: ["7D358635E20DA9DF","64BECEE944AFB246"],
-      shape: "gear",
-      size: 1.3,
-      dep_control_pts: {"7D358635E20DA9DF":[0,10.4,1.8,11.3],"64BECEE944AFB246":[0,8.6,1.8,11.3]},
-      id: "0D83328FFB568D9A",
-      tasks: [
-        {
-          id: "3BE0A06A31AEC4E9",
-          type: "item",
-          item: {
-            id: "railcraft:steam_locomotive",
-            count: 1,
-          },
-        },
+      "x": 0,
+      "y": 8.6,
+      "shape": "circle",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "045F4959AFE3FBE1"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "045F4959AFE3FBE1": [
+          16.1,
+          3.6,
+          0,
+          8.6
+        ]
+      },
+      "size": 1,
+      "id": "64BECEE944AFB246",
+      "tasks": [
         {
-          id: "6E32A0DAEBD71942",
-          type: "xp",
-          xp: 250,
+          "id": "7DBAA9496C0FF4C7",
+          "type": "item",
+          "item": {
+            "id": "railcraft:item_loader",
+            "count": 1
+          }
         },
         {
-          id: "5D93AA73DE9179A4",
-          type: "choice",
-          exclude_from_claim_all: true,
-          table_id: 2210856162803377,
-        },
+          "id": "17FBE3FC360CF46A",
+          "type": "item",
+          "item": {
+            "id": "railcraft:item_unloader",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "4C7444737FE19ADE",
+          "type": "xp",
+          "xp": 100
+        }
+      ]
     },
     {
-      x: 3.6,
-      y: 8.6,
-      optional: true,
-      dependencies: ["0D83328FFB568D9A","706488FC432710E2"],
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"0D83328FFB568D9A":[1.8,11.3,3.6,8.6],"706488FC432710E2":[1.8,9.5,3.6,8.6]},
-      id: "2441909C9FF9D045",
-      tasks: [
-  {
-    "id": "0636FF459D33F9B7",
-    "type": "item",
-    "item": {
-      "id": "railcraft:electric_locomotive",
-      "count": 1
+      "x": 0,
+      "y": 10.4,
+      "shape": "circle",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "443202C1EB8EE037"
+      ],
+      "dep_control_pts": {
+        "443202C1EB8EE037": [
+          5.4,
+          0,
+          0,
+          10.4
+        ]
+      },
+      "size": 1,
+      "id": "7D358635E20DA9DF",
+      "tasks": [
+        {
+          "id": "18A23442510F5FA0",
+          "type": "item",
+          "item": {
+            "id": "railcraft:solid_fueled_firebox",
+            "count": 1
+          }
+        },
+        {
+          "id": "3E746EE31B11708B",
+          "type": "item",
+          "item": {
+            "id": "railcraft:low_pressure_steam_boiler_tank",
+            "count": 1
+          },
+          "count": 2
+        }
+      ],
+      "rewards": [
+        {
+          "id": "592FF91C1CB4A6FA",
+          "type": "xp",
+          "xp": 150
+        },
+        {
+          "id": "1909750C2FAD4EF5",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2612120196957929
+        }
+      ]
+    },
+    {
+      "x": 1.8,
+      "y": 9.5,
+      "shape": "diamond",
+      "dependencies": [
+        "7D358635E20DA9DF"
+      ],
+      "dep_control_pts": {
+        "7D358635E20DA9DF": [
+          0,
+          10.4,
+          1.8,
+          9.5
+        ]
+      },
+      "size": 1,
+      "optional": true,
+      "id": "706488FC432710E2",
+      "tasks": [
+        {
+          "id": "029AEBAEFD98151C",
+          "type": "item",
+          "item": {
+            "id": "railcraft:steam_turbine",
+            "count": 1
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3B57E84B362E7922",
+          "type": "xp",
+          "xp": 150
+        }
+      ]
+    },
+    {
+      "x": 1.8,
+      "y": 11.3,
+      "shape": "gear",
+      "dependencies": [
+        "7D358635E20DA9DF",
+        "64BECEE944AFB246"
+      ],
+      "dep_control_pts": {
+        "64BECEE944AFB246": [
+          0,
+          8.6,
+          1.8,
+          11.3
+        ],
+        "7D358635E20DA9DF": [
+          0,
+          10.4,
+          1.8,
+          11.3
+        ]
+      },
+      "size": 1.3,
+      "id": "0D83328FFB568D9A",
+      "tasks": [
+        {
+          "id": "3BE0A06A31AEC4E9",
+          "type": "item",
+          "item": {
+            "id": "railcraft:steam_locomotive",
+            "count": 1
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6E32A0DAEBD71942",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "5D93AA73DE9179A4",
+          "type": "choice",
+          "exclude_from_claim_all": true,
+          "table_id": 2210856162803377
+        }
+      ]
+    },
+    {
+      "x": 3.6,
+      "y": 8.6,
+      "shape": "diamond",
+      "dependencies": [
+        "0D83328FFB568D9A",
+        "706488FC432710E2"
+      ],
+      "dep_control_pts": {
+        "706488FC432710E2": [
+          1.8,
+          9.5,
+          3.6,
+          8.6
+        ],
+        "0D83328FFB568D9A": [
+          1.8,
+          11.3,
+          3.6,
+          8.6
+        ]
+      },
+      "size": 1,
+      "optional": true,
+      "id": "2441909C9FF9D045",
+      "tasks": [
+        {
+          "id": "0636FF459D33F9B7",
+          "type": "item",
+          "item": {
+            "id": "railcraft:electric_locomotive",
+            "count": 1
+          }
+        },
+        {
+          "id": "32A166214D37EF6E",
+          "type": "item",
+          "item": {
+            "id": "railcraft:electric_track",
+            "count": 1
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "id": "168AFC63F190F8BF",
+          "type": "xp",
+          "xp": 200
+        }
+      ]
+    },
+    {
+      "x": 3.6,
+      "y": 10.4,
+      "shape": "diamond",
+      "dependencies": [
+        "0D83328FFB568D9A"
+      ],
+      "dep_control_pts": {
+        "0D83328FFB568D9A": [
+          1.8,
+          11.3,
+          3.6,
+          10.4
+        ]
+      },
+      "size": 1,
+      "optional": true,
+      "id": "489A99CAFDB2FC9B",
+      "tasks": [
+        {
+          "id": "08F19EC9ADECFB22",
+          "type": "item",
+          "item": {
+            "id": "railcraft:block_signal",
+            "count": 1
+          },
+          "count": 2
+        },
+        {
+          "id": "02100B49B4192E50",
+          "type": "item",
+          "item": {
+            "id": "railcraft:signal_tuner",
+            "count": 1
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7720066C5E3F9BA3",
+          "type": "xp",
+          "xp": 100
+        }
+      ]
+    },
+    {
+      "x": 3.6,
+      "y": 12.2,
+      "shape": "diamond",
+      "dependencies": [
+        "0D83328FFB568D9A"
+      ],
+      "dep_control_pts": {
+        "0D83328FFB568D9A": [
+          1.8,
+          11.3,
+          3.6,
+          12.2
+        ]
+      },
+      "size": 1,
+      "optional": true,
+      "id": "0441725B024EBDCF",
+      "tasks": [
+        {
+          "id": "3962B2BA41E8D527",
+          "type": "item",
+          "item": {
+            "id": "railcraft:tunnel_bore",
+            "count": 1
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5BDA1D13D7F53EA7",
+          "type": "xp",
+          "xp": 200
+        },
+        {
+          "id": "0911010B7E27E7DC",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2210856162803377
+        }
+      ]
+    },
+    {
+      "x": 0,
+      "y": 12.2,
+      "shape": "circle",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "443202C1EB8EE037"
+      ],
+      "dep_control_pts": {
+        "443202C1EB8EE037": [
+          5.4,
+          0,
+          0,
+          12.2
+        ]
+      },
+      "size": 1,
+      "id": "78AF58A8966496C3",
+      "tasks": [
+        {
+          "id": "2B0CF3EB5347FACB",
+          "type": "item",
+          "item": {
+            "id": "railcraft:world_spike",
+            "count": 1
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "id": "45CC78FA8680CB5B",
+          "type": "xp",
+          "xp": 100
+        }
+      ]
     }
-  },
-  {
-    "id": "32A166214D37EF6E",
-    "type": "item",
-    "item": {
-      "id": "railcraft:electric_track",
-      "count": 1
-    },
-    "count": 1
-  }
-],
-      rewards: [
-        {
-          id: "168AFC63F190F8BF",
-          type: "xp",
-          xp: 200,
-        },
-      ],
-    },
-    {
-      x: 3.6,
-      y: 10.4,
-      optional: true,
-      dependencies: ["0D83328FFB568D9A"],
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"0D83328FFB568D9A":[1.8,11.3,3.6,10.4]},
-      id: "489A99CAFDB2FC9B",
-      tasks: [
-        {
-          id: "08F19EC9ADECFB22",
-          type: "item",
-          item: {
-            id: "railcraft:block_signal",
-            count: 1,
-          },
-          count: 2,
-        },
-        {
-          id: "02100B49B4192E50",
-          type: "item",
-          item: {
-            id: "railcraft:signal_tuner",
-            count: 1,
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "7720066C5E3F9BA3",
-          type: "xp",
-          xp: 100,
-        },
-      ],
-    },
-    {
-      x: 3.6,
-      y: 12.2,
-      optional: true,
-      dependencies: ["0D83328FFB568D9A"],
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"0D83328FFB568D9A":[1.8,11.3,3.6,12.2]},
-      id: "0441725B024EBDCF",
-      tasks: [
-        {
-          id: "3962B2BA41E8D527",
-          type: "item",
-          item: {
-            id: "railcraft:tunnel_bore",
-            count: 1,
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "5BDA1D13D7F53EA7",
-          type: "xp",
-          xp: 200,
-        },
-        {
-          id: "0911010B7E27E7DC",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 2210856162803377,
-        },
-      ],
-    },
-    {
-      x: 0,
-      y: 12.2,
-      dependencies: ["443202C1EB8EE037"],
-      hide_dependency_lines: true,
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"443202C1EB8EE037":[5.4,0,0,12.2]},
-      id: "78AF58A8966496C3",
-      tasks: [
-        {
-          id: "2B0CF3EB5347FACB",
-          type: "item",
-          item: {
-            id: "railcraft:world_spike",
-            count: 1,
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "45CC78FA8680CB5B",
-          type: "xp",
-          xp: 100,
-        },
-      ],
-    },
   ],
-  quest_links: [
-  ],
-  images: [
-  {
-    "x": 8.5,
-    "y": -1.7188,
-    "width": 12,
-    "height": 1.4375,
-    "rotation": 0,
-    "image": "gspack:textures/quests/railcraft_header.png",
-    "color": 16777215,
-    "alpha": 255,
-    "order": 0,
-    "corner": false
-  },
-  {
-    "x": -1.8,
-    "y": 8.6,
-    "width": 1.8,
-    "height": 0.6,
-    "rotation": 0,
-    "image": "gspack:textures/quests/railcraft_loaders.png",
-    "color": 16777215,
-    "alpha": 255,
-    "order": 0,
-    "corner": false
-  },
-  {
-    "x": 13.3647,
-    "y": 0,
-    "width": 1.8706,
-    "height": 0.6,
-    "rotation": 0,
-    "image": "gspack:textures/quests/railcraft_crowbar.png",
-    "color": 16777215,
-    "alpha": 255,
-    "order": 0,
-    "corner": false
-  },
-  {
-    "x": -1.6765,
-    "y": 0,
-    "width": 1.5529,
-    "height": 0.6,
-    "rotation": 0,
-    "image": "gspack:textures/quests/railcraft_coke_oven.png",
-    "color": 16777215,
-    "alpha": 255,
-    "order": 0,
-    "corner": false
-  }
-],
+  "quest_links": [],
+  "images": [
+    {
+      "x": 8.5,
+      "y": -1.7188,
+      "width": 12,
+      "height": 1.4375,
+      "rotation": 0,
+      "image": "gspack:textures/quests/railcraft_header.png",
+      "id": "542F7A79B8008422"
+    },
+    {
+      "x": -1.8,
+      "y": 8.6,
+      "width": 1.8,
+      "height": 0.6,
+      "rotation": 0,
+      "image": "gspack:textures/quests/railcraft_loaders.png",
+      "id": "544DB3E0A0857EDD"
+    },
+    {
+      "x": 13.3647,
+      "y": 0,
+      "width": 1.8706,
+      "height": 0.6,
+      "rotation": 0,
+      "image": "gspack:textures/quests/railcraft_crowbar.png",
+      "id": "1F2097F03FF72969"
+    },
+    {
+      "x": -1.6765,
+      "y": 0,
+      "width": 1.5529,
+      "height": 0.6,
+      "rotation": 0,
+      "image": "gspack:textures/quests/railcraft_coke_oven.png",
+      "id": "1D2E78B2DFE8A966"
+    }
+  ]
 }

@@ -20,6 +20,11 @@
     "title": "Mekanism"
   },
   {
+    "key": "colossalreactors",
+    "id": "3B9438713D2196C9",
+    "title": "Colossal Reactors"
+  },
+  {
     "key": "ae2",
     "id": "51E24E671CE7E30E",
     "title": "Applied Energistics 2"
@@ -33,81 +38,6 @@
     "key": "oritech",
     "id": "5EDCE6827B2A12C6",
     "title": "Oritech"
-  },
-  {
-    "key": "mystical",
-    "id": "7C03228C4B5771C2",
-    "title": "Mystical Agriculture"
-  },
-  {
-    "key": "seeds",
-    "id": "4F24329D936533F1",
-    "title": "Seed Codex"
-  },
-  {
-    "key": "apotheosis",
-    "id": "20E42E4C1E46563E",
-    "title": "Apotheosis"
-  },
-  {
-    "key": "thaumaturge",
-    "id": "4C8636F567767A4E",
-    "title": "Thaumaturge"
-  },
-  {
-    "key": "equivox",
-    "id": "3819B71D4386F7AF",
-    "title": "Equivox"
-  },
-  {
-    "key": "allthemodium",
-    "id": "02316B1978EB3F28",
-    "title": "Allthemodium"
-  },
-  {
-    "key": "aquaculture",
-    "id": "3F4B3E9631DE14D7",
-    "title": "Aquaculture 2"
-  },
-  {
-    "key": "aether",
-    "id": "488B1729DE986146",
-    "title": "The Aether II"
-  },
-  {
-    "key": "twilight",
-    "id": "6E76DF027A8636CC",
-    "title": "The Twilight Forest"
-  },
-  {
-    "key": "stellaris",
-    "id": "329774BD106DA4BD",
-    "title": "Stellaris"
-  },
-  {
-    "key": "storage",
-    "id": "6B8DF50B9338FDD7",
-    "title": "Storage"
-  },
-  {
-    "key": "building",
-    "id": "7E23924E0E06C8EC",
-    "title": "Building"
-  },
-  {
-    "key": "endgame",
-    "id": "43AF5A6C91030254",
-    "title": "Endgame: Infinity"
-  },
-  {
-    "key": "trophy",
-    "id": "7ABD67C9006B4869",
-    "title": "Trophy Checklist"
-  },
-  {
-    "key": "dungeons",
-    "id": "7F31B44C874BB096",
-    "title": "Dungeons & Structures"
   },
   {
     "key": "tinkers",
@@ -125,6 +55,31 @@
     "title": "Railcraft Reborn"
   },
   {
+    "key": "justdirethings",
+    "id": "1E4CA1EAB9003DC3",
+    "title": "Just Dire Things"
+  },
+  {
+    "key": "utilities",
+    "id": "1B5325199F5DF69B",
+    "title": "Utilities"
+  },
+  {
+    "key": "thaumaturge",
+    "id": "4C8636F567767A4E",
+    "title": "Thaumaturge"
+  },
+  {
+    "key": "equivox",
+    "id": "3819B71D4386F7AF",
+    "title": "Equivox"
+  },
+  {
+    "key": "apotheosis",
+    "id": "20E42E4C1E46563E",
+    "title": "Apotheosis"
+  },
+  {
     "key": "roots",
     "id": "2C19BB0712B6C63A",
     "title": "Roots Classic"
@@ -135,19 +90,24 @@
     "title": "EvilCraft"
   },
   {
-    "key": "utilities",
-    "id": "1B5325199F5DF69B",
-    "title": "Utilities"
+    "key": "neovitae",
+    "id": "3046505504AD5731",
+    "title": "Neo Vitae"
   },
   {
-    "key": "justdirethings",
-    "id": "1E4CA1EAB9003DC3",
-    "title": "Just Dire Things"
+    "key": "farming",
+    "id": "6BB770776C60EF1F",
+    "title": "Farming"
   },
   {
-    "key": "wildlife",
-    "id": "781F6B10D9E2FECB",
-    "title": "Wildlife"
+    "key": "mystical",
+    "id": "7C03228C4B5771C2",
+    "title": "Mystical Agriculture"
+  },
+  {
+    "key": "seeds",
+    "id": "4F24329D936533F1",
+    "title": "Seed Codex"
   },
   {
     "key": "productivebees",
@@ -165,9 +125,44 @@
     "title": "Productive Farming"
   },
   {
-    "key": "farming",
-    "id": "6BB770776C60EF1F",
-    "title": "Farming"
+    "key": "aquaculture",
+    "id": "3F4B3E9631DE14D7",
+    "title": "Aquaculture 2"
+  },
+  {
+    "key": "allthemodium",
+    "id": "02316B1978EB3F28",
+    "title": "Allthemodium"
+  },
+  {
+    "key": "aether",
+    "id": "488B1729DE986146",
+    "title": "The Aether II"
+  },
+  {
+    "key": "bumblezone",
+    "id": "6BCAE41EE1431317",
+    "title": "The Bumblezone"
+  },
+  {
+    "key": "twilight",
+    "id": "6E76DF027A8636CC",
+    "title": "The Twilight Forest"
+  },
+  {
+    "key": "stellaris",
+    "id": "329774BD106DA4BD",
+    "title": "Stellaris"
+  },
+  {
+    "key": "dungeons",
+    "id": "7F31B44C874BB096",
+    "title": "Dungeons & Structures"
+  },
+  {
+    "key": "wildlife",
+    "id": "781F6B10D9E2FECB",
+    "title": "Wildlife"
   },
   {
     "key": "hunting",
@@ -175,8 +170,48 @@
     "title": "Mob Hunting Board"
   },
   {
-    "key": "neovitae",
-    "id": "3046505504AD5731",
-    "title": "Neo Vitae"
+    "key": "storage",
+    "id": "6B8DF50B9338FDD7",
+    "title": "Storage"
+  },
+  {
+    "key": "building",
+    "id": "7E23924E0E06C8EC",
+    "title": "Building"
+  },
+  {
+    "key": "core_tech",
+    "id": "3D8DF382D9757738",
+    "title": "Technological Core"
+  },
+  {
+    "key": "core_arcane",
+    "id": "242ED91CA3BFE1E3",
+    "title": "Arcane Core"
+  },
+  {
+    "key": "core_verdant",
+    "id": "55EFD4C346458C1B",
+    "title": "Verdant Core"
+  },
+  {
+    "key": "core_dimensional",
+    "id": "5B057EB81709A226",
+    "title": "Dimensional Core"
+  },
+  {
+    "key": "core_cosmic",
+    "id": "323BC9AFB4862C05",
+    "title": "Cosmic Core"
+  },
+  {
+    "key": "endgame",
+    "id": "43AF5A6C91030254",
+    "title": "Endgame: Infinity"
+  },
+  {
+    "key": "trophy",
+    "id": "7ABD67C9006B4869",
+    "title": "Trophy Checklist"
   }
 ]

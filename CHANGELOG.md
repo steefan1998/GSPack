@@ -2,6 +2,30 @@
 
 Pack changes are listed here. Exact added and updated mods are in [MOD-CHANGELOG.md](MOD-CHANGELOG.md).
 
+## Unreleased
+
+- **Exploration:** added independent Bumblezone and Colossal Reactors chapters, plus a Mars exploration branch. Mars is a GSPack datapack extension for Stellaris; rocket travel and terrain still require an in-game test.
+- **Cores:** Verdant now combines 25 farming/tree ingredients; Cosmic uses lunar trophies, space modules and late technology. Dimensional retains Bumblezone, Aether II and Twilight Forest contributions.
+- **Accessible starts:** affordable reactor components and first-Moon equipment; advanced space modules use the Advanced Crafting Table. To Orbit is optional and no longer gates the Moon or station quests.
+- **Productive Bees:** replace the nonexistent guide-book task with an introductory checkmark and JEI guidance.
+
+- **Progression:** Diamond Pickaxe now follows Iron Age and precedes the Nether milestone, with matching dependency lines and preserved task/reward IDs.
+- **Quest organization:** separate Magic and Farming categories; Cores and Endgame are last. The expanded book contains 43 chapters and 1,834 quests; existing quest IDs are retained.
+- **16px artwork:** redesigned the five core sprites, trophy material atlas and animated Creative Singularity with clearer Minecraft-style pixel shapes. The Singularity now consumes only the five cores and 1 billion FE.
+- **Keyboard:** retain Backpack B and JourneyMap J/Ctrl+J/N; unassign the conflicting auxiliary B/J/N bindings, JourneyMap waypoint creation on B, the backpack action on C, all FTB Chunks keys and all Iris keys once per client startup. Vanilla controls are retained.
+- **FTB Chunks:** process pending claim-map texture updates while the claim GUI is open, even with the FTB minimap disabled for JourneyMap. This addresses claims changing in the world without updating their GUI appearance; saved claims are untouched.
+- **Mystical crops:** Allthemodium, Vibranium and Unobtainium no longer produce extra seeds. Their shared secondary chance and effective-farmland bonus are disabled; this also removes bonus-essence rolls for these three crops. The planted seed is still returned when breaking the crop; crux requirements are retained.
+- **Core hotfix:** fixed Rhino's `pedestalItems` constant-redeclaration error and equivalent callback declarations. The complete recipe script now passes execution with the installed Rhino engine. Core sprites now use crisp 16x16 textures.
+- **Core progression:** five dedicated chapters in a new Cores category. Mod-specific recipes and distinct new core textures; Arcane combines six magic mods, and Dimensional combines Bumblezone, Aether II and Twilight Forest.
+- **Powered endgame:** Technological Core uses a 24-pedestal Extended Crafting FE multiblock (250 million FE). Creative Singularity uses Powah Energizing (1 billion FE), only the five cores. Energizing Rods supply power externally and are not consumed. Its texture has 32 animated 16x16 frames.
+- **Trophy:** Trophy of Infinity is now a placeable 3D block/item with a custom gold, obsidian and purple-gem texture atlas. Its item and recipe IDs are retained.
+- **JEI:** hide 33 duplicate ore blocks whose generation is disabled, while retaining preferred and unique ores.
+- **Dev sync:** automatically back up and reset Sodium/Iris settings on every sync to the Dev Build; installed shader files remain. Reverse sync and preview do not reset settings.
+- **FancyMenu:** the game window title is GSPack.
+- **Seasonal main menu:** four automatic seasonal backgrounds, with bright spring/summer daytime scenes and the original logo. Holiday decorations cover Christmas (December), Halloween (October 17-31), Easter, New Year and Valentine's Day; November 2 celebrates GSPack's birthday. Holiday backgrounds build on their matching season, including winter with fireworks for New Year.
+- **Branding:** the approved square image with the full golden GSPack name is shared by the Minecraft window, server, Dev Tool, Server Installer and CurseForge upload asset. Icons are independent of holidays and seasons; the CurseForge upload asset is prepared locally.
+- **Waystones:** travel within the same dimension costs no XP. Existing interdimensional XP costs, item durability and cooldown rules are retained.
+
 ## 0.7 (2026-11-04)
 
 ### Mods

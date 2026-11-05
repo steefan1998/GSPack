@@ -1,0 +1,87 @@
+{
+  "chapter.3B9438713D2196C9.chapter_subtitle": [
+    "Start with a small affordable reactor, then expand your power infrastructure.",
+  ],
+  "chapter.3B9438713D2196C9.title": "Colossal Reactors",
+  "quest.00ED0B558FDC013D.quest_desc": [
+    "Begin with a small reactor. GSPack uses steel, graphite, iron, copper and a Basic Control Circuit for the early components; no antimatter, Nether Star or endgame core is required. Read the controller feedback and JEI before starting it.",
+  ],
+  "quest.00ED0B558FDC013D.title": "Big Power, Small Beginnings",
+  "quest.01D53C062BE6BE3D.quest_desc": [
+    "Control rods let you regulate output. Begin conservatively and watch the live controller readouts.",
+  ],
+  "quest.01D53C062BE6BE3D.title": "Rod Controller",
+  "quest.0D5D0976A2DD52D1.quest_desc": [
+    "Maintain a valid, fueled reactor with working energy export and resource handling. Expand only when your machines need it. This is an optional power route, not a new gate on the first Moon trip.",
+  ],
+  "quest.0D5D0976A2DD52D1.title": "A Dependable Power Plant",
+  "quest.0E542CEC2182B1E6.quest_desc": [
+    "Fuel rods use iron bars and graphite. Place them according to the controller and mod structure rules.",
+  ],
+  "quest.0E542CEC2182B1E6.title": "Fuel Rods",
+  "quest.118E284B247A1AC5.quest_desc": [
+    "Automate supported fuel input and waste output. Test a full input/output cycle and ensure storage can accept the results.",
+  ],
+  "quest.118E284B247A1AC5.title": "Reliable Fuel Handling",
+  "quest.122F7642F627F204.quest_desc": [
+    "Collect reactor fuel and confirm the controller accepts it before automating input. Keep fuel and waste storage separate.",
+  ],
+  "quest.122F7642F627F204.title": "Uranium Supply",
+  "quest.161C5F9C7B2E2309.quest_desc": [
+    "The controller uses an early Mekanism Basic Control Circuit. Its feedback explains whether your reactor structure is valid.",
+  ],
+  "quest.161C5F9C7B2E2309.title": "Reactor Controller",
+  "quest.1A7C9D8310C0AB01.quest_desc": [
+    "Assemble a small shell, required rod arrangement, controller and ports. Follow controller feedback until it reports a valid structure. Tick this only after the structure forms.",
+  ],
+  "quest.1A7C9D8310C0AB01.title": "A Valid Small Reactor",
+  "quest.22FF9305A37A4D5B.quest_desc": [
+    "Obtain steel using your preferred processing route. The early reactor recipes use the shared steel tag.",
+  ],
+  "quest.22FF9305A37A4D5B.title": "A Steel Framework",
+  "quest.4B8BA624D17A8F31.quest_desc": [
+    "Turbines are an optional expansion after your first working reactor. Review their fluid and structure requirements before building.",
+  ],
+  "quest.4B8BA624D17A8F31.title": "The Next Power Project",
+  "quest.4C600AC0139D87C3.quest_desc": [
+    "The turbine has its own controller and valid-structure rules.",
+  ],
+  "quest.4C600AC0139D87C3.title": "Turbine Controller",
+  "quest.4ED8F66996B86496.quest_desc": [
+    "Reactor Glass is an optional visual upgrade. Keep the required controller, ports and structure blocks in place.",
+  ],
+  "quest.4ED8F66996B86496.title": "A Window Into the Reactor",
+  "quest.58F18CA702224A16.quest_desc": [
+    "Plan rotor and blade geometry using the mod feedback. This is not required to start the reactor route.",
+  ],
+  "quest.58F18CA702224A16.title": "Turbine Internals",
+  "quest.591136DF8FA642EB.quest_desc": [
+    "An affordable copper/redstone power port exports energy. Use an FE-compatible cable and storage.",
+  ],
+  "quest.591136DF8FA642EB.title": "Connect Your Machines",
+  "quest.5C31BABCC4C6A2B9.quest_desc": [
+    "Use the Builder tool if its installed behavior suits your structure. It is optional for this beginner route.",
+  ],
+  "quest.5C31BABCC4C6A2B9.title": "Reactor Builder",
+  "quest.5F288B6432CDBEFA.quest_desc": [
+    "GSPack crafts eight casings per batch from steel, graphite and iron. Start small instead of building a huge empty shell.",
+  ],
+  "quest.5F288B6432CDBEFA.title": "Affordable Reactor Casings",
+  "quest.61B0082A8280C757.quest_desc": [
+    "Supply a small fuel amount, enable the reactor and verify that energy reaches a connected machine or storage block. Tick after observing actual generation.",
+  ],
+  "quest.61B0082A8280C757.title": "Your First Reactor Power",
+  "quest.62D9E95A032AFE75.quest_desc": [
+    "Resource ports provide the reactor input/output interface. Configure their modes and separate the fuel and waste paths.",
+  ],
+  "quest.62D9E95A032AFE75.title": "Fuel and Waste Access",
+  "quest.75D20A2A2C2CDF49.quest_desc": [
+    "Read fuel, heat and output information. Check the installed moderator/cooling options in JEI and the mod interface; do not assume that a larger reactor is automatically more efficient.",
+  ],
+  "quest.75D20A2A2C2CDF49.title": "Understand the Readouts",
+  "quest.777920EB0D8650AD.quest_desc": [
+    "Produce Graphite using its installed JEI recipe.",
+  ],
+  "quest.777920EB0D8650AD.title": "Graphite",
+  "task.6D2E52236C148107.title": "1x #c:ingots/steel (any mod)",
+}

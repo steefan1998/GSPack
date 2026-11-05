@@ -1,0 +1,720 @@
+{
+  "id": "55EFD4C346458C1B",
+  "group": "6A1BECB60B0F80F6",
+  "order_index": 38,
+  "icon": {
+    "id": "gspack:verdant_core",
+    "count": 1
+  },
+  "filename": "core_verdant",
+  "default_quest_shape": "",
+  "default_hide_dependency_lines": false,
+  "quests": [
+    {
+      "icon": {
+        "id": "gspack:verdant_core",
+        "count": 1
+      },
+      "x": 0,
+      "y": 2.7,
+      "shape": "gear",
+      "size": 1.3,
+      "id": "30288FF644FC88DF",
+      "tasks": [
+        {
+          "id": "0A6A48B04D6F6E37",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7B1E243D6DD22C34",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "x": 1.8,
+      "y": 2.7,
+      "shape": "circle",
+      "dependencies": [
+        "30288FF644FC88DF"
+      ],
+      "dep_control_pts": {
+        "30288FF644FC88DF": [
+          0,
+          2.7,
+          1.8,
+          2.7
+        ]
+      },
+      "size": 1,
+      "id": "78B8F359CBF4E92B",
+      "tasks": [
+        {
+          "id": "412B5C338CEE00D0",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:elite_table",
+            "count": 1
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "id": "470DCE374901E83D",
+          "type": "xp",
+          "xp": 100
+        }
+      ]
+    },
+    {
+      "x": 3.6,
+      "y": 0,
+      "shape": "circle",
+      "dependencies": [
+        "78B8F359CBF4E92B"
+      ],
+      "dep_control_pts": {
+        "78B8F359CBF4E92B": [
+          1.8,
+          2.7,
+          3.6,
+          0
+        ]
+      },
+      "size": 1,
+      "id": "7AF5618749CFE7F1",
+      "tasks": [
+        {
+          "id": "56A316E02C7AB76E",
+          "type": "item",
+          "item": {
+            "id": "mysticalagradditions:insanium_gemstone_block",
+            "count": 1
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "id": "2E5FBE6E4C17CA8A",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
+    },
+    {
+      "x": 3.6,
+      "y": 1.8,
+      "shape": "circle",
+      "dependencies": [
+        "78B8F359CBF4E92B"
+      ],
+      "dep_control_pts": {
+        "78B8F359CBF4E92B": [
+          1.8,
+          2.7,
+          3.6,
+          1.8
+        ]
+      },
+      "size": 1,
+      "id": "272C25A35AADC6C8",
+      "tasks": [
+        {
+          "id": "3F1EF793D4C5E4E8",
+          "type": "item",
+          "item": {
+            "id": "productivetrees:time_traveller_sapling",
+            "count": 1
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B48A423600FD50C",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
+    },
+    {
+      "x": 3.6,
+      "y": 3.6,
+      "shape": "circle",
+      "dependencies": [
+        "78B8F359CBF4E92B"
+      ],
+      "dep_control_pts": {
+        "78B8F359CBF4E92B": [
+          1.8,
+          2.7,
+          3.6,
+          3.6
+        ]
+      },
+      "size": 1,
+      "id": "0E18C5278292EA73",
+      "tasks": [
+        {
+          "id": "453DA02B9F8F5496",
+          "type": "item",
+          "item": {
+            "id": "productivefarming:farm_controller",
+            "count": 1
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3EE1CA85741C7941",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
+    },
+    {
+      "x": 3.6,
+      "y": 5.4,
+      "shape": "circle",
+      "dependencies": [
+        "78B8F359CBF4E92B"
+      ],
+      "dep_control_pts": {
+        "78B8F359CBF4E92B": [
+          1.8,
+          2.7,
+          3.6,
+          5.4
+        ]
+      },
+      "size": 1,
+      "id": "4172DB7F8CE82B28",
+      "tasks": [
+        {
+          "id": "662C62EFAF847F02",
+          "type": "item",
+          "item": {
+            "id": "productivetrees:cured_rubber",
+            "count": 1
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E924D1C24B4D53F",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
+    },
+    {
+      "x": 5.4,
+      "y": 0,
+      "shape": "circle",
+      "dependencies": [
+        "78B8F359CBF4E92B"
+      ],
+      "dep_control_pts": {
+        "78B8F359CBF4E92B": [
+          1.8,
+          2.7,
+          5.4,
+          0
+        ]
+      },
+      "size": 1,
+      "id": "7A69376BCE6B8D26",
+      "tasks": [
+        {
+          "id": "78009927BD3D4139",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:unobtainium_seeds",
+            "count": 1
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "id": "014D5F694D7A17FF",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
+    },
+    {
+      "id": "0DFECF9CD76B36E1",
+      "x": 5.4,
+      "y": 1.8,
+      "shape": "circle",
+      "size": 1,
+      "dependencies": [
+        "78B8F359CBF4E92B"
+      ],
+      "dep_control_pts": {
+        "78B8F359CBF4E92B": [
+          1.8,
+          2.7,
+          5.4,
+          1.8
+        ]
+      },
+      "tasks": [
+        {
+          "id": "69AF8BE80E7D1CFF",
+          "type": "item",
+          "item": {
+            "count": 1,
+            "id": "productivefarming:barley_seeds_bag"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "id": "76F496FD6759C2C7",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
+    },
+    {
+      "id": "5875CEFC1DC5CF9F",
+      "x": 5.4,
+      "y": 3.6,
+      "shape": "circle",
+      "size": 1,
+      "dependencies": [
+        "78B8F359CBF4E92B"
+      ],
+      "dep_control_pts": {
+        "78B8F359CBF4E92B": [
+          1.8,
+          2.7,
+          5.4,
+          3.6
+        ]
+      },
+      "tasks": [
+        {
+          "id": "2C3E614F37C5523E",
+          "type": "item",
+          "item": {
+            "count": 1,
+            "id": "productivetrees:maple_syrup"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7633C3E6C7E732EB",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
+    },
+    {
+      "id": "403D6FBDBABB2E88",
+      "x": 5.4,
+      "y": 5.4,
+      "shape": "circle",
+      "size": 1,
+      "dependencies": [
+        "78B8F359CBF4E92B"
+      ],
+      "dep_control_pts": {
+        "78B8F359CBF4E92B": [
+          1.8,
+          2.7,
+          5.4,
+          5.4
+        ]
+      },
+      "tasks": [
+        {
+          "id": "274DBCC3D11F5339",
+          "type": "item",
+          "item": {
+            "count": 1,
+            "id": "aquaculture:neptunium_block"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0A789FCC271C3D26",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
+    },
+    {
+      "id": "3BE924D0362B7991",
+      "x": 7.2,
+      "y": 0.9,
+      "shape": "circle",
+      "size": 1,
+      "dependencies": [
+        "78B8F359CBF4E92B"
+      ],
+      "dep_control_pts": {
+        "78B8F359CBF4E92B": [
+          1.8,
+          2.7,
+          7.2,
+          0.9
+        ]
+      },
+      "tasks": [
+        {
+          "id": "28B8FA41D9D70DC2",
+          "type": "item",
+          "item": {
+            "count": 1,
+            "id": "productivefarming:onion_crate"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "id": "4AA14C27EDB071E8",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
+    },
+    {
+      "id": "2F4F00B31BBF795B",
+      "x": 7.2,
+      "y": 2.7,
+      "shape": "circle",
+      "size": 1,
+      "dependencies": [
+        "78B8F359CBF4E92B"
+      ],
+      "dep_control_pts": {
+        "78B8F359CBF4E92B": [
+          1.8,
+          2.7,
+          7.2,
+          2.7
+        ]
+      },
+      "tasks": [
+        {
+          "id": "4988E13F87800316",
+          "type": "item",
+          "item": {
+            "count": 1,
+            "id": "minecraft:wheat"
+          }
+        },
+        {
+          "id": "5AAFA0165E048DB6",
+          "type": "item",
+          "item": {
+            "count": 1,
+            "id": "minecraft:carrot"
+          }
+        },
+        {
+          "id": "38F37D63511DA5D1",
+          "type": "item",
+          "item": {
+            "count": 1,
+            "id": "minecraft:potato"
+          }
+        },
+        {
+          "id": "5A9C361287075592",
+          "type": "item",
+          "item": {
+            "count": 1,
+            "id": "minecraft:beetroot"
+          }
+        },
+        {
+          "id": "5EC6B825B2E73C44",
+          "type": "item",
+          "item": {
+            "count": 1,
+            "id": "minecraft:pumpkin"
+          }
+        },
+        {
+          "id": "3CDA15D4F0FC31DE",
+          "type": "item",
+          "item": {
+            "count": 1,
+            "id": "minecraft:melon_slice"
+          }
+        },
+        {
+          "id": "1C2CAE7667547134",
+          "type": "item",
+          "item": {
+            "count": 1,
+            "id": "minecraft:sugar_cane"
+          }
+        },
+        {
+          "id": "55FC96B7CB15ADBB",
+          "type": "item",
+          "item": {
+            "count": 1,
+            "id": "minecraft:apple"
+          }
+        },
+        {
+          "id": "40E29055A15FDDDE",
+          "type": "item",
+          "item": {
+            "count": 1,
+            "id": "productivefarming:rice"
+          }
+        },
+        {
+          "id": "4D6BD1CCCF5FDA09",
+          "type": "item",
+          "item": {
+            "count": 1,
+            "id": "productivefarming:cotton"
+          }
+        },
+        {
+          "id": "30DD7951DF7E36CD",
+          "type": "item",
+          "item": {
+            "count": 1,
+            "id": "productivefarming:strawberry"
+          }
+        },
+        {
+          "id": "7B7C518794DBBB52",
+          "type": "item",
+          "item": {
+            "count": 1,
+            "id": "productivefarming:black_beans"
+          }
+        },
+        {
+          "id": "63BDE1D8F4BDE8EB",
+          "type": "item",
+          "item": {
+            "count": 1,
+            "id": "productivefarming:sugar_beet"
+          }
+        },
+        {
+          "id": "2D023F4756AA8F3F",
+          "type": "item",
+          "item": {
+            "count": 1,
+            "id": "productivefarming:garlic"
+          }
+        },
+        {
+          "id": "14EA377300071A2C",
+          "type": "item",
+          "item": {
+            "count": 1,
+            "id": "productivefarming:cabbage"
+          }
+        },
+        {
+          "id": "52EA0B42A01CD75E",
+          "type": "item",
+          "item": {
+            "count": 1,
+            "id": "productivefarming:blueberry"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "id": "748A2C849CBD6E80",
+          "type": "xp",
+          "xp": 200
+        },
+        {
+          "id": "69F21CED21902EBF",
+          "type": "random",
+          "table_id": 2210856162803377
+        }
+      ]
+    },
+    {
+      "x": 7.2,
+      "y": 4.5,
+      "shape": "circle",
+      "dependencies": [
+        "78B8F359CBF4E92B"
+      ],
+      "dep_control_pts": {
+        "78B8F359CBF4E92B": [
+          1.8,
+          2.7,
+          7.2,
+          4.5
+        ]
+      },
+      "size": 1,
+      "id": "306610460778977D",
+      "tasks": [
+        {
+          "id": "6C2A746A53133926",
+          "type": "item",
+          "item": {
+            "id": "allthecompressed:emerald_block_2x",
+            "count": 1
+          }
+        },
+        {
+          "id": "061162F2A645DE34",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:elite_component",
+            "count": 1
+          }
+        },
+        {
+          "id": "06A6BEEE0BB45C55",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:black_iron_ingot",
+            "count": 1
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5815A47A5C0A54B6",
+          "type": "xp",
+          "xp": 100
+        }
+      ]
+    },
+    {
+      "x": 9,
+      "y": 2.7,
+      "shape": "gear",
+      "dependencies": [
+        "78B8F359CBF4E92B",
+        "7AF5618749CFE7F1",
+        "272C25A35AADC6C8",
+        "0E18C5278292EA73",
+        "4172DB7F8CE82B28",
+        "7A69376BCE6B8D26",
+        "0DFECF9CD76B36E1",
+        "5875CEFC1DC5CF9F",
+        "403D6FBDBABB2E88",
+        "3BE924D0362B7991",
+        "306610460778977D",
+        "2F4F00B31BBF795B"
+      ],
+      "dep_control_pts": {
+        "306610460778977D": [
+          7.2,
+          4.5,
+          9,
+          2.7
+        ],
+        "78B8F359CBF4E92B": [
+          1.8,
+          2.7,
+          9,
+          2.7
+        ],
+        "7A69376BCE6B8D26": [
+          5.4,
+          0,
+          9,
+          2.7
+        ],
+        "272C25A35AADC6C8": [
+          3.6,
+          1.8,
+          9,
+          2.7
+        ],
+        "7AF5618749CFE7F1": [
+          3.6,
+          0,
+          9,
+          2.7
+        ],
+        "4172DB7F8CE82B28": [
+          3.6,
+          5.4,
+          9,
+          2.7
+        ],
+        "0E18C5278292EA73": [
+          3.6,
+          3.6,
+          9,
+          2.7
+        ],
+        "0DFECF9CD76B36E1": [
+          5.4,
+          1.8,
+          9,
+          2.7
+        ],
+        "5875CEFC1DC5CF9F": [
+          5.4,
+          3.6,
+          9,
+          2.7
+        ],
+        "403D6FBDBABB2E88": [
+          5.4,
+          5.4,
+          9,
+          2.7
+        ],
+        "3BE924D0362B7991": [
+          7.2,
+          0.9,
+          9,
+          2.7
+        ],
+        "2F4F00B31BBF795B": [
+          7.2,
+          2.7,
+          9,
+          2.7
+        ]
+      },
+      "size": 1.3,
+      "id": "071A0D4B4B51E96D",
+      "tasks": [
+        {
+          "id": "1B44D19AAC1FE8D5",
+          "type": "item",
+          "item": {
+            "id": "gspack:verdant_core",
+            "count": 1
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "id": "34AE333DC15C5872",
+          "type": "xp",
+          "xp": 1000
+        },
+        {
+          "id": "1DB5ADDDE3A88528",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 379532711335085
+        }
+      ]
+    }
+  ],
+  "quest_links": [],
+  "images": [],
+  "autofocus_id": ""
+}

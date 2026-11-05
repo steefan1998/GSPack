@@ -16,11 +16,7 @@
   ],
   "quest.048131CEA4B264AB.title": "Ultimate Crafting Table",
   "quest.0F9246D4F65EF111.quest_desc": [
-    "Forged from the bosses of the Moon.",
-    "",
-    "&7Recipe:&r 4 Novite blocks, 2 Heart of Luna trophies, 2 Star Crawler trophies and a Nether Star in the middle.",
-    "",
-    "Suggested progression: the Heart of Luna, the Star Crawler Queen and Novite (Stellaris)."
+    "Craft in an Elite Crafting Table (7x7) using Stellaris lunar resources, both boss trophies, Autopilot and Shield Modules, Space Station Blueprint, Nitro Energy Cell, Quantum Processor and Astrum Vitreus. Follow Cores: Cosmic Core and JEI."
   ],
   "quest.0F9246D4F65EF111.title": "Cosmic Core",
   "quest.1F4E2B13182CA4D7.quest_desc": [
@@ -36,11 +32,7 @@
   ],
   "quest.2310F5804578FDB6.title": "Creative Drawer Upgrade",
   "quest.24D85F4E0B73E8CE.quest_desc": [
-    "Trophies and metals from the far-away worlds.",
-    "",
-    "&7Recipe:&r 4 Unobtainium-Vibranium blocks, a Snow Queen trophy, an Ur-Ghast trophy, 2 Gravitite blocks and a Piglich Heart block in the middle.",
-    "",
-    "Suggested progression: Unobtainium and the Piglich (Allthemodium), the Ur-Ghast and the Snow Queen (Twilight Forest) and Gravitite (Aether II)."
+    "Craft in an Elite Crafting Table (7x7) using The Bumblezone, The Aether II and Twilight Forest. Obtain Essence of the Bees, Royal Jelly, Glistering Honey Crystal, Gravitite, Zanite, Valkyrie Wings and Hydra, Ur-Ghast and Snow Queen trophies. Follow Cores: Dimensional Core and JEI."
   ],
   "quest.24D85F4E0B73E8CE.title": "Dimensional Core",
   "quest.2898DC9B19EB906F.quest_desc": [
@@ -74,19 +66,11 @@
   ],
   "quest.3C8AA2E3BE5359B4.title": "Creative Storage Cell",
   "quest.4593CB8C7998DC0F.quest_desc": [
-    "The essence of everything that grows, and everything that swims.",
-    "",
-    "&7Recipe:&r 4 Insanium Gemstone blocks, 2 Nether Star Seeds, 2 Neptunium blocks and Unobtainium Seeds (Seed Codex) in the middle.",
-    "",
-    "Suggested progression: Insanium, the Nether Star and Unobtainium seeds (Seed Codex) and Neptunium (Aquaculture)."
+    "Craft in an Elite Crafting Table (7x7) with 25 farming and tree ingredients, including Productive Trees, Productive Farming, Mystical Agriculture and Aquaculture. Productive Bees remains optional. Follow Cores: Verdant Core and JEI."
   ],
   "quest.4593CB8C7998DC0F.title": "Verdant Core",
   "quest.45A5E6B642F0DE42.quest_desc": [
-    "All five cores, collapsed into a single point.",
-    "",
-    "&7Recipe:&r the five cores and 4 Nether Stars.",
-    "",
-    "Every creative item needs one Creative Singularity, so you will need several. Automate your pillars!"
+    "Use a Powah Energizing Orb with all five cores. The recipe consumes only these five ingredients and 1,000,000,000 FE. Powered Energizing Rods around the Orb supply energy; they are not recipe ingredients and are not consumed. See JEI."
   ],
   "quest.45A5E6B642F0DE42.title": "Creative Singularity",
   "quest.58B5171E08EAA508.quest_desc": [
@@ -100,7 +84,7 @@
     "",
     "To reach it you need five &ecores&r, one for each pillar of the pack. Each core is made from the hardest items of its pillar, and its recipe draws on the capstones of those mods. This chapter can be started independently.",
     "",
-    "Combine the five cores into a &dCreative Singularity&r. Every &ecreative item&r needs one.",
+    "Combine the five cores in a &dPowah Energizing Orb&r to create a &dCreative Singularity&r. Every &ecreative item&r needs one.",
     "",
     "Craft eight creative items and you can make the &6Trophy of Infinity&r.",
     "",
@@ -109,8 +93,8 @@
     "&eThe five cores&r",
     "- &bTechnological Core&r: Mekanism, Oritech, Applied Energistics 2",
     "- &5Arcane Core&r: Thaumaturge, Apotheosis, Equivox, Occultism",
-    "- &aVerdant Core&r: Mystical Agriculture, Aquaculture, the Seed Codex",
-    "- &6Dimensional Core&r: Allthemodium, The Twilight Forest, The Aether II",
+    "- &aVerdant Core&r: Mystical Agriculture, Productive Trees, Productive Farming, Aquaculture",
+    "- &6Dimensional Core&r: The Bumblezone, The Twilight Forest, The Aether II",
     "- &9Cosmic Core&r: Stellaris",
     "",
     "All recipes can be found in JEI. Good luck!"
@@ -147,11 +131,7 @@
   ],
   "quest.6DCDEED94D410642.title": "Elite Crafting Table",
   "quest.6EF5BBD9118F05B1.quest_desc": [
-    "Antimatter, AI and quantum computing in one core.",
-    "",
-    "&7Recipe:&r 4 Antimatter Pellets, 2 Super AI Chips, 2 Quantum Processors and an Infinite Control Circuit in the middle.",
-    "",
-    "Suggested progression: the Infinite tier and the SPS (Mekanism), Advanced Computing (Oritech) and Advanced AE."
+    "Build the FE multiblock described in Cores: Technological Core. A central Crafting Core and 24 Pedestals combine Mekanism, Oritech, Advanced AE, AE2 and Powah components. The recipe consumes 250,000,000 FE at up to 25,000 FE/t. Check JEI and the dedicated Cores route."
   ],
   "quest.6EF5BBD9118F05B1.title": "Technological Core",
   "quest.71253CF4BB974D87.quest_desc": [
@@ -184,11 +164,7 @@
   ],
   "quest.7B22113098F5905B.title": "Creative Essence",
   "quest.7B383D694996D3C1.quest_desc": [
-    "The combined power of every kind of magic in the pack.",
-    "",
-    "&7Recipe:&r 3 Void Metal ingots, 2 Godforged Pearls, 2 Red Matter blocks, a tier-4 Occultism Storage Stabilizer and a Primordial Pearl in the middle. The stabilizer requires Occultism spirit and ritual progression. GSPack also changes the Controller Base, Infused Lenses and Dimensional Matrix rituals: check JEI.",
-    "",
-    "Suggested progression: the Primordial Pearl (Thaumaturge), Godforged (Apotheosis), Red Matter (Equivox) and a tier-4 Storage Stabilizer (Occultism)."
+    "Craft in an Elite Crafting Table (7x7). Required magic mods: Thaumaturge, Occultism, Equivox, Apotheosis, EvilCraft and Roots Classic. The recipe includes a Primordial Pearl, tier-4 Storage Stabilizer, Godforged Pearl, Red Matter, Klein Star Omega, Dark Power Gem Block and Crystal Staff. See Cores: Arcane Core for the full route and JEI for quantities."
   ],
   "quest.7B383D694996D3C1.title": "Arcane Core",
   "quest.7B993D9D41977366.quest_desc": [

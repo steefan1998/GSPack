@@ -4,5 +4,7 @@
   "tier": "mysticalagradditions:6",
   "ingredient": { "item": "allthemodium:unobtainium_ingot" },
   "color": "#c255ff",
-  "crux": "gspack:unobtainium_crux"
+  "crux": "gspack:unobtainium_crux",
+  "base_secondary_chance": 0.0,
+  "respects_effective_farmland": false
 }

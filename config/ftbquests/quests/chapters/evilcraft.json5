@@ -1,613 +1,757 @@
 {
-  id: "69E2A5F4FD529B95",
-  group: "591262DAFEE441AF",
-  order_index: 4,
-  icon: {
-    id: "evilcraft:dark_gem",
-    count: 1,
+  "id": "69E2A5F4FD529B95",
+  "group": "591262DAFEE441AF",
+  "order_index": 17,
+  "icon": {
+    "id": "evilcraft:dark_gem",
+    "count": 1
   },
-  filename: "evilcraft",
-  default_quest_shape: "",
-  default_hide_dependency_lines: false,
-  quests: [
+  "filename": "evilcraft",
+  "default_quest_shape": "",
+  "default_hide_dependency_lines": false,
+  "quests": [
     {
-      x: 0,
-      y: 0,
-      shape: "gear",
-      size: 1.3,
-      id: "474FB2406FDE78C7",
-      tasks: [
+      "x": 0,
+      "y": 0,
+      "shape": "gear",
+      "size": 1.3,
+      "id": "474FB2406FDE78C7",
+      "tasks": [
         {
-          id: "31A4806E622F2A75",
-          type: "item",
-          item: {
-            id: "evilcraft:dark_gem",
-            count: 1,
+          "id": "31A4806E622F2A75",
+          "type": "item",
+          "item": {
+            "id": "evilcraft:dark_gem",
+            "count": 1
           },
-          count: 8,
-        },
+          "count": 8
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "7E662FC990DA1A70",
-          type: "xp",
-          xp: 75,
+          "id": "7E662FC990DA1A70",
+          "type": "xp",
+          "xp": 75
         },
         {
-          id: "644B82E6A404B628",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 4224964620844649,
-        },
-      ],
+          "id": "644B82E6A404B628",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 4224964620844649
+        }
+      ]
     },
     {
-      x: 1.8,
-      y: 0,
-      dependencies: ["474FB2406FDE78C7"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"474FB2406FDE78C7":[0,0,1.8,0]},
-      id: "773C631575C36B48",
-      tasks: [
-        {
-          id: "3F88081DA0CF1BA9",
-          type: "item",
-          item: {
-            id: "evilcraft:darkened_apple",
-            count: 1,
-          },
-        },
+      "x": 1.8,
+      "y": 0,
+      "shape": "circle",
+      "dependencies": [
+        "474FB2406FDE78C7"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "474FB2406FDE78C7": [
+          0,
+          0,
+          1.8,
+          0
+        ]
+      },
+      "size": 1,
+      "id": "773C631575C36B48",
+      "tasks": [
         {
-          id: "67B23724549CD86E",
-          type: "xp",
-          xp: 50,
-        },
+          "id": "3F88081DA0CF1BA9",
+          "type": "item",
+          "item": {
+            "id": "evilcraft:darkened_apple",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "67B23724549CD86E",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
     },
     {
-      x: 3.6,
-      y: 0,
-      dependencies: ["773C631575C36B48"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"773C631575C36B48":[1.8,0,3.6,0]},
-      id: "23AA664A8D9B98AE",
-      tasks: [
-        {
-          id: "2973EA0B89198DD8",
-          type: "item",
-          item: {
-            id: "evilcraft:origins_of_darkness",
-            count: 1,
-          },
-        },
+      "x": 3.6,
+      "y": 0,
+      "shape": "circle",
+      "dependencies": [
+        "773C631575C36B48"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "773C631575C36B48": [
+          1.8,
+          0,
+          3.6,
+          0
+        ]
+      },
+      "size": 1,
+      "id": "23AA664A8D9B98AE",
+      "tasks": [
         {
-          id: "466CA94E757EEA54",
-          type: "xp",
-          xp: 100,
-        },
-        {
-          id: "0805DF81AD5B9540",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 4314132029995036,
-        },
+          "id": "2973EA0B89198DD8",
+          "type": "item",
+          "item": {
+            "id": "evilcraft:origins_of_darkness",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "466CA94E757EEA54",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "0805DF81AD5B9540",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 4314132029995036
+        }
+      ]
     },
     {
-      x: 12.5,
-      y: 0,
-      dependencies: ["474FB2406FDE78C7"],
-      hide_dependency_lines: true,
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"474FB2406FDE78C7":[0,0,12.5,0]},
-      id: "0C3AAEC37FE182C2",
-      tasks: [
-        {
-          id: "6EF590FC230F63ED",
-          type: "item",
-          item: {
-            id: "evilcraft:blood_extractor",
-            count: 1,
-          },
-        },
+      "x": 12.5,
+      "y": 0,
+      "shape": "circle",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "474FB2406FDE78C7"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "474FB2406FDE78C7": [
+          0,
+          0,
+          12.5,
+          0
+        ]
+      },
+      "size": 1,
+      "id": "0C3AAEC37FE182C2",
+      "tasks": [
         {
-          id: "6B226527913371BF",
-          type: "xp",
-          xp: 75,
-        },
+          "id": "6EF590FC230F63ED",
+          "type": "item",
+          "item": {
+            "id": "evilcraft:blood_extractor",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "6B226527913371BF",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
     },
     {
-      x: 11.6,
-      y: 1.8,
-      dependencies: ["0C3AAEC37FE182C2"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"0C3AAEC37FE182C2":[12.5,0,11.6,1.8]},
-      id: "07D7D774AA3A3F67",
-      tasks: [
-        {
-          id: "2934A0A0172D89DD",
-          type: "item",
-          item: {
-            id: "evilcraft:dark_tank",
-            count: 1,
-          },
-        },
+      "x": 11.6,
+      "y": 1.8,
+      "shape": "circle",
+      "dependencies": [
+        "0C3AAEC37FE182C2"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "0C3AAEC37FE182C2": [
+          12.5,
+          0,
+          11.6,
+          1.8
+        ]
+      },
+      "size": 1,
+      "id": "07D7D774AA3A3F67",
+      "tasks": [
         {
-          id: "5C3CE5E2BB043DC5",
-          type: "xp",
-          xp: 75,
-        },
+          "id": "2934A0A0172D89DD",
+          "type": "item",
+          "item": {
+            "id": "evilcraft:dark_tank",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "5C3CE5E2BB043DC5",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
     },
     {
-      x: 12.5,
-      y: 3.6,
-      dependencies: ["07D7D774AA3A3F67"],
-      shape: "gear",
-      size: 1.3,
-      dep_control_pts: {"07D7D774AA3A3F67":[11.6,1.8,12.5,3.6]},
-      id: "49AAE5255D7B23C7",
-      tasks: [
-        {
-          id: "5BA4FA58A72D252A",
-          type: "item",
-          item: {
-            id: "evilcraft:blood_infuser",
-            count: 1,
-          },
-        },
+      "x": 12.5,
+      "y": 3.6,
+      "shape": "gear",
+      "dependencies": [
+        "07D7D774AA3A3F67"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "07D7D774AA3A3F67": [
+          11.6,
+          1.8,
+          12.5,
+          3.6
+        ]
+      },
+      "size": 1.3,
+      "id": "49AAE5255D7B23C7",
+      "tasks": [
         {
-          id: "2C2B007DEEAF6201",
-          type: "xp",
-          xp: 150,
-        },
-        {
-          id: "1B1C0E022488C54B",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 4314132029995036,
-        },
+          "id": "5BA4FA58A72D252A",
+          "type": "item",
+          "item": {
+            "id": "evilcraft:blood_infuser",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "2C2B007DEEAF6201",
+          "type": "xp",
+          "xp": 150
+        },
+        {
+          "id": "1B1C0E022488C54B",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 4314132029995036
+        }
+      ]
     },
     {
-      x: 13.4,
-      y: 1.8,
-      optional: true,
-      dependencies: ["0C3AAEC37FE182C2"],
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"0C3AAEC37FE182C2":[12.5,0,13.4,1.8]},
-      id: "0FC4E2ED44CF001C",
-      tasks: [
+      "x": 13.4,
+      "y": 1.8,
+      "shape": "diamond",
+      "dependencies": [
+        "0C3AAEC37FE182C2"
+      ],
+      "dep_control_pts": {
+        "0C3AAEC37FE182C2": [
+          12.5,
+          0,
+          13.4,
+          1.8
+        ]
+      },
+      "size": 1,
+      "optional": true,
+      "id": "0FC4E2ED44CF001C",
+      "tasks": [
         {
-          id: "363EC551DECAF84C",
-          type: "item",
-          item: {
-            id: "evilcraft:hardened_blood_shard",
-            count: 1,
+          "id": "363EC551DECAF84C",
+          "type": "item",
+          "item": {
+            "id": "evilcraft:hardened_blood_shard",
+            "count": 1
           },
-          count: 8,
-        },
+          "count": 8
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "2ECED4E6CCDDD64B",
-          type: "xp",
-          xp: 50,
-        },
-      ],
+          "id": "2ECED4E6CCDDD64B",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
     },
     {
-      x: 11.6,
-      y: 5.4,
-      dependencies: ["49AAE5255D7B23C7"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"49AAE5255D7B23C7":[12.5,3.6,11.6,5.4]},
-      id: "2A19A0D22C67C534",
-      tasks: [
-        {
-          id: "5ECC774D73742C7F",
-          type: "item",
-          item: {
-            id: "evilcraft:blood_chest",
-            count: 1,
-          },
-        },
+      "x": 11.6,
+      "y": 5.4,
+      "shape": "circle",
+      "dependencies": [
+        "49AAE5255D7B23C7"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "49AAE5255D7B23C7": [
+          12.5,
+          3.6,
+          11.6,
+          5.4
+        ]
+      },
+      "size": 1,
+      "id": "2A19A0D22C67C534",
+      "tasks": [
         {
-          id: "4A311D3392BFDD0D",
-          type: "xp",
-          xp: 100,
-        },
+          "id": "5ECC774D73742C7F",
+          "type": "item",
+          "item": {
+            "id": "evilcraft:blood_chest",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "4A311D3392BFDD0D",
+          "type": "xp",
+          "xp": 100
+        }
+      ]
     },
     {
-      x: 13.4,
-      y: 5.4,
-      optional: true,
-      dependencies: ["49AAE5255D7B23C7"],
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"49AAE5255D7B23C7":[12.5,3.6,13.4,5.4]},
-      id: "644373722FB27198",
-      tasks: [
-        {
-          id: "606D9F73313E0E5C",
-          type: "item",
-          item: {
-            id: "evilcraft:purifier",
-            count: 1,
-          },
-        },
+      "x": 13.4,
+      "y": 5.4,
+      "shape": "diamond",
+      "dependencies": [
+        "49AAE5255D7B23C7"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "49AAE5255D7B23C7": [
+          12.5,
+          3.6,
+          13.4,
+          5.4
+        ]
+      },
+      "size": 1,
+      "optional": true,
+      "id": "644373722FB27198",
+      "tasks": [
         {
-          id: "6B8AB8C0ECF8AE67",
-          type: "xp",
-          xp: 100,
-        },
+          "id": "606D9F73313E0E5C",
+          "type": "item",
+          "item": {
+            "id": "evilcraft:purifier",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "6B8AB8C0ECF8AE67",
+          "type": "xp",
+          "xp": 100
+        }
+      ]
     },
     {
-      x: 0,
-      y: 8.6,
-      dependencies: ["474FB2406FDE78C7"],
-      hide_dependency_lines: true,
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"474FB2406FDE78C7":[0,0,0,8.6]},
-      id: "0CCF566503355370",
-      tasks: [
-        {
-          id: "23FF3ABD80977A22",
-          type: "item",
-          item: {
-            id: "evilcraft:spectral_glasses",
-            count: 1,
-          },
-        },
+      "x": 0,
+      "y": 8.6,
+      "shape": "circle",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "474FB2406FDE78C7"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "474FB2406FDE78C7": [
+          0,
+          0,
+          0,
+          8.6
+        ]
+      },
+      "size": 1,
+      "id": "0CCF566503355370",
+      "tasks": [
         {
-          id: "24DB68EBE39DBE3B",
-          type: "xp",
-          xp: 75,
-        },
+          "id": "23FF3ABD80977A22",
+          "type": "item",
+          "item": {
+            "id": "evilcraft:spectral_glasses",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "24DB68EBE39DBE3B",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
     },
     {
-      x: 1.8,
-      y: 10.4,
-      dependencies: ["0CCF566503355370"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"0CCF566503355370":[0,8.6,1.8,10.4]},
-      id: "6165C0911728C01E",
-      tasks: [
-        {
-          id: "5EE7F3952FBCE795",
-          type: "kill",
-          entity: "evilcraft:vengeance_spirit",
-          value: 3,
-        },
+      "x": 1.8,
+      "y": 10.4,
+      "shape": "circle",
+      "dependencies": [
+        "0CCF566503355370"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "0CCF566503355370": [
+          0,
+          8.6,
+          1.8,
+          10.4
+        ]
+      },
+      "size": 1,
+      "id": "6165C0911728C01E",
+      "tasks": [
         {
-          id: "62C85905FA8AD47F",
-          type: "xp",
-          xp: 150,
-        },
-        {
-          id: "2BA1EF064F7A85E4",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 4314132029995036,
-        },
+          "id": "5EE7F3952FBCE795",
+          "type": "kill",
+          "entity": "evilcraft:vengeance_spirit",
+          "value": 3
+        }
       ],
+      "rewards": [
+        {
+          "id": "62C85905FA8AD47F",
+          "type": "xp",
+          "xp": 150
+        },
+        {
+          "id": "2BA1EF064F7A85E4",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 4314132029995036
+        }
+      ]
     },
     {
-      x: 3.6,
-      y: 10.4,
-      dependencies: ["6165C0911728C01E"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"6165C0911728C01E":[1.8,10.4,3.6,10.4]},
-      id: "565DBCE068587453",
-      tasks: [
-        {
-          id: "52F464962B10AA1E",
-          type: "item",
-          item: {
-            id: "evilcraft:box_of_eternal_closure",
-            count: 1,
-          },
-        },
+      "x": 3.6,
+      "y": 10.4,
+      "shape": "circle",
+      "dependencies": [
+        "6165C0911728C01E"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "6165C0911728C01E": [
+          1.8,
+          10.4,
+          3.6,
+          10.4
+        ]
+      },
+      "size": 1,
+      "id": "565DBCE068587453",
+      "tasks": [
         {
-          id: "557BB5053C762F86",
-          type: "xp",
-          xp: 150,
-        },
+          "id": "52F464962B10AA1E",
+          "type": "item",
+          "item": {
+            "id": "evilcraft:box_of_eternal_closure",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "557BB5053C762F86",
+          "type": "xp",
+          "xp": 150
+        }
+      ]
     },
     {
-      x: 5.4,
-      y: 10.4,
-      dependencies: ["565DBCE068587453","49AAE5255D7B23C7"],
-      hide_dependency_lines: true,
-      shape: "hexagon",
-      size: 1,
-      dep_control_pts: {"565DBCE068587453":[3.6,10.4,5.4,10.4],"49AAE5255D7B23C7":[12.5,3.6,5.4,10.4]},
-      id: "70C05CE545CC1D69",
-      tasks: [
-        {
-          id: "48970EA409D5414B",
-          type: "item",
-          item: {
-            id: "evilcraft:spirit_furnace",
-            count: 1,
-          },
-        },
+      "x": 5.4,
+      "y": 10.4,
+      "shape": "hexagon",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "565DBCE068587453",
+        "49AAE5255D7B23C7"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "49AAE5255D7B23C7": [
+          12.5,
+          3.6,
+          5.4,
+          10.4
+        ],
+        "565DBCE068587453": [
+          3.6,
+          10.4,
+          5.4,
+          10.4
+        ]
+      },
+      "size": 1,
+      "id": "70C05CE545CC1D69",
+      "tasks": [
         {
-          id: "1E67944DA4069BE5",
-          type: "xp",
-          xp: 200,
-        },
-        {
-          id: "6D5850281ECE96CA",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 2210856162803377,
-        },
+          "id": "48970EA409D5414B",
+          "type": "item",
+          "item": {
+            "id": "evilcraft:spirit_furnace",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "1E67944DA4069BE5",
+          "type": "xp",
+          "xp": 200
+        },
+        {
+          "id": "6D5850281ECE96CA",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2210856162803377
+        }
+      ]
     },
     {
-      x: 0,
-      y: 10.4,
-      dependencies: ["474FB2406FDE78C7"],
-      hide_dependency_lines: true,
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"474FB2406FDE78C7":[0,0,0,10.4]},
-      id: "3B0A84F701F3F733",
-      tasks: [
-        {
-          id: "1D09C65BA7B8B40E",
-          type: "kill",
-          entity: "evilcraft:werewolf",
-          value: 1,
-        },
-        {
-          id: "501A92D3E365C74A",
-          type: "item",
-          item: {
-            id: "evilcraft:werewolf_fur",
-            count: 1,
-          },
-        },
+      "x": 0,
+      "y": 10.4,
+      "shape": "circle",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "474FB2406FDE78C7"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "474FB2406FDE78C7": [
+          0,
+          0,
+          0,
+          10.4
+        ]
+      },
+      "size": 1,
+      "id": "3B0A84F701F3F733",
+      "tasks": [
         {
-          id: "6F3CADA5F6250E1A",
-          type: "xp",
-          xp: 150,
+          "id": "1D09C65BA7B8B40E",
+          "type": "kill",
+          "entity": "evilcraft:werewolf",
+          "value": 1
         },
         {
-          id: "0CFA57A5F2841E14",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 253752461985528,
-        },
+          "id": "501A92D3E365C74A",
+          "type": "item",
+          "item": {
+            "id": "evilcraft:werewolf_fur",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "6F3CADA5F6250E1A",
+          "type": "xp",
+          "xp": 150
+        },
+        {
+          "id": "0CFA57A5F2841E14",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 253752461985528
+        }
+      ]
     },
     {
-      x: 0,
-      y: 12.2,
-      optional: true,
-      dependencies: ["474FB2406FDE78C7"],
-      hide_dependency_lines: true,
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"474FB2406FDE78C7":[0,0,0,12.2]},
-      id: "302821A7C06F1126",
-      tasks: [
-        {
-          id: "6E6BE86B7EFEBE06",
-          type: "item",
-          item: {
-            id: "evilcraft:undead_sapling",
-            count: 1,
-          },
-        },
-        {
-          id: "3822B185EC60B06A",
-          type: "item",
-          item: {
-            id: "evilcraft:undead_log",
-            count: 1,
-          },
-          count: 8,
-        },
+      "x": 0,
+      "y": 12.2,
+      "shape": "diamond",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "474FB2406FDE78C7"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "474FB2406FDE78C7": [
+          0,
+          0,
+          0,
+          12.2
+        ]
+      },
+      "size": 1,
+      "optional": true,
+      "id": "302821A7C06F1126",
+      "tasks": [
         {
-          id: "5F62AA55E3141D82",
-          type: "xp",
-          xp: 50,
+          "id": "6E6BE86B7EFEBE06",
+          "type": "item",
+          "item": {
+            "id": "evilcraft:undead_sapling",
+            "count": 1
+          }
         },
+        {
+          "id": "3822B185EC60B06A",
+          "type": "item",
+          "item": {
+            "id": "evilcraft:undead_log",
+            "count": 1
+          },
+          "count": 8
+        }
       ],
+      "rewards": [
+        {
+          "id": "5F62AA55E3141D82",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
     },
     {
-      x: 13.4,
-      y: 8.6,
-      dependencies: ["23AA664A8D9B98AE"],
-      hide_dependency_lines: true,
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"23AA664A8D9B98AE":[3.6,0,13.4,8.6]},
-      id: "45D2813A922F4D28",
-      tasks: [
-        {
-          id: "3D456A2BD1476188",
-          type: "item",
-          item: {
-            id: "evilcraft:environmental_accumulator",
-            count: 1,
-          },
-        },
+      "x": 13.4,
+      "y": 8.6,
+      "shape": "circle",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "23AA664A8D9B98AE"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "23AA664A8D9B98AE": [
+          3.6,
+          0,
+          13.4,
+          8.6
+        ]
+      },
+      "size": 1,
+      "id": "45D2813A922F4D28",
+      "tasks": [
         {
-          id: "6D2C8AFCD7F79488",
-          type: "xp",
-          xp: 150,
-        },
+          "id": "3D456A2BD1476188",
+          "type": "item",
+          "item": {
+            "id": "evilcraft:environmental_accumulator",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "6D2C8AFCD7F79488",
+          "type": "xp",
+          "xp": 150
+        }
+      ]
     },
     {
-      x: 13.4,
-      y: 10.4,
-      dependencies: ["49AAE5255D7B23C7"],
-      hide_dependency_lines: true,
-      shape: "gear",
-      size: 1.3,
-      dep_control_pts: {"49AAE5255D7B23C7":[12.5,3.6,13.4,10.4]},
-      id: "6750758B4455A305",
-      tasks: [
-        {
-          id: "42D73316C60C04E4",
-          type: "item",
-          item: {
-            id: "evilcraft:broom",
-            count: 1,
-          },
-        },
+      "x": 13.4,
+      "y": 10.4,
+      "shape": "gear",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "49AAE5255D7B23C7"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "49AAE5255D7B23C7": [
+          12.5,
+          3.6,
+          13.4,
+          10.4
+        ]
+      },
+      "size": 1.3,
+      "id": "6750758B4455A305",
+      "tasks": [
         {
-          id: "4BA37110A2B3A68B",
-          type: "xp",
-          xp: 200,
-        },
-        {
-          id: "228E42FE3E5FE44F",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 2210856162803377,
-        },
+          "id": "42D73316C60C04E4",
+          "type": "item",
+          "item": {
+            "id": "evilcraft:broom",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "4BA37110A2B3A68B",
+          "type": "xp",
+          "xp": 200
+        },
+        {
+          "id": "228E42FE3E5FE44F",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2210856162803377
+        }
+      ]
     },
     {
-      x: 13.4,
-      y: 12.2,
-      optional: true,
-      dependencies: ["49AAE5255D7B23C7"],
-      hide_dependency_lines: true,
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"49AAE5255D7B23C7":[12.5,3.6,13.4,12.2]},
-      id: "2673AE7DFE6A35BA",
-      tasks: [
-        {
-          id: "53F2A930AB1C3AD8",
-          type: "item",
-          item: {
-            id: "evilcraft:mace_of_distortion",
-            count: 1,
-          },
-        },
+      "x": 13.4,
+      "y": 12.2,
+      "shape": "diamond",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "49AAE5255D7B23C7"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "49AAE5255D7B23C7": [
+          12.5,
+          3.6,
+          13.4,
+          12.2
+        ]
+      },
+      "size": 1,
+      "optional": true,
+      "id": "2673AE7DFE6A35BA",
+      "tasks": [
         {
-          id: "0BB569191A695A94",
-          type: "xp",
-          xp: 150,
-        },
+          "id": "53F2A930AB1C3AD8",
+          "type": "item",
+          "item": {
+            "id": "evilcraft:mace_of_distortion",
+            "count": 1
+          }
+        }
       ],
-    },
+      "rewards": [
+        {
+          "id": "0BB569191A695A94",
+          "type": "xp",
+          "xp": 150
+        }
+      ]
+    }
   ],
-  quest_links: [
-  ],
-  images: [
-  {
-    "x": 6.7,
-    "y": -1.7188,
-    "width": 12,
-    "height": 1.4375,
-    "rotation": 0,
-    "image": "gspack:textures/quests/evilcraft_header.png",
-    "color": 16777215,
-    "alpha": 255,
-    "order": 0,
-    "corner": false
-  },
-  {
-    "x": -2.9824,
-    "y": 8.6,
-    "width": 4.1647,
-    "height": 0.6,
-    "rotation": 0,
-    "image": "gspack:textures/quests/evilcraft_glasses.png",
-    "color": 16777215,
-    "alpha": 255,
-    "order": 0,
-    "corner": false
-  },
-  {
-    "x": 11.5824,
-    "y": 8.6,
-    "width": 1.8353,
-    "height": 0.6,
-    "rotation": 0,
-    "image": "gspack:textures/quests/evilcraft_accumulator.png",
-    "color": 16777215,
-    "alpha": 255,
-    "order": 0,
-    "corner": false
-  },
-  {
-    "x": -2.4706,
-    "y": 0,
-    "width": 3.1412,
-    "height": 0.6,
-    "rotation": 0,
-    "image": "gspack:textures/quests/evilcraft_dark_gem.png",
-    "color": 16777215,
-    "alpha": 255,
-    "order": 0,
-    "corner": false
-  },
-  {
-    "x": 9.8529,
-    "y": 0,
-    "width": 1.6941,
-    "height": 0.6,
-    "rotation": 0,
-    "image": "gspack:textures/quests/evilcraft_extractor.png",
-    "color": 16777215,
-    "alpha": 255,
-    "order": 0,
-    "corner": false
-  }
-],
+  "quest_links": [],
+  "images": [
+    {
+      "x": 6.7,
+      "y": -1.7188,
+      "width": 12,
+      "height": 1.4375,
+      "rotation": 0,
+      "image": "gspack:textures/quests/evilcraft_header.png",
+      "id": "6508CFA6AC0C30BC"
+    },
+    {
+      "x": -2.9824,
+      "y": 8.6,
+      "width": 4.1647,
+      "height": 0.6,
+      "rotation": 0,
+      "image": "gspack:textures/quests/evilcraft_glasses.png",
+      "id": "6447A120FCA8EB6A"
+    },
+    {
+      "x": 11.5824,
+      "y": 8.6,
+      "width": 1.8353,
+      "height": 0.6,
+      "rotation": 0,
+      "image": "gspack:textures/quests/evilcraft_accumulator.png",
+      "id": "7CC40F896EAC60CB"
+    },
+    {
+      "x": -2.4706,
+      "y": 0,
+      "width": 3.1412,
+      "height": 0.6,
+      "rotation": 0,
+      "image": "gspack:textures/quests/evilcraft_dark_gem.png",
+      "id": "3CBE2D2F79CF1AA9"
+    },
+    {
+      "x": 9.8529,
+      "y": 0,
+      "width": 1.6941,
+      "height": 0.6,
+      "rotation": 0,
+      "image": "gspack:textures/quests/evilcraft_extractor.png",
+      "id": "14FF15E997289B7C"
+    }
+  ]
 }

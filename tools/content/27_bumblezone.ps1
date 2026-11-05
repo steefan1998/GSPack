@@ -1,0 +1,22 @@
+Chapter 'bumblezone' 'The Bumblezone' 'the_bumblezone:honey_compass' 'explore' 'Explore the hive dimension, meet the queen and gather dimensional-core materials.' -showlines
+Q 'start' 'A World Inside the Hive' 'check' '' 'xp:50' -size 1.5 -icon 'the_bumblezone:honey_compass' -desc 'The Bumblezone is an exploration route. Bring food, blocks and a safe way home. This chapter can be started independently; Productive Bees is not required.'
+Q 'enter' 'Into The Bumblezone' 'dim:the_bumblezone:the_bumblezone' 'start' 'xp:150;table:uncommon' -size 1.5 -icon 'minecraft:bee_nest' -desc 'Enter the hive dimension. The usual entrance is an Ender Pearl thrown at a Bee Nest or Beehive; follow the installed mod settings. Record your entrance and bring spare travel supplies.'
+Q 'compass' 'Find Your Way' 'the_bumblezone:honey_compass' 'enter' 'xp:75' -desc 'Use the Honey Compass and its tooltip to navigate. Keep important discoveries marked in JourneyMap.'
+Q 'crystal' 'Honey Crystals' 'the_bumblezone:honey_crystal' 'enter' 'xp:75' -desc 'Collect Honey Crystals. Check JEI for processing and their equipment uses.'
+Q 'shards' 'Crystal Shards' 'the_bumblezone:honey_crystal_shards' 'crystal' 'xp:50' -desc 'Keep shards for crafting and processing.'
+Q 'glistering' 'Glistering Honey Crystal' 'the_bumblezone:glistering_honey_crystal' 'crystal' 'xp:150;table:rare' -size 1.5 -desc 'A required ingredient of the GSPack Dimensional Core. Check JEI for the installed recipe.'
+Q 'bread' 'Bee Bread' 'the_bumblezone:bee_bread' 'enter' 'xp:50' -opt -desc 'Collect the local food and learn its effects before exploring deeper.'
+Q 'soup' 'Bee Soup' 'the_bumblezone:bee_soup' 'bread' 'xp:50' -opt -desc 'Another local food option for your expedition.'
+Q 'wax' 'Wax Architecture' 'the_bumblezone:carvable_wax' 'enter' 'xp:50' -opt -desc 'Collect wax and use its decorative variants in a hive-themed base.'
+Q 'cocoon' 'Honey Cocoon' 'the_bumblezone:honey_cocoon' 'enter' 'xp:75' -opt -desc 'Find and inspect the hive resources. Check JEI before processing useful discoveries.'
+Q 'queen' 'The Royal Court' 'check' 'compass,glistering' 'xp:150;table:rare' -icon 'the_bumblezone:royal_jelly_bottle' -desc 'Find the Bee Queen and read her interaction prompts. This is an interaction/trading milestone, not a request to attack her. Tick this after meeting her and testing an interaction.'
+Q 'royal_jelly' 'Royal Jelly' 'the_bumblezone:royal_jelly_bottle' 'queen' 'xp:100' -desc 'Acquire Royal Jelly through the sources shown in JEI and the queen interactions.'
+Q 'royal_block' 'Royal Jelly Block' 'the_bumblezone:royal_jelly_block' 'royal_jelly' 'xp:150' -desc 'Required by the Dimensional Core. Prepare the recipe quantity shown in JEI.'
+Q 'essence' 'Essence of the Bees' 'the_bumblezone:essence_of_the_bees' 'queen' 'xp:300;table:epic' -size 1.5 -shape 'hexagon' -desc 'Earn Essence of the Bees through The Bumblezone progression. This is the central Bumblezone component of the Dimensional Core.'
+foreach ($entry in @(@('calming','Calming'),@('continuity','Continuity'),@('knowing','Knowing'),@('life','Life'),@('radiance','Radiance'),@('raging','Raging'))) {
+    Q ('trial_'+$entry[0]) ($entry[1]+' Essence') ('the_bumblezone:essence_'+$entry[0]) 'essence' 'xp:150;table:rare' -opt -desc 'Complete the matching Bumblezone challenge and obtain its essence. Read the item tooltip and the challenge instructions; these are optional for the GSPack Dimensional Core.'
+}
+Q 'shield' 'Honey Crystal Shield' 'the_bumblezone:honey_crystal_shield' 'glistering' 'xp:100' -opt -desc 'Prepare hive-themed defensive equipment using the recipe shown in JEI.'
+Q 'cannon' 'Crystal Cannon' 'the_bumblezone:crystal_cannon' 'glistering' 'xp:100' -opt -desc 'A different way to use your crystals. Read the equipment tooltip before use.'
+Q 'briefcase' 'Buzzing Briefcase' 'the_bumblezone:buzzing_briefcase' 'queen' 'xp:100' -opt -desc 'Experiment with the Briefcase and its supported creatures.'
+Q 'core_materials' 'The Bumblezone Contribution' 'the_bumblezone:essence_of_the_bees;the_bumblezone:royal_jelly_block;the_bumblezone:glistering_honey_crystal' 'essence,royal_block,glistering' 'xp:300;table:epic' -size 1.5 -shape 'gear' -desc 'Your Bumblezone contribution to the Dimensional Core is ready. Continue in Cores: Dimensional Core, together with Aether II and Twilight Forest. This chapter adds no external chapter prerequisites.'

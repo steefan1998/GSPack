@@ -3,13 +3,13 @@
 
 ItemEvents.modifyTooltips(event => {
   const tips = {
-    'gspack:tech_core': ['Antimatter, AI and quantum processing in one.', 'Endgame component: Technology'],
-    'gspack:arcane_core': ['Void metal, red matter and godforged pearls.', 'Endgame component: Magic'],
+    'gspack:tech_core': ['FE multiblock: Crafting Core and 24 Pedestals.', '250,000,000 FE at 25,000 FE/t; see the Cores quests.', 'Mekanism, Oritech, Advanced AE, AE2 and Powah.'],
+    'gspack:arcane_core': ['Elite Crafting Table (7x7): six schools of magic.', 'Thaumaturge, Occultism, Equivox, Apotheosis, EvilCraft and Roots.'],
     'gspack:verdant_core': ['The essence of everything that grows.', 'Endgame component: Farming'],
-    'gspack:dimensional_core': ['Trophies and metals from far-away worlds.', 'Endgame component: Exploration'],
+    'gspack:dimensional_core': ['Elite Crafting Table: Bumblezone, Aether II and Twilight Forest.', 'Dimensional trophies, Essence of the Bees and sky metals.'],
     'gspack:cosmic_core': ['Forged from the bosses of the Moon.', 'Endgame component: Space'],
-    'gspack:creative_singularity': ['All five cores, collapsed into one point.', 'Used to craft creative items.'],
-    'gspack:infinity_trophy': ['Proof that you have mastered every corner of the pack.']
+    'gspack:creative_singularity': ['Powah Energizing: combine the five GSPack cores.', 'Consumes 1,000,000,000 FE and all five cores.', 'Energizing Rods supply power externally and are not consumed.'],
+    'gspack:infinity_trophy': ['Proof that you have mastered every corner of the pack.', 'Place in the world to display your achievement.']
   }
   Object.keys(tips).forEach(id => {
     tips[id].forEach(line => event.add(id, Text.gray(line)))

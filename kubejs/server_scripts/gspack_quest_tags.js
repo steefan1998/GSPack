@@ -12,13 +12,14 @@ const GSPACK_TAG_STAGES = [
   ['gspack_tag_c_ingots_nickel_8', '#c:ingots/nickel', 8],
   ['gspack_tag_c_raw_materials_platinum_4', '#c:raw_materials/platinum', 4],
   ['gspack_tag_c_ingots_electrum_8', '#c:ingots/electrum', 8],
+  ['gspack_tag_c_ingots_titanium_8', '#c:ingots/titanium', 8],
+  ['gspack_tag_c_ingots_silver_4', '#c:ingots/silver', 4],
+  ['gspack_tag_c_gems_fluorite_4', '#c:gems/fluorite', 4],
   ['gspack_tag_c_ingots_brass_8', '#c:ingots/brass', 8],
   ['gspack_tag_c_ingots_knightmetal_8', '#c:ingots/knightmetal', 8],
   ['gspack_tag_c_raw_materials_titanium_8', '#c:raw_materials/titanium', 8],
   ['gspack_tag_c_ingots_titanium_1', '#c:ingots/titanium', 1],
-  ['gspack_tag_c_ingots_titanium_8', '#c:ingots/titanium', 8],
-  ['gspack_tag_c_ingots_silver_4', '#c:ingots/silver', 4],
-  ['gspack_tag_c_gems_fluorite_4', '#c:gems/fluorite', 4],
+  ['gspack_tag_c_raw_materials_osmium_1', '#c:raw_materials/osmium', 1],
 ]
 
 PlayerEvents.inventoryChanged(event => {

@@ -1,5 +1,6 @@
 // GSPack: hides the duplicate materials that gspack_zz_unify.js replaces, so JEI shows one item per material.
-// Raw ores, raw blocks and gems stay visible: every mod's ores still generate and drop their own version.
+// Raw materials, raw blocks and gems stay visible. Disabled duplicate ore blocks are
+// handled separately by gspack_disabled_ores_hide.js; preferred and unique ores remain visible.
 // Keep the list in sync with startup_scripts/gspack_unify_table.js (both come from the same generated table).
 
 const GSPACK_UNIFY_HIDE = [

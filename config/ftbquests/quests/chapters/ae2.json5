@@ -1,24 +1,23 @@
 {
-  id: "51E24E671CE7E30E",
-  group: "105EE503AFE85CA5",
-  order_index: 1,
-  icon: {
-    id: "ae2:controller",
-    count: 1
+  "id": "51E24E671CE7E30E",
+  "group": "105EE503AFE85CA5",
+  "order_index": 5,
+  "icon": {
+    "id": "ae2:controller",
+    "count": 1
   },
-  filename: "ae2",
-  default_quest_shape: "",
-  default_hide_dependency_lines: false,
-  quests: [
+  "filename": "ae2",
+  "default_quest_shape": "",
+  "default_hide_dependency_lines": false,
+  "quests": [
     {
-      x: 3.6,
-      y: 0,
-      dependencies: [
+      "x": 3.6,
+      "y": 0,
+      "shape": "gear",
+      "dependencies": [
         "5DFF7365FFAC7652"
       ],
-      shape: "gear",
-      size: 1.3,
-      dep_control_pts: {
+      "dep_control_pts": {
         "5DFF7365FFAC7652": [
           1.8,
           0,
@@ -26,45 +25,44 @@
           0
         ]
       },
-      id: "77C8DB5AC6C4C1EF",
-      tasks: [
+      "size": 1.3,
+      "id": "77C8DB5AC6C4C1EF",
+      "tasks": [
         {
-          id: "3BA04776ACF8B666",
-          type: "item",
-          item: {
-            id: "ae2:certus_quartz_crystal",
-            count: 1
-          },
-          count: 1
+          "id": "3BA04776ACF8B666",
+          "type": "item",
+          "item": {
+            "id": "ae2:certus_quartz_crystal",
+            "count": 1
+          }
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "16279460258E09F1",
-          type: "xp",
-          xp: 75
+          "id": "16279460258E09F1",
+          "type": "xp",
+          "xp": 75
         },
         {
-          id: "44BA3DA935B16438",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 4224964620844649
+          "id": "44BA3DA935B16438",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 4224964620844649
         }
       ]
     },
     {
-      icon: {
-        id: "ae2:sky_stone_block",
-        count: 1
+      "icon": {
+        "id": "ae2:sky_stone_block",
+        "count": 1
       },
-      x: 1.8,
-      y: 0,
-      dependencies: [
+      "x": 1.8,
+      "y": 0,
+      "shape": "circle",
+      "dependencies": [
         "32C08C873EFF4D8A"
       ],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {
+      "dep_control_pts": {
         "32C08C873EFF4D8A": [
           0,
           0,
@@ -72,39 +70,38 @@
           0
         ]
       },
-      id: "5DFF7365FFAC7652",
-      tasks: [
+      "size": 1,
+      "id": "5DFF7365FFAC7652",
+      "tasks": [
         {
-          id: "196716B6158FB74D",
-          type: "structure",
-          structure: "ae2:meteorite"
+          "id": "196716B6158FB74D",
+          "type": "structure",
+          "structure": "ae2:meteorite"
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "024367FC5390A210",
-          type: "xp",
-          xp: 100
+          "id": "024367FC5390A210",
+          "type": "xp",
+          "xp": 100
         },
         {
-          id: "6F3FDB46BB607A88",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 2612120196957929
+          "id": "6F3FDB46BB607A88",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2612120196957929
         }
       ]
     },
     {
-      optional: true,
-      x: 13.4,
-      y: 3.2,
-      dependencies: [
+      "x": 13.4,
+      "y": 3.2,
+      "shape": "diamond",
+      "hide_dependency_lines": true,
+      "dependencies": [
         "77C8DB5AC6C4C1EF"
       ],
-      hide_dependency_lines: true,
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {
+      "dep_control_pts": {
         "77C8DB5AC6C4C1EF": [
           3.6,
           0,
@@ -112,35 +109,36 @@
           3.2
         ]
       },
-      id: "35F821B5CF20B34C",
-      tasks: [
+      "size": 1,
+      "optional": true,
+      "id": "35F821B5CF20B34C",
+      "tasks": [
         {
-          id: "5F161D5B3D4A37FC",
-          type: "item",
-          item: {
-            id: "ae2:meteorite_compass",
-            count: 1
+          "id": "5F161D5B3D4A37FC",
+          "type": "item",
+          "item": {
+            "id": "ae2:meteorite_compass",
+            "count": 1
           }
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "716F95111647ADED",
-          type: "xp",
-          xp: 25
+          "id": "716F95111647ADED",
+          "type": "xp",
+          "xp": 25
         }
       ]
     },
     {
-      x: 0,
-      y: 3.2,
-      dependencies: [
+      "x": 0,
+      "y": 3.2,
+      "shape": "circle",
+      "hide_dependency_lines": true,
+      "dependencies": [
         "5DFF7365FFAC7652"
       ],
-      hide_dependency_lines: true,
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {
+      "dep_control_pts": {
         "5DFF7365FFAC7652": [
           1.8,
           0,
@@ -148,36 +146,36 @@
           3.2
         ]
       },
-      id: "014820B6FA99E2F3",
-      tasks: [
+      "size": 1,
+      "id": "014820B6FA99E2F3",
+      "tasks": [
         {
-          id: "27680DD593D0C7C7",
-          type: "item",
-          item: {
-            id: "ae2:sky_stone_block",
-            count: 1
+          "id": "27680DD593D0C7C7",
+          "type": "item",
+          "item": {
+            "id": "ae2:sky_stone_block",
+            "count": 1
           },
-          count: 32
+          "count": 32
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "2E68710227E629A4",
-          type: "xp",
-          xp: 50
+          "id": "2E68710227E629A4",
+          "type": "xp",
+          "xp": 50
         }
       ]
     },
     {
-      x: 1.8,
-      y: 3.2,
-      dependencies: [
+      "x": 1.8,
+      "y": 3.2,
+      "shape": "circle",
+      "hide_dependency_lines": true,
+      "dependencies": [
         "77C8DB5AC6C4C1EF"
       ],
-      hide_dependency_lines: true,
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {
+      "dep_control_pts": {
         "77C8DB5AC6C4C1EF": [
           3.6,
           0,
@@ -185,34 +183,34 @@
           3.2
         ]
       },
-      id: "4A4F893F16E66A2D",
-      tasks: [
+      "size": 1,
+      "id": "4A4F893F16E66A2D",
+      "tasks": [
         {
-          id: "43D9E15F00CA46DF",
-          type: "item",
-          item: {
-            id: "ae2:flawed_budding_quartz",
-            count: 1
+          "id": "43D9E15F00CA46DF",
+          "type": "item",
+          "item": {
+            "id": "ae2:flawed_budding_quartz",
+            "count": 1
           }
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "71EAE48877995B2B",
-          type: "xp",
-          xp: 75
+          "id": "71EAE48877995B2B",
+          "type": "xp",
+          "xp": 75
         }
       ]
     },
     {
-      x: 2.7,
-      y: 6.8,
-      dependencies: [
+      "x": 2.7,
+      "y": 6.8,
+      "shape": "circle",
+      "dependencies": [
         "4A4F893F16E66A2D"
       ],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {
+      "dep_control_pts": {
         "4A4F893F16E66A2D": [
           1.8,
           3.2,
@@ -220,35 +218,35 @@
           6.8
         ]
       },
-      id: "2DBA7B405F9F9DCF",
-      tasks: [
+      "size": 1,
+      "id": "2DBA7B405F9F9DCF",
+      "tasks": [
         {
-          id: "35BC23D78C0FBE65",
-          type: "item",
-          item: {
-            id: "ae2:growth_accelerator",
-            count: 1
+          "id": "35BC23D78C0FBE65",
+          "type": "item",
+          "item": {
+            "id": "ae2:growth_accelerator",
+            "count": 1
           },
-          count: 2
+          "count": 2
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "39BCD436F1A36155",
-          type: "xp",
-          xp: 100
+          "id": "39BCD436F1A36155",
+          "type": "xp",
+          "xp": 100
         }
       ]
     },
     {
-      x: 5.4,
-      y: 0,
-      dependencies: [
+      "x": 5.4,
+      "y": 0,
+      "shape": "circle",
+      "dependencies": [
         "77C8DB5AC6C4C1EF"
       ],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {
+      "dep_control_pts": {
         "77C8DB5AC6C4C1EF": [
           3.6,
           0,
@@ -256,42 +254,42 @@
           0
         ]
       },
-      id: "732B0B16A71B5086",
-      tasks: [
+      "size": 1,
+      "id": "732B0B16A71B5086",
+      "tasks": [
         {
-          id: "2CF675E6E76F188A",
-          type: "item",
-          item: {
-            id: "ae2:charger",
-            count: 1
+          "id": "2CF675E6E76F188A",
+          "type": "item",
+          "item": {
+            "id": "ae2:charger",
+            "count": 1
           }
         },
         {
-          id: "048F65037B4E93D4",
-          type: "item",
-          item: {
-            id: "ae2:crank",
-            count: 1
+          "id": "048F65037B4E93D4",
+          "type": "item",
+          "item": {
+            "id": "ae2:crank",
+            "count": 1
           }
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "5176123BF950C92F",
-          type: "xp",
-          xp: 50
+          "id": "5176123BF950C92F",
+          "type": "xp",
+          "xp": 50
         }
       ]
     },
     {
-      x: 7.2,
-      y: 0,
-      dependencies: [
+      "x": 7.2,
+      "y": 0,
+      "shape": "circle",
+      "dependencies": [
         "732B0B16A71B5086"
       ],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {
+      "dep_control_pts": {
         "732B0B16A71B5086": [
           5.4,
           0,
@@ -299,35 +297,35 @@
           0
         ]
       },
-      id: "32348528C0CF1C3B",
-      tasks: [
+      "size": 1,
+      "id": "32348528C0CF1C3B",
+      "tasks": [
         {
-          id: "77F42DF9C8B75919",
-          type: "item",
-          item: {
-            id: "ae2:charged_certus_quartz_crystal",
-            count: 1
+          "id": "77F42DF9C8B75919",
+          "type": "item",
+          "item": {
+            "id": "ae2:charged_certus_quartz_crystal",
+            "count": 1
           },
-          count: 8
+          "count": 8
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "199333E98D694AD3",
-          type: "xp",
-          xp: 50
+          "id": "199333E98D694AD3",
+          "type": "xp",
+          "xp": 50
         }
       ]
     },
     {
-      x: 9,
-      y: 0,
-      dependencies: [
+      "x": 9,
+      "y": 0,
+      "shape": "circle",
+      "dependencies": [
         "32348528C0CF1C3B"
       ],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {
+      "dep_control_pts": {
         "32348528C0CF1C3B": [
           7.2,
           0,
@@ -335,43 +333,41 @@
           0
         ]
       },
-      id: "6081472C7E729951",
-      tasks: [
+      "size": 1,
+      "id": "6081472C7E729951",
+      "tasks": [
         {
-          id: "415F167EA095A454",
-          type: "item",
-          item: {
-            id: "ae2:fluix_crystal",
-            count: 1
-          },
-          count: 1
+          "id": "415F167EA095A454",
+          "type": "item",
+          "item": {
+            "id": "ae2:fluix_crystal",
+            "count": 1
+          }
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "50C261E411F7D049",
-          type: "xp",
-          xp: 75
+          "id": "50C261E411F7D049",
+          "type": "xp",
+          "xp": 75
         },
         {
-          id: "27066557BF94CD33",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 2612120196957929
+          "id": "27066557BF94CD33",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2612120196957929
         }
       ]
     },
     {
-      optional: true,
-      x: 13.4,
-      y: 5,
-      dependencies: [
+      "x": 13.4,
+      "y": 5,
+      "shape": "diamond",
+      "hide_dependency_lines": true,
+      "dependencies": [
         "6081472C7E729951"
       ],
-      hide_dependency_lines: true,
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {
+      "dep_control_pts": {
         "6081472C7E729951": [
           9,
           0,
@@ -379,36 +375,36 @@
           5
         ]
       },
-      id: "3BB984342977089F",
-      tasks: [
+      "size": 1,
+      "optional": true,
+      "id": "3BB984342977089F",
+      "tasks": [
         {
-          id: "70491619DD9217A9",
-          type: "item",
-          item: {
-            id: "ae2:fluix_pickaxe",
-            count: 1
+          "id": "70491619DD9217A9",
+          "type": "item",
+          "item": {
+            "id": "ae2:fluix_pickaxe",
+            "count": 1
           }
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "539740741D80059B",
-          type: "xp",
-          xp: 25
+          "id": "539740741D80059B",
+          "type": "xp",
+          "xp": 25
         }
       ]
     },
     {
-      optional: true,
-      x: 13.4,
-      y: 6.8,
-      dependencies: [
+      "x": 13.4,
+      "y": 6.8,
+      "shape": "diamond",
+      "hide_dependency_lines": true,
+      "dependencies": [
         "77C8DB5AC6C4C1EF"
       ],
-      hide_dependency_lines: true,
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {
+      "dep_control_pts": {
         "77C8DB5AC6C4C1EF": [
           3.6,
           0,
@@ -416,36 +412,36 @@
           6.8
         ]
       },
-      id: "0648539C34551F43",
-      tasks: [
+      "size": 1,
+      "optional": true,
+      "id": "0648539C34551F43",
+      "tasks": [
         {
-          id: "30ECF2B00CE1F023",
-          type: "item",
-          item: {
-            id: "ae2:certus_quartz_cutting_knife",
-            count: 1
+          "id": "30ECF2B00CE1F023",
+          "type": "item",
+          "item": {
+            "id": "ae2:certus_quartz_cutting_knife",
+            "count": 1
           }
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "78FD42E26536AA25",
-          type: "xp",
-          xp: 25
+          "id": "78FD42E26536AA25",
+          "type": "xp",
+          "xp": 25
         }
       ]
     },
     {
-      optional: true,
-      x: 13.4,
-      y: 8.6,
-      dependencies: [
+      "x": 13.4,
+      "y": 8.6,
+      "shape": "diamond",
+      "hide_dependency_lines": true,
+      "dependencies": [
         "77C8DB5AC6C4C1EF"
       ],
-      hide_dependency_lines: true,
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {
+      "dep_control_pts": {
         "77C8DB5AC6C4C1EF": [
           3.6,
           0,
@@ -453,35 +449,36 @@
           8.6
         ]
       },
-      id: "3E19DD13B4769306",
-      tasks: [
+      "size": 1,
+      "optional": true,
+      "id": "3E19DD13B4769306",
+      "tasks": [
         {
-          id: "7BD3AA7A492B4BDD",
-          type: "item",
-          item: {
-            id: "ae2:certus_quartz_wrench",
-            count: 1
+          "id": "7BD3AA7A492B4BDD",
+          "type": "item",
+          "item": {
+            "id": "ae2:certus_quartz_wrench",
+            "count": 1
           }
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "0F6638CB4BBBEFA3",
-          type: "xp",
-          xp: 25
+          "id": "0F6638CB4BBBEFA3",
+          "type": "xp",
+          "xp": 25
         }
       ]
     },
     {
-      x: 3.6,
-      y: 3.2,
-      dependencies: [
+      "x": 3.6,
+      "y": 3.2,
+      "shape": "circle",
+      "hide_dependency_lines": true,
+      "dependencies": [
         "5DFF7365FFAC7652"
       ],
-      hide_dependency_lines: true,
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {
+      "dep_control_pts": {
         "5DFF7365FFAC7652": [
           1.8,
           0,
@@ -489,89 +486,89 @@
           3.2
         ]
       },
-      id: "78CE003A3EB19363",
-      tasks: [
+      "size": 1,
+      "id": "78CE003A3EB19363",
+      "tasks": [
         {
-          id: "0A5A264735A66E75",
-          type: "item",
-          item: {
-            id: "ae2:calculation_processor_press",
-            count: 1
+          "id": "0A5A264735A66E75",
+          "type": "item",
+          "item": {
+            "id": "ae2:calculation_processor_press",
+            "count": 1
           }
         },
         {
-          id: "7C93002DD32CAA7C",
-          type: "item",
-          item: {
-            id: "ae2:engineering_processor_press",
-            count: 1
+          "id": "7C93002DD32CAA7C",
+          "type": "item",
+          "item": {
+            "id": "ae2:engineering_processor_press",
+            "count": 1
           }
         },
         {
-          id: "3AB7CA27355EB0F2",
-          type: "item",
-          item: {
-            id: "ae2:logic_processor_press",
-            count: 1
+          "id": "3AB7CA27355EB0F2",
+          "type": "item",
+          "item": {
+            "id": "ae2:logic_processor_press",
+            "count": 1
           }
         },
         {
-          id: "7427F82573C97E3E",
-          type: "item",
-          item: {
-            id: "ae2:silicon_press",
-            count: 1
+          "id": "7427F82573C97E3E",
+          "type": "item",
+          "item": {
+            "id": "ae2:silicon_press",
+            "count": 1
           }
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "23D72DA2F7FF0067",
-          type: "xp",
-          xp: 150
+          "id": "23D72DA2F7FF0067",
+          "type": "xp",
+          "xp": 150
         },
         {
-          id: "342C347787A58FFD",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 2612120196957929
+          "id": "342C347787A58FFD",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2612120196957929
         }
       ]
     },
     {
-      x: 0,
-      y: 0,
-      shape: "gear",
-      size: 1.3,
-      id: "32C08C873EFF4D8A",
-      tasks: [
+      "x": 0,
+      "y": 0,
+      "shape": "gear",
+      "size": 1.3,
+      "id": "32C08C873EFF4D8A",
+      "tasks": [
         {
-          id: "777D8AA80B5B7A41",
-          type: "item",
-          item: {
-            id: "ae2:inscriber",
-            count: 1
+          "id": "777D8AA80B5B7A41",
+          "type": "item",
+          "item": {
+            "id": "ae2:inscriber",
+            "count": 1
           }
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "223C8F1590D3FDE4",
-          type: "xp",
-          xp: 100
+          "id": "223C8F1590D3FDE4",
+          "type": "xp",
+          "xp": 100
         }
       ]
     },
     {
-      x: 5.4,
-      y: 3.2,
-      dependencies: [
+      "x": 5.4,
+      "y": 3.2,
+      "shape": "circle",
+      "hide_dependency_lines": true,
+      "dependencies": [
         "32C08C873EFF4D8A"
       ],
-      hide_dependency_lines: true,
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {
+      "dep_control_pts": {
         "32C08C873EFF4D8A": [
           0,
           0,
@@ -579,46 +576,45 @@
           3.2
         ]
       },
-      id: "680F8C34195B4A90",
-      tasks: [
+      "size": 1,
+      "id": "680F8C34195B4A90",
+      "tasks": [
         {
-          id: "4EBF72911281823B",
-          type: "gamestage",
-          stage: "gspack_tag_c_silicon_1",
-          team_stage: false,
-          icon: {
-            count: 1,
-            id: "ae2:silicon"
-          }
+          "id": "4EBF72911281823B",
+          "type": "gamestage",
+          "icon": {
+            "id": "ae2:silicon",
+            "count": 1
+          },
+          "stage": "gspack_tag_c_silicon_1"
         },
         {
-          id: "6E8031ECE0906BC2",
-          type: "item",
-          item: {
-            count: 1,
-            id: "ae2:printed_silicon"
+          "id": "6E8031ECE0906BC2",
+          "type": "item",
+          "item": {
+            "id": "ae2:printed_silicon",
+            "count": 1
           },
-          count: 4
+          "count": 4
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "5577FC8D92E6C6D9",
-          type: "xp",
-          xp: 75
+          "id": "5577FC8D92E6C6D9",
+          "type": "xp",
+          "xp": 75
         }
       ]
     },
     {
-      x: 1.8,
-      y: 5,
-      dependencies: [
+      "x": 1.8,
+      "y": 5,
+      "shape": "circle",
+      "hide_dependency_lines": true,
+      "dependencies": [
         "32C08C873EFF4D8A"
       ],
-      hide_dependency_lines: true,
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {
+      "dep_control_pts": {
         "32C08C873EFF4D8A": [
           0,
           0,
@@ -626,54 +622,54 @@
           5
         ]
       },
-      id: "5F83D571EF6D998E",
-      tasks: [
+      "size": 1,
+      "id": "5F83D571EF6D998E",
+      "tasks": [
         {
-          id: "0353E4630C747EA2",
-          type: "item",
-          item: {
-            id: "ae2:printed_logic_processor",
-            count: 1
+          "id": "0353E4630C747EA2",
+          "type": "item",
+          "item": {
+            "id": "ae2:printed_logic_processor",
+            "count": 1
           },
-          count: 4
+          "count": 4
         },
         {
-          id: "781551383730840D",
-          type: "item",
-          item: {
-            id: "ae2:printed_calculation_processor",
-            count: 1
+          "id": "781551383730840D",
+          "type": "item",
+          "item": {
+            "id": "ae2:printed_calculation_processor",
+            "count": 1
           },
-          count: 4
+          "count": 4
         },
         {
-          id: "079D5AD025FFFA66",
-          type: "item",
-          item: {
-            id: "ae2:printed_engineering_processor",
-            count: 1
+          "id": "079D5AD025FFFA66",
+          "type": "item",
+          "item": {
+            "id": "ae2:printed_engineering_processor",
+            "count": 1
           },
-          count: 4
+          "count": 4
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "37603D55CC8BEBC1",
-          type: "xp",
-          xp: 75
+          "id": "37603D55CC8BEBC1",
+          "type": "xp",
+          "xp": 75
         }
       ]
     },
     {
-      x: 3.6,
-      y: 5,
-      dependencies: [
+      "x": 3.6,
+      "y": 5,
+      "shape": "gear",
+      "hide_dependency_lines": true,
+      "dependencies": [
         "32C08C873EFF4D8A"
       ],
-      hide_dependency_lines: true,
-      shape: "gear",
-      size: 1.3,
-      dep_control_pts: {
+      "dep_control_pts": {
         "32C08C873EFF4D8A": [
           0,
           0,
@@ -681,59 +677,59 @@
           5
         ]
       },
-      id: "2D3ABE72931F1F61",
-      tasks: [
+      "size": 1.3,
+      "id": "2D3ABE72931F1F61",
+      "tasks": [
         {
-          id: "2AF5ACF4751F9B36",
-          type: "item",
-          item: {
-            id: "ae2:logic_processor",
-            count: 1
+          "id": "2AF5ACF4751F9B36",
+          "type": "item",
+          "item": {
+            "id": "ae2:logic_processor",
+            "count": 1
           },
-          count: 8
+          "count": 8
         },
         {
-          id: "6AA021DF1958BA2D",
-          type: "item",
-          item: {
-            id: "ae2:calculation_processor",
-            count: 1
+          "id": "6AA021DF1958BA2D",
+          "type": "item",
+          "item": {
+            "id": "ae2:calculation_processor",
+            "count": 1
           },
-          count: 8
+          "count": 8
         },
         {
-          id: "36ACBE88FCFE285C",
-          type: "item",
-          item: {
-            id: "ae2:engineering_processor",
-            count: 1
+          "id": "36ACBE88FCFE285C",
+          "type": "item",
+          "item": {
+            "id": "ae2:engineering_processor",
+            "count": 1
           },
-          count: 8
+          "count": 8
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "166B76A1465A248C",
-          type: "xp",
-          xp: 200
+          "id": "166B76A1465A248C",
+          "type": "xp",
+          "xp": 200
         },
         {
-          id: "2027799131013226",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 253752461985528
+          "id": "2027799131013226",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 253752461985528
         }
       ]
     },
     {
-      x: 10.8,
-      y: 0,
-      dependencies: [
+      "x": 10.8,
+      "y": 0,
+      "shape": "circle",
+      "dependencies": [
         "6081472C7E729951"
       ],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {
+      "dep_control_pts": {
         "6081472C7E729951": [
           9,
           0,
@@ -741,36 +737,36 @@
           0
         ]
       },
-      id: "61C7B199AAAA6D35",
-      tasks: [
+      "size": 1,
+      "id": "61C7B199AAAA6D35",
+      "tasks": [
         {
-          id: "6DC2D1C33DD6C568",
-          type: "item",
-          item: {
-            id: "ae2:fluix_glass_cable",
-            count: 1
+          "id": "6DC2D1C33DD6C568",
+          "type": "item",
+          "item": {
+            "id": "ae2:fluix_glass_cable",
+            "count": 1
           },
-          count: 32
+          "count": 32
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "5BCB4B5BE486A2D0",
-          type: "xp",
-          xp: 25
+          "id": "5BCB4B5BE486A2D0",
+          "type": "xp",
+          "xp": 25
         }
       ]
     },
     {
-      x: 15.2,
-      y: 5.9,
-      dependencies: [
+      "x": 15.2,
+      "y": 5.9,
+      "shape": "circle",
+      "hide_dependency_lines": true,
+      "dependencies": [
         "61C7B199AAAA6D35"
       ],
-      hide_dependency_lines: true,
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {
+      "dep_control_pts": {
         "61C7B199AAAA6D35": [
           10.8,
           0,
@@ -778,35 +774,34 @@
           5.9
         ]
       },
-      id: "0AAC6691D69FD904",
-      tasks: [
+      "size": 1,
+      "id": "0AAC6691D69FD904",
+      "tasks": [
         {
-          id: "7EA6D7FD98132A5D",
-          type: "item",
-          item: {
-            id: "ae2:fluix_smart_cable",
-            count: 1
-          },
-          count: 1
+          "id": "7EA6D7FD98132A5D",
+          "type": "item",
+          "item": {
+            "id": "ae2:fluix_smart_cable",
+            "count": 1
+          }
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "5E6D6F995FCC9ABD",
-          type: "xp",
-          xp: 25
+          "id": "5E6D6F995FCC9ABD",
+          "type": "xp",
+          "xp": 25
         }
       ]
     },
     {
-      x: 17,
-      y: 5.9,
-      dependencies: [
+      "x": 17,
+      "y": 5.9,
+      "shape": "circle",
+      "dependencies": [
         "0AAC6691D69FD904"
       ],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {
+      "dep_control_pts": {
         "0AAC6691D69FD904": [
           15.2,
           5.9,
@@ -814,35 +809,35 @@
           5.9
         ]
       },
-      id: "0EB9335F990424F0",
-      tasks: [
+      "size": 1,
+      "id": "0EB9335F990424F0",
+      "tasks": [
         {
-          id: "653D661355C55EA3",
-          type: "item",
-          item: {
-            id: "ae2:fluix_smart_dense_cable",
-            count: 1
+          "id": "653D661355C55EA3",
+          "type": "item",
+          "item": {
+            "id": "ae2:fluix_smart_dense_cable",
+            "count": 1
           },
-          count: 8
+          "count": 8
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "5A564E85CBD7ADA3",
-          type: "xp",
-          xp: 75
+          "id": "5A564E85CBD7ADA3",
+          "type": "xp",
+          "xp": 75
         }
       ]
     },
     {
-      x: 12.6,
-      y: 0,
-      dependencies: [
+      "x": 12.6,
+      "y": 0,
+      "shape": "gear",
+      "dependencies": [
         "61C7B199AAAA6D35"
       ],
-      shape: "gear",
-      size: 1.3,
-      dep_control_pts: {
+      "dep_control_pts": {
         "61C7B199AAAA6D35": [
           10.8,
           0,
@@ -850,48 +845,48 @@
           0
         ]
       },
-      id: "712ACDB93B851213",
-      tasks: [
+      "size": 1.3,
+      "id": "712ACDB93B851213",
+      "tasks": [
         {
-          id: "0504FD6245D2DEAF",
-          type: "item",
-          item: {
-            id: "ae2:controller",
-            count: 1
+          "id": "0504FD6245D2DEAF",
+          "type": "item",
+          "item": {
+            "id": "ae2:controller",
+            "count": 1
           }
         },
         {
-          id: "3C4B62B24E7C0FA0",
-          type: "item",
-          item: {
-            id: "ae2:energy_acceptor",
-            count: 1
+          "id": "3C4B62B24E7C0FA0",
+          "type": "item",
+          "item": {
+            "id": "ae2:energy_acceptor",
+            "count": 1
           }
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "20DB734753EF1946",
-          type: "xp",
-          xp: 250
+          "id": "20DB734753EF1946",
+          "type": "xp",
+          "xp": 250
         },
         {
-          id: "1FA994BBEB33BCE9",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 253752461985528
+          "id": "1FA994BBEB33BCE9",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 253752461985528
         }
       ]
     },
     {
-      x: 14.4,
-      y: 0,
-      dependencies: [
+      "x": 14.4,
+      "y": 0,
+      "shape": "circle",
+      "dependencies": [
         "712ACDB93B851213"
       ],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {
+      "dep_control_pts": {
         "712ACDB93B851213": [
           12.6,
           0,
@@ -899,41 +894,40 @@
           0
         ]
       },
-      id: "59FE974BB8E9A846",
-      tasks: [
+      "size": 1,
+      "id": "59FE974BB8E9A846",
+      "tasks": [
         {
-          id: "210294188EF75B1C",
-          type: "item",
-          item: {
-            id: "ae2:energy_cell",
-            count: 1
+          "id": "210294188EF75B1C",
+          "type": "item",
+          "item": {
+            "id": "ae2:energy_cell",
+            "count": 1
           }
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "3744A0E37206DF79",
-          type: "xp",
-          xp: 50
+          "id": "3744A0E37206DF79",
+          "type": "xp",
+          "xp": 50
         }
       ]
     },
     {
-      icon: {
-        id: "ae2:fluix_smart_dense_cable",
-        count: 1
+      "icon": {
+        "id": "ae2:fluix_smart_dense_cable",
+        "count": 1
       },
-      optional: true,
-      x: 18.8,
-      y: 5.9,
-      dependencies: [
+      "x": 18.8,
+      "y": 5.9,
+      "shape": "diamond",
+      "hide_dependency_lines": true,
+      "dependencies": [
         "712ACDB93B851213",
         "0EB9335F990424F0"
       ],
-      hide_dependency_lines: true,
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {
+      "dep_control_pts": {
         "712ACDB93B851213": [
           12.6,
           0,
@@ -947,31 +941,32 @@
           5.9
         ]
       },
-      id: "74755E618C84970D",
-      tasks: [
+      "size": 1,
+      "optional": true,
+      "id": "74755E618C84970D",
+      "tasks": [
         {
-          id: "678A86D503465BAC",
-          type: "checkmark"
+          "id": "678A86D503465BAC",
+          "type": "checkmark"
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "3F295516B98EA087",
-          type: "xp",
-          xp: 50
+          "id": "3F295516B98EA087",
+          "type": "xp",
+          "xp": 50
         }
       ]
     },
     {
-      x: 0,
-      y: 14.5,
-      dependencies: [
+      "x": 0,
+      "y": 14.5,
+      "shape": "circle",
+      "hide_dependency_lines": true,
+      "dependencies": [
         "712ACDB93B851213"
       ],
-      hide_dependency_lines: true,
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {
+      "dep_control_pts": {
         "712ACDB93B851213": [
           12.6,
           0,
@@ -979,34 +974,34 @@
           14.5
         ]
       },
-      id: "6484448D54D8BEF5",
-      tasks: [
+      "size": 1,
+      "id": "6484448D54D8BEF5",
+      "tasks": [
         {
-          id: "0C2B8F35D2F6CB62",
-          type: "item",
-          item: {
-            id: "ae2:drive",
-            count: 1
+          "id": "0C2B8F35D2F6CB62",
+          "type": "item",
+          "item": {
+            "id": "ae2:drive",
+            "count": 1
           }
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "5B76CA9A4DA42F17",
-          type: "xp",
-          xp: 100
+          "id": "5B76CA9A4DA42F17",
+          "type": "xp",
+          "xp": 100
         }
       ]
     },
     {
-      x: 1.8,
-      y: 14.5,
-      dependencies: [
+      "x": 1.8,
+      "y": 14.5,
+      "shape": "circle",
+      "dependencies": [
         "6484448D54D8BEF5"
       ],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {
+      "dep_control_pts": {
         "6484448D54D8BEF5": [
           0,
           14.5,
@@ -1014,36 +1009,35 @@
           14.5
         ]
       },
-      id: "2A2390FE4DD4843F",
-      tasks: [
+      "size": 1,
+      "id": "2A2390FE4DD4843F",
+      "tasks": [
         {
-          id: "491CD3308FE4331C",
-          type: "item",
-          item: {
-            id: "ae2:item_storage_cell_1k",
-            count: 1
+          "id": "491CD3308FE4331C",
+          "type": "item",
+          "item": {
+            "id": "ae2:item_storage_cell_1k",
+            "count": 1
           },
-          count: 2
+          "count": 2
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "73C0EDE8D79F8E11",
-          type: "xp",
-          xp: 100
+          "id": "73C0EDE8D79F8E11",
+          "type": "xp",
+          "xp": 100
         }
       ]
     },
     {
-      optional: true,
-      x: 3.6,
-      y: 11.8,
-      dependencies: [
+      "x": 3.6,
+      "y": 11.8,
+      "shape": "diamond",
+      "dependencies": [
         "2A2390FE4DD4843F"
       ],
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {
+      "dep_control_pts": {
         "2A2390FE4DD4843F": [
           1.8,
           14.5,
@@ -1051,34 +1045,35 @@
           11.8
         ]
       },
-      id: "4E549DE8B37D0AB8",
-      tasks: [
+      "size": 1,
+      "optional": true,
+      "id": "4E549DE8B37D0AB8",
+      "tasks": [
         {
-          id: "247296F2DAD26A15",
-          type: "item",
-          item: {
-            id: "ae2:cell_workbench",
-            count: 1
+          "id": "247296F2DAD26A15",
+          "type": "item",
+          "item": {
+            "id": "ae2:cell_workbench",
+            "count": 1
           }
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "2AEC1BB335285725",
-          type: "xp",
-          xp: 50
+          "id": "2AEC1BB335285725",
+          "type": "xp",
+          "xp": 50
         }
       ]
     },
     {
-      x: 3.6,
-      y: 13.6,
-      dependencies: [
+      "x": 3.6,
+      "y": 13.6,
+      "shape": "circle",
+      "dependencies": [
         "2A2390FE4DD4843F"
       ],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {
+      "dep_control_pts": {
         "2A2390FE4DD4843F": [
           1.8,
           14.5,
@@ -1086,56 +1081,56 @@
           13.6
         ]
       },
-      id: "4108F5E7AE39F44D",
-      tasks: [
+      "size": 1,
+      "id": "4108F5E7AE39F44D",
+      "tasks": [
         {
-          id: "49A69167CE0D2509",
-          type: "item",
-          item: {
-            id: "ae2:item_storage_cell_4k",
-            count: 1
+          "id": "49A69167CE0D2509",
+          "type": "item",
+          "item": {
+            "id": "ae2:item_storage_cell_4k",
+            "count": 1
           }
         },
         {
-          id: "0EA6AE9F5125E881",
-          type: "item",
-          item: {
-            id: "ae2:item_storage_cell_16k",
-            count: 1
+          "id": "0EA6AE9F5125E881",
+          "type": "item",
+          "item": {
+            "id": "ae2:item_storage_cell_16k",
+            "count": 1
           }
         },
         {
-          id: "5C0F76DEE554E108",
-          type: "item",
-          item: {
-            id: "ae2:item_storage_cell_64k",
-            count: 1
+          "id": "5C0F76DEE554E108",
+          "type": "item",
+          "item": {
+            "id": "ae2:item_storage_cell_64k",
+            "count": 1
           }
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "7703FC5C0E42C0C1",
-          type: "xp",
-          xp: 250
+          "id": "7703FC5C0E42C0C1",
+          "type": "xp",
+          "xp": 250
         },
         {
-          id: "51E51D344D0FDBAF",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 2210856162803377
+          "id": "51E51D344D0FDBAF",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2210856162803377
         }
       ]
     },
     {
-      x: 7.2,
-      y: 13.6,
-      dependencies: [
+      "x": 7.2,
+      "y": 13.6,
+      "shape": "circle",
+      "dependencies": [
         "4108F5E7AE39F44D"
       ],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {
+      "dep_control_pts": {
         "4108F5E7AE39F44D": [
           3.6,
           13.6,
@@ -1143,41 +1138,41 @@
           13.6
         ]
       },
-      id: "5E04DAC5C4D91017",
-      tasks: [
+      "size": 1,
+      "id": "5E04DAC5C4D91017",
+      "tasks": [
         {
-          id: "795D33AFF28F748C",
-          type: "item",
-          item: {
-            id: "ae2:item_storage_cell_256k",
-            count: 1
+          "id": "795D33AFF28F748C",
+          "type": "item",
+          "item": {
+            "id": "ae2:item_storage_cell_256k",
+            "count": 1
           },
-          count: 2
+          "count": 2
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "721FEB1823E35423",
-          type: "xp",
-          xp: 400
+          "id": "721FEB1823E35423",
+          "type": "xp",
+          "xp": 400
         },
         {
-          id: "3980730DC29E7885",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 379532711335085
+          "id": "3980730DC29E7885",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 379532711335085
         }
       ]
     },
     {
-      x: 3.6,
-      y: 15.4,
-      dependencies: [
+      "x": 3.6,
+      "y": 15.4,
+      "shape": "circle",
+      "dependencies": [
         "2A2390FE4DD4843F"
       ],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {
+      "dep_control_pts": {
         "2A2390FE4DD4843F": [
           1.8,
           14.5,
@@ -1185,35 +1180,34 @@
           15.4
         ]
       },
-      id: "6DE98D174383418D",
-      tasks: [
+      "size": 1,
+      "id": "6DE98D174383418D",
+      "tasks": [
         {
-          id: "3EEE323348E9DDBD",
-          type: "item",
-          item: {
-            id: "ae2:fluid_storage_cell_4k",
-            count: 1
+          "id": "3EEE323348E9DDBD",
+          "type": "item",
+          "item": {
+            "id": "ae2:fluid_storage_cell_4k",
+            "count": 1
           }
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "75350AB7EE89B545",
-          type: "xp",
-          xp: 75
+          "id": "75350AB7EE89B545",
+          "type": "xp",
+          "xp": 75
         }
       ]
     },
     {
-      optional: true,
-      x: 3.6,
-      y: 17.2,
-      dependencies: [
+      "x": 3.6,
+      "y": 17.2,
+      "shape": "diamond",
+      "dependencies": [
         "2A2390FE4DD4843F"
       ],
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {
+      "dep_control_pts": {
         "2A2390FE4DD4843F": [
           1.8,
           14.5,
@@ -1221,35 +1215,35 @@
           17.2
         ]
       },
-      id: "3FCDEDC469AB4497",
-      tasks: [
+      "size": 1,
+      "optional": true,
+      "id": "3FCDEDC469AB4497",
+      "tasks": [
         {
-          id: "1698A586BFEFE49B",
-          type: "item",
-          item: {
-            id: "ae2:portable_item_cell_1k",
-            count: 1
+          "id": "1698A586BFEFE49B",
+          "type": "item",
+          "item": {
+            "id": "ae2:portable_item_cell_1k",
+            "count": 1
           }
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "2722A9755719957D",
-          type: "xp",
-          xp: 50
+          "id": "2722A9755719957D",
+          "type": "xp",
+          "xp": 50
         }
       ]
     },
     {
-      optional: true,
-      x: 5.4,
-      y: 14.5,
-      dependencies: [
+      "x": 5.4,
+      "y": 14.5,
+      "shape": "diamond",
+      "dependencies": [
         "2A2390FE4DD4843F"
       ],
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {
+      "dep_control_pts": {
         "2A2390FE4DD4843F": [
           1.8,
           14.5,
@@ -1257,35 +1251,36 @@
           14.5
         ]
       },
-      id: "30BE516549FA0D54",
-      tasks: [
+      "size": 1,
+      "optional": true,
+      "id": "30BE516549FA0D54",
+      "tasks": [
         {
-          id: "549C632D6825793F",
-          type: "item",
-          item: {
-            id: "ae2:me_chest",
-            count: 1
+          "id": "549C632D6825793F",
+          "type": "item",
+          "item": {
+            "id": "ae2:me_chest",
+            "count": 1
           }
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "5A973522CE8FDF88",
-          type: "xp",
-          xp: 50
+          "id": "5A973522CE8FDF88",
+          "type": "xp",
+          "xp": 50
         }
       ]
     },
     {
-      x: 15.2,
-      y: 11.8,
-      dependencies: [
+      "x": 15.2,
+      "y": 11.8,
+      "shape": "circle",
+      "hide_dependency_lines": true,
+      "dependencies": [
         "712ACDB93B851213"
       ],
-      hide_dependency_lines: true,
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {
+      "dep_control_pts": {
         "712ACDB93B851213": [
           12.6,
           0,
@@ -1293,34 +1288,34 @@
           11.8
         ]
       },
-      id: "4EF8C3753D6C3D54",
-      tasks: [
+      "size": 1,
+      "id": "4EF8C3753D6C3D54",
+      "tasks": [
         {
-          id: "3E8ED9C70D9D30CD",
-          type: "item",
-          item: {
-            id: "ae2:terminal",
-            count: 1
+          "id": "3E8ED9C70D9D30CD",
+          "type": "item",
+          "item": {
+            "id": "ae2:terminal",
+            "count": 1
           }
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "65EE889B1CFB99B4",
-          type: "xp",
-          xp: 50
+          "id": "65EE889B1CFB99B4",
+          "type": "xp",
+          "xp": 50
         }
       ]
     },
     {
-      x: 15.2,
-      y: 15.4,
-      dependencies: [
+      "x": 15.2,
+      "y": 15.4,
+      "shape": "circle",
+      "dependencies": [
         "4EF8C3753D6C3D54"
       ],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {
+      "dep_control_pts": {
         "4EF8C3753D6C3D54": [
           15.2,
           11.8,
@@ -1328,35 +1323,35 @@
           15.4
         ]
       },
-      id: "7E0DE3E91C9C70EC",
-      tasks: [
+      "size": 1,
+      "id": "7E0DE3E91C9C70EC",
+      "tasks": [
         {
-          id: "7D53EAFD5759E853",
-          type: "item",
-          item: {
-            id: "ae2:crafting_terminal",
-            count: 1
+          "id": "7D53EAFD5759E853",
+          "type": "item",
+          "item": {
+            "id": "ae2:crafting_terminal",
+            "count": 1
           }
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "73079368EFDB63BA",
-          type: "xp",
-          xp: 75
+          "id": "73079368EFDB63BA",
+          "type": "xp",
+          "xp": 75
         }
       ]
     },
     {
-      x: 17,
-      y: 11.8,
-      dependencies: [
+      "x": 17,
+      "y": 11.8,
+      "shape": "circle",
+      "hide_dependency_lines": true,
+      "dependencies": [
         "712ACDB93B851213"
       ],
-      hide_dependency_lines: true,
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {
+      "dep_control_pts": {
         "712ACDB93B851213": [
           12.6,
           0,
@@ -1364,36 +1359,36 @@
           11.8
         ]
       },
-      id: "75129AE84F82D6DD",
-      tasks: [
+      "size": 1,
+      "id": "75129AE84F82D6DD",
+      "tasks": [
         {
-          id: "7E50242D670062AD",
-          type: "item",
-          item: {
-            id: "ae2:import_bus",
-            count: 1
+          "id": "7E50242D670062AD",
+          "type": "item",
+          "item": {
+            "id": "ae2:import_bus",
+            "count": 1
           },
-          count: 2
+          "count": 2
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "4DEB8F71621188E6",
-          type: "xp",
-          xp: 50
+          "id": "4DEB8F71621188E6",
+          "type": "xp",
+          "xp": 50
         }
       ]
     },
     {
-      x: 18.8,
-      y: 11.8,
-      dependencies: [
+      "x": 18.8,
+      "y": 11.8,
+      "shape": "circle",
+      "hide_dependency_lines": true,
+      "dependencies": [
         "712ACDB93B851213"
       ],
-      hide_dependency_lines: true,
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {
+      "dep_control_pts": {
         "712ACDB93B851213": [
           12.6,
           0,
@@ -1401,36 +1396,36 @@
           11.8
         ]
       },
-      id: "74B13E780100F604",
-      tasks: [
+      "size": 1,
+      "id": "74B13E780100F604",
+      "tasks": [
         {
-          id: "04C2C4C47C3A8ED6",
-          type: "item",
-          item: {
-            id: "ae2:export_bus",
-            count: 1
+          "id": "04C2C4C47C3A8ED6",
+          "type": "item",
+          "item": {
+            "id": "ae2:export_bus",
+            "count": 1
           },
-          count: 2
+          "count": 2
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "065D6EAF0CA211B5",
-          type: "xp",
-          xp: 50
+          "id": "065D6EAF0CA211B5",
+          "type": "xp",
+          "xp": 50
         }
       ]
     },
     {
-      x: 20.6,
-      y: 11.8,
-      dependencies: [
+      "x": 20.6,
+      "y": 11.8,
+      "shape": "circle",
+      "hide_dependency_lines": true,
+      "dependencies": [
         "712ACDB93B851213"
       ],
-      hide_dependency_lines: true,
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {
+      "dep_control_pts": {
         "712ACDB93B851213": [
           12.6,
           0,
@@ -1438,36 +1433,36 @@
           11.8
         ]
       },
-      id: "7D81EFDA3E495534",
-      tasks: [
+      "size": 1,
+      "id": "7D81EFDA3E495534",
+      "tasks": [
         {
-          id: "68BE9CFE7D085029",
-          type: "item",
-          item: {
-            id: "ae2:storage_bus",
-            count: 1
+          "id": "68BE9CFE7D085029",
+          "type": "item",
+          "item": {
+            "id": "ae2:storage_bus",
+            "count": 1
           },
-          count: 2
+          "count": 2
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "6EB4D0DFB0864B34",
-          type: "xp",
-          xp: 75
+          "id": "6EB4D0DFB0864B34",
+          "type": "xp",
+          "xp": 75
         }
       ]
     },
     {
-      x: 17.9,
-      y: 13.6,
-      dependencies: [
+      "x": 17.9,
+      "y": 13.6,
+      "shape": "circle",
+      "hide_dependency_lines": true,
+      "dependencies": [
         "712ACDB93B851213"
       ],
-      hide_dependency_lines: true,
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {
+      "dep_control_pts": {
         "712ACDB93B851213": [
           12.6,
           0,
@@ -1475,36 +1470,35 @@
           13.6
         ]
       },
-      id: "714E2728654BF641",
-      tasks: [
+      "size": 1,
+      "id": "714E2728654BF641",
+      "tasks": [
         {
-          id: "72F51BCE3EF72C13",
-          type: "item",
-          item: {
-            id: "ae2:interface",
-            count: 1
+          "id": "72F51BCE3EF72C13",
+          "type": "item",
+          "item": {
+            "id": "ae2:interface",
+            "count": 1
           },
-          count: 2
+          "count": 2
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "1EBF85CD7CA75D5D",
-          type: "xp",
-          xp: 100
+          "id": "1EBF85CD7CA75D5D",
+          "type": "xp",
+          "xp": 100
         }
       ]
     },
     {
-      optional: true,
-      x: 17,
-      y: 15.4,
-      dependencies: [
+      "x": 17,
+      "y": 15.4,
+      "shape": "diamond",
+      "dependencies": [
         "714E2728654BF641"
       ],
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {
+      "dep_control_pts": {
         "714E2728654BF641": [
           17.9,
           13.6,
@@ -1512,35 +1506,35 @@
           15.4
         ]
       },
-      id: "7E14754EAEEB3F16",
-      tasks: [
+      "size": 1,
+      "optional": true,
+      "id": "7E14754EAEEB3F16",
+      "tasks": [
         {
-          id: "397103146DD5389B",
-          type: "item",
-          item: {
-            id: "ae2:level_emitter",
-            count: 1
+          "id": "397103146DD5389B",
+          "type": "item",
+          "item": {
+            "id": "ae2:level_emitter",
+            "count": 1
           }
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "50EABF992CB8E856",
-          type: "xp",
-          xp: 50
+          "id": "50EABF992CB8E856",
+          "type": "xp",
+          "xp": 50
         }
       ]
     },
     {
-      optional: true,
-      x: 18.8,
-      y: 15.4,
-      dependencies: [
+      "x": 18.8,
+      "y": 15.4,
+      "shape": "diamond",
+      "dependencies": [
         "714E2728654BF641"
       ],
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {
+      "dep_control_pts": {
         "714E2728654BF641": [
           17.9,
           13.6,
@@ -1548,60 +1542,60 @@
           15.4
         ]
       },
-      id: "1B3FF85646387335",
-      tasks: [
+      "size": 1,
+      "optional": true,
+      "id": "1B3FF85646387335",
+      "tasks": [
         {
-          id: "38D6EA64C69E7154",
-          type: "item",
-          item: {
-            id: "ae2:speed_card",
-            count: 1
+          "id": "38D6EA64C69E7154",
+          "type": "item",
+          "item": {
+            "id": "ae2:speed_card",
+            "count": 1
           },
-          count: 2
+          "count": 2
         },
         {
-          id: "27431EE874DCBAC6",
-          type: "item",
-          item: {
-            id: "ae2:capacity_card",
-            count: 1
+          "id": "27431EE874DCBAC6",
+          "type": "item",
+          "item": {
+            "id": "ae2:capacity_card",
+            "count": 1
           }
         },
         {
-          id: "0C4E07426E62B41C",
-          type: "item",
-          item: {
-            id: "ae2:fuzzy_card",
-            count: 1
+          "id": "0C4E07426E62B41C",
+          "type": "item",
+          "item": {
+            "id": "ae2:fuzzy_card",
+            "count": 1
           }
         },
         {
-          id: "592A8E679AF925D6",
-          type: "item",
-          item: {
-            id: "ae2:redstone_card",
-            count: 1
+          "id": "592A8E679AF925D6",
+          "type": "item",
+          "item": {
+            "id": "ae2:redstone_card",
+            "count": 1
           }
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "3A28CB2D9870F275",
-          type: "xp",
-          xp: 100
+          "id": "3A28CB2D9870F275",
+          "type": "xp",
+          "xp": 100
         }
       ]
     },
     {
-      optional: true,
-      x: 20.6,
-      y: 15.4,
-      dependencies: [
+      "x": 20.6,
+      "y": 15.4,
+      "shape": "diamond",
+      "dependencies": [
         "714E2728654BF641"
       ],
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {
+      "dep_control_pts": {
         "714E2728654BF641": [
           17.9,
           13.6,
@@ -1609,43 +1603,43 @@
           15.4
         ]
       },
-      id: "118AEEE8F1FFC56B",
-      tasks: [
+      "size": 1,
+      "optional": true,
+      "id": "118AEEE8F1FFC56B",
+      "tasks": [
         {
-          id: "6F792DEE3502C72E",
-          type: "item",
-          item: {
-            id: "ae2:formation_plane",
-            count: 1
+          "id": "6F792DEE3502C72E",
+          "type": "item",
+          "item": {
+            "id": "ae2:formation_plane",
+            "count": 1
           }
         },
         {
-          id: "3F0C435888BFF9A2",
-          type: "item",
-          item: {
-            id: "ae2:annihilation_plane",
-            count: 1
+          "id": "3F0C435888BFF9A2",
+          "type": "item",
+          "item": {
+            "id": "ae2:annihilation_plane",
+            "count": 1
           }
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "4E5AF7458F0CE243",
-          type: "xp",
-          xp: 75
+          "id": "4E5AF7458F0CE243",
+          "type": "xp",
+          "xp": 75
         }
       ]
     },
     {
-      optional: true,
-      x: 7.2,
-      y: 15.4,
-      dependencies: [
+      "x": 7.2,
+      "y": 15.4,
+      "shape": "diamond",
+      "dependencies": [
         "4108F5E7AE39F44D"
       ],
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {
+      "dep_control_pts": {
         "4108F5E7AE39F44D": [
           3.6,
           13.6,
@@ -1653,35 +1647,36 @@
           15.4
         ]
       },
-      id: "273A6F1933B91CAD",
-      tasks: [
+      "size": 1,
+      "optional": true,
+      "id": "273A6F1933B91CAD",
+      "tasks": [
         {
-          id: "2CE1803A2D6C5EF0",
-          type: "item",
-          item: {
-            id: "ae2:io_port",
-            count: 1
+          "id": "2CE1803A2D6C5EF0",
+          "type": "item",
+          "item": {
+            "id": "ae2:io_port",
+            "count": 1
           }
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "27ACB7D327BA6591",
-          type: "xp",
-          xp: 75
+          "id": "27ACB7D327BA6591",
+          "type": "xp",
+          "xp": 75
         }
       ]
     },
     {
-      x: 11.6,
-      y: 23.1,
-      dependencies: [
+      "x": 11.6,
+      "y": 23.1,
+      "shape": "circle",
+      "hide_dependency_lines": true,
+      "dependencies": [
         "7E0DE3E91C9C70EC"
       ],
-      hide_dependency_lines: true,
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {
+      "dep_control_pts": {
         "7E0DE3E91C9C70EC": [
           15.2,
           15.4,
@@ -1689,43 +1684,42 @@
           23.1
         ]
       },
-      id: "61513660EAAB7025",
-      tasks: [
+      "size": 1,
+      "id": "61513660EAAB7025",
+      "tasks": [
         {
-          id: "0C12DAEE3290C3C7",
-          type: "item",
-          item: {
-            id: "ae2:pattern_encoding_terminal",
-            count: 1
+          "id": "0C12DAEE3290C3C7",
+          "type": "item",
+          "item": {
+            "id": "ae2:pattern_encoding_terminal",
+            "count": 1
           }
         },
         {
-          id: "155A8CC5C4C40DD8",
-          type: "item",
-          item: {
-            id: "ae2:blank_pattern",
-            count: 1
-          },
-          count: 1
+          "id": "155A8CC5C4C40DD8",
+          "type": "item",
+          "item": {
+            "id": "ae2:blank_pattern",
+            "count": 1
+          }
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "7768D9E440883F20",
-          type: "xp",
-          xp: 100
+          "id": "7768D9E440883F20",
+          "type": "xp",
+          "xp": 100
         }
       ]
     },
     {
-      x: 13.4,
-      y: 22.2,
-      dependencies: [
+      "x": 13.4,
+      "y": 22.2,
+      "shape": "circle",
+      "dependencies": [
         "61513660EAAB7025"
       ],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {
+      "dep_control_pts": {
         "61513660EAAB7025": [
           11.6,
           23.1,
@@ -1733,65 +1727,65 @@
           22.2
         ]
       },
-      id: "197EBAF6B72273C2",
-      tasks: [
+      "size": 1,
+      "id": "197EBAF6B72273C2",
+      "tasks": [
         {
-          id: "2E96FF9FE1C95502",
-          type: "item",
-          item: {
-            id: "ae2:crafting_unit",
-            count: 1
+          "id": "2E96FF9FE1C95502",
+          "type": "item",
+          "item": {
+            "id": "ae2:crafting_unit",
+            "count": 1
           },
-          count: 4
+          "count": 4
         },
         {
-          id: "6A0822AA45FFFA0D",
-          type: "item",
-          item: {
-            id: "ae2:4k_crafting_storage",
-            count: 1
+          "id": "6A0822AA45FFFA0D",
+          "type": "item",
+          "item": {
+            "id": "ae2:4k_crafting_storage",
+            "count": 1
           }
         },
         {
-          id: "4FE25E645F002E62",
-          type: "item",
-          item: {
-            id: "ae2:crafting_accelerator",
-            count: 1
+          "id": "4FE25E645F002E62",
+          "type": "item",
+          "item": {
+            "id": "ae2:crafting_accelerator",
+            "count": 1
           }
         },
         {
-          id: "148AB8D61106980F",
-          type: "item",
-          item: {
-            id: "ae2:crafting_monitor",
-            count: 1
+          "id": "148AB8D61106980F",
+          "type": "item",
+          "item": {
+            "id": "ae2:crafting_monitor",
+            "count": 1
           }
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "4137EB6B51293148",
-          type: "xp",
-          xp: 200
+          "id": "4137EB6B51293148",
+          "type": "xp",
+          "xp": 200
         },
         {
-          id: "07CA09C987499AFB",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 253752461985528
+          "id": "07CA09C987499AFB",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 253752461985528
         }
       ]
     },
     {
-      x: 13.4,
-      y: 24,
-      dependencies: [
+      "x": 13.4,
+      "y": 24,
+      "shape": "circle",
+      "dependencies": [
         "61513660EAAB7025"
       ],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {
+      "dep_control_pts": {
         "61513660EAAB7025": [
           11.6,
           23.1,
@@ -1799,35 +1793,35 @@
           24
         ]
       },
-      id: "0ADA6540DB1C6940",
-      tasks: [
+      "size": 1,
+      "id": "0ADA6540DB1C6940",
+      "tasks": [
         {
-          id: "624D876417F49DC9",
-          type: "item",
-          item: {
-            id: "ae2:pattern_provider",
-            count: 1
+          "id": "624D876417F49DC9",
+          "type": "item",
+          "item": {
+            "id": "ae2:pattern_provider",
+            "count": 1
           },
-          count: 2
+          "count": 2
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "754BF6695D52A3FF",
-          type: "xp",
-          xp: 100
+          "id": "754BF6695D52A3FF",
+          "type": "xp",
+          "xp": 100
         }
       ]
     },
     {
-      x: 15.2,
-      y: 22.2,
-      dependencies: [
+      "x": 15.2,
+      "y": 22.2,
+      "shape": "gear",
+      "dependencies": [
         "0ADA6540DB1C6940"
       ],
-      shape: "gear",
-      size: 1.3,
-      dep_control_pts: {
+      "dep_control_pts": {
         "0ADA6540DB1C6940": [
           13.4,
           24,
@@ -1835,42 +1829,41 @@
           22.2
         ]
       },
-      id: "1FB3941ADA6BB034",
-      tasks: [
+      "size": 1.3,
+      "id": "1FB3941ADA6BB034",
+      "tasks": [
         {
-          id: "28440153299AE058",
-          type: "item",
-          item: {
-            id: "ae2:molecular_assembler",
-            count: 1
+          "id": "28440153299AE058",
+          "type": "item",
+          "item": {
+            "id": "ae2:molecular_assembler",
+            "count": 1
           },
-          count: 4
+          "count": 4
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "5DD76E5505615D63",
-          type: "xp",
-          xp: 250
+          "id": "5DD76E5505615D63",
+          "type": "xp",
+          "xp": 250
         },
         {
-          id: "6531228368F751D5",
-          type: "choice",
-          exclude_from_claim_all: true,
-          table_id: 2210856162803377
+          "id": "6531228368F751D5",
+          "type": "choice",
+          "exclude_from_claim_all": true,
+          "table_id": 2210856162803377
         }
       ]
     },
     {
-      optional: true,
-      x: 15.2,
-      y: 24,
-      dependencies: [
+      "x": 15.2,
+      "y": 24,
+      "shape": "diamond",
+      "dependencies": [
         "0ADA6540DB1C6940"
       ],
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {
+      "dep_control_pts": {
         "0ADA6540DB1C6940": [
           13.4,
           24,
@@ -1878,34 +1871,35 @@
           24
         ]
       },
-      id: "5E5A4D6E3384BBBC",
-      tasks: [
+      "size": 1,
+      "optional": true,
+      "id": "5E5A4D6E3384BBBC",
+      "tasks": [
         {
-          id: "39A7B21EDAEFC116",
-          type: "item",
-          item: {
-            id: "ae2:pattern_access_terminal",
-            count: 1
+          "id": "39A7B21EDAEFC116",
+          "type": "item",
+          "item": {
+            "id": "ae2:pattern_access_terminal",
+            "count": 1
           }
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "10DCC2A3EEE378CE",
-          type: "xp",
-          xp: 50
+          "id": "10DCC2A3EEE378CE",
+          "type": "xp",
+          "xp": 50
         }
       ]
     },
     {
-      x: 17,
-      y: 20.4,
-      dependencies: [
+      "x": 17,
+      "y": 20.4,
+      "shape": "circle",
+      "dependencies": [
         "1FB3941ADA6BB034"
       ],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {
+      "dep_control_pts": {
         "1FB3941ADA6BB034": [
           15.2,
           22.2,
@@ -1913,50 +1907,49 @@
           20.4
         ]
       },
-      id: "440E7BC045315C69",
-      tasks: [
+      "size": 1,
+      "id": "440E7BC045315C69",
+      "tasks": [
         {
-          id: "043D3FC7DFA6374F",
-          type: "item",
-          item: {
-            id: "ae2:64k_crafting_storage",
-            count: 1
+          "id": "043D3FC7DFA6374F",
+          "type": "item",
+          "item": {
+            "id": "ae2:64k_crafting_storage",
+            "count": 1
           }
         },
         {
-          id: "2C0B5504E446D8C0",
-          type: "item",
-          item: {
-            id: "ae2:crafting_accelerator",
-            count: 1
+          "id": "2C0B5504E446D8C0",
+          "type": "item",
+          "item": {
+            "id": "ae2:crafting_accelerator",
+            "count": 1
           },
-          count: 8
+          "count": 8
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "25275F6D6A9C97C5",
-          type: "xp",
-          xp: 300
+          "id": "25275F6D6A9C97C5",
+          "type": "xp",
+          "xp": 300
         },
         {
-          id: "2EE12F4EDBCE5E08",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 2210856162803377
+          "id": "2EE12F4EDBCE5E08",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2210856162803377
         }
       ]
     },
     {
-      optional: true,
-      x: 17,
-      y: 22.2,
-      dependencies: [
+      "x": 17,
+      "y": 22.2,
+      "shape": "diamond",
+      "dependencies": [
         "1FB3941ADA6BB034"
       ],
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {
+      "dep_control_pts": {
         "1FB3941ADA6BB034": [
           15.2,
           22.2,
@@ -1964,39 +1957,39 @@
           22.2
         ]
       },
-      id: "4723C67B1AA17F16",
-      tasks: [
+      "size": 1,
+      "optional": true,
+      "id": "4723C67B1AA17F16",
+      "tasks": [
         {
-          id: "3896DB620D1D9D96",
-          type: "item",
-          item: {
-            id: "merequester:requester",
-            count: 1
+          "id": "3896DB620D1D9D96",
+          "type": "item",
+          "item": {
+            "id": "merequester:requester",
+            "count": 1
           }
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "78DB03A41D0D8874",
-          type: "xp",
-          xp: 100
+          "id": "78DB03A41D0D8874",
+          "type": "xp",
+          "xp": 100
         }
       ]
     },
     {
-      icon: {
-        id: "ae2:molecular_assembler",
-        count: 1
+      "icon": {
+        "id": "ae2:molecular_assembler",
+        "count": 1
       },
-      optional: true,
-      x: 17,
-      y: 24,
-      dependencies: [
+      "x": 17,
+      "y": 24,
+      "shape": "diamond",
+      "dependencies": [
         "1FB3941ADA6BB034"
       ],
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {
+      "dep_control_pts": {
         "1FB3941ADA6BB034": [
           15.2,
           22.2,
@@ -2004,31 +1997,32 @@
           24
         ]
       },
-      id: "1BE6AE82C2C63DE2",
-      tasks: [
+      "size": 1,
+      "optional": true,
+      "id": "1BE6AE82C2C63DE2",
+      "tasks": [
         {
-          id: "11DEE361947D7A9F",
-          type: "checkmark"
+          "id": "11DEE361947D7A9F",
+          "type": "checkmark"
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "3E84D7D405FCAF10",
-          type: "xp",
-          xp: 25
+          "id": "3E84D7D405FCAF10",
+          "type": "xp",
+          "xp": 25
         }
       ]
     },
     {
-      x: 0,
-      y: 22.2,
-      dependencies: [
+      "x": 0,
+      "y": 22.2,
+      "shape": "circle",
+      "hide_dependency_lines": true,
+      "dependencies": [
         "4EF8C3753D6C3D54"
       ],
-      hide_dependency_lines: true,
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {
+      "dep_control_pts": {
         "4EF8C3753D6C3D54": [
           15.2,
           11.8,
@@ -2036,49 +2030,49 @@
           22.2
         ]
       },
-      id: "16545F6399D951C1",
-      tasks: [
+      "size": 1,
+      "id": "16545F6399D951C1",
+      "tasks": [
         {
-          id: "62A13B22D8170F5A",
-          type: "item",
-          item: {
-            id: "ae2:wireless_access_point",
-            count: 1
+          "id": "62A13B22D8170F5A",
+          "type": "item",
+          "item": {
+            "id": "ae2:wireless_access_point",
+            "count": 1
           }
         },
         {
-          id: "2471904678585025",
-          type: "item",
-          item: {
-            id: "ae2:wireless_booster",
-            count: 1
+          "id": "2471904678585025",
+          "type": "item",
+          "item": {
+            "id": "ae2:wireless_booster",
+            "count": 1
           },
-          count: 4
+          "count": 4
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "573B738352A6F9EC",
-          type: "xp",
-          xp: 150
+          "id": "573B738352A6F9EC",
+          "type": "xp",
+          "xp": 150
         },
         {
-          id: "7D9C046780A1A059",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 253752461985528
+          "id": "7D9C046780A1A059",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 253752461985528
         }
       ]
     },
     {
-      x: 1.8,
-      y: 20.4,
-      dependencies: [
+      "x": 1.8,
+      "y": 20.4,
+      "shape": "circle",
+      "dependencies": [
         "16545F6399D951C1"
       ],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {
+      "dep_control_pts": {
         "16545F6399D951C1": [
           0,
           22.2,
@@ -2086,34 +2080,34 @@
           20.4
         ]
       },
-      id: "4B50BCB44EDF65B6",
-      tasks: [
+      "size": 1,
+      "id": "4B50BCB44EDF65B6",
+      "tasks": [
         {
-          id: "133AB52EF736D992",
-          type: "item",
-          item: {
-            id: "ae2:wireless_terminal",
-            count: 1
+          "id": "133AB52EF736D992",
+          "type": "item",
+          "item": {
+            "id": "ae2:wireless_terminal",
+            "count": 1
           }
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "01C2862F6B162775",
-          type: "xp",
-          xp: 100
+          "id": "01C2862F6B162775",
+          "type": "xp",
+          "xp": 100
         }
       ]
     },
     {
-      x: 3.6,
-      y: 21.3,
-      dependencies: [
+      "x": 3.6,
+      "y": 21.3,
+      "shape": "circle",
+      "dependencies": [
         "4B50BCB44EDF65B6"
       ],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {
+      "dep_control_pts": {
         "4B50BCB44EDF65B6": [
           1.8,
           20.4,
@@ -2121,35 +2115,35 @@
           21.3
         ]
       },
-      id: "10E72CB88803CEC5",
-      tasks: [
+      "size": 1,
+      "id": "10E72CB88803CEC5",
+      "tasks": [
         {
-          id: "14792BAB417ED197",
-          type: "item",
-          item: {
-            id: "ae2:wireless_crafting_terminal",
-            count: 1
+          "id": "14792BAB417ED197",
+          "type": "item",
+          "item": {
+            "id": "ae2:wireless_crafting_terminal",
+            "count": 1
           }
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "10D19C24DF9AE98E",
-          type: "xp",
-          xp: 100
+          "id": "10D19C24DF9AE98E",
+          "type": "xp",
+          "xp": 100
         }
       ]
     },
     {
-      x: 0,
-      y: 24,
-      dependencies: [
+      "x": 0,
+      "y": 24,
+      "shape": "circle",
+      "hide_dependency_lines": true,
+      "dependencies": [
         "712ACDB93B851213"
       ],
-      hide_dependency_lines: true,
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {
+      "dep_control_pts": {
         "712ACDB93B851213": [
           12.6,
           0,
@@ -2157,44 +2151,43 @@
           24
         ]
       },
-      id: "15A116E0BCDA8A4C",
-      tasks: [
+      "size": 1,
+      "id": "15A116E0BCDA8A4C",
+      "tasks": [
         {
-          id: "0B6012F812172B89",
-          type: "item",
-          item: {
-            id: "ae2:me_p2p_tunnel",
-            count: 1
+          "id": "0B6012F812172B89",
+          "type": "item",
+          "item": {
+            "id": "ae2:me_p2p_tunnel",
+            "count": 1
           },
-          count: 2
+          "count": 2
         },
         {
-          id: "5802BC2F184108A6",
-          type: "item",
-          item: {
-            id: "ae2:memory_card",
-            count: 1
+          "id": "5802BC2F184108A6",
+          "type": "item",
+          "item": {
+            "id": "ae2:memory_card",
+            "count": 1
           }
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "15E8125274A8D455",
-          type: "xp",
-          xp: 150
+          "id": "15E8125274A8D455",
+          "type": "xp",
+          "xp": 150
         }
       ]
     },
     {
-      optional: true,
-      x: 1.8,
-      y: 22.2,
-      dependencies: [
+      "x": 1.8,
+      "y": 22.2,
+      "shape": "diamond",
+      "dependencies": [
         "15A116E0BCDA8A4C"
       ],
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {
+      "dep_control_pts": {
         "15A116E0BCDA8A4C": [
           0,
           24,
@@ -2202,53 +2195,54 @@
           22.2
         ]
       },
-      id: "767A29DA9EF5203D",
-      tasks: [
+      "size": 1,
+      "optional": true,
+      "id": "767A29DA9EF5203D",
+      "tasks": [
         {
-          id: "7665E073D57B7B18",
-          type: "item",
-          item: {
-            id: "ae2:fe_p2p_tunnel",
-            count: 1
+          "id": "7665E073D57B7B18",
+          "type": "item",
+          "item": {
+            "id": "ae2:fe_p2p_tunnel",
+            "count": 1
           },
-          count: 2
+          "count": 2
         },
         {
-          id: "3F78333B10D6A664",
-          type: "item",
-          item: {
-            id: "ae2:item_p2p_tunnel",
-            count: 1
+          "id": "3F78333B10D6A664",
+          "type": "item",
+          "item": {
+            "id": "ae2:item_p2p_tunnel",
+            "count": 1
           },
-          count: 2
+          "count": 2
         },
         {
-          id: "781FA025AF5D3C56",
-          type: "item",
-          item: {
-            id: "ae2:fluid_p2p_tunnel",
-            count: 1
+          "id": "781FA025AF5D3C56",
+          "type": "item",
+          "item": {
+            "id": "ae2:fluid_p2p_tunnel",
+            "count": 1
           },
-          count: 2
+          "count": 2
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "2588E262F904D732",
-          type: "xp",
-          xp: 75
+          "id": "2588E262F904D732",
+          "type": "xp",
+          "xp": 75
         }
       ]
     },
     {
-      x: 1.8,
-      y: 24,
-      dependencies: [
+      "x": 1.8,
+      "y": 24,
+      "shape": "circle",
+      "dependencies": [
         "15A116E0BCDA8A4C"
       ],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {
+      "dep_control_pts": {
         "15A116E0BCDA8A4C": [
           0,
           24,
@@ -2256,60 +2250,58 @@
           24
         ]
       },
-      id: "283E9173C8848993",
-      tasks: [
+      "size": 1,
+      "id": "283E9173C8848993",
+      "tasks": [
         {
-          id: "117C10F814933E77",
-          type: "item",
-          item: {
-            id: "ae2:quantum_ring",
-            count: 1
-          },
-          count: 1
+          "id": "117C10F814933E77",
+          "type": "item",
+          "item": {
+            "id": "ae2:quantum_ring",
+            "count": 1
+          }
         },
         {
-          id: "4B092B0A7197CF84",
-          type: "item",
-          item: {
-            id: "ae2:quantum_link",
-            count: 1
+          "id": "4B092B0A7197CF84",
+          "type": "item",
+          "item": {
+            "id": "ae2:quantum_link",
+            "count": 1
           },
-          count: 2
+          "count": 2
         },
         {
-          id: "41285007E00B5DBC",
-          type: "item",
-          item: {
-            id: "ae2:quantum_entangled_singularity",
-            count: 1
+          "id": "41285007E00B5DBC",
+          "type": "item",
+          "item": {
+            "id": "ae2:quantum_entangled_singularity",
+            "count": 1
           },
-          count: 2
+          "count": 2
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "684A30D95311FD6D",
-          type: "xp",
-          xp: 250
+          "id": "684A30D95311FD6D",
+          "type": "xp",
+          "xp": 250
         },
         {
-          id: "356FABAED269649E",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 2210856162803377
+          "id": "356FABAED269649E",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2210856162803377
         }
       ]
     },
     {
-      optional: true,
-      x: 3.6,
-      y: 23.1,
-      dependencies: [
+      "x": 3.6,
+      "y": 23.1,
+      "shape": "diamond",
+      "dependencies": [
         "283E9173C8848993"
       ],
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {
+      "dep_control_pts": {
         "283E9173C8848993": [
           1.8,
           24,
@@ -2317,53 +2309,53 @@
           23.1
         ]
       },
-      id: "31F4F93DF2BD5A8B",
-      tasks: [
+      "size": 1,
+      "optional": true,
+      "id": "31F4F93DF2BD5A8B",
+      "tasks": [
         {
-          id: "5BFD0640B5ABED47",
-          type: "item",
-          item: {
-            id: "ae2:spatial_io_port",
-            count: 1
+          "id": "5BFD0640B5ABED47",
+          "type": "item",
+          "item": {
+            "id": "ae2:spatial_io_port",
+            "count": 1
           }
         },
         {
-          id: "54ACD4838F74FAE3",
-          type: "item",
-          item: {
-            id: "ae2:spatial_pylon",
-            count: 1
+          "id": "54ACD4838F74FAE3",
+          "type": "item",
+          "item": {
+            "id": "ae2:spatial_pylon",
+            "count": 1
           },
-          count: 8
+          "count": 8
         },
         {
-          id: "16378EB1D867920A",
-          type: "item",
-          item: {
-            id: "ae2:spatial_storage_cell_2",
-            count: 1
+          "id": "16378EB1D867920A",
+          "type": "item",
+          "item": {
+            "id": "ae2:spatial_storage_cell_2",
+            "count": 1
           }
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "17C89C37AC3E094E",
-          type: "xp",
-          xp: 200
+          "id": "17C89C37AC3E094E",
+          "type": "xp",
+          "xp": 200
         }
       ]
     },
     {
-      optional: true,
-      x: 0,
-      y: 29,
-      dependencies: [
+      "x": 0,
+      "y": 29,
+      "shape": "diamond",
+      "hide_dependency_lines": true,
+      "dependencies": [
         "2A2390FE4DD4843F"
       ],
-      hide_dependency_lines: true,
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {
+      "dep_control_pts": {
         "2A2390FE4DD4843F": [
           1.8,
           14.5,
@@ -2371,94 +2363,94 @@
           29
         ]
       },
-      id: "285B84FAED473B5A",
-      tasks: [
+      "size": 1,
+      "optional": true,
+      "id": "285B84FAED473B5A",
+      "tasks": [
         {
-          id: "17757FA5B5313B28",
-          type: "item",
-          item: {
-            id: "appmek:chemical_cell_housing",
-            count: 1
+          "id": "17757FA5B5313B28",
+          "type": "item",
+          "item": {
+            "id": "appmek:chemical_cell_housing",
+            "count": 1
           }
         },
         {
-          id: "523279975587AB1C",
-          type: "item",
-          item: {
-            id: "appmek:chemical_storage_cell_4k",
-            count: 1
+          "id": "523279975587AB1C",
+          "type": "item",
+          "item": {
+            "id": "appmek:chemical_storage_cell_4k",
+            "count": 1
           }
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "3F37D75627E26C37",
-          type: "xp",
-          xp: 100
+          "id": "3F37D75627E26C37",
+          "type": "xp",
+          "xp": 100
         },
         {
-          id: "711AEBF8B8631BAE",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 2612120196957929
+          "id": "711AEBF8B8631BAE",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2612120196957929
         }
       ]
     },
     {
-      optional: true,
-      x: 1.8,
-      y: 25.8,
-      dependencies: [
+      "x": 1.8,
+      "y": 25.8,
+      "shape": "diamond",
+      "hide_dependency_lines": true,
+      "dependencies": [
         "285B84FAED473B5A",
         "15A116E0BCDA8A4C"
       ],
-      hide_dependency_lines: true,
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {
-        "285B84FAED473B5A": [
-          0,
-          29,
-          1.8,
-          25.8
-        ],
+      "dep_control_pts": {
         "15A116E0BCDA8A4C": [
           0,
           24,
           1.8,
           25.8
+        ],
+        "285B84FAED473B5A": [
+          0,
+          29,
+          1.8,
+          25.8
         ]
       },
-      id: "05A17155B2CC1C4E",
-      tasks: [
+      "size": 1,
+      "optional": true,
+      "id": "05A17155B2CC1C4E",
+      "tasks": [
         {
-          id: "1B177733339382F1",
-          type: "item",
-          item: {
-            id: "appmek:chemical_p2p_tunnel",
-            count: 1
+          "id": "1B177733339382F1",
+          "type": "item",
+          "item": {
+            "id": "appmek:chemical_p2p_tunnel",
+            "count": 1
           },
-          count: 2
+          "count": 2
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "33756C49DCA32892",
-          type: "xp",
-          xp: 75
+          "id": "33756C49DCA32892",
+          "type": "xp",
+          "xp": 75
         }
       ]
     },
     {
-      optional: true,
-      x: 17,
-      y: 25.8,
-      dependencies: [
+      "x": 17,
+      "y": 25.8,
+      "shape": "diamond",
+      "dependencies": [
         "1FB3941ADA6BB034"
       ],
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {
+      "dep_control_pts": {
         "1FB3941ADA6BB034": [
           15.2,
           22.2,
@@ -2466,49 +2458,50 @@
           25.8
         ]
       },
-      id: "55B0F0678EF0E6EC",
-      tasks: [
+      "size": 1,
+      "optional": true,
+      "id": "55B0F0678EF0E6EC",
+      "tasks": [
         {
-          id: "370890880BBAD09F",
-          type: "item",
-          item: {
-            id: "applied_oritech:me_interface_addon",
-            count: 1
+          "id": "370890880BBAD09F",
+          "type": "item",
+          "item": {
+            "id": "applied_oritech:me_interface_addon",
+            "count": 1
           }
         },
         {
-          id: "4D05F25837320745",
-          type: "item",
-          item: {
-            id: "applied_oritech:me_pattern_provider_addon",
-            count: 1
+          "id": "4D05F25837320745",
+          "type": "item",
+          "item": {
+            "id": "applied_oritech:me_pattern_provider_addon",
+            "count": 1
           }
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "7F83EC6C10530298",
-          type: "xp",
-          xp: 150
+          "id": "7F83EC6C10530298",
+          "type": "xp",
+          "xp": 150
         },
         {
-          id: "2666EC461841CFBC",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 2612120196957929
+          "id": "2666EC461841CFBC",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2612120196957929
         }
       ]
     },
     {
-      x: 13.4,
-      y: 30.8,
-      dependencies: [
+      "x": 13.4,
+      "y": 30.8,
+      "shape": "gear",
+      "hide_dependency_lines": true,
+      "dependencies": [
         "1FB3941ADA6BB034"
       ],
-      hide_dependency_lines: true,
-      shape: "gear",
-      size: 1.3,
-      dep_control_pts: {
+      "dep_control_pts": {
         "1FB3941ADA6BB034": [
           15.2,
           22.2,
@@ -2516,50 +2509,50 @@
           30.8
         ]
       },
-      id: "3DCB426C2D3D35BD",
-      tasks: [
+      "size": 1.3,
+      "id": "3DCB426C2D3D35BD",
+      "tasks": [
         {
-          id: "612168CAA075B4E2",
-          type: "item",
-          item: {
-            id: "advanced_ae:quantum_processor",
-            count: 1
+          "id": "612168CAA075B4E2",
+          "type": "item",
+          "item": {
+            "id": "advanced_ae:quantum_processor",
+            "count": 1
           },
-          count: 4
+          "count": 4
         },
         {
-          id: "50FC9C21383F6C21",
-          type: "item",
-          item: {
-            id: "advanced_ae:quantum_alloy",
-            count: 1
+          "id": "50FC9C21383F6C21",
+          "type": "item",
+          "item": {
+            "id": "advanced_ae:quantum_alloy",
+            "count": 1
           },
-          count: 4
+          "count": 4
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "0F188E240EF6517F",
-          type: "xp",
-          xp: 200
+          "id": "0F188E240EF6517F",
+          "type": "xp",
+          "xp": 200
         },
         {
-          id: "60DDFCEA9CDBCA17",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 2210856162803377
+          "id": "60DDFCEA9CDBCA17",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2210856162803377
         }
       ]
     },
     {
-      x: 15.2,
-      y: 29,
-      dependencies: [
+      "x": 15.2,
+      "y": 29,
+      "shape": "circle",
+      "dependencies": [
         "3DCB426C2D3D35BD"
       ],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {
+      "dep_control_pts": {
         "3DCB426C2D3D35BD": [
           13.4,
           30.8,
@@ -2567,34 +2560,34 @@
           29
         ]
       },
-      id: "78AB24FA8C4E547D",
-      tasks: [
+      "size": 1,
+      "id": "78AB24FA8C4E547D",
+      "tasks": [
         {
-          id: "541AA6B60649EC89",
-          type: "item",
-          item: {
-            id: "advanced_ae:reaction_chamber",
-            count: 1
+          "id": "541AA6B60649EC89",
+          "type": "item",
+          "item": {
+            "id": "advanced_ae:reaction_chamber",
+            "count": 1
           }
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "168AAF5C02F10709",
-          type: "xp",
-          xp: 150
+          "id": "168AAF5C02F10709",
+          "type": "xp",
+          "xp": 150
         }
       ]
     },
     {
-      x: 15.2,
-      y: 30.8,
-      dependencies: [
+      "x": 15.2,
+      "y": 30.8,
+      "shape": "circle",
+      "dependencies": [
         "3DCB426C2D3D35BD"
       ],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {
+      "dep_control_pts": {
         "3DCB426C2D3D35BD": [
           13.4,
           30.8,
@@ -2602,35 +2595,34 @@
           30.8
         ]
       },
-      id: "69438C5C547C8877",
-      tasks: [
+      "size": 1,
+      "id": "69438C5C547C8877",
+      "tasks": [
         {
-          id: "48B67B3911EC07E0",
-          type: "item",
-          item: {
-            id: "advanced_ae:small_adv_pattern_provider",
-            count: 1
+          "id": "48B67B3911EC07E0",
+          "type": "item",
+          "item": {
+            "id": "advanced_ae:small_adv_pattern_provider",
+            "count": 1
           }
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "3543E5ED5A1ACF2B",
-          type: "xp",
-          xp: 100
+          "id": "3543E5ED5A1ACF2B",
+          "type": "xp",
+          "xp": 100
         }
       ]
     },
     {
-      optional: true,
-      x: 15.2,
-      y: 32.6,
-      dependencies: [
+      "x": 15.2,
+      "y": 32.6,
+      "shape": "diamond",
+      "dependencies": [
         "3DCB426C2D3D35BD"
       ],
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {
+      "dep_control_pts": {
         "3DCB426C2D3D35BD": [
           13.4,
           30.8,
@@ -2638,40 +2630,41 @@
           32.6
         ]
       },
-      id: "29A73A59ECB9B5A6",
-      tasks: [
+      "size": 1,
+      "optional": true,
+      "id": "29A73A59ECB9B5A6",
+      "tasks": [
         {
-          id: "7CB431FE6FD6F21F",
-          type: "item",
-          item: {
-            id: "advanced_ae:quantum_storage_256",
-            count: 1
+          "id": "7CB431FE6FD6F21F",
+          "type": "item",
+          "item": {
+            "id": "advanced_ae:quantum_storage_256",
+            "count": 1
           }
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "5BEC3A8E595AD8CA",
-          type: "xp",
-          xp: 300
+          "id": "5BEC3A8E595AD8CA",
+          "type": "xp",
+          "xp": 300
         },
         {
-          id: "4FAD0878B0B65F84",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 379532711335085
+          "id": "4FAD0878B0B65F84",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 379532711335085
         }
       ]
     },
     {
-      x: 15.2,
-      y: 34.4,
-      dependencies: [
+      "x": 15.2,
+      "y": 34.4,
+      "shape": "gear",
+      "dependencies": [
         "3DCB426C2D3D35BD"
       ],
-      shape: "gear",
-      size: 1.3,
-      dep_control_pts: {
+      "dep_control_pts": {
         "3DCB426C2D3D35BD": [
           13.4,
           30.8,
@@ -2679,67 +2672,66 @@
           34.4
         ]
       },
-      id: "4421EF16E6AD3337",
-      tasks: [
+      "size": 1.3,
+      "id": "4421EF16E6AD3337",
+      "tasks": [
         {
-          id: "23821C2CDC325062",
-          type: "item",
-          item: {
-            id: "advanced_ae:quantum_core",
-            count: 1
+          "id": "23821C2CDC325062",
+          "type": "item",
+          "item": {
+            "id": "advanced_ae:quantum_core",
+            "count": 1
           }
         },
         {
-          id: "5D312B0A83632860",
-          type: "item",
-          item: {
-            id: "advanced_ae:quantum_unit",
-            count: 1
+          "id": "5D312B0A83632860",
+          "type": "item",
+          "item": {
+            "id": "advanced_ae:quantum_unit",
+            "count": 1
           },
-          count: 8
+          "count": 8
         },
         {
-          id: "19895B6F627DE353",
-          type: "item",
-          item: {
-            id: "advanced_ae:quantum_structure",
-            count: 1
-          },
-          count: 1
+          "id": "19895B6F627DE353",
+          "type": "item",
+          "item": {
+            "id": "advanced_ae:quantum_structure",
+            "count": 1
+          }
         },
         {
-          id: "04A50480B9094870",
-          type: "item",
-          item: {
-            id: "advanced_ae:quantum_accelerator",
-            count: 1
+          "id": "04A50480B9094870",
+          "type": "item",
+          "item": {
+            "id": "advanced_ae:quantum_accelerator",
+            "count": 1
           },
-          count: 2
+          "count": 2
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "4C1BA44C90990EF9",
-          type: "xp",
-          xp: 400
+          "id": "4C1BA44C90990EF9",
+          "type": "xp",
+          "xp": 400
         },
         {
-          id: "28B458F8DA114A02",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 379532711335085
+          "id": "28B458F8DA114A02",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 379532711335085
         }
       ]
     },
     {
-      x: 18.8,
-      y: 30.8,
-      dependencies: [
+      "x": 18.8,
+      "y": 30.8,
+      "shape": "gear",
+      "dependencies": [
         "78AB24FA8C4E547D"
       ],
-      shape: "gear",
-      size: 1.3,
-      dep_control_pts: {
+      "dep_control_pts": {
         "78AB24FA8C4E547D": [
           15.2,
           29,
@@ -2747,66 +2739,65 @@
           30.8
         ]
       },
-      id: "598913DCAF3E262F",
-      tasks: [
+      "size": 1.3,
+      "id": "598913DCAF3E262F",
+      "tasks": [
         {
-          id: "3D579398C2F5736F",
-          type: "item",
-          item: {
-            id: "advanced_ae:quantum_helmet",
-            count: 1
+          "id": "3D579398C2F5736F",
+          "type": "item",
+          "item": {
+            "id": "advanced_ae:quantum_helmet",
+            "count": 1
           }
         },
         {
-          id: "0750FD5A038863FA",
-          type: "item",
-          item: {
-            id: "advanced_ae:quantum_chestplate",
-            count: 1
+          "id": "0750FD5A038863FA",
+          "type": "item",
+          "item": {
+            "id": "advanced_ae:quantum_chestplate",
+            "count": 1
           }
         },
         {
-          id: "3E88F6631FC45323",
-          type: "item",
-          item: {
-            id: "advanced_ae:quantum_leggings",
-            count: 1
+          "id": "3E88F6631FC45323",
+          "type": "item",
+          "item": {
+            "id": "advanced_ae:quantum_leggings",
+            "count": 1
           }
         },
         {
-          id: "203A01197AD39F5F",
-          type: "item",
-          item: {
-            id: "advanced_ae:quantum_boots",
-            count: 1
+          "id": "203A01197AD39F5F",
+          "type": "item",
+          "item": {
+            "id": "advanced_ae:quantum_boots",
+            "count": 1
           }
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "49AC045948D61B93",
-          type: "xp_levels",
-          xp_levels: 30
+          "id": "49AC045948D61B93",
+          "type": "xp_levels",
+          "xp_levels": 30
         },
         {
-          id: "17CC9F26876A1D98",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 379532711335085
+          "id": "17CC9F26876A1D98",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 379532711335085
         }
       ]
     },
     {
-      optional: true,
-      x: 1.8,
-      y: 29,
-      dependencies: [
+      "x": 1.8,
+      "y": 29,
+      "shape": "gear",
+      "hide_dependency_lines": true,
+      "dependencies": [
         "0ADA6540DB1C6940"
       ],
-      hide_dependency_lines: true,
-      shape: "gear",
-      size: 1.3,
-      dep_control_pts: {
+      "dep_control_pts": {
         "0ADA6540DB1C6940": [
           13.4,
           24,
@@ -2814,40 +2805,41 @@
           29
         ]
       },
-      id: "3DCF583935A1592C",
-      tasks: [
+      "size": 1.3,
+      "optional": true,
+      "id": "3DCF583935A1592C",
+      "tasks": [
         {
-          id: "6D0ED0CC4D64EE5E",
-          type: "item",
-          item: {
-            id: "extendedae:ex_pattern_provider",
-            count: 1
+          "id": "6D0ED0CC4D64EE5E",
+          "type": "item",
+          "item": {
+            "id": "extendedae:ex_pattern_provider",
+            "count": 1
           }
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "614452B7710D5063",
-          type: "xp",
-          xp: 150
+          "id": "614452B7710D5063",
+          "type": "xp",
+          "xp": 150
         },
         {
-          id: "2F606177B0EC0AB2",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 2612120196957929
+          "id": "2F606177B0EC0AB2",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2612120196957929
         }
       ]
     },
     {
-      x: 0,
-      y: 32.6,
-      dependencies: [
+      "x": 0,
+      "y": 32.6,
+      "shape": "circle",
+      "dependencies": [
         "3DCF583935A1592C"
       ],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {
+      "dep_control_pts": {
         "3DCF583935A1592C": [
           1.8,
           29,
@@ -2855,42 +2847,42 @@
           32.6
         ]
       },
-      id: "22834634E9E10048",
-      tasks: [
+      "size": 1,
+      "id": "22834634E9E10048",
+      "tasks": [
         {
-          id: "1296ED00C2C1AC92",
-          type: "item",
-          item: {
-            id: "extendedae:ex_interface",
-            count: 1
+          "id": "1296ED00C2C1AC92",
+          "type": "item",
+          "item": {
+            "id": "extendedae:ex_interface",
+            "count": 1
           }
         },
         {
-          id: "43DAB4BDDB9BD71A",
-          type: "item",
-          item: {
-            id: "extendedae:ex_drive",
-            count: 1
+          "id": "43DAB4BDDB9BD71A",
+          "type": "item",
+          "item": {
+            "id": "extendedae:ex_drive",
+            "count": 1
           }
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "23BAE03280D8F896",
-          type: "xp",
-          xp: 100
+          "id": "23BAE03280D8F896",
+          "type": "xp",
+          "xp": 100
         }
       ]
     },
     {
-      x: 1.8,
-      y: 32.6,
-      dependencies: [
+      "x": 1.8,
+      "y": 32.6,
+      "shape": "circle",
+      "dependencies": [
         "3DCF583935A1592C"
       ],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {
+      "dep_control_pts": {
         "3DCF583935A1592C": [
           1.8,
           29,
@@ -2898,57 +2890,56 @@
           32.6
         ]
       },
-      id: "1CAD1025C508E89A",
-      tasks: [
+      "size": 1,
+      "id": "1CAD1025C508E89A",
+      "tasks": [
         {
-          id: "6D7C79782D5EDD9C",
-          type: "item",
-          item: {
-            id: "extendedae:assembler_matrix_frame",
-            count: 1
+          "id": "6D7C79782D5EDD9C",
+          "type": "item",
+          "item": {
+            "id": "extendedae:assembler_matrix_frame",
+            "count": 1
           }
         },
         {
-          id: "73EA439E6C5648FE",
-          type: "item",
-          item: {
-            id: "extendedae:assembler_matrix_crafter",
-            count: 1
+          "id": "73EA439E6C5648FE",
+          "type": "item",
+          "item": {
+            "id": "extendedae:assembler_matrix_crafter",
+            "count": 1
           }
         },
         {
-          id: "68E146F39729AEBB",
-          type: "item",
-          item: {
-            id: "extendedae:assembler_matrix_pattern",
-            count: 1
+          "id": "68E146F39729AEBB",
+          "type": "item",
+          "item": {
+            "id": "extendedae:assembler_matrix_pattern",
+            "count": 1
           }
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "644C5526EB8335C9",
-          type: "xp",
-          xp: 250
+          "id": "644C5526EB8335C9",
+          "type": "xp",
+          "xp": 250
         },
         {
-          id: "0049553BF12E410E",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 2210856162803377
+          "id": "0049553BF12E410E",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2210856162803377
         }
       ]
     },
     {
-      optional: true,
-      x: 3.6,
-      y: 32.6,
-      dependencies: [
+      "x": 3.6,
+      "y": 32.6,
+      "shape": "diamond",
+      "dependencies": [
         "3DCF583935A1592C"
       ],
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {
+      "dep_control_pts": {
         "3DCF583935A1592C": [
           1.8,
           29,
@@ -2956,44 +2947,44 @@
           32.6
         ]
       },
-      id: "3AEE430308F06724",
-      tasks: [
+      "size": 1,
+      "optional": true,
+      "id": "3AEE430308F06724",
+      "tasks": [
         {
-          id: "6F65E573C328E05A",
-          type: "item",
-          item: {
-            id: "extendedae:wireless_connect",
-            count: 1
+          "id": "6F65E573C328E05A",
+          "type": "item",
+          "item": {
+            "id": "extendedae:wireless_connect",
+            "count": 1
           },
-          count: 2
+          "count": 2
         },
         {
-          id: "69695E551649BB47",
-          type: "item",
-          item: {
-            id: "extendedae:wireless_tool",
-            count: 1
+          "id": "69695E551649BB47",
+          "type": "item",
+          "item": {
+            "id": "extendedae:wireless_tool",
+            "count": 1
           }
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "773C952539EE2150",
-          type: "xp",
-          xp: 75
+          "id": "773C952539EE2150",
+          "type": "xp",
+          "xp": 75
         }
       ]
     },
     {
-      optional: true,
-      x: 5.4,
-      y: 32.6,
-      dependencies: [
+      "x": 5.4,
+      "y": 32.6,
+      "shape": "diamond",
+      "dependencies": [
         "3DCF583935A1592C"
       ],
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {
+      "dep_control_pts": {
         "3DCF583935A1592C": [
           1.8,
           29,
@@ -3001,37 +2992,37 @@
           32.6
         ]
       },
-      id: "3BCEABAC45095316",
-      tasks: [
+      "size": 1,
+      "optional": true,
+      "id": "3BCEABAC45095316",
+      "tasks": [
         {
-          id: "3DE96626BF756529",
-          type: "item",
-          item: {
-            id: "extendedae:entro_crystal",
-            count: 1
+          "id": "3DE96626BF756529",
+          "type": "item",
+          "item": {
+            "id": "extendedae:entro_crystal",
+            "count": 1
           },
-          count: 8
+          "count": 8
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "3923DF58DFB9DF8D",
-          type: "xp",
-          xp: 75
+          "id": "3923DF58DFB9DF8D",
+          "type": "xp",
+          "xp": 75
         }
       ]
     },
     {
-      optional: true,
-      x: 3.6,
-      y: 29,
-      dependencies: [
+      "x": 3.6,
+      "y": 29,
+      "shape": "diamond",
+      "hide_dependency_lines": true,
+      "dependencies": [
         "6484448D54D8BEF5"
       ],
-      hide_dependency_lines: true,
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {
+      "dep_control_pts": {
         "6484448D54D8BEF5": [
           0,
           14.5,
@@ -3039,48 +3030,49 @@
           29
         ]
       },
-      id: "504F1061E850B2FF",
-      tasks: [
+      "size": 1,
+      "optional": true,
+      "id": "504F1061E850B2FF",
+      "tasks": [
         {
-          id: "6C38C9D244B9E96A",
-          type: "item",
-          item: {
-            id: "appflux:flux_accessor",
-            count: 1
+          "id": "6C38C9D244B9E96A",
+          "type": "item",
+          "item": {
+            "id": "appflux:flux_accessor",
+            "count": 1
           }
         },
         {
-          id: "4F2A3A56C29AD731",
-          type: "item",
-          item: {
-            id: "appflux:fe_1k_cell",
-            count: 1
+          "id": "4F2A3A56C29AD731",
+          "type": "item",
+          "item": {
+            "id": "appflux:fe_1k_cell",
+            "count": 1
           }
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "7CFC8B070DBB5859",
-          type: "xp",
-          xp: 150
+          "id": "7CFC8B070DBB5859",
+          "type": "xp",
+          "xp": 150
         },
         {
-          id: "5DED181ADF022D16",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 2612120196957929
+          "id": "5DED181ADF022D16",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2612120196957929
         }
       ]
     },
     {
-      x: 3.6,
-      y: 24.9,
-      dependencies: [
+      "x": 3.6,
+      "y": 24.9,
+      "shape": "circle",
+      "dependencies": [
         "4B50BCB44EDF65B6"
       ],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {
+      "dep_control_pts": {
         "4B50BCB44EDF65B6": [
           1.8,
           20.4,
@@ -3088,42 +3080,41 @@
           24.9
         ]
       },
-      id: "16356B8188D0413D",
-      tasks: [
+      "size": 1,
+      "id": "16356B8188D0413D",
+      "tasks": [
         {
-          id: "503E80CFABB950E1",
-          type: "item",
-          item: {
-            id: "aeinfinitybooster:infinity_card",
-            count: 1
+          "id": "503E80CFABB950E1",
+          "type": "item",
+          "item": {
+            "id": "aeinfinitybooster:infinity_card",
+            "count": 1
           }
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "55170A5F7ED8C751",
-          type: "xp",
-          xp: 150
+          "id": "55170A5F7ED8C751",
+          "type": "xp",
+          "xp": 150
         },
         {
-          id: "36237F587FE66E77",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 2210856162803377
+          "id": "36237F587FE66E77",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2210856162803377
         }
       ]
     },
     {
-      optional: true,
-      x: 5.4,
-      y: 29,
-      dependencies: [
+      "x": 5.4,
+      "y": 29,
+      "shape": "diamond",
+      "hide_dependency_lines": true,
+      "dependencies": [
         "2A2390FE4DD4843F"
       ],
-      hide_dependency_lines: true,
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {
+      "dep_control_pts": {
         "2A2390FE4DD4843F": [
           1.8,
           14.5,
@@ -3131,36 +3122,36 @@
           29
         ]
       },
-      id: "22794BCF72C37648",
-      tasks: [
+      "size": 1,
+      "optional": true,
+      "id": "22794BCF72C37648",
+      "tasks": [
         {
-          id: "5BEBB440C6932B5D",
-          type: "item",
-          item: {
-            id: "enderdrives:ender_disk_1k",
-            count: 1
+          "id": "5BEBB440C6932B5D",
+          "type": "item",
+          "item": {
+            "id": "enderdrives:ender_disk_1k",
+            "count": 1
           }
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "30C0E28C909E834E",
-          type: "xp",
-          xp: 100
+          "id": "30C0E28C909E834E",
+          "type": "xp",
+          "xp": 100
         }
       ]
     },
     {
-      optional: true,
-      x: 13.4,
-      y: 32.6,
-      dependencies: [
+      "x": 13.4,
+      "y": 32.6,
+      "shape": "diamond",
+      "hide_dependency_lines": true,
+      "dependencies": [
         "2A2390FE4DD4843F"
       ],
-      hide_dependency_lines: true,
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {
+      "dep_control_pts": {
         "2A2390FE4DD4843F": [
           1.8,
           14.5,
@@ -3168,50 +3159,51 @@
           32.6
         ]
       },
-      id: "1921A0024EF4410C",
-      tasks: [
+      "size": 1,
+      "optional": true,
+      "id": "1921A0024EF4410C",
+      "tasks": [
         {
-          id: "5A958520532B5BEF",
-          type: "item",
-          item: {
-            id: "replication:raw_replica",
-            count: 1
+          "id": "5A958520532B5BEF",
+          "type": "item",
+          "item": {
+            "id": "replication:raw_replica",
+            "count": 1
           },
-          count: 4
+          "count": 4
         },
         {
-          id: "77BB93CC4A293D8C",
-          type: "item",
-          item: {
-            id: "replication:replica_ingot",
-            count: 1
+          "id": "77BB93CC4A293D8C",
+          "type": "item",
+          "item": {
+            "id": "replication:replica_ingot",
+            "count": 1
           },
-          count: 4
+          "count": 4
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "368977AB485FB111",
-          type: "xp",
-          xp: 150
+          "id": "368977AB485FB111",
+          "type": "xp",
+          "xp": 150
         },
         {
-          id: "517C11DD5DADB44E",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 2612120196957929
+          "id": "517C11DD5DADB44E",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2612120196957929
         }
       ]
     },
     {
-      x: 17,
-      y: 31.7,
-      dependencies: [
+      "x": 17,
+      "y": 31.7,
+      "shape": "circle",
+      "dependencies": [
         "1921A0024EF4410C"
       ],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {
+      "dep_control_pts": {
         "1921A0024EF4410C": [
           13.4,
           32.6,
@@ -3219,64 +3211,64 @@
           31.7
         ]
       },
-      id: "1C47D1636E5D8ADC",
-      tasks: [
+      "size": 1,
+      "id": "1C47D1636E5D8ADC",
+      "tasks": [
         {
-          id: "46AB160566102818",
-          type: "item",
-          item: {
-            id: "replication:identification_chamber",
-            count: 1
+          "id": "46AB160566102818",
+          "type": "item",
+          "item": {
+            "id": "replication:identification_chamber",
+            "count": 1
           }
         },
         {
-          id: "6FE307A107B414FD",
-          type: "item",
-          item: {
-            id: "replication:disintegrator",
-            count: 1
+          "id": "6FE307A107B414FD",
+          "type": "item",
+          "item": {
+            "id": "replication:disintegrator",
+            "count": 1
           }
         },
         {
-          id: "6344E4A6E88D73F7",
-          type: "item",
-          item: {
-            id: "replication:replicator",
-            count: 1
+          "id": "6344E4A6E88D73F7",
+          "type": "item",
+          "item": {
+            "id": "replication:replicator",
+            "count": 1
           }
         },
         {
-          id: "19981AAFC547116F",
-          type: "item",
-          item: {
-            id: "replication:memory_chip",
-            count: 1
+          "id": "19981AAFC547116F",
+          "type": "item",
+          "item": {
+            "id": "replication:memory_chip",
+            "count": 1
           }
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "72534A61F32A60CF",
-          type: "xp",
-          xp: 250
+          "id": "72534A61F32A60CF",
+          "type": "xp",
+          "xp": 250
         },
         {
-          id: "1E20FC727F49EDB9",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 2210856162803377
+          "id": "1E20FC727F49EDB9",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2210856162803377
         }
       ]
     },
     {
-      x: 18.8,
-      y: 32.6,
-      dependencies: [
+      "x": 18.8,
+      "y": 32.6,
+      "shape": "circle",
+      "dependencies": [
         "1C47D1636E5D8ADC"
       ],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {
+      "dep_control_pts": {
         "1C47D1636E5D8ADC": [
           17,
           31.7,
@@ -3284,44 +3276,43 @@
           32.6
         ]
       },
-      id: "3A618E03A0055D60",
-      tasks: [
+      "size": 1,
+      "id": "3A618E03A0055D60",
+      "tasks": [
         {
-          id: "3779736D1844D45A",
-          type: "item",
-          item: {
-            id: "apprep:replication_connector",
-            count: 1
+          "id": "3779736D1844D45A",
+          "type": "item",
+          "item": {
+            "id": "apprep:replication_connector",
+            "count": 1
           }
         },
         {
-          id: "4E3C3F0703BB46C8",
-          type: "item",
-          item: {
-            id: "apprep:matter_cell_1k",
-            count: 1
+          "id": "4E3C3F0703BB46C8",
+          "type": "item",
+          "item": {
+            "id": "apprep:matter_cell_1k",
+            "count": 1
           }
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "3FBB6811A5F9C09E",
-          type: "xp",
-          xp: 150
+          "id": "3FBB6811A5F9C09E",
+          "type": "xp",
+          "xp": 150
         }
       ]
     },
     {
-      optional: true,
-      x: 2.7,
-      y: 30.8,
-      dependencies: [
+      "x": 2.7,
+      "y": 30.8,
+      "shape": "diamond",
+      "hide_dependency_lines": true,
+      "dependencies": [
         "2A2390FE4DD4843F"
       ],
-      hide_dependency_lines: true,
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {
+      "dep_control_pts": {
         "2A2390FE4DD4843F": [
           1.8,
           14.5,
@@ -3329,173 +3320,142 @@
           30.8
         ]
       },
-      id: "45A49363645D4CCE",
-      tasks: [
+      "size": 1,
+      "optional": true,
+      "id": "45A49363645D4CCE",
+      "tasks": [
         {
-          id: "19D4216C6A3C6830",
-          type: "item",
-          item: {
-            id: "appliedthaumaturge:essentia_cell_1k",
-            count: 1
+          "id": "19D4216C6A3C6830",
+          "type": "item",
+          "item": {
+            "id": "appliedthaumaturge:essentia_cell_1k",
+            "count": 1
           }
         },
         {
-          id: "0F6D9CD1F7F7456D",
-          type: "item",
-          item: {
-            id: "appliedthaumaturge:essentia_terminal",
-            count: 1
+          "id": "0F6D9CD1F7F7456D",
+          "type": "item",
+          "item": {
+            "id": "appliedthaumaturge:essentia_terminal",
+            "count": 1
           }
         }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "61805064663ABB2D",
-          type: "xp",
-          xp: 150
+          "id": "61805064663ABB2D",
+          "type": "xp",
+          "xp": 150
         },
         {
-          id: "52835D32E2FFADA3",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 4314132029995036
+          "id": "52835D32E2FFADA3",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 4314132029995036
         }
       ]
     }
   ],
-  quest_links: [],
-  images: [
+  "quest_links": [],
+  "images": [
     {
-      x: 10.3,
-      y: -1.7188,
-      width: 12,
-      height: 1.4375,
-      rotation: 0,
-      image: "gspack:textures/quests/ae2_header.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false
+      "x": 10.3,
+      "y": -1.7188,
+      "width": 12,
+      "height": 1.4375,
+      "rotation": 0,
+      "image": "gspack:textures/quests/ae2_header.png",
+      "id": "2D5038A750DB8A2F"
     },
     {
-      x: -2.4529,
-      y: 0.8,
-      width: 3.1059,
-      height: 0.6,
-      rotation: 0,
-      image: "gspack:textures/quests/ae2_cable.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false
+      "x": -2.4529,
+      "y": 0.8,
+      "width": 3.1059,
+      "height": 0.6,
+      "rotation": 0,
+      "image": "gspack:textures/quests/ae2_cable.png",
+      "id": "3E54DAA9F50258AF"
     },
     {
-      x: -2.4353,
-      y: 29,
-      width: 3.0706,
-      height: 0.6,
-      rotation: 0,
-      image: "gspack:textures/quests/ae2_ex_start.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false
+      "x": -2.4353,
+      "y": 29,
+      "width": 3.0706,
+      "height": 0.6,
+      "rotation": 0,
+      "image": "gspack:textures/quests/ae2_ex_start.png",
+      "id": "3AD4DD81B478A52E"
     },
     {
-      x: -2.0294,
-      y: 22.2,
-      width: 2.2588,
-      height: 0.6,
-      rotation: 0,
-      image: "gspack:textures/quests/ae2_wireless.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false
+      "x": -2.0294,
+      "y": 22.2,
+      "width": 2.2588,
+      "height": 0.6,
+      "rotation": 0,
+      "image": "gspack:textures/quests/ae2_wireless.png",
+      "id": "3DBE9D9C99EE5832"
     },
     {
-      x: 12.0235,
-      y: 11.8,
-      width: 4.5529,
-      height: 0.6,
-      rotation: 0,
-      image: "gspack:textures/quests/ae2_terminal.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false
+      "x": 12.0235,
+      "y": 11.8,
+      "width": 4.5529,
+      "height": 0.6,
+      "rotation": 0,
+      "image": "gspack:textures/quests/ae2_terminal.png",
+      "id": "1FD5BA7A47C92EC8"
     },
     {
-      x: -2.7353,
-      y: 24,
-      width: 3.6706,
-      height: 0.6,
-      rotation: 0,
-      image: "gspack:textures/quests/ae2_p2p.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false
+      "x": -2.7353,
+      "y": 24,
+      "width": 3.6706,
+      "height": 0.6,
+      "rotation": 0,
+      "image": "gspack:textures/quests/ae2_p2p.png",
+      "id": "3E0DE41AD25A1B08"
     },
     {
-      x: -2.0824,
-      y: 3.2,
-      width: 2.3647,
-      height: 0.6,
-      rotation: 0,
-      image: "gspack:textures/quests/ae2_presses.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false
+      "x": -2.0824,
+      "y": 3.2,
+      "width": 2.3647,
+      "height": 0.6,
+      "rotation": 0,
+      "image": "gspack:textures/quests/ae2_presses.png",
+      "id": "1A5D3316EAFCDE6B"
     },
     {
-      x: -3.1588,
-      y: 0,
-      width: 4.5176,
-      height: 0.6,
-      rotation: 0,
-      image: "gspack:textures/quests/ae2_certus.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false
+      "x": -3.1588,
+      "y": 0,
+      "width": 4.5176,
+      "height": 0.6,
+      "rotation": 0,
+      "image": "gspack:textures/quests/ae2_certus.png",
+      "id": "30B171C8357BE7C6"
     },
     {
-      x: -1.9588,
-      y: 14.5,
-      width: 2.1176,
-      height: 0.6,
-      rotation: 0,
-      image: "gspack:textures/quests/ae2_drive.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false
+      "x": -1.9588,
+      "y": 14.5,
+      "width": 2.1176,
+      "height": 0.6,
+      "rotation": 0,
+      "image": "gspack:textures/quests/ae2_drive.png",
+      "id": "68D496EA6B881E47"
     },
     {
-      x: 10.9471,
-      y: 30.8,
-      width: 3.1059,
-      height: 0.6,
-      rotation: 0,
-      image: "gspack:textures/quests/ae2_adv_ae.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false
+      "x": 10.9471,
+      "y": 30.8,
+      "width": 3.1059,
+      "height": 0.6,
+      "rotation": 0,
+      "image": "gspack:textures/quests/ae2_adv_ae.png",
+      "id": "570B694FF08EFB79"
     },
     {
-      x: 9.1824,
-      y: 23.1,
-      width: 3.0353,
-      height: 0.6,
-      rotation: 0,
-      image: "gspack:textures/quests/ae2_pattern.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false
+      "x": 9.1824,
+      "y": 23.1,
+      "width": 3.0353,
+      "height": 0.6,
+      "rotation": 0,
+      "image": "gspack:textures/quests/ae2_pattern.png",
+      "id": "0CD9A0575FC54FED"
     }
   ]
 }

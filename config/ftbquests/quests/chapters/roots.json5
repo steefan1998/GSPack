@@ -1,664 +1,790 @@
 {
-  id: "2C19BB0712B6C63A",
-  group: "591262DAFEE441AF",
-  order_index: 6,
-  icon: {
-    id: "rootsclassic:staff",
-    count: 1,
+  "id": "2C19BB0712B6C63A",
+  "group": "591262DAFEE441AF",
+  "order_index": 16,
+  "icon": {
+    "id": "rootsclassic:staff",
+    "count": 1
   },
-  filename: "roots",
-  default_quest_shape: "",
-  default_hide_dependency_lines: false,
-  quests: [
+  "filename": "roots",
+  "default_quest_shape": "",
+  "default_hide_dependency_lines": false,
+  "quests": [
     {
-      x: 0,
-      y: 0.9,
-      shape: "gear",
-      size: 1.3,
-      id: "48B5626F56522A07",
-      tasks: [
+      "x": 0,
+      "y": 0.9,
+      "shape": "gear",
+      "size": 1.3,
+      "id": "48B5626F56522A07",
+      "tasks": [
         {
-          id: "52C653A81E9D03F3",
-          type: "item",
-          item: {
-            id: "rootsclassic:runic_tablet",
-            count: 1,
-          },
-        },
+          "id": "52C653A81E9D03F3",
+          "type": "item",
+          "item": {
+            "id": "rootsclassic:runic_tablet",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "0703A3FEA1E014DD",
-          type: "xp",
-          xp: 50,
+          "id": "0703A3FEA1E014DD",
+          "type": "xp",
+          "xp": 50
         },
         {
-          id: "3C4AE317BF0E3EC6",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 4224964620844649,
-        },
-      ],
+          "id": "3C4AE317BF0E3EC6",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 4224964620844649
+        }
+      ]
     },
     {
-      x: 1.8,
-      y: 0,
-      dependencies: ["48B5626F56522A07"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"48B5626F56522A07":[0,0.9,1.8,0]},
-      id: "060E2612E2122034",
-      tasks: [
-        {
-          id: "7EB8EF72943B35C8",
-          type: "item",
-          item: {
-            id: "rootsclassic:bark_knife",
-            count: 1,
-          },
-        },
-        {
-          id: "7C0BE28F23D34FD4",
-          type: "item",
-          item: {
-            id: "rootsclassic:oak_bark",
-            count: 1,
-          },
-          count: 8,
-        },
+      "x": 1.8,
+      "y": 0,
+      "shape": "circle",
+      "dependencies": [
+        "48B5626F56522A07"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "48B5626F56522A07": [
+          0,
+          0.9,
+          1.8,
+          0
+        ]
+      },
+      "size": 1,
+      "id": "060E2612E2122034",
+      "tasks": [
         {
-          id: "0F25736BB85EE4F9",
-          type: "xp",
-          xp: 50,
+          "id": "7EB8EF72943B35C8",
+          "type": "item",
+          "item": {
+            "id": "rootsclassic:bark_knife",
+            "count": 1
+          }
         },
+        {
+          "id": "7C0BE28F23D34FD4",
+          "type": "item",
+          "item": {
+            "id": "rootsclassic:oak_bark",
+            "count": 1
+          },
+          "count": 8
+        }
       ],
+      "rewards": [
+        {
+          "id": "0F25736BB85EE4F9",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
     },
     {
-      x: 1.8,
-      y: 1.8,
-      dependencies: ["48B5626F56522A07"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"48B5626F56522A07":[0,0.9,1.8,1.8]},
-      id: "20AFD499F96DC28D",
-      tasks: [
-        {
-          id: "129BBCE0FCC4454B",
-          type: "item",
-          item: {
-            id: "rootsclassic:old_root",
-            count: 1,
-          },
-          count: 4,
-        },
-        {
-          id: "1F8FF2487CD14874",
-          type: "item",
-          item: {
-            id: "rootsclassic:verdant_sprig",
-            count: 1,
-          },
-          count: 4,
-        },
+      "x": 1.8,
+      "y": 1.8,
+      "shape": "circle",
+      "dependencies": [
+        "48B5626F56522A07"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "48B5626F56522A07": [
+          0,
+          0.9,
+          1.8,
+          1.8
+        ]
+      },
+      "size": 1,
+      "id": "20AFD499F96DC28D",
+      "tasks": [
         {
-          id: "3D1A203824371988",
-          type: "xp",
-          xp: 50,
+          "id": "129BBCE0FCC4454B",
+          "type": "item",
+          "item": {
+            "id": "rootsclassic:old_root",
+            "count": 1
+          },
+          "count": 4
         },
+        {
+          "id": "1F8FF2487CD14874",
+          "type": "item",
+          "item": {
+            "id": "rootsclassic:verdant_sprig",
+            "count": 1
+          },
+          "count": 4
+        }
       ],
+      "rewards": [
+        {
+          "id": "3D1A203824371988",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
     },
     {
-      x: 3.6,
-      y: 0,
-      optional: true,
-      dependencies: ["20AFD499F96DC28D"],
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"20AFD499F96DC28D":[1.8,1.8,3.6,0]},
-      id: "4F7E0F59656282CB",
-      tasks: [
-        {
-          id: "3AE303CDFCF261D3",
-          type: "item",
-          item: {
-            id: "rootsclassic:elderberry",
-            count: 1,
-          },
-          count: 4,
-        },
-        {
-          id: "60073A39B964F709",
-          type: "item",
-          item: {
-            id: "rootsclassic:blackcurrant",
-            count: 1,
-          },
-          count: 4,
-        },
+      "x": 3.6,
+      "y": 0,
+      "shape": "diamond",
+      "dependencies": [
+        "20AFD499F96DC28D"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "20AFD499F96DC28D": [
+          1.8,
+          1.8,
+          3.6,
+          0
+        ]
+      },
+      "size": 1,
+      "optional": true,
+      "id": "4F7E0F59656282CB",
+      "tasks": [
         {
-          id: "691D4E54A32431A8",
-          type: "xp",
-          xp: 25,
+          "id": "3AE303CDFCF261D3",
+          "type": "item",
+          "item": {
+            "id": "rootsclassic:elderberry",
+            "count": 1
+          },
+          "count": 4
         },
+        {
+          "id": "60073A39B964F709",
+          "type": "item",
+          "item": {
+            "id": "rootsclassic:blackcurrant",
+            "count": 1
+          },
+          "count": 4
+        }
       ],
+      "rewards": [
+        {
+          "id": "691D4E54A32431A8",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
     },
     {
-      x: 3.6,
-      y: 1.8,
-      dependencies: ["060E2612E2122034","20AFD499F96DC28D"],
-      shape: "hexagon",
-      size: 1,
-      dep_control_pts: {"060E2612E2122034":[1.8,0,3.6,1.8],"20AFD499F96DC28D":[1.8,1.8,3.6,1.8]},
-      id: "5D66F377F4D2A7E9",
-      tasks: [
-        {
-          id: "7C3388CA51374727",
-          type: "item",
-          item: {
-            id: "rootsclassic:mortar",
-            count: 1,
-          },
-        },
-        {
-          id: "45A4F35BD6CD9C83",
-          type: "item",
-          item: {
-            id: "rootsclassic:pestle",
-            count: 1,
-          },
-        },
+      "x": 3.6,
+      "y": 1.8,
+      "shape": "hexagon",
+      "dependencies": [
+        "060E2612E2122034",
+        "20AFD499F96DC28D"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "060E2612E2122034": [
+          1.8,
+          0,
+          3.6,
+          1.8
+        ],
+        "20AFD499F96DC28D": [
+          1.8,
+          1.8,
+          3.6,
+          1.8
+        ]
+      },
+      "size": 1,
+      "id": "5D66F377F4D2A7E9",
+      "tasks": [
         {
-          id: "4949D38F0055FD40",
-          type: "xp",
-          xp: 75,
+          "id": "7C3388CA51374727",
+          "type": "item",
+          "item": {
+            "id": "rootsclassic:mortar",
+            "count": 1
+          }
         },
+        {
+          "id": "45A4F35BD6CD9C83",
+          "type": "item",
+          "item": {
+            "id": "rootsclassic:pestle",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "4949D38F0055FD40",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
     },
     {
-      x: 5.4,
-      y: 0,
-      dependencies: ["5D66F377F4D2A7E9"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"5D66F377F4D2A7E9":[3.6,1.8,5.4,0]},
-      id: "570C9373E09DB641",
-      tasks: [
+      "x": 5.4,
+      "y": 0,
+      "shape": "circle",
+      "dependencies": [
+        "5D66F377F4D2A7E9"
+      ],
+      "dep_control_pts": {
+        "5D66F377F4D2A7E9": [
+          3.6,
+          1.8,
+          5.4,
+          0
+        ]
+      },
+      "size": 1,
+      "id": "570C9373E09DB641",
+      "tasks": [
         {
-          id: "73F15E5DCC79A1D8",
-          type: "item",
-          item: {
-            id: "rootsclassic:growth_powder",
-            count: 1,
+          "id": "73F15E5DCC79A1D8",
+          "type": "item",
+          "item": {
+            "id": "rootsclassic:growth_powder",
+            "count": 1
           },
-          count: 8,
-        },
+          "count": 8
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "4B80CED5CEC28E7D",
-          type: "xp",
-          xp: 50,
-        },
-      ],
+          "id": "4B80CED5CEC28E7D",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
     },
     {
-      x: 5.4,
-      y: 1.8,
-      optional: true,
-      dependencies: ["5D66F377F4D2A7E9"],
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"5D66F377F4D2A7E9":[3.6,1.8,5.4,1.8]},
-      id: "6D5A4299B6BB53DE",
-      tasks: [
+      "x": 5.4,
+      "y": 1.8,
+      "shape": "diamond",
+      "dependencies": [
+        "5D66F377F4D2A7E9"
+      ],
+      "dep_control_pts": {
+        "5D66F377F4D2A7E9": [
+          3.6,
+          1.8,
+          5.4,
+          1.8
+        ]
+      },
+      "size": 1,
+      "optional": true,
+      "id": "6D5A4299B6BB53DE",
+      "tasks": [
         {
-          id: "0F6F56A2A397EF97",
-          type: "item",
-          item: {
-            id: "rootsclassic:healing_poultice",
-            count: 1,
+          "id": "0F6F56A2A397EF97",
+          "type": "item",
+          "item": {
+            "id": "rootsclassic:healing_poultice",
+            "count": 1
           },
-          count: 2,
-        },
+          "count": 2
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "73C2F465FC2D9A5B",
-          type: "xp",
-          xp: 50,
-        },
-      ],
+          "id": "73C2F465FC2D9A5B",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
     },
     {
-      x: 13.4,
-      y: 0,
-      dependencies: ["5D66F377F4D2A7E9"],
-      hide_dependency_lines: true,
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"5D66F377F4D2A7E9":[3.6,1.8,13.4,0]},
-      id: "61695EC9B8EEBDDD",
-      tasks: [
-        {
-          id: "67E608F1F67E323F",
-          type: "item",
-          item: {
-            id: "rootsclassic:spell_powder",
-            count: 1,
-          },
-        },
+      "x": 13.4,
+      "y": 0,
+      "shape": "circle",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "5D66F377F4D2A7E9"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "5D66F377F4D2A7E9": [
+          3.6,
+          1.8,
+          13.4,
+          0
+        ]
+      },
+      "size": 1,
+      "id": "61695EC9B8EEBDDD",
+      "tasks": [
         {
-          id: "16CCCDAB78A5ABE2",
-          type: "xp",
-          xp: 100,
-        },
-        {
-          id: "5A76AA8DA07624EB",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 4314132029995036,
-        },
+          "id": "67E608F1F67E323F",
+          "type": "item",
+          "item": {
+            "id": "rootsclassic:spell_powder",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "16CCCDAB78A5ABE2",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "5A76AA8DA07624EB",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 4314132029995036
+        }
+      ]
     },
     {
-      x: 13.4,
-      y: 1.8,
-      dependencies: ["61695EC9B8EEBDDD"],
-      shape: "gear",
-      size: 1.3,
-      dep_control_pts: {"61695EC9B8EEBDDD":[13.4,0,13.4,1.8]},
-      id: "444C6EDFF52F9151",
-      tasks: [
-        {
-          id: "32CAB1787E73259B",
-          type: "item",
-          item: {
-            id: "rootsclassic:staff",
-            count: 1,
-          },
-        },
-        {
-          id: "60328EAF82363AEC",
-          type: "item",
-          item: {
-            id: "rootsclassic:imbuer",
-            count: 1,
-          },
-        },
+      "x": 13.4,
+      "y": 1.8,
+      "shape": "gear",
+      "dependencies": [
+        "61695EC9B8EEBDDD"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "61695EC9B8EEBDDD": [
+          13.4,
+          0,
+          13.4,
+          1.8
+        ]
+      },
+      "size": 1.3,
+      "id": "444C6EDFF52F9151",
+      "tasks": [
         {
-          id: "5DAF3A68E815FA6B",
-          type: "xp",
-          xp: 150,
+          "id": "32CAB1787E73259B",
+          "type": "item",
+          "item": {
+            "id": "rootsclassic:staff",
+            "count": 1
+          }
         },
         {
-          id: "6F36B99772C7936D",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 4314132029995036,
-        },
+          "id": "60328EAF82363AEC",
+          "type": "item",
+          "item": {
+            "id": "rootsclassic:imbuer",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "5DAF3A68E815FA6B",
+          "type": "xp",
+          "xp": 150
+        },
+        {
+          "id": "6F36B99772C7936D",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 4314132029995036
+        }
+      ]
     },
     {
-      x: 13.4,
-      y: 3.6,
-      optional: true,
-      dependencies: ["444C6EDFF52F9151"],
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"444C6EDFF52F9151":[13.4,1.8,13.4,3.6]},
-      id: "3CEC3DABA7041067",
-      tasks: [
-        {
-          id: "3B5326B075281542",
-          type: "item",
-          item: {
-            id: "rootsclassic:crystal_staff",
-            count: 1,
-          },
-        },
+      "x": 13.4,
+      "y": 3.6,
+      "shape": "diamond",
+      "dependencies": [
+        "444C6EDFF52F9151"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "444C6EDFF52F9151": [
+          13.4,
+          1.8,
+          13.4,
+          3.6
+        ]
+      },
+      "size": 1,
+      "optional": true,
+      "id": "3CEC3DABA7041067",
+      "tasks": [
         {
-          id: "61CAF07582EDA260",
-          type: "xp",
-          xp: 150,
-        },
+          "id": "3B5326B075281542",
+          "type": "item",
+          "item": {
+            "id": "rootsclassic:crystal_staff",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "61CAF07582EDA260",
+          "type": "xp",
+          "xp": 150
+        }
+      ]
     },
     {
-      x: 21.4,
-      y: 0,
-      dependencies: ["5D66F377F4D2A7E9"],
-      hide_dependency_lines: true,
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"5D66F377F4D2A7E9":[3.6,1.8,21.4,0]},
-      id: "6ED22DE8413C81A3",
-      tasks: [
-        {
-          id: "627B3225739ED30C",
-          type: "item",
-          item: {
-            id: "rootsclassic:altar",
-            count: 1,
-          },
-        },
-        {
-          id: "57C4FD51DC18877C",
-          type: "item",
-          item: {
-            id: "rootsclassic:brazier",
-            count: 1,
-          },
-        },
+      "x": 21.4,
+      "y": 0,
+      "shape": "circle",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "5D66F377F4D2A7E9"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "5D66F377F4D2A7E9": [
+          3.6,
+          1.8,
+          21.4,
+          0
+        ]
+      },
+      "size": 1,
+      "id": "6ED22DE8413C81A3",
+      "tasks": [
         {
-          id: "1687706D04FDAD31",
-          type: "xp",
-          xp: 100,
+          "id": "627B3225739ED30C",
+          "type": "item",
+          "item": {
+            "id": "rootsclassic:altar",
+            "count": 1
+          }
         },
         {
-          id: "7B4C88430EC2A090",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 4314132029995036,
-        },
+          "id": "57C4FD51DC18877C",
+          "type": "item",
+          "item": {
+            "id": "rootsclassic:brazier",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "1687706D04FDAD31",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "7B4C88430EC2A090",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 4314132029995036
+        }
+      ]
     },
     {
-      x: 23.2,
-      y: 0,
-      dependencies: ["6ED22DE8413C81A3"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"6ED22DE8413C81A3":[21.4,0,23.2,0]},
-      id: "589402B978D9F963",
-      tasks: [
-        {
-          id: "474F13FB0CEC5044",
-          type: "item",
-          item: {
-            id: "rootsclassic:mundane_standing_stone",
-            count: 1,
-          },
-          count: 4,
-        },
-        {
-          id: "580447C0116B8E02",
-          type: "item",
-          item: {
-            id: "rootsclassic:attuned_standing_stone",
-            count: 1,
-          },
-          count: 4,
-        },
+      "x": 23.2,
+      "y": 0,
+      "shape": "circle",
+      "dependencies": [
+        "6ED22DE8413C81A3"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "6ED22DE8413C81A3": [
+          21.4,
+          0,
+          23.2,
+          0
+        ]
+      },
+      "size": 1,
+      "id": "589402B978D9F963",
+      "tasks": [
         {
-          id: "1FC48BB417284B6F",
-          type: "xp",
-          xp: 100,
+          "id": "474F13FB0CEC5044",
+          "type": "item",
+          "item": {
+            "id": "rootsclassic:mundane_standing_stone",
+            "count": 1
+          },
+          "count": 4
         },
+        {
+          "id": "580447C0116B8E02",
+          "type": "item",
+          "item": {
+            "id": "rootsclassic:attuned_standing_stone",
+            "count": 1
+          },
+          "count": 4
+        }
       ],
+      "rewards": [
+        {
+          "id": "1FC48BB417284B6F",
+          "type": "xp",
+          "xp": 100
+        }
+      ]
     },
     {
-      x: 25,
-      y: 0,
-      optional: true,
-      dependencies: ["589402B978D9F963"],
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"589402B978D9F963":[23.2,0,25,0]},
-      id: "7E182220D4EA2F94",
-      tasks: [
-        {
-          id: "26C9F05F2F6BE691",
-          type: "item",
-          item: {
-            id: "rootsclassic:grower_standing_stone",
-            count: 1,
-          },
-        },
-        {
-          id: "3F51AFD29BC19413",
-          type: "item",
-          item: {
-            id: "rootsclassic:healer_standing_stone",
-            count: 1,
-          },
-        },
+      "x": 25,
+      "y": 0,
+      "shape": "diamond",
+      "dependencies": [
+        "589402B978D9F963"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "589402B978D9F963": [
+          23.2,
+          0,
+          25,
+          0
+        ]
+      },
+      "size": 1,
+      "optional": true,
+      "id": "7E182220D4EA2F94",
+      "tasks": [
         {
-          id: "2E911A51DB9340AD",
-          type: "xp",
-          xp: 100,
+          "id": "26C9F05F2F6BE691",
+          "type": "item",
+          "item": {
+            "id": "rootsclassic:grower_standing_stone",
+            "count": 1
+          }
         },
+        {
+          "id": "3F51AFD29BC19413",
+          "type": "item",
+          "item": {
+            "id": "rootsclassic:healer_standing_stone",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "2E911A51DB9340AD",
+          "type": "xp",
+          "xp": 100
+        }
+      ]
     },
     {
-      x: 0,
-      y: 7.7,
-      dependencies: ["6ED22DE8413C81A3"],
-      hide_dependency_lines: true,
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"6ED22DE8413C81A3":[21.4,0,0,7.7]},
-      id: "13D8524B00A3D0F1",
-      tasks: [
-        {
-          id: "0FF6D9846C9A8704",
-          type: "item",
-          item: {
-            id: "rootsclassic:living_pickaxe",
-            count: 1,
-          },
-        },
-        {
-          id: "734E49B949C081E3",
-          type: "item",
-          item: {
-            id: "rootsclassic:living_sword",
-            count: 1,
-          },
-        },
+      "x": 0,
+      "y": 7.7,
+      "shape": "circle",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "6ED22DE8413C81A3"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "6ED22DE8413C81A3": [
+          21.4,
+          0,
+          0,
+          7.7
+        ]
+      },
+      "size": 1,
+      "id": "13D8524B00A3D0F1",
+      "tasks": [
         {
-          id: "1281118A3661046B",
-          type: "xp",
-          xp: 100,
+          "id": "0FF6D9846C9A8704",
+          "type": "item",
+          "item": {
+            "id": "rootsclassic:living_pickaxe",
+            "count": 1
+          }
         },
+        {
+          "id": "734E49B949C081E3",
+          "type": "item",
+          "item": {
+            "id": "rootsclassic:living_sword",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "1281118A3661046B",
+          "type": "xp",
+          "xp": 100
+        }
+      ]
     },
     {
-      x: 1.8,
-      y: 6.8,
-      dependencies: ["13D8524B00A3D0F1"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"13D8524B00A3D0F1":[0,7.7,1.8,6.8]},
-      id: "22D6ADDBDC4C7075",
-      tasks: [
-        {
-          id: "312FAE97C40FB079",
-          type: "item",
-          item: {
-            id: "rootsclassic:sylvan_hood",
-            count: 1,
-          },
-        },
-        {
-          id: "4A4899C822DE4527",
-          type: "item",
-          item: {
-            id: "rootsclassic:sylvan_robe",
-            count: 1,
-          },
-        },
-        {
-          id: "451B403674D3C6BB",
-          type: "item",
-          item: {
-            id: "rootsclassic:sylvan_tunic",
-            count: 1,
-          },
-        },
-        {
-          id: "1E95737BEF1CF404",
-          type: "item",
-          item: {
-            id: "rootsclassic:sylvan_boots",
-            count: 1,
-          },
-        },
+      "x": 1.8,
+      "y": 6.8,
+      "shape": "circle",
+      "dependencies": [
+        "13D8524B00A3D0F1"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "13D8524B00A3D0F1": [
+          0,
+          7.7,
+          1.8,
+          6.8
+        ]
+      },
+      "size": 1,
+      "id": "22D6ADDBDC4C7075",
+      "tasks": [
         {
-          id: "2B621C6651202E27",
-          type: "xp",
-          xp: 150,
+          "id": "312FAE97C40FB079",
+          "type": "item",
+          "item": {
+            "id": "rootsclassic:sylvan_hood",
+            "count": 1
+          }
         },
         {
-          id: "0C1A095218A6EE6F",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 2210856162803377,
+          "id": "4A4899C822DE4527",
+          "type": "item",
+          "item": {
+            "id": "rootsclassic:sylvan_robe",
+            "count": 1
+          }
         },
+        {
+          "id": "451B403674D3C6BB",
+          "type": "item",
+          "item": {
+            "id": "rootsclassic:sylvan_tunic",
+            "count": 1
+          }
+        },
+        {
+          "id": "1E95737BEF1CF404",
+          "type": "item",
+          "item": {
+            "id": "rootsclassic:sylvan_boots",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "2B621C6651202E27",
+          "type": "xp",
+          "xp": 150
+        },
+        {
+          "id": "0C1A095218A6EE6F",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2210856162803377
+        }
+      ]
     },
     {
-      x: 1.8,
-      y: 8.6,
-      dependencies: ["13D8524B00A3D0F1"],
-      shape: "gear",
-      size: 1.3,
-      dep_control_pts: {"13D8524B00A3D0F1":[0,7.7,1.8,8.6]},
-      id: "4BF975DA337660A2",
-      tasks: [
-        {
-          id: "2288C611159744FE",
-          type: "item",
-          item: {
-            id: "rootsclassic:wildwood_mask",
-            count: 1,
-          },
-        },
-        {
-          id: "4AC7B040AE24192A",
-          type: "item",
-          item: {
-            id: "rootsclassic:wildwood_plate",
-            count: 1,
-          },
-        },
-        {
-          id: "4C9A5AC8F9620B78",
-          type: "item",
-          item: {
-            id: "rootsclassic:wildwood_leggings",
-            count: 1,
-          },
-        },
-        {
-          id: "48978EDEED3C71D2",
-          type: "item",
-          item: {
-            id: "rootsclassic:wildwood_boots",
-            count: 1,
-          },
-        },
+      "x": 1.8,
+      "y": 8.6,
+      "shape": "gear",
+      "dependencies": [
+        "13D8524B00A3D0F1"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "13D8524B00A3D0F1": [
+          0,
+          7.7,
+          1.8,
+          8.6
+        ]
+      },
+      "size": 1.3,
+      "id": "4BF975DA337660A2",
+      "tasks": [
         {
-          id: "2C8F28C0BA9386D2",
-          type: "xp",
-          xp: 200,
+          "id": "2288C611159744FE",
+          "type": "item",
+          "item": {
+            "id": "rootsclassic:wildwood_mask",
+            "count": 1
+          }
         },
         {
-          id: "05B1D0CE574AA66A",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 2210856162803377,
+          "id": "4AC7B040AE24192A",
+          "type": "item",
+          "item": {
+            "id": "rootsclassic:wildwood_plate",
+            "count": 1
+          }
         },
+        {
+          "id": "4C9A5AC8F9620B78",
+          "type": "item",
+          "item": {
+            "id": "rootsclassic:wildwood_leggings",
+            "count": 1
+          }
+        },
+        {
+          "id": "48978EDEED3C71D2",
+          "type": "item",
+          "item": {
+            "id": "rootsclassic:wildwood_boots",
+            "count": 1
+          }
+        }
       ],
-    },
+      "rewards": [
+        {
+          "id": "2C8F28C0BA9386D2",
+          "type": "xp",
+          "xp": 200
+        },
+        {
+          "id": "05B1D0CE574AA66A",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2210856162803377
+        }
+      ]
+    }
   ],
-  quest_links: [
-  ],
-  images: [
-  {
-    "x": 12.5,
-    "y": -1.7188,
-    "width": 12,
-    "height": 1.4375,
-    "rotation": 0,
-    "image": "gspack:textures/quests/roots_header.png",
-    "color": 16777215,
-    "alpha": 255,
-    "order": 0,
-    "corner": false
-  },
-  {
-    "x": 19.5294,
-    "y": 0,
-    "width": 1.9412,
-    "height": 0.6,
-    "rotation": 0,
-    "image": "gspack:textures/quests/roots_altar.png",
-    "color": 16777215,
-    "alpha": 255,
-    "order": 0,
-    "corner": false
-  },
-  {
-    "x": -2.1882,
-    "y": 0.9,
-    "width": 2.5765,
-    "height": 0.6,
-    "rotation": 0,
-    "image": "gspack:textures/quests/roots_tablet.png",
-    "color": 16777215,
-    "alpha": 255,
-    "order": 0,
-    "corner": false
-  },
-  {
-    "x": -1.6588,
-    "y": 7.7,
-    "width": 1.5176,
-    "height": 0.6,
-    "rotation": 0,
-    "image": "gspack:textures/quests/roots_living_tools.png",
-    "color": 16777215,
-    "alpha": 255,
-    "order": 0,
-    "corner": false
-  },
-  {
-    "x": 11.6353,
-    "y": 0,
-    "width": 1.7294,
-    "height": 0.6,
-    "rotation": 0,
-    "image": "gspack:textures/quests/roots_spell.png",
-    "color": 16777215,
-    "alpha": 255,
-    "order": 0,
-    "corner": false
-  }
-],
+  "quest_links": [],
+  "images": [
+    {
+      "x": 12.5,
+      "y": -1.7188,
+      "width": 12,
+      "height": 1.4375,
+      "rotation": 0,
+      "image": "gspack:textures/quests/roots_header.png",
+      "id": "5D0CEA88DE44CD9A"
+    },
+    {
+      "x": 19.5294,
+      "y": 0,
+      "width": 1.9412,
+      "height": 0.6,
+      "rotation": 0,
+      "image": "gspack:textures/quests/roots_altar.png",
+      "id": "1EB3B3F0403FEB01"
+    },
+    {
+      "x": -2.1882,
+      "y": 0.9,
+      "width": 2.5765,
+      "height": 0.6,
+      "rotation": 0,
+      "image": "gspack:textures/quests/roots_tablet.png",
+      "id": "24ED28A8C72457E0"
+    },
+    {
+      "x": -1.6588,
+      "y": 7.7,
+      "width": 1.5176,
+      "height": 0.6,
+      "rotation": 0,
+      "image": "gspack:textures/quests/roots_living_tools.png",
+      "id": "18B8D77DB1E57B91"
+    },
+    {
+      "x": 11.6353,
+      "y": 0,
+      "width": 1.7294,
+      "height": 0.6,
+      "rotation": 0,
+      "image": "gspack:textures/quests/roots_spell.png",
+      "id": "397CB42957655172"
+    }
+  ]
 }

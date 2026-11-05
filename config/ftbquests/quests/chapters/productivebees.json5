@@ -1,1010 +1,1275 @@
 {
-  id: "7D44DAA272572D63",
-  group: "591262DAFEE441AF",
-  order_index: 29,
-  filename: "productivebees",
-  icon: {
-    count: 1,
-    id: "productivebees:advanced_oak_beehive",
+  "id": "7D44DAA272572D63",
+  "group": "4C68F1E2D6296E39",
+  "order_index": 22,
+  "icon": {
+    "id": "productivebees:advanced_oak_beehive",
+    "count": 1
   },
-  default_quest_shape: "",
-  default_hide_dependency_lines: false,
-  quests: [
+  "filename": "productivebees",
+  "default_quest_shape": "",
+  "default_hide_dependency_lines": false,
+  "quests": [
     {
-      shape: "gear",
-      size: 1.3,
-      id: "6137B0C653DF84EF",
-      x: 0,
-      y: 2.7,
-      tasks: [
+      "x": 0,
+      "y": 2.7,
+      "shape": "gear",
+      "size": 1.3,
+      "id": "6137B0C653DF84EF",
+      "tasks": [
         {
-          id: "7F147AE4D0A7C6DA",
-          type: "item",
-          item: {
-            count: 1,
-            id: "productivebees:book",
-          },
-        },
+          "id": "7F147AE4D0A7C6DA",
+          "type": "checkmark"
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "6CA72272DEA2B83E",
-          type: "xp",
-          xp: 50,
+          "id": "6CA72272DEA2B83E",
+          "type": "xp",
+          "xp": 50
         },
         {
-          id: "6EDE41DE255628C8",
-          type: "random",
-          table_id: 4224964620844649,
-        },
-      ],
+          "id": "6EDE41DE255628C8",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 4224964620844649
+        }
+      ]
     },
     {
-      dependencies: ["6137B0C653DF84EF"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"6137B0C653DF84EF":[0,2.7,1.8,2.7]},
-      id: "79ABCDE4E29D4B6E",
-      x: 1.8,
-      y: 2.7,
-      tasks: [
-        {
-          id: "72C67F0224B6C6B1",
-          type: "item",
-          item: {
-            count: 1,
-            id: "minecraft:honey_bottle",
-          },
-        },
-        {
-          id: "6EE3236A84625BB0",
-          type: "item",
-          item: {
-            count: 1,
-            id: "minecraft:honeycomb",
-          },
-        },
+      "x": 1.8,
+      "y": 2.7,
+      "shape": "circle",
+      "dependencies": [
+        "6137B0C653DF84EF"
       ],
-      rewards: [
-        {
-          id: "6E1A193E03FAF750",
-          type: "xp",
-          xp: 25,
-        },
-      ],
-    },
-    {
-      dependencies: ["79ABCDE4E29D4B6E"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"79ABCDE4E29D4B6E":[1.8,2.7,3.6,1.8]},
-      id: "0CDADB10A17A2599",
-      x: 3.6,
-      y: 1.8,
-      tasks: [
-        {
-          id: "68412EFECDB9AC64",
-          type: "item",
-          item: {
-            count: 1,
-            id: "productivebees:bee_cage",
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "639E6F9CD29AD8F4",
-          type: "xp",
-          xp: 50,
-        },
-      ],
-    },
-    {
-      dependencies: ["0CDADB10A17A2599"],
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"0CDADB10A17A2599":[3.6,1.8,5.4,0]},
-      id: "0DADC6DB09BC1C7E",
-      x: 5.4,
-      y: 0,
-      optional: true,
-      tasks: [
-        {
-          id: "7E854D56B212DF33",
-          type: "item",
-          item: {
-            count: 1,
-            id: "productivebees:sturdy_bee_cage",
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "4615A8ACC557C0CB",
-          type: "xp",
-          xp: 50,
-        },
-      ],
-    },
-    {
-      dependencies: ["0CDADB10A17A2599"],
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"0CDADB10A17A2599":[3.6,1.8,5.4,1.8]},
-      id: "73F9F53996BE1213",
-      x: 5.4,
-      y: 1.8,
-      optional: true,
-      tasks: [
-        {
-          id: "4385415480CC6D17",
-          type: "item",
-          item: {
-            count: 1,
-            id: "productivebees:nest_locator",
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "61966416088A3E8F",
-          type: "xp",
-          xp: 50,
-        },
-      ],
-    },
-    {
-      dependencies: ["0CDADB10A17A2599"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"0CDADB10A17A2599":[3.6,1.8,5.4,3.6]},
-      id: "726188BD5BB116B1",
-      x: 5.4,
-      y: 3.6,
-      tasks: [
-        {
-          id: "0CDA37CFA671B351",
-          type: "item",
-          item: {
-            count: 1,
-            id: "productivebees:oak_wood_nest",
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "437AB750A24FE353",
-          type: "xp",
-          xp: 50,
-        },
-      ],
-    },
-    {
-      dependencies: ["0CDADB10A17A2599"],
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"0CDADB10A17A2599":[3.6,1.8,5.4,5.4]},
-      id: "34EF677119B1386E",
-      x: 5.4,
-      y: 5.4,
-      optional: true,
-      tasks: [
-        {
-          id: "06424E6F51AAAFAC",
-          type: "item",
-          item: {
-            count: 1,
-            id: "productivebees:stone_nest",
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "6575B1C49B1E1F55",
-          type: "xp",
-          xp: 50,
-        },
-      ],
-    },
-    {
-      dependencies: ["79ABCDE4E29D4B6E"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"79ABCDE4E29D4B6E":[1.8,2.7,3.6,3.6]},
-      id: "126EEF16076D7532",
-      x: 3.6,
-      y: 3.6,
-      tasks: [
-        {
-          id: "4BA107D2DED9289B",
-          type: "item",
-          item: {
-            count: 1,
-            id: "productivebees:honey_treat",
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "5A5A8E2CDE908BB1",
-          type: "xp",
-          xp: 50,
-        },
-      ],
-    },
-    {
-      dependencies: ["0CDADB10A17A2599"],
-      hide_dependency_lines: true,
-      shape: "gear",
-      size: 1.3,
-      dep_control_pts: {"0CDADB10A17A2599":[3.6,1.8,15.2,0]},
-      id: "190C0B762AE30930",
-      x: 15.2,
-      y: 0,
-      tasks: [
-        {
-          id: "64584AC0D5B2D3E9",
-          type: "item",
-          item: {
-            count: 1,
-            id: "productivebees:advanced_oak_beehive",
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "70E3578FF22A1736",
-          type: "xp",
-          xp: 100,
-        },
-        {
-          id: "4CA61DB273FF8667",
-          type: "random",
-          table_id: 253752461985528,
-        },
-      ],
-    },
-    {
-      dependencies: ["190C0B762AE30930"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"190C0B762AE30930":[15.2,0,13.4,1.8]},
-      id: "352CDC650BB62CB7",
-      x: 13.4,
-      y: 1.8,
-      tasks: [
-        {
-          id: "08853A94CA4F1C68",
-          type: "item",
-          item: {
-            count: 1,
-            id: "productivebees:expansion_box_oak",
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "1FE71EF6C7526DF7",
-          type: "xp",
-          xp: 75,
-        },
-      ],
-    },
-    {
-      dependencies: ["190C0B762AE30930"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"190C0B762AE30930":[15.2,0,15.2,1.8]},
-      id: "0AD5278DF6829EA9",
-      x: 15.2,
-      y: 1.8,
-      icon: {
-        count: 1,
-        id: "minecraft:poppy",
+      "dep_control_pts": {
+        "6137B0C653DF84EF": [
+          0,
+          2.7,
+          1.8,
+          2.7
+        ]
       },
-      tasks: [
+      "size": 1,
+      "id": "79ABCDE4E29D4B6E",
+      "tasks": [
         {
-          id: "11D133B639F1CB94",
-          type: "checkmark",
+          "id": "72C67F0224B6C6B1",
+          "type": "item",
+          "item": {
+            "id": "minecraft:honey_bottle",
+            "count": 1
+          }
         },
-      ],
-      rewards: [
         {
-          id: "4853B672B9115E71",
-          type: "xp",
-          xp: 25,
-        },
+          "id": "6EE3236A84625BB0",
+          "type": "item",
+          "item": {
+            "id": "minecraft:honeycomb",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "6E1A193E03FAF750",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
     },
     {
-      dependencies: ["190C0B762AE30930"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"190C0B762AE30930":[15.2,0,17,1.8]},
-      id: "39B166A51456FDF0",
-      x: 17,
-      y: 1.8,
-      tasks: [
-        {
-          id: "2248180CF0EE0119",
-          type: "item",
-          item: {
-            count: 1,
-            id: "productivebees:feeder",
-          },
-        },
+      "x": 3.6,
+      "y": 1.8,
+      "shape": "circle",
+      "dependencies": [
+        "79ABCDE4E29D4B6E"
       ],
-      rewards: [
-        {
-          id: "565400744F2176E4",
-          type: "xp",
-          xp: 50,
-        },
-      ],
-    },
-    {
-      dependencies: ["190C0B762AE30930"],
-      hide_dependency_lines: true,
-      shape: "gear",
-      size: 1.3,
-      dep_control_pts: {"190C0B762AE30930":[15.2,0,0,9.5]},
-      id: "102DAD8C37566AB7",
-      x: 0,
-      y: 9.5,
-      tasks: [
-        {
-          id: "3B9757BABA9CBC95",
-          type: "item",
-          item: {
-            count: 1,
-            id: "productivebees:centrifuge",
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "703860C1289C4024",
-          type: "xp",
-          xp: 100,
-        },
-        {
-          id: "105E9A893F266AAF",
-          type: "random",
-          table_id: 253752461985528,
-        },
-      ],
-    },
-    {
-      dependencies: ["102DAD8C37566AB7"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"102DAD8C37566AB7":[0,9.5,1.8,8.6]},
-      id: "004289B5013908A7",
-      x: 1.8,
-      y: 8.6,
-      tasks: [
-        {
-          id: "7C0F975ED541AF47",
-          type: "item",
-          item: {
-            count: 1,
-            id: "productivebees:wax",
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "4C1B485084A311FF",
-          type: "xp",
-          xp: 25,
-        },
-      ],
-    },
-    {
-      dependencies: ["102DAD8C37566AB7"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"102DAD8C37566AB7":[0,9.5,1.8,10.4]},
-      id: "6B049CD3BAF0D21A",
-      x: 1.8,
-      y: 10.4,
-      tasks: [
-        {
-          id: "609ED712A82975B5",
-          type: "item",
-          item: {
-            count: 1,
-            id: "productivebees:powered_centrifuge",
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "33206EC61A1DD59A",
-          type: "xp",
-          xp: 100,
-        },
-      ],
-    },
-    {
-      dependencies: ["6B049CD3BAF0D21A"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"6B049CD3BAF0D21A":[1.8,10.4,3.6,9.5]},
-      id: "2CBA7F13FA1F23B4",
-      x: 3.6,
-      y: 9.5,
-      tasks: [
-        {
-          id: "3F0CE90060382D3D",
-          type: "item",
-          item: {
-            count: 1,
-            id: "productivebees:heated_centrifuge",
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "5EFDAB61FA059693",
-          type: "xp",
-          xp: 150,
-        },
-        {
-          id: "05DB39870FE901CF",
-          type: "random",
-          table_id: 2210856162803377,
-        },
-      ],
-    },
-    {
-      dependencies: ["190C0B762AE30930"],
-      hide_dependency_lines: true,
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"190C0B762AE30930":[15.2,0,11.6,9.5]},
-      id: "7D7247B26BA398B7",
-      x: 11.6,
-      y: 9.5,
-      tasks: [
-        {
-          id: "78D9E629F7E1E814",
-          type: "item",
-          item: {
-            count: 1,
-            id: "productivebees:breeding_chamber",
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "78B4F38D70864C79",
-          type: "xp",
-          xp: 100,
-        },
-        {
-          id: "31FBEEF90236A3D0",
-          type: "random",
-          table_id: 253752461985528,
-        },
-      ],
-    },
-    {
-      dependencies: ["7D7247B26BA398B7"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"7D7247B26BA398B7":[11.6,9.5,13.4,8.6]},
-      id: "2143514CEF003B52",
-      x: 13.4,
-      y: 8.6,
-      tasks: [
-        {
-          id: "7063B0AD495E4418",
-          type: "item",
-          item: {
-            count: 1,
-            id: "productivebees:incubator",
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "23C894BC6BC93F00",
-          type: "xp",
-          xp: 75,
-        },
-      ],
-    },
-    {
-      dependencies: ["7D7247B26BA398B7"],
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"7D7247B26BA398B7":[11.6,9.5,13.4,10.4]},
-      id: "1A3DF64F1BB5088F",
-      x: 13.4,
-      y: 10.4,
-      optional: true,
-      tasks: [
-        {
-          id: "18056DB866324677",
-          type: "item",
-          item: {
-            count: 1,
-            id: "productivebees:gene_bottle",
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "110C03C3460D3358",
-          type: "xp",
-          xp: 75,
-        },
-      ],
-    },
-    {
-      dependencies: ["1A3DF64F1BB5088F"],
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"1A3DF64F1BB5088F":[13.4,10.4,15.2,9.5]},
-      id: "0DBC46CA930FF9D2",
-      x: 15.2,
-      y: 9.5,
-      optional: true,
-      tasks: [
-        {
-          id: "1EC6BA8375E02A5D",
-          type: "item",
-          item: {
-            count: 1,
-            id: "productivebees:gene_indexer",
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "0EDF2AA959ACF280",
-          type: "xp",
-          xp: 100,
-        },
-      ],
-    },
-    {
-      dependencies: ["352CDC650BB62CB7"],
-      hide_dependency_lines: true,
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"352CDC650BB62CB7":[13.4,1.8,24.1,8.6]},
-      id: "091198C6AA9923D5",
-      x: 24.1,
-      y: 8.6,
-      tasks: [
-        {
-          id: "2CAD8DF4B9FC0F63",
-          type: "item",
-          item: {
-            count: 1,
-            id: "productivelib:upgrade_base",
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "72F088BAC22D6D4C",
-          type: "xp",
-          xp: 75,
-        },
-      ],
-    },
-    {
-      dependencies: ["091198C6AA9923D5"],
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"091198C6AA9923D5":[24.1,8.6,23.2,10.4]},
-      id: "429DC14F788015CB",
-      x: 23.2,
-      y: 10.4,
-      optional: true,
-      tasks: [
-        {
-          id: "7D342466D2738490",
-          type: "item",
-          item: {
-            count: 1,
-            id: "productivelib:upgrade_productivity",
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "4DAD091AD8E87E69",
-          type: "xp",
-          xp: 100,
-        },
-      ],
-    },
-    {
-      dependencies: ["091198C6AA9923D5"],
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"091198C6AA9923D5":[24.1,8.6,25,10.4]},
-      id: "19394FC28283E78C",
-      x: 25,
-      y: 10.4,
-      optional: true,
-      tasks: [
-        {
-          id: "043BA55D477A58AF",
-          type: "item",
-          item: {
-            count: 1,
-            id: "productivelib:upgrade_simulator",
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "7595B6ABEC93BD62",
-          type: "xp",
-          xp: 150,
-        },
-        {
-          id: "3AEF9970CE4BD837",
-          type: "random",
-          table_id: 2210856162803377,
-        },
-      ],
-    },
-    {
-      dependencies: ["7D7247B26BA398B7"],
-      hide_dependency_lines: true,
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"7D7247B26BA398B7":[11.6,9.5,0,13.6]},
-      id: "386BAC242FE7CEC2",
-      x: 0,
-      y: 13.6,
-      icon: {
-        count: 1,
-        id: "productivebees:bee_cage",
+      "dep_control_pts": {
+        "79ABCDE4E29D4B6E": [
+          1.8,
+          2.7,
+          3.6,
+          1.8
+        ]
       },
-      optional: true,
-      tasks: [
+      "size": 1,
+      "id": "0CDADB10A17A2599",
+      "tasks": [
         {
-          id: "09CD0188711161A2",
-          type: "checkmark",
-        },
+          "id": "68412EFECDB9AC64",
+          "type": "item",
+          "item": {
+            "id": "productivebees:bee_cage",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "367C2E782AEFF85D",
-          type: "xp",
-          xp: 50,
-        },
-      ],
+          "id": "639E6F9CD29AD8F4",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
     },
     {
-      dependencies: ["7D7247B26BA398B7"],
-      hide_dependency_lines: true,
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"7D7247B26BA398B7":[11.6,9.5,0,15.4]},
-      id: "2687B6E4EE833363",
-      x: 0,
-      y: 15.4,
-      icon: {
-        count: 1,
-        id: "productivebees:bee_cage",
+      "x": 5.4,
+      "y": 0,
+      "shape": "diamond",
+      "dependencies": [
+        "0CDADB10A17A2599"
+      ],
+      "dep_control_pts": {
+        "0CDADB10A17A2599": [
+          3.6,
+          1.8,
+          5.4,
+          0
+        ]
       },
-      optional: true,
-      tasks: [
+      "size": 1,
+      "optional": true,
+      "id": "0DADC6DB09BC1C7E",
+      "tasks": [
         {
-          id: "765CB0A3198B95FA",
-          type: "checkmark",
-        },
+          "id": "7E854D56B212DF33",
+          "type": "item",
+          "item": {
+            "id": "productivebees:sturdy_bee_cage",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "561967475FA628BA",
-          type: "xp",
-          xp: 50,
-        },
-      ],
+          "id": "4615A8ACC557C0CB",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
     },
     {
-      dependencies: ["7D7247B26BA398B7"],
-      hide_dependency_lines: true,
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"7D7247B26BA398B7":[11.6,9.5,0,17.2]},
-      id: "629AFE98E94E5B39",
-      x: 0,
-      y: 17.2,
-      icon: {
-        count: 1,
-        id: "productivebees:bee_cage",
+      "x": 5.4,
+      "y": 1.8,
+      "shape": "diamond",
+      "dependencies": [
+        "0CDADB10A17A2599"
+      ],
+      "dep_control_pts": {
+        "0CDADB10A17A2599": [
+          3.6,
+          1.8,
+          5.4,
+          1.8
+        ]
       },
-      optional: true,
-      tasks: [
+      "size": 1,
+      "optional": true,
+      "id": "73F9F53996BE1213",
+      "tasks": [
         {
-          id: "107AEA780D18C74C",
-          type: "checkmark",
-        },
+          "id": "4385415480CC6D17",
+          "type": "item",
+          "item": {
+            "id": "productivebees:nest_locator",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "5A3623CA6C12033A",
-          type: "xp",
-          xp: 50,
-        },
-      ],
+          "id": "61966416088A3E8F",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
     },
     {
-      dependencies: ["7D7247B26BA398B7"],
-      hide_dependency_lines: true,
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"7D7247B26BA398B7":[11.6,9.5,0,19]},
-      id: "3B2804D71C594375",
-      x: 0,
-      y: 19,
-      icon: {
-        count: 1,
-        id: "productivebees:bee_cage",
+      "x": 5.4,
+      "y": 3.6,
+      "shape": "circle",
+      "dependencies": [
+        "0CDADB10A17A2599"
+      ],
+      "dep_control_pts": {
+        "0CDADB10A17A2599": [
+          3.6,
+          1.8,
+          5.4,
+          3.6
+        ]
       },
-      optional: true,
-      tasks: [
+      "size": 1,
+      "id": "726188BD5BB116B1",
+      "tasks": [
         {
-          id: "5D6E6F78CD1C6398",
-          type: "checkmark",
-        },
+          "id": "0CDA37CFA671B351",
+          "type": "item",
+          "item": {
+            "id": "productivebees:oak_wood_nest",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "184680F76224544E",
-          type: "xp",
-          xp: 50,
-        },
-      ],
+          "id": "437AB750A24FE353",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
     },
     {
-      dependencies: ["7D7247B26BA398B7"],
-      hide_dependency_lines: true,
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"7D7247B26BA398B7":[11.6,9.5,1.8,13.6]},
-      id: "6B3E99B6B48B1617",
-      x: 1.8,
-      y: 13.6,
-      icon: {
-        count: 1,
-        id: "productivebees:bee_cage",
+      "x": 5.4,
+      "y": 5.4,
+      "shape": "diamond",
+      "dependencies": [
+        "0CDADB10A17A2599"
+      ],
+      "dep_control_pts": {
+        "0CDADB10A17A2599": [
+          3.6,
+          1.8,
+          5.4,
+          5.4
+        ]
       },
-      optional: true,
-      tasks: [
+      "size": 1,
+      "optional": true,
+      "id": "34EF677119B1386E",
+      "tasks": [
         {
-          id: "5D7A7BDC1DEDF1CA",
-          type: "checkmark",
-        },
+          "id": "06424E6F51AAAFAC",
+          "type": "item",
+          "item": {
+            "id": "productivebees:stone_nest",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "20E2FF80396F8A09",
-          type: "xp",
-          xp: 50,
-        },
-      ],
+          "id": "6575B1C49B1E1F55",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
     },
     {
-      dependencies: ["7D7247B26BA398B7"],
-      hide_dependency_lines: true,
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"7D7247B26BA398B7":[11.6,9.5,1.8,15.4]},
-      id: "1CA9636DDE293C6B",
-      x: 1.8,
-      y: 15.4,
-      icon: {
-        count: 1,
-        id: "productivebees:bee_cage",
+      "x": 3.6,
+      "y": 3.6,
+      "shape": "circle",
+      "dependencies": [
+        "79ABCDE4E29D4B6E"
+      ],
+      "dep_control_pts": {
+        "79ABCDE4E29D4B6E": [
+          1.8,
+          2.7,
+          3.6,
+          3.6
+        ]
       },
-      optional: true,
-      tasks: [
+      "size": 1,
+      "id": "126EEF16076D7532",
+      "tasks": [
         {
-          id: "3D3F7ACFCFBB6CFB",
-          type: "checkmark",
-        },
+          "id": "4BA107D2DED9289B",
+          "type": "item",
+          "item": {
+            "id": "productivebees:honey_treat",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "282E482D3B50529B",
-          type: "xp",
-          xp: 50,
-        },
-      ],
+          "id": "5A5A8E2CDE908BB1",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
     },
     {
-      dependencies: ["7D7247B26BA398B7"],
-      hide_dependency_lines: true,
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"7D7247B26BA398B7":[11.6,9.5,1.8,17.2]},
-      id: "6535516774E056FA",
-      x: 1.8,
-      y: 17.2,
-      icon: {
-        count: 1,
-        id: "productivebees:bee_cage",
+      "x": 15.2,
+      "y": 0,
+      "shape": "gear",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "0CDADB10A17A2599"
+      ],
+      "dep_control_pts": {
+        "0CDADB10A17A2599": [
+          3.6,
+          1.8,
+          15.2,
+          0
+        ]
       },
-      optional: true,
-      tasks: [
+      "size": 1.3,
+      "id": "190C0B762AE30930",
+      "tasks": [
         {
-          id: "06D0027AD5648FA3",
-          type: "checkmark",
-        },
+          "id": "64584AC0D5B2D3E9",
+          "type": "item",
+          "item": {
+            "id": "productivebees:advanced_oak_beehive",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "279D8CB96ED985D8",
-          type: "xp",
-          xp: 50,
+          "id": "70E3578FF22A1736",
+          "type": "xp",
+          "xp": 100
         },
-      ],
+        {
+          "id": "4CA61DB273FF8667",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 253752461985528
+        }
+      ]
     },
     {
-      dependencies: ["7D7247B26BA398B7"],
-      hide_dependency_lines: true,
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"7D7247B26BA398B7":[11.6,9.5,1.8,19]},
-      id: "1003BAD54C72BD8D",
-      x: 1.8,
-      y: 19,
-      icon: {
-        count: 1,
-        id: "productivebees:bee_cage",
+      "x": 13.4,
+      "y": 1.8,
+      "shape": "circle",
+      "dependencies": [
+        "190C0B762AE30930"
+      ],
+      "dep_control_pts": {
+        "190C0B762AE30930": [
+          15.2,
+          0,
+          13.4,
+          1.8
+        ]
       },
-      optional: true,
-      tasks: [
+      "size": 1,
+      "id": "352CDC650BB62CB7",
+      "tasks": [
         {
-          id: "028DB82319A91CD2",
-          type: "checkmark",
-        },
+          "id": "08853A94CA4F1C68",
+          "type": "item",
+          "item": {
+            "id": "productivebees:expansion_box_oak",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "21380EC1A73B4B8A",
-          type: "xp",
-          xp: 50,
-        },
-      ],
+          "id": "1FE71EF6C7526DF7",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
     },
     {
-      dependencies: ["6B049CD3BAF0D21A","7D7247B26BA398B7"],
-      hide_dependency_lines: true,
-      shape: "gear",
-      size: 1.3,
-      dep_control_pts: {"6B049CD3BAF0D21A":[1.8,10.4,9.8,13.6],"7D7247B26BA398B7":[11.6,9.5,9.8,13.6]},
-      id: "268F670D7148357F",
-      x: 9.8,
-      y: 13.6,
-      tasks: [
-        {
-          id: "38306E594E7D06A0",
-          type: "checkmark",
-        },
+      "icon": {
+        "id": "minecraft:poppy",
+        "count": 1
+      },
+      "x": 15.2,
+      "y": 1.8,
+      "shape": "circle",
+      "dependencies": [
+        "190C0B762AE30930"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "190C0B762AE30930": [
+          15.2,
+          0,
+          15.2,
+          1.8
+        ]
+      },
+      "size": 1,
+      "id": "0AD5278DF6829EA9",
+      "tasks": [
         {
-          id: "567E212DCBAB6970",
-          type: "xp",
-          xp: 200,
-        },
-        {
-          id: "35A6419DB3482BBA",
-          type: "random",
-          table_id: 2210856162803377,
-        },
+          "id": "11D133B639F1CB94",
+          "type": "checkmark"
+        }
       ],
+      "rewards": [
+        {
+          "id": "4853B672B9115E71",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
     },
+    {
+      "x": 17,
+      "y": 1.8,
+      "shape": "circle",
+      "dependencies": [
+        "190C0B762AE30930"
+      ],
+      "dep_control_pts": {
+        "190C0B762AE30930": [
+          15.2,
+          0,
+          17,
+          1.8
+        ]
+      },
+      "size": 1,
+      "id": "39B166A51456FDF0",
+      "tasks": [
+        {
+          "id": "2248180CF0EE0119",
+          "type": "item",
+          "item": {
+            "id": "productivebees:feeder",
+            "count": 1
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "id": "565400744F2176E4",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "x": 0,
+      "y": 9.5,
+      "shape": "gear",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "190C0B762AE30930"
+      ],
+      "dep_control_pts": {
+        "190C0B762AE30930": [
+          15.2,
+          0,
+          0,
+          9.5
+        ]
+      },
+      "size": 1.3,
+      "id": "102DAD8C37566AB7",
+      "tasks": [
+        {
+          "id": "3B9757BABA9CBC95",
+          "type": "item",
+          "item": {
+            "id": "productivebees:centrifuge",
+            "count": 1
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "id": "703860C1289C4024",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "105E9A893F266AAF",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 253752461985528
+        }
+      ]
+    },
+    {
+      "x": 1.8,
+      "y": 8.6,
+      "shape": "circle",
+      "dependencies": [
+        "102DAD8C37566AB7"
+      ],
+      "dep_control_pts": {
+        "102DAD8C37566AB7": [
+          0,
+          9.5,
+          1.8,
+          8.6
+        ]
+      },
+      "size": 1,
+      "id": "004289B5013908A7",
+      "tasks": [
+        {
+          "id": "7C0F975ED541AF47",
+          "type": "item",
+          "item": {
+            "id": "productivebees:wax",
+            "count": 1
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "id": "4C1B485084A311FF",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "x": 1.8,
+      "y": 10.4,
+      "shape": "circle",
+      "dependencies": [
+        "102DAD8C37566AB7"
+      ],
+      "dep_control_pts": {
+        "102DAD8C37566AB7": [
+          0,
+          9.5,
+          1.8,
+          10.4
+        ]
+      },
+      "size": 1,
+      "id": "6B049CD3BAF0D21A",
+      "tasks": [
+        {
+          "id": "609ED712A82975B5",
+          "type": "item",
+          "item": {
+            "id": "productivebees:powered_centrifuge",
+            "count": 1
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "id": "33206EC61A1DD59A",
+          "type": "xp",
+          "xp": 100
+        }
+      ]
+    },
+    {
+      "x": 3.6,
+      "y": 9.5,
+      "shape": "circle",
+      "dependencies": [
+        "6B049CD3BAF0D21A"
+      ],
+      "dep_control_pts": {
+        "6B049CD3BAF0D21A": [
+          1.8,
+          10.4,
+          3.6,
+          9.5
+        ]
+      },
+      "size": 1,
+      "id": "2CBA7F13FA1F23B4",
+      "tasks": [
+        {
+          "id": "3F0CE90060382D3D",
+          "type": "item",
+          "item": {
+            "id": "productivebees:heated_centrifuge",
+            "count": 1
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5EFDAB61FA059693",
+          "type": "xp",
+          "xp": 150
+        },
+        {
+          "id": "05DB39870FE901CF",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2210856162803377
+        }
+      ]
+    },
+    {
+      "x": 11.6,
+      "y": 9.5,
+      "shape": "circle",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "190C0B762AE30930"
+      ],
+      "dep_control_pts": {
+        "190C0B762AE30930": [
+          15.2,
+          0,
+          11.6,
+          9.5
+        ]
+      },
+      "size": 1,
+      "id": "7D7247B26BA398B7",
+      "tasks": [
+        {
+          "id": "78D9E629F7E1E814",
+          "type": "item",
+          "item": {
+            "id": "productivebees:breeding_chamber",
+            "count": 1
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "id": "78B4F38D70864C79",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "31FBEEF90236A3D0",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 253752461985528
+        }
+      ]
+    },
+    {
+      "x": 13.4,
+      "y": 8.6,
+      "shape": "circle",
+      "dependencies": [
+        "7D7247B26BA398B7"
+      ],
+      "dep_control_pts": {
+        "7D7247B26BA398B7": [
+          11.6,
+          9.5,
+          13.4,
+          8.6
+        ]
+      },
+      "size": 1,
+      "id": "2143514CEF003B52",
+      "tasks": [
+        {
+          "id": "7063B0AD495E4418",
+          "type": "item",
+          "item": {
+            "id": "productivebees:incubator",
+            "count": 1
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "id": "23C894BC6BC93F00",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
+    },
+    {
+      "x": 13.4,
+      "y": 10.4,
+      "shape": "diamond",
+      "dependencies": [
+        "7D7247B26BA398B7"
+      ],
+      "dep_control_pts": {
+        "7D7247B26BA398B7": [
+          11.6,
+          9.5,
+          13.4,
+          10.4
+        ]
+      },
+      "size": 1,
+      "optional": true,
+      "id": "1A3DF64F1BB5088F",
+      "tasks": [
+        {
+          "id": "18056DB866324677",
+          "type": "item",
+          "item": {
+            "id": "productivebees:gene_bottle",
+            "count": 1
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "id": "110C03C3460D3358",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
+    },
+    {
+      "x": 15.2,
+      "y": 9.5,
+      "shape": "diamond",
+      "dependencies": [
+        "1A3DF64F1BB5088F"
+      ],
+      "dep_control_pts": {
+        "1A3DF64F1BB5088F": [
+          13.4,
+          10.4,
+          15.2,
+          9.5
+        ]
+      },
+      "size": 1,
+      "optional": true,
+      "id": "0DBC46CA930FF9D2",
+      "tasks": [
+        {
+          "id": "1EC6BA8375E02A5D",
+          "type": "item",
+          "item": {
+            "id": "productivebees:gene_indexer",
+            "count": 1
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0EDF2AA959ACF280",
+          "type": "xp",
+          "xp": 100
+        }
+      ]
+    },
+    {
+      "x": 24.1,
+      "y": 8.6,
+      "shape": "circle",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "352CDC650BB62CB7"
+      ],
+      "dep_control_pts": {
+        "352CDC650BB62CB7": [
+          13.4,
+          1.8,
+          24.1,
+          8.6
+        ]
+      },
+      "size": 1,
+      "id": "091198C6AA9923D5",
+      "tasks": [
+        {
+          "id": "2CAD8DF4B9FC0F63",
+          "type": "item",
+          "item": {
+            "id": "productivelib:upgrade_base",
+            "count": 1
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "id": "72F088BAC22D6D4C",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
+    },
+    {
+      "x": 23.2,
+      "y": 10.4,
+      "shape": "diamond",
+      "dependencies": [
+        "091198C6AA9923D5"
+      ],
+      "dep_control_pts": {
+        "091198C6AA9923D5": [
+          24.1,
+          8.6,
+          23.2,
+          10.4
+        ]
+      },
+      "size": 1,
+      "optional": true,
+      "id": "429DC14F788015CB",
+      "tasks": [
+        {
+          "id": "7D342466D2738490",
+          "type": "item",
+          "item": {
+            "id": "productivelib:upgrade_productivity",
+            "count": 1
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "id": "4DAD091AD8E87E69",
+          "type": "xp",
+          "xp": 100
+        }
+      ]
+    },
+    {
+      "x": 25,
+      "y": 10.4,
+      "shape": "diamond",
+      "dependencies": [
+        "091198C6AA9923D5"
+      ],
+      "dep_control_pts": {
+        "091198C6AA9923D5": [
+          24.1,
+          8.6,
+          25,
+          10.4
+        ]
+      },
+      "size": 1,
+      "optional": true,
+      "id": "19394FC28283E78C",
+      "tasks": [
+        {
+          "id": "043BA55D477A58AF",
+          "type": "item",
+          "item": {
+            "id": "productivelib:upgrade_simulator",
+            "count": 1
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7595B6ABEC93BD62",
+          "type": "xp",
+          "xp": 150
+        },
+        {
+          "id": "3AEF9970CE4BD837",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2210856162803377
+        }
+      ]
+    },
+    {
+      "icon": {
+        "id": "productivebees:bee_cage",
+        "count": 1
+      },
+      "x": 0,
+      "y": 13.6,
+      "shape": "diamond",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "7D7247B26BA398B7"
+      ],
+      "dep_control_pts": {
+        "7D7247B26BA398B7": [
+          11.6,
+          9.5,
+          0,
+          13.6
+        ]
+      },
+      "size": 1,
+      "optional": true,
+      "id": "386BAC242FE7CEC2",
+      "tasks": [
+        {
+          "id": "09CD0188711161A2",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "367C2E782AEFF85D",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "icon": {
+        "id": "productivebees:bee_cage",
+        "count": 1
+      },
+      "x": 0,
+      "y": 15.4,
+      "shape": "diamond",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "7D7247B26BA398B7"
+      ],
+      "dep_control_pts": {
+        "7D7247B26BA398B7": [
+          11.6,
+          9.5,
+          0,
+          15.4
+        ]
+      },
+      "size": 1,
+      "optional": true,
+      "id": "2687B6E4EE833363",
+      "tasks": [
+        {
+          "id": "765CB0A3198B95FA",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "561967475FA628BA",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "icon": {
+        "id": "productivebees:bee_cage",
+        "count": 1
+      },
+      "x": 0,
+      "y": 17.2,
+      "shape": "diamond",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "7D7247B26BA398B7"
+      ],
+      "dep_control_pts": {
+        "7D7247B26BA398B7": [
+          11.6,
+          9.5,
+          0,
+          17.2
+        ]
+      },
+      "size": 1,
+      "optional": true,
+      "id": "629AFE98E94E5B39",
+      "tasks": [
+        {
+          "id": "107AEA780D18C74C",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A3623CA6C12033A",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "icon": {
+        "id": "productivebees:bee_cage",
+        "count": 1
+      },
+      "x": 0,
+      "y": 19,
+      "shape": "diamond",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "7D7247B26BA398B7"
+      ],
+      "dep_control_pts": {
+        "7D7247B26BA398B7": [
+          11.6,
+          9.5,
+          0,
+          19
+        ]
+      },
+      "size": 1,
+      "optional": true,
+      "id": "3B2804D71C594375",
+      "tasks": [
+        {
+          "id": "5D6E6F78CD1C6398",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "184680F76224544E",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "icon": {
+        "id": "productivebees:bee_cage",
+        "count": 1
+      },
+      "x": 1.8,
+      "y": 13.6,
+      "shape": "diamond",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "7D7247B26BA398B7"
+      ],
+      "dep_control_pts": {
+        "7D7247B26BA398B7": [
+          11.6,
+          9.5,
+          1.8,
+          13.6
+        ]
+      },
+      "size": 1,
+      "optional": true,
+      "id": "6B3E99B6B48B1617",
+      "tasks": [
+        {
+          "id": "5D7A7BDC1DEDF1CA",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "20E2FF80396F8A09",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "icon": {
+        "id": "productivebees:bee_cage",
+        "count": 1
+      },
+      "x": 1.8,
+      "y": 15.4,
+      "shape": "diamond",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "7D7247B26BA398B7"
+      ],
+      "dep_control_pts": {
+        "7D7247B26BA398B7": [
+          11.6,
+          9.5,
+          1.8,
+          15.4
+        ]
+      },
+      "size": 1,
+      "optional": true,
+      "id": "1CA9636DDE293C6B",
+      "tasks": [
+        {
+          "id": "3D3F7ACFCFBB6CFB",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "282E482D3B50529B",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "icon": {
+        "id": "productivebees:bee_cage",
+        "count": 1
+      },
+      "x": 1.8,
+      "y": 17.2,
+      "shape": "diamond",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "7D7247B26BA398B7"
+      ],
+      "dep_control_pts": {
+        "7D7247B26BA398B7": [
+          11.6,
+          9.5,
+          1.8,
+          17.2
+        ]
+      },
+      "size": 1,
+      "optional": true,
+      "id": "6535516774E056FA",
+      "tasks": [
+        {
+          "id": "06D0027AD5648FA3",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "279D8CB96ED985D8",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "icon": {
+        "id": "productivebees:bee_cage",
+        "count": 1
+      },
+      "x": 1.8,
+      "y": 19,
+      "shape": "diamond",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "7D7247B26BA398B7"
+      ],
+      "dep_control_pts": {
+        "7D7247B26BA398B7": [
+          11.6,
+          9.5,
+          1.8,
+          19
+        ]
+      },
+      "size": 1,
+      "optional": true,
+      "id": "1003BAD54C72BD8D",
+      "tasks": [
+        {
+          "id": "028DB82319A91CD2",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "21380EC1A73B4B8A",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "x": 9.8,
+      "y": 13.6,
+      "shape": "gear",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "6B049CD3BAF0D21A",
+        "7D7247B26BA398B7"
+      ],
+      "dep_control_pts": {
+        "7D7247B26BA398B7": [
+          11.6,
+          9.5,
+          9.8,
+          13.6
+        ],
+        "6B049CD3BAF0D21A": [
+          1.8,
+          10.4,
+          9.8,
+          13.6
+        ]
+      },
+      "size": 1.3,
+      "id": "268F670D7148357F",
+      "tasks": [
+        {
+          "id": "38306E594E7D06A0",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "567E212DCBAB6970",
+          "type": "xp",
+          "xp": 200
+        },
+        {
+          "id": "35A6419DB3482BBA",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2210856162803377
+        }
+      ]
+    }
   ],
-  quest_links: [ ],
-  images: [
-  {
-    "x": 12.5,
-    "y": -1.7188,
-    "width": 12,
-    "height": 1.4375,
-    "rotation": 0,
-    "image": "gspack:textures/quests/productivebees_header.png",
-    "color": 16777215,
-    "alpha": 255,
-    "order": 0,
-    "corner": false
-  },
-  {
-    "x": 11.1765,
-    "y": 0,
-    "width": 2.6471,
-    "height": 0.6,
-    "rotation": 0,
-    "image": "gspack:textures/quests/productivebees_hive.png",
-    "color": 16777215,
-    "alpha": 255,
-    "order": 0,
-    "corner": false
-  },
-  {
-    "x": -2.8588,
-    "y": 9.5,
-    "width": 3.9176,
-    "height": 0.6,
-    "rotation": 0,
-    "image": "gspack:textures/quests/productivebees_centrifuge.png",
-    "color": 16777215,
-    "alpha": 255,
-    "order": 0,
-    "corner": false
-  },
-  {
-    "x": 20.5882,
-    "y": 8.6,
-    "width": 3.4235,
-    "height": 0.6,
-    "rotation": 0,
-    "image": "gspack:textures/quests/productivebees_upgrade.png",
-    "color": 16777215,
-    "alpha": 255,
-    "order": 0,
-    "corner": false
-  },
-  {
-    "x": -3.1765,
-    "y": 13.6,
-    "width": 4.5529,
-    "height": 0.6,
-    "rotation": 0,
-    "image": "gspack:textures/quests/productivebees_bee_iron.png",
-    "color": 16777215,
-    "alpha": 255,
-    "order": 0,
-    "corner": false
-  },
-  {
-    "x": 7.4706,
-    "y": 13.6,
-    "width": 2.8588,
-    "height": 0.6,
-    "rotation": 0,
-    "image": "gspack:textures/quests/productivebees_automation.png",
-    "color": 16777215,
-    "alpha": 255,
-    "order": 0,
-    "corner": false
-  },
-  {
-    "x": 8.4235,
-    "y": 9.5,
-    "width": 4.5529,
-    "height": 0.6,
-    "rotation": 0,
-    "image": "gspack:textures/quests/productivebees_breeding.png",
-    "color": 16777215,
-    "alpha": 255,
-    "order": 0,
-    "corner": false
-  },
-  {
-    "x": -2.7,
-    "y": 2.7,
-    "width": 3.6,
-    "height": 0.6,
-    "rotation": 0,
-    "image": "gspack:textures/quests/productivebees_start.png",
-    "color": 16777215,
-    "alpha": 255,
-    "order": 0,
-    "corner": false
-  }
-],
+  "quest_links": [],
+  "images": [
+    {
+      "x": 12.5,
+      "y": -1.7188,
+      "width": 12,
+      "height": 1.4375,
+      "rotation": 0,
+      "image": "gspack:textures/quests/productivebees_header.png",
+      "id": "6CE3DAF35C08D9D1"
+    },
+    {
+      "x": 11.1765,
+      "y": 0,
+      "width": 2.6471,
+      "height": 0.6,
+      "rotation": 0,
+      "image": "gspack:textures/quests/productivebees_hive.png",
+      "id": "5F0F6796D5E5B902"
+    },
+    {
+      "x": -2.8588,
+      "y": 9.5,
+      "width": 3.9176,
+      "height": 0.6,
+      "rotation": 0,
+      "image": "gspack:textures/quests/productivebees_centrifuge.png",
+      "id": "34E63149B37C27B8"
+    },
+    {
+      "x": 20.5882,
+      "y": 8.6,
+      "width": 3.4235,
+      "height": 0.6,
+      "rotation": 0,
+      "image": "gspack:textures/quests/productivebees_upgrade.png",
+      "id": "27D77891C647E1F5"
+    },
+    {
+      "x": -3.1765,
+      "y": 13.6,
+      "width": 4.5529,
+      "height": 0.6,
+      "rotation": 0,
+      "image": "gspack:textures/quests/productivebees_bee_iron.png",
+      "id": "3FE8F453C120B44B"
+    },
+    {
+      "x": 7.4706,
+      "y": 13.6,
+      "width": 2.8588,
+      "height": 0.6,
+      "rotation": 0,
+      "image": "gspack:textures/quests/productivebees_automation.png",
+      "id": "31BB3B5B100C961F"
+    },
+    {
+      "x": 8.4235,
+      "y": 9.5,
+      "width": 4.5529,
+      "height": 0.6,
+      "rotation": 0,
+      "image": "gspack:textures/quests/productivebees_breeding.png",
+      "id": "65E699A78448FE2A"
+    },
+    {
+      "x": -2.7,
+      "y": 2.7,
+      "width": 3.6,
+      "height": 0.6,
+      "rotation": 0,
+      "image": "gspack:textures/quests/productivebees_start.png",
+      "id": "5A8173074E31B544"
+    }
+  ]
 }

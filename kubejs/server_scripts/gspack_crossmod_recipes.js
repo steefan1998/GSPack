@@ -111,9 +111,9 @@ ServerEvents.recipes(event => {
     ['stellaris:fuel_refinery', 'stellaris:fuel_refinery', ['TBT', 'IFI', 'TBT'],
       { B: '#c:buckets/empty', F: 'mekanism:steel_casing', I: '#c:ingots/iron', T: '#c:ingots/titanium' }, 'fuel_refinery'],
     ['stellaris:space_suit_chestplate', 'stellaris:space_suit_chestplate', ['T T', 'T#T', 'T#T'],
-      { '#': 'mekanism:hdpe_sheet', T: '#c:ingots/copper' }, 'space_suit_chestplate'],
-    ['stellaris:rocket_engine', 'stellaris:rocket_engine', ['RXR', '# #', '# #'],
-      { '#': '#c:ingots/titanium', R: '#c:storage_blocks/iron', X: 'oritech:processing_unit' }, 'rocket_engine'],
+      { '#': '#c:ingots/titanium', T: '#c:ingots/copper' }, 'space_suit_chestplate'],
+    ['stellaris:rocket_engine', 'stellaris:rocket_engine', ['IPI', 'TCT', 'T T'],
+      { I: '#c:ingots/iron', P: 'minecraft:piston', T: '#c:ingots/titanium', C: 'mekanism:basic_control_circuit' }, 'rocket_engine'],
     ['stellaris:rover', 'stellaris:rover', ['ICI', 'TWT', 'TRT'],
       { C: 'stellaris:cable_t1', I: '#c:ingots/iron', R: 'mekanism:advanced_control_circuit', T: '#c:ingots/titanium', W: '#c:buckets/empty' }, 'rover'],
 

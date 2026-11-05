@@ -1,1413 +1,1455 @@
 {
-  id: "7ABD67C9006B4869",
-  group: "102546F445E619D7",
-  order_index: 1,
-  icon: {
-    id: "gspack:infinity_trophy",
-    count: 1,
+  "id": "7ABD67C9006B4869",
+  "group": "102546F445E619D7",
+  "order_index": 42,
+  "icon": {
+    "id": "gspack:infinity_trophy",
+    "count": 1
   },
-  filename: "trophy",
-  default_quest_shape: "",
-  default_hide_dependency_lines: false,
-  quests: [
+  "filename": "trophy",
+  "default_quest_shape": "",
+  "default_hide_dependency_lines": false,
+  "quests": [
     {
-      shape: "hexagon",
-      size: 1.15,
-      x: 0,
-      y: -2.7,
-      id: "211472984F381C23",
-      tasks: [
+      "x": 0,
+      "y": -2.7,
+      "shape": "hexagon",
+      "size": 1.15,
+      "id": "211472984F381C23",
+      "tasks": [
         {
-          id: "3AA22C62B7BBADA5",
-          type: "item",
-          item: {
-            id: "extendedcrafting:ultimate_singularity",
-            count: 1,
-          },
-        },
+          "id": "3AA22C62B7BBADA5",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:ultimate_singularity",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "37BD1845C7FF321A",
-          type: "xp",
-          xp: 100,
+          "id": "37BD1845C7FF321A",
+          "type": "xp",
+          "xp": 100
         },
         {
-          id: "5D2E42EB445E7921",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 2210856162803377,
-        },
-      ],
+          "id": "5D2E42EB445E7921",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2210856162803377
+        }
+      ]
     },
     {
-      shape: "hexagon",
-      size: 1.15,
-      x: 1.74,
-      y: -2.07,
-      id: "6423617BE3AF7FD4",
-      tasks: [
+      "x": 1.74,
+      "y": -2.07,
+      "shape": "hexagon",
+      "size": 1.15,
+      "id": "6423617BE3AF7FD4",
+      "tasks": [
         {
-          id: "3117CFC2DAC714C1",
-          type: "item",
-          item: {
-            id: "gspack:creative_singularity",
-            count: 1,
+          "id": "3117CFC2DAC714C1",
+          "type": "item",
+          "item": {
+            "id": "gspack:creative_singularity",
+            "count": 1
           },
-          count: 8,
-        },
+          "count": 8
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "718E4C01987CE32E",
-          type: "xp",
-          xp: 100,
+          "id": "718E4C01987CE32E",
+          "type": "xp",
+          "xp": 100
         },
         {
-          id: "5924D945A1C8DB21",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 2210856162803377,
-        },
-      ],
+          "id": "5924D945A1C8DB21",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2210856162803377
+        }
+      ]
     },
     {
-      shape: "hexagon",
-      size: 1.15,
-      x: 2.66,
-      y: -0.47,
-      id: "4B7EA33948A8A04B",
-      tasks: [
+      "x": 2.66,
+      "y": -0.47,
+      "shape": "hexagon",
+      "size": 1.15,
+      "id": "4B7EA33948A8A04B",
+      "tasks": [
         {
-          id: "4304DE236782CA45",
-          type: "item",
-          item: {
-            id: "extendedcrafting:ultimate_component",
-            count: 1,
+          "id": "4304DE236782CA45",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:ultimate_component",
+            "count": 1
           },
-          count: 4,
-        },
+          "count": 4
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "05AEFEE5F222E640",
-          type: "xp",
-          xp: 100,
+          "id": "05AEFEE5F222E640",
+          "type": "xp",
+          "xp": 100
         },
         {
-          id: "2092CD396CD2BDAE",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 2210856162803377,
-        },
-      ],
+          "id": "2092CD396CD2BDAE",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2210856162803377
+        }
+      ]
     },
     {
-      shape: "hexagon",
-      size: 1.15,
-      x: 2.34,
-      y: 1.35,
-      id: "6930655444B64E63",
-      tasks: [
+      "x": 2.34,
+      "y": 1.35,
+      "shape": "hexagon",
+      "size": 1.15,
+      "id": "6930655444B64E63",
+      "tasks": [
         {
-          id: "1D4091D1E2F13E74",
-          type: "item",
-          item: {
-            id: "mekanism_extras:infinite_control_circuit",
-            count: 1,
+          "id": "1D4091D1E2F13E74",
+          "type": "item",
+          "item": {
+            "id": "mekanism_extras:infinite_control_circuit",
+            "count": 1
           },
-          count: 4,
-        },
+          "count": 4
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "1B6A0724601ADFF3",
-          type: "xp",
-          xp: 100,
+          "id": "1B6A0724601ADFF3",
+          "type": "xp",
+          "xp": 100
         },
         {
-          id: "2F3623520C13CD46",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 2210856162803377,
-        },
-      ],
+          "id": "2F3623520C13CD46",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2210856162803377
+        }
+      ]
     },
     {
-      shape: "hexagon",
-      size: 1.15,
-      x: 0.92,
-      y: 2.54,
-      id: "3AFDF71D0FE05B78",
-      tasks: [
+      "x": 0.92,
+      "y": 2.54,
+      "shape": "hexagon",
+      "size": 1.15,
+      "id": "3AFDF71D0FE05B78",
+      "tasks": [
         {
-          id: "47191A9E4E5D6AE9",
-          type: "item",
-          item: {
-            id: "allthecompressed:antimatter_block_1x",
-            count: 1,
+          "id": "47191A9E4E5D6AE9",
+          "type": "item",
+          "item": {
+            "id": "allthecompressed:antimatter_block_1x",
+            "count": 1
           },
-          count: 4,
-        },
+          "count": 4
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "427B0D93E3132978",
-          type: "xp",
-          xp: 100,
+          "id": "427B0D93E3132978",
+          "type": "xp",
+          "xp": 100
         },
         {
-          id: "2F8523E0CC8B59B9",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 2210856162803377,
-        },
-      ],
+          "id": "2F8523E0CC8B59B9",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2210856162803377
+        }
+      ]
     },
     {
-      shape: "hexagon",
-      size: 1.15,
-      x: -0.92,
-      y: 2.54,
-      id: "4B49E2969F978968",
-      tasks: [
+      "x": -0.92,
+      "y": 2.54,
+      "shape": "hexagon",
+      "size": 1.15,
+      "id": "4B49E2969F978968",
+      "tasks": [
         {
-          id: "3E42142EBABADF4D",
-          type: "item",
-          item: {
-            id: "extendedcrafting:crystaltine_block",
-            count: 1,
+          "id": "3E42142EBABADF4D",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:crystaltine_block",
+            "count": 1
           },
-          count: 8,
-        },
+          "count": 8
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "2A2A1E08C1ED17F0",
-          type: "xp",
-          xp: 100,
+          "id": "2A2A1E08C1ED17F0",
+          "type": "xp",
+          "xp": 100
         },
         {
-          id: "10A14324CC1D3BDE",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 2210856162803377,
-        },
-      ],
+          "id": "10A14324CC1D3BDE",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2210856162803377
+        }
+      ]
     },
     {
-      shape: "hexagon",
-      size: 1.15,
-      x: -2.34,
-      y: 1.35,
-      id: "1FBAFB713A8BA439",
-      tasks: [
+      "x": -2.34,
+      "y": 1.35,
+      "shape": "hexagon",
+      "size": 1.15,
+      "id": "1FBAFB713A8BA439",
+      "tasks": [
         {
-          id: "5AAA8B3D5FB8BC86",
-          type: "item",
-          item: {
-            id: "extendedcrafting:nether_star_block",
-            count: 1,
+          "id": "5AAA8B3D5FB8BC86",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:nether_star_block",
+            "count": 1
           },
-          count: 4,
-        },
+          "count": 4
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "04EEC47B2E970DB6",
-          type: "xp",
-          xp: 100,
+          "id": "04EEC47B2E970DB6",
+          "type": "xp",
+          "xp": 100
         },
         {
-          id: "11FE3F2530B0FF8A",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 2210856162803377,
-        },
-      ],
+          "id": "11FE3F2530B0FF8A",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2210856162803377
+        }
+      ]
     },
     {
-      shape: "hexagon",
-      size: 1.15,
-      x: -2.66,
-      y: -0.47,
-      id: "0CBAA91E88C68B59",
-      tasks: [
+      "x": -2.66,
+      "y": -0.47,
+      "shape": "hexagon",
+      "size": 1.15,
+      "id": "0CBAA91E88C68B59",
+      "tasks": [
         {
-          id: "73E5B9E519A36110",
-          type: "item",
-          item: {
-            id: "allthecompressed:netherite_block_2x",
-            count: 1,
+          "id": "73E5B9E519A36110",
+          "type": "item",
+          "item": {
+            "id": "allthecompressed:netherite_block_2x",
+            "count": 1
           },
-          count: 8,
-        },
+          "count": 8
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "649561092D54FE8F",
-          type: "xp",
-          xp: 100,
+          "id": "649561092D54FE8F",
+          "type": "xp",
+          "xp": 100
         },
         {
-          id: "5ABAF00CA3076913",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 2210856162803377,
-        },
-      ],
+          "id": "5ABAF00CA3076913",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2210856162803377
+        }
+      ]
     },
     {
-      shape: "hexagon",
-      size: 1.15,
-      x: -1.74,
-      y: -2.07,
-      id: "0B1A7DF20DC0C166",
-      tasks: [
+      "x": -1.74,
+      "y": -2.07,
+      "shape": "hexagon",
+      "size": 1.15,
+      "id": "0B1A7DF20DC0C166",
+      "tasks": [
         {
-          id: "180F02A43A28E0FF",
-          type: "item",
-          item: {
-            id: "allthecompressed:unobtainium_vibranium_block_2x",
-            count: 1,
+          "id": "180F02A43A28E0FF",
+          "type": "item",
+          "item": {
+            "id": "allthecompressed:unobtainium_vibranium_block_2x",
+            "count": 1
           },
-          count: 4,
-        },
+          "count": 4
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "3903E1F928F9E761",
-          type: "xp",
-          xp: 100,
+          "id": "3903E1F928F9E761",
+          "type": "xp",
+          "xp": 100
         },
         {
-          id: "24F66AC382BA4F6E",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 2210856162803377,
-        },
-      ],
+          "id": "24F66AC382BA4F6E",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2210856162803377
+        }
+      ]
     },
     {
-      shape: "hexagon",
-      size: 1.15,
-      x: 0,
-      y: -4.9,
-      id: "0A34B39F4E7ADC1A",
-      tasks: [
+      "x": 0,
+      "y": -4.9,
+      "shape": "hexagon",
+      "size": 1.15,
+      "id": "0A34B39F4E7ADC1A",
+      "tasks": [
         {
-          id: "5399AEED8908E483",
-          type: "item",
-          item: {
-            id: "mekanism:creative_energy_cube",
-            count: 1,
-          },
-        },
+          "id": "5399AEED8908E483",
+          "type": "item",
+          "item": {
+            "id": "mekanism:creative_energy_cube",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "24F04CF5F4E24C04",
-          type: "xp",
-          xp: 100,
+          "id": "24F04CF5F4E24C04",
+          "type": "xp",
+          "xp": 100
         },
         {
-          id: "7A0E2B97DD7E9E9B",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 379532711335085,
-        },
-      ],
+          "id": "7A0E2B97DD7E9E9B",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 379532711335085
+        }
+      ]
     },
     {
-      shape: "hexagon",
-      size: 1.15,
-      x: 3.46,
-      y: -3.46,
-      id: "1B78CE66104C95B3",
-      tasks: [
+      "x": 3.46,
+      "y": -3.46,
+      "shape": "hexagon",
+      "size": 1.15,
+      "id": "1B78CE66104C95B3",
+      "tasks": [
         {
-          id: "4E4395B27680493A",
-          type: "item",
-          item: {
-            id: "ae2:creative_storage_cell",
-            count: 1,
-          },
-        },
+          "id": "4E4395B27680493A",
+          "type": "item",
+          "item": {
+            "id": "ae2:creative_storage_cell",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "5DA3270A8B551580",
-          type: "xp",
-          xp: 100,
+          "id": "5DA3270A8B551580",
+          "type": "xp",
+          "xp": 100
         },
         {
-          id: "5BF6CF19F4432584",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 379532711335085,
-        },
-      ],
+          "id": "5BF6CF19F4432584",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 379532711335085
+        }
+      ]
     },
     {
-      shape: "hexagon",
-      size: 1.15,
-      x: 4.9,
-      y: 0,
-      id: "3B10ABD2B235F671",
-      tasks: [
+      "x": 4.9,
+      "y": 0,
+      "shape": "hexagon",
+      "size": 1.15,
+      "id": "3B10ABD2B235F671",
+      "tasks": [
         {
-          id: "75CC8069337A63FF",
-          type: "item",
-          item: {
-            id: "oritech:creative_storage",
-            count: 1,
-          },
-        },
+          "id": "75CC8069337A63FF",
+          "type": "item",
+          "item": {
+            "id": "oritech:creative_storage",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "58F5B4636767FFDD",
-          type: "xp",
-          xp: 100,
+          "id": "58F5B4636767FFDD",
+          "type": "xp",
+          "xp": 100
         },
         {
-          id: "40D2FB148F043AED",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 379532711335085,
-        },
-      ],
+          "id": "40D2FB148F043AED",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 379532711335085
+        }
+      ]
     },
     {
-      shape: "hexagon",
-      size: 1.15,
-      x: 3.46,
-      y: 3.46,
-      id: "4533E9D28726F2EE",
-      tasks: [
+      "x": 3.46,
+      "y": 3.46,
+      "shape": "hexagon",
+      "size": 1.15,
+      "id": "4533E9D28726F2EE",
+      "tasks": [
         {
-          id: "59B3CAC442920500",
-          type: "item",
-          item: {
-            id: "powah:energy_cell_creative",
-            count: 1,
-          },
-        },
+          "id": "59B3CAC442920500",
+          "type": "item",
+          "item": {
+            "id": "powah:energy_cell_creative",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "570D8C4A9C08D8B7",
-          type: "xp",
-          xp: 100,
+          "id": "570D8C4A9C08D8B7",
+          "type": "xp",
+          "xp": 100
         },
         {
-          id: "3F613AA7B5971A85",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 379532711335085,
-        },
-      ],
+          "id": "3F613AA7B5971A85",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 379532711335085
+        }
+      ]
     },
     {
-      shape: "hexagon",
-      size: 1.15,
-      x: 0,
-      y: 4.9,
-      id: "5B5E21D24565AC3B",
-      tasks: [
+      "x": 0,
+      "y": 4.9,
+      "shape": "hexagon",
+      "size": 1.15,
+      "id": "5B5E21D24565AC3B",
+      "tasks": [
         {
-          id: "42CB755FCFD75909",
-          type: "item",
-          item: {
-            id: "mysticalagradditions:creative_essence",
-            count: 1,
-          },
-        },
+          "id": "42CB755FCFD75909",
+          "type": "item",
+          "item": {
+            "id": "mysticalagradditions:creative_essence",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "2AE5FDA7C2CCE8AB",
-          type: "xp",
-          xp: 100,
+          "id": "2AE5FDA7C2CCE8AB",
+          "type": "xp",
+          "xp": 100
         },
         {
-          id: "39E61544C54F6314",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 379532711335085,
-        },
-      ],
+          "id": "39E61544C54F6314",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 379532711335085
+        }
+      ]
     },
     {
-      shape: "hexagon",
-      size: 1.15,
-      x: -3.46,
-      y: 3.46,
-      id: "3DFBC3EBFAECE201",
-      tasks: [
+      "x": -3.46,
+      "y": 3.46,
+      "shape": "hexagon",
+      "size": 1.15,
+      "id": "3DFBC3EBFAECE201",
+      "tasks": [
         {
-          id: "4640825991145C6F",
-          type: "item",
-          item: {
-            id: "sophisticatedstorage:infinity_upgrade",
-            count: 1,
-          },
-        },
+          "id": "4640825991145C6F",
+          "type": "item",
+          "item": {
+            "id": "sophisticatedstorage:infinity_upgrade",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "4D2F960CA41A9D36",
-          type: "xp",
-          xp: 100,
+          "id": "4D2F960CA41A9D36",
+          "type": "xp",
+          "xp": 100
         },
         {
-          id: "4683E4A08B929162",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 379532711335085,
-        },
-      ],
+          "id": "4683E4A08B929162",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 379532711335085
+        }
+      ]
     },
     {
-      shape: "hexagon",
-      size: 1.15,
-      x: -4.9,
-      y: 0,
-      id: "19E8F922075C4FFD",
-      tasks: [
+      "x": -4.9,
+      "y": 0,
+      "shape": "hexagon",
+      "size": 1.15,
+      "id": "19E8F922075C4FFD",
+      "tasks": [
         {
-          id: "007AB12D7E455BCF",
-          type: "item",
-          item: {
-            id: "mekanism:creative_fluid_tank",
-            count: 1,
-          },
-        },
+          "id": "007AB12D7E455BCF",
+          "type": "item",
+          "item": {
+            "id": "mekanism:creative_fluid_tank",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "46361E1933D7773D",
-          type: "xp",
-          xp: 100,
+          "id": "46361E1933D7773D",
+          "type": "xp",
+          "xp": 100
         },
         {
-          id: "6DFE4CB2F90C3838",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 379532711335085,
-        },
-      ],
+          "id": "6DFE4CB2F90C3838",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 379532711335085
+        }
+      ]
     },
     {
-      shape: "hexagon",
-      size: 1.15,
-      x: -3.46,
-      y: -3.46,
-      id: "4D74C962BF04C733",
-      tasks: [
+      "x": -3.46,
+      "y": -3.46,
+      "shape": "hexagon",
+      "size": 1.15,
+      "id": "4D74C962BF04C733",
+      "tasks": [
         {
-          id: "227D39A3B9C268CC",
-          type: "item",
-          item: {
-            id: "ae2:creative_energy_cell",
-            count: 1,
-          },
-        },
+          "id": "227D39A3B9C268CC",
+          "type": "item",
+          "item": {
+            "id": "ae2:creative_energy_cell",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "0E3C8DB9FBA0B2AB",
-          type: "xp",
-          xp: 100,
+          "id": "0E3C8DB9FBA0B2AB",
+          "type": "xp",
+          "xp": 100
         },
         {
-          id: "48F5B438E3E2B303",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 379532711335085,
-        },
-      ],
+          "id": "48F5B438E3E2B303",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 379532711335085
+        }
+      ]
     },
     {
-      shape: "hexagon",
-      size: 1.15,
-      x: 0,
-      y: -7.4,
-      id: "4C9B6BF424C0EA6D",
-      tasks: [
+      "x": 0,
+      "y": -7.4,
+      "shape": "hexagon",
+      "size": 1.15,
+      "id": "4C9B6BF424C0EA6D",
+      "tasks": [
         {
-          id: "31DF4879B2EE3F30",
-          type: "item",
-          item: {
-            id: "mekanism:mekasuit_bodyarmor",
-            count: 1,
-          },
-        },
+          "id": "31DF4879B2EE3F30",
+          "type": "item",
+          "item": {
+            "id": "mekanism:mekasuit_bodyarmor",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "5C673A464F504208",
-          type: "xp",
-          xp: 100,
+          "id": "5C673A464F504208",
+          "type": "xp",
+          "xp": 100
         },
         {
-          id: "4597D0AB9A4AC02F",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 2210856162803377,
-        },
-      ],
+          "id": "4597D0AB9A4AC02F",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2210856162803377
+        }
+      ]
     },
     {
-      shape: "hexagon",
-      size: 1.15,
-      x: 2.29,
-      y: -7.04,
-      id: "6B972CAFF0A107E1",
-      tasks: [
+      "x": 2.29,
+      "y": -7.04,
+      "shape": "hexagon",
+      "size": 1.15,
+      "id": "6B972CAFF0A107E1",
+      "tasks": [
         {
-          id: "3E9B7025B3A68A66",
-          type: "item",
-          item: {
-            id: "advanced_ae:quantum_core",
-            count: 1,
-          },
-        },
+          "id": "3E9B7025B3A68A66",
+          "type": "item",
+          "item": {
+            "id": "advanced_ae:quantum_core",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "0AA904D406BE072D",
-          type: "xp",
-          xp: 100,
+          "id": "0AA904D406BE072D",
+          "type": "xp",
+          "xp": 100
         },
         {
-          id: "54AE9B550E5B513E",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 2210856162803377,
-        },
-      ],
+          "id": "54AE9B550E5B513E",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2210856162803377
+        }
+      ]
     },
     {
-      shape: "hexagon",
-      size: 1.15,
-      x: 4.35,
-      y: -5.99,
-      id: "0354904EC98AF301",
-      tasks: [
+      "x": 4.35,
+      "y": -5.99,
+      "shape": "hexagon",
+      "size": 1.15,
+      "id": "0354904EC98AF301",
+      "tasks": [
         {
-          id: "52A53F927C1F48CC",
-          type: "item",
-          item: {
-            id: "oritech:black_hole",
-            count: 1,
-          },
-        },
+          "id": "52A53F927C1F48CC",
+          "type": "item",
+          "item": {
+            "id": "oritech:black_hole",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "67CAE64913A21FD2",
-          type: "xp",
-          xp: 100,
+          "id": "67CAE64913A21FD2",
+          "type": "xp",
+          "xp": 100
         },
         {
-          id: "25BB16AF4BAB0C72",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 2210856162803377,
-        },
-      ],
+          "id": "25BB16AF4BAB0C72",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2210856162803377
+        }
+      ]
     },
     {
-      shape: "hexagon",
-      size: 1.15,
-      x: 5.99,
-      y: -4.35,
-      id: "71566518C93304B8",
-      tasks: [
+      "x": 5.99,
+      "y": -4.35,
+      "shape": "hexagon",
+      "size": 1.15,
+      "id": "71566518C93304B8",
+      "tasks": [
         {
-          id: "5F5FB68C065060E4",
-          type: "item",
-          item: {
-            id: "ltxi:infinite_energy_cell_array",
-            count: 1,
-          },
-        },
+          "id": "5F5FB68C065060E4",
+          "type": "item",
+          "item": {
+            "id": "ltxi:infinite_energy_cell_array",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "1174C65B1D18FC5D",
-          type: "xp",
-          xp: 100,
+          "id": "1174C65B1D18FC5D",
+          "type": "xp",
+          "xp": 100
         },
         {
-          id: "70FCA15359DFD4B1",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 2210856162803377,
-        },
-      ],
+          "id": "70FCA15359DFD4B1",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2210856162803377
+        }
+      ]
     },
     {
-      shape: "hexagon",
-      size: 1.15,
-      x: 7.04,
-      y: -2.29,
-      id: "3BF5C197358B3FFE",
-      tasks: [
+      "x": 7.04,
+      "y": -2.29,
+      "shape": "hexagon",
+      "size": 1.15,
+      "id": "3BF5C197358B3FFE",
+      "tasks": [
         {
-          id: "55559F43FC43C79C",
-          type: "item",
-          item: {
-            id: "railcraft:electric_locomotive",
-            count: 1,
-          },
-        },
+          "id": "55559F43FC43C79C",
+          "type": "item",
+          "item": {
+            "id": "railcraft:electric_locomotive",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "2C2C7E58CAC824CA",
-          type: "xp",
-          xp: 100,
+          "id": "2C2C7E58CAC824CA",
+          "type": "xp",
+          "xp": 100
         },
         {
-          id: "7791B6D2A5D81265",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 2210856162803377,
-        },
-      ],
+          "id": "7791B6D2A5D81265",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2210856162803377
+        }
+      ]
     },
     {
-      shape: "hexagon",
-      size: 1.15,
-      x: 7.4,
-      y: 0,
-      id: "057F38E9AB8AF57E",
-      tasks: [
+      "x": 7.4,
+      "y": 0,
+      "shape": "hexagon",
+      "size": 1.15,
+      "id": "057F38E9AB8AF57E",
+      "tasks": [
         {
-          id: "463C2A8078EA4813",
-          type: "item",
-          item: {
-            id: "powah:energy_cell_nitro",
-            count: 1,
-          },
-        },
+          "id": "463C2A8078EA4813",
+          "type": "item",
+          "item": {
+            "id": "powah:energy_cell_nitro",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "080994D542051896",
-          type: "xp",
-          xp: 100,
+          "id": "080994D542051896",
+          "type": "xp",
+          "xp": 100
         },
         {
-          id: "46B347A383DFFF8F",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 2210856162803377,
-        },
-      ],
+          "id": "46B347A383DFFF8F",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2210856162803377
+        }
+      ]
     },
     {
-      shape: "hexagon",
-      size: 1.15,
-      x: 7.04,
-      y: 2.29,
-      id: "186854CCD3EF9A2E",
-      tasks: [
+      "x": 7.04,
+      "y": 2.29,
+      "shape": "hexagon",
+      "size": 1.15,
+      "id": "186854CCD3EF9A2E",
+      "tasks": [
         {
-          id: "68ABB1BDCB8B042C",
-          type: "item",
-          item: {
-            id: "tconstruct:queens_slime_ingot",
-            count: 1,
-          },
-        },
+          "id": "68ABB1BDCB8B042C",
+          "type": "item",
+          "item": {
+            "id": "tconstruct:queens_slime_ingot",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "314F77BDDA6B105C",
-          type: "xp",
-          xp: 100,
+          "id": "314F77BDDA6B105C",
+          "type": "xp",
+          "xp": 100
         },
         {
-          id: "41A5A92BBB1B5C3A",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 2210856162803377,
-        },
-      ],
+          "id": "41A5A92BBB1B5C3A",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2210856162803377
+        }
+      ]
     },
     {
-      shape: "hexagon",
-      size: 1.15,
-      x: 5.99,
-      y: 4.35,
-      id: "15ED014391DE667D",
-      tasks: [
+      "x": 5.99,
+      "y": 4.35,
+      "shape": "hexagon",
+      "size": 1.15,
+      "id": "15ED014391DE667D",
+      "tasks": [
         {
-          id: "580C29632B5B3D31",
-          type: "item",
-          item: {
-            id: "thaumaturge:primordial_pearl",
-            count: 1,
-          },
-        },
+          "id": "580C29632B5B3D31",
+          "type": "item",
+          "item": {
+            "id": "thaumaturge:primordial_pearl",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "571129A4151D0C62",
-          type: "xp",
-          xp: 100,
+          "id": "571129A4151D0C62",
+          "type": "xp",
+          "xp": 100
         },
         {
-          id: "3CDAA4C018B9C1C9",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 2210856162803377,
-        },
-      ],
+          "id": "3CDAA4C018B9C1C9",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2210856162803377
+        }
+      ]
     },
     {
-      shape: "hexagon",
-      size: 1.15,
-      x: 4.35,
-      y: 5.99,
-      id: "0EB628FE52FA73AC",
-      tasks: [
+      "x": 4.35,
+      "y": 5.99,
+      "shape": "hexagon",
+      "size": 1.15,
+      "id": "0EB628FE52FA73AC",
+      "tasks": [
         {
-          id: "035C51C7D8FDF2D4",
-          type: "item",
-          item: {
-            id: "apotheosis:godforged_pearl",
-            count: 1,
-          },
-        },
+          "id": "035C51C7D8FDF2D4",
+          "type": "item",
+          "item": {
+            "id": "apotheosis:godforged_pearl",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "27F6D2E768906220",
-          type: "xp",
-          xp: 100,
+          "id": "27F6D2E768906220",
+          "type": "xp",
+          "xp": 100
         },
         {
-          id: "6C5DB77C8C9D7875",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 2210856162803377,
-        },
-      ],
+          "id": "6C5DB77C8C9D7875",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2210856162803377
+        }
+      ]
     },
     {
-      shape: "hexagon",
-      size: 1.15,
-      x: 2.29,
-      y: 7.04,
-      id: "12E8C02D4518B83F",
-      tasks: [
+      "x": 2.29,
+      "y": 7.04,
+      "shape": "hexagon",
+      "size": 1.15,
+      "id": "12E8C02D4518B83F",
+      "tasks": [
         {
-          id: "20B0EDD951AAA68E",
-          type: "item",
-          item: {
-            id: "equivox:klein_star_omega",
-            count: 1,
-          },
-        },
+          "id": "20B0EDD951AAA68E",
+          "type": "item",
+          "item": {
+            "id": "equivox:klein_star_omega",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "1E8975572ABD3999",
-          type: "xp",
-          xp: 100,
+          "id": "1E8975572ABD3999",
+          "type": "xp",
+          "xp": 100
         },
         {
-          id: "4E9E4E53756BE177",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 2210856162803377,
-        },
-      ],
+          "id": "4E9E4E53756BE177",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2210856162803377
+        }
+      ]
     },
     {
-      shape: "hexagon",
-      size: 1.15,
-      x: 0,
-      y: 7.4,
-      id: "0D797056F1541E10",
-      tasks: [
+      "x": 0,
+      "y": 7.4,
+      "shape": "hexagon",
+      "size": 1.15,
+      "id": "0D797056F1541E10",
+      "tasks": [
         {
-          id: "3B6A0756D2C47195",
-          type: "item",
-          item: {
-            id: "mysticalagradditions:insanium_gemstone_block",
-            count: 1,
-          },
-        },
+          "id": "3B6A0756D2C47195",
+          "type": "item",
+          "item": {
+            "id": "mysticalagradditions:insanium_gemstone_block",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "4D6BC4DDB1E9A65E",
-          type: "xp",
-          xp: 100,
+          "id": "4D6BC4DDB1E9A65E",
+          "type": "xp",
+          "xp": 100
         },
         {
-          id: "73EF071064F8CF08",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 2210856162803377,
-        },
-      ],
+          "id": "73EF071064F8CF08",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2210856162803377
+        }
+      ]
     },
     {
-      shape: "hexagon",
-      size: 1.15,
-      x: -2.29,
-      y: 7.04,
-      id: "0F3E03DA5124F8DB",
-      tasks: [
+      "x": -2.29,
+      "y": 7.04,
+      "shape": "hexagon",
+      "size": 1.15,
+      "id": "0F3E03DA5124F8DB",
+      "tasks": [
         {
-          id: "5D5C7B6B6FABFE3A",
-          type: "item",
-          item: {
-            id: "evilcraft:dark_power_gem_block",
-            count: 1,
-          },
-        },
+          "id": "5D5C7B6B6FABFE3A",
+          "type": "item",
+          "item": {
+            "id": "evilcraft:dark_power_gem_block",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "5D3BE4A1D214E75D",
-          type: "xp",
-          xp: 100,
+          "id": "5D3BE4A1D214E75D",
+          "type": "xp",
+          "xp": 100
         },
         {
-          id: "1CA551F5EEA126F1",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 2210856162803377,
-        },
-      ],
+          "id": "1CA551F5EEA126F1",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2210856162803377
+        }
+      ]
     },
     {
-      shape: "hexagon",
-      size: 1.15,
-      x: -4.35,
-      y: 5.99,
-      id: "7F07B4095A66780D",
-      tasks: [
+      "x": -4.35,
+      "y": 5.99,
+      "shape": "hexagon",
+      "size": 1.15,
+      "id": "7F07B4095A66780D",
+      "tasks": [
         {
-          id: "22E90D099C377151",
-          type: "item",
-          item: {
-            id: "rootsclassic:crystal_staff",
-            count: 1,
-          },
-        },
+          "id": "22E90D099C377151",
+          "type": "item",
+          "item": {
+            "id": "rootsclassic:crystal_staff",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "13B56CA2BB50ED67",
-          type: "xp",
-          xp: 100,
+          "id": "13B56CA2BB50ED67",
+          "type": "xp",
+          "xp": 100
         },
         {
-          id: "3FCD855180A302BA",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 2210856162803377,
-        },
-      ],
+          "id": "3FCD855180A302BA",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2210856162803377
+        }
+      ]
     },
     {
-      shape: "hexagon",
-      size: 1.15,
-      x: -5.99,
-      y: 4.35,
-      id: "3286D72115FB535D",
-      tasks: [
+      "x": -5.99,
+      "y": 4.35,
+      "shape": "hexagon",
+      "size": 1.15,
+      "id": "3286D72115FB535D",
+      "tasks": [
         {
-          id: "05333C7F1120E693",
-          type: "item",
-          item: {
-            id: "aether_ii:valkyrie_wings",
-            count: 1,
-          },
-        },
+          "id": "05333C7F1120E693",
+          "type": "item",
+          "item": {
+            "id": "aether_ii:valkyrie_wings",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "460C2359B7BB167A",
-          type: "xp",
-          xp: 100,
+          "id": "460C2359B7BB167A",
+          "type": "xp",
+          "xp": 100
         },
         {
-          id: "6DF1A880767A3C6F",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 2210856162803377,
-        },
-      ],
+          "id": "6DF1A880767A3C6F",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2210856162803377
+        }
+      ]
     },
     {
-      shape: "hexagon",
-      size: 1.15,
-      x: -7.04,
-      y: 2.29,
-      id: "760788DD8819717E",
-      tasks: [
+      "x": -7.04,
+      "y": 2.29,
+      "shape": "hexagon",
+      "size": 1.15,
+      "id": "760788DD8819717E",
+      "tasks": [
         {
-          id: "25E2F8788CA68C23",
-          type: "item",
-          item: {
-            id: "allthemodium:unobtainium_vibranium_block",
-            count: 1,
-          },
-        },
+          "id": "25E2F8788CA68C23",
+          "type": "item",
+          "item": {
+            "id": "allthemodium:unobtainium_vibranium_block",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "643EB77A64FF1E65",
-          type: "xp",
-          xp: 100,
+          "id": "643EB77A64FF1E65",
+          "type": "xp",
+          "xp": 100
         },
         {
-          id: "21A736A388D6636F",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 2210856162803377,
-        },
-      ],
+          "id": "21A736A388D6636F",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2210856162803377
+        }
+      ]
     },
     {
-      shape: "hexagon",
-      size: 1.15,
-      x: -7.4,
-      y: 0,
-      id: "3F6E1924F6C35CA2",
-      tasks: [
+      "x": -7.4,
+      "y": 0,
+      "shape": "hexagon",
+      "size": 1.15,
+      "id": "3F6E1924F6C35CA2",
+      "tasks": [
         {
-          id: "6DC1C59C4A026628",
-          type: "item",
-          item: {
-            id: "stellaris:heart_of_luna_trophy",
-            count: 1,
-          },
-        },
+          "id": "6DC1C59C4A026628",
+          "type": "item",
+          "item": {
+            "id": "stellaris:heart_of_luna_trophy",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "3258D77C578D0453",
-          type: "xp",
-          xp: 100,
+          "id": "3258D77C578D0453",
+          "type": "xp",
+          "xp": 100
         },
         {
-          id: "24498DD205358459",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 2210856162803377,
-        },
-      ],
+          "id": "24498DD205358459",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2210856162803377
+        }
+      ]
     },
     {
-      shape: "hexagon",
-      size: 1.15,
-      x: -7.04,
-      y: -2.29,
-      id: "3B87E61C675503FE",
-      tasks: [
+      "x": -7.04,
+      "y": -2.29,
+      "shape": "hexagon",
+      "size": 1.15,
+      "id": "3B87E61C675503FE",
+      "tasks": [
         {
-          id: "621CF5BCF2B8674E",
-          type: "item",
-          item: {
-            id: "stellaris:star_crawler_boss_trophy",
-            count: 1,
-          },
-        },
+          "id": "621CF5BCF2B8674E",
+          "type": "item",
+          "item": {
+            "id": "stellaris:star_crawler_boss_trophy",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "24A152E514B076D3",
-          type: "xp",
-          xp: 100,
+          "id": "24A152E514B076D3",
+          "type": "xp",
+          "xp": 100
         },
         {
-          id: "54539A62F3CF6F26",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 2210856162803377,
-        },
-      ],
+          "id": "54539A62F3CF6F26",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2210856162803377
+        }
+      ]
     },
     {
-      shape: "hexagon",
-      size: 1.15,
-      x: -5.99,
-      y: -4.35,
-      id: "7E87EB44B2FB41E2",
-      tasks: [
+      "x": -5.99,
+      "y": -4.35,
+      "shape": "hexagon",
+      "size": 1.15,
+      "id": "7E87EB44B2FB41E2",
+      "tasks": [
         {
-          id: "612CB4BFC4962312",
-          type: "item",
-          item: {
-            id: "aquaculture:neptunium_block",
-            count: 1,
-          },
-        },
+          "id": "612CB4BFC4962312",
+          "type": "item",
+          "item": {
+            "id": "aquaculture:neptunium_block",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "04C92E1B85246D40",
-          type: "xp",
-          xp: 100,
+          "id": "04C92E1B85246D40",
+          "type": "xp",
+          "xp": 100
         },
         {
-          id: "3F23170C567D9DCD",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 2210856162803377,
-        },
-      ],
+          "id": "3F23170C567D9DCD",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2210856162803377
+        }
+      ]
     },
     {
-      shape: "hexagon",
-      size: 1.15,
-      x: -4.35,
-      y: -5.99,
-      id: "1A5C915FF4C14842",
-      tasks: [
+      "x": -4.35,
+      "y": -5.99,
+      "shape": "hexagon",
+      "size": 1.15,
+      "id": "1A5C915FF4C14842",
+      "tasks": [
         {
-          id: "161C5C28258F5A1B",
-          type: "item",
-          item: {
-            id: "stellaris:novite_block",
-            count: 1,
-          },
-        },
+          "id": "161C5C28258F5A1B",
+          "type": "item",
+          "item": {
+            "id": "stellaris:novite_block",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "77C135A986A5C6A3",
-          type: "xp",
-          xp: 100,
+          "id": "77C135A986A5C6A3",
+          "type": "xp",
+          "xp": 100
         },
         {
-          id: "6A401A010983ABE2",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 2210856162803377,
-        },
-      ],
+          "id": "6A401A010983ABE2",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2210856162803377
+        }
+      ]
     },
     {
-      shape: "hexagon",
-      size: 1.15,
-      x: -2.29,
-      y: -7.04,
-      id: "262AE0CCD5302B49",
-      tasks: [
+      "x": -2.29,
+      "y": -7.04,
+      "shape": "hexagon",
+      "size": 1.15,
+      "id": "262AE0CCD5302B49",
+      "tasks": [
         {
-          id: "3ECEA3D993F556D9",
-          type: "item",
-          item: {
-            id: "aether_ii:gravitite_block",
-            count: 1,
-          },
-        },
+          "id": "3ECEA3D993F556D9",
+          "type": "item",
+          "item": {
+            "id": "aether_ii:gravitite_block",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "7CBCCA1ABCB87233",
-          type: "xp",
-          xp: 100,
+          "id": "7CBCCA1ABCB87233",
+          "type": "xp",
+          "xp": 100
         },
         {
-          id: "1D49FA59CE14E11A",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 2210856162803377,
-        },
-      ],
+          "id": "1D49FA59CE14E11A",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2210856162803377
+        }
+      ]
     },
     {
-      shape: "hexagon",
-      size: 1.15,
-      x: 3.83,
-      y: -9.24,
-      id: "71C4ADA8801DF42A",
-      tasks: [
+      "x": 3.83,
+      "y": -9.24,
+      "shape": "hexagon",
+      "size": 1.15,
+      "id": "71C4ADA8801DF42A",
+      "tasks": [
         {
-          id: "4129871CE25C4673",
-          type: "item",
-          item: {
-            id: "twilightforest:naga_trophy",
-            count: 1,
-          },
-        },
+          "id": "4129871CE25C4673",
+          "type": "item",
+          "item": {
+            "id": "twilightforest:naga_trophy",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "20021A5600B122C5",
-          type: "xp",
-          xp: 100,
+          "id": "20021A5600B122C5",
+          "type": "xp",
+          "xp": 100
         },
         {
-          id: "7815FC120634747C",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 3941786890615136,
-        },
-      ],
+          "id": "7815FC120634747C",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 3941786890615136
+        }
+      ]
     },
     {
-      shape: "hexagon",
-      size: 1.15,
-      x: 9.24,
-      y: -3.83,
-      id: "341C1F6A79F1EB29",
-      tasks: [
+      "x": 9.24,
+      "y": -3.83,
+      "shape": "hexagon",
+      "size": 1.15,
+      "id": "341C1F6A79F1EB29",
+      "tasks": [
         {
-          id: "5F938AEC7DA34575",
-          type: "item",
-          item: {
-            id: "twilightforest:lich_trophy",
-            count: 1,
-          },
-        },
+          "id": "5F938AEC7DA34575",
+          "type": "item",
+          "item": {
+            "id": "twilightforest:lich_trophy",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "0EFDB7AF1DBD8322",
-          type: "xp",
-          xp: 100,
+          "id": "0EFDB7AF1DBD8322",
+          "type": "xp",
+          "xp": 100
         },
         {
-          id: "246A10469B84DBCC",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 3941786890615136,
-        },
-      ],
+          "id": "246A10469B84DBCC",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 3941786890615136
+        }
+      ]
     },
     {
-      shape: "hexagon",
-      size: 1.15,
-      x: 9.24,
-      y: 3.83,
-      id: "009E15054F5C2347",
-      tasks: [
+      "x": 9.24,
+      "y": 3.83,
+      "shape": "hexagon",
+      "size": 1.15,
+      "id": "009E15054F5C2347",
+      "tasks": [
         {
-          id: "75DBC27E333535AF",
-          type: "item",
-          item: {
-            id: "twilightforest:minoshroom_trophy",
-            count: 1,
-          },
-        },
+          "id": "75DBC27E333535AF",
+          "type": "item",
+          "item": {
+            "id": "twilightforest:minoshroom_trophy",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "7EF51524CD3BDF51",
-          type: "xp",
-          xp: 100,
+          "id": "7EF51524CD3BDF51",
+          "type": "xp",
+          "xp": 100
         },
         {
-          id: "4BB31E004A791090",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 3941786890615136,
-        },
-      ],
+          "id": "4BB31E004A791090",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 3941786890615136
+        }
+      ]
     },
     {
-      shape: "hexagon",
-      size: 1.15,
-      x: 3.83,
-      y: 9.24,
-      id: "1F5FCBAA0B81860F",
-      tasks: [
+      "x": 3.83,
+      "y": 9.24,
+      "shape": "hexagon",
+      "size": 1.15,
+      "id": "1F5FCBAA0B81860F",
+      "tasks": [
         {
-          id: "73593EBFD63854E2",
-          type: "item",
-          item: {
-            id: "twilightforest:hydra_trophy",
-            count: 1,
-          },
-        },
+          "id": "73593EBFD63854E2",
+          "type": "item",
+          "item": {
+            "id": "twilightforest:hydra_trophy",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "0DDEB76861729620",
-          type: "xp",
-          xp: 100,
+          "id": "0DDEB76861729620",
+          "type": "xp",
+          "xp": 100
         },
         {
-          id: "6BC76C2179B1AA21",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 3941786890615136,
-        },
-      ],
+          "id": "6BC76C2179B1AA21",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 3941786890615136
+        }
+      ]
     },
     {
-      shape: "hexagon",
-      size: 1.15,
-      x: -3.83,
-      y: 9.24,
-      id: "1773D48E8DA64C24",
-      tasks: [
+      "x": -3.83,
+      "y": 9.24,
+      "shape": "hexagon",
+      "size": 1.15,
+      "id": "1773D48E8DA64C24",
+      "tasks": [
         {
-          id: "24ACD3D256E71A61",
-          type: "item",
-          item: {
-            id: "twilightforest:knight_phantom_trophy",
-            count: 1,
-          },
-        },
+          "id": "24ACD3D256E71A61",
+          "type": "item",
+          "item": {
+            "id": "twilightforest:knight_phantom_trophy",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "2209C766ED698373",
-          type: "xp",
-          xp: 100,
+          "id": "2209C766ED698373",
+          "type": "xp",
+          "xp": 100
         },
         {
-          id: "4235FC139E24D59F",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 3941786890615136,
-        },
-      ],
+          "id": "4235FC139E24D59F",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 3941786890615136
+        }
+      ]
     },
     {
-      shape: "hexagon",
-      size: 1.15,
-      x: -9.24,
-      y: 3.83,
-      id: "27D924167CCD0A9F",
-      tasks: [
+      "x": -9.24,
+      "y": 3.83,
+      "shape": "hexagon",
+      "size": 1.15,
+      "id": "27D924167CCD0A9F",
+      "tasks": [
         {
-          id: "20F288E36B7A7D06",
-          type: "item",
-          item: {
-            id: "twilightforest:ur_ghast_trophy",
-            count: 1,
-          },
-        },
+          "id": "20F288E36B7A7D06",
+          "type": "item",
+          "item": {
+            "id": "twilightforest:ur_ghast_trophy",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "368F397C1237EB81",
-          type: "xp",
-          xp: 100,
+          "id": "368F397C1237EB81",
+          "type": "xp",
+          "xp": 100
         },
         {
-          id: "37B03FCCC814F230",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 3941786890615136,
-        },
-      ],
+          "id": "37B03FCCC814F230",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 3941786890615136
+        }
+      ]
     },
     {
-      shape: "hexagon",
-      size: 1.15,
-      x: -9.24,
-      y: -3.83,
-      id: "5B0A4A47E2A328DE",
-      tasks: [
+      "x": -9.24,
+      "y": -3.83,
+      "shape": "hexagon",
+      "size": 1.15,
+      "id": "5B0A4A47E2A328DE",
+      "tasks": [
         {
-          id: "2E630CB7B619E916",
-          type: "item",
-          item: {
-            id: "twilightforest:alpha_yeti_trophy",
-            count: 1,
-          },
-        },
+          "id": "2E630CB7B619E916",
+          "type": "item",
+          "item": {
+            "id": "twilightforest:alpha_yeti_trophy",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "0C4F6A82D97D3518",
-          type: "xp",
-          xp: 100,
+          "id": "0C4F6A82D97D3518",
+          "type": "xp",
+          "xp": 100
         },
         {
-          id: "2AFC26BFD8E5C8A9",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 3941786890615136,
-        },
-      ],
+          "id": "2AFC26BFD8E5C8A9",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 3941786890615136
+        }
+      ]
     },
     {
-      shape: "hexagon",
-      size: 1.15,
-      x: -3.83,
-      y: -9.24,
-      id: "0A556F51688DC21B",
-      tasks: [
+      "x": -3.83,
+      "y": -9.24,
+      "shape": "hexagon",
+      "size": 1.15,
+      "id": "0A556F51688DC21B",
+      "tasks": [
         {
-          id: "027E49D8DAC4C3C2",
-          type: "item",
-          item: {
-            id: "twilightforest:snow_queen_trophy",
-            count: 1,
-          },
-        },
+          "id": "027E49D8DAC4C3C2",
+          "type": "item",
+          "item": {
+            "id": "twilightforest:snow_queen_trophy",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "26C88AC16CEB3AA3",
-          type: "xp",
-          xp: 100,
+          "id": "26C88AC16CEB3AA3",
+          "type": "xp",
+          "xp": 100
         },
         {
-          id: "3ACF71EF84E85341",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 3941786890615136,
-        },
-      ],
+          "id": "3ACF71EF84E85341",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 3941786890615136
+        }
+      ]
     },
     {
-      shape: "gear",
-      size: 1.3,
-      x: 0,
-      y: 0,
-      dependencies: ["211472984F381C23","6423617BE3AF7FD4","4B7EA33948A8A04B","6930655444B64E63","3AFDF71D0FE05B78","4B49E2969F978968","1FBAFB713A8BA439","0CBAA91E88C68B59","0B1A7DF20DC0C166","0A34B39F4E7ADC1A","1B78CE66104C95B3","3B10ABD2B235F671","4533E9D28726F2EE","5B5E21D24565AC3B","3DFBC3EBFAECE201","19E8F922075C4FFD","4D74C962BF04C733","4C9B6BF424C0EA6D","6B972CAFF0A107E1","0354904EC98AF301","71566518C93304B8","3BF5C197358B3FFE","057F38E9AB8AF57E","186854CCD3EF9A2E","15ED014391DE667D","0EB628FE52FA73AC","12E8C02D4518B83F","0D797056F1541E10","0F3E03DA5124F8DB","7F07B4095A66780D","3286D72115FB535D","760788DD8819717E","3F6E1924F6C35CA2","3B87E61C675503FE","7E87EB44B2FB41E2","1A5C915FF4C14842","262AE0CCD5302B49","71C4ADA8801DF42A","341C1F6A79F1EB29","009E15054F5C2347","1F5FCBAA0B81860F","1773D48E8DA64C24","27D924167CCD0A9F","5B0A4A47E2A328DE","0A556F51688DC21B"],
-      id: "41DE5024E62E94A2",
-      tasks: [
-        {
-          id: "508FC1DC51B2A8B6",
-          type: "item",
-          item: {
-            id: "gspack:infinity_trophy",
-            count: 1,
-          },
-        },
+      "x": 0,
+      "y": 0,
+      "shape": "gear",
+      "dependencies": [
+        "211472984F381C23",
+        "6423617BE3AF7FD4",
+        "4B7EA33948A8A04B",
+        "6930655444B64E63",
+        "3AFDF71D0FE05B78",
+        "4B49E2969F978968",
+        "1FBAFB713A8BA439",
+        "0CBAA91E88C68B59",
+        "0B1A7DF20DC0C166",
+        "0A34B39F4E7ADC1A",
+        "1B78CE66104C95B3",
+        "3B10ABD2B235F671",
+        "4533E9D28726F2EE",
+        "5B5E21D24565AC3B",
+        "3DFBC3EBFAECE201",
+        "19E8F922075C4FFD",
+        "4D74C962BF04C733",
+        "4C9B6BF424C0EA6D",
+        "6B972CAFF0A107E1",
+        "0354904EC98AF301",
+        "71566518C93304B8",
+        "3BF5C197358B3FFE",
+        "057F38E9AB8AF57E",
+        "186854CCD3EF9A2E",
+        "15ED014391DE667D",
+        "0EB628FE52FA73AC",
+        "12E8C02D4518B83F",
+        "0D797056F1541E10",
+        "0F3E03DA5124F8DB",
+        "7F07B4095A66780D",
+        "3286D72115FB535D",
+        "760788DD8819717E",
+        "3F6E1924F6C35CA2",
+        "3B87E61C675503FE",
+        "7E87EB44B2FB41E2",
+        "1A5C915FF4C14842",
+        "262AE0CCD5302B49",
+        "71C4ADA8801DF42A",
+        "341C1F6A79F1EB29",
+        "009E15054F5C2347",
+        "1F5FCBAA0B81860F",
+        "1773D48E8DA64C24",
+        "27D924167CCD0A9F",
+        "5B0A4A47E2A328DE",
+        "0A556F51688DC21B"
       ],
-      rewards: [
+      "size": 1.3,
+      "id": "41DE5024E62E94A2",
+      "tasks": [
         {
-          id: "058ECECA88133A5D",
-          type: "xp_levels",
-          xp_levels: 5,
-        },
+          "id": "508FC1DC51B2A8B6",
+          "type": "item",
+          "item": {
+            "id": "gspack:infinity_trophy",
+            "count": 1
+          }
+        }
       ],
-    },
+      "rewards": [
+        {
+          "id": "058ECECA88133A5D",
+          "type": "xp_levels",
+          "xp_levels": 5
+        }
+      ]
+    }
   ],
-  quest_links: [
-  ],
-  images: [
-  {
-    "x": 5.4,
-    "y": -10.95875,
-    "width": 12,
-    "height": 1.4375,
-    "rotation": 0,
-    "image": "gspack:textures/quests/trophy_header.png",
-    "color": 16777215,
-    "alpha": 255,
-    "order": 0,
-    "corner": false
-  }
-],
+  "quest_links": [],
+  "images": [
+    {
+      "x": 5.4,
+      "y": -10.95875,
+      "width": 12,
+      "height": 1.4375,
+      "rotation": 0,
+      "image": "gspack:textures/quests/trophy_header.png",
+      "id": "270DD1301E65E740"
+    }
+  ]
 }

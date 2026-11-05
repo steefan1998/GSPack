@@ -1,1913 +1,2467 @@
 {
-  id: "1E4CA1EAB9003DC3",
-  group: "105EE503AFE85CA5",
-  order_index: 8,
-  icon: {
-    id: "justdirethings:gooblock_tier1",
-    count: 1,
-  },
-  filename: "justdirethings",
-  default_quest_shape: "",
-  default_hide_dependency_lines: false,
-  quests: [
-    {
-      x: 0,
-      y: 0.9,
-      shape: "gear",
-      size: 1.3,
-      id: "2DB8AE43ABAB9872",
-      tasks: [
-        {
-          id: "015E12DDF69261F7",
-          type: "item",
-          item: {
-            id: "justdirethings:gooblock_tier1",
-            count: 1,
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "282AFFCE419549BE",
-          type: "xp",
-          xp: 50,
-        },
-        {
-          id: "60DD346411BADB42",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 4224964620844649,
-        },
-      ],
-    },
-    {
-      x: 1.8,
-      y: 0,
-      dependencies: ["2DB8AE43ABAB9872"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"2DB8AE43ABAB9872":[0,0.9,1.8,0]},
-      id: "15455EAAD1E8A21D",
-      tasks: [
-        {
-          id: "27A03E049CC970A2",
-          type: "item",
-          item: {
-            id: "justdirethings:gooblock_tier2",
-            count: 1,
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "1FE00AADBA56506D",
-          type: "xp",
-          xp: 75,
-        },
-      ],
-    },
-    {
-      x: 3.6,
-      y: 0.9,
-      dependencies: ["15455EAAD1E8A21D"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"15455EAAD1E8A21D":[1.8,0,3.6,0.9]},
-      id: "0040AEC79993EAE9",
-      tasks: [
-        {
-          id: "4738D66FD4673D06",
-          type: "item",
-          item: {
-            id: "justdirethings:gooblock_tier3",
-            count: 1,
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "393C426EDE1AF906",
-          type: "xp",
-          xp: 100,
-        },
-        {
-          id: "6E8FB40ACCE4DCB5",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 253752461985528,
-        },
-      ],
-    },
-    {
-      x: 5.4,
-      y: 0.9,
-      dependencies: ["0040AEC79993EAE9"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"0040AEC79993EAE9":[3.6,0.9,5.4,0.9]},
-      id: "131F81E0625949F3",
-      tasks: [
-        {
-          id: "41784724E7812EA1",
-          type: "item",
-          item: {
-            id: "justdirethings:gooblock_tier4",
-            count: 1,
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "07A698ACC3F278E3",
-          type: "xp",
-          xp: 150,
-        },
-        {
-          id: "6B94AA5DC964BE39",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 2210856162803377,
-        },
-      ],
-    },
-    {
-      x: 1.8,
-      y: 1.8,
-      optional: true,
-      dependencies: ["2DB8AE43ABAB9872"],
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"2DB8AE43ABAB9872":[0,0.9,1.8,1.8]},
-      id: "6508D4E10BFA5D63",
-      tasks: [
-        {
-          id: "281D1DD4A6A07BB6",
-          type: "item",
-          item: {
-            id: "justdirethings:goosoil_tier1",
-            count: 1,
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "00B67930AC11EE4F",
-          type: "xp",
-          xp: 50,
-        },
-      ],
-    },
-    {
-      x: 16.1,
-      y: 0,
-      dependencies: ["2DB8AE43ABAB9872"],
-      hide_dependency_lines: true,
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"2DB8AE43ABAB9872":[0,0.9,16.1,0]},
-      id: "283077DA1AD108D8",
-      tasks: [
-        {
-          id: "1FD0CDD641115FCC",
-          type: "item",
-          item: {
-            id: "justdirethings:raw_ferricore",
-            count: 1,
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "46F3B66F4AD68454",
-          type: "xp",
-          xp: 75,
-        },
-      ],
-    },
-    {
-      x: 16.1,
-      y: 1.8,
-      dependencies: ["283077DA1AD108D8"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"283077DA1AD108D8":[16.1,0,16.1,1.8]},
-      id: "5F8FF862F9B5DA8B",
-      tasks: [
-        {
-          id: "2B16A36656DBF62F",
-          type: "item",
-          item: {
-            id: "justdirethings:ferricore_ingot",
-            count: 1,
-          },
-          count: 8,
-        },
-      ],
-      rewards: [
-        {
-          id: "53B00E6BF113794E",
-          type: "xp",
-          xp: 75,
-        },
-      ],
-    },
-    {
-      x: 13.4,
-      y: 3.6,
-      dependencies: ["5F8FF862F9B5DA8B"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"5F8FF862F9B5DA8B":[16.1,1.8,13.4,3.6]},
-      id: "0C9E6CE350BDB1F1",
-      tasks: [
-        {
-          id: "1B3930C0AF1FBEB2",
-          type: "item",
-          item: {
-            id: "justdirethings:ferricore_pickaxe",
-            count: 1,
-          },
-        },
-        {
-          id: "2D023B7E2CC85EE7",
-          type: "item",
-          item: {
-            id: "justdirethings:ferricore_sword",
-            count: 1,
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "2541E92827D2FC06",
-          type: "xp",
-          xp: 75,
-        },
-      ],
-    },
-    {
-      x: 15.2,
-      y: 3.6,
-      optional: true,
-      dependencies: ["5F8FF862F9B5DA8B"],
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"5F8FF862F9B5DA8B":[16.1,1.8,15.2,3.6]},
-      id: "2579A1468E14A08E",
-      tasks: [
-        {
-          id: "73E26FE2F2BD4E18",
-          type: "item",
-          item: {
-            id: "justdirethings:ferricore_helmet",
-            count: 1,
-          },
-        },
-        {
-          id: "532FA9D54A45A6B6",
-          type: "item",
-          item: {
-            id: "justdirethings:ferricore_chestplate",
-            count: 1,
-          },
-        },
-        {
-          id: "4C945D457ED74201",
-          type: "item",
-          item: {
-            id: "justdirethings:ferricore_leggings",
-            count: 1,
-          },
-        },
-        {
-          id: "04AE1AADE432B24A",
-          type: "item",
-          item: {
-            id: "justdirethings:ferricore_boots",
-            count: 1,
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "6790562A2FC1DBE5",
-          type: "xp",
-          xp: 100,
-        },
-      ],
-    },
-    {
-      x: 17,
-      y: 3.6,
-      optional: true,
-      dependencies: ["5F8FF862F9B5DA8B"],
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"5F8FF862F9B5DA8B":[16.1,1.8,17,3.6]},
-      id: "31CBDF9E32AE45A8",
-      tasks: [
-        {
-          id: "2E90D6FC0B7D0A80",
-          type: "item",
-          item: {
-            id: "justdirethings:ferricore_wrench",
-            count: 1,
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "5F0D9CD24D00A449",
-          type: "xp",
-          xp: 50,
-        },
-      ],
-    },
-    {
-      x: 18.8,
-      y: 3.6,
-      dependencies: ["5F8FF862F9B5DA8B"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"5F8FF862F9B5DA8B":[16.1,1.8,18.8,3.6]},
-      id: "12484EE6A32C849B",
-      tasks: [
-        {
-          id: "7BD2A22DCA044D33",
-          type: "item",
-          item: {
-            id: "justdirethings:pocket_generator",
-            count: 1,
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "011919A0A839CD05",
-          type: "xp",
-          xp: 75,
-        },
-      ],
-    },
-    {
-      x: 0,
-      y: 8.6,
-      dependencies: ["15455EAAD1E8A21D"],
-      hide_dependency_lines: true,
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"15455EAAD1E8A21D":[1.8,0,0,8.6]},
-      id: "350F2183504429CB",
-      tasks: [
-        {
-          id: "089E882313F5B6CC",
-          type: "item",
-          item: {
-            id: "justdirethings:raw_blazegold",
-            count: 1,
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "081B700E74B61FA3",
-          type: "xp",
-          xp: 100,
-        },
-      ],
-    },
-    {
-      x: 1.8,
-      y: 8.6,
-      dependencies: ["350F2183504429CB"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"350F2183504429CB":[0,8.6,1.8,8.6]},
-      id: "363D1372EC2AFA63",
-      tasks: [
-        {
-          id: "558F7F5806B22AF3",
-          type: "item",
-          item: {
-            id: "justdirethings:blazegold_ingot",
-            count: 1,
-          },
-          count: 8,
-        },
-      ],
-      rewards: [
-        {
-          id: "3344F5C8D88FD732",
-          type: "xp",
-          xp: 100,
-        },
-        {
-          id: "20FE372032277697",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 253752461985528,
-        },
-      ],
-    },
-    {
-      x: 3.6,
-      y: 6.8,
-      dependencies: ["363D1372EC2AFA63","0C9E6CE350BDB1F1"],
-      hide_dependency_lines: true,
-      shape: "hexagon",
-      size: 1,
-      dep_control_pts: {"363D1372EC2AFA63":[1.8,8.6,3.6,6.8],"0C9E6CE350BDB1F1":[13.4,3.6,3.6,6.8]},
-      id: "1A306B210BA2F0CE",
-      tasks: [
-        {
-          id: "13472C493AF5DA65",
-          type: "item",
-          item: {
-            id: "justdirethings:blazegold_pickaxe",
-            count: 1,
-          },
-        },
-        {
-          id: "7A5D813CBA685706",
-          type: "item",
-          item: {
-            id: "justdirethings:blazegold_sword",
-            count: 1,
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "7BD07A50D3FFB367",
-          type: "xp",
-          xp: 100,
-        },
-      ],
-    },
-    {
-      x: 3.6,
-      y: 8.6,
-      optional: true,
-      dependencies: ["363D1372EC2AFA63"],
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"363D1372EC2AFA63":[1.8,8.6,3.6,8.6]},
-      id: "7C32AA9DE5B4107E",
-      tasks: [
-        {
-          id: "4454BF931508057B",
-          type: "item",
-          item: {
-            id: "justdirethings:blazegold_helmet",
-            count: 1,
-          },
-        },
-        {
-          id: "5142EDA8F7545C1F",
-          type: "item",
-          item: {
-            id: "justdirethings:blazegold_chestplate",
-            count: 1,
-          },
-        },
-        {
-          id: "069803B1FF6727FC",
-          type: "item",
-          item: {
-            id: "justdirethings:blazegold_leggings",
-            count: 1,
-          },
-        },
-        {
-          id: "4E910FB3379BF1FE",
-          type: "item",
-          item: {
-            id: "justdirethings:blazegold_boots",
-            count: 1,
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "5BA17C43ED2BB062",
-          type: "xp",
-          xp: 150,
-        },
-      ],
-    },
-    {
-      x: 3.6,
-      y: 10.4,
-      dependencies: ["363D1372EC2AFA63"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"363D1372EC2AFA63":[1.8,8.6,3.6,10.4]},
-      id: "3983C0E6985A4ABC",
-      tasks: [
-        {
-          id: "59B4E3A2EF0EACEB",
-          type: "item",
-          item: {
-            id: "justdirethings:portalgun",
-            count: 1,
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "5F60BA4F3F831442",
-          type: "xp",
-          xp: 150,
-        },
-        {
-          id: "438713900E0DA568",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 253752461985528,
-        },
-      ],
-    },
-    {
-      x: 11.6,
-      y: 7.7,
-      dependencies: ["0040AEC79993EAE9"],
-      hide_dependency_lines: true,
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"0040AEC79993EAE9":[3.6,0.9,11.6,7.7]},
-      id: "30F1155C8BBB7457",
-      tasks: [
-        {
-          id: "7FF1EC412E93F005",
-          type: "item",
-          item: {
-            id: "justdirethings:celestigem",
-            count: 1,
-          },
-          count: 8,
-        },
-      ],
-      rewards: [
-        {
-          id: "74652520B0616432",
-          type: "xp",
-          xp: 150,
-        },
-        {
-          id: "4C46CF38F1866AE7",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 2210856162803377,
-        },
-      ],
-    },
-    {
-      x: 13.4,
-      y: 6.8,
-      dependencies: ["30F1155C8BBB7457","1A306B210BA2F0CE"],
-      hide_dependency_lines: true,
-      shape: "hexagon",
-      size: 1,
-      dep_control_pts: {"30F1155C8BBB7457":[11.6,7.7,13.4,6.8],"1A306B210BA2F0CE":[3.6,6.8,13.4,6.8]},
-      id: "6B9A14919C41C9F2",
-      tasks: [
-        {
-          id: "7412C6C4E1D81B45",
-          type: "item",
-          item: {
-            id: "justdirethings:celestigem_pickaxe",
-            count: 1,
-          },
-        },
-        {
-          id: "73E22E3CF597B533",
-          type: "item",
-          item: {
-            id: "justdirethings:celestigem_paxel",
-            count: 1,
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "7FF5179D579293BF",
-          type: "xp",
-          xp: 150,
-        },
-      ],
-    },
-    {
-      x: 13.4,
-      y: 8.6,
-      optional: true,
-      dependencies: ["30F1155C8BBB7457"],
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"30F1155C8BBB7457":[11.6,7.7,13.4,8.6]},
-      id: "3B6CCC6103F167C8",
-      tasks: [
-        {
-          id: "681FBCC6E164732A",
-          type: "item",
-          item: {
-            id: "justdirethings:celestigem_helmet",
-            count: 1,
-          },
-        },
-        {
-          id: "154C0661B84F4EB9",
-          type: "item",
-          item: {
-            id: "justdirethings:celestigem_chestplate",
-            count: 1,
-          },
-        },
-        {
-          id: "54C9B8624C6C51B0",
-          type: "item",
-          item: {
-            id: "justdirethings:celestigem_leggings",
-            count: 1,
-          },
-        },
-        {
-          id: "3A3A555868DC7B06",
-          type: "item",
-          item: {
-            id: "justdirethings:celestigem_boots",
-            count: 1,
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "0EDEF188E6CBBFBD",
-          type: "xp",
-          xp: 200,
-        },
-      ],
-    },
-    {
-      x: 22.3,
-      y: 6.8,
-      dependencies: ["131F81E0625949F3"],
-      hide_dependency_lines: true,
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"131F81E0625949F3":[5.4,0.9,22.3,6.8]},
-      id: "4BEEE72F4D1DC155",
-      tasks: [
-        {
-          id: "1A024412D8DA83DB",
-          type: "item",
-          item: {
-            id: "justdirethings:raw_eclipsealloy",
-            count: 1,
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "3983C5CE2F27D355",
-          type: "xp",
-          xp: 200,
-        },
-        {
-          id: "2BED6C9F04C98C36",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 2210856162803377,
-        },
-      ],
-    },
-    {
-      x: 22.3,
-      y: 8.6,
-      dependencies: ["4BEEE72F4D1DC155"],
-      shape: "gear",
-      size: 1.3,
-      dep_control_pts: {"4BEEE72F4D1DC155":[22.3,6.8,22.3,8.6]},
-      id: "4B23044D0ED94473",
-      tasks: [
-        {
-          id: "76406C11BE1ACF79",
-          type: "item",
-          item: {
-            id: "justdirethings:eclipsealloy_ingot",
-            count: 1,
-          },
-          count: 4,
-        },
-      ],
-      rewards: [
-        {
-          id: "078354A03C86FE32",
-          type: "xp",
-          xp: 200,
-        },
-        {
-          id: "5206864464313157",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 379532711335085,
-        },
-      ],
-    },
-    {
-      x: 21.4,
-      y: 10.4,
-      dependencies: ["4B23044D0ED94473","6B9A14919C41C9F2"],
-      hide_dependency_lines: true,
-      shape: "hexagon",
-      size: 1,
-      dep_control_pts: {"4B23044D0ED94473":[22.3,8.6,21.4,10.4],"6B9A14919C41C9F2":[13.4,6.8,21.4,10.4]},
-      id: "28856CD4186C06B7",
-      tasks: [
-        {
-          id: "326D34C6F2CD39C3",
-          type: "item",
-          item: {
-            id: "justdirethings:eclipsealloy_pickaxe",
-            count: 1,
-          },
-        },
-        {
-          id: "0B84DFB1799D560F",
-          type: "item",
-          item: {
-            id: "justdirethings:eclipsealloy_paxel",
-            count: 1,
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "6DC45AE005619A13",
-          type: "xp",
-          xp: 250,
-        },
-        {
-          id: "34DBF484285CB149",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 379532711335085,
-        },
-      ],
-    },
-    {
-      x: 23.2,
-      y: 10.4,
-      dependencies: ["4B23044D0ED94473"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"4B23044D0ED94473":[22.3,8.6,23.2,10.4]},
-      id: "4771F464A289A321",
-      tasks: [
-        {
-          id: "0072AE892D6D5D3E",
-          type: "item",
-          item: {
-            id: "justdirethings:eclipsealloy_helmet",
-            count: 1,
-          },
-        },
-        {
-          id: "334B2B0268A54732",
-          type: "item",
-          item: {
-            id: "justdirethings:eclipsealloy_chestplate",
-            count: 1,
-          },
-        },
-        {
-          id: "6D767E877A4F59D8",
-          type: "item",
-          item: {
-            id: "justdirethings:eclipsealloy_leggings",
-            count: 1,
-          },
-        },
-        {
-          id: "7961B7CA83D295BD",
-          type: "item",
-          item: {
-            id: "justdirethings:eclipsealloy_boots",
-            count: 1,
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "4AA79CE573B302F0",
-          type: "xp",
-          xp: 300,
-        },
-        {
-          id: "6D45693E1AB5DCBD",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 379532711335085,
-        },
-      ],
-    },
-    {
-      x: 0,
-      y: 15.4,
-      dependencies: ["2DB8AE43ABAB9872"],
-      hide_dependency_lines: true,
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"2DB8AE43ABAB9872":[0,0.9,0,15.4]},
-      id: "7CDFB36B68738CF2",
-      tasks: [
-  {
-    "id": "06B83D07CD47C71B",
-    "type": "item",
-    "item": {
-      "id": "justdirethings:coal_t1",
-      "count": 1
-    },
+  "id": "1E4CA1EAB9003DC3",
+  "group": "105EE503AFE85CA5",
+  "order_index": 11,
+  "icon": {
+    "id": "justdirethings:gooblock_tier1",
     "count": 1
-  }
-],
-      rewards: [
+  },
+  "filename": "justdirethings",
+  "default_quest_shape": "",
+  "default_hide_dependency_lines": false,
+  "quests": [
+    {
+      "x": 0,
+      "y": 0.9,
+      "shape": "gear",
+      "size": 1.3,
+      "id": "2DB8AE43ABAB9872",
+      "tasks": [
         {
-          id: "41E87FE4FF30823F",
-          type: "xp",
-          xp: 50,
-        },
+          "id": "015E12DDF69261F7",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:gooblock_tier1",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "282AFFCE419549BE",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "60DD346411BADB42",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 4224964620844649
+        }
+      ]
     },
     {
-      x: 1.8,
-      y: 13.6,
-      optional: true,
-      dependencies: ["7CDFB36B68738CF2","131F81E0625949F3"],
-      hide_dependency_lines: true,
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"7CDFB36B68738CF2":[0,15.4,1.8,13.6],"131F81E0625949F3":[5.4,0.9,1.8,13.6]},
-      id: "25EA5839701D2F55",
-      tasks: [
-        {
-          id: "4E158CAA9570F92F",
-          type: "item",
-          item: {
-            id: "justdirethings:coal_t4",
-            count: 1,
-          },
-          count: 8,
-        },
+      "x": 1.8,
+      "y": 0,
+      "shape": "circle",
+      "dependencies": [
+        "2DB8AE43ABAB9872"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "2DB8AE43ABAB9872": [
+          0,
+          0.9,
+          1.8,
+          0
+        ]
+      },
+      "size": 1,
+      "id": "15455EAAD1E8A21D",
+      "tasks": [
         {
-          id: "3FBB183EC38BB744",
-          type: "xp",
-          xp: 150,
-        },
+          "id": "27A03E049CC970A2",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:gooblock_tier2",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "1FE00AADBA56506D",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
     },
     {
-      x: 0,
-      y: 17.2,
-      dependencies: ["15455EAAD1E8A21D"],
-      hide_dependency_lines: true,
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"15455EAAD1E8A21D":[1.8,0,0,17.2]},
-      id: "70EB4E751139A5BF",
-      tasks: [
-        {
-          id: "738F0F6501B94205",
-          type: "item",
-          item: {
-            id: "justdirethings:polymorphic_fluid_bucket",
-            count: 1,
-          },
-        },
+      "x": 3.6,
+      "y": 0.9,
+      "shape": "circle",
+      "dependencies": [
+        "15455EAAD1E8A21D"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "15455EAAD1E8A21D": [
+          1.8,
+          0,
+          3.6,
+          0.9
+        ]
+      },
+      "size": 1,
+      "id": "0040AEC79993EAE9",
+      "tasks": [
         {
-          id: "5D3E1578DD375A5E",
-          type: "xp",
-          xp: 100,
-        },
+          "id": "4738D66FD4673D06",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:gooblock_tier3",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "393C426EDE1AF906",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "6E8FB40ACCE4DCB5",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 253752461985528
+        }
+      ]
     },
     {
-      x: 1.8,
-      y: 15.4,
-      dependencies: ["70EB4E751139A5BF","7CDFB36B68738CF2"],
-      shape: "hexagon",
-      size: 1,
-      dep_control_pts: {"70EB4E751139A5BF":[0,17.2,1.8,15.4],"7CDFB36B68738CF2":[0,15.4,1.8,15.4]},
-      id: "4F7636CB9613188B",
-      tasks: [
-        {
-          id: "73CA5F438E506338",
-          type: "item",
-          item: {
-            id: "justdirethings:refined_t2_fluid_bucket",
-            count: 1,
-          },
-        },
+      "x": 5.4,
+      "y": 0.9,
+      "shape": "circle",
+      "dependencies": [
+        "0040AEC79993EAE9"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "0040AEC79993EAE9": [
+          3.6,
+          0.9,
+          5.4,
+          0.9
+        ]
+      },
+      "size": 1,
+      "id": "131F81E0625949F3",
+      "tasks": [
         {
-          id: "70436E0FE02A0422",
-          type: "xp",
-          xp: 100,
-        },
+          "id": "41784724E7812EA1",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:gooblock_tier4",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "07A698ACC3F278E3",
+          "type": "xp",
+          "xp": 150
+        },
+        {
+          "id": "6B94AA5DC964BE39",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2210856162803377
+        }
+      ]
     },
     {
-      x: 3.6,
-      y: 14.5,
-      dependencies: ["4F7636CB9613188B"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"4F7636CB9613188B":[1.8,15.4,3.6,14.5]},
-      id: "583CEA5BA3F19A56",
-      tasks: [
-        {
-          id: "3762A6A92D990776",
-          type: "item",
-          item: {
-            id: "justdirethings:generatorfluidt1",
-            count: 1,
-          },
-        },
+      "x": 1.8,
+      "y": 1.8,
+      "shape": "diamond",
+      "dependencies": [
+        "2DB8AE43ABAB9872"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "2DB8AE43ABAB9872": [
+          0,
+          0.9,
+          1.8,
+          1.8
+        ]
+      },
+      "size": 1,
+      "optional": true,
+      "id": "6508D4E10BFA5D63",
+      "tasks": [
         {
-          id: "4318AC4639952AA7",
-          type: "xp",
-          xp: 100,
-        },
+          "id": "281D1DD4A6A07BB6",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:goosoil_tier1",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "00B67930AC11EE4F",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
     },
     {
-      x: 1.8,
-      y: 17.2,
-      dependencies: ["70EB4E751139A5BF"],
-      shape: "gear",
-      size: 1.3,
-      dep_control_pts: {"70EB4E751139A5BF":[0,17.2,1.8,17.2]},
-      id: "562EACA985C07242",
-      tasks: [
-        {
-          id: "4A25E1C33D6654BB",
-          type: "item",
-          item: {
-            id: "justdirethings:time_crystal",
-            count: 1,
-          },
-          count: 4,
-        },
+      "x": 16.1,
+      "y": 0,
+      "shape": "circle",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "2DB8AE43ABAB9872"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "2DB8AE43ABAB9872": [
+          0,
+          0.9,
+          16.1,
+          0
+        ]
+      },
+      "size": 1,
+      "id": "283077DA1AD108D8",
+      "tasks": [
         {
-          id: "7922017238806DC5",
-          type: "xp",
-          xp: 150,
-        },
-        {
-          id: "4FE458F0601F4CEE",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 2210856162803377,
-        },
+          "id": "1FD0CDD641115FCC",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:raw_ferricore",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "46F3B66F4AD68454",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
     },
     {
-      x: 3.6,
-      y: 16.3,
-      dependencies: ["562EACA985C07242"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"562EACA985C07242":[1.8,17.2,3.6,16.3]},
-      id: "68CE15E75BE113D6",
-      tasks: [
+      "x": 16.1,
+      "y": 1.8,
+      "shape": "circle",
+      "dependencies": [
+        "283077DA1AD108D8"
+      ],
+      "dep_control_pts": {
+        "283077DA1AD108D8": [
+          16.1,
+          0,
+          16.1,
+          1.8
+        ]
+      },
+      "size": 1,
+      "id": "5F8FF862F9B5DA8B",
+      "tasks": [
         {
-          id: "71444C6F1FD6F6DD",
-          type: "item",
-          item: {
-            id: "justdirethings:time_fluid_bucket",
-            count: 1,
+          "id": "2B16A36656DBF62F",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:ferricore_ingot",
+            "count": 1
           },
-        },
+          "count": 8
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "48E4B2453A1ACFB6",
-          type: "xp",
-          xp: 150,
-        },
-      ],
+          "id": "53B00E6BF113794E",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
     },
     {
-      x: 3.6,
-      y: 18.1,
-      dependencies: ["562EACA985C07242","363D1372EC2AFA63"],
-      hide_dependency_lines: true,
-      shape: "hexagon",
-      size: 1,
-      dep_control_pts: {"562EACA985C07242":[1.8,17.2,3.6,18.1],"363D1372EC2AFA63":[1.8,8.6,3.6,18.1]},
-      id: "72F1BACCB3FE2661",
-      tasks: [
-        {
-          id: "42FAD6196EC7F4BC",
-          type: "item",
-          item: {
-            id: "justdirethings:time_wand",
-            count: 1,
-          },
-        },
+      "x": 13.4,
+      "y": 3.6,
+      "shape": "circle",
+      "dependencies": [
+        "5F8FF862F9B5DA8B"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "5F8FF862F9B5DA8B": [
+          16.1,
+          1.8,
+          13.4,
+          3.6
+        ]
+      },
+      "size": 1,
+      "id": "0C9E6CE350BDB1F1",
+      "tasks": [
         {
-          id: "3734274FB4D6C187",
-          type: "xp",
-          xp: 150,
+          "id": "1B3930C0AF1FBEB2",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:ferricore_pickaxe",
+            "count": 1
+          }
         },
         {
-          id: "7FA27A535A8FB898",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 2210856162803377,
-        },
+          "id": "2D023B7E2CC85EE7",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:ferricore_sword",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "2541E92827D2FC06",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
     },
     {
-      x: 1.8,
-      y: 19,
-      optional: true,
-      dependencies: ["70EB4E751139A5BF","0040AEC79993EAE9"],
-      hide_dependency_lines: true,
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"70EB4E751139A5BF":[0,17.2,1.8,19],"0040AEC79993EAE9":[3.6,0.9,1.8,19]},
-      id: "21D7707052785FE1",
-      tasks: [
-        {
-          id: "00348A4DB509932D",
-          type: "item",
-          item: {
-            id: "justdirethings:portal_fluid_bucket",
-            count: 1,
-          },
-        },
+      "x": 15.2,
+      "y": 3.6,
+      "shape": "diamond",
+      "dependencies": [
+        "5F8FF862F9B5DA8B"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "5F8FF862F9B5DA8B": [
+          16.1,
+          1.8,
+          15.2,
+          3.6
+        ]
+      },
+      "size": 1,
+      "optional": true,
+      "id": "2579A1468E14A08E",
+      "tasks": [
         {
-          id: "724E30D1995B8C19",
-          type: "xp",
-          xp: 150,
+          "id": "73E26FE2F2BD4E18",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:ferricore_helmet",
+            "count": 1
+          }
         },
+        {
+          "id": "532FA9D54A45A6B6",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:ferricore_chestplate",
+            "count": 1
+          }
+        },
+        {
+          "id": "4C945D457ED74201",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:ferricore_leggings",
+            "count": 1
+          }
+        },
+        {
+          "id": "04AE1AADE432B24A",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:ferricore_boots",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "6790562A2FC1DBE5",
+          "type": "xp",
+          "xp": 100
+        }
+      ]
     },
     {
-      x: 5.4,
-      y: 16.3,
-      dependencies: ["68CE15E75BE113D6","4B23044D0ED94473"],
-      hide_dependency_lines: true,
-      shape: "gear",
-      size: 1.3,
-      dep_control_pts: {"68CE15E75BE113D6":[3.6,16.3,5.4,16.3],"4B23044D0ED94473":[22.3,8.6,5.4,16.3]},
-      id: "5673D6477D7B08D2",
-      tasks: [
-        {
-          id: "175D0946EF4AA679",
-          type: "item",
-          item: {
-            id: "justdirethings:paradoxmachine",
-            count: 1,
-          },
-        },
+      "x": 17,
+      "y": 3.6,
+      "shape": "diamond",
+      "dependencies": [
+        "5F8FF862F9B5DA8B"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "5F8FF862F9B5DA8B": [
+          16.1,
+          1.8,
+          17,
+          3.6
+        ]
+      },
+      "size": 1,
+      "optional": true,
+      "id": "31CBDF9E32AE45A8",
+      "tasks": [
         {
-          id: "682994F0A36FE3A4",
-          type: "xp_levels",
-          xp_levels: 20,
-        },
-        {
-          id: "1464174D972E9874",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 379532711335085,
-        },
+          "id": "2E90D6FC0B7D0A80",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:ferricore_wrench",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "5F0D9CD24D00A449",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
     },
     {
-      x: 13.4,
-      y: 13.6,
-      dependencies: ["5F8FF862F9B5DA8B"],
-      hide_dependency_lines: true,
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"5F8FF862F9B5DA8B":[16.1,1.8,13.4,13.6]},
-      id: "117D79ADEB394A77",
-      tasks: [
-        {
-          id: "71B442BD5E9FB572",
-          type: "item",
-          item: {
-            id: "justdirethings:generatort1",
-            count: 1,
-          },
-        },
+      "x": 18.8,
+      "y": 3.6,
+      "shape": "circle",
+      "dependencies": [
+        "5F8FF862F9B5DA8B"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "5F8FF862F9B5DA8B": [
+          16.1,
+          1.8,
+          18.8,
+          3.6
+        ]
+      },
+      "size": 1,
+      "id": "12484EE6A32C849B",
+      "tasks": [
         {
-          id: "49CEB53A4E120631",
-          type: "xp",
-          xp: 75,
-        },
+          "id": "7BD2A22DCA044D33",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:pocket_generator",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "011919A0A839CD05",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
     },
     {
-      x: 13.4,
-      y: 15.4,
-      dependencies: ["5F8FF862F9B5DA8B"],
-      hide_dependency_lines: true,
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"5F8FF862F9B5DA8B":[16.1,1.8,13.4,15.4]},
-      id: "1C2D65197B62C2AA",
-      tasks: [
-        {
-          id: "609BF376FED74470",
-          type: "item",
-          item: {
-            id: "justdirethings:blockbreakert1",
-            count: 1,
-          },
-        },
+      "x": 0,
+      "y": 8.6,
+      "shape": "circle",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "15455EAAD1E8A21D"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "15455EAAD1E8A21D": [
+          1.8,
+          0,
+          0,
+          8.6
+        ]
+      },
+      "size": 1,
+      "id": "350F2183504429CB",
+      "tasks": [
         {
-          id: "446D1C5B8C268822",
-          type: "xp",
-          xp: 75,
-        },
+          "id": "089E882313F5B6CC",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:raw_blazegold",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "081B700E74B61FA3",
+          "type": "xp",
+          "xp": 100
+        }
+      ]
     },
     {
-      x: 13.4,
-      y: 17.2,
-      dependencies: ["5F8FF862F9B5DA8B"],
-      hide_dependency_lines: true,
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"5F8FF862F9B5DA8B":[16.1,1.8,13.4,17.2]},
-      id: "356EC53324F781A2",
-      tasks: [
+      "x": 1.8,
+      "y": 8.6,
+      "shape": "circle",
+      "dependencies": [
+        "350F2183504429CB"
+      ],
+      "dep_control_pts": {
+        "350F2183504429CB": [
+          0,
+          8.6,
+          1.8,
+          8.6
+        ]
+      },
+      "size": 1,
+      "id": "363D1372EC2AFA63",
+      "tasks": [
         {
-          id: "47FED4998E6C8ABE",
-          type: "item",
-          item: {
-            id: "justdirethings:blockplacert1",
-            count: 1,
+          "id": "558F7F5806B22AF3",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:blazegold_ingot",
+            "count": 1
           },
-        },
+          "count": 8
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "5EAAF5BF32E479FC",
-          type: "xp",
-          xp: 75,
+          "id": "3344F5C8D88FD732",
+          "type": "xp",
+          "xp": 100
         },
-      ],
+        {
+          "id": "20FE372032277697",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 253752461985528
+        }
+      ]
     },
     {
-      x: 13.4,
-      y: 19,
-      dependencies: ["5F8FF862F9B5DA8B"],
-      hide_dependency_lines: true,
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"5F8FF862F9B5DA8B":[16.1,1.8,13.4,19]},
-      id: "05A58136CEF100CD",
-      tasks: [
-        {
-          id: "256F70E94016ABEA",
-          type: "item",
-          item: {
-            id: "justdirethings:clickert1",
-            count: 1,
-          },
-        },
+      "x": 3.6,
+      "y": 6.8,
+      "shape": "hexagon",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "363D1372EC2AFA63",
+        "0C9E6CE350BDB1F1"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "0C9E6CE350BDB1F1": [
+          13.4,
+          3.6,
+          3.6,
+          6.8
+        ],
+        "363D1372EC2AFA63": [
+          1.8,
+          8.6,
+          3.6,
+          6.8
+        ]
+      },
+      "size": 1,
+      "id": "1A306B210BA2F0CE",
+      "tasks": [
         {
-          id: "7C2DE23FF8B4C5D4",
-          type: "xp",
-          xp: 75,
+          "id": "13472C493AF5DA65",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:blazegold_pickaxe",
+            "count": 1
+          }
         },
+        {
+          "id": "7A5D813CBA685706",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:blazegold_sword",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "7BD07A50D3FFB367",
+          "type": "xp",
+          "xp": 100
+        }
+      ]
     },
     {
-      x: 15.2,
-      y: 13.6,
-      dependencies: ["5F8FF862F9B5DA8B"],
-      hide_dependency_lines: true,
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"5F8FF862F9B5DA8B":[16.1,1.8,15.2,13.6]},
-      id: "2D9648F58216A9D1",
-      tasks: [
-        {
-          id: "34652EFDEE4FB0A7",
-          type: "item",
-          item: {
-            id: "justdirethings:sensort1",
-            count: 1,
-          },
-        },
+      "x": 3.6,
+      "y": 8.6,
+      "shape": "diamond",
+      "dependencies": [
+        "363D1372EC2AFA63"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "363D1372EC2AFA63": [
+          1.8,
+          8.6,
+          3.6,
+          8.6
+        ]
+      },
+      "size": 1,
+      "optional": true,
+      "id": "7C32AA9DE5B4107E",
+      "tasks": [
         {
-          id: "64629C4210F2DEFB",
-          type: "xp",
-          xp: 75,
+          "id": "4454BF931508057B",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:blazegold_helmet",
+            "count": 1
+          }
         },
+        {
+          "id": "5142EDA8F7545C1F",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:blazegold_chestplate",
+            "count": 1
+          }
+        },
+        {
+          "id": "069803B1FF6727FC",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:blazegold_leggings",
+            "count": 1
+          }
+        },
+        {
+          "id": "4E910FB3379BF1FE",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:blazegold_boots",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "5BA17C43ED2BB062",
+          "type": "xp",
+          "xp": 150
+        }
+      ]
     },
     {
-      x: 15.2,
-      y: 15.4,
-      dependencies: ["5F8FF862F9B5DA8B"],
-      hide_dependency_lines: true,
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"5F8FF862F9B5DA8B":[16.1,1.8,15.2,15.4]},
-      id: "0F71EC9F2FC9D5C8",
-      tasks: [
-        {
-          id: "0CDCA2DC84E8FD78",
-          type: "item",
-          item: {
-            id: "justdirethings:itemcollector",
-            count: 1,
-          },
-        },
+      "x": 3.6,
+      "y": 10.4,
+      "shape": "circle",
+      "dependencies": [
+        "363D1372EC2AFA63"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "363D1372EC2AFA63": [
+          1.8,
+          8.6,
+          3.6,
+          10.4
+        ]
+      },
+      "size": 1,
+      "id": "3983C0E6985A4ABC",
+      "tasks": [
         {
-          id: "0E2EF42661E00F16",
-          type: "xp",
-          xp: 50,
-        },
+          "id": "59B4E3A2EF0EACEB",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:portalgun",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "5F60BA4F3F831442",
+          "type": "xp",
+          "xp": 150
+        },
+        {
+          "id": "438713900E0DA568",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 253752461985528
+        }
+      ]
     },
     {
-      x: 15.2,
-      y: 17.2,
-      optional: true,
-      dependencies: ["5F8FF862F9B5DA8B"],
-      hide_dependency_lines: true,
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"5F8FF862F9B5DA8B":[16.1,1.8,15.2,17.2]},
-      id: "47B843500123473C",
-      tasks: [
-        {
-          id: "450BDE7B05CFF312",
-          type: "item",
-          item: {
-            id: "justdirethings:fluidcollectort1",
-            count: 1,
-          },
-        },
-        {
-          id: "6A1926384F95F0D0",
-          type: "item",
-          item: {
-            id: "justdirethings:fluidplacert1",
-            count: 1,
-          },
-        },
+      "x": 11.6,
+      "y": 7.7,
+      "shape": "circle",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "0040AEC79993EAE9"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "0040AEC79993EAE9": [
+          3.6,
+          0.9,
+          11.6,
+          7.7
+        ]
+      },
+      "size": 1,
+      "id": "30F1155C8BBB7457",
+      "tasks": [
         {
-          id: "459029899DDBD999",
-          type: "xp",
-          xp: 75,
-        },
+          "id": "7FF1EC412E93F005",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:celestigem",
+            "count": 1
+          },
+          "count": 8
+        }
       ],
+      "rewards": [
+        {
+          "id": "74652520B0616432",
+          "type": "xp",
+          "xp": 150
+        },
+        {
+          "id": "4C46CF38F1866AE7",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2210856162803377
+        }
+      ]
     },
     {
-      x: 17,
-      y: 15.4,
-      dependencies: ["1C2D65197B62C2AA","356EC53324F781A2","363D1372EC2AFA63"],
-      hide_dependency_lines: true,
-      shape: "hexagon",
-      size: 1,
-      dep_control_pts: {"1C2D65197B62C2AA":[13.4,15.4,17,15.4],"356EC53324F781A2":[13.4,17.2,17,15.4],"363D1372EC2AFA63":[1.8,8.6,17,15.4]},
-      id: "674C5EDFECAD24FE",
-      tasks: [
-        {
-          id: "77BC7AAE63C01FEF",
-          type: "item",
-          item: {
-            id: "justdirethings:blockbreakert2",
-            count: 1,
-          },
-        },
-        {
-          id: "07870543F55DBF3F",
-          type: "item",
-          item: {
-            id: "justdirethings:blockplacert2",
-            count: 1,
-          },
-        },
+      "x": 13.4,
+      "y": 6.8,
+      "shape": "hexagon",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "30F1155C8BBB7457",
+        "1A306B210BA2F0CE"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "30F1155C8BBB7457": [
+          11.6,
+          7.7,
+          13.4,
+          6.8
+        ],
+        "1A306B210BA2F0CE": [
+          3.6,
+          6.8,
+          13.4,
+          6.8
+        ]
+      },
+      "size": 1,
+      "id": "6B9A14919C41C9F2",
+      "tasks": [
         {
-          id: "0089F1890556ACCB",
-          type: "xp",
-          xp: 150,
+          "id": "7412C6C4E1D81B45",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:celestigem_pickaxe",
+            "count": 1
+          }
         },
         {
-          id: "3FC4056E98DECEED",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 253752461985528,
-        },
+          "id": "73E22E3CF597B533",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:celestigem_paxel",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "7FF5179D579293BF",
+          "type": "xp",
+          "xp": 150
+        }
+      ]
     },
     {
-      x: 17,
-      y: 17.2,
-      dependencies: ["117D79ADEB394A77","363D1372EC2AFA63"],
-      hide_dependency_lines: true,
-      shape: "hexagon",
-      size: 1,
-      dep_control_pts: {"117D79ADEB394A77":[13.4,13.6,17,17.2],"363D1372EC2AFA63":[1.8,8.6,17,17.2]},
-      id: "281CA117FD4FB6A8",
-      tasks: [
-        {
-          id: "7E039A92B2CFF926",
-          type: "item",
-          item: {
-            id: "justdirethings:energytransmitter",
-            count: 1,
-          },
-        },
+      "x": 13.4,
+      "y": 8.6,
+      "shape": "diamond",
+      "dependencies": [
+        "30F1155C8BBB7457"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "30F1155C8BBB7457": [
+          11.6,
+          7.7,
+          13.4,
+          8.6
+        ]
+      },
+      "size": 1,
+      "optional": true,
+      "id": "3B6CCC6103F167C8",
+      "tasks": [
         {
-          id: "37746103B19F5A18",
-          type: "xp",
-          xp: 100,
+          "id": "681FBCC6E164732A",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:celestigem_helmet",
+            "count": 1
+          }
         },
+        {
+          "id": "154C0661B84F4EB9",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:celestigem_chestplate",
+            "count": 1
+          }
+        },
+        {
+          "id": "54C9B8624C6C51B0",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:celestigem_leggings",
+            "count": 1
+          }
+        },
+        {
+          "id": "3A3A555868DC7B06",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:celestigem_boots",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "0EDEF188E6CBBFBD",
+          "type": "xp",
+          "xp": 200
+        }
+      ]
     },
     {
-      x: 15.2,
-      y: 19,
-      optional: true,
-      dependencies: ["5F8FF862F9B5DA8B"],
-      hide_dependency_lines: true,
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"5F8FF862F9B5DA8B":[16.1,1.8,15.2,19]},
-      id: "23B57B2DB9B34547",
-      tasks: [
-        {
-          id: "7D6EC6D520708EB1",
-          type: "item",
-          item: {
-            id: "justdirethings:experienceholder",
-            count: 1,
-          },
-        },
+      "x": 22.3,
+      "y": 6.8,
+      "shape": "circle",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "131F81E0625949F3"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "131F81E0625949F3": [
+          5.4,
+          0.9,
+          22.3,
+          6.8
+        ]
+      },
+      "size": 1,
+      "id": "4BEEE72F4D1DC155",
+      "tasks": [
         {
-          id: "327B4ADB0111EF45",
-          type: "xp",
-          xp: 100,
-        },
+          "id": "1A024412D8DA83DB",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:raw_eclipsealloy",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "3983C5CE2F27D355",
+          "type": "xp",
+          "xp": 200
+        },
+        {
+          "id": "2BED6C9F04C98C36",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2210856162803377
+        }
+      ]
     },
     {
-      x: 2.7,
-      y: 22.2,
-      dependencies: ["0C9E6CE350BDB1F1"],
-      hide_dependency_lines: true,
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"0C9E6CE350BDB1F1":[13.4,3.6,2.7,22.2]},
-      id: "05537D0305294B4D",
-      tasks: [
+      "x": 22.3,
+      "y": 8.6,
+      "shape": "gear",
+      "dependencies": [
+        "4BEEE72F4D1DC155"
+      ],
+      "dep_control_pts": {
+        "4BEEE72F4D1DC155": [
+          22.3,
+          6.8,
+          22.3,
+          8.6
+        ]
+      },
+      "size": 1.3,
+      "id": "4B23044D0ED94473",
+      "tasks": [
         {
-          id: "7598CF40DB1FCA34",
-          type: "item",
-          item: {
-            id: "justdirethings:upgrade_blank",
-            count: 1,
+          "id": "76406C11BE1ACF79",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:eclipsealloy_ingot",
+            "count": 1
           },
-        },
+          "count": 4
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "59F6C0C7A1EAF17D",
-          type: "xp",
-          xp: 50,
+          "id": "078354A03C86FE32",
+          "type": "xp",
+          "xp": 200
         },
-      ],
+        {
+          "id": "5206864464313157",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 379532711335085
+        }
+      ]
     },
     {
-      x: 0,
-      y: 24,
-      dependencies: ["05537D0305294B4D"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"05537D0305294B4D":[2.7,22.2,0,24]},
-      id: "2200B95AABBDB068",
-      tasks: [
-        {
-          id: "27FF5C01E2A4464A",
-          type: "item",
-          item: {
-            id: "justdirethings:upgrade_oreminer",
-            count: 1,
-          },
-        },
-        {
-          id: "437A64D788D56467",
-          type: "item",
-          item: {
-            id: "justdirethings:upgrade_hammer",
-            count: 1,
-          },
-        },
+      "x": 21.4,
+      "y": 10.4,
+      "shape": "hexagon",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "4B23044D0ED94473",
+        "6B9A14919C41C9F2"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "4B23044D0ED94473": [
+          22.3,
+          8.6,
+          21.4,
+          10.4
+        ],
+        "6B9A14919C41C9F2": [
+          13.4,
+          6.8,
+          21.4,
+          10.4
+        ]
+      },
+      "size": 1,
+      "id": "28856CD4186C06B7",
+      "tasks": [
         {
-          id: "63939CE6C0D7AC51",
-          type: "xp",
-          xp: 100,
+          "id": "326D34C6F2CD39C3",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:eclipsealloy_pickaxe",
+            "count": 1
+          }
         },
+        {
+          "id": "0B84DFB1799D560F",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:eclipsealloy_paxel",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "6DC45AE005619A13",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "34DBF484285CB149",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 379532711335085
+        }
+      ]
     },
     {
-      x: 1.8,
-      y: 24,
-      optional: true,
-      dependencies: ["05537D0305294B4D"],
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"05537D0305294B4D":[2.7,22.2,1.8,24]},
-      id: "5340DA8FF01C3911",
-      tasks: [
-        {
-          id: "49CBF3C884C95197",
-          type: "item",
-          item: {
-            id: "justdirethings:upgrade_smelter",
-            count: 1,
-          },
-        },
+      "x": 23.2,
+      "y": 10.4,
+      "shape": "circle",
+      "dependencies": [
+        "4B23044D0ED94473"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "4B23044D0ED94473": [
+          22.3,
+          8.6,
+          23.2,
+          10.4
+        ]
+      },
+      "size": 1,
+      "id": "4771F464A289A321",
+      "tasks": [
         {
-          id: "72E16D1674642853",
-          type: "xp",
-          xp: 75,
+          "id": "0072AE892D6D5D3E",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:eclipsealloy_helmet",
+            "count": 1
+          }
         },
+        {
+          "id": "334B2B0268A54732",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:eclipsealloy_chestplate",
+            "count": 1
+          }
+        },
+        {
+          "id": "6D767E877A4F59D8",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:eclipsealloy_leggings",
+            "count": 1
+          }
+        },
+        {
+          "id": "7961B7CA83D295BD",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:eclipsealloy_boots",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "4AA79CE573B302F0",
+          "type": "xp",
+          "xp": 300
+        },
+        {
+          "id": "6D45693E1AB5DCBD",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 379532711335085
+        }
+      ]
     },
     {
-      x: 3.6,
-      y: 24,
-      optional: true,
-      dependencies: ["05537D0305294B4D"],
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"05537D0305294B4D":[2.7,22.2,3.6,24]},
-      id: "7FA6FE8C5C7CD866",
-      tasks: [
-        {
-          id: "5B1200485DF619A7",
-          type: "item",
-          item: {
-            id: "justdirethings:upgrade_treefeller",
-            count: 1,
-          },
-        },
+      "x": 0,
+      "y": 15.4,
+      "shape": "circle",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "2DB8AE43ABAB9872"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "2DB8AE43ABAB9872": [
+          0,
+          0.9,
+          0,
+          15.4
+        ]
+      },
+      "size": 1,
+      "id": "7CDFB36B68738CF2",
+      "tasks": [
         {
-          id: "0737C8742578706B",
-          type: "xp",
-          xp: 75,
-        },
+          "id": "06B83D07CD47C71B",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:coal_t1",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "41E87FE4FF30823F",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
     },
     {
-      x: 5.4,
-      y: 24,
-      optional: true,
-      dependencies: ["05537D0305294B4D"],
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"05537D0305294B4D":[2.7,22.2,5.4,24]},
-      id: "705693FCCE7139A1",
-      tasks: [
-        {
-          id: "41B5090D78316E05",
-          type: "item",
-          item: {
-            id: "justdirethings:upgrade_walkspeed",
-            count: 1,
-          },
-        },
-        {
-          id: "2DBB141962D60203",
-          type: "item",
-          item: {
-            id: "justdirethings:upgrade_jumpboost",
-            count: 1,
-          },
-        },
-        {
-          id: "196F8040422B7454",
-          type: "item",
-          item: {
-            id: "justdirethings:upgrade_stepheight",
-            count: 1,
-          },
-        },
+      "x": 1.8,
+      "y": 13.6,
+      "shape": "diamond",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "7CDFB36B68738CF2",
+        "131F81E0625949F3"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "131F81E0625949F3": [
+          5.4,
+          0.9,
+          1.8,
+          13.6
+        ],
+        "7CDFB36B68738CF2": [
+          0,
+          15.4,
+          1.8,
+          13.6
+        ]
+      },
+      "size": 1,
+      "optional": true,
+      "id": "25EA5839701D2F55",
+      "tasks": [
         {
-          id: "7DEB9BCB3CCCE86E",
-          type: "xp",
-          xp: 100,
-        },
+          "id": "4E158CAA9570F92F",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:coal_t4",
+            "count": 1
+          },
+          "count": 8
+        }
       ],
+      "rewards": [
+        {
+          "id": "3FBB183EC38BB744",
+          "type": "xp",
+          "xp": 150
+        }
+      ]
     },
     {
-      x: 2.7,
-      y: 27.6,
-      dependencies: ["705693FCCE7139A1","4B23044D0ED94473"],
-      hide_dependency_lines: true,
-      shape: "hexagon",
-      size: 1,
-      dep_control_pts: {"705693FCCE7139A1":[5.4,24,2.7,27.6],"4B23044D0ED94473":[22.3,8.6,2.7,27.6]},
-      id: "7C93E21A3F19FF1C",
-      tasks: [
-        {
-          id: "798020934FCEC410",
-          type: "item",
-          item: {
-            id: "justdirethings:upgrade_flight",
-            count: 1,
-          },
-        },
+      "x": 0,
+      "y": 17.2,
+      "shape": "circle",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "15455EAAD1E8A21D"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "15455EAAD1E8A21D": [
+          1.8,
+          0,
+          0,
+          17.2
+        ]
+      },
+      "size": 1,
+      "id": "70EB4E751139A5BF",
+      "tasks": [
         {
-          id: "6C7B496988A040CF",
-          type: "xp",
-          xp: 200,
-        },
-        {
-          id: "61619EA67212BBAF",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 2210856162803377,
-        },
+          "id": "738F0F6501B94205",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:polymorphic_fluid_bucket",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "5D3E1578DD375A5E",
+          "type": "xp",
+          "xp": 100
+        }
+      ]
     },
     {
-      x: 2.7,
-      y: 25.8,
-      optional: true,
-      dependencies: ["05537D0305294B4D","4B23044D0ED94473"],
-      hide_dependency_lines: true,
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"05537D0305294B4D":[2.7,22.2,2.7,25.8],"4B23044D0ED94473":[22.3,8.6,2.7,25.8]},
-      id: "10629AEA2366BB94",
-      tasks: [
-        {
-          id: "276FFFA6CA066BDC",
-          type: "item",
-          item: {
-            id: "justdirethings:upgrade_deathprotection",
-            count: 1,
-          },
-        },
+      "x": 1.8,
+      "y": 15.4,
+      "shape": "hexagon",
+      "dependencies": [
+        "70EB4E751139A5BF",
+        "7CDFB36B68738CF2"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "70EB4E751139A5BF": [
+          0,
+          17.2,
+          1.8,
+          15.4
+        ],
+        "7CDFB36B68738CF2": [
+          0,
+          15.4,
+          1.8,
+          15.4
+        ]
+      },
+      "size": 1,
+      "id": "4F7636CB9613188B",
+      "tasks": [
         {
-          id: "221347E0F6AE32E8",
-          type: "xp",
-          xp: 200,
-        },
-        {
-          id: "47984F6D3F9AA72F",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 379532711335085,
-        },
+          "id": "73CA5F438E506338",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:refined_t2_fluid_bucket",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "70436E0FE02A0422",
+          "type": "xp",
+          "xp": 100
+        }
+      ]
     },
     {
-      x: 13.4,
-      y: 22.2,
-      dependencies: ["0040AEC79993EAE9"],
-      hide_dependency_lines: true,
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"0040AEC79993EAE9":[3.6,0.9,13.4,22.2]},
-      id: "7A0DB9103E611EED",
-      tasks: [
-        {
-          id: "30C2FF1F065BEEA2",
-          type: "item",
-          item: {
-            id: "justdirethings:voidshift_wand",
-            count: 1,
-          },
-        },
+      "x": 3.6,
+      "y": 14.5,
+      "shape": "circle",
+      "dependencies": [
+        "4F7636CB9613188B"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "4F7636CB9613188B": [
+          1.8,
+          15.4,
+          3.6,
+          14.5
+        ]
+      },
+      "size": 1,
+      "id": "583CEA5BA3F19A56",
+      "tasks": [
         {
-          id: "18308B2C90602E3D",
-          type: "xp",
-          xp: 100,
-        },
+          "id": "3762A6A92D990776",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:generatorfluidt1",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "4318AC4639952AA7",
+          "type": "xp",
+          "xp": 100
+        }
+      ]
     },
     {
-      x: 13.4,
-      y: 24,
-      optional: true,
-      dependencies: ["70EB4E751139A5BF"],
-      hide_dependency_lines: true,
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"70EB4E751139A5BF":[0,17.2,13.4,24]},
-      id: "2EE56E4DB7D847BA",
-      tasks: [
+      "x": 1.8,
+      "y": 17.2,
+      "shape": "gear",
+      "dependencies": [
+        "70EB4E751139A5BF"
+      ],
+      "dep_control_pts": {
+        "70EB4E751139A5BF": [
+          0,
+          17.2,
+          1.8,
+          17.2
+        ]
+      },
+      "size": 1.3,
+      "id": "562EACA985C07242",
+      "tasks": [
         {
-          id: "11C9487BDA65D301",
-          type: "item",
-          item: {
-            id: "justdirethings:polymorphic_wand",
-            count: 1,
+          "id": "4A25E1C33D6654BB",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:time_crystal",
+            "count": 1
           },
-        },
+          "count": 4
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "289D400719A1F293",
-          type: "xp",
-          xp: 100,
+          "id": "7922017238806DC5",
+          "type": "xp",
+          "xp": 150
         },
-      ],
+        {
+          "id": "4FE458F0601F4CEE",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2210856162803377
+        }
+      ]
     },
     {
-      x: 13.4,
-      y: 25.8,
-      optional: true,
-      dependencies: ["363D1372EC2AFA63"],
-      hide_dependency_lines: true,
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"363D1372EC2AFA63":[1.8,8.6,13.4,25.8]},
-      id: "37D22BFF0B172D01",
-      tasks: [
-        {
-          id: "0F434DB0F23FA109",
-          type: "item",
-          item: {
-            id: "justdirethings:blazejet_wand",
-            count: 1,
-          },
-        },
+      "x": 3.6,
+      "y": 16.3,
+      "shape": "circle",
+      "dependencies": [
+        "562EACA985C07242"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "562EACA985C07242": [
+          1.8,
+          17.2,
+          3.6,
+          16.3
+        ]
+      },
+      "size": 1,
+      "id": "68CE15E75BE113D6",
+      "tasks": [
         {
-          id: "386C1FCAE06B24AB",
-          type: "xp",
-          xp: 100,
-        },
+          "id": "71444C6F1FD6F6DD",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:time_fluid_bucket",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "48E4B2453A1ACFB6",
+          "type": "xp",
+          "xp": 150
+        }
+      ]
     },
     {
-      x: 13.4,
-      y: 27.6,
-      optional: true,
-      dependencies: ["4B23044D0ED94473"],
-      hide_dependency_lines: true,
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"4B23044D0ED94473":[22.3,8.6,13.4,27.6]},
-      id: "57CAFA0220F64D2F",
-      tasks: [
-        {
-          id: "51B87F14BCE69E8A",
-          type: "item",
-          item: {
-            id: "justdirethings:eclipsegate_wand",
-            count: 1,
-          },
-        },
+      "x": 3.6,
+      "y": 18.1,
+      "shape": "hexagon",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "562EACA985C07242",
+        "363D1372EC2AFA63"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "562EACA985C07242": [
+          1.8,
+          17.2,
+          3.6,
+          18.1
+        ],
+        "363D1372EC2AFA63": [
+          1.8,
+          8.6,
+          3.6,
+          18.1
+        ]
+      },
+      "size": 1,
+      "id": "72F1BACCB3FE2661",
+      "tasks": [
         {
-          id: "37153229F6BEB016",
-          type: "xp",
-          xp: 150,
-        },
+          "id": "42FAD6196EC7F4BC",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:time_wand",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "3734274FB4D6C187",
+          "type": "xp",
+          "xp": 150
+        },
+        {
+          "id": "7FA27A535A8FB898",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2210856162803377
+        }
+      ]
     },
     {
-      x: 15.2,
-      y: 24,
-      optional: true,
-      dependencies: ["5F8FF862F9B5DA8B"],
-      hide_dependency_lines: true,
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"5F8FF862F9B5DA8B":[16.1,1.8,15.2,24]},
-      id: "1DFADAD084B7DC09",
-      tasks: [
-        {
-          id: "3D97DE8DACC6B69B",
-          type: "item",
-          item: {
-            id: "justdirethings:creaturecatcher",
-            count: 1,
-          },
-        },
+      "x": 1.8,
+      "y": 19,
+      "shape": "diamond",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "70EB4E751139A5BF",
+        "0040AEC79993EAE9"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "70EB4E751139A5BF": [
+          0,
+          17.2,
+          1.8,
+          19
+        ],
+        "0040AEC79993EAE9": [
+          3.6,
+          0.9,
+          1.8,
+          19
+        ]
+      },
+      "size": 1,
+      "optional": true,
+      "id": "21D7707052785FE1",
+      "tasks": [
         {
-          id: "568DFA6863F90955",
-          type: "xp",
-          xp: 75,
-        },
+          "id": "00348A4DB509932D",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:portal_fluid_bucket",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "724E30D1995B8C19",
+          "type": "xp",
+          "xp": 150
+        }
+      ]
     },
     {
-      x: 15.2,
-      y: 25.8,
-      optional: true,
-      dependencies: ["363D1372EC2AFA63"],
-      hide_dependency_lines: true,
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"363D1372EC2AFA63":[1.8,8.6,15.2,25.8]},
-      id: "372CD375C0DE281C",
-      tasks: [
-        {
-          id: "0B215C8D48289275",
-          type: "item",
-          item: {
-            id: "justdirethings:totem_of_death_recall",
-            count: 1,
-          },
-        },
+      "x": 5.4,
+      "y": 16.3,
+      "shape": "gear",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "68CE15E75BE113D6",
+        "4B23044D0ED94473"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "4B23044D0ED94473": [
+          22.3,
+          8.6,
+          5.4,
+          16.3
+        ],
+        "68CE15E75BE113D6": [
+          3.6,
+          16.3,
+          5.4,
+          16.3
+        ]
+      },
+      "size": 1.3,
+      "id": "5673D6477D7B08D2",
+      "tasks": [
         {
-          id: "68BC925923052786",
-          type: "xp",
-          xp: 100,
-        },
+          "id": "175D0946EF4AA679",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:paradoxmachine",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "682994F0A36FE3A4",
+          "type": "xp_levels",
+          "xp_levels": 20
+        },
+        {
+          "id": "1464174D972E9874",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 379532711335085
+        }
+      ]
     },
+    {
+      "x": 13.4,
+      "y": 13.6,
+      "shape": "circle",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "5F8FF862F9B5DA8B"
+      ],
+      "dep_control_pts": {
+        "5F8FF862F9B5DA8B": [
+          16.1,
+          1.8,
+          13.4,
+          13.6
+        ]
+      },
+      "size": 1,
+      "id": "117D79ADEB394A77",
+      "tasks": [
+        {
+          "id": "71B442BD5E9FB572",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:generatort1",
+            "count": 1
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "id": "49CEB53A4E120631",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
+    },
+    {
+      "x": 13.4,
+      "y": 15.4,
+      "shape": "circle",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "5F8FF862F9B5DA8B"
+      ],
+      "dep_control_pts": {
+        "5F8FF862F9B5DA8B": [
+          16.1,
+          1.8,
+          13.4,
+          15.4
+        ]
+      },
+      "size": 1,
+      "id": "1C2D65197B62C2AA",
+      "tasks": [
+        {
+          "id": "609BF376FED74470",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:blockbreakert1",
+            "count": 1
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "id": "446D1C5B8C268822",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
+    },
+    {
+      "x": 13.4,
+      "y": 17.2,
+      "shape": "circle",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "5F8FF862F9B5DA8B"
+      ],
+      "dep_control_pts": {
+        "5F8FF862F9B5DA8B": [
+          16.1,
+          1.8,
+          13.4,
+          17.2
+        ]
+      },
+      "size": 1,
+      "id": "356EC53324F781A2",
+      "tasks": [
+        {
+          "id": "47FED4998E6C8ABE",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:blockplacert1",
+            "count": 1
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5EAAF5BF32E479FC",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
+    },
+    {
+      "x": 13.4,
+      "y": 19,
+      "shape": "circle",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "5F8FF862F9B5DA8B"
+      ],
+      "dep_control_pts": {
+        "5F8FF862F9B5DA8B": [
+          16.1,
+          1.8,
+          13.4,
+          19
+        ]
+      },
+      "size": 1,
+      "id": "05A58136CEF100CD",
+      "tasks": [
+        {
+          "id": "256F70E94016ABEA",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:clickert1",
+            "count": 1
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7C2DE23FF8B4C5D4",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
+    },
+    {
+      "x": 15.2,
+      "y": 13.6,
+      "shape": "circle",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "5F8FF862F9B5DA8B"
+      ],
+      "dep_control_pts": {
+        "5F8FF862F9B5DA8B": [
+          16.1,
+          1.8,
+          15.2,
+          13.6
+        ]
+      },
+      "size": 1,
+      "id": "2D9648F58216A9D1",
+      "tasks": [
+        {
+          "id": "34652EFDEE4FB0A7",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:sensort1",
+            "count": 1
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "id": "64629C4210F2DEFB",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
+    },
+    {
+      "x": 15.2,
+      "y": 15.4,
+      "shape": "circle",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "5F8FF862F9B5DA8B"
+      ],
+      "dep_control_pts": {
+        "5F8FF862F9B5DA8B": [
+          16.1,
+          1.8,
+          15.2,
+          15.4
+        ]
+      },
+      "size": 1,
+      "id": "0F71EC9F2FC9D5C8",
+      "tasks": [
+        {
+          "id": "0CDCA2DC84E8FD78",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:itemcollector",
+            "count": 1
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0E2EF42661E00F16",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "x": 15.2,
+      "y": 17.2,
+      "shape": "diamond",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "5F8FF862F9B5DA8B"
+      ],
+      "dep_control_pts": {
+        "5F8FF862F9B5DA8B": [
+          16.1,
+          1.8,
+          15.2,
+          17.2
+        ]
+      },
+      "size": 1,
+      "optional": true,
+      "id": "47B843500123473C",
+      "tasks": [
+        {
+          "id": "450BDE7B05CFF312",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:fluidcollectort1",
+            "count": 1
+          }
+        },
+        {
+          "id": "6A1926384F95F0D0",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:fluidplacert1",
+            "count": 1
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "id": "459029899DDBD999",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
+    },
+    {
+      "x": 17,
+      "y": 15.4,
+      "shape": "hexagon",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "1C2D65197B62C2AA",
+        "356EC53324F781A2",
+        "363D1372EC2AFA63"
+      ],
+      "dep_control_pts": {
+        "363D1372EC2AFA63": [
+          1.8,
+          8.6,
+          17,
+          15.4
+        ],
+        "356EC53324F781A2": [
+          13.4,
+          17.2,
+          17,
+          15.4
+        ],
+        "1C2D65197B62C2AA": [
+          13.4,
+          15.4,
+          17,
+          15.4
+        ]
+      },
+      "size": 1,
+      "id": "674C5EDFECAD24FE",
+      "tasks": [
+        {
+          "id": "77BC7AAE63C01FEF",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:blockbreakert2",
+            "count": 1
+          }
+        },
+        {
+          "id": "07870543F55DBF3F",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:blockplacert2",
+            "count": 1
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0089F1890556ACCB",
+          "type": "xp",
+          "xp": 150
+        },
+        {
+          "id": "3FC4056E98DECEED",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 253752461985528
+        }
+      ]
+    },
+    {
+      "x": 17,
+      "y": 17.2,
+      "shape": "hexagon",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "117D79ADEB394A77",
+        "363D1372EC2AFA63"
+      ],
+      "dep_control_pts": {
+        "363D1372EC2AFA63": [
+          1.8,
+          8.6,
+          17,
+          17.2
+        ],
+        "117D79ADEB394A77": [
+          13.4,
+          13.6,
+          17,
+          17.2
+        ]
+      },
+      "size": 1,
+      "id": "281CA117FD4FB6A8",
+      "tasks": [
+        {
+          "id": "7E039A92B2CFF926",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:energytransmitter",
+            "count": 1
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "id": "37746103B19F5A18",
+          "type": "xp",
+          "xp": 100
+        }
+      ]
+    },
+    {
+      "x": 15.2,
+      "y": 19,
+      "shape": "diamond",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "5F8FF862F9B5DA8B"
+      ],
+      "dep_control_pts": {
+        "5F8FF862F9B5DA8B": [
+          16.1,
+          1.8,
+          15.2,
+          19
+        ]
+      },
+      "size": 1,
+      "optional": true,
+      "id": "23B57B2DB9B34547",
+      "tasks": [
+        {
+          "id": "7D6EC6D520708EB1",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:experienceholder",
+            "count": 1
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "id": "327B4ADB0111EF45",
+          "type": "xp",
+          "xp": 100
+        }
+      ]
+    },
+    {
+      "x": 2.7,
+      "y": 22.2,
+      "shape": "circle",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "0C9E6CE350BDB1F1"
+      ],
+      "dep_control_pts": {
+        "0C9E6CE350BDB1F1": [
+          13.4,
+          3.6,
+          2.7,
+          22.2
+        ]
+      },
+      "size": 1,
+      "id": "05537D0305294B4D",
+      "tasks": [
+        {
+          "id": "7598CF40DB1FCA34",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:upgrade_blank",
+            "count": 1
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "id": "59F6C0C7A1EAF17D",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "x": 0,
+      "y": 24,
+      "shape": "circle",
+      "dependencies": [
+        "05537D0305294B4D"
+      ],
+      "dep_control_pts": {
+        "05537D0305294B4D": [
+          2.7,
+          22.2,
+          0,
+          24
+        ]
+      },
+      "size": 1,
+      "id": "2200B95AABBDB068",
+      "tasks": [
+        {
+          "id": "27FF5C01E2A4464A",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:upgrade_oreminer",
+            "count": 1
+          }
+        },
+        {
+          "id": "437A64D788D56467",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:upgrade_hammer",
+            "count": 1
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "id": "63939CE6C0D7AC51",
+          "type": "xp",
+          "xp": 100
+        }
+      ]
+    },
+    {
+      "x": 1.8,
+      "y": 24,
+      "shape": "diamond",
+      "dependencies": [
+        "05537D0305294B4D"
+      ],
+      "dep_control_pts": {
+        "05537D0305294B4D": [
+          2.7,
+          22.2,
+          1.8,
+          24
+        ]
+      },
+      "size": 1,
+      "optional": true,
+      "id": "5340DA8FF01C3911",
+      "tasks": [
+        {
+          "id": "49CBF3C884C95197",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:upgrade_smelter",
+            "count": 1
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "id": "72E16D1674642853",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
+    },
+    {
+      "x": 3.6,
+      "y": 24,
+      "shape": "diamond",
+      "dependencies": [
+        "05537D0305294B4D"
+      ],
+      "dep_control_pts": {
+        "05537D0305294B4D": [
+          2.7,
+          22.2,
+          3.6,
+          24
+        ]
+      },
+      "size": 1,
+      "optional": true,
+      "id": "7FA6FE8C5C7CD866",
+      "tasks": [
+        {
+          "id": "5B1200485DF619A7",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:upgrade_treefeller",
+            "count": 1
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0737C8742578706B",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
+    },
+    {
+      "x": 5.4,
+      "y": 24,
+      "shape": "diamond",
+      "dependencies": [
+        "05537D0305294B4D"
+      ],
+      "dep_control_pts": {
+        "05537D0305294B4D": [
+          2.7,
+          22.2,
+          5.4,
+          24
+        ]
+      },
+      "size": 1,
+      "optional": true,
+      "id": "705693FCCE7139A1",
+      "tasks": [
+        {
+          "id": "41B5090D78316E05",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:upgrade_walkspeed",
+            "count": 1
+          }
+        },
+        {
+          "id": "2DBB141962D60203",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:upgrade_jumpboost",
+            "count": 1
+          }
+        },
+        {
+          "id": "196F8040422B7454",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:upgrade_stepheight",
+            "count": 1
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7DEB9BCB3CCCE86E",
+          "type": "xp",
+          "xp": 100
+        }
+      ]
+    },
+    {
+      "x": 2.7,
+      "y": 27.6,
+      "shape": "hexagon",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "705693FCCE7139A1",
+        "4B23044D0ED94473"
+      ],
+      "dep_control_pts": {
+        "4B23044D0ED94473": [
+          22.3,
+          8.6,
+          2.7,
+          27.6
+        ],
+        "705693FCCE7139A1": [
+          5.4,
+          24,
+          2.7,
+          27.6
+        ]
+      },
+      "size": 1,
+      "id": "7C93E21A3F19FF1C",
+      "tasks": [
+        {
+          "id": "798020934FCEC410",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:upgrade_flight",
+            "count": 1
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6C7B496988A040CF",
+          "type": "xp",
+          "xp": 200
+        },
+        {
+          "id": "61619EA67212BBAF",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2210856162803377
+        }
+      ]
+    },
+    {
+      "x": 2.7,
+      "y": 25.8,
+      "shape": "diamond",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "05537D0305294B4D",
+        "4B23044D0ED94473"
+      ],
+      "dep_control_pts": {
+        "4B23044D0ED94473": [
+          22.3,
+          8.6,
+          2.7,
+          25.8
+        ],
+        "05537D0305294B4D": [
+          2.7,
+          22.2,
+          2.7,
+          25.8
+        ]
+      },
+      "size": 1,
+      "optional": true,
+      "id": "10629AEA2366BB94",
+      "tasks": [
+        {
+          "id": "276FFFA6CA066BDC",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:upgrade_deathprotection",
+            "count": 1
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "id": "221347E0F6AE32E8",
+          "type": "xp",
+          "xp": 200
+        },
+        {
+          "id": "47984F6D3F9AA72F",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 379532711335085
+        }
+      ]
+    },
+    {
+      "x": 13.4,
+      "y": 22.2,
+      "shape": "circle",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "0040AEC79993EAE9"
+      ],
+      "dep_control_pts": {
+        "0040AEC79993EAE9": [
+          3.6,
+          0.9,
+          13.4,
+          22.2
+        ]
+      },
+      "size": 1,
+      "id": "7A0DB9103E611EED",
+      "tasks": [
+        {
+          "id": "30C2FF1F065BEEA2",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:voidshift_wand",
+            "count": 1
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18308B2C90602E3D",
+          "type": "xp",
+          "xp": 100
+        }
+      ]
+    },
+    {
+      "x": 13.4,
+      "y": 24,
+      "shape": "diamond",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "70EB4E751139A5BF"
+      ],
+      "dep_control_pts": {
+        "70EB4E751139A5BF": [
+          0,
+          17.2,
+          13.4,
+          24
+        ]
+      },
+      "size": 1,
+      "optional": true,
+      "id": "2EE56E4DB7D847BA",
+      "tasks": [
+        {
+          "id": "11C9487BDA65D301",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:polymorphic_wand",
+            "count": 1
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "id": "289D400719A1F293",
+          "type": "xp",
+          "xp": 100
+        }
+      ]
+    },
+    {
+      "x": 13.4,
+      "y": 25.8,
+      "shape": "diamond",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "363D1372EC2AFA63"
+      ],
+      "dep_control_pts": {
+        "363D1372EC2AFA63": [
+          1.8,
+          8.6,
+          13.4,
+          25.8
+        ]
+      },
+      "size": 1,
+      "optional": true,
+      "id": "37D22BFF0B172D01",
+      "tasks": [
+        {
+          "id": "0F434DB0F23FA109",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:blazejet_wand",
+            "count": 1
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "id": "386C1FCAE06B24AB",
+          "type": "xp",
+          "xp": 100
+        }
+      ]
+    },
+    {
+      "x": 13.4,
+      "y": 27.6,
+      "shape": "diamond",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "4B23044D0ED94473"
+      ],
+      "dep_control_pts": {
+        "4B23044D0ED94473": [
+          22.3,
+          8.6,
+          13.4,
+          27.6
+        ]
+      },
+      "size": 1,
+      "optional": true,
+      "id": "57CAFA0220F64D2F",
+      "tasks": [
+        {
+          "id": "51B87F14BCE69E8A",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:eclipsegate_wand",
+            "count": 1
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "id": "37153229F6BEB016",
+          "type": "xp",
+          "xp": 150
+        }
+      ]
+    },
+    {
+      "x": 15.2,
+      "y": 24,
+      "shape": "diamond",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "5F8FF862F9B5DA8B"
+      ],
+      "dep_control_pts": {
+        "5F8FF862F9B5DA8B": [
+          16.1,
+          1.8,
+          15.2,
+          24
+        ]
+      },
+      "size": 1,
+      "optional": true,
+      "id": "1DFADAD084B7DC09",
+      "tasks": [
+        {
+          "id": "3D97DE8DACC6B69B",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:creaturecatcher",
+            "count": 1
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "id": "568DFA6863F90955",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
+    },
+    {
+      "x": 15.2,
+      "y": 25.8,
+      "shape": "diamond",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "363D1372EC2AFA63"
+      ],
+      "dep_control_pts": {
+        "363D1372EC2AFA63": [
+          1.8,
+          8.6,
+          15.2,
+          25.8
+        ]
+      },
+      "size": 1,
+      "optional": true,
+      "id": "372CD375C0DE281C",
+      "tasks": [
+        {
+          "id": "0B215C8D48289275",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:totem_of_death_recall",
+            "count": 1
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "id": "68BC925923052786",
+          "type": "xp",
+          "xp": 100
+        }
+      ]
+    }
   ],
-  quest_links: [
-  ],
-  images: [
-  {
-    "x": 11.6,
-    "y": -1.7188,
-    "width": 12,
-    "height": 1.4375,
-    "rotation": 0,
-    "image": "gspack:textures/quests/justdirethings_header.png",
-    "color": 16777215,
-    "alpha": 255,
-    "order": 0,
-    "corner": false
-  },
-  {
-    "x": -3.0353,
-    "y": 15.4,
-    "width": 4.2706,
-    "height": 0.6,
-    "rotation": 0,
-    "image": "gspack:textures/quests/justdirethings_coal1.png",
-    "color": 16777215,
-    "alpha": 255,
-    "order": 0,
-    "corner": false
-  },
-  {
-    "x": -1.9765,
-    "y": 22.2,
-    "width": 2.1529,
-    "height": 0.6,
-    "rotation": 0,
-    "image": "gspack:textures/quests/justdirethings_upgrade_blank.png",
-    "color": 16777215,
-    "alpha": 255,
-    "order": 0,
-    "corner": false
-  },
-  {
-    "x": 9.3235,
-    "y": 7.7,
-    "width": 2.7529,
-    "height": 0.6,
-    "rotation": 0,
-    "image": "gspack:textures/quests/justdirethings_celestigem.png",
-    "color": 16777215,
-    "alpha": 255,
-    "order": 0,
-    "corner": false
-  },
-  {
-    "x": -1.5706,
-    "y": 0.9,
-    "width": 1.3412,
-    "height": 0.6,
-    "rotation": 0,
-    "image": "gspack:textures/quests/justdirethings_goo1.png",
-    "color": 16777215,
-    "alpha": 255,
-    "order": 0,
-    "corner": false
-  },
-  {
-    "x": 10.4882,
-    "y": 22.2,
-    "width": 4.0235,
-    "height": 0.6,
-    "rotation": 0,
-    "image": "gspack:textures/quests/justdirethings_voidshift.png",
-    "color": 16777215,
-    "alpha": 255,
-    "order": 0,
-    "corner": false
-  },
-  {
-    "x": 11.3353,
-    "y": 0,
-    "width": 2.3294,
-    "height": 0.6,
-    "rotation": 0,
-    "image": "gspack:textures/quests/justdirethings_ferricore_ore.png",
-    "color": 16777215,
-    "alpha": 255,
-    "order": 0,
-    "corner": false
-  },
-  {
-    "x": -2.1353,
-    "y": 8.6,
-    "width": 2.4706,
-    "height": 0.6,
-    "rotation": 0,
-    "image": "gspack:textures/quests/justdirethings_blazegold_ore.png",
-    "color": 16777215,
-    "alpha": 255,
-    "order": 0,
-    "corner": false
-  },
-  {
-    "x": 19,
-    "y": 6.8,
-    "width": 3,
-    "height": 0.6,
-    "rotation": 0,
-    "image": "gspack:textures/quests/justdirethings_eclipse_ore.png",
-    "color": 16777215,
-    "alpha": 255,
-    "order": 0,
-    "corner": false
-  },
-  {
-    "x": 11.3,
-    "y": 13.6,
-    "width": 2.4,
-    "height": 0.6,
-    "rotation": 0,
-    "image": "gspack:textures/quests/justdirethings_generator.png",
-    "color": 16777215,
-    "alpha": 255,
-    "order": 0,
-    "corner": false
-  }
-],
+  "quest_links": [],
+  "images": [
+    {
+      "x": 11.6,
+      "y": -1.7188,
+      "width": 12,
+      "height": 1.4375,
+      "rotation": 0,
+      "image": "gspack:textures/quests/justdirethings_header.png",
+      "id": "5614A2C155FA11FC"
+    },
+    {
+      "x": -3.0353,
+      "y": 15.4,
+      "width": 4.2706,
+      "height": 0.6,
+      "rotation": 0,
+      "image": "gspack:textures/quests/justdirethings_coal1.png",
+      "id": "10B23B9DD4008C44"
+    },
+    {
+      "x": -1.9765,
+      "y": 22.2,
+      "width": 2.1529,
+      "height": 0.6,
+      "rotation": 0,
+      "image": "gspack:textures/quests/justdirethings_upgrade_blank.png",
+      "id": "47C6B29822EBB9DD"
+    },
+    {
+      "x": 9.3235,
+      "y": 7.7,
+      "width": 2.7529,
+      "height": 0.6,
+      "rotation": 0,
+      "image": "gspack:textures/quests/justdirethings_celestigem.png",
+      "id": "26A85FC3C7651B3A"
+    },
+    {
+      "x": -1.5706,
+      "y": 0.9,
+      "width": 1.3412,
+      "height": 0.6,
+      "rotation": 0,
+      "image": "gspack:textures/quests/justdirethings_goo1.png",
+      "id": "3F42E5E872652F99"
+    },
+    {
+      "x": 10.4882,
+      "y": 22.2,
+      "width": 4.0235,
+      "height": 0.6,
+      "rotation": 0,
+      "image": "gspack:textures/quests/justdirethings_voidshift.png",
+      "id": "19A340D65382A87D"
+    },
+    {
+      "x": 11.3353,
+      "y": 0,
+      "width": 2.3294,
+      "height": 0.6,
+      "rotation": 0,
+      "image": "gspack:textures/quests/justdirethings_ferricore_ore.png",
+      "id": "06571AC214774B5F"
+    },
+    {
+      "x": -2.1353,
+      "y": 8.6,
+      "width": 2.4706,
+      "height": 0.6,
+      "rotation": 0,
+      "image": "gspack:textures/quests/justdirethings_blazegold_ore.png",
+      "id": "146A45CFFAE768B8"
+    },
+    {
+      "x": 19,
+      "y": 6.8,
+      "width": 3,
+      "height": 0.6,
+      "rotation": 0,
+      "image": "gspack:textures/quests/justdirethings_eclipse_ore.png",
+      "id": "4E5B1C2B793E1E2E"
+    },
+    {
+      "x": 11.3,
+      "y": 13.6,
+      "width": 2.4,
+      "height": 0.6,
+      "rotation": 0,
+      "image": "gspack:textures/quests/justdirethings_generator.png",
+      "id": "2484C319BC70193B"
+    }
+  ]
 }

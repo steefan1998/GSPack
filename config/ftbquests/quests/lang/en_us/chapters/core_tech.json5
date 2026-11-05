@@ -1,0 +1,58 @@
+{
+  "chapter.3D8DF382D9757738.chapter_subtitle": [
+    "Master the ingredients and craft this endgame core.",
+  ],
+  "chapter.3D8DF382D9757738.title": "Technological Core",
+  "quest.1B9230FC3666A77C.quest_desc": [
+    "Required mod: mekanism. Produce this component through that mod. Crafting consumes the quantities listed in JEI.",
+  ],
+  "quest.1B9230FC3666A77C.title": "Ultimate Induction Cell",
+  "quest.1D5106AD6B12F6F8.quest_desc": [
+    "Required mod: powah. Produce this component through that mod. Crafting consumes the quantities listed in JEI.",
+  ],
+  "quest.1D5106AD6B12F6F8.title": "Energy Cell Nitro",
+  "quest.343924DE9764E40B.quest_desc": [
+    "Required mod: oritech. Produce this component through that mod. Crafting consumes the quantities listed in JEI.",
+  ],
+  "quest.343924DE9764E40B.title": "Atomic Forge",
+  "quest.343C9D7FEF7A6C72.quest_desc": [
+    "Required mod: advanced_ae. Produce this component through that mod. Crafting consumes the quantities listed in JEI.",
+  ],
+  "quest.343C9D7FEF7A6C72.title": "Quantum Processor",
+  "quest.50FEB32102DA1B63.quest_desc": [
+    "Required mod: mekanism_extras. Produce this component through that mod. Crafting consumes the quantities listed in JEI.",
+  ],
+  "quest.50FEB32102DA1B63.title": "Infinite Control Circuit",
+  "quest.58F1821D4D677B88.quest_desc": [
+    "Build a 7x7 outer ring of 24 Pedestals around a Crafting Core at the SAME height. Put an Advanced AE Quantum Core on the central core. Use ONE ingredient per pedestal: eight different technology items, eight Elite Components, four double-compressed Osmium Blocks and four Black Iron Blocks. Supply 250,000,000 FE, up to 25,000 FE/t. At full power and 20 TPS the craft takes 8 minutes 20 seconds. Check JEI. Do not add unrelated ingredients.",
+  ],
+  "quest.58F1821D4D677B88.title": "FE Assembly Multiblock",
+  "quest.60DBC76598BAD3F8.quest_desc": [
+    "Required mod: ae2. Produce this component through that mod. Crafting consumes the quantities listed in JEI.",
+  ],
+  "quest.60DBC76598BAD3F8.title": "Singularity",
+  "quest.658513EC7CA603CC.quest_desc": [
+    "Complete this route independently. Quests do not consume ingredients. JEI shows exact quantities. Combine all five cores in a Powah Energizing Orb with 1 billion FE.",
+  ],
+  "quest.658513EC7CA603CC.title": "Technological Core: Start",
+  "quest.673E8E7E473906CB.quest_desc": [
+    "Prepare these materials in the full quantities shown by JEI. Frame ingredients are required as well as the central mod components.",
+  ],
+  "quest.673E8E7E473906CB.title": "Assembly Materials",
+  "quest.6905CE6AC7FDF25A.quest_desc": [
+    "Craft this core and continue in Endgame: Infinity. Every Creative Singularity needs all five cores.",
+  ],
+  "quest.6905CE6AC7FDF25A.title": "Technological Core",
+  "quest.6BEF5A5BE0C4E71C.quest_desc": [
+    "Required mod: oritech. Produce this component through that mod. Crafting consumes the quantities listed in JEI.",
+  ],
+  "quest.6BEF5A5BE0C4E71C.title": "Super Ai Chip",
+  "quest.7284EE72B725E604.quest_desc": [
+    "Required mod: mekanism. Produce this component through that mod. Crafting consumes the quantities listed in JEI.",
+  ],
+  "quest.7284EE72B725E604.title": "Pellet Antimatter",
+  "quest.7A6686240E3AD85E.quest_desc": [
+    "Required mod: advanced_ae. Produce this component through that mod. Crafting consumes the quantities listed in JEI.",
+  ],
+  "quest.7A6686240E3AD85E.title": "Quantum Core",
+}

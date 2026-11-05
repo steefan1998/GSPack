@@ -1,0 +1,836 @@
+{
+  "id": "3B9438713D2196C9",
+  "group": "105EE503AFE85CA5",
+  "order_index": 4,
+  "filename": "colossalreactors",
+  "icon": {
+    "count": 1,
+    "id": "colossal_reactors:reactor_controller"
+  },
+  "default_quest_shape": "",
+  "default_hide_dependency_lines": false,
+  "quests": [
+    {
+      "id": "00ED0B558FDC013D",
+      "x": 0,
+      "y": 1.8,
+      "shape": "gear",
+      "size": 1.3,
+      "icon": {
+        "count": 1,
+        "id": "colossal_reactors:reactor_controller"
+      },
+      "tasks": [
+        {
+          "id": "300F9ED782F87BE6",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "72AD8A6DE89D6933",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "22FF9305A37A4D5B",
+      "x": 1.8,
+      "y": 0,
+      "shape": "circle",
+      "size": 1,
+      "dependencies": [
+        "00ED0B558FDC013D"
+      ],
+      "dep_control_pts": {
+        "00ED0B558FDC013D": [
+          0,
+          1.8,
+          1.8,
+          0
+        ]
+      },
+      "tasks": [
+        {
+          "id": "6D2E52236C148107",
+          "type": "gamestage",
+          "stage": "gspack_tag_c_ingots_steel_1",
+          "team_stage": false,
+          "icon": {
+            "count": 1,
+            "id": "alltheores:steel_ingot"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0C60EB3E0C326498",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "777920EB0D8650AD",
+      "x": 1.8,
+      "y": 1.8,
+      "shape": "circle",
+      "size": 1,
+      "dependencies": [
+        "00ED0B558FDC013D"
+      ],
+      "dep_control_pts": {
+        "00ED0B558FDC013D": [
+          0,
+          1.8,
+          1.8,
+          1.8
+        ]
+      },
+      "tasks": [
+        {
+          "id": "4DEA86019D6468FD",
+          "type": "item",
+          "item": {
+            "count": 1,
+            "id": "colossal_reactors:graphite_ingot"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "id": "48D66C42E72F7C57",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "122F7642F627F204",
+      "x": 1.8,
+      "y": 3.6,
+      "shape": "circle",
+      "size": 1,
+      "dependencies": [
+        "00ED0B558FDC013D"
+      ],
+      "dep_control_pts": {
+        "00ED0B558FDC013D": [
+          0,
+          1.8,
+          1.8,
+          3.6
+        ]
+      },
+      "tasks": [
+        {
+          "id": "196D493ED819747B",
+          "type": "item",
+          "item": {
+            "count": 1,
+            "id": "colossal_reactors:uranium_ingot"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7F48B38A5114377A",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
+    },
+    {
+      "id": "5F288B6432CDBEFA",
+      "x": 3.6,
+      "y": 1.8,
+      "shape": "hexagon",
+      "size": 1,
+      "dependencies": [
+        "22FF9305A37A4D5B",
+        "777920EB0D8650AD"
+      ],
+      "dep_control_pts": {
+        "22FF9305A37A4D5B": [
+          1.8,
+          0,
+          3.6,
+          1.8
+        ],
+        "777920EB0D8650AD": [
+          1.8,
+          1.8,
+          3.6,
+          1.8
+        ]
+      },
+      "tasks": [
+        {
+          "id": "2BAB56B9F2560933",
+          "type": "item",
+          "item": {
+            "count": 1,
+            "id": "colossal_reactors:reactor_casing"
+          },
+          "count": 24
+        }
+      ],
+      "rewards": [
+        {
+          "id": "4BF66297823CC659",
+          "type": "xp",
+          "xp": 100
+        }
+      ]
+    },
+    {
+      "id": "161C5F9C7B2E2309",
+      "x": 11.6,
+      "y": 0,
+      "shape": "gear",
+      "size": 1.3,
+      "dependencies": [
+        "5F288B6432CDBEFA"
+      ],
+      "hide_dependency_lines": true,
+      "dep_control_pts": {
+        "5F288B6432CDBEFA": [
+          3.6,
+          1.8,
+          11.6,
+          0
+        ]
+      },
+      "tasks": [
+        {
+          "id": "03D94A419E2901EE",
+          "type": "item",
+          "item": {
+            "count": 1,
+            "id": "colossal_reactors:reactor_controller"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10F939B31EDB1FC9",
+          "type": "xp",
+          "xp": 100
+        }
+      ]
+    },
+    {
+      "id": "0E542CEC2182B1E6",
+      "x": 13.4,
+      "y": 0,
+      "shape": "hexagon",
+      "size": 1,
+      "dependencies": [
+        "777920EB0D8650AD",
+        "5F288B6432CDBEFA"
+      ],
+      "hide_dependency_lines": true,
+      "dep_control_pts": {
+        "777920EB0D8650AD": [
+          1.8,
+          1.8,
+          13.4,
+          0
+        ],
+        "5F288B6432CDBEFA": [
+          3.6,
+          1.8,
+          13.4,
+          0
+        ]
+      },
+      "tasks": [
+        {
+          "id": "76B2252C380907C9",
+          "type": "item",
+          "item": {
+            "count": 1,
+            "id": "colossal_reactors:reactor_rod"
+          },
+          "count": 4
+        }
+      ],
+      "rewards": [
+        {
+          "id": "56565A71800A602E",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
+    },
+    {
+      "id": "01D53C062BE6BE3D",
+      "x": 13.4,
+      "y": 3.6,
+      "shape": "circle",
+      "size": 1,
+      "dependencies": [
+        "0E542CEC2182B1E6"
+      ],
+      "dep_control_pts": {
+        "0E542CEC2182B1E6": [
+          13.4,
+          0,
+          13.4,
+          3.6
+        ]
+      },
+      "tasks": [
+        {
+          "id": "14C1154C3C9CD88B",
+          "type": "item",
+          "item": {
+            "count": 1,
+            "id": "colossal_reactors:rod_controller"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "id": "79C9DBD29E60BA58",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
+    },
+    {
+      "id": "62D9E95A032AFE75",
+      "x": 15.2,
+      "y": 0,
+      "shape": "circle",
+      "size": 1,
+      "dependencies": [
+        "5F288B6432CDBEFA"
+      ],
+      "hide_dependency_lines": true,
+      "dep_control_pts": {
+        "5F288B6432CDBEFA": [
+          3.6,
+          1.8,
+          15.2,
+          0
+        ]
+      },
+      "tasks": [
+        {
+          "id": "7BA9A33EF623A0D5",
+          "type": "item",
+          "item": {
+            "count": 1,
+            "id": "colossal_reactors:resource_port"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CFFF25F5B2E8894",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
+    },
+    {
+      "id": "591136DF8FA642EB",
+      "x": 17,
+      "y": 0,
+      "shape": "circle",
+      "size": 1,
+      "dependencies": [
+        "5F288B6432CDBEFA"
+      ],
+      "hide_dependency_lines": true,
+      "dep_control_pts": {
+        "5F288B6432CDBEFA": [
+          3.6,
+          1.8,
+          17,
+          0
+        ]
+      },
+      "tasks": [
+        {
+          "id": "7058620132A7CCAF",
+          "type": "item",
+          "item": {
+            "count": 1,
+            "id": "colossal_reactors:power_port"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3F0C460B6FD7D867",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
+    },
+    {
+      "id": "4ED8F66996B86496",
+      "x": 14.3,
+      "y": 1.8,
+      "shape": "diamond",
+      "size": 1,
+      "dependencies": [
+        "5F288B6432CDBEFA"
+      ],
+      "optional": true,
+      "hide_dependency_lines": true,
+      "dep_control_pts": {
+        "5F288B6432CDBEFA": [
+          3.6,
+          1.8,
+          14.3,
+          1.8
+        ]
+      },
+      "tasks": [
+        {
+          "id": "2A38A8B4155DA820",
+          "type": "item",
+          "item": {
+            "count": 1,
+            "id": "colossal_reactors:reactor_glass"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7E2C8B04A97B0F69",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "5C31BABCC4C6A2B9",
+      "x": 15.2,
+      "y": 3.6,
+      "shape": "diamond",
+      "size": 1,
+      "dependencies": [
+        "161C5F9C7B2E2309"
+      ],
+      "optional": true,
+      "dep_control_pts": {
+        "161C5F9C7B2E2309": [
+          11.6,
+          0,
+          15.2,
+          3.6
+        ]
+      },
+      "tasks": [
+        {
+          "id": "068CEAFEEEB962A9",
+          "type": "item",
+          "item": {
+            "count": 1,
+            "id": "colossal_reactors:reactor_builder"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7AEF39B486D3DE13",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
+    },
+    {
+      "id": "1A7C9D8310C0AB01",
+      "x": 14.3,
+      "y": 5.4,
+      "shape": "gear",
+      "size": 1.3,
+      "dependencies": [
+        "161C5F9C7B2E2309",
+        "0E542CEC2182B1E6",
+        "01D53C062BE6BE3D",
+        "62D9E95A032AFE75",
+        "591136DF8FA642EB"
+      ],
+      "dep_control_pts": {
+        "161C5F9C7B2E2309": [
+          11.6,
+          0,
+          14.3,
+          5.4
+        ],
+        "0E542CEC2182B1E6": [
+          13.4,
+          0,
+          14.3,
+          5.4
+        ],
+        "01D53C062BE6BE3D": [
+          13.4,
+          3.6,
+          14.3,
+          5.4
+        ],
+        "62D9E95A032AFE75": [
+          15.2,
+          0,
+          14.3,
+          5.4
+        ],
+        "591136DF8FA642EB": [
+          17,
+          0,
+          14.3,
+          5.4
+        ]
+      },
+      "tasks": [
+        {
+          "id": "0722F25AEC69AE81",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3BBC412A14D66597",
+          "type": "xp",
+          "xp": 150
+        },
+        {
+          "id": "1F02DFC7EA09BF16",
+          "type": "random",
+          "table_id": 253752461985528
+        }
+      ]
+    },
+    {
+      "id": "75D20A2A2C2CDF49",
+      "x": 14.3,
+      "y": 7.2,
+      "shape": "circle",
+      "size": 1,
+      "dependencies": [
+        "1A7C9D8310C0AB01"
+      ],
+      "dep_control_pts": {
+        "1A7C9D8310C0AB01": [
+          14.3,
+          5.4,
+          14.3,
+          7.2
+        ]
+      },
+      "tasks": [
+        {
+          "id": "114007F1985C93B1",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "737B3A5A818DD8A3",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
+    },
+    {
+      "id": "61B0082A8280C757",
+      "x": 0,
+      "y": 10.4,
+      "shape": "gear",
+      "size": 1.3,
+      "dependencies": [
+        "122F7642F627F204",
+        "75D20A2A2C2CDF49"
+      ],
+      "hide_dependency_lines": true,
+      "dep_control_pts": {
+        "122F7642F627F204": [
+          1.8,
+          3.6,
+          0,
+          10.4
+        ],
+        "75D20A2A2C2CDF49": [
+          14.3,
+          7.2,
+          0,
+          10.4
+        ]
+      },
+      "tasks": [
+        {
+          "id": "562917FD5C69BA50",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "26BAA086706750FB",
+          "type": "xp",
+          "xp": 200
+        },
+        {
+          "id": "655C93E4A375B146",
+          "type": "random",
+          "table_id": 2210856162803377
+        }
+      ]
+    },
+    {
+      "id": "118E284B247A1AC5",
+      "x": 1.8,
+      "y": 10.4,
+      "shape": "circle",
+      "size": 1,
+      "dependencies": [
+        "61B0082A8280C757"
+      ],
+      "dep_control_pts": {
+        "61B0082A8280C757": [
+          0,
+          10.4,
+          1.8,
+          10.4
+        ]
+      },
+      "tasks": [
+        {
+          "id": "62C107993A37D6D0",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "33A1381743F904F2",
+          "type": "xp",
+          "xp": 100
+        }
+      ]
+    },
+    {
+      "id": "4B8BA624D17A8F31",
+      "x": 9.8,
+      "y": 10.4,
+      "shape": "diamond",
+      "size": 1,
+      "dependencies": [
+        "61B0082A8280C757"
+      ],
+      "optional": true,
+      "hide_dependency_lines": true,
+      "dep_control_pts": {
+        "61B0082A8280C757": [
+          0,
+          10.4,
+          9.8,
+          10.4
+        ]
+      },
+      "tasks": [
+        {
+          "id": "2C416CCE1540AAE8",
+          "type": "item",
+          "item": {
+            "count": 1,
+            "id": "colossal_reactors:turbine_casing"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "id": "222342AC5F337F46",
+          "type": "xp",
+          "xp": 100
+        }
+      ]
+    },
+    {
+      "id": "4C600AC0139D87C3",
+      "x": 11.6,
+      "y": 11.3,
+      "shape": "diamond",
+      "size": 1,
+      "dependencies": [
+        "4B8BA624D17A8F31"
+      ],
+      "optional": true,
+      "dep_control_pts": {
+        "4B8BA624D17A8F31": [
+          9.8,
+          10.4,
+          11.6,
+          11.3
+        ]
+      },
+      "tasks": [
+        {
+          "id": "16573F6B58F92006",
+          "type": "item",
+          "item": {
+            "count": 1,
+            "id": "colossal_reactors:turbine_controller"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "id": "474C6930887CDAE8",
+          "type": "xp",
+          "xp": 100
+        }
+      ]
+    },
+    {
+      "id": "58F18CA702224A16",
+      "x": 13.4,
+      "y": 11.3,
+      "shape": "diamond",
+      "size": 1,
+      "dependencies": [
+        "4C600AC0139D87C3"
+      ],
+      "optional": true,
+      "dep_control_pts": {
+        "4C600AC0139D87C3": [
+          11.6,
+          11.3,
+          13.4,
+          11.3
+        ]
+      },
+      "tasks": [
+        {
+          "id": "0D4F4ADCE341D6A7",
+          "type": "item",
+          "item": {
+            "count": 1,
+            "id": "colossal_reactors:turbine_blade"
+          }
+        },
+        {
+          "id": "056FC436FD59E624",
+          "type": "item",
+          "item": {
+            "count": 1,
+            "id": "colossal_reactors:turbine_rod"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6D2283FA45EEFD9F",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
+    },
+    {
+      "id": "0D5D0976A2DD52D1",
+      "x": 9.8,
+      "y": 12.2,
+      "shape": "gear",
+      "size": 1.3,
+      "dependencies": [
+        "118E284B247A1AC5"
+      ],
+      "hide_dependency_lines": true,
+      "dep_control_pts": {
+        "118E284B247A1AC5": [
+          1.8,
+          10.4,
+          9.8,
+          12.2
+        ]
+      },
+      "tasks": [
+        {
+          "id": "59912B8289CDCB08",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "58083BB9022A085E",
+          "type": "xp",
+          "xp": 300
+        },
+        {
+          "id": "1EE86846002D9A19",
+          "type": "random",
+          "table_id": 379532711335085
+        }
+      ]
+    }
+  ],
+  "quest_links": [],
+  "images": [
+    {
+      "x": 8.5,
+      "y": -1.7188,
+      "width": 12,
+      "height": 1.4375,
+      "rotation": 0,
+      "image": "gspack:textures/quests/colossalreactors_header.png",
+      "color": 16777215,
+      "alpha": 255,
+      "order": 0,
+      "corner": false
+    },
+    {
+      "x": -2.9471,
+      "y": 10.4,
+      "width": 4.0941,
+      "height": 0.6,
+      "rotation": 0,
+      "image": "gspack:textures/quests/colossalreactors_first_power.png",
+      "color": 16777215,
+      "alpha": 255,
+      "order": 0,
+      "corner": false
+    },
+    {
+      "x": 8.7235,
+      "y": 0,
+      "width": 3.9529,
+      "height": 0.6,
+      "rotation": 0,
+      "image": "gspack:textures/quests/colossalreactors_controller.png",
+      "color": 16777215,
+      "alpha": 255,
+      "order": 0,
+      "corner": false
+    },
+    {
+      "x": -2.8765,
+      "y": 1.8,
+      "width": 3.9529,
+      "height": 0.6,
+      "rotation": 0,
+      "image": "gspack:textures/quests/colossalreactors_start.png",
+      "color": 16777215,
+      "alpha": 255,
+      "order": 0,
+      "corner": false
+    },
+    {
+      "x": 6.8706,
+      "y": 10.4,
+      "width": 4.0588,
+      "height": 0.6,
+      "rotation": 0,
+      "image": "gspack:textures/quests/colossalreactors_turbine_casing.png",
+      "color": 16777215,
+      "alpha": 255,
+      "order": 0,
+      "corner": false
+    }
+  ],
+  "autofocus_id": ""
+}

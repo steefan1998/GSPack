@@ -61,9 +61,9 @@ Q 'unloader' 'Cargo Unloader' 'stellaris:cargo_unloader' 'cargo' 'xp:75' -opt -d
 Q 'skins' 'Rocket Skins' 'stellaris:skin_galaxy' 'rocket' 'xp:50' -opt -desc 'Give your rocket a new look.'
 
 # ===== Space =====
-Q 'orbit' 'To Orbit!' 'dim:stellaris:earth_orbit' 'rocket,suit' 'xp:300;table:space' -size 1.5 -icon 'stellaris:earth_globe' -desc 'Launch and reach &eEarth Orbit&r. Look at the view!'
-Q 'space_station' 'Space Station' 'stellaris:space_station_blueprint' 'orbit' 'xp:200' -desc 'Build your own space station in orbit.'
-Q 'moon' 'One Small Step' 'dim:stellaris:moon' 'orbit' 'xp:500;table:epic' -size 2 -shape 'gear' -icon 'stellaris:moon_globe' -desc @'
+Q 'orbit' 'To Orbit!' 'dim:stellaris:earth_orbit' 'rocket,suit' 'xp:300;table:space' -opt -size 1.5 -icon 'stellaris:earth_globe' -desc 'Launch and reach &eEarth Orbit&r. Look at the view!'
+Q 'space_station' 'Space Station' 'stellaris:space_station_blueprint' 'rocket,suit' 'xp:200' -desc 'Build your own space station in orbit.'
+Q 'moon' 'One Small Step' 'dim:stellaris:moon' 'rocket,suit' 'xp:500;table:epic' -size 2 -shape 'gear' -icon 'stellaris:moon_globe' -desc @'
 Land on the &7Moon&r!
 
 The gravity is low, there is no air, and things live here. Watch your oxygen at all times.
@@ -101,3 +101,10 @@ Q 'star_crawlers' 'Star Crawlers' 'kill:stellaris:star_crawler*5' 'dungeon' 'xp:
 # ===== Bosses =====
 Q 'heart' 'Heart of Luna' 'kill:stellaris:heart_of_luna;stellaris:heart_of_luna_trophy' 'dungeon,vaccine' 'xp:600;table:epic' -size 1.5 -shape 'hexagon' -desc 'Defeat the boss hiding in the heart of the Moon and claim its trophy.'
 Q 'star_crawler' 'Star Crawler Queen' 'kill:stellaris:star_crawler_boss;stellaris:star_crawler_boss_trophy' 'heart,star_crawlers' 'lvl:30;table:epic' -size 2 -shape 'gear' -desc 'The final challenge of Stellaris. You are a true astronaut!'
+
+# Mars is an additional exploration destination; the first Moon rocket stays accessible.
+Q 'mars' 'The Red Planet' 'dim:stellaris:mars' 'moon' 'xp:300;table:space' -size 1.5 -icon 'gspack:mars_stone' -desc 'Select Mars using Stellaris planet selection and travel with your rocket. GSPack adds this dry world with 3.71 gravity and no breathable oxygen. Bring a working space suit, oxygen, fuel, food and a plan for the return flight.'
+Q 'mars_surface' 'Martian Geology' 'gspack:mars_stone;gspack:mars_regolith;gspack:mars_sand' 'mars' 'xp:150' -desc 'Collect the red surface materials. Mars has no surface oceans or natural food supply; prepare on Earth before travelling.'
+Q 'mars_mining' 'Martian Resources' 'minecraft:raw_iron;alltheores:raw_osmium' 'mars_surface' 'xp:200;table:rare' -desc 'The Martian crust contains iron, copper, gold, osmium and uranium. Raw materials follow the existing GSPack unification rules. Mine with suitable tools and keep your oxygen supply in view.'
+Q 'mars_base' 'A Martian Outpost' 'check' 'mars_surface' 'xp:150' -opt -desc 'Build a shelter and a supported oxygen setup, store return fuel and mark the landing area in JourneyMap. Tick after testing the outpost and oxygen coverage.'
+Q 'mars_return' 'There and Back Again' 'check' 'mars_mining' 'xp:300;table:epic' -desc 'Return safely to Earth with Martian samples. Mars is an exploration extension; it is not a new prerequisite for building your first Moon rocket.'

@@ -1,1553 +1,1945 @@
 {
-  id: "031F584310838E55",
-  group: "105EE503AFE85CA5",
-  order_index: 5,
-  icon: {
-    id: "tconstruct:smeltery_controller",
-    count: 1,
-  },
-  filename: "tinkers",
-  default_quest_shape: "",
-  default_hide_dependency_lines: false,
-  quests: [
-    {
-      x: 0,
-      y: 1.8,
-      shape: "gear",
-      size: 1.3,
-      id: "017A95EACDF1782B",
-      tasks: [
-        {
-          id: "746D85E236D878F4",
-          type: "item",
-          item: {
-            id: "tconstruct:materials_and_you",
-            count: 1,
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "37CA5FF9DA922504",
-          type: "xp",
-          xp: 50,
-        },
-        {
-          id: "20FB526102961C2F",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 4224964620844649,
-        },
-      ],
-    },
-    {
-      x: 1.8,
-      y: 0,
-      optional: true,
-      dependencies: ["017A95EACDF1782B"],
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"017A95EACDF1782B":[0,1.8,1.8,0]},
-      id: "1AFC7DD9BCDF5AF3",
-      tasks: [
-        {
-          id: "14D8D2E62BDC7338",
-          type: "item",
-          item: {
-            id: "tconstruct:puny_smelting",
-            count: 1,
-          },
-        },
-        {
-          id: "492E9666CE7AEE1F",
-          type: "item",
-          item: {
-            id: "tconstruct:mighty_smelting",
-            count: 1,
-          },
-        },
-        {
-          id: "1EA4A070EF947989",
-          type: "item",
-          item: {
-            id: "tconstruct:fantastic_foundry",
-            count: 1,
-          },
-        },
-        {
-          id: "72BDFAB64ED9B11B",
-          type: "item",
-          item: {
-            id: "tconstruct:tinkers_gadgetry",
-            count: 1,
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "456AEB0C452197D6",
-          type: "xp",
-          xp: 50,
-        },
-      ],
-    },
-    {
-      x: 1.8,
-      y: 1.8,
-      dependencies: ["017A95EACDF1782B"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"017A95EACDF1782B":[0,1.8,1.8,1.8]},
-      id: "184A4D69A4E57434",
-      tasks: [
-        {
-          id: "0AC27A82B6F93016",
-          type: "item",
-          item: {
-            id: "tconstruct:pattern",
-            count: 1,
-          },
-          count: 8,
-        },
-      ],
-      rewards: [
-        {
-          id: "459E7A4873620680",
-          type: "xp",
-          xp: 25,
-        },
-      ],
-    },
-    {
-      x: 3.6,
-      y: 1.8,
-      dependencies: ["184A4D69A4E57434"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"184A4D69A4E57434":[1.8,1.8,3.6,1.8]},
-      id: "00732211D4826FB7",
-      tasks: [
-        {
-          id: "404921AB3554EB12",
-          type: "item",
-          item: {
-            id: "tconstruct:part_builder",
-            count: 1,
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "2977BF9BA6F6DDCF",
-          type: "xp",
-          xp: 50,
-        },
-      ],
-    },
-    {
-      x: 5.4,
-      y: 1.8,
-      dependencies: ["00732211D4826FB7"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"00732211D4826FB7":[3.6,1.8,5.4,1.8]},
-      id: "192B269B3D5C45EE",
-      tasks: [
-        {
-          id: "16CFB6D6E26CB385",
-          type: "item",
-          item: {
-            id: "tconstruct:tinker_station",
-            count: 1,
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "6933CC24FEC07251",
-          type: "xp",
-          xp: 50,
-        },
-      ],
-    },
-    {
-      x: 7.2,
-      y: 1.8,
-      dependencies: ["192B269B3D5C45EE"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"192B269B3D5C45EE":[5.4,1.8,7.2,1.8]},
-      id: "2A2EB1BD71730A85",
-      tasks: [
-        {
-          id: "3B234C9013221746",
-          type: "item",
-          item: {
-            id: "tconstruct:pickaxe",
-            count: 1,
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "61F8D50BE02E263B",
-          type: "xp",
-          xp: 75,
-        },
-        {
-          id: "0E6F35DE8948990A",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 4224964620844649,
-        },
-      ],
-    },
-    {
-      x: 1.8,
-      y: 3.6,
-      optional: true,
-      dependencies: ["017A95EACDF1782B"],
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"017A95EACDF1782B":[0,1.8,1.8,3.6]},
-      id: "4E2B1DF5E928B05E",
-      tasks: [
-        {
-          id: "71749530F25ADF1D",
-          type: "item",
-          item: {
-            id: "tconstruct:crafting_station",
-            count: 1,
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "3A0F60A489AEDF10",
-          type: "xp",
-          xp: 25,
-        },
-      ],
-    },
-    {
-      x: 16.1,
-      y: 0,
-      shape: "gear",
-      size: 1.3,
-      id: "227160423E833F96",
-      tasks: [
-  {
-    "id": "19B0B81FC8DC974C",
-    "type": "item",
-    "item": {
-      "id": "tconstruct:grout",
-      "count": 1
-    },
+  "id": "031F584310838E55",
+  "group": "105EE503AFE85CA5",
+  "order_index": 8,
+  "icon": {
+    "id": "tconstruct:smeltery_controller",
     "count": 1
-  }
-],
-      rewards: [
+  },
+  "filename": "tinkers",
+  "default_quest_shape": "",
+  "default_hide_dependency_lines": false,
+  "quests": [
+    {
+      "x": 0,
+      "y": 1.8,
+      "shape": "gear",
+      "size": 1.3,
+      "id": "017A95EACDF1782B",
+      "tasks": [
         {
-          id: "29BF86B816BE1E8E",
-          type: "xp",
-          xp: 50,
-        },
+          "id": "746D85E236D878F4",
+          "type": "item",
+          "item": {
+            "id": "tconstruct:materials_and_you",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "37CA5FF9DA922504",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "20FB526102961C2F",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 4224964620844649
+        }
+      ]
     },
     {
-      x: 16.1,
-      y: 1.8,
-      dependencies: ["227160423E833F96"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"227160423E833F96":[16.1,0,16.1,1.8]},
-      id: "1CA30EA3B7821320",
-      tasks: [
-        {
-          id: "1F99CD10B599D9DF",
-          type: "item",
-          item: {
-            id: "tconstruct:seared_brick",
-            count: 1,
-          },
-          count: 32,
-        },
+      "x": 1.8,
+      "y": 0,
+      "shape": "diamond",
+      "dependencies": [
+        "017A95EACDF1782B"
       ],
-      rewards: [
-        {
-          id: "1C40CC6228239BE7",
-          type: "xp",
-          xp: 50,
-        },
-      ],
-    },
-    {
-      x: 16.1,
-      y: 3.6,
-      dependencies: ["1CA30EA3B7821320"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"1CA30EA3B7821320":[16.1,1.8,16.1,3.6]},
-      id: "71D7A17F40C06DE9",
-      tasks: [
-        {
-          id: "1E27FB975384B212",
-          type: "item",
-          item: {
-            id: "tconstruct:seared_melter",
-            count: 1,
-          },
-        },
-        {
-          id: "53C7DA6980F64ECF",
-          type: "item",
-          item: {
-            id: "tconstruct:seared_heater",
-            count: 1,
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "3889934F5083C1C0",
-          type: "xp",
-          xp: 75,
-        },
-      ],
-    },
-    {
-      x: 16.1,
-      y: 5.4,
-      dependencies: ["71D7A17F40C06DE9"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"71D7A17F40C06DE9":[16.1,3.6,16.1,5.4]},
-      id: "708FA1BD302D4CC6",
-      tasks: [
-        {
-          id: "0CB6654FCC6A9A7D",
-          type: "item",
-          item: {
-            id: "tconstruct:seared_table",
-            count: 1,
-          },
-        },
-        {
-          id: "527D2CABB7463CF4",
-          type: "item",
-          item: {
-            id: "tconstruct:seared_basin",
-            count: 1,
-          },
-        },
-        {
-          id: "25CE1FD10BEE90EF",
-          type: "item",
-          item: {
-            id: "tconstruct:seared_faucet",
-            count: 1,
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "4B3E08BDBC3BE7C1",
-          type: "xp",
-          xp: 75,
-        },
-      ],
-    },
-    {
-      x: 15.2,
-      y: 7.2,
-      dependencies: ["708FA1BD302D4CC6"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"708FA1BD302D4CC6":[16.1,5.4,15.2,7.2]},
-      id: "34361E5A22B99EDF",
-      tasks: [
-        {
-          id: "0E7CDF62D0F17956",
-          type: "item",
-          item: {
-            id: "tconstruct:ingot_cast",
-            count: 1,
-          },
-        },
-        {
-          id: "7D96A229D739A038",
-          type: "item",
-          item: {
-            id: "tconstruct:pick_head_cast",
-            count: 1,
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "3565E0DAC52EC93B",
-          type: "xp",
-          xp: 50,
-        },
-      ],
-    },
-    {
-      x: 17,
-      y: 7.2,
-      dependencies: ["708FA1BD302D4CC6"],
-      shape: "gear",
-      size: 1.3,
-      dep_control_pts: {"708FA1BD302D4CC6":[16.1,5.4,17,7.2]},
-      id: "1E59D7D2D51476B9",
-      tasks: [
-        {
-          id: "1934BD17980BED18",
-          type: "item",
-          item: {
-            id: "tconstruct:smeltery_controller",
-            count: 1,
-          },
-        },
-        {
-          id: "4E99D13E7705161E",
-          type: "item",
-          item: {
-            id: "tconstruct:seared_drain",
-            count: 1,
-          },
-        },
-        {
-          id: "0FD42181978EE5FB",
-          type: "item",
-          item: {
-            id: "tconstruct:seared_fuel_tank",
-            count: 1,
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "33467A06775121A2",
-          type: "xp",
-          xp: 200,
-        },
-        {
-          id: "4387E447DCF59B85",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 253752461985528,
-        },
-      ],
-    },
-    {
-      x: 15.2,
-      y: 9,
-      optional: true,
-      dependencies: ["1E59D7D2D51476B9"],
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"1E59D7D2D51476B9":[17,7.2,15.2,9]},
-      id: "54366F7975C203CD",
-      tasks: [
-        {
-          id: "24A20541FF3F5CD3",
-          type: "item",
-          item: {
-            id: "tconstruct:seared_ingot_gauge",
-            count: 1,
-          },
-        },
-        {
-          id: "06E3248C818CE1C1",
-          type: "item",
-          item: {
-            id: "tconstruct:seared_casting_tank",
-            count: 1,
-          },
-        },
-        {
-          id: "0C9CA1FBBC610F39",
-          type: "item",
-          item: {
-            id: "tconstruct:seared_chute",
-            count: 1,
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "5885BDC127B578C5",
-          type: "xp",
-          xp: 75,
-        },
-      ],
-    },
-    {
-      x: 16.1,
-      y: 10.8,
-      dependencies: ["1E59D7D2D51476B9","0DBE2018B2772C71"],
-      shape: "hexagon",
-      size: 1,
-      dep_control_pts: {"1E59D7D2D51476B9":[17,7.2,16.1,10.8],"0DBE2018B2772C71":[17,9,16.1,10.8]},
-      id: "7CB0CF18DA267CF4",
-      tasks: [
-        {
-          id: "15346C93199A56D0",
-          type: "item",
-          item: {
-            id: "tconstruct:foundry_controller",
-            count: 1,
-          },
-        },
-        {
-          id: "113523FBDDAB544B",
-          type: "item",
-          item: {
-            id: "tconstruct:scorched_brick",
-            count: 1,
-          },
-          count: 32,
-        },
-      ],
-      rewards: [
-        {
-          id: "78F2DAE6E35E47FE",
-          type: "xp",
-          xp: 300,
-        },
-        {
-          id: "5D2FF8CB8B2726DE",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 2210856162803377,
-        },
-      ],
-    },
-    {
-      x: 16.1,
-      y: 12.6,
-      optional: true,
-      dependencies: ["7CB0CF18DA267CF4"],
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"7CB0CF18DA267CF4":[16.1,10.8,16.1,12.6]},
-      id: "7E43D015863594FB",
-      tasks: [
-        {
-          id: "6B4A72AAFE0273A1",
-          type: "item",
-          item: {
-            id: "tconstruct:scorched_alloyer",
-            count: 1,
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "4FA2800324CE45FA",
-          type: "xp",
-          xp: 100,
-        },
-      ],
-    },
-    {
-      icon: {
-        id: "tconstruct:nether_grout",
-        count: 1,
+      "dep_control_pts": {
+        "017A95EACDF1782B": [
+          0,
+          1.8,
+          1.8,
+          0
+        ]
       },
-      x: 17,
-      y: 9,
-      dependencies: ["1E59D7D2D51476B9"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"1E59D7D2D51476B9":[17,7.2,17,9]},
-      id: "0DBE2018B2772C71",
-      tasks: [
+      "size": 1,
+      "optional": true,
+      "id": "1AFC7DD9BCDF5AF3",
+      "tasks": [
         {
-          id: "020EE766448E359C",
-          type: "dimension",
-          dimension: "minecraft:the_nether",
+          "id": "14D8D2E62BDC7338",
+          "type": "item",
+          "item": {
+            "id": "tconstruct:puny_smelting",
+            "count": 1
+          }
         },
-      ],
-      rewards: [
         {
-          id: "046DEEB2EA7EB4FD",
-          type: "xp",
-          xp: 25,
+          "id": "492E9666CE7AEE1F",
+          "type": "item",
+          "item": {
+            "id": "tconstruct:mighty_smelting",
+            "count": 1
+          }
         },
+        {
+          "id": "1EA4A070EF947989",
+          "type": "item",
+          "item": {
+            "id": "tconstruct:fantastic_foundry",
+            "count": 1
+          }
+        },
+        {
+          "id": "72BDFAB64ED9B11B",
+          "type": "item",
+          "item": {
+            "id": "tconstruct:tinkers_gadgetry",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "456AEB0C452197D6",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
     },
     {
-      x: 0,
-      y: 18.5,
-      dependencies: ["2A2EB1BD71730A85","1E59D7D2D51476B9"],
-      hide_dependency_lines: true,
-      shape: "gear",
-      size: 1.3,
-      dep_control_pts: {"2A2EB1BD71730A85":[7.2,1.8,0,18.5],"1E59D7D2D51476B9":[17,7.2,0,18.5]},
-      id: "7F2B9DACFB045F12",
-      tasks: [
-        {
-          id: "33070C5533D6074D",
-          type: "item",
-          item: {
-            id: "tconstruct:pickaxe",
-            count: 1,
-          },
-        },
-        {
-          id: "5CECE336EA3FE678",
-          type: "item",
-          item: {
-            id: "tconstruct:hand_axe",
-            count: 1,
-          },
-        },
-        {
-          id: "251868D34F5ADC23",
-          type: "item",
-          item: {
-            id: "tconstruct:mattock",
-            count: 1,
-          },
-        },
-        {
-          id: "798077C2BA0EA8AA",
-          type: "item",
-          item: {
-            id: "tconstruct:sword",
-            count: 1,
-          },
-        },
+      "x": 1.8,
+      "y": 1.8,
+      "shape": "circle",
+      "dependencies": [
+        "017A95EACDF1782B"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "017A95EACDF1782B": [
+          0,
+          1.8,
+          1.8,
+          1.8
+        ]
+      },
+      "size": 1,
+      "id": "184A4D69A4E57434",
+      "tasks": [
         {
-          id: "636AB0347E9E3796",
-          type: "xp",
-          xp: 100,
-        },
-        {
-          id: "6C875826F4E83A17",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 253752461985528,
-        },
+          "id": "0AC27A82B6F93016",
+          "type": "item",
+          "item": {
+            "id": "tconstruct:pattern",
+            "count": 1
+          },
+          "count": 8
+        }
       ],
+      "rewards": [
+        {
+          "id": "459E7A4873620680",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
     },
     {
-      x: 1.8,
-      y: 15.8,
-      dependencies: ["7F2B9DACFB045F12"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"7F2B9DACFB045F12":[0,18.5,1.8,15.8]},
-      id: "7AD7DEDE561056D1",
-      tasks: [
-        {
-          id: "689179952EBE6623",
-          type: "item",
-          item: {
-            id: "tconstruct:sledge_hammer",
-            count: 1,
-          },
-        },
-        {
-          id: "2D385A9BE24EA983",
-          type: "item",
-          item: {
-            id: "tconstruct:vein_hammer",
-            count: 1,
-          },
-        },
-        {
-          id: "50920F6478683354",
-          type: "item",
-          item: {
-            id: "tconstruct:excavator",
-            count: 1,
-          },
-        },
-        {
-          id: "4D1F4CB2832FC535",
-          type: "item",
-          item: {
-            id: "tconstruct:broad_axe",
-            count: 1,
-          },
-        },
+      "x": 3.6,
+      "y": 1.8,
+      "shape": "circle",
+      "dependencies": [
+        "184A4D69A4E57434"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "184A4D69A4E57434": [
+          1.8,
+          1.8,
+          3.6,
+          1.8
+        ]
+      },
+      "size": 1,
+      "id": "00732211D4826FB7",
+      "tasks": [
         {
-          id: "16F60DD88DD9635E",
-          type: "xp",
-          xp: 200,
-        },
-        {
-          id: "7924F591F7AFF345",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 2210856162803377,
-        },
+          "id": "404921AB3554EB12",
+          "type": "item",
+          "item": {
+            "id": "tconstruct:part_builder",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "2977BF9BA6F6DDCF",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
     },
     {
-      x: 1.8,
-      y: 17.6,
-      dependencies: ["7F2B9DACFB045F12"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"7F2B9DACFB045F12":[0,18.5,1.8,17.6]},
-      id: "61DF41BB084F1CC2",
-      tasks: [
-        {
-          id: "325053A39332360A",
-          type: "item",
-          item: {
-            id: "tconstruct:cleaver",
-            count: 1,
-          },
-        },
-        {
-          id: "0E885B94A3A02B60",
-          type: "item",
-          item: {
-            id: "tconstruct:dagger",
-            count: 1,
-          },
-        },
-        {
-          id: "6162554B4EF57A2D",
-          type: "item",
-          item: {
-            id: "tconstruct:scythe",
-            count: 1,
-          },
-        },
+      "x": 5.4,
+      "y": 1.8,
+      "shape": "circle",
+      "dependencies": [
+        "00732211D4826FB7"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "00732211D4826FB7": [
+          3.6,
+          1.8,
+          5.4,
+          1.8
+        ]
+      },
+      "size": 1,
+      "id": "192B269B3D5C45EE",
+      "tasks": [
         {
-          id: "0B07F465E8CCF579",
-          type: "xp",
-          xp: 150,
-        },
+          "id": "16CFB6D6E26CB385",
+          "type": "item",
+          "item": {
+            "id": "tconstruct:tinker_station",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "6933CC24FEC07251",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
     },
     {
-      x: 1.8,
-      y: 19.4,
-      dependencies: ["7F2B9DACFB045F12"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"7F2B9DACFB045F12":[0,18.5,1.8,19.4]},
-      id: "2B26CEAF2126CC4F",
-      tasks: [
-        {
-          id: "7AA6CAF28FA6DF15",
-          type: "item",
-          item: {
-            id: "tconstruct:longbow",
-            count: 1,
-          },
-        },
-        {
-          id: "05A3C57A6677ED3B",
-          type: "item",
-          item: {
-            id: "tconstruct:crossbow",
-            count: 1,
-          },
-        },
+      "x": 7.2,
+      "y": 1.8,
+      "shape": "circle",
+      "dependencies": [
+        "192B269B3D5C45EE"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "192B269B3D5C45EE": [
+          5.4,
+          1.8,
+          7.2,
+          1.8
+        ]
+      },
+      "size": 1,
+      "id": "2A2EB1BD71730A85",
+      "tasks": [
         {
-          id: "442FC02D88F4946C",
-          type: "xp",
-          xp: 150,
-        },
+          "id": "3B234C9013221746",
+          "type": "item",
+          "item": {
+            "id": "tconstruct:pickaxe",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "61F8D50BE02E263B",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "0E6F35DE8948990A",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 4224964620844649
+        }
+      ]
     },
     {
-      x: 1.8,
-      y: 21.2,
-      dependencies: ["7F2B9DACFB045F12"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"7F2B9DACFB045F12":[0,18.5,1.8,21.2]},
-      id: "6B3E005B0C35F78E",
-      tasks: [
-        {
-          id: "598C6B7367E69FDC",
-          type: "item",
-          item: {
-            id: "tconstruct:plate_helmet",
-            count: 1,
-          },
-        },
-        {
-          id: "2DF35383EAFE95B8",
-          type: "item",
-          item: {
-            id: "tconstruct:plate_chestplate",
-            count: 1,
-          },
-        },
-        {
-          id: "39A348B5AA973C97",
-          type: "item",
-          item: {
-            id: "tconstruct:plate_leggings",
-            count: 1,
-          },
-        },
-        {
-          id: "608865E93F855A72",
-          type: "item",
-          item: {
-            id: "tconstruct:plate_boots",
-            count: 1,
-          },
-        },
+      "x": 1.8,
+      "y": 3.6,
+      "shape": "diamond",
+      "dependencies": [
+        "017A95EACDF1782B"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "017A95EACDF1782B": [
+          0,
+          1.8,
+          1.8,
+          3.6
+        ]
+      },
+      "size": 1,
+      "optional": true,
+      "id": "4E2B1DF5E928B05E",
+      "tasks": [
         {
-          id: "2855143795503ED3",
-          type: "xp",
-          xp: 200,
-        },
-        {
-          id: "6C733D69A400D806",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 2210856162803377,
-        },
+          "id": "71749530F25ADF1D",
+          "type": "item",
+          "item": {
+            "id": "tconstruct:crafting_station",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "3A0F60A489AEDF10",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
     },
     {
-      x: 3.6,
-      y: 16.7,
-      optional: true,
-      dependencies: ["7F2B9DACFB045F12"],
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"7F2B9DACFB045F12":[0,18.5,3.6,16.7]},
-      id: "35613EB71F2B8A8B",
-      tasks: [
+      "x": 16.1,
+      "y": 0,
+      "shape": "gear",
+      "size": 1.3,
+      "id": "227160423E833F96",
+      "tasks": [
         {
-          id: "34179E50556BB2F1",
-          type: "item",
-          item: {
-            id: "tconstruct:travelers_helmet",
-            count: 1,
-          },
-        },
-        {
-          id: "0DF7F3282C398BEF",
-          type: "item",
-          item: {
-            id: "tconstruct:travelers_chestplate",
-            count: 1,
-          },
-        },
-        {
-          id: "6CB162AF63199E12",
-          type: "item",
-          item: {
-            id: "tconstruct:travelers_leggings",
-            count: 1,
-          },
-        },
-        {
-          id: "2903F34E4D7B552E",
-          type: "item",
-          item: {
-            id: "tconstruct:travelers_boots",
-            count: 1,
-          },
-        },
+          "id": "19B0B81FC8DC974C",
+          "type": "item",
+          "item": {
+            "id": "tconstruct:grout",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "226E4161A59E82CA",
-          type: "xp",
-          xp: 150,
-        },
-      ],
+          "id": "29BF86B816BE1E8E",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
     },
     {
-      x: 3.6,
-      y: 18.5,
-      dependencies: ["7F2B9DACFB045F12"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"7F2B9DACFB045F12":[0,18.5,3.6,18.5]},
-      id: "709A2203ABF32C66",
-      tasks: [
+      "x": 16.1,
+      "y": 1.8,
+      "shape": "circle",
+      "dependencies": [
+        "227160423E833F96"
+      ],
+      "dep_control_pts": {
+        "227160423E833F96": [
+          16.1,
+          0,
+          16.1,
+          1.8
+        ]
+      },
+      "size": 1,
+      "id": "1CA30EA3B7821320",
+      "tasks": [
         {
-          id: "302B1D28251C6BF5",
-          type: "item",
-          item: {
-            id: "tconstruct:modifier_worktable",
-            count: 1,
+          "id": "1F99CD10B599D9DF",
+          "type": "item",
+          "item": {
+            "id": "tconstruct:seared_brick",
+            "count": 1
           },
-        },
+          "count": 32
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "628CDFD19025FB1B",
-          type: "xp",
-          xp: 100,
-        },
-      ],
+          "id": "1C40CC6228239BE7",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
     },
     {
-      x: 5.4,
-      y: 17.6,
-      dependencies: ["709A2203ABF32C66"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"709A2203ABF32C66":[3.6,18.5,5.4,17.6]},
-      id: "17F980724602C603",
-      tasks: [
-        {
-          id: "01870CAA605DF5F2",
-          type: "item",
-          item: {
-            id: "tconstruct:iron_reinforcement",
-            count: 1,
-          },
-        },
-        {
-          id: "4101D57E0E3C0859",
-          type: "item",
-          item: {
-            id: "tconstruct:obsidian_reinforcement",
-            count: 1,
-          },
-        },
+      "x": 16.1,
+      "y": 3.6,
+      "shape": "circle",
+      "dependencies": [
+        "1CA30EA3B7821320"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "1CA30EA3B7821320": [
+          16.1,
+          1.8,
+          16.1,
+          3.6
+        ]
+      },
+      "size": 1,
+      "id": "71D7A17F40C06DE9",
+      "tasks": [
         {
-          id: "73FB4A34173722A9",
-          type: "xp",
-          xp: 75,
+          "id": "1E27FB975384B212",
+          "type": "item",
+          "item": {
+            "id": "tconstruct:seared_melter",
+            "count": 1
+          }
         },
+        {
+          "id": "53C7DA6980F64ECF",
+          "type": "item",
+          "item": {
+            "id": "tconstruct:seared_heater",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "3889934F5083C1C0",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
     },
     {
-      x: 3.6,
-      y: 20.3,
-      dependencies: ["7F2B9DACFB045F12"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"7F2B9DACFB045F12":[0,18.5,3.6,20.3]},
-      id: "1EBD8DF876FCD3FF",
-      tasks: [
-        {
-          id: "58FC53827B408C35",
-          type: "item",
-          item: {
-            id: "tconstruct:repair_kit",
-            count: 1,
-          },
-        },
+      "x": 16.1,
+      "y": 5.4,
+      "shape": "circle",
+      "dependencies": [
+        "71D7A17F40C06DE9"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "71D7A17F40C06DE9": [
+          16.1,
+          3.6,
+          16.1,
+          5.4
+        ]
+      },
+      "size": 1,
+      "id": "708FA1BD302D4CC6",
+      "tasks": [
         {
-          id: "0F9C3CE8CCF81CE7",
-          type: "xp",
-          xp: 50,
+          "id": "0CB6654FCC6A9A7D",
+          "type": "item",
+          "item": {
+            "id": "tconstruct:seared_table",
+            "count": 1
+          }
         },
+        {
+          "id": "527D2CABB7463CF4",
+          "type": "item",
+          "item": {
+            "id": "tconstruct:seared_basin",
+            "count": 1
+          }
+        },
+        {
+          "id": "25CE1FD10BEE90EF",
+          "type": "item",
+          "item": {
+            "id": "tconstruct:seared_faucet",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "4B3E08BDBC3BE7C1",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
     },
     {
-      x: 5.4,
-      y: 19.4,
-      dependencies: ["709A2203ABF32C66","7E8AE69DF83E0AED"],
-      hide_dependency_lines: true,
-      shape: "hexagon",
-      size: 1,
-      dep_control_pts: {"709A2203ABF32C66":[3.6,18.5,5.4,19.4],"7E8AE69DF83E0AED":[15.2,15.8,5.4,19.4]},
-      id: "1493C91E0D023665",
-      tasks: [
-        {
-          id: "7C07779680DC1AFC",
-          type: "item",
-          item: {
-            id: "tconstruct:tinkers_anvil",
-            count: 1,
-          },
-        },
+      "x": 15.2,
+      "y": 7.2,
+      "shape": "circle",
+      "dependencies": [
+        "708FA1BD302D4CC6"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "708FA1BD302D4CC6": [
+          16.1,
+          5.4,
+          15.2,
+          7.2
+        ]
+      },
+      "size": 1,
+      "id": "34361E5A22B99EDF",
+      "tasks": [
         {
-          id: "5DBDAC8B656C7F21",
-          type: "xp",
-          xp: 150,
+          "id": "0E7CDF62D0F17956",
+          "type": "item",
+          "item": {
+            "id": "tconstruct:ingot_cast",
+            "count": 1
+          }
         },
+        {
+          "id": "7D96A229D739A038",
+          "type": "item",
+          "item": {
+            "id": "tconstruct:pick_head_cast",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "3565E0DAC52EC93B",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
     },
     {
-      x: 7.2,
-      y: 18.5,
-      optional: true,
-      dependencies: ["1493C91E0D023665"],
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"1493C91E0D023665":[5.4,19.4,7.2,18.5]},
-      id: "4100A5B28A698C09",
-      tasks: [
-        {
-          id: "4F0053E82BC8D662",
-          type: "item",
-          item: {
-            id: "tconstruct:modifier_crystal",
-            count: 1,
-          },
-        },
+      "x": 17,
+      "y": 7.2,
+      "shape": "gear",
+      "dependencies": [
+        "708FA1BD302D4CC6"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "708FA1BD302D4CC6": [
+          16.1,
+          5.4,
+          17,
+          7.2
+        ]
+      },
+      "size": 1.3,
+      "id": "1E59D7D2D51476B9",
+      "tasks": [
         {
-          id: "07E353422F4BB8F6",
-          type: "xp",
-          xp: 200,
+          "id": "1934BD17980BED18",
+          "type": "item",
+          "item": {
+            "id": "tconstruct:smeltery_controller",
+            "count": 1
+          }
         },
         {
-          id: "04D17F1E6CE458CA",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 2210856162803377,
+          "id": "4E99D13E7705161E",
+          "type": "item",
+          "item": {
+            "id": "tconstruct:seared_drain",
+            "count": 1
+          }
         },
+        {
+          "id": "0FD42181978EE5FB",
+          "type": "item",
+          "item": {
+            "id": "tconstruct:seared_fuel_tank",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "33467A06775121A2",
+          "type": "xp",
+          "xp": 200
+        },
+        {
+          "id": "4387E447DCF59B85",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 253752461985528
+        }
+      ]
     },
     {
-      x: 15.2,
-      y: 17.6,
-      shape: "gear",
-      size: 1.3,
-      id: "4FC3B0F3784C24EA",
-      tasks: [
-        {
-          id: "3666F1583365FFA4",
-          type: "item",
-          item: {
-            id: "tconstruct:sky_slime_ball",
-            count: 1,
-          },
-          count: 8,
-        },
-        {
-          id: "4E86D45669932B5A",
-          type: "item",
-          item: {
-            id: "tconstruct:ender_slime_ball",
-            count: 1,
-          },
-          count: 4,
-        },
+      "x": 15.2,
+      "y": 9,
+      "shape": "diamond",
+      "dependencies": [
+        "1E59D7D2D51476B9"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "1E59D7D2D51476B9": [
+          17,
+          7.2,
+          15.2,
+          9
+        ]
+      },
+      "size": 1,
+      "optional": true,
+      "id": "54366F7975C203CD",
+      "tasks": [
         {
-          id: "67572D99658F3592",
-          type: "xp",
-          xp: 100,
+          "id": "24A20541FF3F5CD3",
+          "type": "item",
+          "item": {
+            "id": "tconstruct:seared_ingot_gauge",
+            "count": 1
+          }
         },
         {
-          id: "0CF8CB01E29EE034",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 4224964620844649,
+          "id": "06E3248C818CE1C1",
+          "type": "item",
+          "item": {
+            "id": "tconstruct:seared_casting_tank",
+            "count": 1
+          }
         },
+        {
+          "id": "0C9CA1FBBC610F39",
+          "type": "item",
+          "item": {
+            "id": "tconstruct:seared_chute",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "5885BDC127B578C5",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
     },
     {
-      x: 18.8,
-      y: 15.8,
-      dependencies: ["4FC3B0F3784C24EA"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"4FC3B0F3784C24EA":[15.2,17.6,18.8,15.8]},
-      id: "06FC8C9E607DF3B5",
-      tasks: [
+      "x": 16.1,
+      "y": 10.8,
+      "shape": "hexagon",
+      "dependencies": [
+        "1E59D7D2D51476B9",
+        "0DBE2018B2772C71"
+      ],
+      "dep_control_pts": {
+        "1E59D7D2D51476B9": [
+          17,
+          7.2,
+          16.1,
+          10.8
+        ],
+        "0DBE2018B2772C71": [
+          17,
+          9,
+          16.1,
+          10.8
+        ]
+      },
+      "size": 1,
+      "id": "7CB0CF18DA267CF4",
+      "tasks": [
         {
-          id: "7E06D0A49FED3A81",
-          type: "item",
-          item: {
-            id: "tconstruct:slime_boots",
-            count: 1,
+          "id": "15346C93199A56D0",
+          "type": "item",
+          "item": {
+            "id": "tconstruct:foundry_controller",
+            "count": 1
+          }
+        },
+        {
+          "id": "113523FBDDAB544B",
+          "type": "item",
+          "item": {
+            "id": "tconstruct:scorched_brick",
+            "count": 1
           },
-        },
+          "count": 32
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "31F2AEA1D876E0AA",
-          type: "xp",
-          xp: 75,
+          "id": "78F2DAE6E35E47FE",
+          "type": "xp",
+          "xp": 300
         },
-      ],
+        {
+          "id": "5D2FF8CB8B2726DE",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2210856162803377
+        }
+      ]
     },
     {
-      x: 18.8,
-      y: 17.6,
-      optional: true,
-      dependencies: ["4FC3B0F3784C24EA"],
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"4FC3B0F3784C24EA":[15.2,17.6,18.8,17.6]},
-      id: "3161C829EE35DE67",
-      tasks: [
-        {
-          id: "1CFFB528DBD69BA6",
-          type: "item",
-          item: {
-            id: "tconstruct:sky_staff",
-            count: 1,
-          },
-        },
+      "x": 16.1,
+      "y": 12.6,
+      "shape": "diamond",
+      "dependencies": [
+        "7CB0CF18DA267CF4"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "7CB0CF18DA267CF4": [
+          16.1,
+          10.8,
+          16.1,
+          12.6
+        ]
+      },
+      "size": 1,
+      "optional": true,
+      "id": "7E43D015863594FB",
+      "tasks": [
         {
-          id: "7F93E1E276B541A5",
-          type: "xp",
-          xp: 100,
-        },
+          "id": "6B4A72AAFE0273A1",
+          "type": "item",
+          "item": {
+            "id": "tconstruct:scorched_alloyer",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "4FA2800324CE45FA",
+          "type": "xp",
+          "xp": 100
+        }
+      ]
     },
     {
-      x: 18.8,
-      y: 19.4,
-      optional: true,
-      dependencies: ["4FC3B0F3784C24EA"],
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"4FC3B0F3784C24EA":[15.2,17.6,18.8,19.4]},
-      id: "0905454AA1B5D214",
-      tasks: [
-        {
-          id: "01BD1C94F9C9FF17",
-          type: "item",
-          item: {
-            id: "tconstruct:sky_slime_crystal",
-            count: 1,
-          },
-          count: 4,
-        },
+      "icon": {
+        "id": "tconstruct:nether_grout",
+        "count": 1
+      },
+      "x": 17,
+      "y": 9,
+      "shape": "circle",
+      "dependencies": [
+        "1E59D7D2D51476B9"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "1E59D7D2D51476B9": [
+          17,
+          7.2,
+          17,
+          9
+        ]
+      },
+      "size": 1,
+      "id": "0DBE2018B2772C71",
+      "tasks": [
         {
-          id: "29580573C0FDDECD",
-          type: "xp",
-          xp: 50,
-        },
+          "id": "020EE766448E359C",
+          "type": "dimension",
+          "dimension": "minecraft:the_nether"
+        }
       ],
+      "rewards": [
+        {
+          "id": "046DEEB2EA7EB4FD",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
     },
     {
-      x: 18.8,
-      y: 21.2,
-      dependencies: ["4FC3B0F3784C24EA","1E59D7D2D51476B9"],
-      hide_dependency_lines: true,
-      shape: "hexagon",
-      size: 1,
-      dep_control_pts: {"4FC3B0F3784C24EA":[15.2,17.6,18.8,21.2],"1E59D7D2D51476B9":[17,7.2,18.8,21.2]},
-      id: "4F90010E4665AC6E",
-      tasks: [
-        {
-          id: "20238F2AB1D769D9",
-          type: "item",
-          item: {
-            id: "tconstruct:slimesteel_ingot",
-            count: 1,
-          },
-          count: 4,
-        },
+      "x": 0,
+      "y": 18.5,
+      "shape": "gear",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "2A2EB1BD71730A85",
+        "1E59D7D2D51476B9"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "1E59D7D2D51476B9": [
+          17,
+          7.2,
+          0,
+          18.5
+        ],
+        "2A2EB1BD71730A85": [
+          7.2,
+          1.8,
+          0,
+          18.5
+        ]
+      },
+      "size": 1.3,
+      "id": "7F2B9DACFB045F12",
+      "tasks": [
         {
-          id: "11AC0DC650376E69",
-          type: "xp",
-          xp: 100,
+          "id": "33070C5533D6074D",
+          "type": "item",
+          "item": {
+            "id": "tconstruct:pickaxe",
+            "count": 1
+          }
         },
+        {
+          "id": "5CECE336EA3FE678",
+          "type": "item",
+          "item": {
+            "id": "tconstruct:hand_axe",
+            "count": 1
+          }
+        },
+        {
+          "id": "251868D34F5ADC23",
+          "type": "item",
+          "item": {
+            "id": "tconstruct:mattock",
+            "count": 1
+          }
+        },
+        {
+          "id": "798077C2BA0EA8AA",
+          "type": "item",
+          "item": {
+            "id": "tconstruct:sword",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "636AB0347E9E3796",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "6C875826F4E83A17",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 253752461985528
+        }
+      ]
     },
     {
-      x: 15.2,
-      y: 19.4,
-      dependencies: ["1E59D7D2D51476B9"],
-      hide_dependency_lines: true,
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"1E59D7D2D51476B9":[17,7.2,15.2,19.4]},
-      id: "61B8475FD4F52D5F",
-      tasks: [
-        {
-          id: "6240B5630C33D376",
-          type: "item",
-          item: {
-            id: "tconstruct:rose_gold_ingot",
-            count: 1,
-          },
-          count: 4,
-        },
+      "x": 1.8,
+      "y": 15.8,
+      "shape": "circle",
+      "dependencies": [
+        "7F2B9DACFB045F12"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "7F2B9DACFB045F12": [
+          0,
+          18.5,
+          1.8,
+          15.8
+        ]
+      },
+      "size": 1,
+      "id": "7AD7DEDE561056D1",
+      "tasks": [
         {
-          id: "11A8511CA91785C4",
-          type: "xp",
-          xp: 75,
+          "id": "689179952EBE6623",
+          "type": "item",
+          "item": {
+            "id": "tconstruct:sledge_hammer",
+            "count": 1
+          }
         },
+        {
+          "id": "2D385A9BE24EA983",
+          "type": "item",
+          "item": {
+            "id": "tconstruct:vein_hammer",
+            "count": 1
+          }
+        },
+        {
+          "id": "50920F6478683354",
+          "type": "item",
+          "item": {
+            "id": "tconstruct:excavator",
+            "count": 1
+          }
+        },
+        {
+          "id": "4D1F4CB2832FC535",
+          "type": "item",
+          "item": {
+            "id": "tconstruct:broad_axe",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "16F60DD88DD9635E",
+          "type": "xp",
+          "xp": 200
+        },
+        {
+          "id": "7924F591F7AFF345",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2210856162803377
+        }
+      ]
     },
     {
-      x: 15.2,
-      y: 21.2,
-      dependencies: ["1E59D7D2D51476B9"],
-      hide_dependency_lines: true,
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"1E59D7D2D51476B9":[17,7.2,15.2,21.2]},
-      id: "488AA0AC0FDEC824",
-      tasks: [
-        {
-          id: "40FF62B084231501",
-          type: "item",
-          item: {
-            id: "tconstruct:amethyst_bronze_ingot",
-            count: 1,
-          },
-          count: 4,
-        },
+      "x": 1.8,
+      "y": 17.6,
+      "shape": "circle",
+      "dependencies": [
+        "7F2B9DACFB045F12"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "7F2B9DACFB045F12": [
+          0,
+          18.5,
+          1.8,
+          17.6
+        ]
+      },
+      "size": 1,
+      "id": "61DF41BB084F1CC2",
+      "tasks": [
         {
-          id: "77EC98F7A8333B68",
-          type: "xp",
-          xp: 75,
+          "id": "325053A39332360A",
+          "type": "item",
+          "item": {
+            "id": "tconstruct:cleaver",
+            "count": 1
+          }
         },
+        {
+          "id": "0E885B94A3A02B60",
+          "type": "item",
+          "item": {
+            "id": "tconstruct:dagger",
+            "count": 1
+          }
+        },
+        {
+          "id": "6162554B4EF57A2D",
+          "type": "item",
+          "item": {
+            "id": "tconstruct:scythe",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "0B07F465E8CCF579",
+          "type": "xp",
+          "xp": 150
+        }
+      ]
     },
     {
-      x: 17,
-      y: 17.6,
-      optional: true,
-      dependencies: ["1E59D7D2D51476B9"],
-      hide_dependency_lines: true,
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"1E59D7D2D51476B9":[17,7.2,17,17.6]},
-      id: "75660C97E9A05337",
-      tasks: [
-        {
-          id: "249C2AC1B7735D03",
-          type: "item",
-          item: {
-            id: "tconstruct:pig_iron_ingot",
-            count: 1,
-          },
-          count: 4,
-        },
+      "x": 1.8,
+      "y": 19.4,
+      "shape": "circle",
+      "dependencies": [
+        "7F2B9DACFB045F12"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "7F2B9DACFB045F12": [
+          0,
+          18.5,
+          1.8,
+          19.4
+        ]
+      },
+      "size": 1,
+      "id": "2B26CEAF2126CC4F",
+      "tasks": [
         {
-          id: "6C5A61E65B808DCA",
-          type: "xp",
-          xp: 75,
+          "id": "7AA6CAF28FA6DF15",
+          "type": "item",
+          "item": {
+            "id": "tconstruct:longbow",
+            "count": 1
+          }
         },
+        {
+          "id": "05A3C57A6677ED3B",
+          "type": "item",
+          "item": {
+            "id": "tconstruct:crossbow",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "442FC02D88F4946C",
+          "type": "xp",
+          "xp": 150
+        }
+      ]
     },
     {
-      x: 15.2,
-      y: 15.8,
-      dependencies: ["0DBE2018B2772C71"],
-      hide_dependency_lines: true,
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"0DBE2018B2772C71":[17,9,15.2,15.8]},
-      id: "7E8AE69DF83E0AED",
-      tasks: [
-        {
-          id: "2292648DC6FB26B0",
-          type: "item",
-          item: {
-            id: "tconstruct:raw_cobalt",
-            count: 1,
-          },
-          count: 4,
-        },
-        {
-          id: "3DEA382AA3180BC1",
-          type: "item",
-          item: {
-            id: "tconstruct:cobalt_ingot",
-            count: 1,
-          },
-          count: 8,
-        },
+      "x": 1.8,
+      "y": 21.2,
+      "shape": "circle",
+      "dependencies": [
+        "7F2B9DACFB045F12"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "7F2B9DACFB045F12": [
+          0,
+          18.5,
+          1.8,
+          21.2
+        ]
+      },
+      "size": 1,
+      "id": "6B3E005B0C35F78E",
+      "tasks": [
         {
-          id: "1E08B6C3C40D246D",
-          type: "xp",
-          xp: 200,
+          "id": "598C6B7367E69FDC",
+          "type": "item",
+          "item": {
+            "id": "tconstruct:plate_helmet",
+            "count": 1
+          }
         },
         {
-          id: "44FF6677F8C47272",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 253752461985528,
+          "id": "2DF35383EAFE95B8",
+          "type": "item",
+          "item": {
+            "id": "tconstruct:plate_chestplate",
+            "count": 1
+          }
         },
+        {
+          "id": "39A348B5AA973C97",
+          "type": "item",
+          "item": {
+            "id": "tconstruct:plate_leggings",
+            "count": 1
+          }
+        },
+        {
+          "id": "608865E93F855A72",
+          "type": "item",
+          "item": {
+            "id": "tconstruct:plate_boots",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "2855143795503ED3",
+          "type": "xp",
+          "xp": 200
+        },
+        {
+          "id": "6C733D69A400D806",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2210856162803377
+        }
+      ]
     },
     {
-      x: 20.6,
-      y: 16.7,
-      dependencies: ["7E8AE69DF83E0AED"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"7E8AE69DF83E0AED":[15.2,15.8,20.6,16.7]},
-      id: "6325B504265227B7",
-      tasks: [
-        {
-          id: "38907006064EEEA9",
-          type: "item",
-          item: {
-            id: "tconstruct:manyullyn_ingot",
-            count: 1,
-          },
-          count: 4,
-        },
+      "x": 3.6,
+      "y": 16.7,
+      "shape": "diamond",
+      "dependencies": [
+        "7F2B9DACFB045F12"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "7F2B9DACFB045F12": [
+          0,
+          18.5,
+          3.6,
+          16.7
+        ]
+      },
+      "size": 1,
+      "optional": true,
+      "id": "35613EB71F2B8A8B",
+      "tasks": [
         {
-          id: "7F29A84B4DEA1333",
-          type: "xp",
-          xp: 300,
+          "id": "34179E50556BB2F1",
+          "type": "item",
+          "item": {
+            "id": "tconstruct:travelers_helmet",
+            "count": 1
+          }
         },
         {
-          id: "2ECC181BAE267496",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 2210856162803377,
+          "id": "0DF7F3282C398BEF",
+          "type": "item",
+          "item": {
+            "id": "tconstruct:travelers_chestplate",
+            "count": 1
+          }
         },
+        {
+          "id": "6CB162AF63199E12",
+          "type": "item",
+          "item": {
+            "id": "tconstruct:travelers_leggings",
+            "count": 1
+          }
+        },
+        {
+          "id": "2903F34E4D7B552E",
+          "type": "item",
+          "item": {
+            "id": "tconstruct:travelers_boots",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "226E4161A59E82CA",
+          "type": "xp",
+          "xp": 150
+        }
+      ]
     },
     {
-      x: 20.6,
-      y: 18.5,
-      dependencies: ["7E8AE69DF83E0AED"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"7E8AE69DF83E0AED":[15.2,15.8,20.6,18.5]},
-      id: "67EF4D51C952FE78",
-      tasks: [
-        {
-          id: "6ECA92EE697B361A",
-          type: "item",
-          item: {
-            id: "tconstruct:hepatizon_ingot",
-            count: 1,
-          },
-          count: 4,
-        },
+      "x": 3.6,
+      "y": 18.5,
+      "shape": "circle",
+      "dependencies": [
+        "7F2B9DACFB045F12"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "7F2B9DACFB045F12": [
+          0,
+          18.5,
+          3.6,
+          18.5
+        ]
+      },
+      "size": 1,
+      "id": "709A2203ABF32C66",
+      "tasks": [
         {
-          id: "441F24CF3A09929A",
-          type: "xp",
-          xp: 250,
-        },
-        {
-          id: "6188FD280D101B45",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 2210856162803377,
-        },
+          "id": "302B1D28251C6BF5",
+          "type": "item",
+          "item": {
+            "id": "tconstruct:modifier_worktable",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "628CDFD19025FB1B",
+          "type": "xp",
+          "xp": 100
+        }
+      ]
     },
     {
-      x: 20.6,
-      y: 20.3,
-      dependencies: ["7E8AE69DF83E0AED","4FC3B0F3784C24EA"],
-      shape: "hexagon",
-      size: 1,
-      dep_control_pts: {"7E8AE69DF83E0AED":[15.2,15.8,20.6,20.3],"4FC3B0F3784C24EA":[15.2,17.6,20.6,20.3]},
-      id: "5F5B1932A4DFD220",
-      tasks: [
-        {
-          id: "7AC3675C48D3F60B",
-          type: "item",
-          item: {
-            id: "tconstruct:queens_slime_ingot",
-            count: 1,
-          },
-          count: 4,
-        },
+      "x": 5.4,
+      "y": 17.6,
+      "shape": "circle",
+      "dependencies": [
+        "709A2203ABF32C66"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "709A2203ABF32C66": [
+          3.6,
+          18.5,
+          5.4,
+          17.6
+        ]
+      },
+      "size": 1,
+      "id": "17F980724602C603",
+      "tasks": [
         {
-          id: "09BBB3D4B3DBBC08",
-          type: "xp",
-          xp: 250,
+          "id": "01870CAA605DF5F2",
+          "type": "item",
+          "item": {
+            "id": "tconstruct:iron_reinforcement",
+            "count": 1
+          }
         },
         {
-          id: "70A55C7A0C236EFE",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 2210856162803377,
-        },
+          "id": "4101D57E0E3C0859",
+          "type": "item",
+          "item": {
+            "id": "tconstruct:obsidian_reinforcement",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "73FB4A34173722A9",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
     },
     {
-      x: 22.4,
-      y: 17.6,
-      optional: true,
-      dependencies: ["4F90010E4665AC6E"],
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"4F90010E4665AC6E":[18.8,21.2,22.4,17.6]},
-      id: "02094C2282922098",
-      tasks: [
-        {
-          id: "2BF0D72579E658DE",
-          type: "item",
-          item: {
-            id: "tconstruct:knightslime_ingot",
-            count: 1,
-          },
-          count: 4,
-        },
+      "x": 3.6,
+      "y": 20.3,
+      "shape": "circle",
+      "dependencies": [
+        "7F2B9DACFB045F12"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "7F2B9DACFB045F12": [
+          0,
+          18.5,
+          3.6,
+          20.3
+        ]
+      },
+      "size": 1,
+      "id": "1EBD8DF876FCD3FF",
+      "tasks": [
         {
-          id: "7C5442DB1701F660",
-          type: "xp",
-          xp: 150,
-        },
+          "id": "58FC53827B408C35",
+          "type": "item",
+          "item": {
+            "id": "tconstruct:repair_kit",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "0F9C3CE8CCF81CE7",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
     },
     {
-      x: 17,
-      y: 19.4,
-      optional: true,
-      dependencies: ["7CB0CF18DA267CF4"],
-      hide_dependency_lines: true,
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"7CB0CF18DA267CF4":[16.1,10.8,17,19.4]},
-      id: "026D679C5F4E006A",
-      tasks: [
-        {
-          id: "56795EFC49B24765",
-          type: "item",
-          item: {
-            id: "tconstruct:soulsteel_ingot",
-            count: 1,
-          },
-          count: 4,
-        },
+      "x": 5.4,
+      "y": 19.4,
+      "shape": "hexagon",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "709A2203ABF32C66",
+        "7E8AE69DF83E0AED"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "7E8AE69DF83E0AED": [
+          15.2,
+          15.8,
+          5.4,
+          19.4
+        ],
+        "709A2203ABF32C66": [
+          3.6,
+          18.5,
+          5.4,
+          19.4
+        ]
+      },
+      "size": 1,
+      "id": "1493C91E0D023665",
+      "tasks": [
         {
-          id: "14FAF5F89246C3C3",
-          type: "xp",
-          xp: 200,
-        },
+          "id": "7C07779680DC1AFC",
+          "type": "item",
+          "item": {
+            "id": "tconstruct:tinkers_anvil",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "5DBDAC8B656C7F21",
+          "type": "xp",
+          "xp": 150
+        }
+      ]
     },
     {
-      x: 22.4,
-      y: 19.4,
-      dependencies: ["6325B504265227B7","7AD7DEDE561056D1","1493C91E0D023665"],
-      hide_dependency_lines: true,
-      shape: "gear",
-      size: 1.3,
-      dep_control_pts: {"6325B504265227B7":[20.6,16.7,22.4,19.4],"7AD7DEDE561056D1":[1.8,15.8,22.4,19.4],"1493C91E0D023665":[5.4,19.4,22.4,19.4]},
-      id: "0424A7B23649ED6E",
-      tasks: [
-        {
-          id: "72D567EA76D91D6C",
-          type: "item",
-          item: {
-            id: "tconstruct:vein_hammer",
-            count: 1,
-          },
-        },
+      "x": 7.2,
+      "y": 18.5,
+      "shape": "diamond",
+      "dependencies": [
+        "1493C91E0D023665"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "1493C91E0D023665": [
+          5.4,
+          19.4,
+          7.2,
+          18.5
+        ]
+      },
+      "size": 1,
+      "optional": true,
+      "id": "4100A5B28A698C09",
+      "tasks": [
         {
-          id: "74BB9A12C4DDA633",
-          type: "xp_levels",
-          xp_levels: 20,
-        },
-        {
-          id: "42A2675671967685",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 379532711335085,
-        },
+          "id": "4F0053E82BC8D662",
+          "type": "item",
+          "item": {
+            "id": "tconstruct:modifier_crystal",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "07E353422F4BB8F6",
+          "type": "xp",
+          "xp": 200
+        },
+        {
+          "id": "04D17F1E6CE458CA",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2210856162803377
+        }
+      ]
     },
+    {
+      "x": 15.2,
+      "y": 17.6,
+      "shape": "gear",
+      "size": 1.3,
+      "id": "4FC3B0F3784C24EA",
+      "tasks": [
+        {
+          "id": "3666F1583365FFA4",
+          "type": "item",
+          "item": {
+            "id": "tconstruct:sky_slime_ball",
+            "count": 1
+          },
+          "count": 8
+        },
+        {
+          "id": "4E86D45669932B5A",
+          "type": "item",
+          "item": {
+            "id": "tconstruct:ender_slime_ball",
+            "count": 1
+          },
+          "count": 4
+        }
+      ],
+      "rewards": [
+        {
+          "id": "67572D99658F3592",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "0CF8CB01E29EE034",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 4224964620844649
+        }
+      ]
+    },
+    {
+      "x": 18.8,
+      "y": 15.8,
+      "shape": "circle",
+      "dependencies": [
+        "4FC3B0F3784C24EA"
+      ],
+      "dep_control_pts": {
+        "4FC3B0F3784C24EA": [
+          15.2,
+          17.6,
+          18.8,
+          15.8
+        ]
+      },
+      "size": 1,
+      "id": "06FC8C9E607DF3B5",
+      "tasks": [
+        {
+          "id": "7E06D0A49FED3A81",
+          "type": "item",
+          "item": {
+            "id": "tconstruct:slime_boots",
+            "count": 1
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "id": "31F2AEA1D876E0AA",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
+    },
+    {
+      "x": 18.8,
+      "y": 17.6,
+      "shape": "diamond",
+      "dependencies": [
+        "4FC3B0F3784C24EA"
+      ],
+      "dep_control_pts": {
+        "4FC3B0F3784C24EA": [
+          15.2,
+          17.6,
+          18.8,
+          17.6
+        ]
+      },
+      "size": 1,
+      "optional": true,
+      "id": "3161C829EE35DE67",
+      "tasks": [
+        {
+          "id": "1CFFB528DBD69BA6",
+          "type": "item",
+          "item": {
+            "id": "tconstruct:sky_staff",
+            "count": 1
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7F93E1E276B541A5",
+          "type": "xp",
+          "xp": 100
+        }
+      ]
+    },
+    {
+      "x": 18.8,
+      "y": 19.4,
+      "shape": "diamond",
+      "dependencies": [
+        "4FC3B0F3784C24EA"
+      ],
+      "dep_control_pts": {
+        "4FC3B0F3784C24EA": [
+          15.2,
+          17.6,
+          18.8,
+          19.4
+        ]
+      },
+      "size": 1,
+      "optional": true,
+      "id": "0905454AA1B5D214",
+      "tasks": [
+        {
+          "id": "01BD1C94F9C9FF17",
+          "type": "item",
+          "item": {
+            "id": "tconstruct:sky_slime_crystal",
+            "count": 1
+          },
+          "count": 4
+        }
+      ],
+      "rewards": [
+        {
+          "id": "29580573C0FDDECD",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "x": 18.8,
+      "y": 21.2,
+      "shape": "hexagon",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "4FC3B0F3784C24EA",
+        "1E59D7D2D51476B9"
+      ],
+      "dep_control_pts": {
+        "1E59D7D2D51476B9": [
+          17,
+          7.2,
+          18.8,
+          21.2
+        ],
+        "4FC3B0F3784C24EA": [
+          15.2,
+          17.6,
+          18.8,
+          21.2
+        ]
+      },
+      "size": 1,
+      "id": "4F90010E4665AC6E",
+      "tasks": [
+        {
+          "id": "20238F2AB1D769D9",
+          "type": "item",
+          "item": {
+            "id": "tconstruct:slimesteel_ingot",
+            "count": 1
+          },
+          "count": 4
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11AC0DC650376E69",
+          "type": "xp",
+          "xp": 100
+        }
+      ]
+    },
+    {
+      "x": 15.2,
+      "y": 19.4,
+      "shape": "circle",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "1E59D7D2D51476B9"
+      ],
+      "dep_control_pts": {
+        "1E59D7D2D51476B9": [
+          17,
+          7.2,
+          15.2,
+          19.4
+        ]
+      },
+      "size": 1,
+      "id": "61B8475FD4F52D5F",
+      "tasks": [
+        {
+          "id": "6240B5630C33D376",
+          "type": "item",
+          "item": {
+            "id": "tconstruct:rose_gold_ingot",
+            "count": 1
+          },
+          "count": 4
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11A8511CA91785C4",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
+    },
+    {
+      "x": 15.2,
+      "y": 21.2,
+      "shape": "circle",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "1E59D7D2D51476B9"
+      ],
+      "dep_control_pts": {
+        "1E59D7D2D51476B9": [
+          17,
+          7.2,
+          15.2,
+          21.2
+        ]
+      },
+      "size": 1,
+      "id": "488AA0AC0FDEC824",
+      "tasks": [
+        {
+          "id": "40FF62B084231501",
+          "type": "item",
+          "item": {
+            "id": "tconstruct:amethyst_bronze_ingot",
+            "count": 1
+          },
+          "count": 4
+        }
+      ],
+      "rewards": [
+        {
+          "id": "77EC98F7A8333B68",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
+    },
+    {
+      "x": 17,
+      "y": 17.6,
+      "shape": "diamond",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "1E59D7D2D51476B9"
+      ],
+      "dep_control_pts": {
+        "1E59D7D2D51476B9": [
+          17,
+          7.2,
+          17,
+          17.6
+        ]
+      },
+      "size": 1,
+      "optional": true,
+      "id": "75660C97E9A05337",
+      "tasks": [
+        {
+          "id": "249C2AC1B7735D03",
+          "type": "item",
+          "item": {
+            "id": "tconstruct:pig_iron_ingot",
+            "count": 1
+          },
+          "count": 4
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6C5A61E65B808DCA",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
+    },
+    {
+      "x": 15.2,
+      "y": 15.8,
+      "shape": "circle",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "0DBE2018B2772C71"
+      ],
+      "dep_control_pts": {
+        "0DBE2018B2772C71": [
+          17,
+          9,
+          15.2,
+          15.8
+        ]
+      },
+      "size": 1,
+      "id": "7E8AE69DF83E0AED",
+      "tasks": [
+        {
+          "id": "2292648DC6FB26B0",
+          "type": "item",
+          "item": {
+            "id": "tconstruct:raw_cobalt",
+            "count": 1
+          },
+          "count": 4
+        },
+        {
+          "id": "3DEA382AA3180BC1",
+          "type": "item",
+          "item": {
+            "id": "tconstruct:cobalt_ingot",
+            "count": 1
+          },
+          "count": 8
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E08B6C3C40D246D",
+          "type": "xp",
+          "xp": 200
+        },
+        {
+          "id": "44FF6677F8C47272",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 253752461985528
+        }
+      ]
+    },
+    {
+      "x": 20.6,
+      "y": 16.7,
+      "shape": "circle",
+      "dependencies": [
+        "7E8AE69DF83E0AED"
+      ],
+      "dep_control_pts": {
+        "7E8AE69DF83E0AED": [
+          15.2,
+          15.8,
+          20.6,
+          16.7
+        ]
+      },
+      "size": 1,
+      "id": "6325B504265227B7",
+      "tasks": [
+        {
+          "id": "38907006064EEEA9",
+          "type": "item",
+          "item": {
+            "id": "tconstruct:manyullyn_ingot",
+            "count": 1
+          },
+          "count": 4
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7F29A84B4DEA1333",
+          "type": "xp",
+          "xp": 300
+        },
+        {
+          "id": "2ECC181BAE267496",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2210856162803377
+        }
+      ]
+    },
+    {
+      "x": 20.6,
+      "y": 18.5,
+      "shape": "circle",
+      "dependencies": [
+        "7E8AE69DF83E0AED"
+      ],
+      "dep_control_pts": {
+        "7E8AE69DF83E0AED": [
+          15.2,
+          15.8,
+          20.6,
+          18.5
+        ]
+      },
+      "size": 1,
+      "id": "67EF4D51C952FE78",
+      "tasks": [
+        {
+          "id": "6ECA92EE697B361A",
+          "type": "item",
+          "item": {
+            "id": "tconstruct:hepatizon_ingot",
+            "count": 1
+          },
+          "count": 4
+        }
+      ],
+      "rewards": [
+        {
+          "id": "441F24CF3A09929A",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "6188FD280D101B45",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2210856162803377
+        }
+      ]
+    },
+    {
+      "x": 20.6,
+      "y": 20.3,
+      "shape": "hexagon",
+      "dependencies": [
+        "7E8AE69DF83E0AED",
+        "4FC3B0F3784C24EA"
+      ],
+      "dep_control_pts": {
+        "7E8AE69DF83E0AED": [
+          15.2,
+          15.8,
+          20.6,
+          20.3
+        ],
+        "4FC3B0F3784C24EA": [
+          15.2,
+          17.6,
+          20.6,
+          20.3
+        ]
+      },
+      "size": 1,
+      "id": "5F5B1932A4DFD220",
+      "tasks": [
+        {
+          "id": "7AC3675C48D3F60B",
+          "type": "item",
+          "item": {
+            "id": "tconstruct:queens_slime_ingot",
+            "count": 1
+          },
+          "count": 4
+        }
+      ],
+      "rewards": [
+        {
+          "id": "09BBB3D4B3DBBC08",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "70A55C7A0C236EFE",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2210856162803377
+        }
+      ]
+    },
+    {
+      "x": 22.4,
+      "y": 17.6,
+      "shape": "diamond",
+      "dependencies": [
+        "4F90010E4665AC6E"
+      ],
+      "dep_control_pts": {
+        "4F90010E4665AC6E": [
+          18.8,
+          21.2,
+          22.4,
+          17.6
+        ]
+      },
+      "size": 1,
+      "optional": true,
+      "id": "02094C2282922098",
+      "tasks": [
+        {
+          "id": "2BF0D72579E658DE",
+          "type": "item",
+          "item": {
+            "id": "tconstruct:knightslime_ingot",
+            "count": 1
+          },
+          "count": 4
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7C5442DB1701F660",
+          "type": "xp",
+          "xp": 150
+        }
+      ]
+    },
+    {
+      "x": 17,
+      "y": 19.4,
+      "shape": "diamond",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "7CB0CF18DA267CF4"
+      ],
+      "dep_control_pts": {
+        "7CB0CF18DA267CF4": [
+          16.1,
+          10.8,
+          17,
+          19.4
+        ]
+      },
+      "size": 1,
+      "optional": true,
+      "id": "026D679C5F4E006A",
+      "tasks": [
+        {
+          "id": "56795EFC49B24765",
+          "type": "item",
+          "item": {
+            "id": "tconstruct:soulsteel_ingot",
+            "count": 1
+          },
+          "count": 4
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14FAF5F89246C3C3",
+          "type": "xp",
+          "xp": 200
+        }
+      ]
+    },
+    {
+      "x": 22.4,
+      "y": 19.4,
+      "shape": "gear",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "6325B504265227B7",
+        "7AD7DEDE561056D1",
+        "1493C91E0D023665"
+      ],
+      "dep_control_pts": {
+        "1493C91E0D023665": [
+          5.4,
+          19.4,
+          22.4,
+          19.4
+        ],
+        "6325B504265227B7": [
+          20.6,
+          16.7,
+          22.4,
+          19.4
+        ],
+        "7AD7DEDE561056D1": [
+          1.8,
+          15.8,
+          22.4,
+          19.4
+        ]
+      },
+      "size": 1.3,
+      "id": "0424A7B23649ED6E",
+      "tasks": [
+        {
+          "id": "72D567EA76D91D6C",
+          "type": "item",
+          "item": {
+            "id": "tconstruct:vein_hammer",
+            "count": 1
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "id": "74BB9A12C4DDA633",
+          "type": "xp_levels",
+          "xp_levels": 20
+        },
+        {
+          "id": "42A2675671967685",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 379532711335085
+        }
+      ]
+    }
   ],
-  quest_links: [
-  ],
-  images: [
-  {
-    "x": 11.2,
-    "y": -1.7188,
-    "width": 12,
-    "height": 1.4375,
-    "rotation": 0,
-    "image": "gspack:textures/quests/tinkers_header.png",
-    "color": 16777215,
-    "alpha": 255,
-    "order": 0,
-    "corner": false
-  },
-  {
-    "x": -2.7,
-    "y": 1.8,
-    "width": 3.6,
-    "height": 0.6,
-    "rotation": 0,
-    "image": "gspack:textures/quests/tinkers_book.png",
-    "color": 16777215,
-    "alpha": 255,
-    "order": 0,
-    "corner": false
-  },
-  {
-    "x": 12.6235,
-    "y": 17.6,
-    "width": 3.3529,
-    "height": 0.6,
-    "rotation": 0,
-    "image": "gspack:textures/quests/tinkers_slime.png",
-    "color": 16777215,
-    "alpha": 255,
-    "order": 0,
-    "corner": false
-  },
-  {
-    "x": 12.7118,
-    "y": 0,
-    "width": 3.1765,
-    "height": 0.6,
-    "rotation": 0,
-    "image": "gspack:textures/quests/tinkers_grout.png",
-    "color": 16777215,
-    "alpha": 255,
-    "order": 0,
-    "corner": false
-  },
-  {
-    "x": -2.5765,
-    "y": 18.5,
-    "width": 3.3529,
-    "height": 0.6,
-    "rotation": 0,
-    "image": "gspack:textures/quests/tinkers_tools_set.png",
-    "color": 16777215,
-    "alpha": 255,
-    "order": 0,
-    "corner": false
-  }
-],
+  "quest_links": [],
+  "images": [
+    {
+      "x": 11.2,
+      "y": -1.7188,
+      "width": 12,
+      "height": 1.4375,
+      "rotation": 0,
+      "image": "gspack:textures/quests/tinkers_header.png",
+      "id": "66ADE7EAEA7779B5"
+    },
+    {
+      "x": -2.7,
+      "y": 1.8,
+      "width": 3.6,
+      "height": 0.6,
+      "rotation": 0,
+      "image": "gspack:textures/quests/tinkers_book.png",
+      "id": "1B1669A25E88C06E"
+    },
+    {
+      "x": 12.6235,
+      "y": 17.6,
+      "width": 3.3529,
+      "height": 0.6,
+      "rotation": 0,
+      "image": "gspack:textures/quests/tinkers_slime.png",
+      "id": "79286FF242E3BBA6"
+    },
+    {
+      "x": 12.7118,
+      "y": 0,
+      "width": 3.1765,
+      "height": 0.6,
+      "rotation": 0,
+      "image": "gspack:textures/quests/tinkers_grout.png",
+      "id": "03FAC43520822430"
+    },
+    {
+      "x": -2.5765,
+      "y": 18.5,
+      "width": 3.3529,
+      "height": 0.6,
+      "rotation": 0,
+      "image": "gspack:textures/quests/tinkers_tools_set.png",
+      "id": "4DB4307C67D76311"
+    }
+  ]
 }

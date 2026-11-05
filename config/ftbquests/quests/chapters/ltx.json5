@@ -1,1833 +1,2327 @@
 {
-  id: "77C54AC639C2D7B1",
-  group: "105EE503AFE85CA5",
-  order_index: 6,
-  icon: {
-    id: "ltxi:fabricator",
-    count: 1,
+  "id": "77C54AC639C2D7B1",
+  "group": "105EE503AFE85CA5",
+  "order_index": 9,
+  "icon": {
+    "id": "ltxi:fabricator",
+    "count": 1
   },
-  filename: "ltx",
-  default_quest_shape: "",
-  default_hide_dependency_lines: false,
-  quests: [
+  "filename": "ltx",
+  "default_quest_shape": "",
+  "default_hide_dependency_lines": false,
+  "quests": [
     {
-      x: 0,
-      y: 1.8,
-      shape: "gear",
-      size: 1.3,
-      id: "233C7A581A000D2C",
-      tasks: [
+      "x": 0,
+      "y": 1.8,
+      "shape": "gear",
+      "size": 1.3,
+      "id": "233C7A581A000D2C",
+      "tasks": [
         {
-          id: "06996EFFB6A5E364",
-          type: "item",
-          item: {
-            id: "ltxi:guide_tablet",
-            count: 1,
-          },
-        },
+          "id": "06996EFFB6A5E364",
+          "type": "item",
+          "item": {
+            "id": "ltxi:guide_tablet",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "5EB5D907314B5CF3",
-          type: "xp",
-          xp: 50,
+          "id": "5EB5D907314B5CF3",
+          "type": "xp",
+          "xp": 50
         },
         {
-          id: "11D43C05F5F7332F",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 4224964620844649,
-        },
-      ],
+          "id": "11D43C05F5F7332F",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 4224964620844649
+        }
+      ]
     },
     {
-      x: 1.8,
-      y: 1.8,
-      dependencies: ["233C7A581A000D2C"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"233C7A581A000D2C":[0,1.8,1.8,1.8]},
-      id: "2E77A4DE528C6DE4",
-      tasks: [
-        {
-          id: "32737F148493C5B7",
-          type: "gamestage",
-          icon: {
-            id: "ltxi:titanium_ingot",
-            count: 1,
-          },
-          stage: "gspack_tag_c_ingots_titanium_8",
-        },
-        {
-          id: "420E846EA4F29210",
-          type: "item",
-          item: {
-            id: "ltxi:niobium_ingot",
-            count: 1,
-          },
-          count: 4,
-        },
-        {
-          id: "5385EB5E9283FAE4",
-          type: "gamestage",
-          icon: {
-            id: "ltxi:silver_ingot",
-            count: 1,
-          },
-          stage: "gspack_tag_c_ingots_silver_4",
-        },
+      "x": 1.8,
+      "y": 1.8,
+      "shape": "circle",
+      "dependencies": [
+        "233C7A581A000D2C"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "233C7A581A000D2C": [
+          0,
+          1.8,
+          1.8,
+          1.8
+        ]
+      },
+      "size": 1,
+      "id": "2E77A4DE528C6DE4",
+      "tasks": [
         {
-          id: "546B4F25028A42BE",
-          type: "xp",
-          xp: 75,
+          "id": "32737F148493C5B7",
+          "type": "gamestage",
+          "icon": {
+            "id": "ltxi:titanium_ingot",
+            "count": 1
+          },
+          "stage": "gspack_tag_c_ingots_titanium_8"
         },
+        {
+          "id": "420E846EA4F29210",
+          "type": "item",
+          "item": {
+            "id": "ltxi:niobium_ingot",
+            "count": 1
+          },
+          "count": 4
+        },
+        {
+          "id": "5385EB5E9283FAE4",
+          "type": "gamestage",
+          "icon": {
+            "id": "ltxi:silver_ingot",
+            "count": 1
+          },
+          "stage": "gspack_tag_c_ingots_silver_4"
+        }
       ],
+      "rewards": [
+        {
+          "id": "546B4F25028A42BE",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
     },
     {
-      x: 3.6,
-      y: 1.8,
-      dependencies: ["2E77A4DE528C6DE4"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"2E77A4DE528C6DE4":[1.8,1.8,3.6,1.8]},
-      id: "26CC457758DA9ECA",
-      tasks: [
+      "x": 3.6,
+      "y": 1.8,
+      "shape": "circle",
+      "dependencies": [
+        "2E77A4DE528C6DE4"
+      ],
+      "dep_control_pts": {
+        "2E77A4DE528C6DE4": [
+          1.8,
+          1.8,
+          3.6,
+          1.8
+        ]
+      },
+      "size": 1,
+      "id": "26CC457758DA9ECA",
+      "tasks": [
         {
-          id: "6BA8258C1B195476",
-          type: "item",
-          item: {
-            id: "ltxi:slatesteel_ingot",
-            count: 1,
+          "id": "6BA8258C1B195476",
+          "type": "item",
+          "item": {
+            "id": "ltxi:slatesteel_ingot",
+            "count": 1
           },
-          count: 8,
-        },
+          "count": 8
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "0DF45C1D70905C6E",
-          type: "xp",
-          xp: 75,
-        },
-      ],
+          "id": "0DF45C1D70905C6E",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
     },
     {
-      x: 5.4,
-      y: 1.8,
-      dependencies: ["26CC457758DA9ECA"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"26CC457758DA9ECA":[3.6,1.8,5.4,1.8]},
-      id: "30B8BF743D17D20E",
-      tasks: [
+      "x": 5.4,
+      "y": 1.8,
+      "shape": "circle",
+      "dependencies": [
+        "26CC457758DA9ECA"
+      ],
+      "dep_control_pts": {
+        "26CC457758DA9ECA": [
+          3.6,
+          1.8,
+          5.4,
+          1.8
+        ]
+      },
+      "size": 1,
+      "id": "30B8BF743D17D20E",
+      "tasks": [
         {
-          id: "3891672AB0D67026",
-          type: "item",
-          item: {
-            id: "ltxi:machine_housing",
-            count: 1,
+          "id": "3891672AB0D67026",
+          "type": "item",
+          "item": {
+            "id": "ltxi:machine_housing",
+            "count": 1
           },
-          count: 4,
-        },
+          "count": 4
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "329CEC5CC52748FA",
-          type: "xp",
-          xp: 75,
-        },
-      ],
+          "id": "329CEC5CC52748FA",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
     },
     {
-      x: 7.2,
-      y: 0,
-      dependencies: ["30B8BF743D17D20E"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"30B8BF743D17D20E":[5.4,1.8,7.2,0]},
-      id: "1F0621F63C40F35D",
-      tasks: [
-        {
-          id: "6CA2A408F90B5101",
-          type: "item",
-          item: {
-            id: "ltxi:portable_generator",
-            count: 1,
-          },
-        },
-        {
-          id: "7B8543F4908EE120",
-          type: "item",
-          item: {
-            id: "ltxi:solar_panel",
-            count: 1,
-          },
-        },
+      "x": 7.2,
+      "y": 0,
+      "shape": "circle",
+      "dependencies": [
+        "30B8BF743D17D20E"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "30B8BF743D17D20E": [
+          5.4,
+          1.8,
+          7.2,
+          0
+        ]
+      },
+      "size": 1,
+      "id": "1F0621F63C40F35D",
+      "tasks": [
         {
-          id: "7F8E68446D4923C9",
-          type: "xp",
-          xp: 100,
+          "id": "6CA2A408F90B5101",
+          "type": "item",
+          "item": {
+            "id": "ltxi:portable_generator",
+            "count": 1
+          }
         },
+        {
+          "id": "7B8543F4908EE120",
+          "type": "item",
+          "item": {
+            "id": "ltxi:solar_panel",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "7F8E68446D4923C9",
+          "type": "xp",
+          "xp": 100
+        }
+      ]
     },
     {
-      x: 9,
-      y: 0.9,
-      dependencies: ["1F0621F63C40F35D"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"1F0621F63C40F35D":[7.2,0,9,0.9]},
-      id: "6482B5B8645307BB",
-      tasks: [
-        {
-          id: "28A3495E9D989872",
-          type: "item",
-          item: {
-            id: "ltxi:small_voltaic_cell",
-            count: 1,
-          },
-        },
-        {
-          id: "210121737604E157",
-          type: "item",
-          item: {
-            id: "ltxi:energy_cell_array",
-            count: 1,
-          },
-        },
+      "x": 9,
+      "y": 0.9,
+      "shape": "circle",
+      "dependencies": [
+        "1F0621F63C40F35D"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "1F0621F63C40F35D": [
+          7.2,
+          0,
+          9,
+          0.9
+        ]
+      },
+      "size": 1,
+      "id": "6482B5B8645307BB",
+      "tasks": [
         {
-          id: "5D195D34D4411A61",
-          type: "xp",
-          xp: 100,
+          "id": "28A3495E9D989872",
+          "type": "item",
+          "item": {
+            "id": "ltxi:small_voltaic_cell",
+            "count": 1
+          }
         },
+        {
+          "id": "210121737604E157",
+          "type": "item",
+          "item": {
+            "id": "ltxi:energy_cell_array",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "5D195D34D4411A61",
+          "type": "xp",
+          "xp": 100
+        }
+      ]
     },
     {
-      x: 10.8,
-      y: 1.8,
-      optional: true,
-      dependencies: ["6482B5B8645307BB"],
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"6482B5B8645307BB":[9,0.9,10.8,1.8]},
-      id: "0167BBB6C6D1ABB7",
-      tasks: [
-        {
-          id: "32911231DB97D941",
-          type: "item",
-          item: {
-            id: "ltxi:medium_voltaic_cell",
-            count: 1,
-          },
-        },
-        {
-          id: "590E448B47E05DD1",
-          type: "item",
-          item: {
-            id: "ltxi:large_voltaic_cell",
-            count: 1,
-          },
-        },
+      "x": 10.8,
+      "y": 1.8,
+      "shape": "diamond",
+      "dependencies": [
+        "6482B5B8645307BB"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "6482B5B8645307BB": [
+          9,
+          0.9,
+          10.8,
+          1.8
+        ]
+      },
+      "size": 1,
+      "optional": true,
+      "id": "0167BBB6C6D1ABB7",
+      "tasks": [
         {
-          id: "368F9A86A71BA1AC",
-          type: "xp",
-          xp: 100,
+          "id": "32911231DB97D941",
+          "type": "item",
+          "item": {
+            "id": "ltxi:medium_voltaic_cell",
+            "count": 1
+          }
         },
+        {
+          "id": "590E448B47E05DD1",
+          "type": "item",
+          "item": {
+            "id": "ltxi:large_voltaic_cell",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "368F9A86A71BA1AC",
+          "type": "xp",
+          "xp": 100
+        }
+      ]
     },
     {
-      x: 7.2,
-      y: 1.8,
-      optional: true,
-      dependencies: ["30B8BF743D17D20E"],
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"30B8BF743D17D20E":[5.4,1.8,7.2,1.8]},
-      id: "590B8E305DFE9522",
-      tasks: [
-        {
-          id: "3043B394D08DE621",
-          type: "item",
-          item: {
-            id: "ltxi:items_io_config_card",
-            count: 1,
-          },
-        },
-        {
-          id: "38E4EB349B350513",
-          type: "item",
-          item: {
-            id: "ltxi:energy_io_config_card",
-            count: 1,
-          },
-        },
-        {
-          id: "0C23573678C98D12",
-          type: "item",
-          item: {
-            id: "ltxi:fluids_io_config_card",
-            count: 1,
-          },
-        },
+      "x": 7.2,
+      "y": 1.8,
+      "shape": "diamond",
+      "dependencies": [
+        "30B8BF743D17D20E"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "30B8BF743D17D20E": [
+          5.4,
+          1.8,
+          7.2,
+          1.8
+        ]
+      },
+      "size": 1,
+      "optional": true,
+      "id": "590B8E305DFE9522",
+      "tasks": [
         {
-          id: "00C6FEFFEA50B15C",
-          type: "xp",
-          xp: 50,
+          "id": "3043B394D08DE621",
+          "type": "item",
+          "item": {
+            "id": "ltxi:items_io_config_card",
+            "count": 1
+          }
         },
+        {
+          "id": "38E4EB349B350513",
+          "type": "item",
+          "item": {
+            "id": "ltxi:energy_io_config_card",
+            "count": 1
+          }
+        },
+        {
+          "id": "0C23573678C98D12",
+          "type": "item",
+          "item": {
+            "id": "ltxi:fluids_io_config_card",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "00C6FEFFEA50B15C",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
     },
     {
-      x: 7.2,
-      y: 3.6,
-      dependencies: ["30B8BF743D17D20E"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"30B8BF743D17D20E":[5.4,1.8,7.2,3.6]},
-      id: "39D0138A19A89249",
-      tasks: [
-        {
-          id: "2300E986F043EE3C",
-          type: "item",
-          item: {
-            id: "ltxi:digital_furnace",
-            count: 1,
-          },
-        },
-        {
-          id: "26A839F42846829A",
-          type: "item",
-          item: {
-            id: "ltxi:digital_blast_furnace",
-            count: 1,
-          },
-        },
-        {
-          id: "107BF4D38388EAF1",
-          type: "item",
-          item: {
-            id: "ltxi:digital_smoker",
-            count: 1,
-          },
-        },
+      "x": 7.2,
+      "y": 3.6,
+      "shape": "circle",
+      "dependencies": [
+        "30B8BF743D17D20E"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "30B8BF743D17D20E": [
+          5.4,
+          1.8,
+          7.2,
+          3.6
+        ]
+      },
+      "size": 1,
+      "id": "39D0138A19A89249",
+      "tasks": [
         {
-          id: "447921580833AEE5",
-          type: "xp",
-          xp: 75,
+          "id": "2300E986F043EE3C",
+          "type": "item",
+          "item": {
+            "id": "ltxi:digital_furnace",
+            "count": 1
+          }
         },
+        {
+          "id": "26A839F42846829A",
+          "type": "item",
+          "item": {
+            "id": "ltxi:digital_blast_furnace",
+            "count": 1
+          }
+        },
+        {
+          "id": "107BF4D38388EAF1",
+          "type": "item",
+          "item": {
+            "id": "ltxi:digital_smoker",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "447921580833AEE5",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
     },
     {
-      x: 9,
-      y: 2.7,
-      dependencies: ["39D0138A19A89249"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"39D0138A19A89249":[7.2,3.6,9,2.7]},
-      id: "7A4CE0B5C0D8098F",
-      tasks: [
-        {
-          id: "595C01D3BDE0F880",
-          type: "item",
-          item: {
-            id: "ltxi:digital_garden",
-            count: 1,
-          },
-        },
+      "x": 9,
+      "y": 2.7,
+      "shape": "circle",
+      "dependencies": [
+        "39D0138A19A89249"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "39D0138A19A89249": [
+          7.2,
+          3.6,
+          9,
+          2.7
+        ]
+      },
+      "size": 1,
+      "id": "7A4CE0B5C0D8098F",
+      "tasks": [
         {
-          id: "2768A11ED5552B4B",
-          type: "xp",
-          xp: 100,
-        },
+          "id": "595C01D3BDE0F880",
+          "type": "item",
+          "item": {
+            "id": "ltxi:digital_garden",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "2768A11ED5552B4B",
+          "type": "xp",
+          "xp": 100
+        }
+      ]
     },
     {
-      x: 20.6,
-      y: 0,
-      dependencies: ["30B8BF743D17D20E"],
-      hide_dependency_lines: true,
-      shape: "gear",
-      size: 1.3,
-      dep_control_pts: {"30B8BF743D17D20E":[5.4,1.8,20.6,0]},
-      id: "53B0EA8BC4387713",
-      tasks: [
-        {
-          id: "4E3F146CD642ADE7",
-          type: "item",
-          item: {
-            id: "ltxi:grinder",
-            count: 1,
-          },
-        },
-        {
-          id: "71F3F0E356943B7C",
-          type: "item",
-          item: {
-            id: "ltxi:crushed_iron_ore",
-            count: 1,
-          },
-          count: 4,
-        },
+      "x": 20.6,
+      "y": 0,
+      "shape": "gear",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "30B8BF743D17D20E"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "30B8BF743D17D20E": [
+          5.4,
+          1.8,
+          20.6,
+          0
+        ]
+      },
+      "size": 1.3,
+      "id": "53B0EA8BC4387713",
+      "tasks": [
         {
-          id: "46AB144D4A3B92F9",
-          type: "xp",
-          xp: 100,
+          "id": "4E3F146CD642ADE7",
+          "type": "item",
+          "item": {
+            "id": "ltxi:grinder",
+            "count": 1
+          }
         },
+        {
+          "id": "71F3F0E356943B7C",
+          "type": "item",
+          "item": {
+            "id": "ltxi:crushed_iron_ore",
+            "count": 1
+          },
+          "count": 4
+        }
       ],
+      "rewards": [
+        {
+          "id": "46AB144D4A3B92F9",
+          "type": "xp",
+          "xp": 100
+        }
+      ]
     },
     {
-      x: 18.8,
-      y: 1.8,
-      dependencies: ["53B0EA8BC4387713"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"53B0EA8BC4387713":[20.6,0,18.8,1.8]},
-      id: "4481CA4C3FDB83B0",
-      tasks: [
+      "x": 18.8,
+      "y": 1.8,
+      "shape": "circle",
+      "dependencies": [
+        "53B0EA8BC4387713"
+      ],
+      "dep_control_pts": {
+        "53B0EA8BC4387713": [
+          20.6,
+          0,
+          18.8,
+          1.8
+        ]
+      },
+      "size": 1,
+      "id": "4481CA4C3FDB83B0",
+      "tasks": [
         {
-          id: "19C65279A9CF0D16",
-          type: "item",
-          item: {
-            id: "ltxi:washed_iron_ore",
-            count: 1,
+          "id": "19C65279A9CF0D16",
+          "type": "item",
+          "item": {
+            "id": "ltxi:washed_iron_ore",
+            "count": 1
           },
-          count: 4,
-        },
+          "count": 4
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "3A60BFA9D0424B31",
-          type: "xp",
-          xp: 75,
-        },
-      ],
+          "id": "3A60BFA9D0424B31",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
     },
     {
-      x: 20.6,
-      y: 3.6,
-      dependencies: ["4481CA4C3FDB83B0"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"4481CA4C3FDB83B0":[18.8,1.8,20.6,3.6]},
-      id: "32EB4580D6069F86",
-      tasks: [
+      "x": 20.6,
+      "y": 3.6,
+      "shape": "circle",
+      "dependencies": [
+        "4481CA4C3FDB83B0"
+      ],
+      "dep_control_pts": {
+        "4481CA4C3FDB83B0": [
+          18.8,
+          1.8,
+          20.6,
+          3.6
+        ]
+      },
+      "size": 1,
+      "id": "32EB4580D6069F86",
+      "tasks": [
         {
-          id: "7E9435A997ED28C7",
-          type: "item",
-          item: {
-            id: "ltxi:iron_ore_chunk",
-            count: 1,
+          "id": "7E9435A997ED28C7",
+          "type": "item",
+          "item": {
+            "id": "ltxi:iron_ore_chunk",
+            "count": 1
           },
-          count: 4,
-        },
+          "count": 4
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "33C0D324AE6819C6",
-          type: "xp",
-          xp: 100,
-        },
-      ],
+          "id": "33C0D324AE6819C6",
+          "type": "xp",
+          "xp": 100
+        }
+      ]
     },
     {
-      x: 20.6,
-      y: 5.4,
-      dependencies: ["32EB4580D6069F86"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"32EB4580D6069F86":[20.6,3.6,20.6,5.4]},
-      id: "05789FEC1199B3B1",
-      tasks: [
+      "x": 20.6,
+      "y": 5.4,
+      "shape": "circle",
+      "dependencies": [
+        "32EB4580D6069F86"
+      ],
+      "dep_control_pts": {
+        "32EB4580D6069F86": [
+          20.6,
+          3.6,
+          20.6,
+          5.4
+        ]
+      },
+      "size": 1,
+      "id": "05789FEC1199B3B1",
+      "tasks": [
         {
-          id: "1F442464801A9093",
-          type: "item",
-          item: {
-            id: "ltxi:iron_ore_crystal",
-            count: 1,
+          "id": "1F442464801A9093",
+          "type": "item",
+          "item": {
+            "id": "ltxi:iron_ore_crystal",
+            "count": 1
           },
-          count: 4,
-        },
+          "count": 4
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "7C8F2CD5B2ADB919",
-          type: "xp",
-          xp: 150,
+          "id": "7C8F2CD5B2ADB919",
+          "type": "xp",
+          "xp": 150
         },
         {
-          id: "5616F8A79B879922",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 253752461985528,
-        },
-      ],
+          "id": "5616F8A79B879922",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 253752461985528
+        }
+      ]
     },
     {
-      x: 20.6,
-      y: 7.2,
-      dependencies: ["05789FEC1199B3B1","6193CFC2A93CD732"],
-      hide_dependency_lines: true,
-      shape: "hexagon",
-      size: 1,
-      dep_control_pts: {"05789FEC1199B3B1":[20.6,5.4,20.6,7.2],"6193CFC2A93CD732":[1.8,12.2,20.6,7.2]},
-      id: "13D1F51E84263D19",
-      tasks: [
-        {
-          id: "758B4860938047C6",
-          type: "item",
-          item: {
-            id: "ltxi:iron_ore_solution",
-            count: 1,
-          },
-        },
+      "x": 20.6,
+      "y": 7.2,
+      "shape": "hexagon",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "05789FEC1199B3B1",
+        "6193CFC2A93CD732"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "6193CFC2A93CD732": [
+          1.8,
+          12.2,
+          20.6,
+          7.2
+        ],
+        "05789FEC1199B3B1": [
+          20.6,
+          5.4,
+          20.6,
+          7.2
+        ]
+      },
+      "size": 1,
+      "id": "13D1F51E84263D19",
+      "tasks": [
         {
-          id: "5C3314AD0553B613",
-          type: "xp",
-          xp: 200,
-        },
-        {
-          id: "25F8D2E72620A4F9",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 2210856162803377,
-        },
+          "id": "758B4860938047C6",
+          "type": "item",
+          "item": {
+            "id": "ltxi:iron_ore_solution",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "5C3314AD0553B613",
+          "type": "xp",
+          "xp": 200
+        },
+        {
+          "id": "25F8D2E72620A4F9",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2210856162803377
+        }
+      ]
     },
     {
-      x: 20.6,
-      y: 1.8,
-      dependencies: ["53B0EA8BC4387713"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"53B0EA8BC4387713":[20.6,0,20.6,1.8]},
-      id: "4936F94F9423537B",
-      tasks: [
-        {
-          id: "1EA773DB4F3A5012",
-          type: "item",
-          item: {
-            id: "ltxi:electrocentrifuge",
-            count: 1,
-          },
-        },
+      "x": 20.6,
+      "y": 1.8,
+      "shape": "circle",
+      "dependencies": [
+        "53B0EA8BC4387713"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "53B0EA8BC4387713": [
+          20.6,
+          0,
+          20.6,
+          1.8
+        ]
+      },
+      "size": 1,
+      "id": "4936F94F9423537B",
+      "tasks": [
         {
-          id: "08E48D786AA83518",
-          type: "xp",
-          xp: 100,
-        },
+          "id": "1EA773DB4F3A5012",
+          "type": "item",
+          "item": {
+            "id": "ltxi:electrocentrifuge",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "08E48D786AA83518",
+          "type": "xp",
+          "xp": 100
+        }
+      ]
     },
     {
-      x: 22.4,
-      y: 1.8,
-      optional: true,
-      dependencies: ["53B0EA8BC4387713"],
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"53B0EA8BC4387713":[20.6,0,22.4,1.8]},
-      id: "37CD732FA219F841",
-      tasks: [
-        {
-          id: "084411C61A57A78D",
-          type: "item",
-          item: {
-            id: "ltxi:olivine",
-            count: 1,
-          },
-          count: 4,
-        },
-        {
-          id: "784731D421D3A125",
-          type: "gamestage",
-          icon: {
-            id: "ltxi:fluorite",
-            count: 1,
-          },
-          stage: "gspack_tag_c_gems_fluorite_4",
-        },
+      "x": 22.4,
+      "y": 1.8,
+      "shape": "diamond",
+      "dependencies": [
+        "53B0EA8BC4387713"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "53B0EA8BC4387713": [
+          20.6,
+          0,
+          22.4,
+          1.8
+        ]
+      },
+      "size": 1,
+      "optional": true,
+      "id": "37CD732FA219F841",
+      "tasks": [
         {
-          id: "06C9A27380AC837A",
-          type: "xp",
-          xp: 75,
+          "id": "084411C61A57A78D",
+          "type": "item",
+          "item": {
+            "id": "ltxi:olivine",
+            "count": 1
+          },
+          "count": 4
         },
+        {
+          "id": "784731D421D3A125",
+          "type": "gamestage",
+          "icon": {
+            "id": "ltxi:fluorite",
+            "count": 1
+          },
+          "stage": "gspack_tag_c_gems_fluorite_4"
+        }
       ],
+      "rewards": [
+        {
+          "id": "06C9A27380AC837A",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
     },
     {
-      x: 0,
-      y: 13.1,
-      dependencies: ["30B8BF743D17D20E"],
-      hide_dependency_lines: true,
-      shape: "gear",
-      size: 1.3,
-      dep_control_pts: {"30B8BF743D17D20E":[5.4,1.8,0,13.1]},
-      id: "2A13D18599BF7810",
-      tasks: [
-        {
-          id: "3DC614A6CCE0F5A2",
-          type: "item",
-          item: {
-            id: "ltxi:mixer",
-            count: 1,
-          },
-        },
+      "x": 0,
+      "y": 13.1,
+      "shape": "gear",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "30B8BF743D17D20E"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "30B8BF743D17D20E": [
+          5.4,
+          1.8,
+          0,
+          13.1
+        ]
+      },
+      "size": 1.3,
+      "id": "2A13D18599BF7810",
+      "tasks": [
         {
-          id: "1EA3239E5C810BB2",
-          type: "xp",
-          xp: 75,
-        },
+          "id": "3DC614A6CCE0F5A2",
+          "type": "item",
+          "item": {
+            "id": "ltxi:mixer",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "1EA3239E5C810BB2",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
     },
     {
-      x: 1.8,
-      y: 12.2,
-      dependencies: ["2A13D18599BF7810"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"2A13D18599BF7810":[0,13.1,1.8,12.2]},
-      id: "6193CFC2A93CD732",
-      tasks: [
-        {
-          id: "566F6183C7C25F96",
-          type: "item",
-          item: {
-            id: "ltxi:chem_lab",
-            count: 1,
-          },
-        },
+      "x": 1.8,
+      "y": 12.2,
+      "shape": "circle",
+      "dependencies": [
+        "2A13D18599BF7810"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "2A13D18599BF7810": [
+          0,
+          13.1,
+          1.8,
+          12.2
+        ]
+      },
+      "size": 1,
+      "id": "6193CFC2A93CD732",
+      "tasks": [
         {
-          id: "6003DAD6CC9BFAED",
-          type: "xp",
-          xp: 150,
-        },
-        {
-          id: "4968AAE2726A2F06",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 253752461985528,
-        },
+          "id": "566F6183C7C25F96",
+          "type": "item",
+          "item": {
+            "id": "ltxi:chem_lab",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "6003DAD6CC9BFAED",
+          "type": "xp",
+          "xp": 150
+        },
+        {
+          "id": "4968AAE2726A2F06",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 253752461985528
+        }
+      ]
     },
     {
-      x: 3.6,
-      y: 10.4,
-      dependencies: ["6193CFC2A93CD732"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"6193CFC2A93CD732":[1.8,12.2,3.6,10.4]},
-      id: "6917148A17CD33CE",
-      tasks: [
-        {
-          id: "781621084DE8C831",
-          type: "item",
-          item: {
-            id: "ltxi:atmospheric_scrubber",
-            count: 1,
-          },
-        },
+      "x": 3.6,
+      "y": 10.4,
+      "shape": "circle",
+      "dependencies": [
+        "6193CFC2A93CD732"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "6193CFC2A93CD732": [
+          1.8,
+          12.2,
+          3.6,
+          10.4
+        ]
+      },
+      "size": 1,
+      "id": "6917148A17CD33CE",
+      "tasks": [
         {
-          id: "21E4821E67436479",
-          type: "xp",
-          xp: 100,
-        },
+          "id": "781621084DE8C831",
+          "type": "item",
+          "item": {
+            "id": "ltxi:atmospheric_scrubber",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "21E4821E67436479",
+          "type": "xp",
+          "xp": 100
+        }
+      ]
     },
     {
-      x: 3.6,
-      y: 12.2,
-      dependencies: ["6193CFC2A93CD732"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"6193CFC2A93CD732":[1.8,12.2,3.6,12.2]},
-      id: "51C7B2976AB6987B",
-      tasks: [
-        {
-          id: "19FC78EB7A287A4E",
-          type: "item",
-          item: {
-            id: "ltxi:sulfuric_acid_bucket",
-            count: 1,
-          },
-        },
-        {
-          id: "651E0BE6975C7044",
-          type: "item",
-          item: {
-            id: "ltxi:hydrochloric_acid_bucket",
-            count: 1,
-          },
-        },
+      "x": 3.6,
+      "y": 12.2,
+      "shape": "circle",
+      "dependencies": [
+        "6193CFC2A93CD732"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "6193CFC2A93CD732": [
+          1.8,
+          12.2,
+          3.6,
+          12.2
+        ]
+      },
+      "size": 1,
+      "id": "51C7B2976AB6987B",
+      "tasks": [
         {
-          id: "267FE9B1E3DD5F68",
-          type: "xp",
-          xp: 100,
+          "id": "19FC78EB7A287A4E",
+          "type": "item",
+          "item": {
+            "id": "ltxi:sulfuric_acid_bucket",
+            "count": 1
+          }
         },
+        {
+          "id": "651E0BE6975C7044",
+          "type": "item",
+          "item": {
+            "id": "ltxi:hydrochloric_acid_bucket",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "267FE9B1E3DD5F68",
+          "type": "xp",
+          "xp": 100
+        }
+      ]
     },
     {
-      x: 3.6,
-      y: 14,
-      dependencies: ["6193CFC2A93CD732"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"6193CFC2A93CD732":[1.8,12.2,3.6,14]},
-      id: "07C38C2EF0A27270",
-      tasks: [
-        {
-          id: "745F90D1EDB2B13E",
-          type: "item",
-          item: {
-            id: "ltxi:polymer_sheet",
-            count: 1,
-          },
-          count: 4,
-        },
-        {
-          id: "35B4676B786F9E17",
-          type: "item",
-          item: {
-            id: "ltxi:fluoropolymer_sheet",
-            count: 1,
-          },
-          count: 2,
-        },
+      "x": 3.6,
+      "y": 14,
+      "shape": "circle",
+      "dependencies": [
+        "6193CFC2A93CD732"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "6193CFC2A93CD732": [
+          1.8,
+          12.2,
+          3.6,
+          14
+        ]
+      },
+      "size": 1,
+      "id": "07C38C2EF0A27270",
+      "tasks": [
         {
-          id: "4F55973E337D3262",
-          type: "xp",
-          xp: 100,
+          "id": "745F90D1EDB2B13E",
+          "type": "item",
+          "item": {
+            "id": "ltxi:polymer_sheet",
+            "count": 1
+          },
+          "count": 4
         },
+        {
+          "id": "35B4676B786F9E17",
+          "type": "item",
+          "item": {
+            "id": "ltxi:fluoropolymer_sheet",
+            "count": 1
+          },
+          "count": 2
+        }
       ],
+      "rewards": [
+        {
+          "id": "4F55973E337D3262",
+          "type": "xp",
+          "xp": 100
+        }
+      ]
     },
     {
-      x: 1.8,
-      y: 14,
-      dependencies: ["2A13D18599BF7810"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"2A13D18599BF7810":[0,13.1,1.8,14]},
-      id: "488B511AE983FCE3",
-      tasks: [
-        {
-          id: "5D4096EE18B03A9E",
-          type: "item",
-          item: {
-            id: "ltxi:silicon_ingot",
-            count: 1,
-          },
-          count: 4,
-        },
-        {
-          id: "2945B13A0AD3AA44",
-          type: "item",
-          item: {
-            id: "ltxi:silicon_plate",
-            count: 1,
-          },
-          count: 4,
-        },
+      "x": 1.8,
+      "y": 14,
+      "shape": "circle",
+      "dependencies": [
+        "2A13D18599BF7810"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "2A13D18599BF7810": [
+          0,
+          13.1,
+          1.8,
+          14
+        ]
+      },
+      "size": 1,
+      "id": "488B511AE983FCE3",
+      "tasks": [
         {
-          id: "50659F100CDFCB64",
-          type: "xp",
-          xp: 75,
+          "id": "5D4096EE18B03A9E",
+          "type": "item",
+          "item": {
+            "id": "ltxi:silicon_ingot",
+            "count": 1
+          },
+          "count": 4
         },
+        {
+          "id": "2945B13A0AD3AA44",
+          "type": "item",
+          "item": {
+            "id": "ltxi:silicon_plate",
+            "count": 1
+          },
+          "count": 4
+        }
       ],
+      "rewards": [
+        {
+          "id": "50659F100CDFCB64",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
     },
     {
-      x: 3.6,
-      y: 15.8,
-      dependencies: ["6193CFC2A93CD732"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"6193CFC2A93CD732":[1.8,12.2,3.6,15.8]},
-      id: "2D202ABF0A8EC15B",
-      tasks: [
+      "x": 3.6,
+      "y": 15.8,
+      "shape": "circle",
+      "dependencies": [
+        "6193CFC2A93CD732"
+      ],
+      "dep_control_pts": {
+        "6193CFC2A93CD732": [
+          1.8,
+          12.2,
+          3.6,
+          15.8
+        ]
+      },
+      "size": 1,
+      "id": "2D202ABF0A8EC15B",
+      "tasks": [
         {
-          id: "391BB93B475C05AE",
-          type: "item",
-          item: {
-            id: "ltxi:rhenium_ingot",
-            count: 1,
+          "id": "391BB93B475C05AE",
+          "type": "item",
+          "item": {
+            "id": "ltxi:rhenium_ingot",
+            "count": 1
           },
-          count: 4,
-        },
+          "count": 4
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "3D7858ABB6178255",
-          type: "xp",
-          xp: 200,
+          "id": "3D7858ABB6178255",
+          "type": "xp",
+          "xp": 200
         },
         {
-          id: "2A3E58340AB91DA6",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 2210856162803377,
-        },
-      ],
+          "id": "2A3E58340AB91DA6",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2210856162803377
+        }
+      ]
     },
     {
-      x: 7.2,
-      y: 13.1,
-      dependencies: ["2D202ABF0A8EC15B"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"2D202ABF0A8EC15B":[3.6,15.8,7.2,13.1]},
-      id: "1F39FFC8BBA48611",
-      tasks: [
+      "x": 7.2,
+      "y": 13.1,
+      "shape": "circle",
+      "dependencies": [
+        "2D202ABF0A8EC15B"
+      ],
+      "dep_control_pts": {
+        "2D202ABF0A8EC15B": [
+          3.6,
+          15.8,
+          7.2,
+          13.1
+        ]
+      },
+      "size": 1,
+      "id": "1F39FFC8BBA48611",
+      "tasks": [
         {
-          id: "3529F500973CB589",
-          type: "item",
-          item: {
-            id: "ltxi:tungsten_slatesteel_ingot",
-            count: 1,
+          "id": "3529F500973CB589",
+          "type": "item",
+          "item": {
+            "id": "ltxi:tungsten_slatesteel_ingot",
+            "count": 1
           },
-          count: 4,
-        },
+          "count": 4
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "48B1CFDAB8A8714E",
-          type: "xp",
-          xp: 200,
+          "id": "48B1CFDAB8A8714E",
+          "type": "xp",
+          "xp": 200
         },
         {
-          id: "10B54D5E6C045F7A",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 2210856162803377,
-        },
-      ],
+          "id": "10B54D5E6C045F7A",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2210856162803377
+        }
+      ]
     },
     {
-      x: 5.4,
-      y: 13.1,
-      optional: true,
-      dependencies: ["6193CFC2A93CD732"],
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"6193CFC2A93CD732":[1.8,12.2,5.4,13.1]},
-      id: "165A80F1200A9BEF",
-      tasks: [
-        {
-          id: "5BCC3CB397ED1EFE",
-          type: "item",
-          item: {
-            id: "ltxi:geo_synthesizer",
-            count: 1,
-          },
-        },
+      "x": 5.4,
+      "y": 13.1,
+      "shape": "diamond",
+      "dependencies": [
+        "6193CFC2A93CD732"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "6193CFC2A93CD732": [
+          1.8,
+          12.2,
+          5.4,
+          13.1
+        ]
+      },
+      "size": 1,
+      "optional": true,
+      "id": "165A80F1200A9BEF",
+      "tasks": [
         {
-          id: "53078C396BA9C8D6",
-          type: "xp",
-          xp: 150,
-        },
+          "id": "5BCC3CB397ED1EFE",
+          "type": "item",
+          "item": {
+            "id": "ltxi:geo_synthesizer",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "53078C396BA9C8D6",
+          "type": "xp",
+          "xp": 150
+        }
+      ]
     },
     {
-      x: 0,
-      y: 21.7,
-      dependencies: ["30B8BF743D17D20E"],
-      hide_dependency_lines: true,
-      shape: "gear",
-      size: 1.3,
-      dep_control_pts: {"30B8BF743D17D20E":[5.4,1.8,0,21.7]},
-      id: "3887CAB2977A9C71",
-      tasks: [
-        {
-          id: "7EF8EB6D7DD8BF10",
-          type: "item",
-          item: {
-            id: "ltxi:material_press",
-            count: 1,
-          },
-        },
-        {
-          id: "23A91A34082219D0",
-          type: "item",
-          item: {
-            id: "ltxi:titanium_plate",
-            count: 1,
-          },
-          count: 4,
-        },
+      "x": 0,
+      "y": 21.7,
+      "shape": "gear",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "30B8BF743D17D20E"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "30B8BF743D17D20E": [
+          5.4,
+          1.8,
+          0,
+          21.7
+        ]
+      },
+      "size": 1.3,
+      "id": "3887CAB2977A9C71",
+      "tasks": [
         {
-          id: "35ADF0E03424530E",
-          type: "xp",
-          xp: 75,
+          "id": "7EF8EB6D7DD8BF10",
+          "type": "item",
+          "item": {
+            "id": "ltxi:material_press",
+            "count": 1
+          }
         },
+        {
+          "id": "23A91A34082219D0",
+          "type": "item",
+          "item": {
+            "id": "ltxi:titanium_plate",
+            "count": 1
+          },
+          "count": 4
+        }
       ],
+      "rewards": [
+        {
+          "id": "35ADF0E03424530E",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
     },
     {
-      x: 1.8,
-      y: 21.7,
-      dependencies: ["3887CAB2977A9C71","488B511AE983FCE3"],
-      hide_dependency_lines: true,
-      shape: "hexagon",
-      size: 1,
-      dep_control_pts: {"3887CAB2977A9C71":[0,21.7,1.8,21.7],"488B511AE983FCE3":[1.8,14,1.8,21.7]},
-      id: "38489B5605E20823",
-      tasks: [
+      "x": 1.8,
+      "y": 21.7,
+      "shape": "hexagon",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "3887CAB2977A9C71",
+        "488B511AE983FCE3"
+      ],
+      "dep_control_pts": {
+        "3887CAB2977A9C71": [
+          0,
+          21.7,
+          1.8,
+          21.7
+        ],
+        "488B511AE983FCE3": [
+          1.8,
+          14,
+          1.8,
+          21.7
+        ]
+      },
+      "size": 1,
+      "id": "38489B5605E20823",
+      "tasks": [
         {
-          id: "4022637C74A411EC",
-          type: "item",
-          item: {
-            id: "ltxi:circuit_board",
-            count: 1,
+          "id": "4022637C74A411EC",
+          "type": "item",
+          "item": {
+            "id": "ltxi:circuit_board",
+            "count": 1
           },
-          count: 4,
-        },
+          "count": 4
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "4DE8E3D9E2C54285",
-          type: "xp",
-          xp: 100,
-        },
-      ],
+          "id": "4DE8E3D9E2C54285",
+          "type": "xp",
+          "xp": 100
+        }
+      ]
     },
     {
-      x: 3.6,
-      y: 21.7,
-      dependencies: ["38489B5605E20823"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"38489B5605E20823":[1.8,21.7,3.6,21.7]},
-      id: "0E8020C2548CEB9C",
-      tasks: [
+      "x": 3.6,
+      "y": 21.7,
+      "shape": "circle",
+      "dependencies": [
+        "38489B5605E20823"
+      ],
+      "dep_control_pts": {
+        "38489B5605E20823": [
+          1.8,
+          21.7,
+          3.6,
+          21.7
+        ]
+      },
+      "size": 1,
+      "id": "0E8020C2548CEB9C",
+      "tasks": [
         {
-          id: "55749E941FA1CC41",
-          type: "item",
-          item: {
-            id: "ltxi:t1_circuit",
-            count: 1,
+          "id": "55749E941FA1CC41",
+          "type": "item",
+          "item": {
+            "id": "ltxi:t1_circuit",
+            "count": 1
           },
-          count: 4,
-        },
+          "count": 4
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "2DA2E0A0E0F0B810",
-          type: "xp",
-          xp: 75,
-        },
-      ],
+          "id": "2DA2E0A0E0F0B810",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
     },
     {
-      x: 5.4,
-      y: 21.7,
-      dependencies: ["0E8020C2548CEB9C"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"0E8020C2548CEB9C":[3.6,21.7,5.4,21.7]},
-      id: "7A3BB30BFE654741",
-      tasks: [
+      "x": 5.4,
+      "y": 21.7,
+      "shape": "circle",
+      "dependencies": [
+        "0E8020C2548CEB9C"
+      ],
+      "dep_control_pts": {
+        "0E8020C2548CEB9C": [
+          3.6,
+          21.7,
+          5.4,
+          21.7
+        ]
+      },
+      "size": 1,
+      "id": "7A3BB30BFE654741",
+      "tasks": [
         {
-          id: "231E2B9B180AB787",
-          type: "item",
-          item: {
-            id: "ltxi:t2_circuit",
-            count: 1,
+          "id": "231E2B9B180AB787",
+          "type": "item",
+          "item": {
+            "id": "ltxi:t2_circuit",
+            "count": 1
           },
-          count: 4,
-        },
+          "count": 4
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "5D6017CAC988E3AD",
-          type: "xp",
-          xp: 100,
-        },
-      ],
+          "id": "5D6017CAC988E3AD",
+          "type": "xp",
+          "xp": 100
+        }
+      ]
     },
     {
-      x: 7.2,
-      y: 19.9,
-      dependencies: ["7A3BB30BFE654741","07C38C2EF0A27270"],
-      hide_dependency_lines: true,
-      shape: "hexagon",
-      size: 1,
-      dep_control_pts: {"7A3BB30BFE654741":[5.4,21.7,7.2,19.9],"07C38C2EF0A27270":[3.6,14,7.2,19.9]},
-      id: "751E218CC4922048",
-      tasks: [
+      "x": 7.2,
+      "y": 19.9,
+      "shape": "hexagon",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "7A3BB30BFE654741",
+        "07C38C2EF0A27270"
+      ],
+      "dep_control_pts": {
+        "07C38C2EF0A27270": [
+          3.6,
+          14,
+          7.2,
+          19.9
+        ],
+        "7A3BB30BFE654741": [
+          5.4,
+          21.7,
+          7.2,
+          19.9
+        ]
+      },
+      "size": 1,
+      "id": "751E218CC4922048",
+      "tasks": [
         {
-          id: "0473B99CCBE14E33",
-          type: "item",
-          item: {
-            id: "ltxi:t3_circuit",
-            count: 1,
+          "id": "0473B99CCBE14E33",
+          "type": "item",
+          "item": {
+            "id": "ltxi:t3_circuit",
+            "count": 1
           },
-          count: 4,
-        },
+          "count": 4
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "585E457B03EBEAAD",
-          type: "xp",
-          xp: 150,
+          "id": "585E457B03EBEAAD",
+          "type": "xp",
+          "xp": 150
         },
         {
-          id: "5B9BEB0731489BE9",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 253752461985528,
-        },
-      ],
+          "id": "5B9BEB0731489BE9",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 253752461985528
+        }
+      ]
     },
     {
-      x: 9,
-      y: 19,
-      dependencies: ["751E218CC4922048"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"751E218CC4922048":[7.2,19.9,9,19]},
-      id: "6834FED41A7E2515",
-      tasks: [
+      "x": 9,
+      "y": 19,
+      "shape": "circle",
+      "dependencies": [
+        "751E218CC4922048"
+      ],
+      "dep_control_pts": {
+        "751E218CC4922048": [
+          7.2,
+          19.9,
+          9,
+          19
+        ]
+      },
+      "size": 1,
+      "id": "6834FED41A7E2515",
+      "tasks": [
         {
-          id: "73D46D227AEC86BA",
-          type: "item",
-          item: {
-            id: "ltxi:t4_circuit",
-            count: 1,
+          "id": "73D46D227AEC86BA",
+          "type": "item",
+          "item": {
+            "id": "ltxi:t4_circuit",
+            "count": 1
           },
-          count: 4,
-        },
+          "count": 4
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "7B0764087F81A29B",
-          type: "xp",
-          xp: 200,
+          "id": "7B0764087F81A29B",
+          "type": "xp",
+          "xp": 200
         },
         {
-          id: "1D5367CE4B41ACD7",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 2210856162803377,
-        },
-      ],
+          "id": "1D5367CE4B41ACD7",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2210856162803377
+        }
+      ]
     },
     {
-      x: 12.6,
-      y: 21.7,
-      dependencies: ["6834FED41A7E2515","2D202ABF0A8EC15B"],
-      hide_dependency_lines: true,
-      shape: "hexagon",
-      size: 1,
-      dep_control_pts: {"6834FED41A7E2515":[9,19,12.6,21.7],"2D202ABF0A8EC15B":[3.6,15.8,12.6,21.7]},
-      id: "48BD332B7A82BE19",
-      tasks: [
-        {
-          id: "4660992A7229FEC5",
-          type: "item",
-          item: {
-            id: "ltxi:t5_circuit",
-            count: 1,
-          },
-          count: 2,
-        },
-        {
-          id: "52A9F969DAE4DF62",
-          type: "item",
-          item: {
-            id: "ltxi:elite_circuit_board",
-            count: 1,
-          },
-        },
+      "x": 12.6,
+      "y": 21.7,
+      "shape": "hexagon",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "6834FED41A7E2515",
+        "2D202ABF0A8EC15B"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "6834FED41A7E2515": [
+          9,
+          19,
+          12.6,
+          21.7
+        ],
+        "2D202ABF0A8EC15B": [
+          3.6,
+          15.8,
+          12.6,
+          21.7
+        ]
+      },
+      "size": 1,
+      "id": "48BD332B7A82BE19",
+      "tasks": [
         {
-          id: "32653291457D7EEC",
-          type: "xp",
-          xp: 300,
+          "id": "4660992A7229FEC5",
+          "type": "item",
+          "item": {
+            "id": "ltxi:t5_circuit",
+            "count": 1
+          },
+          "count": 2
         },
         {
-          id: "66148FE635240FB0",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 379532711335085,
-        },
+          "id": "52A9F969DAE4DF62",
+          "type": "item",
+          "item": {
+            "id": "ltxi:elite_circuit_board",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "32653291457D7EEC",
+          "type": "xp",
+          "xp": 300
+        },
+        {
+          "id": "66148FE635240FB0",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 379532711335085
+        }
+      ]
     },
     {
-      x: 9,
-      y: 20.8,
-      dependencies: ["751E218CC4922048"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"751E218CC4922048":[7.2,19.9,9,20.8]},
-      id: "208518E2E7054F70",
-      tasks: [
-        {
-          id: "68BA9E7880D8482D",
-          type: "item",
-          item: {
-            id: "ltxi:logic_core",
-            count: 1,
-          },
-          count: 2,
-        },
-        {
-          id: "35D475A0B17219F6",
-          type: "item",
-          item: {
-            id: "ltxi:nano_logic_core",
-            count: 1,
-          },
-        },
+      "x": 9,
+      "y": 20.8,
+      "shape": "circle",
+      "dependencies": [
+        "751E218CC4922048"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "751E218CC4922048": [
+          7.2,
+          19.9,
+          9,
+          20.8
+        ]
+      },
+      "size": 1,
+      "id": "208518E2E7054F70",
+      "tasks": [
         {
-          id: "45C8F7BD6787326A",
-          type: "xp",
-          xp: 150,
+          "id": "68BA9E7880D8482D",
+          "type": "item",
+          "item": {
+            "id": "ltxi:logic_core",
+            "count": 1
+          },
+          "count": 2
         },
+        {
+          "id": "35D475A0B17219F6",
+          "type": "item",
+          "item": {
+            "id": "ltxi:nano_logic_core",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "45C8F7BD6787326A",
+          "type": "xp",
+          "xp": 150
+        }
+      ]
     },
     {
-      x: 7.2,
-      y: 21.7,
-      dependencies: ["7A3BB30BFE654741"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"7A3BB30BFE654741":[5.4,21.7,7.2,21.7]},
-      id: "3B93A44AA860EF84",
-      tasks: [
-        {
-          id: "53207596B8DE0E01",
-          type: "item",
-          item: {
-            id: "ltxi:fabricator",
-            count: 1,
-          },
-        },
-        {
-          id: "6060CA5729E49AF3",
-          type: "item",
-          item: {
-            id: "ltxi:empty_fabrication_blueprint",
-            count: 1,
-          },
-          count: 4,
-        },
+      "x": 7.2,
+      "y": 21.7,
+      "shape": "circle",
+      "dependencies": [
+        "7A3BB30BFE654741"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "7A3BB30BFE654741": [
+          5.4,
+          21.7,
+          7.2,
+          21.7
+        ]
+      },
+      "size": 1,
+      "id": "3B93A44AA860EF84",
+      "tasks": [
         {
-          id: "41BBFCF0CB588E47",
-          type: "xp",
-          xp: 150,
+          "id": "53207596B8DE0E01",
+          "type": "item",
+          "item": {
+            "id": "ltxi:fabricator",
+            "count": 1
+          }
         },
         {
-          id: "111186C8E4ECACC7",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 253752461985528,
-        },
+          "id": "6060CA5729E49AF3",
+          "type": "item",
+          "item": {
+            "id": "ltxi:empty_fabrication_blueprint",
+            "count": 1
+          },
+          "count": 4
+        }
       ],
+      "rewards": [
+        {
+          "id": "41BBFCF0CB588E47",
+          "type": "xp",
+          "xp": 150
+        },
+        {
+          "id": "111186C8E4ECACC7",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 253752461985528
+        }
+      ]
     },
     {
-      x: 9,
-      y: 22.6,
-      dependencies: ["3B93A44AA860EF84","751E218CC4922048"],
-      shape: "hexagon",
-      size: 1,
-      dep_control_pts: {"3B93A44AA860EF84":[7.2,21.7,9,22.6],"751E218CC4922048":[7.2,19.9,9,22.6]},
-      id: "31CD8AF3DC1AB915",
-      tasks: [
-        {
-          id: "6B47A2AD1D64BFD5",
-          type: "item",
-          item: {
-            id: "ltxi:auto_fabricator",
-            count: 1,
-          },
-        },
+      "x": 9,
+      "y": 22.6,
+      "shape": "hexagon",
+      "dependencies": [
+        "3B93A44AA860EF84",
+        "751E218CC4922048"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "751E218CC4922048": [
+          7.2,
+          19.9,
+          9,
+          22.6
+        ],
+        "3B93A44AA860EF84": [
+          7.2,
+          21.7,
+          9,
+          22.6
+        ]
+      },
+      "size": 1,
+      "id": "31CD8AF3DC1AB915",
+      "tasks": [
         {
-          id: "06C41E8168C70037",
-          type: "xp",
-          xp: 200,
-        },
-        {
-          id: "451CB891219EA077",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 2210856162803377,
-        },
+          "id": "6B47A2AD1D64BFD5",
+          "type": "item",
+          "item": {
+            "id": "ltxi:auto_fabricator",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "06C41E8168C70037",
+          "type": "xp",
+          "xp": 200
+        },
+        {
+          "id": "451CB891219EA077",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2210856162803377
+        }
+      ]
     },
     {
-      x: 7.2,
-      y: 23.5,
-      dependencies: ["7A3BB30BFE654741"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"7A3BB30BFE654741":[5.4,21.7,7.2,23.5]},
-      id: "59C44B4096072DB1",
-      tasks: [
-        {
-          id: "034FCD2D8770F0FA",
-          type: "item",
-          item: {
-            id: "ltxi:assembler",
-            count: 1,
-          },
-        },
+      "x": 7.2,
+      "y": 23.5,
+      "shape": "circle",
+      "dependencies": [
+        "7A3BB30BFE654741"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "7A3BB30BFE654741": [
+          5.4,
+          21.7,
+          7.2,
+          23.5
+        ]
+      },
+      "size": 1,
+      "id": "59C44B4096072DB1",
+      "tasks": [
         {
-          id: "487ED8E933D40255",
-          type: "xp",
-          xp: 100,
-        },
+          "id": "034FCD2D8770F0FA",
+          "type": "item",
+          "item": {
+            "id": "ltxi:assembler",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "487ED8E933D40255",
+          "type": "xp",
+          "xp": 100
+        }
+      ]
     },
     {
-      x: 9,
-      y: 24.4,
-      dependencies: ["59C44B4096072DB1"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"59C44B4096072DB1":[7.2,23.5,9,24.4]},
-      id: "646812DFC816876D",
-      tasks: [
-        {
-          id: "2ED5B15D02257579",
-          type: "item",
-          item: {
-            id: "ltxi:impulse_tech_part",
-            count: 1,
-          },
-        },
-        {
-          id: "058CEB4406072F7B",
-          type: "item",
-          item: {
-            id: "ltxi:laser_tech_part",
-            count: 1,
-          },
-        },
-        {
-          id: "619119F6D51663AF",
-          type: "item",
-          item: {
-            id: "ltxi:optical_tech_part",
-            count: 1,
-          },
-        },
+      "x": 9,
+      "y": 24.4,
+      "shape": "circle",
+      "dependencies": [
+        "59C44B4096072DB1"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "59C44B4096072DB1": [
+          7.2,
+          23.5,
+          9,
+          24.4
+        ]
+      },
+      "size": 1,
+      "id": "646812DFC816876D",
+      "tasks": [
         {
-          id: "21ED4319886A9D16",
-          type: "xp",
-          xp: 150,
+          "id": "2ED5B15D02257579",
+          "type": "item",
+          "item": {
+            "id": "ltxi:impulse_tech_part",
+            "count": 1
+          }
         },
+        {
+          "id": "058CEB4406072F7B",
+          "type": "item",
+          "item": {
+            "id": "ltxi:laser_tech_part",
+            "count": 1
+          }
+        },
+        {
+          "id": "619119F6D51663AF",
+          "type": "item",
+          "item": {
+            "id": "ltxi:optical_tech_part",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "21ED4319886A9D16",
+          "type": "xp",
+          "xp": 150
+        }
+      ]
     },
     {
-      x: 10.8,
-      y: 20.8,
-      dependencies: ["751E218CC4922048"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"751E218CC4922048":[7.2,19.9,10.8,20.8]},
-      id: "68503723EA0094CF",
-      tasks: [
-        {
-          id: "4D40F94D8CA48CFA",
-          type: "item",
-          item: {
-            id: "ltxi:arc_furnace",
-            count: 1,
-          },
-        },
+      "x": 10.8,
+      "y": 20.8,
+      "shape": "circle",
+      "dependencies": [
+        "751E218CC4922048"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "751E218CC4922048": [
+          7.2,
+          19.9,
+          10.8,
+          20.8
+        ]
+      },
+      "size": 1,
+      "id": "68503723EA0094CF",
+      "tasks": [
         {
-          id: "58042B9C8DB76F98",
-          type: "xp",
-          xp: 150,
-        },
+          "id": "4D40F94D8CA48CFA",
+          "type": "item",
+          "item": {
+            "id": "ltxi:arc_furnace",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "58042B9C8DB76F98",
+          "type": "xp",
+          "xp": 150
+        }
+      ]
     },
     {
-      x: 10.8,
-      y: 22.6,
-      optional: true,
-      dependencies: ["751E218CC4922048"],
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"751E218CC4922048":[7.2,19.9,10.8,22.6]},
-      id: "7DEAA0826DC38524",
-      tasks: [
-        {
-          id: "0418C115E1F08F40",
-          type: "item",
-          item: {
-            id: "ltxi:voltaic_injector",
-            count: 1,
-          },
-        },
+      "x": 10.8,
+      "y": 22.6,
+      "shape": "diamond",
+      "dependencies": [
+        "751E218CC4922048"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "751E218CC4922048": [
+          7.2,
+          19.9,
+          10.8,
+          22.6
+        ]
+      },
+      "size": 1,
+      "optional": true,
+      "id": "7DEAA0826DC38524",
+      "tasks": [
         {
-          id: "17D25FD674E0EFBA",
-          type: "xp",
-          xp: 150,
-        },
+          "id": "0418C115E1F08F40",
+          "type": "item",
+          "item": {
+            "id": "ltxi:voltaic_injector",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "17D25FD674E0EFBA",
+          "type": "xp",
+          "xp": 150
+        }
+      ]
     },
     {
-      x: 20.6,
-      y: 19,
-      dependencies: ["7A3BB30BFE654741"],
-      hide_dependency_lines: true,
-      shape: "gear",
-      size: 1.3,
-      dep_control_pts: {"7A3BB30BFE654741":[5.4,21.7,20.6,19]},
-      id: "76F00C8C4F962DB5",
-      tasks: [
-        {
-          id: "2A057951033D6AC6",
-          type: "item",
-          item: {
-            id: "ltxi:upgrade_station",
-            count: 1,
-          },
-        },
-        {
-          id: "034D4BB2BD41BDA9",
-          type: "item",
-          item: {
-            id: "ltxi:empty_upgrade_module",
-            count: 1,
-          },
-          count: 2,
-        },
+      "x": 20.6,
+      "y": 19,
+      "shape": "gear",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "7A3BB30BFE654741"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "7A3BB30BFE654741": [
+          5.4,
+          21.7,
+          20.6,
+          19
+        ]
+      },
+      "size": 1.3,
+      "id": "76F00C8C4F962DB5",
+      "tasks": [
         {
-          id: "370125EE5868EABF",
-          type: "xp",
-          xp: 100,
+          "id": "2A057951033D6AC6",
+          "type": "item",
+          "item": {
+            "id": "ltxi:upgrade_station",
+            "count": 1
+          }
         },
+        {
+          "id": "034D4BB2BD41BDA9",
+          "type": "item",
+          "item": {
+            "id": "ltxi:empty_upgrade_module",
+            "count": 1
+          },
+          "count": 2
+        }
       ],
+      "rewards": [
+        {
+          "id": "370125EE5868EABF",
+          "type": "xp",
+          "xp": 100
+        }
+      ]
     },
     {
-      x: 22.4,
-      y: 19,
-      dependencies: ["646812DFC816876D"],
-      hide_dependency_lines: true,
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"646812DFC816876D":[9,24.4,22.4,19]},
-      id: "5B65FE0D134B6833",
-      tasks: [
-        {
-          id: "0ACF17906D22DD49",
-          type: "item",
-          item: {
-            id: "ltxi:epsilon_drill",
-            count: 1,
-          },
-        },
-        {
-          id: "69DAD6249FF008EC",
-          type: "item",
-          item: {
-            id: "ltxi:epsilon_sword",
-            count: 1,
-          },
-        },
-        {
-          id: "58093D4486804885",
-          type: "item",
-          item: {
-            id: "ltxi:epsilon_axe",
-            count: 1,
-          },
-        },
+      "x": 22.4,
+      "y": 19,
+      "shape": "circle",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "646812DFC816876D"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "646812DFC816876D": [
+          9,
+          24.4,
+          22.4,
+          19
+        ]
+      },
+      "size": 1,
+      "id": "5B65FE0D134B6833",
+      "tasks": [
         {
-          id: "0F991D59409F321F",
-          type: "xp",
-          xp: 250,
+          "id": "0ACF17906D22DD49",
+          "type": "item",
+          "item": {
+            "id": "ltxi:epsilon_drill",
+            "count": 1
+          }
         },
         {
-          id: "06CC19DEB861C762",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 2210856162803377,
+          "id": "69DAD6249FF008EC",
+          "type": "item",
+          "item": {
+            "id": "ltxi:epsilon_sword",
+            "count": 1
+          }
         },
+        {
+          "id": "58093D4486804885",
+          "type": "item",
+          "item": {
+            "id": "ltxi:epsilon_axe",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "0F991D59409F321F",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "06CC19DEB861C762",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2210856162803377
+        }
+      ]
     },
     {
-      x: 20.6,
-      y: 22.6,
-      optional: true,
-      dependencies: ["5B65FE0D134B6833"],
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"5B65FE0D134B6833":[22.4,19,20.6,22.6]},
-      id: "23F3F7700A5699AA",
-      tasks: [
-        {
-          id: "76F026552E24DDB5",
-          type: "item",
-          item: {
-            id: "ltxi:epsilon_shovel",
-            count: 1,
-          },
-        },
-        {
-          id: "4565810A69454110",
-          type: "item",
-          item: {
-            id: "ltxi:epsilon_hoe",
-            count: 1,
-          },
-        },
-        {
-          id: "37687B0C33D53C50",
-          type: "item",
-          item: {
-            id: "ltxi:epsilon_shears",
-            count: 1,
-          },
-        },
-        {
-          id: "299452860993C771",
-          type: "item",
-          item: {
-            id: "ltxi:epsilon_wrench",
-            count: 1,
-          },
-        },
+      "x": 20.6,
+      "y": 22.6,
+      "shape": "diamond",
+      "dependencies": [
+        "5B65FE0D134B6833"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "5B65FE0D134B6833": [
+          22.4,
+          19,
+          20.6,
+          22.6
+        ]
+      },
+      "size": 1,
+      "optional": true,
+      "id": "23F3F7700A5699AA",
+      "tasks": [
         {
-          id: "09A93756CF5D7E69",
-          type: "xp",
-          xp: 150,
+          "id": "76F026552E24DDB5",
+          "type": "item",
+          "item": {
+            "id": "ltxi:epsilon_shovel",
+            "count": 1
+          }
         },
+        {
+          "id": "4565810A69454110",
+          "type": "item",
+          "item": {
+            "id": "ltxi:epsilon_hoe",
+            "count": 1
+          }
+        },
+        {
+          "id": "37687B0C33D53C50",
+          "type": "item",
+          "item": {
+            "id": "ltxi:epsilon_shears",
+            "count": 1
+          }
+        },
+        {
+          "id": "299452860993C771",
+          "type": "item",
+          "item": {
+            "id": "ltxi:epsilon_wrench",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "09A93756CF5D7E69",
+          "type": "xp",
+          "xp": 150
+        }
+      ]
     },
     {
-      x: 22.4,
-      y: 22.6,
-      dependencies: ["5B65FE0D134B6833","6834FED41A7E2515"],
-      hide_dependency_lines: true,
-      shape: "hexagon",
-      size: 1,
-      dep_control_pts: {"5B65FE0D134B6833":[22.4,19,22.4,22.6],"6834FED41A7E2515":[9,19,22.4,22.6]},
-      id: "183DE3CD87E34A02",
-      tasks: [
-        {
-          id: "71F9C183EF616BEB",
-          type: "item",
-          item: {
-            id: "ltxi:wonderland_head",
-            count: 1,
-          },
-        },
-        {
-          id: "731C59D5C6791933",
-          type: "item",
-          item: {
-            id: "ltxi:wonderland_body",
-            count: 1,
-          },
-        },
-        {
-          id: "28A0938DD0A75F98",
-          type: "item",
-          item: {
-            id: "ltxi:wonderland_legs",
-            count: 1,
-          },
-        },
-        {
-          id: "42C07D900DE72BF0",
-          type: "item",
-          item: {
-            id: "ltxi:wonderland_feet",
-            count: 1,
-          },
-        },
+      "x": 22.4,
+      "y": 22.6,
+      "shape": "hexagon",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "5B65FE0D134B6833",
+        "6834FED41A7E2515"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "5B65FE0D134B6833": [
+          22.4,
+          19,
+          22.4,
+          22.6
+        ],
+        "6834FED41A7E2515": [
+          9,
+          19,
+          22.4,
+          22.6
+        ]
+      },
+      "size": 1,
+      "id": "183DE3CD87E34A02",
+      "tasks": [
         {
-          id: "09602C7ED21EC774",
-          type: "xp",
-          xp: 400,
+          "id": "71F9C183EF616BEB",
+          "type": "item",
+          "item": {
+            "id": "ltxi:wonderland_head",
+            "count": 1
+          }
         },
         {
-          id: "67A7557FFCEF4744",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 379532711335085,
+          "id": "731C59D5C6791933",
+          "type": "item",
+          "item": {
+            "id": "ltxi:wonderland_body",
+            "count": 1
+          }
         },
+        {
+          "id": "28A0938DD0A75F98",
+          "type": "item",
+          "item": {
+            "id": "ltxi:wonderland_legs",
+            "count": 1
+          }
+        },
+        {
+          "id": "42C07D900DE72BF0",
+          "type": "item",
+          "item": {
+            "id": "ltxi:wonderland_feet",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "09602C7ED21EC774",
+          "type": "xp",
+          "xp": 400
+        },
+        {
+          "id": "67A7557FFCEF4744",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 379532711335085
+        }
+      ]
     },
     {
-      x: 24.2,
-      y: 19,
-      dependencies: ["646812DFC816876D"],
-      hide_dependency_lines: true,
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"646812DFC816876D":[9,24.4,24.2,19]},
-      id: "718CDB14F9ABA6F1",
-      tasks: [
-        {
-          id: "35F7D43379547BD1",
-          type: "item",
-          item: {
-            id: "ltxi:arc_turret",
-            count: 1,
-          },
-        },
+      "x": 24.2,
+      "y": 19,
+      "shape": "circle",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "646812DFC816876D"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "646812DFC816876D": [
+          9,
+          24.4,
+          24.2,
+          19
+        ]
+      },
+      "size": 1,
+      "id": "718CDB14F9ABA6F1",
+      "tasks": [
         {
-          id: "6395B5653ABA3014",
-          type: "xp",
-          xp: 200,
-        },
-        {
-          id: "0E81800FCCEB672F",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 253752461985528,
-        },
+          "id": "35F7D43379547BD1",
+          "type": "item",
+          "item": {
+            "id": "ltxi:arc_turret",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "6395B5653ABA3014",
+          "type": "xp",
+          "xp": 200
+        },
+        {
+          "id": "0E81800FCCEB672F",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 253752461985528
+        }
+      ]
     },
     {
-      x: 24.2,
-      y: 22.6,
-      dependencies: ["718CDB14F9ABA6F1","6834FED41A7E2515"],
-      hide_dependency_lines: true,
-      shape: "hexagon",
-      size: 1,
-      dep_control_pts: {"718CDB14F9ABA6F1":[24.2,19,24.2,22.6],"6834FED41A7E2515":[9,19,24.2,22.6]},
-      id: "6F7B8FCA96E1C2DE",
-      tasks: [
-        {
-          id: "26F3E145ACC6AC54",
-          type: "item",
-          item: {
-            id: "ltxi:railgun_turret",
-            count: 1,
-          },
-        },
-        {
-          id: "75A5DC1AA3C144D9",
-          type: "item",
-          item: {
-            id: "ltxi:rocket_turret",
-            count: 1,
-          },
-        },
+      "x": 24.2,
+      "y": 22.6,
+      "shape": "hexagon",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "718CDB14F9ABA6F1",
+        "6834FED41A7E2515"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "6834FED41A7E2515": [
+          9,
+          19,
+          24.2,
+          22.6
+        ],
+        "718CDB14F9ABA6F1": [
+          24.2,
+          19,
+          24.2,
+          22.6
+        ]
+      },
+      "size": 1,
+      "id": "6F7B8FCA96E1C2DE",
+      "tasks": [
         {
-          id: "6ECD6F75C1EC48F2",
-          type: "xp",
-          xp: 300,
+          "id": "26F3E145ACC6AC54",
+          "type": "item",
+          "item": {
+            "id": "ltxi:railgun_turret",
+            "count": 1
+          }
         },
         {
-          id: "4A96803AEADF3DB5",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 2210856162803377,
-        },
+          "id": "75A5DC1AA3C144D9",
+          "type": "item",
+          "item": {
+            "id": "ltxi:rocket_turret",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "6ECD6F75C1EC48F2",
+          "type": "xp",
+          "xp": 300
+        },
+        {
+          "id": "4A96803AEADF3DB5",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2210856162803377
+        }
+      ]
     },
     {
-      x: 26,
-      y: 22.6,
-      dependencies: ["5B65FE0D134B6833"],
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"5B65FE0D134B6833":[22.4,19,26,22.6]},
-      id: "5FF25406AF687ECB",
-      tasks: [
-        {
-          id: "45576D48BC814A77",
-          type: "item",
-          item: {
-            id: "ltxi:repair_station",
-            count: 1,
-          },
-        },
+      "x": 26,
+      "y": 22.6,
+      "shape": "circle",
+      "dependencies": [
+        "5B65FE0D134B6833"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "5B65FE0D134B6833": [
+          22.4,
+          19,
+          26,
+          22.6
+        ]
+      },
+      "size": 1,
+      "id": "5FF25406AF687ECB",
+      "tasks": [
         {
-          id: "19CE8B047765A77B",
-          type: "xp",
-          xp: 100,
-        },
+          "id": "45576D48BC814A77",
+          "type": "item",
+          "item": {
+            "id": "ltxi:repair_station",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "19CE8B047765A77B",
+          "type": "xp",
+          "xp": 100
+        }
+      ]
     },
     {
-      x: 26,
-      y: 19,
-      optional: true,
-      dependencies: ["30B8BF743D17D20E"],
-      hide_dependency_lines: true,
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"30B8BF743D17D20E":[5.4,1.8,26,19]},
-      id: "16F5EA3A166A3C3F",
-      tasks: [
-        {
-          id: "755B4CE6E76B084A",
-          type: "item",
-          item: {
-            id: "ltxi:ltx_lime_neon_light",
-            count: 1,
-          },
-          count: 8,
-        },
-        {
-          id: "5E0F6D5A11D92C41",
-          type: "item",
-          item: {
-            id: "ltxi:energy_blue_neon_light",
-            count: 1,
-          },
-          count: 8,
-        },
+      "x": 26,
+      "y": 19,
+      "shape": "diamond",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "30B8BF743D17D20E"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "30B8BF743D17D20E": [
+          5.4,
+          1.8,
+          26,
+          19
+        ]
+      },
+      "size": 1,
+      "optional": true,
+      "id": "16F5EA3A166A3C3F",
+      "tasks": [
         {
-          id: "652ABBDADBBEF216",
-          type: "xp",
-          xp: 25,
+          "id": "755B4CE6E76B084A",
+          "type": "item",
+          "item": {
+            "id": "ltxi:ltx_lime_neon_light",
+            "count": 1
+          },
+          "count": 8
         },
+        {
+          "id": "5E0F6D5A11D92C41",
+          "type": "item",
+          "item": {
+            "id": "ltxi:energy_blue_neon_light",
+            "count": 1
+          },
+          "count": 8
+        }
       ],
+      "rewards": [
+        {
+          "id": "652ABBDADBBEF216",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
     },
     {
-      x: 22.4,
-      y: 20.8,
-      optional: true,
-      dependencies: ["6193CFC2A93CD732"],
-      hide_dependency_lines: true,
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"6193CFC2A93CD732":[1.8,12.2,22.4,20.8]},
-      id: "4D17ACC3890CBD04",
-      tasks: [
-        {
-          id: "0E24AB39F670F816",
-          type: "item",
-          item: {
-            id: "ltxi:hanabi",
-            count: 1,
-          },
-        },
-        {
-          id: "438A541FA7B64FF9",
-          type: "item",
-          item: {
-            id: "ltxi:aurora",
-            count: 1,
-          },
-        },
+      "x": 22.4,
+      "y": 20.8,
+      "shape": "diamond",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "6193CFC2A93CD732"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "6193CFC2A93CD732": [
+          1.8,
+          12.2,
+          22.4,
+          20.8
+        ]
+      },
+      "size": 1,
+      "optional": true,
+      "id": "4D17ACC3890CBD04",
+      "tasks": [
         {
-          id: "441010AE2A30D2EF",
-          type: "xp",
-          xp: 50,
+          "id": "0E24AB39F670F816",
+          "type": "item",
+          "item": {
+            "id": "ltxi:hanabi",
+            "count": 1
+          }
         },
+        {
+          "id": "438A541FA7B64FF9",
+          "type": "item",
+          "item": {
+            "id": "ltxi:aurora",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "441010AE2A30D2EF",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
     },
     {
-      x: 24.2,
-      y: 20.8,
-      dependencies: ["6834FED41A7E2515"],
-      hide_dependency_lines: true,
-      shape: "circle",
-      size: 1,
-      dep_control_pts: {"6834FED41A7E2515":[9,19,24.2,20.8]},
-      id: "74EC792AA4E74641",
-      tasks: [
-        {
-          id: "72A994E892CD3AE6",
-          type: "item",
-          item: {
-            id: "ltxi:infinite_water_tank",
-            count: 1,
-          },
-        },
-        {
-          id: "0D8411CFBD4CC800",
-          type: "item",
-          item: {
-            id: "ltxi:infinite_lava_tank",
-            count: 1,
-          },
-        },
+      "x": 24.2,
+      "y": 20.8,
+      "shape": "circle",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "6834FED41A7E2515"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "6834FED41A7E2515": [
+          9,
+          19,
+          24.2,
+          20.8
+        ]
+      },
+      "size": 1,
+      "id": "74EC792AA4E74641",
+      "tasks": [
         {
-          id: "22B9E38D6E8A6939",
-          type: "xp",
-          xp: 200,
+          "id": "72A994E892CD3AE6",
+          "type": "item",
+          "item": {
+            "id": "ltxi:infinite_water_tank",
+            "count": 1
+          }
         },
         {
-          id: "3718A727F8B3C062",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 2210856162803377,
-        },
+          "id": "0D8411CFBD4CC800",
+          "type": "item",
+          "item": {
+            "id": "ltxi:infinite_lava_tank",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "22B9E38D6E8A6939",
+          "type": "xp",
+          "xp": 200
+        },
+        {
+          "id": "3718A727F8B3C062",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2210856162803377
+        }
+      ]
     },
     {
-      x: 23.3,
-      y: 24.4,
-      dependencies: ["48BD332B7A82BE19","183DE3CD87E34A02","31CD8AF3DC1AB915"],
-      hide_dependency_lines: true,
-      shape: "gear",
-      size: 1.3,
-      dep_control_pts: {"48BD332B7A82BE19":[12.6,21.7,23.3,24.4],"183DE3CD87E34A02":[22.4,22.6,23.3,24.4],"31CD8AF3DC1AB915":[9,22.6,23.3,24.4]},
-      id: "451875488A68AA62",
-      tasks: [
-        {
-          id: "679E74873E0AC921",
-          type: "item",
-          item: {
-            id: "ltxi:infinite_energy_cell_array",
-            count: 1,
-          },
-        },
+      "x": 23.3,
+      "y": 24.4,
+      "shape": "gear",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "48BD332B7A82BE19",
+        "183DE3CD87E34A02",
+        "31CD8AF3DC1AB915"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "183DE3CD87E34A02": [
+          22.4,
+          22.6,
+          23.3,
+          24.4
+        ],
+        "48BD332B7A82BE19": [
+          12.6,
+          21.7,
+          23.3,
+          24.4
+        ],
+        "31CD8AF3DC1AB915": [
+          9,
+          22.6,
+          23.3,
+          24.4
+        ]
+      },
+      "size": 1.3,
+      "id": "451875488A68AA62",
+      "tasks": [
         {
-          id: "25F8AF1F47B13FBD",
-          type: "xp_levels",
-          xp_levels: 30,
-        },
-        {
-          id: "38B0CC8631C5FD57",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 379532711335085,
-        },
+          "id": "679E74873E0AC921",
+          "type": "item",
+          "item": {
+            "id": "ltxi:infinite_energy_cell_array",
+            "count": 1
+          }
+        }
       ],
-    },
+      "rewards": [
+        {
+          "id": "25F8AF1F47B13FBD",
+          "type": "xp_levels",
+          "xp_levels": 30
+        },
+        {
+          "id": "38B0CC8631C5FD57",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 379532711335085
+        }
+      ]
+    }
   ],
-  quest_links: [
-  ],
-  images: [
-  {
-    "x": 13,
-    "y": -1.7188,
-    "width": 12,
-    "height": 1.4375,
-    "rotation": 0,
-    "image": "gspack:textures/quests/ltx_header.png",
-    "color": 16777215,
-    "alpha": 255,
-    "order": 0,
-    "corner": false
-  },
-  {
-    "x": 17.9,
-    "y": 19,
-    "width": 3.6,
-    "height": 0.6,
-    "rotation": 0,
-    "image": "gspack:textures/quests/ltx_upgrades.png",
-    "color": 16777215,
-    "alpha": 255,
-    "order": 0,
-    "corner": false
-  },
-  {
-    "x": -2.1882,
-    "y": 13.1,
-    "width": 2.5765,
-    "height": 0.6,
-    "rotation": 0,
-    "image": "gspack:textures/quests/ltx_mixer.png",
-    "color": 16777215,
-    "alpha": 255,
-    "order": 0,
-    "corner": false
-  },
-  {
-    "x": -2.7,
-    "y": 1.8,
-    "width": 3.6,
-    "height": 0.6,
-    "rotation": 0,
-    "image": "gspack:textures/quests/ltx_tablet.png",
-    "color": 16777215,
-    "alpha": 255,
-    "order": 0,
-    "corner": false
-  },
-  {
-    "x": -3.2824,
-    "y": 21.7,
-    "width": 4.7647,
-    "height": 0.6,
-    "rotation": 0,
-    "image": "gspack:textures/quests/ltx_press.png",
-    "color": 16777215,
-    "alpha": 255,
-    "order": 0,
-    "corner": false
-  },
-  {
-    "x": 16.1529,
-    "y": 0,
-    "width": 3.4941,
-    "height": 0.6,
-    "rotation": 0,
-    "image": "gspack:textures/quests/ltx_grinder.png",
-    "color": 16777215,
-    "alpha": 255,
-    "order": 0,
-    "corner": false
-  }
-],
+  "quest_links": [],
+  "images": [
+    {
+      "x": 13,
+      "y": -1.7188,
+      "width": 12,
+      "height": 1.4375,
+      "rotation": 0,
+      "image": "gspack:textures/quests/ltx_header.png",
+      "id": "40716498E83E2864"
+    },
+    {
+      "x": 17.9,
+      "y": 19,
+      "width": 3.6,
+      "height": 0.6,
+      "rotation": 0,
+      "image": "gspack:textures/quests/ltx_upgrades.png",
+      "id": "7F222F4C6864C293"
+    },
+    {
+      "x": -2.1882,
+      "y": 13.1,
+      "width": 2.5765,
+      "height": 0.6,
+      "rotation": 0,
+      "image": "gspack:textures/quests/ltx_mixer.png",
+      "id": "039455794A8A2EE5"
+    },
+    {
+      "x": -2.7,
+      "y": 1.8,
+      "width": 3.6,
+      "height": 0.6,
+      "rotation": 0,
+      "image": "gspack:textures/quests/ltx_tablet.png",
+      "id": "7F71A2147C10CAC5"
+    },
+    {
+      "x": -3.2824,
+      "y": 21.7,
+      "width": 4.7647,
+      "height": 0.6,
+      "rotation": 0,
+      "image": "gspack:textures/quests/ltx_press.png",
+      "id": "762E15ECCA98F8E4"
+    },
+    {
+      "x": 16.1529,
+      "y": 0,
+      "width": 3.4941,
+      "height": 0.6,
+      "rotation": 0,
+      "image": "gspack:textures/quests/ltx_grinder.png",
+      "id": "5F5F1F313D97B127"
+    }
+  ]
 }

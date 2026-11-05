@@ -1,0 +1,58 @@
+{
+  "quest.0116782E2FADB3ED.title": "Novite Block",
+  "quest.348E4AE8B29D02D9.quest_desc": [
+    "Required mod: stellaris. Produce this component through that mod. Crafting consumes the quantities listed in JEI."
+  ],
+  "quest.7DF012E186FC4F8D.quest_desc": [
+    "Use the Elite Crafting Table (7x7). The outer frame requires 4 Elite Components, 16 Black Iron Ingots and 4 themed frame ingredients. The nine inner ingredients come from this core's mod group. Check JEI for their exact arrangement."
+  ],
+  "quest.61E4F9A69A6BA1C5.quest_desc": [
+    "Required mod: stellaris. Produce this component through that mod. Crafting consumes the quantities listed in JEI."
+  ],
+  "quest.7F5CDB3E47DA75CE.title": "Space Station Blueprint",
+  "quest.4B095200D95BEDEE.quest_desc": [
+    "Required mod: stellaris. Produce this component through that mod. Crafting consumes the quantities listed in JEI."
+  ],
+  "quest.0116782E2FADB3ED.quest_desc": [
+    "Required mod: stellaris. Produce this component through that mod. Crafting consumes the quantities listed in JEI."
+  ],
+  "quest.348E4AE8B29D02D9.title": "Star Crawler Boss Trophy",
+  "quest.61A8824167D66208.title": "Cosmic Core",
+  "quest.7DF012E186FC4F8D.title": "Elite Crafting Table",
+  "quest.4B095200D95BEDEE.title": "Autopilot Module",
+  "quest.44F506C971CA14CC.quest_desc": [
+    "Required mod: stellaris. Produce this component through that mod. Crafting consumes the quantities listed in JEI."
+  ],
+  "quest.5393EE5AA8439B7B.title": "Assembly Materials",
+  "quest.61E4F9A69A6BA1C5.title": "Shield Module",
+  "quest.7F5CDB3E47DA75CE.quest_desc": [
+    "Required mod: stellaris. Produce this component through that mod. Crafting consumes the quantities listed in JEI."
+  ],
+  "quest.44F506C971CA14CC.title": "Heart Of Luna Trophy",
+  "quest.5393EE5AA8439B7B.quest_desc": [
+    "Prepare these materials in the full quantities shown by JEI. Frame ingredients are required as well as the central mod components."
+  ],
+  "quest.73BE79A4DBC9C4A2.title": "Cosmic Core: Start",
+  "quest.73BE79A4DBC9C4A2.quest_desc": [
+    "Complete this route independently. Quests do not consume ingredients. JEI shows exact quantities. Combine all five cores in a Powah Energizing Orb with 1 billion FE."
+  ],
+  "quest.61A8824167D66208.quest_desc": [
+    "Craft this core and continue in Endgame: Infinity. Every Creative Singularity needs all five cores."
+  ],
+  "chapter.323BC9AFB4862C05.chapter_subtitle": [
+    "Master the ingredients and craft this endgame core."
+  ],
+  "chapter.323BC9AFB4862C05.title": "Cosmic Core",
+  "quest.30150D4A80405EEF.quest_desc": [
+    "Required mod: stellaris. Produce this component through that mod. Crafting consumes the quantities listed in JEI."
+  ],
+  "quest.30150D4A80405EEF.title": "Astrum Vitreus Block",
+  "quest.31A2FBCC99155793.quest_desc": [
+    "Required mod: advanced_ae. Produce this component through that mod. Crafting consumes the quantities listed in JEI."
+  ],
+  "quest.31A2FBCC99155793.title": "Quantum Processor",
+  "quest.477013FDC36CEB46.quest_desc": [
+    "Required mod: powah. Produce this component through that mod. Crafting consumes the quantities listed in JEI."
+  ],
+  "quest.477013FDC36CEB46.title": "Energy Cell Nitro"
+}

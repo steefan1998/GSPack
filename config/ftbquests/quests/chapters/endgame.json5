@@ -1,1006 +1,1440 @@
 {
-  id: "43AF5A6C91030254",
-  group: "102546F445E619D7",
-  order_index: 0,
-  icon: {
-    id: "gspack:infinity_trophy",
-    count: 1,
+  "id": "43AF5A6C91030254",
+  "group": "102546F445E619D7",
+  "order_index": 41,
+  "icon": {
+    "id": "gspack:infinity_trophy",
+    "count": 1
   },
-  filename: "endgame",
-  default_quest_shape: "",
-  default_hide_dependency_lines: false,
-  quests: [
+  "filename": "endgame",
+  "default_quest_shape": "",
+  "default_hide_dependency_lines": false,
+  "quests": [
     {
-      icon: {
-        id: "gspack:infinity_trophy",
-        count: 1,
+      "icon": {
+        "id": "gspack:infinity_trophy",
+        "count": 1
       },
-      x: 0,
-      y: 0,
-      shape: "gear",
-      size: 1.3,
-      id: "63A5F5C024728020",
-      tasks: [
+      "x": 0,
+      "y": 0,
+      "shape": "gear",
+      "size": 1.3,
+      "id": "63A5F5C024728020",
+      "tasks": [
         {
-          id: "6430B0C64CBD9505",
-          type: "checkmark",
-        },
+          "id": "6430B0C64CBD9505",
+          "type": "checkmark"
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "7DA9CF5023FA1917",
-          type: "xp",
-          xp: 100,
-        },
-      ],
+          "id": "7DA9CF5023FA1917",
+          "type": "xp",
+          "xp": 100
+        }
+      ]
     },
     {
-      x: 8,
-      y: 0,
-      dependencies: ["63A5F5C024728020"],
-      hide_dependency_lines: true,
-      shape: "gear",
-      size: 1.3,
-      dep_control_pts: {"63A5F5C024728020":[0,0,8,0]},
-      id: "6EF5BBD9118F05B1",
-      tasks: [
-        {
-          id: "7954B3F59C7959BF",
-          type: "item",
-          item: {
-            id: "gspack:tech_core",
-            count: 1,
-          },
-        },
+      "x": 8,
+      "y": 0,
+      "shape": "gear",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "63A5F5C024728020"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "63A5F5C024728020": [
+          0,
+          0,
+          8,
+          0
+        ]
+      },
+      "size": 1.3,
+      "id": "6EF5BBD9118F05B1",
+      "tasks": [
         {
-          id: "10A13C40880B47C2",
-          type: "xp",
-          xp: 1000,
-        },
-        {
-          id: "393C516F3B17819C",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 379532711335085,
-        },
+          "id": "7954B3F59C7959BF",
+          "type": "item",
+          "item": {
+            "id": "gspack:tech_core",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "10A13C40880B47C2",
+          "type": "xp",
+          "xp": 1000
+        },
+        {
+          "id": "393C516F3B17819C",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 379532711335085
+        }
+      ]
     },
     {
-      x: 9.8,
-      y: 0,
-      dependencies: ["63A5F5C024728020"],
-      hide_dependency_lines: true,
-      shape: "gear",
-      size: 1.3,
-      dep_control_pts: {"63A5F5C024728020":[0,0,9.8,0]},
-      id: "7B383D694996D3C1",
-      tasks: [
-        {
-          id: "1036B6C5349EF400",
-          type: "item",
-          item: {
-            id: "gspack:arcane_core",
-            count: 1,
-          },
-        },
+      "x": 9.8,
+      "y": 0,
+      "shape": "gear",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "63A5F5C024728020"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "63A5F5C024728020": [
+          0,
+          0,
+          9.8,
+          0
+        ]
+      },
+      "size": 1.3,
+      "id": "7B383D694996D3C1",
+      "tasks": [
         {
-          id: "7CD337B8AA1C6EA5",
-          type: "xp",
-          xp: 1000,
-        },
-        {
-          id: "3A658050D40218E5",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 379532711335085,
-        },
+          "id": "1036B6C5349EF400",
+          "type": "item",
+          "item": {
+            "id": "gspack:arcane_core",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "7CD337B8AA1C6EA5",
+          "type": "xp",
+          "xp": 1000
+        },
+        {
+          "id": "3A658050D40218E5",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 379532711335085
+        }
+      ]
     },
     {
-      x: 11.6,
-      y: 0,
-      dependencies: ["63A5F5C024728020"],
-      hide_dependency_lines: true,
-      shape: "gear",
-      size: 1.3,
-      dep_control_pts: {"63A5F5C024728020":[0,0,11.6,0]},
-      id: "4593CB8C7998DC0F",
-      tasks: [
-        {
-          id: "07FA10A2BBB58745",
-          type: "item",
-          item: {
-            id: "gspack:verdant_core",
-            count: 1,
-          },
-        },
+      "x": 11.6,
+      "y": 0,
+      "shape": "gear",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "63A5F5C024728020"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "63A5F5C024728020": [
+          0,
+          0,
+          11.6,
+          0
+        ]
+      },
+      "size": 1.3,
+      "id": "4593CB8C7998DC0F",
+      "tasks": [
         {
-          id: "3F92313494F481CE",
-          type: "xp",
-          xp: 1000,
-        },
-        {
-          id: "0E01FFC79E7E1FD8",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 379532711335085,
-        },
+          "id": "07FA10A2BBB58745",
+          "type": "item",
+          "item": {
+            "id": "gspack:verdant_core",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "3F92313494F481CE",
+          "type": "xp",
+          "xp": 1000
+        },
+        {
+          "id": "0E01FFC79E7E1FD8",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 379532711335085
+        }
+      ]
     },
     {
-      x: 13.4,
-      y: 0,
-      dependencies: ["63A5F5C024728020"],
-      hide_dependency_lines: true,
-      shape: "gear",
-      size: 1.3,
-      dep_control_pts: {"63A5F5C024728020":[0,0,13.4,0]},
-      id: "24D85F4E0B73E8CE",
-      tasks: [
-        {
-          id: "7F39FE98F8A354CE",
-          type: "item",
-          item: {
-            id: "gspack:dimensional_core",
-            count: 1,
-          },
-        },
+      "x": 13.4,
+      "y": 0,
+      "shape": "gear",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "63A5F5C024728020"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "63A5F5C024728020": [
+          0,
+          0,
+          13.4,
+          0
+        ]
+      },
+      "size": 1.3,
+      "id": "24D85F4E0B73E8CE",
+      "tasks": [
         {
-          id: "2587486449DFF88B",
-          type: "xp",
-          xp: 1000,
-        },
-        {
-          id: "72A154983F478FF1",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 379532711335085,
-        },
+          "id": "7F39FE98F8A354CE",
+          "type": "item",
+          "item": {
+            "id": "gspack:dimensional_core",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "2587486449DFF88B",
+          "type": "xp",
+          "xp": 1000
+        },
+        {
+          "id": "72A154983F478FF1",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 379532711335085
+        }
+      ]
     },
     {
-      x: 10.7,
-      y: 1.8,
-      dependencies: ["63A5F5C024728020"],
-      hide_dependency_lines: true,
-      shape: "gear",
-      size: 1.3,
-      dep_control_pts: {"63A5F5C024728020":[0,0,10.7,1.8]},
-      id: "0F9246D4F65EF111",
-      tasks: [
-        {
-          id: "6A46D3277FF6FAF5",
-          type: "item",
-          item: {
-            id: "gspack:cosmic_core",
-            count: 1,
-          },
-        },
+      "x": 10.7,
+      "y": 1.8,
+      "shape": "gear",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "63A5F5C024728020"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "63A5F5C024728020": [
+          0,
+          0,
+          10.7,
+          1.8
+        ]
+      },
+      "size": 1.3,
+      "id": "0F9246D4F65EF111",
+      "tasks": [
         {
-          id: "48E80DE99A910F54",
-          type: "xp",
-          xp: 1000,
-        },
-        {
-          id: "5E687B5747BDD4A0",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 379532711335085,
-        },
+          "id": "6A46D3277FF6FAF5",
+          "type": "item",
+          "item": {
+            "id": "gspack:cosmic_core",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "48E80DE99A910F54",
+          "type": "xp",
+          "xp": 1000
+        },
+        {
+          "id": "5E687B5747BDD4A0",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 379532711335085
+        }
+      ]
     },
     {
-      x: 21.4,
-      y: 0,
-      dependencies: ["6EF5BBD9118F05B1","7B383D694996D3C1","4593CB8C7998DC0F","24D85F4E0B73E8CE","0F9246D4F65EF111"],
-      hide_dependency_lines: true,
-      shape: "gear",
-      size: 1.3,
-      dep_control_pts: {"6EF5BBD9118F05B1":[8,0,21.4,0],"7B383D694996D3C1":[9.8,0,21.4,0],"4593CB8C7998DC0F":[11.6,0,21.4,0],"24D85F4E0B73E8CE":[13.4,0,21.4,0],"0F9246D4F65EF111":[10.7,1.8,21.4,0]},
-      id: "45A5E6B642F0DE42",
-      tasks: [
-        {
-          id: "3091819C43D0AB91",
-          type: "item",
-          item: {
-            id: "gspack:creative_singularity",
-            count: 1,
-          },
-        },
+      "x": 21.4,
+      "y": 0,
+      "shape": "gear",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "6EF5BBD9118F05B1",
+        "7B383D694996D3C1",
+        "4593CB8C7998DC0F",
+        "24D85F4E0B73E8CE",
+        "0F9246D4F65EF111"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "0F9246D4F65EF111": [
+          10.7,
+          1.8,
+          21.4,
+          0
+        ],
+        "7B383D694996D3C1": [
+          9.8,
+          0,
+          21.4,
+          0
+        ],
+        "24D85F4E0B73E8CE": [
+          13.4,
+          0,
+          21.4,
+          0
+        ],
+        "6EF5BBD9118F05B1": [
+          8,
+          0,
+          21.4,
+          0
+        ],
+        "4593CB8C7998DC0F": [
+          11.6,
+          0,
+          21.4,
+          0
+        ]
+      },
+      "size": 1.3,
+      "id": "45A5E6B642F0DE42",
+      "tasks": [
         {
-          id: "06CA09BA3EEB37A2",
-          type: "xp_levels",
-          xp_levels: 50,
-        },
-        {
-          id: "573197AD2150EDDF",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 379532711335085,
-        },
+          "id": "3091819C43D0AB91",
+          "type": "item",
+          "item": {
+            "id": "gspack:creative_singularity",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "06CA09BA3EEB37A2",
+          "type": "xp_levels",
+          "xp_levels": 50
+        },
+        {
+          "id": "573197AD2150EDDF",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 379532711335085
+        }
+      ]
     },
     {
-      x: 21.4,
-      y: 1.8,
-      dependencies: ["63A5F5C024728020"],
-      hide_dependency_lines: true,
-      shape: "gear",
-      size: 1.3,
-      dep_control_pts: {"63A5F5C024728020":[0,0,21.4,1.8]},
-      id: "6DCDEED94D410642",
-      tasks: [
-        {
-          id: "2865A6ADE8A39552",
-          type: "item",
-          item: {
-            id: "extendedcrafting:elite_table",
-            count: 1,
-          },
-        },
+      "x": 21.4,
+      "y": 1.8,
+      "shape": "gear",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "63A5F5C024728020"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "63A5F5C024728020": [
+          0,
+          0,
+          21.4,
+          1.8
+        ]
+      },
+      "size": 1.3,
+      "id": "6DCDEED94D410642",
+      "tasks": [
         {
-          id: "10F8CD3552783C0F",
-          type: "xp",
-          xp: 500,
-        },
-        {
-          id: "4D83D9C53F27506C",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 379532711335085,
-        },
+          "id": "2865A6ADE8A39552",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:elite_table",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "10F8CD3552783C0F",
+          "type": "xp",
+          "xp": 500
+        },
+        {
+          "id": "4D83D9C53F27506C",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 379532711335085
+        }
+      ]
     },
     {
-      x: 23.2,
-      y: 0.9,
-      dependencies: ["6DCDEED94D410642"],
-      shape: "gear",
-      size: 1.3,
-      dep_control_pts: {"6DCDEED94D410642":[21.4,1.8,23.2,0.9]},
-      id: "048131CEA4B264AB",
-      tasks: [
-        {
-          id: "1F9283F948D7BA54",
-          type: "item",
-          item: {
-            id: "extendedcrafting:ultimate_table",
-            count: 1,
-          },
-        },
+      "x": 23.2,
+      "y": 0.9,
+      "shape": "gear",
+      "dependencies": [
+        "6DCDEED94D410642"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "6DCDEED94D410642": [
+          21.4,
+          1.8,
+          23.2,
+          0.9
+        ]
+      },
+      "size": 1.3,
+      "id": "048131CEA4B264AB",
+      "tasks": [
         {
-          id: "6E39989C2BE7476E",
-          type: "xp",
-          xp: 1000,
-        },
-        {
-          id: "5A298AC499898897",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 379532711335085,
-        },
+          "id": "1F9283F948D7BA54",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:ultimate_table",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "6E39989C2BE7476E",
+          "type": "xp",
+          "xp": 1000
+        },
+        {
+          "id": "5A298AC499898897",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 379532711335085
+        }
+      ]
     },
     {
-      x: 25,
-      y: 0.9,
-      dependencies: ["048131CEA4B264AB"],
-      shape: "gear",
-      size: 1.3,
-      dep_control_pts: {"048131CEA4B264AB":[23.2,0.9,25,0.9]},
-      id: "7D69FC9AA4346E41",
-      tasks: [
-        {
-          id: "4C2FA6A16F90E96C",
-          type: "item",
-          item: {
-            id: "extendedcrafting:ultimate_singularity",
-            count: 1,
-          },
-        },
+      "x": 25,
+      "y": 0.9,
+      "shape": "gear",
+      "dependencies": [
+        "048131CEA4B264AB"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "048131CEA4B264AB": [
+          23.2,
+          0.9,
+          25,
+          0.9
+        ]
+      },
+      "size": 1.3,
+      "id": "7D69FC9AA4346E41",
+      "tasks": [
         {
-          id: "7768B4DC7590EE62",
-          type: "xp",
-          xp: 1000,
-        },
-        {
-          id: "73BB1A5C195AB1B3",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 379532711335085,
-        },
+          "id": "4C2FA6A16F90E96C",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:ultimate_singularity",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "7768B4DC7590EE62",
+          "type": "xp",
+          "xp": 1000
+        },
+        {
+          "id": "73BB1A5C195AB1B3",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 379532711335085
+        }
+      ]
     },
     {
-      x: 0,
-      y: 5,
-      dependencies: ["45A5E6B642F0DE42","6DCDEED94D410642"],
-      hide_dependency_lines: true,
-      shape: "hexagon",
-      size: 1,
-      dep_control_pts: {"45A5E6B642F0DE42":[21.4,0,0,5],"6DCDEED94D410642":[21.4,1.8,0,5]},
-      id: "64B2FEC45C848AF6",
-      tasks: [
-        {
-          id: "19EBCBF3933A7DB0",
-          type: "item",
-          item: {
-            id: "mekanism:creative_energy_cube",
-            count: 1,
-          },
-        },
+      "x": 0,
+      "y": 5,
+      "shape": "hexagon",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "45A5E6B642F0DE42",
+        "6DCDEED94D410642"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "6DCDEED94D410642": [
+          21.4,
+          1.8,
+          0,
+          5
+        ],
+        "45A5E6B642F0DE42": [
+          21.4,
+          0,
+          0,
+          5
+        ]
+      },
+      "size": 1,
+      "id": "64B2FEC45C848AF6",
+      "tasks": [
         {
-          id: "755EB52B1E5B6F6E",
-          type: "xp",
-          xp: 500,
-        },
-        {
-          id: "71ED4801744C8246",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 379532711335085,
-        },
+          "id": "19EBCBF3933A7DB0",
+          "type": "item",
+          "item": {
+            "id": "mekanism:creative_energy_cube",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "755EB52B1E5B6F6E",
+          "type": "xp",
+          "xp": 500
+        },
+        {
+          "id": "71ED4801744C8246",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 379532711335085
+        }
+      ]
     },
     {
-      x: 0,
-      y: 6.8,
-      dependencies: ["45A5E6B642F0DE42","6DCDEED94D410642"],
-      hide_dependency_lines: true,
-      shape: "hexagon",
-      size: 1,
-      dep_control_pts: {"45A5E6B642F0DE42":[21.4,0,0,6.8],"6DCDEED94D410642":[21.4,1.8,0,6.8]},
-      id: "2898DC9B19EB906F",
-      tasks: [
-        {
-          id: "31355E34AF3EFF14",
-          type: "item",
-          item: {
-            id: "mekanism:creative_fluid_tank",
-            count: 1,
-          },
-        },
+      "x": 0,
+      "y": 6.8,
+      "shape": "hexagon",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "45A5E6B642F0DE42",
+        "6DCDEED94D410642"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "6DCDEED94D410642": [
+          21.4,
+          1.8,
+          0,
+          6.8
+        ],
+        "45A5E6B642F0DE42": [
+          21.4,
+          0,
+          0,
+          6.8
+        ]
+      },
+      "size": 1,
+      "id": "2898DC9B19EB906F",
+      "tasks": [
         {
-          id: "6AA0342FFFA3F2A4",
-          type: "xp",
-          xp: 500,
-        },
-        {
-          id: "064137BE833594AA",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 379532711335085,
-        },
+          "id": "31355E34AF3EFF14",
+          "type": "item",
+          "item": {
+            "id": "mekanism:creative_fluid_tank",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "6AA0342FFFA3F2A4",
+          "type": "xp",
+          "xp": 500
+        },
+        {
+          "id": "064137BE833594AA",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 379532711335085
+        }
+      ]
     },
     {
-      x: 0,
-      y: 8.6,
-      dependencies: ["45A5E6B642F0DE42","6DCDEED94D410642"],
-      hide_dependency_lines: true,
-      shape: "hexagon",
-      size: 1,
-      dep_control_pts: {"45A5E6B642F0DE42":[21.4,0,0,8.6],"6DCDEED94D410642":[21.4,1.8,0,8.6]},
-      id: "3C8AA2E3BE5359B4",
-      tasks: [
-        {
-          id: "0DF9868BFF03E210",
-          type: "item",
-          item: {
-            id: "ae2:creative_storage_cell",
-            count: 1,
-          },
-        },
+      "x": 0,
+      "y": 8.6,
+      "shape": "hexagon",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "45A5E6B642F0DE42",
+        "6DCDEED94D410642"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "6DCDEED94D410642": [
+          21.4,
+          1.8,
+          0,
+          8.6
+        ],
+        "45A5E6B642F0DE42": [
+          21.4,
+          0,
+          0,
+          8.6
+        ]
+      },
+      "size": 1,
+      "id": "3C8AA2E3BE5359B4",
+      "tasks": [
         {
-          id: "05DC8FE606215FE2",
-          type: "xp",
-          xp: 500,
-        },
-        {
-          id: "1BCA733C9EE99836",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 379532711335085,
-        },
+          "id": "0DF9868BFF03E210",
+          "type": "item",
+          "item": {
+            "id": "ae2:creative_storage_cell",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "05DC8FE606215FE2",
+          "type": "xp",
+          "xp": 500
+        },
+        {
+          "id": "1BCA733C9EE99836",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 379532711335085
+        }
+      ]
     },
     {
-      x: 0,
-      y: 10.4,
-      dependencies: ["45A5E6B642F0DE42","6DCDEED94D410642"],
-      hide_dependency_lines: true,
-      shape: "hexagon",
-      size: 1,
-      dep_control_pts: {"45A5E6B642F0DE42":[21.4,0,0,10.4],"6DCDEED94D410642":[21.4,1.8,0,10.4]},
-      id: "7B993D9D41977366",
-      tasks: [
-        {
-          id: "3BBF9AE1C7E98BC0",
-          type: "item",
-          item: {
-            id: "ae2:creative_energy_cell",
-            count: 1,
-          },
-        },
+      "x": 0,
+      "y": 10.4,
+      "shape": "hexagon",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "45A5E6B642F0DE42",
+        "6DCDEED94D410642"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "6DCDEED94D410642": [
+          21.4,
+          1.8,
+          0,
+          10.4
+        ],
+        "45A5E6B642F0DE42": [
+          21.4,
+          0,
+          0,
+          10.4
+        ]
+      },
+      "size": 1,
+      "id": "7B993D9D41977366",
+      "tasks": [
         {
-          id: "5455D5F444F6DD31",
-          type: "xp",
-          xp: 500,
-        },
-        {
-          id: "03EFFE9E0B7B7EB6",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 379532711335085,
-        },
+          "id": "3BBF9AE1C7E98BC0",
+          "type": "item",
+          "item": {
+            "id": "ae2:creative_energy_cell",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "5455D5F444F6DD31",
+          "type": "xp",
+          "xp": 500
+        },
+        {
+          "id": "03EFFE9E0B7B7EB6",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 379532711335085
+        }
+      ]
     },
     {
-      x: 1.8,
-      y: 5,
-      dependencies: ["45A5E6B642F0DE42","6DCDEED94D410642"],
-      hide_dependency_lines: true,
-      shape: "hexagon",
-      size: 1,
-      dep_control_pts: {"45A5E6B642F0DE42":[21.4,0,1.8,5],"6DCDEED94D410642":[21.4,1.8,1.8,5]},
-      id: "58B5171E08EAA508",
-      tasks: [
-        {
-          id: "51C872BCDA8D46D9",
-          type: "item",
-          item: {
-            id: "oritech:creative_storage",
-            count: 1,
-          },
-        },
+      "x": 1.8,
+      "y": 5,
+      "shape": "hexagon",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "45A5E6B642F0DE42",
+        "6DCDEED94D410642"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "6DCDEED94D410642": [
+          21.4,
+          1.8,
+          1.8,
+          5
+        ],
+        "45A5E6B642F0DE42": [
+          21.4,
+          0,
+          1.8,
+          5
+        ]
+      },
+      "size": 1,
+      "id": "58B5171E08EAA508",
+      "tasks": [
         {
-          id: "68726C6C6DE41F51",
-          type: "xp",
-          xp: 500,
-        },
-        {
-          id: "4A6551D1DB28E8C8",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 379532711335085,
-        },
+          "id": "51C872BCDA8D46D9",
+          "type": "item",
+          "item": {
+            "id": "oritech:creative_storage",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "68726C6C6DE41F51",
+          "type": "xp",
+          "xp": 500
+        },
+        {
+          "id": "4A6551D1DB28E8C8",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 379532711335085
+        }
+      ]
     },
     {
-      x: 1.8,
-      y: 6.8,
-      dependencies: ["45A5E6B642F0DE42","6DCDEED94D410642"],
-      hide_dependency_lines: true,
-      shape: "hexagon",
-      size: 1,
-      dep_control_pts: {"45A5E6B642F0DE42":[21.4,0,1.8,6.8],"6DCDEED94D410642":[21.4,1.8,1.8,6.8]},
-      id: "68B2FC3C9BC435B4",
-      tasks: [
-        {
-          id: "1BEFAB18D0A86AFD",
-          type: "item",
-          item: {
-            id: "powah:energy_cell_creative",
-            count: 1,
-          },
-        },
+      "x": 1.8,
+      "y": 6.8,
+      "shape": "hexagon",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "45A5E6B642F0DE42",
+        "6DCDEED94D410642"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "6DCDEED94D410642": [
+          21.4,
+          1.8,
+          1.8,
+          6.8
+        ],
+        "45A5E6B642F0DE42": [
+          21.4,
+          0,
+          1.8,
+          6.8
+        ]
+      },
+      "size": 1,
+      "id": "68B2FC3C9BC435B4",
+      "tasks": [
         {
-          id: "39C124B6AAEC4E6D",
-          type: "xp",
-          xp: 500,
-        },
-        {
-          id: "579F50ED1ADF1A29",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 379532711335085,
-        },
+          "id": "1BEFAB18D0A86AFD",
+          "type": "item",
+          "item": {
+            "id": "powah:energy_cell_creative",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "39C124B6AAEC4E6D",
+          "type": "xp",
+          "xp": 500
+        },
+        {
+          "id": "579F50ED1ADF1A29",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 379532711335085
+        }
+      ]
     },
     {
-      x: 1.8,
-      y: 8.6,
-      dependencies: ["45A5E6B642F0DE42","6DCDEED94D410642"],
-      hide_dependency_lines: true,
-      shape: "hexagon",
-      size: 1,
-      dep_control_pts: {"45A5E6B642F0DE42":[21.4,0,1.8,8.6],"6DCDEED94D410642":[21.4,1.8,1.8,8.6]},
-      id: "7B22113098F5905B",
-      tasks: [
-        {
-          id: "45DECAA807744DF6",
-          type: "item",
-          item: {
-            id: "mysticalagradditions:creative_essence",
-            count: 1,
-          },
-        },
+      "x": 1.8,
+      "y": 8.6,
+      "shape": "hexagon",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "45A5E6B642F0DE42",
+        "6DCDEED94D410642"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "6DCDEED94D410642": [
+          21.4,
+          1.8,
+          1.8,
+          8.6
+        ],
+        "45A5E6B642F0DE42": [
+          21.4,
+          0,
+          1.8,
+          8.6
+        ]
+      },
+      "size": 1,
+      "id": "7B22113098F5905B",
+      "tasks": [
         {
-          id: "3A7C2E12ADBA1C17",
-          type: "xp",
-          xp: 500,
-        },
-        {
-          id: "00E9368632CD8A80",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 379532711335085,
-        },
+          "id": "45DECAA807744DF6",
+          "type": "item",
+          "item": {
+            "id": "mysticalagradditions:creative_essence",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "3A7C2E12ADBA1C17",
+          "type": "xp",
+          "xp": 500
+        },
+        {
+          "id": "00E9368632CD8A80",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 379532711335085
+        }
+      ]
     },
     {
-      x: 1.8,
-      y: 10.4,
-      dependencies: ["45A5E6B642F0DE42","6DCDEED94D410642"],
-      hide_dependency_lines: true,
-      shape: "hexagon",
-      size: 1,
-      dep_control_pts: {"45A5E6B642F0DE42":[21.4,0,1.8,10.4],"6DCDEED94D410642":[21.4,1.8,1.8,10.4]},
-      id: "36FD140C450E50BC",
-      tasks: [
-        {
-          id: "5552B424484011FD",
-          type: "item",
-          item: {
-            id: "sophisticatedstorage:infinity_upgrade",
-            count: 1,
-          },
-        },
+      "x": 1.8,
+      "y": 10.4,
+      "shape": "hexagon",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "45A5E6B642F0DE42",
+        "6DCDEED94D410642"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "6DCDEED94D410642": [
+          21.4,
+          1.8,
+          1.8,
+          10.4
+        ],
+        "45A5E6B642F0DE42": [
+          21.4,
+          0,
+          1.8,
+          10.4
+        ]
+      },
+      "size": 1,
+      "id": "36FD140C450E50BC",
+      "tasks": [
         {
-          id: "284E106F640FD57B",
-          type: "xp",
-          xp: 500,
-        },
-        {
-          id: "6B99ED48BD2CD5CF",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 379532711335085,
-        },
+          "id": "5552B424484011FD",
+          "type": "item",
+          "item": {
+            "id": "sophisticatedstorage:infinity_upgrade",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "284E106F640FD57B",
+          "type": "xp",
+          "xp": 500
+        },
+        {
+          "id": "6B99ED48BD2CD5CF",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 379532711335085
+        }
+      ]
     },
     {
-      x: 3.6,
-      y: 5,
-      optional: true,
-      dependencies: ["45A5E6B642F0DE42","6DCDEED94D410642"],
-      hide_dependency_lines: true,
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"45A5E6B642F0DE42":[21.4,0,3.6,5],"6DCDEED94D410642":[21.4,1.8,3.6,5]},
-      id: "68F78D2D8BEAB826",
-      tasks: [
-        {
-          id: "5575CAE471AF6723",
-          type: "item",
-          item: {
-            id: "mekanism:creative_chemical_tank",
-            count: 1,
-          },
-        },
+      "x": 3.6,
+      "y": 5,
+      "shape": "diamond",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "45A5E6B642F0DE42",
+        "6DCDEED94D410642"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "6DCDEED94D410642": [
+          21.4,
+          1.8,
+          3.6,
+          5
+        ],
+        "45A5E6B642F0DE42": [
+          21.4,
+          0,
+          3.6,
+          5
+        ]
+      },
+      "size": 1,
+      "optional": true,
+      "id": "68F78D2D8BEAB826",
+      "tasks": [
         {
-          id: "25CEB8F0DD7A7F00",
-          type: "xp",
-          xp: 500,
-        },
-        {
-          id: "5EC875B99216D6BF",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 379532711335085,
-        },
+          "id": "5575CAE471AF6723",
+          "type": "item",
+          "item": {
+            "id": "mekanism:creative_chemical_tank",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "25CEB8F0DD7A7F00",
+          "type": "xp",
+          "xp": 500
+        },
+        {
+          "id": "5EC875B99216D6BF",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 379532711335085
+        }
+      ]
     },
     {
-      x: 3.6,
-      y: 6.8,
-      optional: true,
-      dependencies: ["45A5E6B642F0DE42","6DCDEED94D410642"],
-      hide_dependency_lines: true,
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"45A5E6B642F0DE42":[21.4,0,3.6,6.8],"6DCDEED94D410642":[21.4,1.8,3.6,6.8]},
-      id: "71253CF4BB974D87",
-      tasks: [
-        {
-          id: "7B03D05EBB2B4BF1",
-          type: "item",
-          item: {
-            id: "mekanism:creative_bin",
-            count: 1,
-          },
-        },
+      "x": 3.6,
+      "y": 6.8,
+      "shape": "diamond",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "45A5E6B642F0DE42",
+        "6DCDEED94D410642"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "6DCDEED94D410642": [
+          21.4,
+          1.8,
+          3.6,
+          6.8
+        ],
+        "45A5E6B642F0DE42": [
+          21.4,
+          0,
+          3.6,
+          6.8
+        ]
+      },
+      "size": 1,
+      "optional": true,
+      "id": "71253CF4BB974D87",
+      "tasks": [
         {
-          id: "690E653B8617BCA6",
-          type: "xp",
-          xp: 500,
-        },
-        {
-          id: "24D854831E11DFE2",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 379532711335085,
-        },
+          "id": "7B03D05EBB2B4BF1",
+          "type": "item",
+          "item": {
+            "id": "mekanism:creative_bin",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "690E653B8617BCA6",
+          "type": "xp",
+          "xp": 500
+        },
+        {
+          "id": "24D854831E11DFE2",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 379532711335085
+        }
+      ]
     },
     {
-      x: 3.6,
-      y: 8.6,
-      optional: true,
-      dependencies: ["45A5E6B642F0DE42","6DCDEED94D410642"],
-      hide_dependency_lines: true,
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"45A5E6B642F0DE42":[21.4,0,3.6,8.6],"6DCDEED94D410642":[21.4,1.8,3.6,8.6]},
-      id: "7DEB289538B47795",
-      tasks: [
-        {
-          id: "3BF04EED440441EC",
-          type: "item",
-          item: {
-            id: "mekanism_extras:upgrade_creative",
-            count: 1,
-          },
-        },
+      "x": 3.6,
+      "y": 8.6,
+      "shape": "diamond",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "45A5E6B642F0DE42",
+        "6DCDEED94D410642"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "6DCDEED94D410642": [
+          21.4,
+          1.8,
+          3.6,
+          8.6
+        ],
+        "45A5E6B642F0DE42": [
+          21.4,
+          0,
+          3.6,
+          8.6
+        ]
+      },
+      "size": 1,
+      "optional": true,
+      "id": "7DEB289538B47795",
+      "tasks": [
         {
-          id: "040B5D6C11251D43",
-          type: "xp",
-          xp: 500,
-        },
-        {
-          id: "6A6BE703D2E55461",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 379532711335085,
-        },
+          "id": "3BF04EED440441EC",
+          "type": "item",
+          "item": {
+            "id": "mekanism_extras:upgrade_creative",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "040B5D6C11251D43",
+          "type": "xp",
+          "xp": 500
+        },
+        {
+          "id": "6A6BE703D2E55461",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 379532711335085
+        }
+      ]
     },
     {
-      x: 3.6,
-      y: 10.4,
-      optional: true,
-      dependencies: ["45A5E6B642F0DE42","6DCDEED94D410642"],
-      hide_dependency_lines: true,
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"45A5E6B642F0DE42":[21.4,0,3.6,10.4],"6DCDEED94D410642":[21.4,1.8,3.6,10.4]},
-      id: "392DEFF55226D216",
-      tasks: [
-        {
-          id: "74F5A0995CC2D779",
-          type: "item",
-          item: {
-            id: "oritech:creative_tank",
-            count: 1,
-          },
-        },
+      "x": 3.6,
+      "y": 10.4,
+      "shape": "diamond",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "45A5E6B642F0DE42",
+        "6DCDEED94D410642"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "6DCDEED94D410642": [
+          21.4,
+          1.8,
+          3.6,
+          10.4
+        ],
+        "45A5E6B642F0DE42": [
+          21.4,
+          0,
+          3.6,
+          10.4
+        ]
+      },
+      "size": 1,
+      "optional": true,
+      "id": "392DEFF55226D216",
+      "tasks": [
         {
-          id: "5055E26175D943AF",
-          type: "xp",
-          xp: 500,
-        },
-        {
-          id: "2059B2D4740F8B60",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 379532711335085,
-        },
+          "id": "74F5A0995CC2D779",
+          "type": "item",
+          "item": {
+            "id": "oritech:creative_tank",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "5055E26175D943AF",
+          "type": "xp",
+          "xp": 500
+        },
+        {
+          "id": "2059B2D4740F8B60",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 379532711335085
+        }
+      ]
     },
     {
-      x: 5.4,
-      y: 5,
-      optional: true,
-      dependencies: ["45A5E6B642F0DE42","6DCDEED94D410642"],
-      hide_dependency_lines: true,
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"45A5E6B642F0DE42":[21.4,0,5.4,5],"6DCDEED94D410642":[21.4,1.8,5.4,5]},
-      id: "00547ACAB11645CC",
-      tasks: [
-        {
-          id: "54AA9D0042C51F11",
-          type: "item",
-          item: {
-            id: "sophisticatedbackpacks:infinity_upgrade",
-            count: 1,
-          },
-        },
+      "x": 5.4,
+      "y": 5,
+      "shape": "diamond",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "45A5E6B642F0DE42",
+        "6DCDEED94D410642"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "6DCDEED94D410642": [
+          21.4,
+          1.8,
+          5.4,
+          5
+        ],
+        "45A5E6B642F0DE42": [
+          21.4,
+          0,
+          5.4,
+          5
+        ]
+      },
+      "size": 1,
+      "optional": true,
+      "id": "00547ACAB11645CC",
+      "tasks": [
         {
-          id: "3A14043ECBF48C92",
-          type: "xp",
-          xp: 500,
-        },
-        {
-          id: "749C483DA29B271A",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 379532711335085,
-        },
+          "id": "54AA9D0042C51F11",
+          "type": "item",
+          "item": {
+            "id": "sophisticatedbackpacks:infinity_upgrade",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "3A14043ECBF48C92",
+          "type": "xp",
+          "xp": 500
+        },
+        {
+          "id": "749C483DA29B271A",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 379532711335085
+        }
+      ]
     },
     {
-      x: 5.4,
-      y: 6.8,
-      optional: true,
-      dependencies: ["45A5E6B642F0DE42","6DCDEED94D410642"],
-      hide_dependency_lines: true,
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"45A5E6B642F0DE42":[21.4,0,5.4,6.8],"6DCDEED94D410642":[21.4,1.8,5.4,6.8]},
-      id: "2310F5804578FDB6",
-      tasks: [
-        {
-          id: "432EC8216D892868",
-          type: "item",
-          item: {
-            id: "storagedrawers:creative_storage_upgrade",
-            count: 1,
-          },
-        },
+      "x": 5.4,
+      "y": 6.8,
+      "shape": "diamond",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "45A5E6B642F0DE42",
+        "6DCDEED94D410642"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "6DCDEED94D410642": [
+          21.4,
+          1.8,
+          5.4,
+          6.8
+        ],
+        "45A5E6B642F0DE42": [
+          21.4,
+          0,
+          5.4,
+          6.8
+        ]
+      },
+      "size": 1,
+      "optional": true,
+      "id": "2310F5804578FDB6",
+      "tasks": [
         {
-          id: "3516FFF04C394130",
-          type: "xp",
-          xp: 500,
-        },
-        {
-          id: "4E01FD911C762A14",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 379532711335085,
-        },
+          "id": "432EC8216D892868",
+          "type": "item",
+          "item": {
+            "id": "storagedrawers:creative_storage_upgrade",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "3516FFF04C394130",
+          "type": "xp",
+          "xp": 500
+        },
+        {
+          "id": "4E01FD911C762A14",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 379532711335085
+        }
+      ]
     },
     {
-      x: 5.4,
-      y: 8.6,
-      optional: true,
-      dependencies: ["45A5E6B642F0DE42","6DCDEED94D410642"],
-      hide_dependency_lines: true,
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"45A5E6B642F0DE42":[21.4,0,5.4,8.6],"6DCDEED94D410642":[21.4,1.8,5.4,8.6]},
-      id: "344B82BBFAAFB27B",
-      tasks: [
-        {
-          id: "623BDCDC494AA81C",
-          type: "item",
-          item: {
-            id: "storagedrawers:creative_vending_upgrade",
-            count: 1,
-          },
-        },
+      "x": 5.4,
+      "y": 8.6,
+      "shape": "diamond",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "45A5E6B642F0DE42",
+        "6DCDEED94D410642"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "6DCDEED94D410642": [
+          21.4,
+          1.8,
+          5.4,
+          8.6
+        ],
+        "45A5E6B642F0DE42": [
+          21.4,
+          0,
+          5.4,
+          8.6
+        ]
+      },
+      "size": 1,
+      "optional": true,
+      "id": "344B82BBFAAFB27B",
+      "tasks": [
         {
-          id: "79A20E231920ED79",
-          type: "xp",
-          xp: 500,
-        },
-        {
-          id: "1998912A79436892",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 379532711335085,
-        },
+          "id": "623BDCDC494AA81C",
+          "type": "item",
+          "item": {
+            "id": "storagedrawers:creative_vending_upgrade",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "79A20E231920ED79",
+          "type": "xp",
+          "xp": 500
+        },
+        {
+          "id": "1998912A79436892",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 379532711335085
+        }
+      ]
     },
     {
-      x: 5.4,
-      y: 10.4,
-      optional: true,
-      dependencies: ["45A5E6B642F0DE42","6DCDEED94D410642"],
-      hide_dependency_lines: true,
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"45A5E6B642F0DE42":[21.4,0,5.4,10.4],"6DCDEED94D410642":[21.4,1.8,5.4,10.4]},
-      id: "7BE71D092F5E8CBB",
-      tasks: [
-        {
-          id: "276A9E57649400D3",
-          type: "item",
-          item: {
-            id: "functionalstorage:creative_vending_upgrade",
-            count: 1,
-          },
-        },
+      "x": 5.4,
+      "y": 10.4,
+      "shape": "diamond",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "45A5E6B642F0DE42",
+        "6DCDEED94D410642"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "6DCDEED94D410642": [
+          21.4,
+          1.8,
+          5.4,
+          10.4
+        ],
+        "45A5E6B642F0DE42": [
+          21.4,
+          0,
+          5.4,
+          10.4
+        ]
+      },
+      "size": 1,
+      "optional": true,
+      "id": "7BE71D092F5E8CBB",
+      "tasks": [
         {
-          id: "030C1D1EDD1526FC",
-          type: "xp",
-          xp: 500,
-        },
-        {
-          id: "02F52A3DAAFFEEDA",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 379532711335085,
-        },
+          "id": "276A9E57649400D3",
+          "type": "item",
+          "item": {
+            "id": "functionalstorage:creative_vending_upgrade",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "030C1D1EDD1526FC",
+          "type": "xp",
+          "xp": 500
+        },
+        {
+          "id": "02F52A3DAAFFEEDA",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 379532711335085
+        }
+      ]
     },
     {
-      x: 7.2,
-      y: 7.7,
-      optional: true,
-      dependencies: ["45A5E6B642F0DE42","6DCDEED94D410642"],
-      hide_dependency_lines: true,
-      shape: "diamond",
-      size: 1,
-      dep_control_pts: {"45A5E6B642F0DE42":[21.4,0,7.2,7.7],"6DCDEED94D410642":[21.4,1.8,7.2,7.7]},
-      id: "1F4E2B13182CA4D7",
-      tasks: [
-        {
-          id: "50B0A8C23BF03C70",
-          type: "item",
-          item: {
-            id: "pipez:infinity_upgrade",
-            count: 1,
-          },
-        },
+      "x": 7.2,
+      "y": 7.7,
+      "shape": "diamond",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "45A5E6B642F0DE42",
+        "6DCDEED94D410642"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "6DCDEED94D410642": [
+          21.4,
+          1.8,
+          7.2,
+          7.7
+        ],
+        "45A5E6B642F0DE42": [
+          21.4,
+          0,
+          7.2,
+          7.7
+        ]
+      },
+      "size": 1,
+      "optional": true,
+      "id": "1F4E2B13182CA4D7",
+      "tasks": [
         {
-          id: "371C2C5AF72DF748",
-          type: "xp",
-          xp: 500,
-        },
-        {
-          id: "2F794E977B2E3197",
-          type: "random",
-          exclude_from_claim_all: true,
-          table_id: 379532711335085,
-        },
+          "id": "50B0A8C23BF03C70",
+          "type": "item",
+          "item": {
+            "id": "pipez:infinity_upgrade",
+            "count": 1
+          }
+        }
       ],
+      "rewards": [
+        {
+          "id": "371C2C5AF72DF748",
+          "type": "xp",
+          "xp": 500
+        },
+        {
+          "id": "2F794E977B2E3197",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 379532711335085
+        }
+      ]
     },
     {
-      x: 15.2,
-      y: 5,
-      dependencies: ["64B2FEC45C848AF6","2898DC9B19EB906F","3C8AA2E3BE5359B4","7B993D9D41977366","58B5171E08EAA508","68B2FC3C9BC435B4","7B22113098F5905B","36FD140C450E50BC","048131CEA4B264AB","7D69FC9AA4346E41"],
-      hide_dependency_lines: true,
-      shape: "gear",
-      size: 1.3,
-      dep_control_pts: {"64B2FEC45C848AF6":[0,5,15.2,5],"2898DC9B19EB906F":[0,6.8,15.2,5],"3C8AA2E3BE5359B4":[0,8.6,15.2,5],"7B993D9D41977366":[0,10.4,15.2,5],"58B5171E08EAA508":[1.8,5,15.2,5],"68B2FC3C9BC435B4":[1.8,6.8,15.2,5],"7B22113098F5905B":[1.8,8.6,15.2,5],"36FD140C450E50BC":[1.8,10.4,15.2,5],"048131CEA4B264AB":[23.2,0.9,15.2,5],"7D69FC9AA4346E41":[25,0.9,15.2,5]},
-      id: "722C04D403F58970",
-      tasks: [
-        {
-          id: "71C48400AF0707C5",
-          type: "item",
-          item: {
-            id: "gspack:infinity_trophy",
-            count: 1,
-          },
-        },
+      "x": 15.2,
+      "y": 5,
+      "shape": "gear",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "64B2FEC45C848AF6",
+        "2898DC9B19EB906F",
+        "3C8AA2E3BE5359B4",
+        "7B993D9D41977366",
+        "58B5171E08EAA508",
+        "68B2FC3C9BC435B4",
+        "7B22113098F5905B",
+        "36FD140C450E50BC",
+        "048131CEA4B264AB",
+        "7D69FC9AA4346E41"
       ],
-      rewards: [
+      "dep_control_pts": {
+        "048131CEA4B264AB": [
+          23.2,
+          0.9,
+          15.2,
+          5
+        ],
+        "68B2FC3C9BC435B4": [
+          1.8,
+          6.8,
+          15.2,
+          5
+        ],
+        "64B2FEC45C848AF6": [
+          0,
+          5,
+          15.2,
+          5
+        ],
+        "36FD140C450E50BC": [
+          1.8,
+          10.4,
+          15.2,
+          5
+        ],
+        "2898DC9B19EB906F": [
+          0,
+          6.8,
+          15.2,
+          5
+        ],
+        "3C8AA2E3BE5359B4": [
+          0,
+          8.6,
+          15.2,
+          5
+        ],
+        "7D69FC9AA4346E41": [
+          25,
+          0.9,
+          15.2,
+          5
+        ],
+        "7B22113098F5905B": [
+          1.8,
+          8.6,
+          15.2,
+          5
+        ],
+        "7B993D9D41977366": [
+          0,
+          10.4,
+          15.2,
+          5
+        ],
+        "58B5171E08EAA508": [
+          1.8,
+          5,
+          15.2,
+          5
+        ]
+      },
+      "size": 1.3,
+      "id": "722C04D403F58970",
+      "tasks": [
         {
-          id: "4E31E00835E17D29",
-          type: "xp_levels",
-          xp_levels: 100,
-        },
+          "id": "71C48400AF0707C5",
+          "type": "item",
+          "item": {
+            "id": "gspack:infinity_trophy",
+            "count": 1
+          }
+        }
       ],
-    },
+      "rewards": [
+        {
+          "id": "4E31E00835E17D29",
+          "type": "xp_levels",
+          "xp_levels": 100
+        }
+      ]
+    }
   ],
-  quest_links: [
-  ],
-  images: [
-  {
-    "x": 12.5,
-    "y": -1.7188,
-    "width": 12,
-    "height": 1.4375,
-    "rotation": 0,
-    "image": "gspack:textures/quests/endgame_header.png",
-    "color": 16777215,
-    "alpha": 255,
-    "order": 0,
-    "corner": false
-  },
-  {
-    "x": -2.5765,
-    "y": 0,
-    "width": 3.3529,
-    "height": 0.6,
-    "rotation": 0,
-    "image": "gspack:textures/quests/endgame_intro.png",
-    "color": 16777215,
-    "alpha": 255,
-    "order": 0,
-    "corner": false
-  },
-  {
-    "x": 12.2882,
-    "y": 5,
-    "width": 4.0235,
-    "height": 0.6,
-    "rotation": 0,
-    "image": "gspack:textures/quests/endgame_trophy.png",
-    "color": 16777215,
-    "alpha": 255,
-    "order": 0,
-    "corner": false
-  },
-  {
-    "x": 18.7353,
-    "y": 0,
-    "width": 3.5294,
-    "height": 0.6,
-    "rotation": 0,
-    "image": "gspack:textures/quests/endgame_singularity.png",
-    "color": 16777215,
-    "alpha": 255,
-    "order": 0,
-    "corner": false
-  },
-  {
-    "x": -2.6294,
-    "y": 5,
-    "width": 3.4588,
-    "height": 0.6,
-    "rotation": 0,
-    "image": "gspack:textures/quests/endgame_c_energy_cube.png",
-    "color": 16777215,
-    "alpha": 255,
-    "order": 0,
-    "corner": false
-  },
-  {
-    "x": 5.3882,
-    "y": 0,
-    "width": 3.4235,
-    "height": 0.6,
-    "rotation": 0,
-    "image": "gspack:textures/quests/endgame_core_tech.png",
-    "color": 16777215,
-    "alpha": 255,
-    "order": 0,
-    "corner": false
-  }
-],
+  "quest_links": [],
+  "images": [
+    {
+      "x": 12.5,
+      "y": -1.7188,
+      "width": 12,
+      "height": 1.4375,
+      "rotation": 0,
+      "image": "gspack:textures/quests/endgame_header.png",
+      "id": "6454DFF4121DE864"
+    },
+    {
+      "x": -2.5765,
+      "y": 0,
+      "width": 3.3529,
+      "height": 0.6,
+      "rotation": 0,
+      "image": "gspack:textures/quests/endgame_intro.png",
+      "id": "311B3EBF58325B5F"
+    },
+    {
+      "x": 12.2882,
+      "y": 5,
+      "width": 4.0235,
+      "height": 0.6,
+      "rotation": 0,
+      "image": "gspack:textures/quests/endgame_trophy.png",
+      "id": "4BE6DA85FD2D8DE1"
+    },
+    {
+      "x": 18.7353,
+      "y": 0,
+      "width": 3.5294,
+      "height": 0.6,
+      "rotation": 0,
+      "image": "gspack:textures/quests/endgame_singularity.png",
+      "id": "0EB6297EB72DA44C"
+    },
+    {
+      "x": -2.6294,
+      "y": 5,
+      "width": 3.4588,
+      "height": 0.6,
+      "rotation": 0,
+      "image": "gspack:textures/quests/endgame_c_energy_cube.png",
+      "id": "350B5495F59F6B70"
+    },
+    {
+      "x": 5.3882,
+      "y": 0,
+      "width": 3.4235,
+      "height": 0.6,
+      "rotation": 0,
+      "image": "gspack:textures/quests/endgame_core_tech.png",
+      "id": "735098A17F60EEEC"
+    }
+  ]
 }

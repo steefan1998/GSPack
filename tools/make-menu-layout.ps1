@@ -195,3 +195,4 @@ if ($text -notmatch 'net\.minecraft\.client\.gui\.screens\.TitleScreen') {
     [IO.File]::WriteAllText($cm, $text, $utf8)
 }
 "Layout written: config\fancymenu\customization\gspack_title_screen.txt"
+& (Join-Path $PSScriptRoot 'make-seasonal-menu.ps1')

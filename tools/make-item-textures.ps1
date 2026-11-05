@@ -110,11 +110,7 @@ Draw-Crux 'allthemodium_crux.png' '#7a4a06' '#d99a1e' '#ffd46a' '#fff6d8'
 Draw-Crux 'vibranium_crux.png' '#0c5a46' '#22b48a' '#7af0cc' '#e8fff8'
 Draw-Crux 'unobtainium_crux.png' '#4a1470' '#9a3ad6' '#d79cff' '#fbefff'
 
-Draw-Orb 'tech_core.png' '#0e3a5c' '#2f8fd8' '#8fd8ff' '#e6fbff'
-Draw-Orb 'arcane_core.png' '#3a0f52' '#8a3fc4' '#d49cff' '#fff0ff'
-Draw-Orb 'verdant_core.png' '#13401a' '#3fa83a' '#a6f07a' '#f4ffe0'
-Draw-Orb 'dimensional_core.png' '#4a2c00' '#d68f12' '#ffd36a' '#fff8de'
-Draw-Orb 'cosmic_core.png' '#151a4a' '#4a55c8' '#9fb0ff' '#ffffff'
-Draw-Singularity 'creative_singularity.png'
+# Re-export the approved artwork instead of overwriting it with legacy orbs.
+& (Join-Path $PSScriptRoot 'export-endgame-art.ps1')
 Draw-Trophy 'infinity_trophy.png'
 "Item textures written to $Out"

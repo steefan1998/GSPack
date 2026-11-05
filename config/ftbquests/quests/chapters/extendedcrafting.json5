@@ -1,1878 +1,1866 @@
 {
-  id: "674CEC491DA62D7F",
-  group: "105EE503AFE85CA5",
-  order_index: 2,
-  filename: "extendedcrafting",
-  icon: {
-    count: 1,
-    id: "extendedcrafting:ultimate_table",
+  "id": "674CEC491DA62D7F",
+  "group": "105EE503AFE85CA5",
+  "order_index": 6,
+  "icon": {
+    "id": "extendedcrafting:ultimate_table",
+    "count": 1
   },
-  default_quest_shape: "",
-  default_hide_dependency_lines: false,
-  quests: [
+  "filename": "extendedcrafting",
+  "default_quest_shape": "",
+  "default_hide_dependency_lines": false,
+  "quests": [
     {
-      id: "332E93979B2F1408",
-      icon: { id: "extendedcrafting:ultimate_table", count: 1 },
-      x: 0.0,
-      y: 0.9,
-      shape: "gear",
-      size: 1.3,
-      tasks: [
+      "icon": {
+        "id": "extendedcrafting:ultimate_table",
+        "count": 1
+      },
+      "x": 0,
+      "y": 0.9,
+      "shape": "gear",
+      "size": 1.3,
+      "id": "332E93979B2F1408",
+      "tasks": [
         {
-          id: "2C385A1507E618F6",
-          type: "checkmark",
-        },
+          "id": "2C385A1507E618F6",
+          "type": "checkmark"
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "7D2A1C84C2639F29",
-          type: "xp",
-          xp: 50,
+          "id": "7D2A1C84C2639F29",
+          "type": "xp",
+          "xp": 50
         },
         {
-          id: "64464249CB6DB99E",
-          type: "random",
-          table_id: 4224964620844649,
-        },
-      ],
+          "id": "64464249CB6DB99E",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 4224964620844649
+        }
+      ]
     },
     {
-      id: "18AB3867111779A8",
-      x: 1.8,
-      y: 0.9,
-      shape: "circle",
-      size: 1.0,
-      dependencies: [
-        "332E93979B2F1408",
+      "x": 1.8,
+      "y": 0.9,
+      "shape": "circle",
+      "dependencies": [
+        "332E93979B2F1408"
       ],
-      dep_control_pts: {
+      "dep_control_pts": {
         "332E93979B2F1408": [
-          0.0,
+          0,
           0.9,
           1.8,
-          0.9,
-        ],
+          0.9
+        ]
       },
-      tasks: [
+      "size": 1,
+      "id": "18AB3867111779A8",
+      "tasks": [
         {
-          id: "3D771CD07694BFF8",
-          type: "item",
-          item: {
-            count: 1,
-            id: "extendedcrafting:black_iron_ingot",
-          },
-        },
+          "id": "3D771CD07694BFF8",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:black_iron_ingot",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "6C082162BA80E6C6",
-          type: "xp",
-          xp: 50,
-        },
-      ],
+          "id": "6C082162BA80E6C6",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
     },
     {
-      id: "0B1E8B5FE8D9DD13",
-      x: 3.6,
-      y: 0.0,
-      shape: "diamond",
-      size: 1.0,
-      dependencies: [
-        "18AB3867111779A8",
+      "x": 3.6,
+      "y": 0,
+      "shape": "diamond",
+      "dependencies": [
+        "18AB3867111779A8"
       ],
-      optional: true,
-      dep_control_pts: {
+      "dep_control_pts": {
         "18AB3867111779A8": [
           1.8,
           0.9,
           3.6,
-          0.0,
-        ],
+          0
+        ]
       },
-      tasks: [
+      "size": 1,
+      "optional": true,
+      "id": "0B1E8B5FE8D9DD13",
+      "tasks": [
         {
-          id: "693CD06F10251968",
-          type: "item",
-          item: {
-            count: 1,
-            id: "extendedcrafting:black_iron_slate",
-          },
-        },
+          "id": "693CD06F10251968",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:black_iron_slate",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "3FEF1B1401C9D145",
-          type: "xp",
-          xp: 25,
-        },
-      ],
+          "id": "3FEF1B1401C9D145",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
     },
     {
-      id: "4A3E1BC7C9F1BFC3",
-      x: 3.6,
-      y: 1.8,
-      shape: "circle",
-      size: 1.0,
-      dependencies: [
-        "18AB3867111779A8",
+      "x": 3.6,
+      "y": 1.8,
+      "shape": "circle",
+      "dependencies": [
+        "18AB3867111779A8"
       ],
-      dep_control_pts: {
+      "dep_control_pts": {
         "18AB3867111779A8": [
           1.8,
           0.9,
           3.6,
-          1.8,
-        ],
+          1.8
+        ]
       },
-      tasks: [
+      "size": 1,
+      "id": "4A3E1BC7C9F1BFC3",
+      "tasks": [
         {
-          id: "26737ED2A1DD2746",
-          type: "item",
-          item: {
-            count: 1,
-            id: "extendedcrafting:luminessence",
-          },
-        },
+          "id": "26737ED2A1DD2746",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:luminessence",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "798DBAA5754E421A",
-          type: "xp",
-          xp: 50,
-        },
-      ],
+          "id": "798DBAA5754E421A",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
     },
     {
-      id: "14675A47F1034803",
-      x: 5.4,
-      y: 0.9,
-      shape: "circle",
-      size: 1.0,
-      dependencies: [
-        "4A3E1BC7C9F1BFC3",
+      "x": 5.4,
+      "y": 0.9,
+      "shape": "circle",
+      "dependencies": [
+        "4A3E1BC7C9F1BFC3"
       ],
-      dep_control_pts: {
+      "dep_control_pts": {
         "4A3E1BC7C9F1BFC3": [
           3.6,
           1.8,
           5.4,
-          0.9,
-        ],
+          0.9
+        ]
       },
-      tasks: [
+      "size": 1,
+      "id": "14675A47F1034803",
+      "tasks": [
         {
-          id: "7CA5D09116EFFE25",
-          type: "item",
-          item: {
-            count: 1,
-            id: "extendedcrafting:basic_component",
-          },
+          "id": "7CA5D09116EFFE25",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:basic_component",
+            "count": 1
+          }
         },
         {
-          id: "51C6D0ECB041A770",
-          type: "item",
-          item: {
-            count: 1,
-            id: "extendedcrafting:basic_catalyst",
-          },
-        },
+          "id": "51C6D0ECB041A770",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:basic_catalyst",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "5242A4B7156E0B39",
-          type: "xp",
-          xp: 75,
-        },
-      ],
+          "id": "5242A4B7156E0B39",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
     },
     {
-      id: "3EF87F711B496FFA",
-      x: 13.4,
-      y: 0.0,
-      shape: "gear",
-      size: 1.3,
-      dependencies: [
-        "14675A47F1034803",
+      "x": 13.4,
+      "y": 0,
+      "shape": "gear",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "14675A47F1034803"
       ],
-      hide_dependency_lines: true,
-      dep_control_pts: {
+      "dep_control_pts": {
         "14675A47F1034803": [
           5.4,
           0.9,
           13.4,
-          0.0,
-        ],
+          0
+        ]
       },
-      tasks: [
+      "size": 1.3,
+      "id": "3EF87F711B496FFA",
+      "tasks": [
         {
-          id: "16AE14CD8105D043",
-          type: "item",
-          item: {
-            count: 1,
-            id: "extendedcrafting:basic_table",
-          },
-        },
+          "id": "16AE14CD8105D043",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:basic_table",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "03DECAA0913F726C",
-          type: "xp",
-          xp: 100,
+          "id": "03DECAA0913F726C",
+          "type": "xp",
+          "xp": 100
         },
         {
-          id: "2AEE167D64A682A3",
-          type: "random",
-          table_id: 253752461985528,
-        },
-      ],
+          "id": "2AEE167D64A682A3",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 253752461985528
+        }
+      ]
     },
     {
-      id: "2562B72D1A5D81B2",
-      x: 13.4,
-      y: 1.8,
-      shape: "circle",
-      size: 1.0,
-      dependencies: [
-        "3EF87F711B496FFA",
+      "x": 13.4,
+      "y": 1.8,
+      "shape": "circle",
+      "dependencies": [
+        "3EF87F711B496FFA"
       ],
-      dep_control_pts: {
+      "dep_control_pts": {
         "3EF87F711B496FFA": [
           13.4,
-          0.0,
+          0,
           13.4,
-          1.8,
-        ],
+          1.8
+        ]
       },
-      tasks: [
+      "size": 1,
+      "id": "2562B72D1A5D81B2",
+      "tasks": [
         {
-          id: "7196A8C1FC4E2C00",
-          type: "item",
-          item: {
-            count: 1,
-            id: "extendedcrafting:advanced_component",
-          },
+          "id": "7196A8C1FC4E2C00",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:advanced_component",
+            "count": 1
+          }
         },
         {
-          id: "0A2D95235BEE16E2",
-          type: "item",
-          item: {
-            count: 1,
-            id: "extendedcrafting:advanced_catalyst",
-          },
-        },
+          "id": "0A2D95235BEE16E2",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:advanced_catalyst",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "52884C94EE86521B",
-          type: "xp",
-          xp: 75,
-        },
-      ],
+          "id": "52884C94EE86521B",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
     },
     {
-      id: "0064AF6558A64DC5",
-      x: 13.4,
-      y: 3.6,
-      shape: "gear",
-      size: 1.3,
-      dependencies: [
-        "2562B72D1A5D81B2",
+      "x": 13.4,
+      "y": 3.6,
+      "shape": "gear",
+      "dependencies": [
+        "2562B72D1A5D81B2"
       ],
-      dep_control_pts: {
+      "dep_control_pts": {
         "2562B72D1A5D81B2": [
           13.4,
           1.8,
           13.4,
-          3.6,
-        ],
+          3.6
+        ]
       },
-      tasks: [
+      "size": 1.3,
+      "id": "0064AF6558A64DC5",
+      "tasks": [
         {
-          id: "103C348F37DFA49D",
-          type: "item",
-          item: {
-            count: 1,
-            id: "extendedcrafting:advanced_table",
-          },
-        },
+          "id": "103C348F37DFA49D",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:advanced_table",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "1FA432AFABDAE107",
-          type: "xp",
-          xp: 150,
+          "id": "1FA432AFABDAE107",
+          "type": "xp",
+          "xp": 150
         },
         {
-          id: "2AA6EAB8BE2D1B64",
-          type: "random",
-          table_id: 253752461985528,
-        },
-      ],
+          "id": "2AA6EAB8BE2D1B64",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 253752461985528
+        }
+      ]
     },
     {
-      id: "6D5315B2C427EECF",
-      x: 13.4,
-      y: 5.4,
-      shape: "circle",
-      size: 1.0,
-      dependencies: [
-        "0064AF6558A64DC5",
+      "x": 13.4,
+      "y": 5.4,
+      "shape": "circle",
+      "dependencies": [
+        "0064AF6558A64DC5"
       ],
-      dep_control_pts: {
+      "dep_control_pts": {
         "0064AF6558A64DC5": [
           13.4,
           3.6,
           13.4,
-          5.4,
-        ],
+          5.4
+        ]
       },
-      tasks: [
+      "size": 1,
+      "id": "6D5315B2C427EECF",
+      "tasks": [
         {
-          id: "386F125CD24C44F4",
-          type: "item",
-          item: {
-            count: 1,
-            id: "extendedcrafting:elite_component",
-          },
+          "id": "386F125CD24C44F4",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:elite_component",
+            "count": 1
+          }
         },
         {
-          id: "5D73ED66AE92ED8A",
-          type: "item",
-          item: {
-            count: 1,
-            id: "extendedcrafting:elite_catalyst",
-          },
-        },
+          "id": "5D73ED66AE92ED8A",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:elite_catalyst",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "18C71BE06A00C2DB",
-          type: "xp",
-          xp: 100,
-        },
-      ],
+          "id": "18C71BE06A00C2DB",
+          "type": "xp",
+          "xp": 100
+        }
+      ]
     },
     {
-      id: "48F7BBDC8926B0D8",
-      x: 13.4,
-      y: 7.2,
-      shape: "gear",
-      size: 1.3,
-      dependencies: [
-        "6D5315B2C427EECF",
+      "x": 13.4,
+      "y": 7.2,
+      "shape": "gear",
+      "dependencies": [
+        "6D5315B2C427EECF"
       ],
-      dep_control_pts: {
+      "dep_control_pts": {
         "6D5315B2C427EECF": [
           13.4,
           5.4,
           13.4,
-          7.2,
-        ],
+          7.2
+        ]
       },
-      tasks: [
+      "size": 1.3,
+      "id": "48F7BBDC8926B0D8",
+      "tasks": [
         {
-          id: "3C376DF12371BE0F",
-          type: "item",
-          item: {
-            count: 1,
-            id: "extendedcrafting:elite_table",
-          },
-        },
+          "id": "3C376DF12371BE0F",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:elite_table",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "18997672FA85869E",
-          type: "xp",
-          xp: 200,
+          "id": "18997672FA85869E",
+          "type": "xp",
+          "xp": 200
         },
         {
-          id: "6C3A35EA6E7A2A9E",
-          type: "random",
-          table_id: 2210856162803377,
-        },
-      ],
+          "id": "6C3A35EA6E7A2A9E",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2210856162803377
+        }
+      ]
     },
     {
-      id: "62DFF79BF78BAC00",
-      x: 13.4,
-      y: 9.0,
-      shape: "circle",
-      size: 1.0,
-      dependencies: [
-        "48F7BBDC8926B0D8",
+      "x": 13.4,
+      "y": 9,
+      "shape": "circle",
+      "dependencies": [
+        "48F7BBDC8926B0D8"
       ],
-      dep_control_pts: {
+      "dep_control_pts": {
         "48F7BBDC8926B0D8": [
           13.4,
           7.2,
           13.4,
-          9.0,
-        ],
+          9
+        ]
       },
-      tasks: [
+      "size": 1,
+      "id": "62DFF79BF78BAC00",
+      "tasks": [
         {
-          id: "33772E537E6B1471",
-          type: "item",
-          item: {
-            count: 1,
-            id: "extendedcrafting:ultimate_component",
-          },
+          "id": "33772E537E6B1471",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:ultimate_component",
+            "count": 1
+          }
         },
         {
-          id: "0EC16B0CA9BB2770",
-          type: "item",
-          item: {
-            count: 1,
-            id: "extendedcrafting:ultimate_catalyst",
-          },
-        },
+          "id": "0EC16B0CA9BB2770",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:ultimate_catalyst",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "1972138319D5EA39",
-          type: "xp",
-          xp: 125,
-        },
-      ],
+          "id": "1972138319D5EA39",
+          "type": "xp",
+          "xp": 125
+        }
+      ]
     },
     {
-      id: "72FF85D6A13BE86B",
-      x: 13.4,
-      y: 10.8,
-      shape: "gear",
-      size: 1.3,
-      dependencies: [
-        "62DFF79BF78BAC00",
+      "x": 13.4,
+      "y": 10.8,
+      "shape": "gear",
+      "dependencies": [
+        "62DFF79BF78BAC00"
       ],
-      dep_control_pts: {
+      "dep_control_pts": {
         "62DFF79BF78BAC00": [
           13.4,
-          9.0,
+          9,
           13.4,
-          10.8,
-        ],
+          10.8
+        ]
       },
-      tasks: [
+      "size": 1.3,
+      "id": "72FF85D6A13BE86B",
+      "tasks": [
         {
-          id: "16C719B5062F182D",
-          type: "item",
-          item: {
-            count: 1,
-            id: "extendedcrafting:ultimate_table",
-          },
-        },
+          "id": "16C719B5062F182D",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:ultimate_table",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "3DE9DEE381BC8A58",
-          type: "xp",
-          xp: 300,
+          "id": "3DE9DEE381BC8A58",
+          "type": "xp",
+          "xp": 300
         },
         {
-          id: "5CB4A412F2554C9C",
-          type: "random",
-          table_id: 379532711335085,
-        },
-      ],
+          "id": "5CB4A412F2554C9C",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 379532711335085
+        }
+      ]
     },
     {
-      id: "758B8EC251BE6248",
-      x: 21.4,
-      y: 0.0,
-      shape: "circle",
-      size: 1.0,
-      dependencies: [
-        "48F7BBDC8926B0D8",
+      "x": 21.4,
+      "y": 0,
+      "shape": "circle",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "48F7BBDC8926B0D8"
       ],
-      hide_dependency_lines: true,
-      dep_control_pts: {
+      "dep_control_pts": {
         "48F7BBDC8926B0D8": [
           13.4,
           7.2,
           21.4,
-          0.0,
-        ],
+          0
+        ]
       },
-      tasks: [
+      "size": 1,
+      "id": "758B8EC251BE6248",
+      "tasks": [
         {
-          id: "41F76054EC4058C8",
-          type: "item",
-          item: {
-            count: 1,
-            id: "extendedcrafting:crystaltine_ingot",
-          },
-        },
+          "id": "41F76054EC4058C8",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:crystaltine_ingot",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "50716A6A11204C71",
-          type: "xp",
-          xp: 100,
-        },
-      ],
+          "id": "50716A6A11204C71",
+          "type": "xp",
+          "xp": 100
+        }
+      ]
     },
     {
-      id: "729C2A01C97A9B59",
-      x: 23.2,
-      y: 0.0,
-      shape: "circle",
-      size: 1.0,
-      dependencies: [
-        "758B8EC251BE6248",
+      "x": 23.2,
+      "y": 0,
+      "shape": "circle",
+      "dependencies": [
+        "758B8EC251BE6248"
       ],
-      dep_control_pts: {
+      "dep_control_pts": {
         "758B8EC251BE6248": [
           21.4,
-          0.0,
+          0,
           23.2,
-          0.0,
-        ],
+          0
+        ]
       },
-      tasks: [
+      "size": 1,
+      "id": "729C2A01C97A9B59",
+      "tasks": [
         {
-          id: "705939A3EE902997",
-          type: "item",
-          item: {
-            count: 1,
-            id: "extendedcrafting:crystaltine_block",
-          },
+          "id": "705939A3EE902997",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:crystaltine_block",
+            "count": 1
+          }
         },
         {
-          id: "16F336F1133A8264",
-          type: "item",
-          item: {
-            count: 1,
-            id: "extendedcrafting:nether_star_block",
-          },
-        },
+          "id": "16F336F1133A8264",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:nether_star_block",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "7E0BD0E9E885B831",
-          type: "xp",
-          xp: 150,
-        },
-      ],
+          "id": "7E0BD0E9E885B831",
+          "type": "xp",
+          "xp": 150
+        }
+      ]
     },
     {
-      id: "47F9FA74B1CCFD3E",
-      x: 0.0,
-      y: 14.0,
-      shape: "diamond",
-      size: 1.0,
-      dependencies: [
-        "3EF87F711B496FFA",
+      "x": 0,
+      "y": 14,
+      "shape": "diamond",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "3EF87F711B496FFA"
       ],
-      optional: true,
-      hide_dependency_lines: true,
-      dep_control_pts: {
+      "dep_control_pts": {
         "3EF87F711B496FFA": [
           13.4,
-          0.0,
-          0.0,
-          14.0,
-        ],
+          0,
+          0,
+          14
+        ]
       },
-      tasks: [
+      "size": 1,
+      "optional": true,
+      "id": "47F9FA74B1CCFD3E",
+      "tasks": [
         {
-          id: "6706B2DE855A84C3",
-          type: "item",
-          item: {
-            count: 1,
-            id: "extendedcrafting:basic_auto_table",
-          },
-        },
+          "id": "6706B2DE855A84C3",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:basic_auto_table",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "1EAC3BC21DB51AD0",
-          type: "xp",
-          xp: 75,
-        },
-      ],
+          "id": "1EAC3BC21DB51AD0",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
     },
     {
-      id: "4270A72134950D16",
-      x: 0.0,
-      y: 15.8,
-      shape: "diamond",
-      size: 1.0,
-      dependencies: [
-        "0064AF6558A64DC5",
+      "x": 0,
+      "y": 15.8,
+      "shape": "diamond",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "0064AF6558A64DC5"
       ],
-      optional: true,
-      hide_dependency_lines: true,
-      dep_control_pts: {
+      "dep_control_pts": {
         "0064AF6558A64DC5": [
           13.4,
           3.6,
-          0.0,
-          15.8,
-        ],
+          0,
+          15.8
+        ]
       },
-      tasks: [
+      "size": 1,
+      "optional": true,
+      "id": "4270A72134950D16",
+      "tasks": [
         {
-          id: "02C255181C2ACB8F",
-          type: "item",
-          item: {
-            count: 1,
-            id: "extendedcrafting:advanced_auto_table",
-          },
-        },
+          "id": "02C255181C2ACB8F",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:advanced_auto_table",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "2DE26E88AC35308B",
-          type: "xp",
-          xp: 100,
-        },
-      ],
+          "id": "2DE26E88AC35308B",
+          "type": "xp",
+          "xp": 100
+        }
+      ]
     },
     {
-      id: "0A3DDD9B7515597B",
-      x: 0.0,
-      y: 17.6,
-      shape: "diamond",
-      size: 1.0,
-      dependencies: [
-        "48F7BBDC8926B0D8",
+      "x": 0,
+      "y": 17.6,
+      "shape": "diamond",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "48F7BBDC8926B0D8"
       ],
-      optional: true,
-      hide_dependency_lines: true,
-      dep_control_pts: {
+      "dep_control_pts": {
         "48F7BBDC8926B0D8": [
           13.4,
           7.2,
-          0.0,
-          17.6,
-        ],
+          0,
+          17.6
+        ]
       },
-      tasks: [
+      "size": 1,
+      "optional": true,
+      "id": "0A3DDD9B7515597B",
+      "tasks": [
         {
-          id: "4B4B0CC6B26EDFFE",
-          type: "item",
-          item: {
-            count: 1,
-            id: "extendedcrafting:elite_auto_table",
-          },
-        },
+          "id": "4B4B0CC6B26EDFFE",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:elite_auto_table",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "6EC205355FCEA2F5",
-          type: "xp",
-          xp: 150,
-        },
-      ],
+          "id": "6EC205355FCEA2F5",
+          "type": "xp",
+          "xp": 150
+        }
+      ]
     },
     {
-      id: "493CB064CAF4F63D",
-      x: 0.0,
-      y: 19.4,
-      shape: "diamond",
-      size: 1.0,
-      dependencies: [
-        "72FF85D6A13BE86B",
+      "x": 0,
+      "y": 19.4,
+      "shape": "diamond",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "72FF85D6A13BE86B"
       ],
-      optional: true,
-      hide_dependency_lines: true,
-      dep_control_pts: {
+      "dep_control_pts": {
         "72FF85D6A13BE86B": [
           13.4,
           10.8,
-          0.0,
-          19.4,
-        ],
+          0,
+          19.4
+        ]
       },
-      tasks: [
+      "size": 1,
+      "optional": true,
+      "id": "493CB064CAF4F63D",
+      "tasks": [
         {
-          id: "6D473B4879BFC56F",
-          type: "item",
-          item: {
-            count: 1,
-            id: "extendedcrafting:ultimate_auto_table",
-          },
-        },
+          "id": "6D473B4879BFC56F",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:ultimate_auto_table",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "698AB83456708FB4",
-          type: "xp",
-          xp: 200,
-        },
-      ],
+          "id": "698AB83456708FB4",
+          "type": "xp",
+          "xp": 200
+        }
+      ]
     },
     {
-      id: "1F0C79535E13AC87",
-      x: 8.0,
-      y: 14.0,
-      shape: "diamond",
-      size: 1.0,
-      dependencies: [
-        "0064AF6558A64DC5",
+      "x": 8,
+      "y": 14,
+      "shape": "diamond",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "0064AF6558A64DC5"
       ],
-      optional: true,
-      hide_dependency_lines: true,
-      dep_control_pts: {
+      "dep_control_pts": {
         "0064AF6558A64DC5": [
           13.4,
           3.6,
-          8.0,
-          14.0,
-        ],
+          8,
+          14
+        ]
       },
-      tasks: [
+      "size": 1,
+      "optional": true,
+      "id": "1F0C79535E13AC87",
+      "tasks": [
         {
-          id: "2320C9A1EB11807F",
-          type: "item",
-          item: {
-            count: 1,
-            id: "extendedcrafting:crafting_core",
-          },
+          "id": "2320C9A1EB11807F",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:crafting_core",
+            "count": 1
+          }
         },
         {
-          id: "50E6BCD34DAF4329",
-          type: "item",
-          item: {
-            count: 1,
-            id: "extendedcrafting:pedestal",
-          },
-        },
+          "id": "50E6BCD34DAF4329",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:pedestal",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "3B4764D83DF7B160",
-          type: "xp",
-          xp: 100,
-        },
-      ],
+          "id": "3B4764D83DF7B160",
+          "type": "xp",
+          "xp": 100
+        }
+      ]
     },
     {
-      id: "4A3980AA38A85642",
-      x: 9.8,
-      y: 14.0,
-      shape: "diamond",
-      size: 1.0,
-      dependencies: [
-        "0064AF6558A64DC5",
+      "x": 9.8,
+      "y": 14,
+      "shape": "diamond",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "0064AF6558A64DC5"
       ],
-      optional: true,
-      hide_dependency_lines: true,
-      dep_control_pts: {
+      "dep_control_pts": {
         "0064AF6558A64DC5": [
           13.4,
           3.6,
           9.8,
-          14.0,
-        ],
+          14
+        ]
       },
-      tasks: [
+      "size": 1,
+      "optional": true,
+      "id": "4A3980AA38A85642",
+      "tasks": [
         {
-          id: "6C1138A33C65B92A",
-          type: "item",
-          item: {
-            count: 1,
-            id: "extendedcrafting:ender_crafter",
-          },
+          "id": "6C1138A33C65B92A",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:ender_crafter",
+            "count": 1
+          }
         },
         {
-          id: "3F7D39D8948D6CB6",
-          type: "item",
-          item: {
-            count: 1,
-            id: "extendedcrafting:ender_alternator",
-          },
-        },
+          "id": "3F7D39D8948D6CB6",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:ender_alternator",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "196B76D76609D27C",
-          type: "xp",
-          xp: 100,
-        },
-      ],
+          "id": "196B76D76609D27C",
+          "type": "xp",
+          "xp": 100
+        }
+      ]
     },
     {
-      id: "27ECDAB31B71D5EE",
-      x: 11.6,
-      y: 14.0,
-      shape: "diamond",
-      size: 1.0,
-      dependencies: [
-        "48F7BBDC8926B0D8",
+      "x": 11.6,
+      "y": 14,
+      "shape": "diamond",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "48F7BBDC8926B0D8"
       ],
-      optional: true,
-      hide_dependency_lines: true,
-      dep_control_pts: {
+      "dep_control_pts": {
         "48F7BBDC8926B0D8": [
           13.4,
           7.2,
           11.6,
-          14.0,
-        ],
+          14
+        ]
       },
-      tasks: [
+      "size": 1,
+      "optional": true,
+      "id": "27ECDAB31B71D5EE",
+      "tasks": [
         {
-          id: "264EBC7DE6B6C3F1",
-          type: "item",
-          item: {
-            count: 1,
-            id: "extendedcrafting:flux_crafter",
-          },
+          "id": "264EBC7DE6B6C3F1",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:flux_crafter",
+            "count": 1
+          }
         },
         {
-          id: "273C1E11D0B1425F",
-          type: "item",
-          item: {
-            count: 1,
-            id: "extendedcrafting:flux_alternator",
-          },
-        },
+          "id": "273C1E11D0B1425F",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:flux_alternator",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "3CD8CE8BEB790FB5",
-          type: "xp",
-          xp: 125,
-        },
-      ],
+          "id": "3CD8CE8BEB790FB5",
+          "type": "xp",
+          "xp": 125
+        }
+      ]
     },
     {
-      id: "47194A8027FE5716",
-      x: 0.0,
-      y: 25.3,
-      shape: "gear",
-      size: 1.3,
-      dependencies: [
-        "48F7BBDC8926B0D8",
+      "x": 0,
+      "y": 25.3,
+      "shape": "gear",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "48F7BBDC8926B0D8"
       ],
-      hide_dependency_lines: true,
-      dep_control_pts: {
+      "dep_control_pts": {
         "48F7BBDC8926B0D8": [
           13.4,
           7.2,
-          0.0,
-          25.3,
-        ],
+          0,
+          25.3
+        ]
       },
-      tasks: [
+      "size": 1.3,
+      "id": "47194A8027FE5716",
+      "tasks": [
         {
-          id: "247F7E108F947F0F",
-          type: "item",
-          item: {
-            count: 1,
-            id: "extendedcrafting:compressor",
-          },
-        },
+          "id": "247F7E108F947F0F",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:compressor",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "62DC7411F0A039CD",
-          type: "xp",
-          xp: 200,
+          "id": "62DC7411F0A039CD",
+          "type": "xp",
+          "xp": 200
         },
         {
-          id: "513D03DA835C9770",
-          type: "random",
-          table_id: 2210856162803377,
-        },
-      ],
+          "id": "513D03DA835C9770",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 2210856162803377
+        }
+      ]
     },
     {
-      id: "41AC0A8AC4EDA195",
-      x: 1.8,
-      y: 22.6,
-      shape: "diamond",
-      size: 1.0,
-      dependencies: [
-        "47194A8027FE5716",
+      "x": 1.8,
+      "y": 22.6,
+      "shape": "diamond",
+      "dependencies": [
+        "47194A8027FE5716"
       ],
-      optional: true,
-      dep_control_pts: {
+      "dep_control_pts": {
         "47194A8027FE5716": [
-          0.0,
+          0,
           25.3,
           1.8,
-          22.6,
-        ],
+          22.6
+        ]
       },
-      tasks: [
+      "size": 1,
+      "optional": true,
+      "id": "41AC0A8AC4EDA195",
+      "tasks": [
         {
-          id: "7EB4225F026A466A",
-          type: "item",
-          item: {
-            count: 1,
-            id: "extendedcrafting:singularity",
-            components: {
-              "extendedcrafting:singularity_id": "extendedcrafting:aluminum",
-            },
+          "id": "7EB4225F026A466A",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:singularity",
+            "count": 1,
+            "components": {
+              "extendedcrafting:singularity_id": "extendedcrafting:aluminum"
+            }
           },
-          match_components: "fuzzy",
-        },
+          "match_components": "fuzzy"
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "30967DC54E98624C",
-          type: "xp",
-          xp: 75,
-        },
-      ],
+          "id": "30967DC54E98624C",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
     },
     {
-      id: "4CF493386F6A5863",
-      x: 1.8,
-      y: 24.4,
-      shape: "diamond",
-      size: 1.0,
-      dependencies: [
-        "47194A8027FE5716",
+      "x": 1.8,
+      "y": 24.4,
+      "shape": "diamond",
+      "dependencies": [
+        "47194A8027FE5716"
       ],
-      optional: true,
-      dep_control_pts: {
+      "dep_control_pts": {
         "47194A8027FE5716": [
-          0.0,
+          0,
           25.3,
           1.8,
-          24.4,
-        ],
+          24.4
+        ]
       },
-      tasks: [
+      "size": 1,
+      "optional": true,
+      "id": "4CF493386F6A5863",
+      "tasks": [
         {
-          id: "05AFC449BD10DAE1",
-          type: "item",
-          item: {
-            count: 1,
-            id: "extendedcrafting:singularity",
-            components: {
-              "extendedcrafting:singularity_id": "extendedcrafting:bronze",
-            },
+          "id": "05AFC449BD10DAE1",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:singularity",
+            "count": 1,
+            "components": {
+              "extendedcrafting:singularity_id": "extendedcrafting:bronze"
+            }
           },
-          match_components: "fuzzy",
-        },
+          "match_components": "fuzzy"
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "10A91E2806181F58",
-          type: "xp",
-          xp: 75,
-        },
-      ],
+          "id": "10A91E2806181F58",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
     },
     {
-      id: "726EB243B6B6B399",
-      x: 1.8,
-      y: 26.2,
-      shape: "diamond",
-      size: 1.0,
-      dependencies: [
-        "47194A8027FE5716",
+      "x": 1.8,
+      "y": 26.2,
+      "shape": "diamond",
+      "dependencies": [
+        "47194A8027FE5716"
       ],
-      optional: true,
-      dep_control_pts: {
+      "dep_control_pts": {
         "47194A8027FE5716": [
-          0.0,
+          0,
           25.3,
           1.8,
-          26.2,
-        ],
+          26.2
+        ]
       },
-      tasks: [
+      "size": 1,
+      "optional": true,
+      "id": "726EB243B6B6B399",
+      "tasks": [
         {
-          id: "49714EC6781BB8B6",
-          type: "item",
-          item: {
-            count: 1,
-            id: "extendedcrafting:singularity",
-            components: {
-              "extendedcrafting:singularity_id": "extendedcrafting:coal",
-            },
+          "id": "49714EC6781BB8B6",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:singularity",
+            "count": 1,
+            "components": {
+              "extendedcrafting:singularity_id": "extendedcrafting:coal"
+            }
           },
-          match_components: "fuzzy",
-        },
+          "match_components": "fuzzy"
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "366B9B546A05AF41",
-          type: "xp",
-          xp: 75,
-        },
-      ],
+          "id": "366B9B546A05AF41",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
     },
     {
-      id: "7A8D4206928F5F65",
-      x: 1.8,
-      y: 28.0,
-      shape: "diamond",
-      size: 1.0,
-      dependencies: [
-        "47194A8027FE5716",
+      "x": 1.8,
+      "y": 28,
+      "shape": "diamond",
+      "dependencies": [
+        "47194A8027FE5716"
       ],
-      optional: true,
-      dep_control_pts: {
+      "dep_control_pts": {
         "47194A8027FE5716": [
-          0.0,
+          0,
           25.3,
           1.8,
-          28.0,
-        ],
+          28
+        ]
       },
-      tasks: [
+      "size": 1,
+      "optional": true,
+      "id": "7A8D4206928F5F65",
+      "tasks": [
         {
-          id: "2AAAE327EF18BA12",
-          type: "item",
-          item: {
-            count: 1,
-            id: "extendedcrafting:singularity",
-            components: {
-              "extendedcrafting:singularity_id": "extendedcrafting:copper",
-            },
+          "id": "2AAAE327EF18BA12",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:singularity",
+            "count": 1,
+            "components": {
+              "extendedcrafting:singularity_id": "extendedcrafting:copper"
+            }
           },
-          match_components: "fuzzy",
-        },
+          "match_components": "fuzzy"
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "6FF75ABD5769C69F",
-          type: "xp",
-          xp: 75,
-        },
-      ],
+          "id": "6FF75ABD5769C69F",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
     },
     {
-      id: "6A5A1AC7373958C5",
-      x: 3.6,
-      y: 22.6,
-      shape: "diamond",
-      size: 1.0,
-      dependencies: [
-        "47194A8027FE5716",
+      "x": 3.6,
+      "y": 22.6,
+      "shape": "diamond",
+      "dependencies": [
+        "47194A8027FE5716"
       ],
-      optional: true,
-      dep_control_pts: {
+      "dep_control_pts": {
         "47194A8027FE5716": [
-          0.0,
+          0,
           25.3,
           3.6,
-          22.6,
-        ],
+          22.6
+        ]
       },
-      tasks: [
+      "size": 1,
+      "optional": true,
+      "id": "6A5A1AC7373958C5",
+      "tasks": [
         {
-          id: "0350BE0FC78D72C9",
-          type: "item",
-          item: {
-            count: 1,
-            id: "extendedcrafting:singularity",
-            components: {
-              "extendedcrafting:singularity_id": "extendedcrafting:diamond",
-            },
+          "id": "0350BE0FC78D72C9",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:singularity",
+            "count": 1,
+            "components": {
+              "extendedcrafting:singularity_id": "extendedcrafting:diamond"
+            }
           },
-          match_components: "fuzzy",
-        },
+          "match_components": "fuzzy"
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "693DA3E6F5330C98",
-          type: "xp",
-          xp: 75,
-        },
-      ],
+          "id": "693DA3E6F5330C98",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
     },
     {
-      id: "10B512BE6B6B8C60",
-      x: 3.6,
-      y: 24.4,
-      shape: "diamond",
-      size: 1.0,
-      dependencies: [
-        "47194A8027FE5716",
+      "x": 3.6,
+      "y": 24.4,
+      "shape": "diamond",
+      "dependencies": [
+        "47194A8027FE5716"
       ],
-      optional: true,
-      dep_control_pts: {
+      "dep_control_pts": {
         "47194A8027FE5716": [
-          0.0,
+          0,
           25.3,
           3.6,
-          24.4,
-        ],
+          24.4
+        ]
       },
-      tasks: [
+      "size": 1,
+      "optional": true,
+      "id": "10B512BE6B6B8C60",
+      "tasks": [
         {
-          id: "0D889A50668F3154",
-          type: "item",
-          item: {
-            count: 1,
-            id: "extendedcrafting:singularity",
-            components: {
-              "extendedcrafting:singularity_id": "extendedcrafting:electrum",
-            },
+          "id": "0D889A50668F3154",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:singularity",
+            "count": 1,
+            "components": {
+              "extendedcrafting:singularity_id": "extendedcrafting:electrum"
+            }
           },
-          match_components: "fuzzy",
-        },
+          "match_components": "fuzzy"
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "26FEF17AB35AB09E",
-          type: "xp",
-          xp: 75,
-        },
-      ],
+          "id": "26FEF17AB35AB09E",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
     },
     {
-      id: "30800A279127E9EE",
-      x: 3.6,
-      y: 26.2,
-      shape: "diamond",
-      size: 1.0,
-      dependencies: [
-        "47194A8027FE5716",
+      "x": 3.6,
+      "y": 26.2,
+      "shape": "diamond",
+      "dependencies": [
+        "47194A8027FE5716"
       ],
-      optional: true,
-      dep_control_pts: {
+      "dep_control_pts": {
         "47194A8027FE5716": [
-          0.0,
+          0,
           25.3,
           3.6,
-          26.2,
-        ],
+          26.2
+        ]
       },
-      tasks: [
+      "size": 1,
+      "optional": true,
+      "id": "30800A279127E9EE",
+      "tasks": [
         {
-          id: "4ABB1A87CBB046FB",
-          type: "item",
-          item: {
-            count: 1,
-            id: "extendedcrafting:singularity",
-            components: {
-              "extendedcrafting:singularity_id": "extendedcrafting:emerald",
-            },
+          "id": "4ABB1A87CBB046FB",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:singularity",
+            "count": 1,
+            "components": {
+              "extendedcrafting:singularity_id": "extendedcrafting:emerald"
+            }
           },
-          match_components: "fuzzy",
-        },
+          "match_components": "fuzzy"
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "15A6AE97AD2B56A1",
-          type: "xp",
-          xp: 75,
-        },
-      ],
+          "id": "15A6AE97AD2B56A1",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
     },
     {
-      id: "0EE412272ACB0570",
-      x: 3.6,
-      y: 28.0,
-      shape: "diamond",
-      size: 1.0,
-      dependencies: [
-        "47194A8027FE5716",
+      "x": 3.6,
+      "y": 28,
+      "shape": "diamond",
+      "dependencies": [
+        "47194A8027FE5716"
       ],
-      optional: true,
-      dep_control_pts: {
+      "dep_control_pts": {
         "47194A8027FE5716": [
-          0.0,
+          0,
           25.3,
           3.6,
-          28.0,
-        ],
+          28
+        ]
       },
-      tasks: [
+      "size": 1,
+      "optional": true,
+      "id": "0EE412272ACB0570",
+      "tasks": [
         {
-          id: "6DDCB2E4794DFFAD",
-          type: "item",
-          item: {
-            count: 1,
-            id: "extendedcrafting:singularity",
-            components: {
-              "extendedcrafting:singularity_id": "extendedcrafting:glowstone",
-            },
+          "id": "6DDCB2E4794DFFAD",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:singularity",
+            "count": 1,
+            "components": {
+              "extendedcrafting:singularity_id": "extendedcrafting:glowstone"
+            }
           },
-          match_components: "fuzzy",
-        },
+          "match_components": "fuzzy"
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "03FCD7099B0F8342",
-          type: "xp",
-          xp: 75,
-        },
-      ],
+          "id": "03FCD7099B0F8342",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
     },
     {
-      id: "7D5440C40808B748",
-      x: 5.4,
-      y: 22.6,
-      shape: "diamond",
-      size: 1.0,
-      dependencies: [
-        "47194A8027FE5716",
+      "x": 5.4,
+      "y": 22.6,
+      "shape": "diamond",
+      "dependencies": [
+        "47194A8027FE5716"
       ],
-      optional: true,
-      dep_control_pts: {
+      "dep_control_pts": {
         "47194A8027FE5716": [
-          0.0,
+          0,
           25.3,
           5.4,
-          22.6,
-        ],
+          22.6
+        ]
       },
-      tasks: [
+      "size": 1,
+      "optional": true,
+      "id": "7D5440C40808B748",
+      "tasks": [
         {
-          id: "26942999D9957B20",
-          type: "item",
-          item: {
-            count: 1,
-            id: "extendedcrafting:singularity",
-            components: {
-              "extendedcrafting:singularity_id": "extendedcrafting:gold",
-            },
+          "id": "26942999D9957B20",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:singularity",
+            "count": 1,
+            "components": {
+              "extendedcrafting:singularity_id": "extendedcrafting:gold"
+            }
           },
-          match_components: "fuzzy",
-        },
+          "match_components": "fuzzy"
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "230F22BF78532711",
-          type: "xp",
-          xp: 75,
-        },
-      ],
+          "id": "230F22BF78532711",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
     },
     {
-      id: "00C8F86867B203D3",
-      x: 5.4,
-      y: 24.4,
-      shape: "diamond",
-      size: 1.0,
-      dependencies: [
-        "47194A8027FE5716",
+      "x": 5.4,
+      "y": 24.4,
+      "shape": "diamond",
+      "dependencies": [
+        "47194A8027FE5716"
       ],
-      optional: true,
-      dep_control_pts: {
+      "dep_control_pts": {
         "47194A8027FE5716": [
-          0.0,
+          0,
           25.3,
           5.4,
-          24.4,
-        ],
+          24.4
+        ]
       },
-      tasks: [
+      "size": 1,
+      "optional": true,
+      "id": "00C8F86867B203D3",
+      "tasks": [
         {
-          id: "080CCE2FD5348FB0",
-          type: "item",
-          item: {
-            count: 1,
-            id: "extendedcrafting:singularity",
-            components: {
-              "extendedcrafting:singularity_id": "extendedcrafting:invar",
-            },
+          "id": "080CCE2FD5348FB0",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:singularity",
+            "count": 1,
+            "components": {
+              "extendedcrafting:singularity_id": "extendedcrafting:invar"
+            }
           },
-          match_components: "fuzzy",
-        },
+          "match_components": "fuzzy"
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "6C2449F525A428C6",
-          type: "xp",
-          xp: 75,
-        },
-      ],
+          "id": "6C2449F525A428C6",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
     },
     {
-      id: "2575F7916BF7DA5D",
-      x: 5.4,
-      y: 26.2,
-      shape: "diamond",
-      size: 1.0,
-      dependencies: [
-        "47194A8027FE5716",
+      "x": 5.4,
+      "y": 26.2,
+      "shape": "diamond",
+      "dependencies": [
+        "47194A8027FE5716"
       ],
-      optional: true,
-      dep_control_pts: {
+      "dep_control_pts": {
         "47194A8027FE5716": [
-          0.0,
+          0,
           25.3,
           5.4,
-          26.2,
-        ],
+          26.2
+        ]
       },
-      tasks: [
+      "size": 1,
+      "optional": true,
+      "id": "2575F7916BF7DA5D",
+      "tasks": [
         {
-          id: "7BB000BF27B217F6",
-          type: "item",
-          item: {
-            count: 1,
-            id: "extendedcrafting:singularity",
-            components: {
-              "extendedcrafting:singularity_id": "extendedcrafting:iron",
-            },
+          "id": "7BB000BF27B217F6",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:singularity",
+            "count": 1,
+            "components": {
+              "extendedcrafting:singularity_id": "extendedcrafting:iron"
+            }
           },
-          match_components: "fuzzy",
-        },
+          "match_components": "fuzzy"
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "5D73206251CAE690",
-          type: "xp",
-          xp: 75,
-        },
-      ],
+          "id": "5D73206251CAE690",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
     },
     {
-      id: "7F9F5D945D3DAFB4",
-      x: 5.4,
-      y: 28.0,
-      shape: "diamond",
-      size: 1.0,
-      dependencies: [
-        "47194A8027FE5716",
+      "x": 5.4,
+      "y": 28,
+      "shape": "diamond",
+      "dependencies": [
+        "47194A8027FE5716"
       ],
-      optional: true,
-      dep_control_pts: {
+      "dep_control_pts": {
         "47194A8027FE5716": [
-          0.0,
+          0,
           25.3,
           5.4,
-          28.0,
-        ],
+          28
+        ]
       },
-      tasks: [
+      "size": 1,
+      "optional": true,
+      "id": "7F9F5D945D3DAFB4",
+      "tasks": [
         {
-          id: "39DE660C0A49BBDC",
-          type: "item",
-          item: {
-            count: 1,
-            id: "extendedcrafting:singularity",
-            components: {
-              "extendedcrafting:singularity_id": "extendedcrafting:lapis_lazuli",
-            },
+          "id": "39DE660C0A49BBDC",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:singularity",
+            "count": 1,
+            "components": {
+              "extendedcrafting:singularity_id": "extendedcrafting:lapis_lazuli"
+            }
           },
-          match_components: "fuzzy",
-        },
+          "match_components": "fuzzy"
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "43C1BF28BD3C216D",
-          type: "xp",
-          xp: 75,
-        },
-      ],
+          "id": "43C1BF28BD3C216D",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
     },
     {
-      id: "0ED902332572C70E",
-      x: 7.2,
-      y: 22.6,
-      shape: "diamond",
-      size: 1.0,
-      dependencies: [
-        "47194A8027FE5716",
+      "x": 7.2,
+      "y": 22.6,
+      "shape": "diamond",
+      "dependencies": [
+        "47194A8027FE5716"
       ],
-      optional: true,
-      dep_control_pts: {
+      "dep_control_pts": {
         "47194A8027FE5716": [
-          0.0,
+          0,
           25.3,
           7.2,
-          22.6,
-        ],
+          22.6
+        ]
       },
-      tasks: [
+      "size": 1,
+      "optional": true,
+      "id": "0ED902332572C70E",
+      "tasks": [
         {
-          id: "33DE9AEFBCB079F7",
-          type: "item",
-          item: {
-            count: 1,
-            id: "extendedcrafting:singularity",
-            components: {
-              "extendedcrafting:singularity_id": "extendedcrafting:lead",
-            },
+          "id": "33DE9AEFBCB079F7",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:singularity",
+            "count": 1,
+            "components": {
+              "extendedcrafting:singularity_id": "extendedcrafting:lead"
+            }
           },
-          match_components: "fuzzy",
-        },
+          "match_components": "fuzzy"
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "57EC540FFC345E54",
-          type: "xp",
-          xp: 75,
-        },
-      ],
+          "id": "57EC540FFC345E54",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
     },
     {
-      id: "27EA1C65CA1BC423",
-      x: 7.2,
-      y: 24.4,
-      shape: "diamond",
-      size: 1.0,
-      dependencies: [
-        "47194A8027FE5716",
+      "x": 7.2,
+      "y": 24.4,
+      "shape": "diamond",
+      "dependencies": [
+        "47194A8027FE5716"
       ],
-      optional: true,
-      dep_control_pts: {
+      "dep_control_pts": {
         "47194A8027FE5716": [
-          0.0,
+          0,
           25.3,
           7.2,
-          24.4,
-        ],
+          24.4
+        ]
       },
-      tasks: [
+      "size": 1,
+      "optional": true,
+      "id": "27EA1C65CA1BC423",
+      "tasks": [
         {
-          id: "31398C6F8BA0C70D",
-          type: "item",
-          item: {
-            count: 1,
-            id: "extendedcrafting:singularity",
-            components: {
-              "extendedcrafting:singularity_id": "extendedcrafting:nickel",
-            },
+          "id": "31398C6F8BA0C70D",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:singularity",
+            "count": 1,
+            "components": {
+              "extendedcrafting:singularity_id": "extendedcrafting:nickel"
+            }
           },
-          match_components: "fuzzy",
-        },
+          "match_components": "fuzzy"
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "49AD90AC987A5779",
-          type: "xp",
-          xp: 75,
-        },
-      ],
+          "id": "49AD90AC987A5779",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
     },
     {
-      id: "47F8EDE282AB01DD",
-      x: 7.2,
-      y: 26.2,
-      shape: "diamond",
-      size: 1.0,
-      dependencies: [
-        "47194A8027FE5716",
+      "x": 7.2,
+      "y": 26.2,
+      "shape": "diamond",
+      "dependencies": [
+        "47194A8027FE5716"
       ],
-      optional: true,
-      dep_control_pts: {
+      "dep_control_pts": {
         "47194A8027FE5716": [
-          0.0,
+          0,
           25.3,
           7.2,
-          26.2,
-        ],
+          26.2
+        ]
       },
-      tasks: [
+      "size": 1,
+      "optional": true,
+      "id": "47F8EDE282AB01DD",
+      "tasks": [
         {
-          id: "31F71EF8D375DC13",
-          type: "item",
-          item: {
-            count: 1,
-            id: "extendedcrafting:singularity",
-            components: {
-              "extendedcrafting:singularity_id": "extendedcrafting:platinum",
-            },
+          "id": "31F71EF8D375DC13",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:singularity",
+            "count": 1,
+            "components": {
+              "extendedcrafting:singularity_id": "extendedcrafting:platinum"
+            }
           },
-          match_components: "fuzzy",
-        },
+          "match_components": "fuzzy"
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "49094E57BFC71ACA",
-          type: "xp",
-          xp: 75,
-        },
-      ],
+          "id": "49094E57BFC71ACA",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
     },
     {
-      id: "242B6418D4C24B18",
-      x: 7.2,
-      y: 28.0,
-      shape: "diamond",
-      size: 1.0,
-      dependencies: [
-        "47194A8027FE5716",
+      "x": 7.2,
+      "y": 28,
+      "shape": "diamond",
+      "dependencies": [
+        "47194A8027FE5716"
       ],
-      optional: true,
-      dep_control_pts: {
+      "dep_control_pts": {
         "47194A8027FE5716": [
-          0.0,
+          0,
           25.3,
           7.2,
-          28.0,
-        ],
+          28
+        ]
       },
-      tasks: [
+      "size": 1,
+      "optional": true,
+      "id": "242B6418D4C24B18",
+      "tasks": [
         {
-          id: "18770FC0CF9BCA52",
-          type: "item",
-          item: {
-            count: 1,
-            id: "extendedcrafting:singularity",
-            components: {
-              "extendedcrafting:singularity_id": "extendedcrafting:redstone",
-            },
+          "id": "18770FC0CF9BCA52",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:singularity",
+            "count": 1,
+            "components": {
+              "extendedcrafting:singularity_id": "extendedcrafting:redstone"
+            }
           },
-          match_components: "fuzzy",
-        },
+          "match_components": "fuzzy"
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "0B8C47041F025A09",
-          type: "xp",
-          xp: 75,
-        },
-      ],
+          "id": "0B8C47041F025A09",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
     },
     {
-      id: "33B7DFDBBB570022",
-      x: 9.0,
-      y: 23.5,
-      shape: "diamond",
-      size: 1.0,
-      dependencies: [
-        "47194A8027FE5716",
+      "x": 9,
+      "y": 23.5,
+      "shape": "diamond",
+      "dependencies": [
+        "47194A8027FE5716"
       ],
-      optional: true,
-      dep_control_pts: {
+      "dep_control_pts": {
         "47194A8027FE5716": [
-          0.0,
+          0,
           25.3,
-          9.0,
-          23.5,
-        ],
+          9,
+          23.5
+        ]
       },
-      tasks: [
+      "size": 1,
+      "optional": true,
+      "id": "33B7DFDBBB570022",
+      "tasks": [
         {
-          id: "6F49246D689FBF30",
-          type: "item",
-          item: {
-            count: 1,
-            id: "extendedcrafting:singularity",
-            components: {
-              "extendedcrafting:singularity_id": "extendedcrafting:silver",
-            },
+          "id": "6F49246D689FBF30",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:singularity",
+            "count": 1,
+            "components": {
+              "extendedcrafting:singularity_id": "extendedcrafting:silver"
+            }
           },
-          match_components: "fuzzy",
-        },
+          "match_components": "fuzzy"
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "0E277BF0E285AAB7",
-          type: "xp",
-          xp: 75,
-        },
-      ],
+          "id": "0E277BF0E285AAB7",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
     },
     {
-      id: "7E5ABDED275871F7",
-      x: 9.0,
-      y: 25.3,
-      shape: "diamond",
-      size: 1.0,
-      dependencies: [
-        "47194A8027FE5716",
+      "x": 9,
+      "y": 25.3,
+      "shape": "diamond",
+      "dependencies": [
+        "47194A8027FE5716"
       ],
-      optional: true,
-      dep_control_pts: {
+      "dep_control_pts": {
         "47194A8027FE5716": [
-          0.0,
+          0,
           25.3,
-          9.0,
-          25.3,
-        ],
+          9,
+          25.3
+        ]
       },
-      tasks: [
+      "size": 1,
+      "optional": true,
+      "id": "7E5ABDED275871F7",
+      "tasks": [
         {
-          id: "38A4D4889FFD4FD4",
-          type: "item",
-          item: {
-            count: 1,
-            id: "extendedcrafting:singularity",
-            components: {
-              "extendedcrafting:singularity_id": "extendedcrafting:steel",
-            },
+          "id": "38A4D4889FFD4FD4",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:singularity",
+            "count": 1,
+            "components": {
+              "extendedcrafting:singularity_id": "extendedcrafting:steel"
+            }
           },
-          match_components: "fuzzy",
-        },
+          "match_components": "fuzzy"
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "5AB23BFFA52A42D8",
-          type: "xp",
-          xp: 75,
-        },
-      ],
+          "id": "5AB23BFFA52A42D8",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
     },
     {
-      id: "5C4918B9135F7E17",
-      x: 9.0,
-      y: 27.1,
-      shape: "diamond",
-      size: 1.0,
-      dependencies: [
-        "47194A8027FE5716",
+      "x": 9,
+      "y": 27.1,
+      "shape": "diamond",
+      "dependencies": [
+        "47194A8027FE5716"
       ],
-      optional: true,
-      dep_control_pts: {
+      "dep_control_pts": {
         "47194A8027FE5716": [
-          0.0,
+          0,
           25.3,
-          9.0,
-          27.1,
-        ],
+          9,
+          27.1
+        ]
       },
-      tasks: [
+      "size": 1,
+      "optional": true,
+      "id": "5C4918B9135F7E17",
+      "tasks": [
         {
-          id: "4A46F61835A4FCE8",
-          type: "item",
-          item: {
-            count: 1,
-            id: "extendedcrafting:singularity",
-            components: {
-              "extendedcrafting:singularity_id": "extendedcrafting:tin",
-            },
+          "id": "4A46F61835A4FCE8",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:singularity",
+            "count": 1,
+            "components": {
+              "extendedcrafting:singularity_id": "extendedcrafting:tin"
+            }
           },
-          match_components: "fuzzy",
-        },
+          "match_components": "fuzzy"
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "5999816D5811905B",
-          type: "xp",
-          xp: 75,
-        },
-      ],
+          "id": "5999816D5811905B",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
     },
     {
-      id: "594ED768645188A4",
-      x: 17.0,
-      y: 22.6,
-      shape: "circle",
-      size: 1.0,
-      dependencies: [
-        "72FF85D6A13BE86B",
+      "x": 17,
+      "y": 22.6,
+      "shape": "circle",
+      "hide_dependency_lines": true,
+      "dependencies": [
+        "72FF85D6A13BE86B"
       ],
-      hide_dependency_lines: true,
-      dep_control_pts: {
+      "dep_control_pts": {
         "72FF85D6A13BE86B": [
           13.4,
           10.8,
-          17.0,
-          22.6,
-        ],
+          17,
+          22.6
+        ]
       },
-      tasks: [
+      "size": 1,
+      "id": "594ED768645188A4",
+      "tasks": [
         {
-          id: "729214BC57BB6002",
-          type: "item",
-          item: {
-            count: 1,
-            id: "gspack:creative_singularity",
-          },
-        },
+          "id": "729214BC57BB6002",
+          "type": "item",
+          "item": {
+            "id": "gspack:creative_singularity",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "23F3BAFC9C4B5B90",
-          type: "xp",
-          xp: 250,
+          "id": "23F3BAFC9C4B5B90",
+          "type": "xp",
+          "xp": 250
         },
         {
-          id: "60BC9ACBCBE496FA",
-          type: "random",
-          table_id: 379532711335085,
-        },
-      ],
+          "id": "60BC9ACBCBE496FA",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 379532711335085
+        }
+      ]
     },
     {
-      id: "08F3AB7C1F6C0108",
-      x: 18.8,
-      y: 22.6,
-      shape: "gear",
-      size: 1.3,
-      dependencies: [
+      "x": 18.8,
+      "y": 22.6,
+      "shape": "gear",
+      "hide_dependency_lines": true,
+      "dependencies": [
         "72FF85D6A13BE86B",
         "47194A8027FE5716",
-        "594ED768645188A4",
+        "594ED768645188A4"
       ],
-      hide_dependency_lines: true,
-      dep_control_pts: {
+      "dep_control_pts": {
         "72FF85D6A13BE86B": [
           13.4,
           10.8,
           18.8,
-          22.6,
+          22.6
         ],
         "47194A8027FE5716": [
-          0.0,
+          0,
           25.3,
           18.8,
-          22.6,
+          22.6
         ],
         "594ED768645188A4": [
-          17.0,
+          17,
           22.6,
           18.8,
-          22.6,
-        ],
+          22.6
+        ]
       },
-      tasks: [
+      "size": 1.3,
+      "id": "08F3AB7C1F6C0108",
+      "tasks": [
         {
-          id: "5AFF9B9F1D6A5C8B",
-          type: "item",
-          item: {
-            count: 1,
-            id: "extendedcrafting:ultimate_singularity",
-          },
-        },
+          "id": "5AFF9B9F1D6A5C8B",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:ultimate_singularity",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "134498FB57A0A6BD",
-          type: "xp",
-          xp: 500,
+          "id": "134498FB57A0A6BD",
+          "type": "xp",
+          "xp": 500
         },
         {
-          id: "72A5F45D95609D35",
-          type: "random",
-          table_id: 379532711335085,
-        },
-      ],
+          "id": "72A5F45D95609D35",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 379532711335085
+        }
+      ]
     },
     {
-      id: "796CC7D0ED52EBEB",
-      x: 20.6,
-      y: 22.6,
-      shape: "gear",
-      size: 1.3,
-      dependencies: [
-        "08F3AB7C1F6C0108",
+      "x": 20.6,
+      "y": 22.6,
+      "shape": "gear",
+      "dependencies": [
+        "08F3AB7C1F6C0108"
       ],
-      dep_control_pts: {
+      "dep_control_pts": {
         "08F3AB7C1F6C0108": [
           18.8,
           22.6,
           20.6,
-          22.6,
-        ],
+          22.6
+        ]
       },
-      tasks: [
+      "size": 1.3,
+      "id": "796CC7D0ED52EBEB",
+      "tasks": [
         {
-          id: "729B273310000715",
-          type: "item",
-          item: {
-            count: 1,
-            id: "gspack:infinity_trophy",
-          },
-        },
+          "id": "729B273310000715",
+          "type": "item",
+          "item": {
+            "id": "gspack:infinity_trophy",
+            "count": 1
+          }
+        }
       ],
-      rewards: [
+      "rewards": [
         {
-          id: "423F8DBEC25B7223",
-          type: "xp",
-          xp: 500,
+          "id": "423F8DBEC25B7223",
+          "type": "xp",
+          "xp": 500
         },
         {
-          id: "713822340BAFD47C",
-          type: "random",
-          table_id: 379532711335085,
-        },
-      ],
-    },
+          "id": "713822340BAFD47C",
+          "type": "random",
+          "exclude_from_claim_all": true,
+          "table_id": 379532711335085
+        }
+      ]
+    }
   ],
-  quest_links: [ ],
-  images: [
+  "quest_links": [],
+  "images": [
     {
-      x: 11.6,
-      y: -1.7188,
-      width: 12.0,
-      height: 1.4375,
-      rotation: 0.0,
-      image: "gspack:textures/quests/extendedcrafting_header.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false,
+      "x": 11.6,
+      "y": -1.7188,
+      "width": 12,
+      "height": 1.4375,
+      "rotation": 0,
+      "image": "gspack:textures/quests/extendedcrafting_header.png",
+      "id": "4DD4D168E27CE28A"
     },
     {
-      x: 10.7353,
-      y: 0.0,
-      width: 3.5294,
-      height: 0.6,
-      rotation: 0.0,
-      image: "gspack:textures/quests/extendedcrafting_basic.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false,
+      "x": 10.7353,
+      "y": 0,
+      "width": 3.5294,
+      "height": 0.6,
+      "rotation": 0,
+      "image": "gspack:textures/quests/extendedcrafting_basic.png",
+      "id": "7287634E2466F7B4"
     },
     {
-      x: 4.5412,
-      y: 14.0,
-      width: 5.1176,
-      height: 0.6,
-      rotation: 0.0,
-      image: "gspack:textures/quests/extendedcrafting_combination.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false,
+      "x": 4.5412,
+      "y": 14,
+      "width": 5.1176,
+      "height": 0.6,
+      "rotation": 0,
+      "image": "gspack:textures/quests/extendedcrafting_combination.png",
+      "id": "63FB4DDB43684535"
     },
     {
-      x: -2.4176,
-      y: 25.3,
-      width: 3.0353,
-      height: 0.6,
-      rotation: 0.0,
-      image: "gspack:textures/quests/extendedcrafting_compressor.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false,
+      "x": -2.4176,
+      "y": 25.3,
+      "width": 3.0353,
+      "height": 0.6,
+      "rotation": 0,
+      "image": "gspack:textures/quests/extendedcrafting_compressor.png",
+      "id": "76A20A30444BB92D"
     },
     {
-      x: -2.3294,
-      y: 14.0,
-      width: 2.8588,
-      height: 0.6,
-      rotation: 0.0,
-      image: "gspack:textures/quests/extendedcrafting_auto_basic.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false,
+      "x": -2.3294,
+      "y": 14,
+      "width": 2.8588,
+      "height": 0.6,
+      "rotation": 0,
+      "image": "gspack:textures/quests/extendedcrafting_auto_basic.png",
+      "id": "1DABB424CAA41586"
     },
     {
-      x: 15.0765,
-      y: 22.6,
-      width: 2.0471,
-      height: 0.6,
-      rotation: 0.0,
-      image: "gspack:textures/quests/extendedcrafting_creative.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false,
+      "x": 15.0765,
+      "y": 22.6,
+      "width": 2.0471,
+      "height": 0.6,
+      "rotation": 0,
+      "image": "gspack:textures/quests/extendedcrafting_creative.png",
+      "id": "482B27FDE6AFA253"
     },
     {
-      x: 18.3471,
-      y: 0.0,
-      width: 4.3059,
-      height: 0.6,
-      rotation: 0.0,
-      image: "gspack:textures/quests/extendedcrafting_crystaltine.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false,
+      "x": 18.3471,
+      "y": 0,
+      "width": 4.3059,
+      "height": 0.6,
+      "rotation": 0,
+      "image": "gspack:textures/quests/extendedcrafting_crystaltine.png",
+      "id": "4CCD1D43A79A0D70"
     },
     {
-      x: -2.7,
-      y: 0.9,
-      width: 3.6,
-      height: 0.6,
-      rotation: 0.0,
-      image: "gspack:textures/quests/extendedcrafting_start.png",
-      color: 16777215,
-      alpha: 255,
-      order: 0,
-      corner: false,
-    },
+      "x": -2.7,
+      "y": 0.9,
+      "width": 3.6,
+      "height": 0.6,
+      "rotation": 0,
+      "image": "gspack:textures/quests/extendedcrafting_start.png",
+      "id": "76ECAC3A4F9349BF"
+    }
   ],
-  autofocus_id: "",
+  "autofocus_id": ""
 }
