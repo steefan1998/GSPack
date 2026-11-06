@@ -1,14 +1,14 @@
 {
   "pack": {
     "pack_format": 84,
-    "max_format": [
-      84,
-      0
-    ],
     "min_format": [
       84,
       0
     ],
-    "description": "GSPack mars assets"
+    "description": "GSPack mars assets",
+    "max_format": [
+      84,
+      0
+    ]
   }
 }

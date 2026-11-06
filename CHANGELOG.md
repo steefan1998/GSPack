@@ -6,6 +6,8 @@ Pack changes are listed here. Exact added and updated mods are in [MOD-CHANGELOG
 
 ### Cores and Cosmos
 
+- Update compatibility: fourteen inactive legacy script files overwrite retired code during folder-merging client/server updates. The reported startup failure came from mixed old/new files; no 0.8.1 release is required.
+
 - Added 66 native Potions Master sights, including 56 new material types. Original potion IDs are retained; optional block-tag entries cover cross-mod, deepslate, lunar and Mars variants.
 - Added Frozen Wastes, uncommon Research Wastes and Colony Flats to Mars. Research domes have four spawners, three loot chests and a guaranteed relic; the relic crafts a Martian Navigation Core used by the Cosmic Core. The abandoned dungeon requires players to bring oxygen.
 - Added oxygen-village domes, native villagers with Mars trades and spaceman skins, protected automatic oxygen/energy refill, and a separate no-oxygen-needed fail-safe. Native player-built installations retain normal consumption.
