@@ -157,11 +157,3 @@ powershell -ExecutionPolicy Bypass -File tools\track-mods.ps1 -Version 0.8
 ```
 
 This saves a snapshot of all mods in `modlists/<version>.json` and lists what was added, removed and updated since the previous version.
-
-## Release 0.7 additions
-
-The 0.8 release candidate has 1,840 quests across 43 chapters, including Farming, Mob Hunting Board and Neo Vitae. Mekanism separates circuits, alloys and installers; Utilities groups quests by mod. Eleven reward tables have 69 additional entries.
-
-All players can use /mastery to view completed chapters and /mastery player <player> to inspect another online player. Welcome explains the commands. See [mastery](docs/MASTERY.md), [EMC policy](docs/EMC.md) and the [in-game test checklist](docs/DEV-TEST-CHECKLIST.md). Restart after installing the silicon and EMC changes.
-
-Download and update GSPack through [CurseForge](https://www.curseforge.com/members/steef_an/projects). GitHub releases provide the changelog; pack downloads are distributed through CurseForge.
