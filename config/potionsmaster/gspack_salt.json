@@ -1,6 +1,6 @@
 {
   "entryname": "salt",
-  "oretag": "gspack:potionsmaster/salt",
+  "oretag": "gspack:potionsmaster_ores/salt_sight",
   "color": -6060070,
   "drawing": false,
   "order": 52,

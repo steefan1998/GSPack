@@ -1,6 +1,6 @@
 {
   "entryname": "ferricore",
-  "oretag": "gspack:potionsmaster/ferricore",
+  "oretag": "gspack:potionsmaster_ores/ferricore_sight",
   "color": -4613741,
   "drawing": false,
   "order": 26,

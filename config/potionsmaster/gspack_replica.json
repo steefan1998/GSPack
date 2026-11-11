@@ -1,6 +1,6 @@
 {
   "entryname": "replica",
-  "oretag": "gspack:potionsmaster/replica",
+  "oretag": "gspack:potionsmaster_ores/replica_sight",
   "color": -9995912,
   "drawing": false,
   "order": 50,

@@ -1,6 +1,6 @@
 {
   "entryname": "uranium",
-  "oretag": "gspack:potionsmaster/uranium",
+  "oretag": "gspack:potionsmaster_ores/uranium_sight",
   "color": -12037824,
   "drawing": false,
   "order": 62,

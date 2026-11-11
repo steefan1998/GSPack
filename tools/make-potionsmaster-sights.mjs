@@ -19,6 +19,9 @@ add('dimensional_shard',['rftoolsbase:dimensionalshard_overworld','rftoolsbase:d
 add('certus_quartz',[...blocks].filter(id=>/^ae2:(?:\w+_budding_quartz|\w+_quartz_bud|quartz_cluster)$/.test(id)));
 for(const name of ['iron','copper','gold','osmium','uranium','unobtainium'])add(name,[`gspack:mars_${name}_ore`]);
 const overrides={inferium:'mysticalagriculture:inferium_essence',prosperity:'mysticalagriculture:prosperity_shard',soulium:'mysticalagriculture:soulium_dust',dimensional_shard:'rftoolsbase:dimensionalshard',certus_quartz:'ae2:certus_quartz_crystal',ambrosium:'aether_ii:ambrosium_shard',glint:'aether_ii:glint_gemstone',zanite:'aether_ii:zanite_gemstone',arkenium:'aether_ii:inert_arkenium',gravitite:'aether_ii:inert_gravitite',corrobonite:'aether_ii:corrobonite_crystal',hellforged:'neovitae:dungeon_ore'};
+// Potions Master 2.0.2 only scans block tags whose name contains "ores/", then matches a tag when its
+// id contains the sight oretag. Keep "ores/" in the path and the _sight suffix so coal does not match coal_t1.
+for(const dir of ["potionsmaster","potionsmaster_ores"])fs.rmSync(`kubejs/data/gspack/tags/block/${dir}`,{recursive:true,force:true});
 const manifest=[];
 for(const [name,set] of [...groups].sort(([a],[b])=>a.localeCompare(b))){
  if(!set.size)continue;const values=[...set].sort();const namespaces=[...new Set(['alltheores',...values.map(id=>id.split(':')[0])])];
@@ -26,9 +29,9 @@ for(const [name,set] of [...groups].sort(([a],[b])=>a.localeCompare(b))){
  if(!recipeItem||!items.has(recipeItem)){recipeItem=namespaces.flatMap(ns=>[`raw_${name}`,name,`${name}_gemstone`,`${name}_crystal`,`${name}_gem`,`${name}_ingot`,`${name}_dust`].map(p=>ns+':'+p)).find(id=>items.has(id))??values.find(id=>items.has(id));}
  if(!recipeItem)throw Error('No real recipe item for '+name);
  const hash=crypto.createHash('sha256').update(name).digest();const color=defaults[name]?.[1]??((0xff000000|(64+hash[0]%160)<<16|(64+hash[1]%160)<<8|(64+hash[2]%160))>>>0);
- const oretag=`gspack:potionsmaster/${name}`;const entry={entryname:name,oretag,color:color|0,drawing:false,order:manifest.length,recipeItem};
+ const oretag=`gspack:potionsmaster_ores/${name}_sight`;const entry={entryname:name,oretag,color:color|0,drawing:false,order:manifest.length,recipeItem};
  write(`config/potionsmaster/gspack_${name}.json`,entry);
- write(`kubejs/data/gspack/tags/block/potionsmaster/${name}.json`,{replace:false,values:values.map(id=>({id,required:false}))});
+ write(`kubejs/data/gspack/tags/block/potionsmaster_ores/${name}_sight.json`,{replace:false,values:values.map(id=>({id,required:false}))});
  manifest.push({...entry,blocks:values});
 }
 write('tools/content-data/potionsmaster-sights.json',manifest);

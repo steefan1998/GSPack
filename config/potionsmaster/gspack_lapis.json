@@ -1,6 +1,6 @@
 {
   "entryname": "lapis",
-  "oretag": "gspack:potionsmaster/lapis",
+  "oretag": "gspack:potionsmaster_ores/lapis_sight",
   "color": -16776961,
   "drawing": false,
   "order": 37,

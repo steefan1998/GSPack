@@ -1,6 +1,6 @@
 {
   "entryname": "quartz",
-  "oretag": "gspack:potionsmaster/quartz",
+  "oretag": "gspack:potionsmaster_ores/quartz_sight",
   "color": -1,
   "drawing": false,
   "order": 48,

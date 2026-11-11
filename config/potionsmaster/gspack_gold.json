@@ -1,6 +1,6 @@
 {
   "entryname": "gold",
-  "oretag": "gspack:potionsmaster/gold",
+  "oretag": "gspack:potionsmaster_ores/gold_sight",
   "color": -2838729,
   "drawing": false,
   "order": 30,

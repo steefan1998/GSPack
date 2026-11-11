@@ -1,7 +1,7 @@
 [
   {
     "entryname": "allthemodium",
-    "oretag": "gspack:potionsmaster/allthemodium",
+    "oretag": "gspack:potionsmaster_ores/allthemodium_sight",
     "color": -2658480,
     "drawing": false,
     "order": 0,
@@ -13,7 +13,7 @@
   },
   {
     "entryname": "aluminum",
-    "oretag": "gspack:potionsmaster/aluminum",
+    "oretag": "gspack:potionsmaster_ores/aluminum_sight",
     "color": -6665518,
     "drawing": false,
     "order": 1,
@@ -28,7 +28,7 @@
   },
   {
     "entryname": "amber",
-    "oretag": "gspack:potionsmaster/amber",
+    "oretag": "gspack:potionsmaster_ores/amber_sight",
     "color": -11427745,
     "drawing": false,
     "order": 2,
@@ -40,7 +40,7 @@
   },
   {
     "entryname": "ambrosium",
-    "oretag": "gspack:potionsmaster/ambrosium",
+    "oretag": "gspack:potionsmaster_ores/ambrosium_sight",
     "color": -4759842,
     "drawing": false,
     "order": 3,
@@ -52,7 +52,7 @@
   },
   {
     "entryname": "arkenium",
-    "oretag": "gspack:potionsmaster/arkenium",
+    "oretag": "gspack:potionsmaster_ores/arkenium_sight",
     "color": -8157043,
     "drawing": false,
     "order": 4,
@@ -64,7 +64,7 @@
   },
   {
     "entryname": "blazegold",
-    "oretag": "gspack:potionsmaster/blazegold",
+    "oretag": "gspack:potionsmaster_ores/blazegold_sight",
     "color": -3977386,
     "drawing": false,
     "order": 5,
@@ -75,7 +75,7 @@
   },
   {
     "entryname": "boron",
-    "oretag": "gspack:potionsmaster/boron",
+    "oretag": "gspack:potionsmaster_ores/boron_sight",
     "color": -10137463,
     "drawing": false,
     "order": 6,
@@ -87,7 +87,7 @@
   },
   {
     "entryname": "californium",
-    "oretag": "gspack:potionsmaster/californium",
+    "oretag": "gspack:potionsmaster_ores/californium_sight",
     "color": -8622473,
     "drawing": false,
     "order": 7,
@@ -98,7 +98,7 @@
   },
   {
     "entryname": "celestigem",
-    "oretag": "gspack:potionsmaster/celestigem",
+    "oretag": "gspack:potionsmaster_ores/celestigem_sight",
     "color": -12276597,
     "drawing": false,
     "order": 8,
@@ -109,7 +109,7 @@
   },
   {
     "entryname": "certus_quartz",
-    "oretag": "gspack:potionsmaster/certus_quartz",
+    "oretag": "gspack:potionsmaster_ores/certus_quartz_sight",
     "color": -6969478,
     "drawing": false,
     "order": 9,
@@ -127,7 +127,7 @@
   },
   {
     "entryname": "chromium",
-    "oretag": "gspack:potionsmaster/chromium",
+    "oretag": "gspack:potionsmaster_ores/chromium_sight",
     "color": -8546189,
     "drawing": false,
     "order": 10,
@@ -139,7 +139,7 @@
   },
   {
     "entryname": "cinnabar",
-    "oretag": "gspack:potionsmaster/cinnabar",
+    "oretag": "gspack:potionsmaster_ores/cinnabar_sight",
     "color": -5319016,
     "drawing": false,
     "order": 11,
@@ -156,7 +156,7 @@
   },
   {
     "entryname": "coal",
-    "oretag": "gspack:potionsmaster/coal",
+    "oretag": "gspack:potionsmaster_ores/coal_sight",
     "color": -14671840,
     "drawing": false,
     "order": 12,
@@ -168,7 +168,7 @@
   },
   {
     "entryname": "coal_t1",
-    "oretag": "gspack:potionsmaster/coal_t1",
+    "oretag": "gspack:potionsmaster_ores/coal_t1_sight",
     "color": -10911339,
     "drawing": false,
     "order": 13,
@@ -179,7 +179,7 @@
   },
   {
     "entryname": "coal_t2",
-    "oretag": "gspack:potionsmaster/coal_t2",
+    "oretag": "gspack:potionsmaster_ores/coal_t2_sight",
     "color": -7650730,
     "drawing": false,
     "order": 14,
@@ -190,7 +190,7 @@
   },
   {
     "entryname": "coal_t3",
-    "oretag": "gspack:potionsmaster/coal_t3",
+    "oretag": "gspack:potionsmaster_ores/coal_t3_sight",
     "color": -10853054,
     "drawing": false,
     "order": 15,
@@ -201,7 +201,7 @@
   },
   {
     "entryname": "coal_t4",
-    "oretag": "gspack:potionsmaster/coal_t4",
+    "oretag": "gspack:potionsmaster_ores/coal_t4_sight",
     "color": -11608886,
     "drawing": false,
     "order": 16,
@@ -212,7 +212,7 @@
   },
   {
     "entryname": "cobalt",
-    "oretag": "gspack:potionsmaster/cobalt",
+    "oretag": "gspack:potionsmaster_ores/cobalt_sight",
     "color": -12427929,
     "drawing": false,
     "order": 17,
@@ -223,7 +223,7 @@
   },
   {
     "entryname": "copper",
-    "oretag": "gspack:potionsmaster/copper",
+    "oretag": "gspack:potionsmaster_ores/copper_sight",
     "color": -4755910,
     "drawing": false,
     "order": 18,
@@ -236,7 +236,7 @@
   },
   {
     "entryname": "corrobonite",
-    "oretag": "gspack:potionsmaster/corrobonite",
+    "oretag": "gspack:potionsmaster_ores/corrobonite_sight",
     "color": -5422475,
     "drawing": false,
     "order": 19,
@@ -247,7 +247,7 @@
   },
   {
     "entryname": "dark_gem",
-    "oretag": "gspack:potionsmaster/dark_gem",
+    "oretag": "gspack:potionsmaster_ores/dark_gem_sight",
     "color": -7630116,
     "drawing": false,
     "order": 20,
@@ -259,7 +259,7 @@
   },
   {
     "entryname": "desh",
-    "oretag": "gspack:potionsmaster/desh",
+    "oretag": "gspack:potionsmaster_ores/desh_sight",
     "color": -7694248,
     "drawing": false,
     "order": 21,
@@ -270,7 +270,7 @@
   },
   {
     "entryname": "diamond",
-    "oretag": "gspack:potionsmaster/diamond",
+    "oretag": "gspack:potionsmaster_ores/diamond_sight",
     "color": -12723741,
     "drawing": false,
     "order": 22,
@@ -282,7 +282,7 @@
   },
   {
     "entryname": "dimensional_shard",
-    "oretag": "gspack:potionsmaster/dimensional_shard",
+    "oretag": "gspack:potionsmaster_ores/dimensional_shard_sight",
     "color": -7376474,
     "drawing": false,
     "order": 23,
@@ -295,7 +295,7 @@
   },
   {
     "entryname": "eclipsealloy",
-    "oretag": "gspack:potionsmaster/eclipsealloy",
+    "oretag": "gspack:potionsmaster_ores/eclipsealloy_sight",
     "color": -6733105,
     "drawing": false,
     "order": 24,
@@ -306,7 +306,7 @@
   },
   {
     "entryname": "emerald",
-    "oretag": "gspack:potionsmaster/emerald",
+    "oretag": "gspack:potionsmaster_ores/emerald_sight",
     "color": -16711936,
     "drawing": false,
     "order": 25,
@@ -318,7 +318,7 @@
   },
   {
     "entryname": "ferricore",
-    "oretag": "gspack:potionsmaster/ferricore",
+    "oretag": "gspack:potionsmaster_ores/ferricore_sight",
     "color": -4613741,
     "drawing": false,
     "order": 26,
@@ -329,7 +329,7 @@
   },
   {
     "entryname": "firestone",
-    "oretag": "gspack:potionsmaster/firestone",
+    "oretag": "gspack:potionsmaster_ores/firestone_sight",
     "color": -7712561,
     "drawing": false,
     "order": 27,
@@ -340,7 +340,7 @@
   },
   {
     "entryname": "fluorite",
-    "oretag": "gspack:potionsmaster/fluorite",
+    "oretag": "gspack:potionsmaster_ores/fluorite_sight",
     "color": -10990994,
     "drawing": false,
     "order": 28,
@@ -357,7 +357,7 @@
   },
   {
     "entryname": "glint",
-    "oretag": "gspack:potionsmaster/glint",
+    "oretag": "gspack:potionsmaster_ores/glint_sight",
     "color": -12554353,
     "drawing": false,
     "order": 29,
@@ -369,7 +369,7 @@
   },
   {
     "entryname": "gold",
-    "oretag": "gspack:potionsmaster/gold",
+    "oretag": "gspack:potionsmaster_ores/gold_sight",
     "color": -2838729,
     "drawing": false,
     "order": 30,
@@ -383,7 +383,7 @@
   },
   {
     "entryname": "gravitite",
-    "oretag": "gspack:potionsmaster/gravitite",
+    "oretag": "gspack:potionsmaster_ores/gravitite_sight",
     "color": -4481670,
     "drawing": false,
     "order": 31,
@@ -395,7 +395,7 @@
   },
   {
     "entryname": "hellforged",
-    "oretag": "gspack:potionsmaster/hellforged",
+    "oretag": "gspack:potionsmaster_ores/hellforged_sight",
     "color": -4308651,
     "drawing": false,
     "order": 32,
@@ -406,7 +406,7 @@
   },
   {
     "entryname": "iesnium",
-    "oretag": "gspack:potionsmaster/iesnium",
+    "oretag": "gspack:potionsmaster_ores/iesnium_sight",
     "color": -3581805,
     "drawing": false,
     "order": 33,
@@ -417,7 +417,7 @@
   },
   {
     "entryname": "inferium",
-    "oretag": "gspack:potionsmaster/inferium",
+    "oretag": "gspack:potionsmaster_ores/inferium_sight",
     "color": -7303304,
     "drawing": false,
     "order": 34,
@@ -431,7 +431,7 @@
   },
   {
     "entryname": "iridium",
-    "oretag": "gspack:potionsmaster/iridium",
+    "oretag": "gspack:potionsmaster_ores/iridium_sight",
     "color": -11252139,
     "drawing": false,
     "order": 35,
@@ -446,7 +446,7 @@
   },
   {
     "entryname": "iron",
-    "oretag": "gspack:potionsmaster/iron",
+    "oretag": "gspack:potionsmaster_ores/iron_sight",
     "color": -1785686,
     "drawing": false,
     "order": 36,
@@ -460,7 +460,7 @@
   },
   {
     "entryname": "lapis",
-    "oretag": "gspack:potionsmaster/lapis",
+    "oretag": "gspack:potionsmaster_ores/lapis_sight",
     "color": -16776961,
     "drawing": false,
     "order": 37,
@@ -472,7 +472,7 @@
   },
   {
     "entryname": "lead",
-    "oretag": "gspack:potionsmaster/lead",
+    "oretag": "gspack:potionsmaster_ores/lead_sight",
     "color": -8157781,
     "drawing": false,
     "order": 38,
@@ -493,7 +493,7 @@
   },
   {
     "entryname": "naquadah",
-    "oretag": "gspack:potionsmaster/naquadah",
+    "oretag": "gspack:potionsmaster_ores/naquadah_sight",
     "color": -9612470,
     "drawing": false,
     "order": 39,
@@ -505,7 +505,7 @@
   },
   {
     "entryname": "netherite",
-    "oretag": "gspack:potionsmaster/netherite",
+    "oretag": "gspack:potionsmaster_ores/netherite_sight",
     "color": -23296,
     "drawing": false,
     "order": 40,
@@ -516,7 +516,7 @@
   },
   {
     "entryname": "nickel",
-    "oretag": "gspack:potionsmaster/nickel",
+    "oretag": "gspack:potionsmaster_ores/nickel_sight",
     "color": -7904138,
     "drawing": false,
     "order": 41,
@@ -535,7 +535,7 @@
   },
   {
     "entryname": "niobium",
-    "oretag": "gspack:potionsmaster/niobium",
+    "oretag": "gspack:potionsmaster_ores/niobium_sight",
     "color": -6566026,
     "drawing": false,
     "order": 42,
@@ -546,7 +546,7 @@
   },
   {
     "entryname": "novite",
-    "oretag": "gspack:potionsmaster/novite",
+    "oretag": "gspack:potionsmaster_ores/novite_sight",
     "color": -9592234,
     "drawing": false,
     "order": 43,
@@ -557,7 +557,7 @@
   },
   {
     "entryname": "osmium",
-    "oretag": "gspack:potionsmaster/osmium",
+    "oretag": "gspack:potionsmaster_ores/osmium_sight",
     "color": -8606909,
     "drawing": false,
     "order": 44,
@@ -575,7 +575,7 @@
   },
   {
     "entryname": "peridot",
-    "oretag": "gspack:potionsmaster/peridot",
+    "oretag": "gspack:potionsmaster_ores/peridot_sight",
     "color": -12432243,
     "drawing": false,
     "order": 45,
@@ -590,7 +590,7 @@
   },
   {
     "entryname": "platinum",
-    "oretag": "gspack:potionsmaster/platinum",
+    "oretag": "gspack:potionsmaster_ores/platinum_sight",
     "color": -8151111,
     "drawing": false,
     "order": 46,
@@ -607,7 +607,7 @@
   },
   {
     "entryname": "prosperity",
-    "oretag": "gspack:potionsmaster/prosperity",
+    "oretag": "gspack:potionsmaster_ores/prosperity_sight",
     "color": -6976045,
     "drawing": false,
     "order": 47,
@@ -621,7 +621,7 @@
   },
   {
     "entryname": "quartz",
-    "oretag": "gspack:potionsmaster/quartz",
+    "oretag": "gspack:potionsmaster_ores/quartz_sight",
     "color": -1,
     "drawing": false,
     "order": 48,
@@ -635,7 +635,7 @@
   },
   {
     "entryname": "redstone",
-    "oretag": "gspack:potionsmaster/redstone",
+    "oretag": "gspack:potionsmaster_ores/redstone_sight",
     "color": -65536,
     "drawing": false,
     "order": 49,
@@ -647,7 +647,7 @@
   },
   {
     "entryname": "replica",
-    "oretag": "gspack:potionsmaster/replica",
+    "oretag": "gspack:potionsmaster_ores/replica_sight",
     "color": -9995912,
     "drawing": false,
     "order": 50,
@@ -658,7 +658,7 @@
   },
   {
     "entryname": "ruby",
-    "oretag": "gspack:potionsmaster/ruby",
+    "oretag": "gspack:potionsmaster_ores/ruby_sight",
     "color": -10923071,
     "drawing": false,
     "order": 51,
@@ -673,7 +673,7 @@
   },
   {
     "entryname": "salt",
-    "oretag": "gspack:potionsmaster/salt",
+    "oretag": "gspack:potionsmaster_ores/salt_sight",
     "color": -6060070,
     "drawing": false,
     "order": 52,
@@ -688,7 +688,7 @@
   },
   {
     "entryname": "saltpeter",
-    "oretag": "gspack:potionsmaster/saltpeter",
+    "oretag": "gspack:potionsmaster_ores/saltpeter_sight",
     "color": -10384495,
     "drawing": false,
     "order": 53,
@@ -699,7 +699,7 @@
   },
   {
     "entryname": "sapphire",
-    "oretag": "gspack:potionsmaster/sapphire",
+    "oretag": "gspack:potionsmaster_ores/sapphire_sight",
     "color": -3364998,
     "drawing": false,
     "order": 54,
@@ -714,7 +714,7 @@
   },
   {
     "entryname": "silver",
-    "oretag": "gspack:potionsmaster/silver",
+    "oretag": "gspack:potionsmaster_ores/silver_sight",
     "color": -4690554,
     "drawing": false,
     "order": 55,
@@ -739,7 +739,7 @@
   },
   {
     "entryname": "soulium",
-    "oretag": "gspack:potionsmaster/soulium",
+    "oretag": "gspack:potionsmaster_ores/soulium_sight",
     "color": -6857085,
     "drawing": false,
     "order": 56,
@@ -750,7 +750,7 @@
   },
   {
     "entryname": "sulfur",
-    "oretag": "gspack:potionsmaster/sulfur",
+    "oretag": "gspack:potionsmaster_ores/sulfur_sight",
     "color": -4281021,
     "drawing": false,
     "order": 57,
@@ -767,7 +767,7 @@
   },
   {
     "entryname": "tin",
-    "oretag": "gspack:potionsmaster/tin",
+    "oretag": "gspack:potionsmaster_ores/tin_sight",
     "color": -11823945,
     "drawing": false,
     "order": 58,
@@ -786,7 +786,7 @@
   },
   {
     "entryname": "titanium",
-    "oretag": "gspack:potionsmaster/titanium",
+    "oretag": "gspack:potionsmaster_ores/titanium_sight",
     "color": -9191544,
     "drawing": false,
     "order": 59,
@@ -801,7 +801,7 @@
   },
   {
     "entryname": "unobtainium",
-    "oretag": "gspack:potionsmaster/unobtainium",
+    "oretag": "gspack:potionsmaster_ores/unobtainium_sight",
     "color": -9402806,
     "drawing": false,
     "order": 60,
@@ -813,7 +813,7 @@
   },
   {
     "entryname": "uraninite",
-    "oretag": "gspack:potionsmaster/uraninite",
+    "oretag": "gspack:potionsmaster_ores/uraninite_sight",
     "color": -12525640,
     "drawing": false,
     "order": 61,
@@ -829,7 +829,7 @@
   },
   {
     "entryname": "uranium",
-    "oretag": "gspack:potionsmaster/uranium",
+    "oretag": "gspack:potionsmaster_ores/uranium_sight",
     "color": -12037824,
     "drawing": false,
     "order": 62,
@@ -850,7 +850,7 @@
   },
   {
     "entryname": "vibranium",
-    "oretag": "gspack:potionsmaster/vibranium",
+    "oretag": "gspack:potionsmaster_ores/vibranium_sight",
     "color": -8496754,
     "drawing": false,
     "order": 63,
@@ -862,7 +862,7 @@
   },
   {
     "entryname": "zanite",
-    "oretag": "gspack:potionsmaster/zanite",
+    "oretag": "gspack:potionsmaster_ores/zanite_sight",
     "color": -7845249,
     "drawing": false,
     "order": 64,
@@ -874,7 +874,7 @@
   },
   {
     "entryname": "zinc",
-    "oretag": "gspack:potionsmaster/zinc",
+    "oretag": "gspack:potionsmaster_ores/zinc_sight",
     "color": -6828473,
     "drawing": false,
     "order": 65,

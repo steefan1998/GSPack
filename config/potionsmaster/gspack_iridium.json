@@ -1,6 +1,6 @@
 {
   "entryname": "iridium",
-  "oretag": "gspack:potionsmaster/iridium",
+  "oretag": "gspack:potionsmaster_ores/iridium_sight",
   "color": -11252139,
   "drawing": false,
   "order": 35,

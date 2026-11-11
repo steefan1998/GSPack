@@ -1,6 +1,6 @@
 {
   "entryname": "cinnabar",
-  "oretag": "gspack:potionsmaster/cinnabar",
+  "oretag": "gspack:potionsmaster_ores/cinnabar_sight",
   "color": -5319016,
   "drawing": false,
   "order": 11,

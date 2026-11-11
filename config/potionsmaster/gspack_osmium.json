@@ -1,6 +1,6 @@
 {
   "entryname": "osmium",
-  "oretag": "gspack:potionsmaster/osmium",
+  "oretag": "gspack:potionsmaster_ores/osmium_sight",
   "color": -8606909,
   "drawing": false,
   "order": 44,
