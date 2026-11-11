@@ -1,6 +1,6 @@
 {
   "entryname": "peridot",
-  "oretag": "gspack:potionsmaster/peridot",
+  "oretag": "gspack:potionsmaster_ores/peridot_sight",
   "color": -12432243,
   "drawing": false,
   "order": 45,

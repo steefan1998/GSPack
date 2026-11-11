@@ -1,6 +1,6 @@
 {
   "entryname": "coal",
-  "oretag": "gspack:potionsmaster/coal",
+  "oretag": "gspack:potionsmaster_ores/coal_sight",
   "color": -14671840,
   "drawing": false,
   "order": 12,

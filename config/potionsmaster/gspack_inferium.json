@@ -1,6 +1,6 @@
 {
   "entryname": "inferium",
-  "oretag": "gspack:potionsmaster/inferium",
+  "oretag": "gspack:potionsmaster_ores/inferium_sight",
   "color": -7303304,
   "drawing": false,
   "order": 34,

@@ -1,6 +1,6 @@
 {
   "entryname": "emerald",
-  "oretag": "gspack:potionsmaster/emerald",
+  "oretag": "gspack:potionsmaster_ores/emerald_sight",
   "color": -16711936,
   "drawing": false,
   "order": 25,

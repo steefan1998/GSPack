@@ -1,6 +1,6 @@
 {
   "entryname": "glint",
-  "oretag": "gspack:potionsmaster/glint",
+  "oretag": "gspack:potionsmaster_ores/glint_sight",
   "color": -12554353,
   "drawing": false,
   "order": 29,

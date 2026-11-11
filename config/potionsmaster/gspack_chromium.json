@@ -1,6 +1,6 @@
 {
   "entryname": "chromium",
-  "oretag": "gspack:potionsmaster/chromium",
+  "oretag": "gspack:potionsmaster_ores/chromium_sight",
   "color": -8546189,
   "drawing": false,
   "order": 10,

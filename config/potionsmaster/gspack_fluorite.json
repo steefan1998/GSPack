@@ -1,6 +1,6 @@
 {
   "entryname": "fluorite",
-  "oretag": "gspack:potionsmaster/fluorite",
+  "oretag": "gspack:potionsmaster_ores/fluorite_sight",
   "color": -10990994,
   "drawing": false,
   "order": 28,

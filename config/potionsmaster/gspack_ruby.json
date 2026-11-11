@@ -1,6 +1,6 @@
 {
   "entryname": "ruby",
-  "oretag": "gspack:potionsmaster/ruby",
+  "oretag": "gspack:potionsmaster_ores/ruby_sight",
   "color": -10923071,
   "drawing": false,
   "order": 51,

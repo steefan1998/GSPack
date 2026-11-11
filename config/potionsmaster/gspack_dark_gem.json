@@ -1,6 +1,6 @@
 {
   "entryname": "dark_gem",
-  "oretag": "gspack:potionsmaster/dark_gem",
+  "oretag": "gspack:potionsmaster_ores/dark_gem_sight",
   "color": -7630116,
   "drawing": false,
   "order": 20,

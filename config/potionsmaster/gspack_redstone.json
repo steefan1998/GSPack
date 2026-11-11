@@ -1,6 +1,6 @@
 {
   "entryname": "redstone",
-  "oretag": "gspack:potionsmaster/redstone",
+  "oretag": "gspack:potionsmaster_ores/redstone_sight",
   "color": -65536,
   "drawing": false,
   "order": 49,

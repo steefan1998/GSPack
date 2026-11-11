@@ -1,6 +1,6 @@
 {
   "entryname": "sulfur",
-  "oretag": "gspack:potionsmaster/sulfur",
+  "oretag": "gspack:potionsmaster_ores/sulfur_sight",
   "color": -4281021,
   "drawing": false,
   "order": 57,

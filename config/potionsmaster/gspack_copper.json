@@ -1,6 +1,6 @@
 {
   "entryname": "copper",
-  "oretag": "gspack:potionsmaster/copper",
+  "oretag": "gspack:potionsmaster_ores/copper_sight",
   "color": -4755910,
   "drawing": false,
   "order": 18,

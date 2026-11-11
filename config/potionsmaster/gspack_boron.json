@@ -1,6 +1,6 @@
 {
   "entryname": "boron",
-  "oretag": "gspack:potionsmaster/boron",
+  "oretag": "gspack:potionsmaster_ores/boron_sight",
   "color": -10137463,
   "drawing": false,
   "order": 6,
